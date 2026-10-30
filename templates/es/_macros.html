@@ -3,10 +3,10 @@
 {%- endmacro %}
 
 {% macro cubierta(a, grande=false) -%}
-{% if a.imagen %}
-<figure class="cubierta cubierta--foto{% if grande %} cubierta--grande{% endif %}">
-  <img src="/{{ a.imagen.archivo|trim('/') }}" alt="{{ a.imagen.alt or '' }}" loading="lazy" decoding="async">
-</figure>
+{% if a.foto %}
+<div class="cubierta cubierta--foto{% if grande %} cubierta--grande{% endif %}">
+  <img src="{{ a.foto.src if grande else a.foto.src_peq }}" alt="{{ a.foto.alt }}" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" {% if not grande %}loading="lazy" {% endif %}decoding="async">
+</div>
 {% else %}
 <div class="cubierta{% if grande %} cubierta--grande{% endif %}" style="--c: {{ a.seccion.color }}" aria-hidden="true">
   <span class="cubierta__seccion">{{ a.seccion.nombre }}</span>

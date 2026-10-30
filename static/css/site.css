@@ -285,3 +285,27 @@ ul, ol { margin: 0; padding: 0; }
 /* Las cubiertas enlazadas no llevan subrayado */
 .tarjeta__cubierta, .diapositiva__cubierta { text-decoration: none; color: inherit; }
 .titulo-pagina + .buscador { margin-top: 1.5rem; }
+
+/* ---------- Fotos */
+.cubierta--foto::after { display: none; }
+.cubierta--foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.articulo__foto img { width: 100%; height: auto; border-radius: 4px; background: var(--linea); }
+.articulo__foto .credito { color: var(--suave); }
+.articulo__foto .credito a { color: inherit; }
+.articulo__autor { color: var(--azul); font-weight: 600; text-decoration: none; }
+.articulo__autor:hover { text-decoration: underline; }
+
+/* ---------- Equipo y agentes */
+.agentes { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 1rem; margin-top: 2rem; max-width: calc(var(--lectura) * 1.6 + 2 * var(--hueco)); }
+.agente-ficha { display: grid; grid-template-columns: auto 1fr; column-gap: .9rem; row-gap: .15rem; padding: 1.1rem; background: var(--superficie); border: 1px solid var(--linea); border-top: 4px solid var(--c); border-radius: 4px; text-decoration: none; color: var(--texto); }
+.agente-ficha:hover { border-color: var(--c); }
+.agente-ficha__inicial { grid-row: span 2; width: 2.75rem; height: 2.75rem; border-radius: 50%; background: var(--c); color: #fff; display: grid; place-items: center; font-family: var(--serif); font-style: italic; font-size: 1.4rem; }
+.agente-ficha__nombre { font-weight: 600; color: var(--azul); font-size: 1.15rem; line-height: 1.2; align-self: end; }
+.agente-ficha__seccion { font-family: var(--sans); font-size: .8125rem; color: var(--suave); align-self: start; }
+.agente-ficha__bio { grid-column: 1 / -1; margin-top: .7rem; font-size: .975rem; line-height: 1.5; }
+.agente-ficha__n { grid-column: 1 / -1; margin-top: .6rem; font-family: var(--sans); font-size: .8125rem; color: var(--suave); }
+.agente-cabecera { display: flex; align-items: center; gap: 1rem; }
+.agente-cabecera .agente-ficha__inicial { width: 4rem; height: 4rem; font-size: 2rem; }
+.agente-cabecera__rol { font-family: var(--sans); font-size: .9375rem; color: var(--suave); margin-top: .3rem; }
+.agente-cabecera + .subtitulo-pagina { margin-top: 1.5rem; margin-bottom: 1rem; }
+.agente-fuentes { font-family: var(--sans); font-size: .875rem; color: var(--suave); margin-bottom: 2.5rem; }

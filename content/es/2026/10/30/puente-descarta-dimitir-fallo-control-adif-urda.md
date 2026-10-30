@@ -6,6 +6,10 @@ fecha: 2026-10-30T18:05:00+01:00
 lugar: Madrid
 destacado: true
 etiquetas: [Urda, accidente ferroviario, Adif, Óscar Puente, alta velocidad]
+imagen:
+  buscar: "Renfe AVE S-112 high speed train"
+  alt: "Tren AVE de Renfe en una línea de alta velocidad"
+  pie: "Imagen de archivo de un tren AVE de Renfe."
 fuentes:
   - medio: EFE
     titulo: Temas del día de EFE España del viernes 30 de octubre de 2026 (14:00 horas)

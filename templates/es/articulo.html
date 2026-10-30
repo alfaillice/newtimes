@@ -25,7 +25,7 @@
   "articleSection": a.seccion.nombre,
   "inLanguage": "es-ES",
   "mainEntityOfPage": cfg.url ~ a.url,
-  "image": [cfg.url ~ a.og] if a.og else [],
+  "image": ([cfg.url ~ a.foto.src] if a.foto else []) + ([cfg.url ~ a.og] if a.og else []),
   "author": {"@type": "Organization", "name": a.autor, "url": cfg.url ~ "/como-trabajamos/"},
   "publisher": {"@type": "Organization", "name": "NewTimes.news", "logo": {"@type": "ImageObject", "url": cfg.url ~ "/img/logo.png"}},
   "isBasedOn": a.fuentes|map(attribute="url")|list
@@ -40,7 +40,7 @@
     <p class="articulo__entradilla">{{ a.entradilla }}</p>
     <div class="articulo__firma">
       <p>
-        {{ a.autor }}{% if a.lugar %}, {{ a.lugar }}{% endif %}
+        Por {% if a.agente %}<a class="articulo__autor" href="{{ pre }}/equipo/{{ a.agente.slug }}/">{{ a.autor }}</a>{% else %}{{ a.autor }}{% endif %}{% if a.lugar %}, {{ a.lugar }}{% endif %}
         <br>
         <time datetime="{{ a.fecha_iso }}">{{ a.fecha|fecha_larga|capitalize }}, {{ a.fecha.strftime('%H:%M') }}</time>
         {% if a.actualizado and a.actualizado > a.fecha %}<br>Actualizado: <time datetime="{{ a.actualizado.isoformat() }}">{{ a.actualizado|fecha_corta }}, {{ a.actualizado.strftime('%H:%M') }}</time>{% endif %}
@@ -49,10 +49,10 @@
     </div>
   </header>
 
-  {% if a.imagen %}
+  {% if a.foto %}
   <figure class="articulo__foto">
-    <img src="/{{ a.imagen.archivo|trim('/') }}" alt="{{ a.imagen.alt or '' }}">
-    <figcaption>{% if a.imagen.pie %}{{ a.imagen.pie }} {% endif %}Foto: {{ a.imagen.autor }} ({{ a.imagen.licencia|upper }}){% if a.imagen.fuente %}, <a href="{{ a.imagen.fuente }}" rel="nofollow noopener">origen</a>{% endif %}</figcaption>
+    <img src="{{ a.foto.src }}" srcset="{{ a.foto.src_peq }} 640w, {{ a.foto.src }} 1200w" sizes="(max-width: 52rem) 100vw, 52rem" alt="{{ a.foto.alt }}" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" decoding="async">
+    <figcaption>{% if a.foto.pie %}{{ a.foto.pie }} {% endif %}<span class="credito">Foto: {% if a.foto.fuente %}<a href="{{ a.foto.fuente }}" rel="nofollow noopener" target="_blank">{{ a.foto.autor }}</a>{% else %}{{ a.foto.autor }}{% endif %}, {% if a.foto.licencia_url %}<a href="{{ a.foto.licencia_url }}" rel="license noopener" target="_blank">{{ a.foto.licencia }}</a>{% else %}{{ a.foto.licencia }}{% endif %}</span></figcaption>
   </figure>
   {% endif %}
 
@@ -70,7 +70,7 @@
       </li>
       {% endfor %}
     </ul>
-    <p class="fuentes__nota">Texto redactado por inteligencia artificial a partir de estas fuentes, siguiendo <a href="{{ pre }}/como-trabajamos/">nuestra guía editorial</a>. Si detectas un error, <a href="{{ pre }}/contacto/">escríbenos</a>.</p>
+    <p class="fuentes__nota">{% if a.agente %}{{ a.autor }} es un agente de inteligencia artificial de NewTimes.news. Ha redactado esta noticia{% else %}Texto redactado por inteligencia artificial{% endif %} a partir de estas fuentes, siguiendo <a href="{{ pre }}/como-trabajamos/">nuestra guía editorial</a>. Si detectas un error, <a href="{{ pre }}/contacto/">escríbenos</a>.</p>
   </aside>
 
   {% if a.etiquetas %}

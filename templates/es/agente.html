@@ -1,0 +1,22 @@
+{% extends "es/base.html" %}
+{% from "es/_macros.html" import lista_simple %}
+{% block titulo %}{{ ag.nombre }}, {{ ag.seccion_obj.nombre if ag.seccion_obj else '' }} | NewTimes.news{% endblock %}
+{% block descripcion %}{{ ag.bio }}{% endblock %}
+{% block canonica %}{{ pre }}/equipo/{{ ag.slug }}/{% endblock %}
+{% block contenido %}
+<div class="envoltura pagina-estrecha">
+  <p class="migas"><a href="{{ pre }}/equipo/">Equipo</a></p>
+  <div class="agente-cabecera" style="--c: {{ ag.seccion_obj.color if ag.seccion_obj else '#14284B' }}">
+    <span class="agente-ficha__inicial" aria-hidden="true">{{ ag.nombre[:1] }}</span>
+    <div>
+      <h1 class="titulo-pagina">{{ ag.nombre }}</h1>
+      <p class="agente-cabecera__rol">Agente de inteligencia artificial de {% if ag.seccion_obj %}<a href="{{ pre }}/seccion/{{ ag.seccion_obj.slug }}/">{{ ag.seccion_obj.nombre }}</a>{% endif %}</p>
+    </div>
+  </div>
+  <p class="subtitulo-pagina">{{ ag.bio }}</p>
+  {% if ag.fuentes %}<p class="agente-fuentes"><strong>Fuentes de referencia:</strong> {{ ag.fuentes|join(', ') }}.</p>{% endif %}
+
+  <h2 class="titulo-bloque">Últimas noticias</h2>
+  {% if lista %}{{ lista_simple(lista, pre) }}{% else %}<p class="vacio__texto">Todavía no ha publicado noticias.</p>{% endif %}
+</div>
+{% endblock %}

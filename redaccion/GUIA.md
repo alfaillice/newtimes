@@ -68,6 +68,10 @@ fecha: 2026-10-30T15:05:00+01:00
 lugar: Fráncfort
 destacado: false
 etiquetas: [BCE, tipos de interés, inflación]
+imagen:
+  buscar: "European Central Bank headquarters Frankfurt"
+  alt: "Sede del Banco Central Europeo en Fráncfort"
+  pie: "Imagen de archivo de la sede del BCE en Fráncfort."
 fuentes:
   - medio: Banco Central Europeo
     titulo: Decisiones de política monetaria
@@ -85,14 +89,64 @@ Secciones válidas: `espana`, `internacional`, `economia`, `sociedad`, `ciencia-
 - `fecha`: la hora real de publicación, con zona horaria (+01:00 en invierno, +02:00 en verano).
 - `destacado: true` solo para la noticia más importante de la hora, y solo si de verdad lo es. Va al carrusel de portada.
 - `lugar`: ciudad desde la que se informa (opcional).
-- `imagen`: **no la uses** salvo que haya una imagen con licencia libre ya guardada en `static/img/` por una persona. Nunca descargues ni enlaces fotos de otros medios. Sin imagen, la web genera una cubierta tipográfica.
+- `imagen`: **obligatoria**. Ver el apartado 5.
 
-## 5. Antes de publicar
+## 5. Imágenes
+
+Cada noticia lleva una imagen. **Nunca** se usan fotos de los medios de comunicación ni de agencias (EFE, Europa Press, Reuters, Getty…): tienen derechos de autor. El generador rechaza cualquier imagen que no venga de un banco con licencia libre.
+
+**Forma preferida: Wikimedia Commons.** No hace falta descargar nada ni averiguar la licencia: el servidor consulta Commons, comprueba que la licencia es libre (CC0, CC BY, CC BY-SA o dominio público) y pone el autor y la licencia reales.
+
+```yaml
+imagen:
+  buscar: "Knesset building Jerusalem"     # búsqueda en Commons (mejor en inglés, 2-5 palabras)
+  alt: "Edificio de la Knéset en Jerusalén"   # qué se ve en la foto
+  pie: "Imagen de archivo de la sede de la Knéset en Jerusalén."
+```
+
+Si conoces el archivo exacto de Commons (por ejemplo, la foto principal de un artículo de Wikipedia), mejor indícalo en lugar de `buscar`:
+
+```yaml
+imagen:
+  commons: "File:Nombre exacto del archivo.jpg"
+  alt: "..."
+  pie: "..."
+```
+
+Qué foto elegir, por orden de preferencia:
+1. La persona protagonista (retrato oficial o de acto público), si la noticia gira en torno a ella.
+2. El lugar o la institución: el edificio del organismo, la ciudad, la infraestructura (una estación, un puerto, un estadio).
+3. Un objeto o escena genérica que represente el tema (billetes de euro, un tren AVE, un hospital, monedas de bitcoin, un bosque quemado).
+
+Reglas del pie de foto:
+- Si la imagen no es del hecho que se cuenta (casi siempre), el pie empieza por **«Imagen de archivo»**. Nunca insinúes que una foto genérica es del suceso.
+- Nada de imágenes de víctimas, heridos, cadáveres ni menores.
+- `alt` describe lo que se ve, para lectores con discapacidad visual.
+
+Otras procedencias permitidas (solo si Commons no sirve): Pexels, Unsplash, fotos oficiales de La Moncloa, de la Comisión Europea o del Parlamento Europeo, NASA y ESA. En ese caso se indica todo a mano:
+
+```yaml
+imagen:
+  url: "https://images.pexels.com/photos/..."    # enlace directo al archivo de imagen
+  autor: "Nombre del fotógrafo / Pexels"
+  licencia: pexels        # cc0, cc-by, cc-by-sa, dominio-publico, pexels, unsplash, uso-oficial
+  fuente: "https://www.pexels.com/photo/..."     # página donde figura la licencia
+  alt: "..."
+  pie: "Imagen de archivo de ..."
+```
+
+## 6. Agentes de la redacción
+
+Cada sección tiene un agente con nombre propio, definido en `config/agentes.yaml`. La noticia la firma automáticamente el agente de su sección, así que no hace falta indicar autor. Al redactar una noticia, **lee el perfil del agente de esa sección y escribe con su estilo** (`estilo`) y priorizando sus fuentes de referencia (`fuentes`). Las reglas de esta guía están siempre por encima del estilo de cada agente.
+
+Si una noticia toca dos secciones, elige la principal; el agente de esa sección la firma.
+
+## 7. Antes de publicar
 
 1. `python3 build.py --check` debe terminar sin errores.
 2. Relee: ¿cada dato está en alguna fuente citada? ¿hay alguna frase copiada de una fuente? ¿el titular dice lo que el texto cuenta?
 3. Un commit por hora: `Redacción AAAA-MM-DD HH:00: N noticias`.
 
-## 6. Correcciones
+## 8. Correcciones
 
 Si detectas un error en una noticia ya publicada, corrígelo en su archivo, añade `actualizado:` con la hora y, al final del texto, una línea: `*Corrección: en una versión anterior se decía X; lo correcto es Y.*`

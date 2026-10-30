@@ -5,6 +5,10 @@ seccion: internacional
 fecha: 2026-10-30T18:02:00+01:00
 lugar: Jerusalén
 etiquetas: [Israel, elecciones, Netanyahu, Knéset]
+imagen:
+  buscar: "Knesset building Jerusalem"
+  alt: "Edificio de la Knéset, el Parlamento israelí, en Jerusalén"
+  pie: "Imagen de archivo de la sede de la Knéset en Jerusalén."
 fuentes:
   - medio: Infobae
     titulo: Terminó el recuento en Israel, el Likud fue el partido más votado pero Netanyahu quedó lejos de alcanzar la mayoría

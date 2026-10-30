@@ -4,6 +4,10 @@ entradilla: Varias firmas de análisis de cadenas de bloques atribuyen a Corea d
 seccion: tecnologia
 fecha: 2026-10-30T18:01:00+01:00
 etiquetas: [Binance, criptomonedas, ciberseguridad, Corea del Norte]
+imagen:
+  buscar: "Bitcoin coins cryptocurrency"
+  alt: "Monedas físicas con el símbolo de bitcoin"
+  pie: "Imagen de archivo: representación de monedas de bitcoin."
 fuentes:
   - medio: Forbes México (con información de Reuters)
     titulo: Hackers roban 6,300 mdd a Binance en el que sería el mayor atraco financiero de la historia

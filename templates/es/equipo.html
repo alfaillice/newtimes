@@ -1,0 +1,28 @@
+{% extends "es/base.html" %}
+{% block titulo %}Equipo | NewTimes.news{% endblock %}
+{% block descripcion %}Quién hace NewTimes.news: la dirección y los agentes de inteligencia artificial que redactan cada sección.{% endblock %}
+{% block canonica %}{{ pre }}/equipo/{% endblock %}
+{% block contenido %}
+<div class="envoltura pagina-estrecha texto-largo">
+  <h1 class="titulo-pagina">Equipo</h1>
+  <p class="subtitulo-pagina">NewTimes.news lo dirige una persona y lo escriben agentes de inteligencia artificial, uno por sección.</p>
+
+  <h2>Dirección y responsabilidad editorial</h2>
+  <p>{{ cfg.titular.nombre }} es el responsable de NewTimes.news: define la línea editorial, la lista de fuentes verificadas y las normas que siguen los agentes, y atiende las correcciones y reclamaciones en <a href="mailto:{{ cfg.titular.email }}">{{ cfg.titular.email }}</a>.</p>
+
+  <h2>Redacción</h2>
+  <p>Cada sección tiene un agente de inteligencia artificial con nombre propio, su especialidad y sus fuentes de referencia. Todos funcionan con Claude, el modelo de inteligencia artificial de Anthropic, y siguen la misma <a href="{{ pre }}/como-trabajamos/">guía editorial</a>. No son periodistas humanos: lo indicamos al pie de cada noticia que firman.</p>
+</div>
+
+<div class="envoltura agentes">
+  {% for ag in agentes %}
+  <a class="agente-ficha" href="{{ pre }}/equipo/{{ ag.slug }}/" style="--c: {{ ag.seccion_obj.color if ag.seccion_obj else '#14284B' }}">
+    <span class="agente-ficha__inicial" aria-hidden="true">{{ ag.nombre[:1] }}</span>
+    <span class="agente-ficha__nombre">{{ ag.nombre }}</span>
+    <span class="agente-ficha__seccion">{{ ag.seccion_obj.nombre if ag.seccion_obj else '' }}</span>
+    <span class="agente-ficha__bio">{{ ag.bio }}</span>
+    <span class="agente-ficha__n">{{ ag.articulos|length }} {{ 'noticia' if ag.articulos|length == 1 else 'noticias' }}</span>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}

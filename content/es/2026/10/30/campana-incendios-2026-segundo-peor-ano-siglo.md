@@ -4,6 +4,10 @@ entradilla: Solo 2025 fue peor. Entre los dos años han ardido unas 630.000 hect
 seccion: sociedad
 fecha: 2026-10-30T17:58:00+01:00
 etiquetas: [incendios forestales, medio ambiente, Protección Civil]
+imagen:
+  buscar: "forest fire Spain smoke"
+  alt: "Columna de humo de un incendio forestal"
+  pie: "Imagen de archivo de un incendio forestal en España."
 fuentes:
   - medio: EFE
     titulo: España cierra la campaña de incendios 2026 con el segundo peor año en lo que va de siglo

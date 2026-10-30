@@ -21,6 +21,9 @@ import re
 import shutil
 import sys
 import unicodedata
+import urllib.request
+from io import BytesIO
+from urllib.parse import urlparse
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from email.utils import format_datetime
@@ -37,7 +40,19 @@ MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 CAMPOS_OBLIGATORIOS = ["titulo", "entradilla", "seccion", "fecha", "fuentes"]
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-LICENCIAS_VALIDAS = {"cc0", "cc-by", "cc-by-sa", "dominio-publico", "kit-de-prensa", "propia"}
+LICENCIAS = {
+    "cc0": "CC0",
+    "cc-by": "CC BY",
+    "cc-by-sa": "CC BY-SA",
+    "dominio-publico": "Dominio público",
+    "pexels": "Licencia Pexels",
+    "unsplash": "Licencia Unsplash",
+    "uso-oficial": "Uso libre con atribución",
+    "kit-de-prensa": "Material de prensa",
+    "propia": "NewTimes.news",
+}
+LICENCIAS_VALIDAS = set(LICENCIAS)
+AGENTE_CABECERA = {"User-Agent": "NewTimesBot/1.0 (+https://newtimes.news/como-trabajamos/; redaccion@newtimes.news)"}
 
 
 # ---------------------------------------------------------------- utilidades
@@ -103,6 +118,8 @@ class Articulo:
     lugar: str = ""
     imagen: dict | None = None
     autor: str = "Redacción NewTimes"
+    agente: dict | None = None
+    foto: dict | None = None     # imagen ya optimizada y servida desde la web
     ruta_fuente: str = ""
     url: str = ""          # ruta relativa al sitio, empieza y acaba en /
     og: str = ""           # ruta de la imagen para compartir
@@ -120,9 +137,47 @@ def cargar_config() -> dict:
     return yaml.safe_load((RAIZ / "config/site.yaml").read_text(encoding="utf-8"))
 
 
+def cargar_agentes(codigo: str) -> list[dict]:
+    ruta = RAIZ / "config/agentes.yaml"
+    if not ruta.exists():
+        return []
+    return (yaml.safe_load(ruta.read_text(encoding="utf-8")) or {}).get(codigo, [])
+
+
+def comprobar_imagen(imagen, cfg: dict) -> None:
+    if not isinstance(imagen, dict):
+        raise ValueError("'imagen' debe ser un bloque (commons, buscar, url o archivo)")
+    if imagen.get("commons") or imagen.get("buscar"):
+        if imagen.get("commons") and not str(imagen["commons"]).startswith("File:"):
+            raise ValueError("'commons' debe ser el nombre del archivo en Wikimedia Commons, empezando por 'File:'")
+        if not imagen.get("alt"):
+            raise ValueError("la imagen necesita 'alt' (descripción de lo que se ve)")
+        return  # autor y licencia se toman de Commons al construir
+    lic = str(imagen.get("licencia", "")).lower()
+    if lic not in LICENCIAS_VALIDAS:
+        raise ValueError("licencia de imagen no válida. Usa una de: " + ", ".join(sorted(LICENCIAS_VALIDAS)))
+    if not imagen.get("autor"):
+        raise ValueError("la imagen necesita 'autor'")
+    if imagen.get("url"):
+        u = urlparse(str(imagen["url"]))
+        if u.scheme != "https" or u.hostname not in cfg.get("imagenes_permitidas", []):
+            raise ValueError(f"imagen de un servidor no permitido ({u.hostname}). Solo: "
+                             + ", ".join(cfg.get("imagenes_permitidas", [])))
+        if lic not in {"kit-de-prensa", "propia"} and not imagen.get("fuente"):
+            raise ValueError("la imagen necesita 'fuente' (página donde figura su licencia)")
+    elif imagen.get("archivo"):
+        if not (RAIZ / "static" / str(imagen["archivo"]).lstrip("/")).is_file():
+            raise ValueError(f"no existe la imagen static/{imagen['archivo']}")
+    else:
+        raise ValueError("la imagen necesita 'url' (descarga) o 'archivo' (en static/)")
+
+
 def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores: list) -> list[Articulo]:
     ed = cfg["ediciones"][codigo]
     secciones = {s["slug"]: s for s in ed["secciones"]}
+    agentes = cargar_agentes(codigo)
+    por_slug = {a["slug"]: a for a in agentes}
+    por_seccion = {a["seccion"]: a for a in agentes}
     base = RAIZ / "content" / codigo
     articulos: list[Articulo] = []
     vistos: dict[str, str] = {}
@@ -167,12 +222,12 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                     raise ValueError("cada fuente necesita 'medio' y 'url' (https://)")
             imagen = meta.get("imagen")
             if imagen:
-                if not isinstance(imagen, dict) or not imagen.get("archivo") or not imagen.get("autor") \
-                        or str(imagen.get("licencia", "")).lower() not in LICENCIAS_VALIDAS:
-                    raise ValueError("'imagen' necesita archivo, autor y una licencia válida: "
-                                     + ", ".join(sorted(LICENCIAS_VALIDAS)))
-                if not (RAIZ / "static" / imagen["archivo"].lstrip("/")).is_file():
-                    raise ValueError(f"no existe la imagen static/{imagen['archivo']}")
+                comprobar_imagen(imagen, cfg)
+                if imagen.get("licencia"):
+                    imagen["licencia"] = str(imagen["licencia"]).lower()
+            else:
+                avisos.append(f"{rel}: sin imagen")
+            agente = por_slug.get(str(meta.get("agente") or "")) or por_seccion.get(meta["seccion"])
             cuerpo_html = md_a_html(cuerpo)
             palabras = len(texto_plano(cuerpo_html).split())
             if palabras < 120:
@@ -187,13 +242,135 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                 fecha=fecha, actualizado=act, fuentes=fuentes, cuerpo_html=cuerpo_html,
                 palabras=palabras, etiquetas=[str(e) for e in meta.get("etiquetas") or []],
                 destacado=bool(meta.get("destacado")), lugar=str(meta.get("lugar") or ""),
-                imagen=imagen or None, autor=str(meta.get("autor") or "Redacción NewTimes"),
+                imagen=imagen or None, agente=agente,
+                autor=agente["nombre"] if agente else str(meta.get("autor") or "Redacción NewTimes"),
                 ruta_fuente=rel, url=url,
             ))
         except Exception as e:  # noqa: BLE001 — un artículo roto no debe tirar la web
             errores.append(f"{rel}: {e}")
     articulos.sort(key=lambda a: a.fecha, reverse=True)
     return articulos
+
+
+# ---------------------------------------------------------------- fotos
+
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+
+
+def _licencia_commons(meta: dict) -> str | None:
+    codigo = str((meta.get("License") or {}).get("value", "")).lower()
+    corto = str((meta.get("LicenseShortName") or {}).get("value", "")).lower()
+    for t in (codigo, corto):
+        if t.startswith("cc-by-sa") or t.startswith("cc by-sa"):
+            return "cc-by-sa"
+        if t.startswith("cc-by") or t.startswith("cc by"):
+            return "cc-by"
+        if t.startswith("cc0") or t.startswith("cc-zero"):
+            return "cc0"
+        if t.startswith("pd") or "public domain" in t or "dominio público" in t:
+            return "dominio-publico"
+    return None
+
+
+def resolver_commons(img: dict, cache: Path) -> dict:
+    """Busca en Wikimedia Commons y devuelve url, autor, licencia y fuente reales.
+    El resultado se guarda para que la foto no cambie entre construcciones."""
+    clave = "commons:" + (str(img.get("commons")) if img.get("commons") else "buscar:" + str(img.get("buscar")))
+    registro = cache / "commons.json"
+    datos = json.loads(registro.read_text()) if registro.exists() else {}
+    if clave in datos:
+        return datos[clave]
+    from urllib.parse import urlencode
+    params = {"action": "query", "format": "json", "prop": "imageinfo",
+              "iiprop": "url|size|extmetadata|mime", "iiurlwidth": "1600"}
+    if img.get("commons"):
+        params["titles"] = str(img["commons"])
+    else:
+        params.update({"generator": "search", "gsrnamespace": "6", "gsrlimit": "20",
+                       "gsrsearch": f"{img['buscar']} filetype:bitmap"})
+    pet = urllib.request.Request(COMMONS_API + "?" + urlencode(params), headers=AGENTE_CABECERA)
+    with urllib.request.urlopen(pet, timeout=20) as r:
+        respuesta = json.load(r)
+    paginas = sorted((respuesta.get("query") or {}).get("pages", {}).values(), key=lambda p: p.get("index", 0))
+    for pag in paginas:
+        info = (pag.get("imageinfo") or [{}])[0]
+        meta = info.get("extmetadata") or {}
+        lic = _licencia_commons(meta)
+        if not lic or info.get("mime") not in {"image/jpeg", "image/png", "image/webp"}:
+            continue
+        if not img.get("commons") and (info.get("width", 0) < 1000 or info.get("width", 0) < info.get("height", 0)):
+            continue  # en búsquedas: solo fotos horizontales y con resolución suficiente
+        autor = re.sub(r"<[^>]+>", "", html.unescape(str((meta.get("Artist") or {}).get("value", "")))).strip()
+        resultado = {
+            "url": info.get("thumburl") or info.get("url"),
+            "autor": (autor or "Autor desconocido")[:120] + " / Wikimedia Commons",
+            "licencia": lic,
+            "licencia_url": str((meta.get("LicenseUrl") or {}).get("value", "")),
+            "fuente": info.get("descriptionurl", ""),
+            "archivo_commons": pag.get("title", ""),
+        }
+        datos[clave] = resultado
+        cache.mkdir(parents=True, exist_ok=True)
+        registro.write_text(json.dumps(datos, ensure_ascii=False, indent=1))
+        return resultado
+    raise ValueError("Commons no devolvió ninguna imagen con licencia libre adecuada")
+
+
+def preparar_foto(art: Articulo, salida: Path, cache: Path, avisos: list) -> None:
+    """Descarga (una sola vez) y optimiza la foto. Se sirve siempre desde la web propia."""
+    img = art.imagen
+    if not img:
+        return
+    try:
+        from PIL import Image, ImageOps
+    except ImportError:
+        return
+    if img.get("commons") or img.get("buscar"):
+        try:
+            img = {**img, **resolver_commons(img, cache)}
+        except Exception as e:  # noqa: BLE001
+            avisos.append(f"{art.ruta_fuente}: no se encontró la imagen en Commons ({e})")
+            return
+    origen = str(img.get("url") or img.get("archivo"))
+    clave = hashlib.sha1(origen.encode()).hexdigest()[:16]
+    cache.mkdir(parents=True, exist_ok=True)
+    original = cache / f"{clave}.orig"
+    try:
+        if not original.exists():
+            if img.get("url"):
+                pet = urllib.request.Request(str(img["url"]), headers=AGENTE_CABECERA)
+                with urllib.request.urlopen(pet, timeout=20) as r:
+                    datos = r.read(25 * 1024 * 1024 + 1)
+                if len(datos) > 25 * 1024 * 1024:
+                    raise ValueError("imagen de más de 25 MB")
+            else:
+                datos = (RAIZ / "static" / origen.lstrip("/")).read_bytes()
+            Image.open(BytesIO(datos)).verify()
+            original.write_bytes(datos)
+        destino = salida / "img" / "n"
+        destino.mkdir(parents=True, exist_ok=True)
+        tamanos = {}
+        for ancho in (1200, 640):
+            f = destino / f"{clave}-{ancho}.jpg"
+            en_cache = cache / f.name
+            if not en_cache.exists():
+                im = ImageOps.exif_transpose(Image.open(original)).convert("RGB")
+                im.thumbnail((ancho, ancho * 2))
+                im.save(en_cache, "JPEG", quality=80, optimize=True, progressive=True)
+            shutil.copyfile(en_cache, f)
+            from PIL import Image as _I
+            with _I.open(en_cache) as hecho:
+                tamanos[ancho] = hecho.size
+        art.foto = {
+            "src": f"/img/n/{clave}-1200.jpg", "src_peq": f"/img/n/{clave}-640.jpg",
+            "ancho": tamanos[1200][0], "alto": tamanos[1200][1],
+            "alt": img.get("alt") or "", "pie": img.get("pie") or "",
+            "autor": img.get("autor"), "licencia": LICENCIAS.get(img["licencia"], img["licencia"]),
+            "licencia_url": img.get("licencia_url") or "", "fuente": img.get("fuente") or "",
+            "original": original,
+        }
+    except Exception as e:  # noqa: BLE001 — sin foto se usa la cubierta tipográfica
+        avisos.append(f"{art.ruta_fuente}: no se pudo preparar la imagen ({e})")
 
 
 # ---------------------------------------------------------------- imágenes para compartir
@@ -204,7 +381,8 @@ def generar_og(art: Articulo, salida: Path, cache: Path) -> str:
         from PIL import Image, ImageDraw, ImageFont
     except ImportError:
         return ""
-    clave = hashlib.sha1(f"v2|{art.titulo}|{art.seccion['slug']}|{art.fecha_iso}".encode()).hexdigest()[:16]
+    foto = art.foto["original"] if art.foto else None
+    clave = hashlib.sha1(f"v3|{art.titulo}|{art.seccion['slug']}|{art.fecha_iso}|{foto}".encode()).hexdigest()[:16]
     nombre = f"{clave}.png"
     destino = salida / "og" / nombre
     cacheado = cache / nombre
@@ -214,6 +392,15 @@ def generar_og(art: Articulo, salida: Path, cache: Path) -> str:
         W, H = 1200, 630
         color = art.seccion["color"]
         img = Image.new("RGB", (W, H), color)
+        if foto:
+            from PIL import ImageOps
+            fondo = ImageOps.fit(ImageOps.exif_transpose(Image.open(foto)).convert("RGB"), (W, H - 96))
+            img.paste(fondo, (0, 0))
+            sombra = Image.new("L", (1, H - 96))
+            for yy in range(H - 96):
+                sombra.putpixel((0, yy), int(215 * max(0, (yy - 120) / (H - 216))))
+            negro = Image.new("RGB", (W, H - 96), "#0B1A33")
+            img.paste(negro, (0, 0), sombra.resize((W, H - 96)))
         d = ImageDraw.Draw(img)
         lora = ImageFont.truetype(str(RAIZ / "assets/og/Lora.ttf"), 64)
         try:
@@ -222,7 +409,11 @@ def generar_og(art: Articulo, salida: Path, cache: Path) -> str:
             pass
         inter = ImageFont.truetype(str(RAIZ / "assets/og/Inter-SemiBold.otf"), 28)
         marca = ImageFont.truetype(str(RAIZ / "assets/og/Inter-SemiBold.otf"), 34)
-        d.text((80, 70), f"{art.seccion['nombre']}  ·  {art.fecha:%d/%m/%Y %H:%M}", font=inter, fill="#E8ECF2")
+        if not foto:
+            d.text((80, 70), f"{art.seccion['nombre']}  ·  {art.fecha:%d/%m/%Y %H:%M}", font=inter, fill="#E8ECF2")
+        else:
+            d.rectangle([80, 60, 80 + d.textlength(art.seccion["nombre"], font=inter) + 32, 108], fill=color)
+            d.text((96, 66), art.seccion["nombre"], font=inter, fill="#FFFFFF")
         # titular con ajuste de línea
         palabras, lineas, actual = art.titulo.split(), [], ""
         for p in palabras:
@@ -236,7 +427,7 @@ def generar_og(art: Articulo, salida: Path, cache: Path) -> str:
         if len(lineas) > 5:
             lineas = lineas[:5]
             lineas[-1] = lineas[-1].rstrip(".,;:") + "…"
-        y = 150
+        y = 150 if not foto else (H - 96 - 50 - 80 * len(lineas))
         for linea in lineas:
             d.text((80, y), linea, font=lora, fill="#FFFFFF")
             y += 80
@@ -263,6 +454,7 @@ class Constructor:
         self.env.filters.update(fecha_larga=fecha_larga, fecha_corta=fecha_corta, fecha_dia=fecha_dia)
         self.version = self._version_estaticos()
         self.paginas_sitemap: list[tuple[str, str]] = []
+        self.avisos: list[str] = []
 
     def _version_estaticos(self) -> str:
         h = hashlib.sha1()
@@ -290,6 +482,7 @@ class Constructor:
         base_ctx = dict(ed=ed, codigo=codigo, pre=pre, secciones=ed["secciones"])
         cache_og = RAIZ / ".cache" / "og"
         for a in articulos:
+            preparar_foto(a, self.salida, RAIZ / ".cache" / "img", self.avisos)
             a.og = generar_og(a, self.salida, cache_og)
 
         ultimo = articulos[0].fecha if articulos else self.ahora
@@ -357,6 +550,15 @@ class Constructor:
             json.dumps(indice, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         self.escribir(f"{pre}/buscar/", self.render(f"{t}/buscar.html", **base_ctx), sitemap=False)
 
+        # Equipo: una página general y una por agente
+        agentes = cargar_agentes(codigo)
+        for ag in agentes:
+            ag["seccion_obj"] = next((s for s in ed["secciones"] if s["slug"] == ag["seccion"]), None)
+            ag["articulos"] = [a for a in articulos if a.agente and a.agente["slug"] == ag["slug"]]
+            self.escribir(f"{pre}/equipo/{ag['slug']}/", self.render(f"{t}/agente.html", **base_ctx, ag=ag,
+                                                                     lista=ag["articulos"][:30]), prioridad="0.3")
+        self.escribir(f"{pre}/equipo/", self.render(f"{t}/equipo.html", **base_ctx, agentes=agentes), prioridad="0.3")
+
         # Páginas fijas
         for ruta in sorted((RAIZ / "content" / codigo / "paginas").glob("*.md")):
             meta, cuerpo = leer_markdown(ruta)
@@ -417,6 +619,8 @@ def main() -> int:
     for codigo, arts in ediciones.items():
         c.edicion(codigo, arts)
     c.finalizar()
+    for a in c.avisos:
+        print("aviso:", a)
     # Cambio casi atómico: la web nunca queda a medio construir
     viejo = final.with_name(final.name + ".viejo")
     shutil.rmtree(viejo, ignore_errors=True)

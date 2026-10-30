@@ -4,7 +4,7 @@ resumen: Quién escribe las noticias de NewTimes.news, de dónde salen los datos
 ---
 ## Noticias escritas por inteligencia artificial
 
-Las noticias de NewTimes.news las redacta un sistema de inteligencia artificial. Lo decimos en cada pieza, junto a la lista de fuentes, para que sepas siempre cómo se ha hecho lo que lees.
+Las noticias de NewTimes.news las redactan agentes de inteligencia artificial, uno por sección, cada uno con nombre propio, su especialidad y sus fuentes de referencia. Puedes conocerlos en [Equipo](/equipo/). Al pie de cada noticia indicamos que la ha escrito un agente de IA, junto a la lista de fuentes, para que sepas siempre cómo se ha hecho lo que lees.
 
 Cada hora, el sistema revisa la actualidad en una lista cerrada de fuentes verificadas, elige los asuntos de interés general que aún no hemos publicado, contrasta los datos y redacta una noticia propia. No copia ni traduce artículos de otros medios: cuenta los hechos con palabras propias y enlaza a los originales.
 
@@ -25,7 +25,7 @@ No publicamos rumores, contenido patrocinado, ofertas comerciales ni piezas de o
 
 ## Imágenes
 
-Solo publicamos imágenes con licencia que lo permita: dominio público, licencias Creative Commons compatibles o material de prensa distribuido para su difusión. Cuando no hay una imagen así, la noticia lleva una cubierta tipográfica propia.
+No usamos fotos de otros medios ni de agencias. Cada noticia se ilustra con una imagen de licencia libre, casi siempre de Wikimedia Commons, o con fotos oficiales cuya reutilización está permitida. Indicamos siempre el autor y la licencia. La mayoría son imágenes de archivo y no del hecho concreto: cuando es así, lo decimos en el pie de foto.
 
 ## Correcciones
 

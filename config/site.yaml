@@ -13,6 +13,21 @@ titular:
   email: "redaccion@newtimes.news"
   registro: ""   # inscripción registral si es sociedad; vacío si es persona física
 
+# Imágenes: solo se descargan de estos servidores (bancos con licencias
+# libres y fuentes oficiales que permiten la reutilización). Cualquier otra
+# procedencia, incluidos los medios de comunicación, se rechaza.
+imagenes_permitidas:
+  - upload.wikimedia.org
+  - images.pexels.com
+  - images.unsplash.com
+  - live.staticflickr.com
+  - www.lamoncloa.gob.es
+  - audiovisual.ec.europa.eu
+  - multimedia.europarl.europa.eu
+  - images-assets.nasa.gov
+  - www.nasa.gov
+  - www.esa.int
+
 ediciones:
   es:
     activa: true

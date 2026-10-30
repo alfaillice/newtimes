@@ -5,6 +5,10 @@ seccion: economia
 fecha: 2026-10-30T18:03:00+01:00
 lugar: Madrid
 etiquetas: [PIB, IPC, inflación, INE, economía española]
+imagen:
+  buscar: "Euro banknotes coins"
+  alt: "Billetes y monedas de euro"
+  pie: "Imagen de archivo de billetes y monedas de euro."
 fuentes:
   - medio: El Español
     titulo: El PIB crece un 0,6%, una décima menos, en el tercer trimestre y la inflación se mantiene en el 4,9% en octubre
