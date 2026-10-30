@@ -1,0 +1,22 @@
+{% extends "es/base.html" %}
+{% block titulo %}Hemeroteca | NewTimes.news{% endblock %}
+{% block descripcion %}Todas las noticias publicadas en NewTimes.news, ordenadas por día.{% endblock %}
+{% block canonica %}{{ pre }}/hemeroteca/{% endblock %}
+{% block contenido %}
+<div class="envoltura pagina-estrecha">
+  <h1 class="titulo-pagina">Hemeroteca</h1>
+  <p class="subtitulo-pagina">Todo lo publicado, día a día. Elige una fecha para ver sus noticias en orden de publicación.</p>
+  {% for (anio, mes), dias in meses.items() %}
+  <section class="hemeroteca__mes" aria-labelledby="mes-{{ anio }}-{{ mes }}">
+    <h2 id="mes-{{ anio }}-{{ mes }}">{{ MESES[mes - 1]|capitalize }} de {{ anio }}</h2>
+    <ul class="hemeroteca__dias" role="list">
+      {% for d, n in dias %}
+      <li><a href="{{ pre }}/hemeroteca/{{ d.strftime('%Y/%m/%d') }}/"><span class="hemeroteca__num">{{ d.day }}</span><span class="hemeroteca__n">{{ n }} {{ 'noticia' if n == 1 else 'noticias' }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% else %}
+  <p>Aún no hay noticias archivadas.</p>
+  {% endfor %}
+</div>
+{% endblock %}

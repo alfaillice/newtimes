@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>NewTimes.news{% if seccion %}: {{ seccion.nombre }}{% endif %}</title>
+  <link>{{ cfg.url }}{{ pre }}/{% if seccion %}seccion/{{ seccion.slug }}/{% endif %}</link>
+  <atom:link href="{{ cfg.url }}{{ pre }}/{% if seccion %}seccion/{{ seccion.slug }}/{% endif %}rss.xml" rel="self" type="application/rss+xml"/>
+  <description>{{ ed.lema }}</description>
+  <language>{{ ed.idioma }}</language>
+  <lastBuildDate>{{ rfc(ahora) }}</lastBuildDate>
+  {% for a in lista %}
+  <item>
+    <title>{{ a.titulo }}</title>
+    <link>{{ cfg.url }}{{ a.url }}</link>
+    <guid isPermaLink="true">{{ cfg.url }}{{ a.url }}</guid>
+    <pubDate>{{ rfc(a.fecha) }}</pubDate>
+    <category>{{ a.seccion.nombre }}</category>
+    <description>{{ a.entradilla }}</description>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

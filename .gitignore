@@ -1,0 +1,6 @@
+public/
+public.nuevo/
+public.viejo/
+.cache/
+__pycache__/
+*.pyc

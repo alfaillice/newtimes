@@ -1,0 +1,11 @@
+{% extends "es/base.html" %}
+{% block titulo %}{{ titulo }} | NewTimes.news{% endblock %}
+{% block descripcion %}{{ resumen or titulo }}{% endblock %}
+{% block canonica %}{{ pre }}/{{ slug }}/{% endblock %}
+{% block contenido %}
+<article class="envoltura pagina-estrecha texto-largo">
+  <h1 class="titulo-pagina">{{ titulo }}</h1>
+  {% if resumen %}<p class="subtitulo-pagina">{{ resumen }}</p>{% endif %}
+  {{ cuerpo|safe }}
+</article>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "es/base.html" %}
+{% block titulo %}Buscar | NewTimes.news{% endblock %}
+{% block descripcion %}Busca noticias publicadas en NewTimes.news.{% endblock %}
+{% block canonica %}{{ pre }}/buscar/{% endblock %}
+{% block cabeza %}<meta name="robots" content="noindex">{% endblock %}
+{% block contenido %}
+<div class="envoltura pagina-estrecha">
+  <h1 class="titulo-pagina">Buscar</h1>
+  <form class="buscador" role="search" action="{{ pre }}/buscar/" data-indice="{{ pre }}/buscar/indice.json">
+    <label for="q">Palabras que buscas</label>
+    <div class="buscador__fila">
+      <input id="q" name="q" type="search" autocomplete="off" placeholder="Por ejemplo: vivienda, Ucrania, inflación" required>
+      <button type="submit">Buscar</button>
+    </div>
+  </form>
+  <p class="buscador__estado" aria-live="polite" data-estado></p>
+  <ol class="resultados" role="list" data-resultados></ol>
+  <noscript><p>La búsqueda necesita JavaScript. También puedes recorrer la <a href="{{ pre }}/hemeroteca/">hemeroteca</a>.</p></noscript>
+</div>
+{% endblock %}

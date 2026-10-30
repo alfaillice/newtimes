@@ -1,0 +1,58 @@
+# Configuración general de NewTimes.news
+# Los datos marcados como "pendiente" aparecen en las páginas legales
+# hasta que se rellenen. El generador avisa mientras falten.
+
+url: https://newtimes.news
+nombre: NewTimes.news
+zona_horaria: Europe/Madrid
+
+titular:
+  nombre: "[pendiente: nombre o razón social del titular]"
+  nif: "[pendiente: NIF/CIF]"
+  domicilio: "[pendiente: domicilio postal]"
+  email: "[pendiente: email de contacto]"
+  registro: ""   # inscripción registral si es sociedad; vacío si es persona física
+
+ediciones:
+  es:
+    activa: true
+    idioma: es-ES
+    prefijo: ""              # la edición española vive en la raíz
+    nombre: Edición España
+    lema: Actualidad de España y del mundo, actualizada cada hora con fuentes verificadas.
+    por_pagina: 20
+    secciones:
+      - slug: espana
+        nombre: España
+        color: "#1F4E79"
+      - slug: internacional
+        nombre: Internacional
+        color: "#2F5D50"
+      - slug: economia
+        nombre: Economía
+        color: "#7A5A12"
+      - slug: sociedad
+        nombre: Sociedad
+        color: "#5B3A68"
+      - slug: ciencia-salud
+        nombre: Ciencia y salud
+        color: "#1E5F6E"
+      - slug: tecnologia
+        nombre: Tecnología
+        color: "#3A3F68"
+      - slug: cultura
+        nombre: Cultura
+        color: "#7A2E3A"
+      - slug: deportes
+        nombre: Deportes
+        color: "#2E6B3A"
+  en:
+    activa: false
+    idioma: en-GB
+    prefijo: en
+    nombre: English edition
+  fr:
+    activa: false
+    idioma: fr-FR
+    prefijo: fr
+    nombre: Édition française

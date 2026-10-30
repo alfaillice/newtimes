@@ -1,0 +1,87 @@
+{% extends "es/base.html" %}
+{% from "es/_macros.html" import tarjeta, cubierta, meta, lista_simple, hora %}
+{% block clase_body %}portada{% endblock %}
+{% block cabeza %}
+<script type="application/ld+json">
+{{ {"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": "NewTimes.news", "url": cfg.url ~ "/", "logo": cfg.url ~ "/img/logo.png", "publishingPrinciples": cfg.url ~ "/como-trabajamos/"}|tojson }}
+</script>
+{% endblock %}
+{% block contenido %}
+<div class="edicion envoltura">
+  <p class="edicion__hora">
+    {% if destacados %}Última actualización a las <time datetime="{{ ultimo.isoformat() }}">{{ ultimo.strftime('%H:%M') }}</time>{% if total_hoy %}, {{ total_hoy }} {{ 'noticia publicada' if total_hoy == 1 else 'noticias publicadas' }} hoy{% endif %}{% endif %}
+  </p>
+</div>
+
+{% if destacados %}
+<section class="carrusel envoltura" aria-roledescription="carrusel" aria-label="Noticias principales">
+  <div class="carrusel__pista" tabindex="0">
+    {% for a in destacados %}
+    <article class="diapositiva" id="principal-{{ loop.index }}" aria-roledescription="diapositiva" aria-label="{{ loop.index }} de {{ destacados|length }}">
+      <a href="{{ a.url }}" class="diapositiva__cubierta" tabindex="-1" aria-hidden="true">{{ cubierta(a, grande=true) }}</a>
+      <div class="diapositiva__texto">
+        {{ meta(a, pre) }}
+        <h2 class="diapositiva__titulo"><a href="{{ a.url }}">{{ a.titulo }}</a></h2>
+        <p class="diapositiva__entradilla">{{ a.entradilla }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% if destacados|length > 1 %}
+  <div class="carrusel__controles">
+    <button type="button" class="carrusel__boton" data-dir="-1" aria-label="Noticia anterior">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+    </button>
+    <p class="carrusel__contador" aria-live="polite"><span data-actual>1</span> de {{ destacados|length }}</p>
+    <button type="button" class="carrusel__boton" data-dir="1" aria-label="Noticia siguiente">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+    </button>
+  </div>
+  {% endif %}
+</section>
+{% else %}
+<section class="vacio envoltura">
+  <h1>La redacción está preparando la primera edición</h1>
+  <p>Las primeras noticias aparecerán aquí en cuanto se publiquen. La portada se actualiza cada hora.</p>
+</section>
+{% endif %}
+
+{% if horas %}
+<section class="reloj" aria-labelledby="reloj-titulo">
+  <div class="envoltura">
+    <h2 id="reloj-titulo" class="titulo-bloque">Hoy, hora a hora</h2>
+  </div>
+  <div class="reloj__pista envoltura" tabindex="0" aria-label="Noticias de hoy agrupadas por hora">
+    {% for h, lista in horas.items()|reverse %}
+    <div class="reloj__hora">
+      <p class="reloj__marca">{{ '%02d'|format(h) }}:00</p>
+      <ul role="list">
+        {% for a in lista|reverse %}<li><a href="{{ a.url }}">{{ a.titulo }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if ultima %}
+<section class="envoltura columna-ultima" aria-labelledby="ultima-titulo">
+  <h2 id="ultima-titulo" class="titulo-bloque">Lo último</h2>
+  {{ lista_simple(ultima, pre) }}
+</section>
+{% endif %}
+
+{% for s, lista in bloques %}
+<section class="bloque envoltura" aria-labelledby="bloque-{{ s.slug }}" style="--c: {{ s.color }}">
+  <div class="bloque__cabecera">
+    <h2 id="bloque-{{ s.slug }}" class="bloque__titulo"><a href="{{ pre }}/seccion/{{ s.slug }}/">{{ s.nombre }}</a></h2>
+    <a class="bloque__mas" href="{{ pre }}/seccion/{{ s.slug }}/">Ver toda la sección</a>
+  </div>
+  <div class="bloque__rejilla">
+    {% for a in lista %}
+    {{ tarjeta(a, pre, con_cubierta=loop.first, con_entradilla=loop.first, seccion=false) }}
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

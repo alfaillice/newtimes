@@ -1,0 +1,47 @@
+{% macro hora(a) -%}
+<time datetime="{{ a.fecha_iso }}" data-rel>{{ a.fecha.strftime('%H:%M') }}, {{ a.fecha|fecha_corta }}</time>
+{%- endmacro %}
+
+{% macro cubierta(a, grande=false) -%}
+{% if a.imagen %}
+<figure class="cubierta cubierta--foto{% if grande %} cubierta--grande{% endif %}">
+  <img src="/{{ a.imagen.archivo|trim('/') }}" alt="{{ a.imagen.alt or '' }}" loading="lazy" decoding="async">
+</figure>
+{% else %}
+<div class="cubierta{% if grande %} cubierta--grande{% endif %}" style="--c: {{ a.seccion.color }}" aria-hidden="true">
+  <span class="cubierta__seccion">{{ a.seccion.nombre }}</span>
+  <span class="cubierta__hora">{{ a.fecha.strftime('%H:%M') }}</span>
+</div>
+{% endif %}
+{%- endmacro %}
+
+{% macro meta(a, pre, seccion=true) -%}
+<p class="meta">
+  {% if seccion %}<a class="meta__seccion" href="{{ pre }}/seccion/{{ a.seccion.slug }}/" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}</a>{% endif %}
+  {{ hora(a) }}
+  <span class="meta__fuentes">{{ a.fuentes|length }} {{ 'fuente' if a.fuentes|length == 1 else 'fuentes' }}</span>
+</p>
+{%- endmacro %}
+
+{% macro tarjeta(a, pre, con_cubierta=true, con_entradilla=true, seccion=true) -%}
+<article class="tarjeta">
+  {% if con_cubierta %}<a href="{{ a.url }}" tabindex="-1" aria-hidden="true" class="tarjeta__cubierta">{{ cubierta(a) }}</a>{% endif %}
+  <h3 class="tarjeta__titulo"><a href="{{ a.url }}">{{ a.titulo }}</a></h3>
+  {% if con_entradilla %}<p class="tarjeta__entradilla">{{ a.entradilla }}</p>{% endif %}
+  {{ meta(a, pre, seccion) }}
+</article>
+{%- endmacro %}
+
+{% macro lista_simple(lista, pre) -%}
+<ol class="lista-simple" role="list">
+  {% for a in lista %}
+  <li>
+    <span class="lista-simple__hora">{{ a.fecha.strftime('%H:%M') }}</span>
+    <div>
+      <a href="{{ a.url }}">{{ a.titulo }}</a>
+      <span class="lista-simple__seccion" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}</span>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+{%- endmacro %}

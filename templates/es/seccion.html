@@ -1,0 +1,32 @@
+{% extends "es/base.html" %}
+{% from "es/_macros.html" import tarjeta %}
+{% set seccion_actual = s.slug %}
+{% block titulo %}{{ s.nombre }}{% if pagina > 1 %}, página {{ pagina }}{% endif %} | NewTimes.news{% endblock %}
+{% block descripcion %}Últimas noticias de {{ s.nombre }} en NewTimes.news, con fuentes citadas.{% endblock %}
+{% block canonica %}{{ pre }}/seccion/{{ s.slug }}/{% if pagina > 1 %}{{ pagina }}/{% endif %}{% endblock %}
+{% block cabeza %}<link rel="alternate" type="application/rss+xml" title="{{ s.nombre }} en NewTimes.news" href="{{ pre }}/seccion/{{ s.slug }}/rss.xml">{% endblock %}
+{% block contenido %}
+<div class="envoltura cabecera-seccion" style="--c: {{ s.color }}">
+  <h1>{{ s.nombre }}</h1>
+  {% if pagina > 1 %}<p>Página {{ pagina }} de {{ total_paginas }}</p>{% endif %}
+</div>
+<div class="envoltura">
+  {% if lista %}
+  <div class="rejilla-seccion">
+    {% for a in lista %}
+    {{ tarjeta(a, pre, con_cubierta=(pagina == 1 and loop.index <= 3), seccion=false) }}
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="vacio__texto">Todavía no hay noticias en {{ s.nombre }}. La redacción publica cada hora.</p>
+  {% endif %}
+
+  {% if total_paginas > 1 %}
+  <nav class="paginacion" aria-label="Páginas de {{ s.nombre }}">
+    {% if pagina > 1 %}<a href="{{ pre }}/seccion/{{ s.slug }}/{% if pagina > 2 %}{{ pagina - 1 }}/{% endif %}" rel="prev">Más recientes</a>{% else %}<span></span>{% endif %}
+    <span>Página {{ pagina }} de {{ total_paginas }}</span>
+    {% if pagina < total_paginas %}<a href="{{ pre }}/seccion/{{ s.slug }}/{{ pagina + 1 }}/" rel="next">Anteriores</a>{% else %}<span></span>{% endif %}
+  </nav>
+  {% endif %}
+</div>
+{% endblock %}

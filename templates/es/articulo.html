@@ -1,0 +1,100 @@
+{% extends "es/base.html" %}
+{% from "es/_macros.html" import tarjeta, cubierta %}
+{% set seccion_actual = a.seccion.slug %}
+{% block titulo %}{{ a.titulo }} | NewTimes.news{% endblock %}
+{% block descripcion %}{{ a.entradilla }}{% endblock %}
+{% block canonica %}{{ a.url }}{% endblock %}
+{% block og %}
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ a.titulo }}">
+<meta property="og:description" content="{{ a.entradilla }}">
+<meta property="og:url" content="{{ cfg.url }}{{ a.url }}">
+{% if a.og %}<meta property="og:image" content="{{ cfg.url }}{{ a.og }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">{% endif %}
+<meta property="article:published_time" content="{{ a.fecha_iso }}">
+<meta property="article:section" content="{{ a.seccion.nombre }}">
+{% endblock %}
+{% block cabeza %}
+<script type="application/ld+json">
+{{ {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": a.titulo,
+  "description": a.entradilla,
+  "datePublished": a.fecha_iso,
+  "dateModified": (a.actualizado or a.fecha).isoformat(),
+  "articleSection": a.seccion.nombre,
+  "inLanguage": "es-ES",
+  "mainEntityOfPage": cfg.url ~ a.url,
+  "image": [cfg.url ~ a.og] if a.og else [],
+  "author": {"@type": "Organization", "name": a.autor, "url": cfg.url ~ "/como-trabajamos/"},
+  "publisher": {"@type": "Organization", "name": "NewTimes.news", "logo": {"@type": "ImageObject", "url": cfg.url ~ "/img/logo.png"}},
+  "isBasedOn": a.fuentes|map(attribute="url")|list
+}|tojson }}
+</script>
+{% endblock %}
+{% block contenido %}
+<article class="articulo envoltura">
+  <header class="articulo__cabecera">
+    <p class="articulo__seccion"><a href="{{ pre }}/seccion/{{ a.seccion.slug }}/" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}</a></p>
+    <h1 class="articulo__titulo">{{ a.titulo }}</h1>
+    <p class="articulo__entradilla">{{ a.entradilla }}</p>
+    <div class="articulo__firma">
+      <p>
+        {{ a.autor }}{% if a.lugar %}, {{ a.lugar }}{% endif %}
+        <br>
+        <time datetime="{{ a.fecha_iso }}">{{ a.fecha|fecha_larga|capitalize }}, {{ a.fecha.strftime('%H:%M') }}</time>
+        {% if a.actualizado and a.actualizado > a.fecha %}<br>Actualizado: <time datetime="{{ a.actualizado.isoformat() }}">{{ a.actualizado|fecha_corta }}, {{ a.actualizado.strftime('%H:%M') }}</time>{% endif %}
+      </p>
+      <p class="articulo__lectura">{{ a.minutos }} min de lectura</p>
+    </div>
+  </header>
+
+  {% if a.imagen %}
+  <figure class="articulo__foto">
+    <img src="/{{ a.imagen.archivo|trim('/') }}" alt="{{ a.imagen.alt or '' }}">
+    <figcaption>{% if a.imagen.pie %}{{ a.imagen.pie }} {% endif %}Foto: {{ a.imagen.autor }} ({{ a.imagen.licencia|upper }}){% if a.imagen.fuente %}, <a href="{{ a.imagen.fuente }}" rel="nofollow noopener">origen</a>{% endif %}</figcaption>
+  </figure>
+  {% endif %}
+
+  <div class="articulo__cuerpo">
+    {{ a.cuerpo_html|safe }}
+  </div>
+
+  <aside class="fuentes" aria-labelledby="fuentes-titulo">
+    <h2 id="fuentes-titulo">Fuentes de esta noticia</h2>
+    <ul role="list">
+      {% for f in a.fuentes %}
+      <li>
+        <span class="fuentes__medio">{{ f.medio }}</span>
+        <a href="{{ f.url }}" rel="noopener nofollow" target="_blank">{{ f.titulo or f.url }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="fuentes__nota">Texto redactado por inteligencia artificial a partir de estas fuentes, siguiendo <a href="{{ pre }}/como-trabajamos/">nuestra guía editorial</a>. Si detectas un error, <a href="{{ pre }}/contacto/">escríbenos</a>.</p>
+  </aside>
+
+  {% if a.etiquetas %}
+  <p class="etiquetas">{% for e in a.etiquetas %}<span>{{ e }}</span>{% endfor %}</p>
+  {% endif %}
+
+  <div class="compartir" data-compartir data-titulo="{{ a.titulo }}" data-url="{{ cfg.url }}{{ a.url }}">
+    <p class="compartir__titulo">Compartir</p>
+    <a href="https://wa.me/?text={{ (a.titulo ~ ' ' ~ cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">WhatsApp</a>
+    <a href="https://x.com/intent/post?text={{ a.titulo|urlencode }}&amp;url={{ (cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">X</a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ (cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">Facebook</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ (cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">LinkedIn</a>
+    <button type="button" data-copiar>Copiar enlace</button>
+  </div>
+</article>
+
+{% if relacionados %}
+<section class="bloque envoltura" style="--c: {{ a.seccion.color }}" aria-labelledby="mas-seccion">
+  <div class="bloque__cabecera">
+    <h2 id="mas-seccion" class="bloque__titulo"><a href="{{ pre }}/seccion/{{ a.seccion.slug }}/">Más en {{ a.seccion.nombre }}</a></h2>
+  </div>
+  <div class="bloque__rejilla bloque__rejilla--iguales">
+    {% for r in relacionados %}{{ tarjeta(r, pre, con_cubierta=false, con_entradilla=false, seccion=false) }}{% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}
