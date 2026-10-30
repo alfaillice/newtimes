@@ -6,6 +6,14 @@ url: https://newtimes.news
 nombre: NewTimes.news
 zona_horaria: Europe/Madrid
 
+# Perfiles oficiales de la marca (redes sociales, Wikipedia...). Se añaden a los
+# datos estructurados para que Google asocie la marca. Rellenar al crearlos.
+perfiles: []
+
+# IndexNow: avisa al instante a Bing, Yandex, Naver y Seznam de cada página
+# nueva o cambiada. La clave se publica en /<clave>.txt para demostrar la propiedad.
+indexnow_clave: "46d4b416deffde49f780f985823583aa"
+
 titular:
   nombre: "JM Triviño Godoy"
   nif: "22009686C"

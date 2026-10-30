@@ -3,7 +3,10 @@
 {% block clase_body %}portada{% endblock %}
 {% block cabeza %}
 <script type="application/ld+json">
-{{ {"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": "NewTimes.news", "url": cfg.url ~ "/", "logo": cfg.url ~ "/img/logo.png", "publishingPrinciples": cfg.url ~ "/como-trabajamos/"}|tojson }}
+{{ {"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": "NewTimes.news", "alternateName": "NewTimes", "url": cfg.url ~ "/", "logo": {"@type": "ImageObject", "url": cfg.url ~ "/img/logo.png", "width": 600, "height": 120}, "publishingPrinciples": cfg.url ~ "/como-trabajamos/", "correctionsPolicy": cfg.url ~ "/como-trabajamos/", "ownershipFundingInfo": cfg.url ~ "/equipo/", "email": cfg.titular.email, "sameAs": cfg.perfiles or []}|tojson }}
+</script>
+<script type="application/ld+json">
+{{ {"@context": "https://schema.org", "@type": "WebSite", "name": "NewTimes.news", "url": cfg.url ~ "/", "inLanguage": "es-ES"}|tojson }}
 </script>
 {% endblock %}
 {% block contenido %}
@@ -14,7 +17,7 @@
   <div class="carrusel__pista" tabindex="0">
     {% for a in destacados %}
     <article class="diapositiva{% if not a.foto %} diapositiva--sin-foto{% endif %}" id="principal-{{ loop.index }}" aria-roledescription="diapositiva" aria-label="{{ loop.index }} de {{ destacados|length }}" style="--c: {{ a.seccion.color }}">
-      {% if a.foto %}<img class="diapositiva__foto" src="{{ a.foto.src }}" alt="" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" {% if not loop.first %}loading="lazy"{% endif %}>{% endif %}
+      {% if a.foto %}<img class="diapositiva__foto" src="{{ a.foto.src }}" alt="" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>{% endif %}
       <div class="diapositiva__texto envoltura">
         <p class="diapositiva__seccion"><a href="{{ pre }}/seccion/{{ a.seccion.slug }}/">{{ a.seccion.nombre }}</a></p>
         <h2 class="diapositiva__titulo"><a href="{{ a.url }}">{{ a.titulo }}</a></h2>

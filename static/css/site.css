@@ -462,3 +462,7 @@ ul, ol { margin: 0; padding: 0; }
 .anuncio:has(ins[data-ad-status="unfilled"]) { display: none; }
 .pie__boton { font: inherit; color: var(--texto); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
 .pie__boton:hover { text-decoration: underline; color: var(--enlace-hover); }
+
+/* Temas enlazados */
+.etiquetas a { padding: .2rem .65rem; border: 1px solid var(--linea); border-radius: 999px; color: var(--azul); text-decoration: none; }
+.etiquetas a:hover { border-color: var(--azul); }

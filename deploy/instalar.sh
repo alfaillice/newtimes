@@ -79,6 +79,7 @@ ok "Web construida en $WEB"
 
 paso "6/8 Configurando nginx"
 install -m 644 "$REPO/deploy/nginx-cabeceras.conf" /etc/nginx/snippets/newtimes-cabeceras.conf
+install -m 644 "$REPO/deploy/nginx-antiguas.conf" /etc/nginx/snippets/newtimes-antiguas.conf
 # Se desactivan otras webs sin borrarlas (siguen en /etc/nginx/sites-available)
 for s in /etc/nginx/sites-enabled/*; do
   [ -e "$s" ] || continue

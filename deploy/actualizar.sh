@@ -24,4 +24,5 @@ if [ -f "$MARCA" ] && [ -n "$(find "$MARCA" -mmin -60)" ]; then VIEJA=0; fi
 if [ "$CAMBIOS" = 1 ] || [ "$VIEJA" = 1 ] || [ ! -d "$WEB" ]; then
   python3 "$REPO/build.py" --out "$WEB"
   touch "$MARCA"
+  python3 "$REPO/deploy/indexnow.py" "$WEB" "/srv/newtimes/.indexnow.json" || true
 fi

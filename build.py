@@ -495,9 +495,10 @@ class Constructor:
                                autoescape=select_autoescape(["html", "xml"]),
                                trim_blocks=True, lstrip_blocks=True)
         self.env.filters.update(fecha_larga=fecha_larga, fecha_corta=fecha_corta, fecha_dia=fecha_dia,
-                                tras_parrafo=tras_parrafo)
+                                tras_parrafo=tras_parrafo, slug=slugify)
         self.version = self._version_estaticos()
-        self.paginas_sitemap: list[tuple[str, str]] = []
+        self.paginas_sitemap: list[tuple[str, str, str]] = []
+        self.temas: dict = {}
         self.avisos: list[str] = []
 
     def _version_estaticos(self) -> str:
@@ -507,14 +508,14 @@ class Constructor:
                 h.update(p.read_bytes())
         return h.hexdigest()[:8]
 
-    def escribir(self, ruta: str, contenido: str, sitemap: bool = True, prioridad: str = "0.5"):
+    def escribir(self, ruta: str, contenido: str, sitemap: bool = True, prioridad: str = "0.5", lastmod=None):
         destino = self.salida / ruta.lstrip("/")
         if ruta.endswith("/"):
             destino = destino / "index.html"
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(contenido, encoding="utf-8")
         if sitemap and destino.name == "index.html":
-            self.paginas_sitemap.append((ruta, prioridad))
+            self.paginas_sitemap.append((ruta, prioridad, lastmod.isoformat() if lastmod else ""))
 
     def render(self, plantilla: str, **ctx) -> str:
         return self.env.get_template(plantilla).render(cfg=self.cfg, ahora=self.ahora, v=self.version, **ctx)
@@ -555,13 +556,29 @@ class Constructor:
                 bloques.append((s, lista))
         self.escribir(f"{pre}/", self.render(f"{t}/portada.html", **base_ctx, destacados=destacados,
                                                ultima=resto[:10], horas=horas, bloques=bloques,
-                                               ultimo=ultimo, total_hoy=len(de_hoy)), prioridad="1.0")
+                                               ultimo=ultimo, total_hoy=len(de_hoy)), prioridad="1.0", lastmod=ultimo)
+
+        # Temas (etiquetas): páginas que agrupan la cobertura de un asunto.
+        # Con menos de 3 noticias se publican pero con noindex, para no crear páginas pobres.
+        temas: dict = {}
+        for a in articulos:
+            for e in a.etiquetas:
+                clave = slugify(e)
+                if clave:
+                    temas.setdefault(clave, {"nombre": e, "lista": []})["lista"].append(a)
+        self.temas = {k: {"nombre": v["nombre"], "n": len(v["lista"])} for k, v in temas.items()}
+        for clave, tema in temas.items():
+            self.escribir(f"{pre}/tema/{clave}/", self.render(f"{t}/tema.html", **base_ctx, clave=clave,
+                                                              tema=tema["nombre"], lista=tema["lista"][:60],
+                                                              indexable=len(tema["lista"]) >= 3),
+                          sitemap=len(tema["lista"]) >= 3, prioridad="0.6", lastmod=tema["lista"][0].fecha)
 
         # Artículos
         for a in articulos:
             relacionados = [x for x in por_seccion[a.seccion["slug"]] if x is not a][:4]
-            self.escribir(a.url, self.render(f"{t}/articulo.html", **base_ctx, a=a, relacionados=relacionados),
-                          prioridad="0.8")
+            self.escribir(a.url, self.render(f"{t}/articulo.html", **base_ctx, a=a, relacionados=relacionados,
+                                             temas=self.temas),
+                          prioridad="0.8", lastmod=a.actualizado or a.fecha)
 
         # Secciones con paginación
         n = ed.get("por_pagina", 20)
@@ -571,7 +588,8 @@ class Constructor:
             for p in range(1, total + 1):
                 ruta = f"{pre}/seccion/{s['slug']}/" + (f"{p}/" if p > 1 else "")
                 self.escribir(ruta, self.render(f"{t}/seccion.html", **base_ctx, s=s, lista=lista[(p - 1) * n:p * n],
-                                                pagina=p, total_paginas=total), prioridad="0.7" if p == 1 else "0.3")
+                                                pagina=p, total_paginas=total), prioridad="0.7" if p == 1 else "0.3",
+                              lastmod=lista[(p - 1) * n].fecha if lista else None)
             self.escribir(f"{pre}/seccion/{s['slug']}/rss.xml", self.rss(ed, pre, lista[:30], s), sitemap=False)
 
         # Hemeroteca

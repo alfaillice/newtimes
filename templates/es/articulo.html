@@ -31,6 +31,17 @@
   "isBasedOn": a.fuentes|map(attribute="url")|list
 }|tojson }}
 </script>
+<script type="application/ld+json">
+{{ {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Portada", "item": cfg.url ~ "/"},
+    {"@type": "ListItem", "position": 2, "name": a.seccion.nombre, "item": cfg.url ~ pre ~ "/seccion/" ~ a.seccion.slug ~ "/"},
+    {"@type": "ListItem", "position": 3, "name": a.titulo, "item": cfg.url ~ a.url}
+  ]
+}|tojson }}
+</script>
 {% endblock %}
 {% block contenido %}
 <article class="articulo envoltura">
@@ -51,7 +62,7 @@
 
   {% if a.foto %}
   <figure class="articulo__foto">
-    <img src="{{ a.foto.src }}" srcset="{{ a.foto.src_peq }} 640w, {{ a.foto.src }} 1200w" sizes="(max-width: 52rem) 100vw, 52rem" alt="{{ a.foto.alt }}" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" decoding="async">
+    <img fetchpriority="high" src="{{ a.foto.src }}" srcset="{{ a.foto.src_peq }} 640w, {{ a.foto.src }} 1200w" sizes="(max-width: 52rem) 100vw, 52rem" alt="{{ a.foto.alt }}" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" decoding="async">
     <figcaption>{% if a.foto.pie %}{{ a.foto.pie }} {% endif %}<span class="credito">Foto: {% if a.foto.fuente %}<a href="{{ a.foto.fuente }}" rel="nofollow noopener" target="_blank">{{ a.foto.autor }}</a>{% else %}{{ a.foto.autor }}{% endif %}, {% if a.foto.licencia_url %}<a href="{{ a.foto.licencia_url }}" rel="license noopener" target="_blank">{{ a.foto.licencia }}</a>{% else %}{{ a.foto.licencia }}{% endif %}</span></figcaption>
   </figure>
   {% endif %}
@@ -74,7 +85,7 @@
   </aside>
 
   {% if a.etiquetas %}
-  <p class="etiquetas">{% for e in a.etiquetas %}<span>{{ e }}</span>{% endfor %}</p>
+  <nav class="etiquetas" aria-label="Temas de esta noticia">{% for e in a.etiquetas %}<a href="{{ pre }}/tema/{{ e|slug }}/">{{ e }}</a>{% endfor %}</nav>
   {% endif %}
 
   <div class="compartir" data-compartir data-titulo="{{ a.titulo }}" data-url="{{ cfg.url }}{{ a.url }}">
