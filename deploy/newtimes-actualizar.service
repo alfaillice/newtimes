@@ -1,0 +1,12 @@
+[Unit]
+Description=NewTimes.news: descargar cambios y reconstruir la web
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=newtimes
+Group=newtimes
+ExecStart=/bin/bash /srv/newtimes/repo/deploy/actualizar.sh
+TimeoutStartSec=600
+Nice=10
