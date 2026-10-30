@@ -7,8 +7,8 @@ nombre: NewTimes.news
 zona_horaria: Europe/Madrid
 
 titular:
-  nombre: "JM Trivino"
-  nif: "[pendiente: NIF/CIF]"
+  nombre: "JM Triviño Godoy"
+  nif: "22009686C"
   domicilio: "Partida Carrus P1, 137, 03205 Elche (Alicante), España"
   email: "redaccion@newtimes.news"
   registro: ""   # inscripción registral si es sociedad; vacío si es persona física
