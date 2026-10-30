@@ -10,7 +10,7 @@ titular:
   nombre: "JM Trivino"
   nif: "[pendiente: NIF/CIF]"
   domicilio: "Partida Carrus P1, 137, 03205 Elche (Alicante), España"
-  email: "[pendiente: email de contacto]"
+  email: "redaccion@newtimes.news"
   registro: ""   # inscripción registral si es sociedad; vacío si es persona física
 
 ediciones:
