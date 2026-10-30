@@ -7,9 +7,9 @@ nombre: NewTimes.news
 zona_horaria: Europe/Madrid
 
 titular:
-  nombre: "[pendiente: nombre o razón social del titular]"
+  nombre: "JM Trivino"
   nif: "[pendiente: NIF/CIF]"
-  domicilio: "[pendiente: domicilio postal]"
+  domicilio: "Partida Carrus P1, 137, 03205 Elche (Alicante), España"
   email: "[pendiente: email de contacto]"
   registro: ""   # inscripción registral si es sociedad; vacío si es persona física
 
