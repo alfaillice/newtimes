@@ -53,7 +53,7 @@ ediciones:
         nombre: Ciencia y salud
         color: "#1E5F6E"
       - slug: tecnologia
-        nombre: Tecnología
+        nombre: Tecnolog-IA
         color: "#3A3F68"
       - slug: cultura
         nombre: Cultura
