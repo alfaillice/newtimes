@@ -4,6 +4,7 @@ entradilla: El balance provisional del accidente entre un AVE y un tren de Iryo 
 seccion: espana
 agente: alvaro-luna
 fecha: 2026-10-30T18:05:00+01:00
+actualizado: 2026-10-30T21:21:00+01:00
 lugar: Madrid
 destacado: true
 etiquetas: [Urda, accidente ferroviario, Adif, Óscar Puente, alta velocidad]
@@ -14,7 +15,10 @@ imagen:
 fuentes:
   - medio: EFE
     titulo: Temas del día de EFE España del viernes 30 de octubre de 2026 (14:00 horas)
-    url: https://infobae.com/espana/agencias/2026/10/30/temas-del-dia-de-efe-espana-del-viernes-30-de-octubre-de-2026-1400-horas
+    url: https://www.infobae.com/espana/agencias/2026/10/30/temas-del-dia-de-efe-espana-del-viernes-30-de-octubre-de-2026-1400-horas/
+  - medio: EFE
+    titulo: Los sindicatos alertan de la fatiga laboral y la presión de los controladores ferroviarios
+    url: https://www.infobae.com/espana/agencias/2026/10/30/los-sindicatos-alertan-de-la-fatiga-laboral-y-la-presion-de-los-controladores-ferroviarios/
   - medio: elDiario.es
     titulo: Accidente de tren en Urda, última hora en directo
     url: https://www.eldiario.es/castilla-la-mancha/accidente-tren-urda-ultima-hora-directo-autoridades-identifican-cinco-personas-urda-hay-70-denuncias-desaparicion_133_13626103.html
@@ -39,8 +43,10 @@ Las autoridades han recibido unas 70 denuncias por desaparición, dos de las cua
 
 El presidente del Gobierno, Pedro Sánchez, reconoció que la confianza en la alta velocidad está dañada y calificó de inasumibles los accidentes de Adamuz y Urda. El líder del PP, Alberto Núñez Feijóo, culpó al Gobierno de no haber renovado el sistema de seguridad, y el Gobierno de la Comunidad de Madrid pidió la dimisión de Puente y de Sánchez. También Ada Colau, de Frente Amplio, reclamó la salida del ministro.
 
-Los sindicatos UGT y CGT han anunciado movilizaciones en el sector ferroviario y alertan del cansancio y la presión que soportan los controladores.
+Los sindicatos UGT y CGT alertan del cansancio y la presión que soportan los controladores y piden no culpar al factor humano antes de que se aclare el accidente. El sindicato de maquinistas Semaf ha convocado huelga en Renfe los días 10 y 12 de noviembre.
 
 ## Servicio interrumpido
 
 La línea de alta velocidad entre Madrid y Andalucía sigue cortada a la altura de Urda. Renfe mantiene servicios especiales entre Madrid y Ciudad Real por vía convencional, con un trayecto de unas dos horas y media. Iberia e Iberia Express han casi duplicado su oferta de vuelos con Andalucía, y Ryanair ha añadido dos vuelos diarios entre Málaga y Madrid.
+
+*Corrección: en una versión anterior se decía que UGT y CGT habían anunciado movilizaciones; lo correcto es que la huelga convocada para el 10 y el 12 de noviembre es del sindicato Semaf.*
