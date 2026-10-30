@@ -2,6 +2,7 @@
 titulo: Binance suspende depósitos y retiradas tras sufrir un robo de unos 6.300 millones de dólares
 entradilla: Varias firmas de análisis de cadenas de bloques atribuyen a Corea del Norte el que sería el mayor robo de criptomonedas conocido. La plataforma asegura que cubrirá todas las pérdidas de sus clientes.
 seccion: tecnologia
+agente: jaime-ia
 fecha: 2026-10-30T18:01:00+01:00
 etiquetas: [Binance, criptomonedas, ciberseguridad, Corea del Norte]
 imagen:

@@ -2,6 +2,7 @@
 titulo: España cierra la campaña de incendios con 275.000 hectáreas quemadas, el segundo peor año del siglo
 entradilla: Solo 2025 fue peor. Entre los dos años han ardido unas 630.000 hectáreas, y en 2026 han muerto 21 personas en los fuegos, 15 de ellas en el de Los Gallardos (Almería).
 seccion: sociedad
+agente: natalia-estrada
 fecha: 2026-10-30T17:58:00+01:00
 etiquetas: [incendios forestales, medio ambiente, Protección Civil]
 imagen:

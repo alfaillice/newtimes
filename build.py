@@ -227,7 +227,15 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                     imagen["licencia"] = str(imagen["licencia"]).lower()
             else:
                 avisos.append(f"{rel}: sin imagen")
-            agente = por_slug.get(str(meta.get("agente") or "")) or por_seccion.get(meta["seccion"])
+            agente = por_slug.get(str(meta.get("agente") or ""))
+            if agentes:
+                esperado = por_seccion.get(meta["seccion"])
+                if not meta.get("agente"):
+                    raise ValueError(f"falta la firma: 'agente: {esperado['slug'] if esperado else '?'}'")
+                if not agente:
+                    raise ValueError(f"agente desconocido '{meta.get('agente')}'. Válidos: {', '.join(por_slug)}")
+                if esperado and agente["slug"] != esperado["slug"]:
+                    raise ValueError(f"la sección {meta['seccion']} la firma {esperado['slug']}, no {agente['slug']}")
             cuerpo_html = md_a_html(cuerpo)
             palabras = len(texto_plano(cuerpo_html).split())
             if palabras < 120:

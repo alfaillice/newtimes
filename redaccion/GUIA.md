@@ -64,6 +64,7 @@ Ruta: `content/es/AAAA/MM/DD/slug.md`, con la fecha de publicación (hora de Mad
 titulo: El BCE mantiene los tipos de interés en el 2 % por cuarta reunión consecutiva
 entradilla: Lagarde avisa de que la inflación de servicios sigue alta y deja abierta una bajada en diciembre si los datos acompañan.
 seccion: economia
+agente: alberto-rodrigo
 fecha: 2026-10-30T15:05:00+01:00
 lugar: Fráncfort
 destacado: false
@@ -137,9 +138,9 @@ imagen:
 
 ## 6. Agentes de la redacción
 
-Cada sección tiene un agente con nombre propio, definido en `config/agentes.yaml`. La noticia la firma automáticamente el agente de su sección, así que no hace falta indicar autor. Al redactar una noticia, **lee el perfil del agente de esa sección y escribe con su estilo** (`estilo`) y priorizando sus fuentes de referencia (`fuentes`). Las reglas de esta guía están siempre por encima del estilo de cada agente.
+Cada sección tiene su agente redactor, definido en `config/agentes.yaml` (y en `.claude/agents/`). **Cada noticia la investiga, la escribe y la firma el agente de su sección**, con su estilo (`estilo`) y priorizando sus fuentes de referencia (`fuentes`). Las reglas de esta guía están siempre por encima del estilo de cada agente.
 
-Si una noticia toca dos secciones, elige la principal; el agente de esa sección la firma.
+La firma es obligatoria en los metadatos: `agente: <slug>`. El generador rechaza una noticia sin firma o firmada por el agente de otra sección. Si una noticia toca dos secciones, se elige la principal y la firma su agente.
 
 ## 7. Antes de publicar
 

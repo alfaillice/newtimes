@@ -2,6 +2,7 @@
 titulo: Puente descarta dimitir y atribuye el choque de Urda a un fallo en el centro de control de Adif
 entradilla: El balance provisional del accidente entre un AVE y un tren de Iryo en Toledo es de 69 muertos. Las autoridades han recibido unas 70 denuncias por desaparición y la identificación de las víctimas avanza despacio.
 seccion: espana
+agente: alvaro-luna
 fecha: 2026-10-30T18:05:00+01:00
 lugar: Madrid
 destacado: true

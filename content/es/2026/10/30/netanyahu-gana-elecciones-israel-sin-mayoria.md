@@ -2,6 +2,7 @@
 titulo: Netanyahu gana las elecciones en Israel, pero su bloque se queda a ocho escaños de la mayoría
 entradilla: El Likud obtiene 27 de los 120 escaños de la Knéset. Ningún bloque alcanza los 61 diputados sin el apoyo de los partidos árabes, que suman 19.
 seccion: internacional
+agente: juan-de-la-torre
 fecha: 2026-10-30T18:02:00+01:00
 lugar: Jerusalén
 etiquetas: [Israel, elecciones, Netanyahu, Knéset]

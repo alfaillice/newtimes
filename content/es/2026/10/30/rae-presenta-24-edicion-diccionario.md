@@ -2,6 +2,7 @@
 titulo: La RAE presenta la 24.ª edición de su diccionario, con más de 6.000 entradas nuevas
 entradilla: Influencer, pódcast, gordofobia, basuraleza o inteligencia artificial generativa entran en una obra que no se renovaba por completo desde 2014.
 seccion: cultura
+agente: jesus-lozano
 fecha: 2026-10-30T18:00:00+01:00
 lugar: Madrid
 etiquetas: [RAE, Diccionario de la lengua española, lengua]

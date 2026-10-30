@@ -2,6 +2,7 @@
 titulo: La economía española se frena al 0,6 % en el tercer trimestre y la inflación sigue en el 4,9 %
 entradilla: El consumo de los hogares y la inversión pierden fuerza, según el avance del INE. Los precios se mantienen en su nivel más alto desde principios de 2023 pese al abaratamiento de los carburantes.
 seccion: economia
+agente: alberto-rodrigo
 fecha: 2026-10-30T18:03:00+01:00
 lugar: Madrid
 etiquetas: [PIB, IPC, inflación, INE, economía española]
