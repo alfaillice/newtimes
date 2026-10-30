@@ -250,6 +250,12 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
             palabras = len(texto_plano(cuerpo_html).split())
             if palabras < 120:
                 raise ValueError(f"cuerpo demasiado corto ({palabras} palabras; mínimo 120)")
+            if len(str(meta["titulo"])) > 140:
+                raise ValueError(f"titular demasiado largo ({len(str(meta['titulo']))} caracteres; máximo 140)")
+            if len(str(meta["entradilla"])) > 320:
+                raise ValueError(f"entradilla demasiado larga ({len(str(meta['entradilla']))} caracteres; máximo 320)")
+            if any("newtimes.news" in str(f.get("url", "")) for f in fuentes):
+                raise ValueError("una fuente no puede ser la propia NewTimes.news")
             url = f"/{ed['prefijo'] + '/' if ed['prefijo'] else ''}{fecha:%Y/%m/%d}/{slug}/"
             if url in vistos:
                 raise ValueError(f"URL duplicada con {vistos[url]}")
@@ -267,6 +273,20 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
         except Exception as e:  # noqa: BLE001 — un artículo roto no debe tirar la web
             errores.append(f"{rel}: {e}")
     articulos.sort(key=lambda a: a.fecha, reverse=True)
+    # Rigor: dos noticias casi iguales en 48 horas son un duplicado
+    vistos_t: list = []
+    for a in sorted(articulos, key=lambda x: x.fecha):
+        palabras_t = {w for w in re.findall(r"\w+", slugify(a.titulo).replace("-", " ")) if len(w) > 3}
+        for otro, otras_p in vistos_t:
+            if abs((a.fecha - otro.fecha).total_seconds()) < 48 * 3600 and palabras_t and otras_p:
+                parecido = len(palabras_t & otras_p) / len(palabras_t | otras_p)
+                if parecido >= 0.6:
+                    errores.append(f"{a.ruta_fuente}: titular casi igual a {otro.ruta_fuente} "
+                                   f"({parecido:.0%}); si hay novedades, cuenta el desarrollo con otro enfoque")
+                    break
+        vistos_t.append((a, palabras_t))
+    duplicados = {e.split(":")[0] for e in errores}
+    articulos = [a for a in articulos if a.ruta_fuente not in duplicados]
     return articulos
 
 

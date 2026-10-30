@@ -31,6 +31,14 @@ for ruta in (RAIZ / "content" / edicion).glob("[0-9][0-9][0-9][0-9]/[0-9][0-9]/[
         filas.append((f, meta.get("seccion", "?"), meta.get("titulo", ruta.stem)))
 
 filas.sort(reverse=True)
+cfg = yaml.safe_load((RAIZ / "config/site.yaml").read_text(encoding="utf-8"))
+secciones = [s["slug"] for s in cfg["ediciones"][edicion]["secciones"]]
+hace12 = datetime.now(tz) - timedelta(hours=12)
+print("Noticias por sección en las últimas 12 h (prioriza las que tengan 0):")
+for sec in secciones:
+    n = sum(1 for f, s, _ in filas if s == sec and f >= hace12)
+    print(f"  {sec:15s} {n}{'   <- sin cobertura' if n == 0 else ''}")
+print()
 print(f"{len(filas)} noticias en las últimas {horas} h ({edicion}):")
 for f, s, t in filas:
     print(f"{f:%d/%m %H:%M}  [{s}]  {t}")

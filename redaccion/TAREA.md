@@ -22,7 +22,7 @@ La definición completa de cada agente está en `.claude/agents/<agente>.md` (ge
 1. Clona o actualiza el repositorio y lee `redaccion/GUIA.md` (criterios de selección y fuentes).
 2. Mira la hora actual en Madrid y ejecuta `python3 redaccion/recientes.py 48` para ver lo ya publicado.
 3. Revisa la actualidad de las últimas 2-3 horas en las fuentes verificadas, con búsquedas separadas por sección.
-4. Elige entre 2 y 4 temas nuevos que cumplan los criterios de la guía, como máximo 2 por sección. Si no hay ninguno que lo merezca, no encargues nada y termina.
+4. Elige entre 2 y 4 temas nuevos que cumplan los criterios de la guía, como máximo 2 por sección. **Da prioridad a las secciones sin cobertura en las últimas 12 horas** (las marca `recientes.py`), siempre que haya un hecho relevante y verificable; nunca rellenes con temas flojos. Si no hay ningún tema que lo merezca, no encargues nada y termina.
 5. **Encarga cada noticia a su agente** con la herramienta Agent, una llamada por noticia (pueden ir en paralelo):
    - Si existe un tipo de agente con el nombre del agente (por ejemplo `alvaro-luna`), úsalo como `subagent_type`.
    - Si no existe, usa `general-purpose` y pon al principio del encargo el contenido íntegro de `.claude/agents/<agente>.md` (sin la cabecera entre `---`).
