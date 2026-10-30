@@ -117,7 +117,7 @@ class Articulo:
     destacado: bool = False
     lugar: str = ""
     imagen: dict | None = None
-    autor: str = "Redacción NewTimes"
+    autor: str = "JM Triviño"
     agente: dict | None = None
     foto: dict | None = None     # imagen ya optimizada y servida desde la web
     ruta_fuente: str = ""
@@ -243,7 +243,7 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                 palabras=palabras, etiquetas=[str(e) for e in meta.get("etiquetas") or []],
                 destacado=bool(meta.get("destacado")), lugar=str(meta.get("lugar") or ""),
                 imagen=imagen or None, agente=agente,
-                autor=agente["nombre"] if agente else str(meta.get("autor") or "Redacción NewTimes"),
+                autor=agente["nombre"] if agente else str(meta.get("autor") or "JM Triviño"),
                 ruta_fuente=rel, url=url,
             ))
         except Exception as e:  # noqa: BLE001 — un artículo roto no debe tirar la web
