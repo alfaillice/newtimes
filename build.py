@@ -700,6 +700,16 @@ def main() -> int:
     if pendientes:
         print("aviso: faltan datos del titular en config/site.yaml:", ", ".join(pendientes))
     if args.check:
+        # Rigor: la hora de publicación no puede ser posterior al momento real
+        futuras = [a for a in avisos if "fecha en el futuro" in a]
+        ahora_tz = datetime.now(tz)
+        for v in ediciones.values():
+            for art in v:
+                if art.fecha > ahora_tz + timedelta(minutes=2):
+                    futuras.append(f"{art.ruta_fuente}: fecha {art.fecha:%H:%M} posterior a la hora actual {ahora_tz:%H:%M}")
+        for f in futuras:
+            print("ERROR:", f.replace("aviso: ", ""), "(usa la hora real: TZ=Europe/Madrid date +%Y-%m-%dT%H:%M:00%:z)")
+        errores += futuras
         total = sum(len(v) for v in ediciones.values())
         print(f"{total} artículos válidos, {len(errores)} con errores")
         return 1 if errores else 0

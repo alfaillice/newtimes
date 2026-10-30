@@ -466,3 +466,14 @@ ul, ol { margin: 0; padding: 0; }
 /* Temas enlazados */
 .etiquetas a { padding: .2rem .65rem; border: 1px solid var(--linea); border-radius: 999px; color: var(--azul); text-decoration: none; }
 .etiquetas a:hover { border-color: var(--azul); }
+
+/* Menú de secciones fijo al hacer scroll */
+html { scroll-padding-top: 4rem; }
+.secciones { position: sticky; top: 0; z-index: 50; transition: box-shadow .2s ease; }
+.secciones--fijo { box-shadow: 0 6px 18px rgba(10, 23, 48, .28); }
+.secciones__marca { display: none; }
+.secciones__marca img { display: block; height: 16px; width: auto; }
+.secciones--fijo .secciones__marca { display: block; margin-right: .3rem; }
+.centinela-menu { height: 1px; margin-bottom: -1px; }
+@media (prefers-reduced-motion: reduce) { .secciones { transition: none; } }
+@media (max-width: 40rem) { .secciones--fijo .secciones__marca { display: none; } }

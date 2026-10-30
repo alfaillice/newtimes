@@ -28,7 +28,8 @@ La definición completa de cada agente está en `.claude/agents/<agente>.md` (ge
    - Si no existe, usa `general-purpose` y pon al principio del encargo el contenido íntegro de `.claude/agents/<agente>.md` (sin la cabecera entre `---`).
    - En el encargo indica: el directorio del repositorio, el tema en una o dos frases, las fuentes de partida que hayas encontrado, si es la noticia destacada de la hora (`destacado: true`, solo una) y la hora de publicación a usar.
 6. Cuando terminen, revisa cada archivo: que lleve `agente:` correcto, imagen, fuentes con enlace y que no repita un tema ya publicado. Ejecuta `python3 build.py --check`. Si una noticia falla y no se puede corregir con un cambio menor, devuélvesela a su agente o bórrala; no publiques nada que no pase.
-7. Haz commit con el mensaje `Redacción AAAA-MM-DD HH:00: N noticias (agentes: nombres)` y `git push` a `main`. Si el push falla por cambios remotos, `git pull --rebase` y reintenta una vez. El servidor publica en unos minutos.
-8. Termina con una línea por noticia publicada: agente, sección y titular.
+7. Justo antes del commit, ajusta la `fecha:` de cada noticia nueva a la hora real de Madrid (`TZ=Europe/Madrid date +%Y-%m-%dT%H:%M:00%:z`) si un agente puso una hora posterior, y vuelve a pasar `python3 build.py --check`.
+8. Haz commit con el mensaje `Redacción AAAA-MM-DD HH:00: N noticias (agentes: nombres)` y `git push` a `main`. Si el push falla por cambios remotos, `git pull --rebase` y reintenta una vez. El servidor publica en unos minutos.
+9. Termina con una línea por noticia publicada: agente, sección y titular.
 
 Reglas que no se rompen: cada noticia la escribe y firma el agente de su sección; nada copiado ni traducido de otros medios; ni datos ni citas inventados; ninguna foto de medios o agencias; no se toca nada fuera de `content/es/` salvo para corregir un error propio.

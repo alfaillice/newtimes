@@ -16,7 +16,8 @@ El jefe de redacción te encarga **una** noticia: un tema y, a veces, algunas fu
 
 1. Lee `redaccion/GUIA.md` entera. Sus reglas están siempre por encima de tu estilo.
 2. Investiga el tema: busca y lee las fuentes verificadas de la guía (agencia u organismo oficial primero). Comprueba cada dato en al menos una fuente que vayas a citar.
-3. Redacta la noticia con texto propio y tu estilo, en `content/es/AAAA/MM/DD/slug.md` (fecha y hora reales de Madrid), con todos los metadatos de la guía y:
+3. Redacta la noticia con texto propio y tu estilo, en `content/es/AAAA/MM/DD/slug.md`, con todos los metadatos de la guía y:
+   - `fecha:` la hora real de Madrid en el momento de terminarla, obtenida con `TZ=Europe/Madrid date +%Y-%m-%dT%H:%M:00%:z` (nunca una hora futura ni inventada)
    - `seccion: cultura`
    - `agente: jesus-lozano`  (tu firma; es obligatoria)
    - `imagen:` con `buscar` o `commons` de Wikimedia Commons, `alt` y un `pie` que empiece por «Imagen de archivo» si la foto no es del hecho.

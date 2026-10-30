@@ -53,8 +53,11 @@
       Buscar
     </a>
   </div>
+</header>
+<div class="centinela-menu" aria-hidden="true"></div>
   <nav class="secciones" aria-label="Secciones">
     <ul class="secciones__lista envoltura" role="list">
+      <li class="secciones__marca" aria-hidden="true"><a href="{{ pre }}/" tabindex="-1"><img src="/img/logo-claro.svg" alt="" width="104" height="16"></a></li>
       <li class="secciones__directo"><a class="boton-directo" href="{{ pre }}/directo/" {% if seccion_actual == 'directo' %}aria-current="page"{% endif %}>{{ icono_directo() }}<span>Directo</span></a></li>
       {% for s in secciones %}
       <li><a href="{{ pre }}/seccion/{{ s.slug }}/" style="--c: {{ s.color }}" {% if seccion_actual == s.slug %}aria-current="page"{% endif %}>{{ s.nombre }}</a></li>
@@ -71,7 +74,6 @@
     </div>
   </div>
   {% endif %}
-</header>
 
 <main id="contenido" tabindex="-1">
 {% block contenido %}{% endblock %}

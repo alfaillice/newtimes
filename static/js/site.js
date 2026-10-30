@@ -24,6 +24,15 @@
   actualizarHoras();
   setInterval(actualizarHoras, 60000);
 
+  /* Menú fijo: sombra y logo compacto cuando la cabecera sale de la pantalla */
+  var centinela = document.querySelector(".centinela-menu");
+  var menu = document.querySelector(".secciones");
+  if (centinela && menu && "IntersectionObserver" in window) {
+    new IntersectionObserver(function (e) {
+      menu.classList.toggle("secciones--fijo", !e[0].isIntersecting);
+    }).observe(centinela);
+  }
+
   /* Carrusel de la portada */
   document.querySelectorAll(".carrusel").forEach(function (c) {
     var pista = c.querySelector(".carrusel__pista");

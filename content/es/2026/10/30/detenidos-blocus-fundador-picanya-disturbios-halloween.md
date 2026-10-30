@@ -3,7 +3,7 @@ titulo: Detenidas diez personas vinculadas a Blocus, entre ellas su presunto fun
 entradilla: Guardia Civil, Policía Nacional y Mossos d'Esquadra atribuyen a los arrestados, cuatro de ellos menores, llamamientos a saqueos y disturbios en Valencia, Cataluña, Bilbao, Málaga y Tenerife.
 seccion: espana
 agente: alvaro-luna
-fecha: 2026-10-30T19:20:00+01:00
+fecha: 2026-10-30T19:13:00+01:00
 lugar: Valencia
 destacado: true
 etiquetas: [Blocus, Guardia Civil, Policía Nacional, Mossos d'Esquadra, desórdenes públicos, Halloween]
