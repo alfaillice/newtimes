@@ -283,45 +283,69 @@ def _licencia_commons(meta: dict) -> str | None:
 def resolver_commons(img: dict, cache: Path) -> dict:
     """Busca en Wikimedia Commons y devuelve url, autor, licencia y fuente reales.
     El resultado se guarda para que la foto no cambie entre construcciones."""
-    clave = "commons:" + (str(img.get("commons")) if img.get("commons") else "buscar:" + str(img.get("buscar")))
+    clave = "commons:" + (str(img.get("commons")) if img.get("commons") else "buscar:" + json.dumps(img.get("buscar"), ensure_ascii=False))
     registro = cache / "commons.json"
     datos = json.loads(registro.read_text()) if registro.exists() else {}
     if clave in datos:
         return datos[clave]
     from urllib.parse import urlencode
-    params = {"action": "query", "format": "json", "prop": "imageinfo",
-              "iiprop": "url|size|extmetadata|mime", "iiurlwidth": "1600"}
+    base = {"action": "query", "format": "json", "prop": "imageinfo",
+            "iiprop": "url|size|extmetadata|mime", "iiurlwidth": "1600", "iiextmetadatalanguage": "es"}
     if img.get("commons"):
-        params["titles"] = str(img["commons"])
+        consultas = [{**base, "titles": str(img["commons"])}]
     else:
-        params.update({"generator": "search", "gsrnamespace": "6", "gsrlimit": "20",
-                       "gsrsearch": f"{img['buscar']} filetype:bitmap"})
-    pet = urllib.request.Request(COMMONS_API + "?" + urlencode(params), headers=AGENTE_CABECERA)
-    with urllib.request.urlopen(pet, timeout=20) as r:
-        respuesta = json.load(r)
-    paginas = sorted((respuesta.get("query") or {}).get("pages", {}).values(), key=lambda p: p.get("index", 0))
+        # Varias búsquedas posibles; cada una se reintenta quitando palabras del final
+        terminos = img["buscar"] if isinstance(img["buscar"], list) else [img["buscar"]]
+        consultas, vistas = [], set()
+        for t in terminos:
+            palabras = str(t).split()
+            for n in range(len(palabras), max(1, min(2, len(palabras))) - 1, -1):
+                q = " ".join(palabras[:n])
+                if q.lower() not in vistas:
+                    vistas.add(q.lower())
+                    consultas.append({**base, "generator": "search", "gsrnamespace": "6", "gsrlimit": "25",
+                                      "gsrsearch": f"{q} filetype:bitmap"})
+    for params in consultas[:8]:
+        pet = urllib.request.Request(COMMONS_API + "?" + urlencode(params), headers=AGENTE_CABECERA)
+        with urllib.request.urlopen(pet, timeout=20) as r:
+            respuesta = json.load(r)
+        paginas = sorted((respuesta.get("query") or {}).get("pages", {}).values(), key=lambda p: p.get("index", 0))
+        encontrado = _elegir_commons(paginas, bool(img.get("commons")))
+        if encontrado:
+            datos[clave] = encontrado
+            cache.mkdir(parents=True, exist_ok=True)
+            registro.write_text(json.dumps(datos, ensure_ascii=False, indent=1))
+            return encontrado
+    raise ValueError("Commons no devolvió ninguna imagen con licencia libre adecuada")
+
+
+def _limpiar_html(valor) -> str:
+    t = re.sub(r"<[^>]+>", " ", html.unescape(str(valor or "")))
+    t = re.sub(r"\(\s*(talk|discusión|usuario|contribs|contribuciones)[^)]*\)", "", t, flags=re.I)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def _elegir_commons(paginas: list, exacto: bool) -> dict | None:
     for pag in paginas:
         info = (pag.get("imageinfo") or [{}])[0]
         meta = info.get("extmetadata") or {}
         lic = _licencia_commons(meta)
         if not lic or info.get("mime") not in {"image/jpeg", "image/png", "image/webp"}:
             continue
-        if not img.get("commons") and (info.get("width", 0) < 1000 or info.get("width", 0) < info.get("height", 0)):
+        if not exacto and (info.get("width", 0) < 900 or info.get("width", 0) < info.get("height", 0)):
             continue  # en búsquedas: solo fotos horizontales y con resolución suficiente
-        autor = re.sub(r"<[^>]+>", "", html.unescape(str((meta.get("Artist") or {}).get("value", "")))).strip()
-        resultado = {
+        autor = _limpiar_html((meta.get("Artist") or {}).get("value", ""))
+        descripcion = _limpiar_html((meta.get("ImageDescription") or {}).get("value", ""))[:180]
+        return {
             "url": info.get("thumburl") or info.get("url"),
             "autor": (autor or "Autor desconocido")[:120] + " / Wikimedia Commons",
             "licencia": lic,
             "licencia_url": str((meta.get("LicenseUrl") or {}).get("value", "")),
             "fuente": info.get("descriptionurl", ""),
             "archivo_commons": pag.get("title", ""),
+            "descripcion_commons": descripcion,
         }
-        datos[clave] = resultado
-        cache.mkdir(parents=True, exist_ok=True)
-        registro.write_text(json.dumps(datos, ensure_ascii=False, indent=1))
-        return resultado
-    raise ValueError("Commons no devolvió ninguna imagen con licencia libre adecuada")
+    return None
 
 
 def preparar_foto(art: Articulo, salida: Path, cache: Path, avisos: list) -> None:
@@ -336,6 +360,7 @@ def preparar_foto(art: Articulo, salida: Path, cache: Path, avisos: list) -> Non
     if img.get("commons") or img.get("buscar"):
         try:
             img = {**img, **resolver_commons(img, cache)}
+            img["autor"] = _limpiar_html(img.get("autor"))
         except Exception as e:  # noqa: BLE001
             avisos.append(f"{art.ruta_fuente}: no se encontró la imagen en Commons ({e})")
             return
@@ -372,7 +397,7 @@ def preparar_foto(art: Articulo, salida: Path, cache: Path, avisos: list) -> Non
         art.foto = {
             "src": f"/img/n/{clave}-1200.jpg", "src_peq": f"/img/n/{clave}-640.jpg",
             "ancho": tamanos[1200][0], "alto": tamanos[1200][1],
-            "alt": img.get("alt") or "", "pie": img.get("pie") or "",
+            "alt": img.get("descripcion_commons") or img.get("alt") or "", "pie": img.get("pie") or "",
             "autor": img.get("autor"), "licencia": LICENCIAS.get(img["licencia"], img["licencia"]),
             "licencia_url": img.get("licencia_url") or "", "fuente": img.get("fuente") or "",
             "original": original,

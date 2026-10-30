@@ -100,8 +100,8 @@ Cada noticia lleva una imagen. **Nunca** se usan fotos de los medios de comunica
 
 ```yaml
 imagen:
-  buscar: "Knesset building Jerusalem"     # búsqueda en Commons (mejor en inglés, 2-5 palabras)
-  alt: "Edificio de la Knéset en Jerusalén"   # qué se ve en la foto
+  buscar: ["Knesset building Jerusalem", "Knesset"]   # una o varias búsquedas en Commons (mejor en inglés, 2-5 palabras), de la más precisa a la más general
+  alt: "Edificio de la Knéset en Jerusalén"   # qué se ve (si Commons trae descripción, se usa la de Commons)
   pie: "Imagen de archivo de la sede de la Knéset en Jerusalén."
 ```
 

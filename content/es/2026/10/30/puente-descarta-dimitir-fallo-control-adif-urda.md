@@ -8,7 +8,7 @@ lugar: Madrid
 destacado: true
 etiquetas: [Urda, accidente ferroviario, Adif, Óscar Puente, alta velocidad]
 imagen:
-  buscar: "Renfe AVE S-112 high speed train"
+  buscar: ["Renfe AVE high speed train", "AVE Renfe", "Alta velocidad España tren"]
   alt: "Tren AVE de Renfe en una línea de alta velocidad"
   pie: "Imagen de archivo de un tren AVE de Renfe."
 fuentes:

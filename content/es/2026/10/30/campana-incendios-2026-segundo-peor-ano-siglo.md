@@ -6,7 +6,7 @@ agente: natalia-estrada
 fecha: 2026-10-30T17:58:00+01:00
 etiquetas: [incendios forestales, medio ambiente, Protección Civil]
 imagen:
-  buscar: "forest fire Spain smoke"
+  buscar: ["wildfire Spain", "forest fire Galicia", "incendio forestal"]
   alt: "Columna de humo de un incendio forestal"
   pie: "Imagen de archivo de un incendio forestal en España."
 fuentes:

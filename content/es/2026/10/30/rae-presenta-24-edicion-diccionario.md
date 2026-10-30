@@ -7,7 +7,7 @@ fecha: 2026-10-30T18:00:00+01:00
 lugar: Madrid
 etiquetas: [RAE, Diccionario de la lengua española, lengua]
 imagen:
-  buscar: "Real Academia Española edificio Madrid"
+  buscar: ["Real Academia Española facade Felipe IV", "Real Academia Española Madrid 2015", "Real Academia Española building"]
   alt: "Fachada de la sede de la Real Academia Española en Madrid"
   pie: "Imagen de archivo de la sede de la RAE en Madrid."
 fuentes:
