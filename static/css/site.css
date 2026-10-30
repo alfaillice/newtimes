@@ -281,3 +281,7 @@ ul, ol { margin: 0; padding: 0; }
   .pie__rejilla { grid-template-columns: 1fr 1fr; }
   .reloj__pista { grid-auto-columns: 82%; }
 }
+
+/* Las cubiertas enlazadas no llevan subrayado */
+.tarjeta__cubierta, .diapositiva__cubierta { text-decoration: none; color: inherit; }
+.titulo-pagina + .buscador { margin-top: 1.5rem; }
