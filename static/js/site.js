@@ -49,6 +49,36 @@
     }, { passive: true });
   });
 
+  /* Directo: la lista de última hora se actualiza sola cada minuto */
+  var feed = document.querySelector("[data-feed]");
+  if (feed) {
+    var estadoDirecto = document.querySelector("[data-estado-directo]");
+    var escapar = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+    var refrescar = function () {
+      fetch(feed.dataset.feed + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) {
+        var conocidas = {};
+        feed.querySelectorAll("[data-url]").forEach(function (li) { conocidas[li.dataset.url] = true; });
+        var nuevas = (d.noticias || []).filter(function (n) { return !conocidas[n.u]; });
+        nuevas.reverse().forEach(function (n) {
+          var li = document.createElement("li");
+          li.className = "minuto__item minuto__item--nuevo";
+          li.dataset.url = n.u;
+          var h = new Date(n.h);
+          var hh = ("0" + h.getHours()).slice(-2) + ":" + ("0" + h.getMinutes()).slice(-2);
+          li.innerHTML = '<time datetime="' + escapar(n.h) + '">' + hh + '</time><div><span class="minuto__seccion">' +
+            escapar(n.s) + '</span><a href="' + escapar(n.u) + '">' + escapar(n.t) + "</a></div>";
+          feed.insertBefore(li, feed.firstChild);
+        });
+        var ahora = new Date();
+        if (estadoDirecto) {
+          estadoDirecto.textContent = (nuevas.length ? nuevas.length + (nuevas.length === 1 ? " noticia nueva. " : " noticias nuevas. ") : "") +
+            "Comprobado a las " + ("0" + ahora.getHours()).slice(-2) + ":" + ("0" + ahora.getMinutes()).slice(-2);
+        }
+      }).catch(function () {});
+    };
+    setInterval(refrescar, 60000);
+  }
+
   /* Copiar enlace */
   document.querySelectorAll("[data-copiar]").forEach(function (b) {
     b.addEventListener("click", function () {

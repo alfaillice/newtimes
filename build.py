@@ -397,7 +397,7 @@ def preparar_foto(art: Articulo, salida: Path, cache: Path, avisos: list) -> Non
         art.foto = {
             "src": f"/img/n/{clave}-1200.jpg", "src_peq": f"/img/n/{clave}-640.jpg",
             "ancho": tamanos[1200][0], "alto": tamanos[1200][1],
-            "alt": img.get("descripcion_commons") or img.get("alt") or "", "pie": img.get("pie") or "",
+            "alt": img.get("alt") or img.get("descripcion_commons") or "", "pie": img.get("pie") or "",
             "autor": img.get("autor"), "licencia": LICENCIAS.get(img["licencia"], img["licencia"]),
             "licencia_url": img.get("licencia_url") or "", "fuente": img.get("fuente") or "",
             "original": original,
@@ -415,7 +415,7 @@ def generar_og(art: Articulo, salida: Path, cache: Path) -> str:
     except ImportError:
         return ""
     foto = art.foto["original"] if art.foto else None
-    clave = hashlib.sha1(f"v3|{art.titulo}|{art.seccion['slug']}|{art.fecha_iso}|{foto}".encode()).hexdigest()[:16]
+    clave = hashlib.sha1(f"v4|{art.titulo}|{art.seccion['slug']}|{art.fecha_iso}|{foto}".encode()).hexdigest()[:16]
     nombre = f"{clave}.png"
     destino = salida / "og" / nombre
     cacheado = cache / nombre
@@ -465,9 +465,9 @@ def generar_og(art: Articulo, salida: Path, cache: Path) -> str:
             d.text((80, y), linea, font=lora, fill="#FFFFFF")
             y += 80
         d.rectangle([0, H - 96, W, H], fill="#FFFFFF")
-        d.text((80, H - 70), "NEWTIMES", font=marca, fill="#14284B")
-        ancho = d.textlength("NEWTIMES", font=marca)
-        d.text((80 + ancho, H - 70), ".NEWS", font=marca, fill="#D21F2B")
+        logo = Image.open(RAIZ / "assets/og/logo.png").convert("RGBA")
+        logo = logo.resize((int(logo.width * 46 / logo.height), 46))
+        img.paste(logo, (80, H - 71), logo)
         img.save(cacheado, "PNG", optimize=True)
     shutil.copyfile(cacheado, destino)
     return f"/og/{nombre}"
@@ -513,6 +513,7 @@ class Constructor:
         pre = f"/{ed['prefijo']}" if ed["prefijo"] else ""
         t = codigo  # carpeta de plantillas
         base_ctx = dict(ed=ed, codigo=codigo, pre=pre, secciones=ed["secciones"])
+        base_ctx["ultima_hora"] = articulos[0] if articulos else None
         cache_og = RAIZ / ".cache" / "og"
         for a in articulos:
             preparar_foto(a, self.salida, RAIZ / ".cache" / "img", self.avisos)
@@ -582,6 +583,16 @@ class Constructor:
         (self.salida / pre.lstrip("/") / "buscar" / "indice.json").write_text(
             json.dumps(indice, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         self.escribir(f"{pre}/buscar/", self.render(f"{t}/buscar.html", **base_ctx), sitemap=False)
+
+        # Directo: vídeo y noticias minuto a minuto (el feed lo refresca el navegador)
+        feed = [{"t": a.titulo, "e": a.entradilla, "u": a.url, "s": a.seccion["nombre"], "c": a.seccion["color"],
+                 "h": a.fecha_iso, "a": a.autor, "f": a.foto["src_peq"] if a.foto else ""} for a in articulos[:40]]
+        (self.salida / pre.lstrip("/") / "directo").mkdir(parents=True, exist_ok=True)
+        (self.salida / pre.lstrip("/") / "directo" / "feed.json").write_text(
+            json.dumps({"generado": self.ahora.isoformat(), "noticias": feed}, ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8")
+        self.escribir(f"{pre}/directo/", self.render(f"{t}/directo.html", **base_ctx, lista=articulos[:40],
+                                                      seccion_actual="directo"), prioridad="0.9")
 
         # Equipo: una página general y una por agente
         agentes = cargar_agentes(codigo)

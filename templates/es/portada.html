@@ -1,5 +1,5 @@
 {% extends "es/base.html" %}
-{% from "es/_macros.html" import tarjeta, cubierta, meta, lista_simple, hora %}
+{% from "es/_macros.html" import tarjeta, cubierta, meta, lista_simple, hora, icono_directo %}
 {% block clase_body %}portada{% endblock %}
 {% block cabeza %}
 <script type="application/ld+json">
@@ -7,38 +7,43 @@
 </script>
 {% endblock %}
 {% block contenido %}
-<div class="edicion envoltura">
-  <p class="edicion__hora">
-    {% if destacados %}Última actualización a las <time datetime="{{ ultimo.isoformat() }}">{{ ultimo.strftime('%H:%M') }}</time>{% if total_hoy %}, {{ total_hoy }} {{ 'noticia publicada' if total_hoy == 1 else 'noticias publicadas' }} hoy{% endif %}{% endif %}
-  </p>
-</div>
+
 
 {% if destacados %}
-<section class="carrusel envoltura" aria-roledescription="carrusel" aria-label="Noticias principales">
+<section class="carrusel" aria-roledescription="carrusel" aria-label="Noticias principales">
   <div class="carrusel__pista" tabindex="0">
     {% for a in destacados %}
-    <article class="diapositiva" id="principal-{{ loop.index }}" aria-roledescription="diapositiva" aria-label="{{ loop.index }} de {{ destacados|length }}">
-      <a href="{{ a.url }}" class="diapositiva__cubierta" tabindex="-1" aria-hidden="true">{{ cubierta(a, grande=true) }}</a>
-      <div class="diapositiva__texto">
-        {{ meta(a, pre) }}
+    <article class="diapositiva{% if not a.foto %} diapositiva--sin-foto{% endif %}" id="principal-{{ loop.index }}" aria-roledescription="diapositiva" aria-label="{{ loop.index }} de {{ destacados|length }}" style="--c: {{ a.seccion.color }}">
+      {% if a.foto %}<img class="diapositiva__foto" src="{{ a.foto.src }}" alt="" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" {% if not loop.first %}loading="lazy"{% endif %}>{% endif %}
+      <div class="diapositiva__texto envoltura">
+        <p class="diapositiva__seccion"><a href="{{ pre }}/seccion/{{ a.seccion.slug }}/">{{ a.seccion.nombre }}</a></p>
         <h2 class="diapositiva__titulo"><a href="{{ a.url }}">{{ a.titulo }}</a></h2>
         <p class="diapositiva__entradilla">{{ a.entradilla }}</p>
+        <p class="diapositiva__meta">Por {{ a.autor }}, {{ hora(a) }}</p>
       </div>
     </article>
     {% endfor %}
   </div>
   {% if destacados|length > 1 %}
-  <div class="carrusel__controles">
+  <div class="carrusel__controles envoltura">
     <button type="button" class="carrusel__boton" data-dir="-1" aria-label="Noticia anterior">
-      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg>
     </button>
     <p class="carrusel__contador" aria-live="polite"><span data-actual>1</span> de {{ destacados|length }}</p>
     <button type="button" class="carrusel__boton" data-dir="1" aria-label="Noticia siguiente">
-      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg>
     </button>
   </div>
   {% endif %}
 </section>
+
+<a class="franja-directo" href="{{ pre }}/directo/">
+  <span class="envoltura franja-directo__fila">
+    <span class="insignia-directo">{{ icono_directo() }}<span>En directo</span></span>
+    <span class="franja-directo__texto">Televisión en vivo y última hora, minuto a minuto</span>
+    <span class="franja-directo__accion">Ver ahora</span>
+  </span>
+</a>
 {% else %}
 <section class="vacio envoltura">
   <h1>La redacción está preparando la primera edición</h1>
@@ -66,7 +71,10 @@
 
 {% if ultima %}
 <section class="envoltura columna-ultima" aria-labelledby="ultima-titulo">
-  <h2 id="ultima-titulo" class="titulo-bloque">Lo último</h2>
+  <div class="bloque__cabecera bloque__cabecera--sencilla">
+    <h2 id="ultima-titulo" class="titulo-bloque">Lo último</h2>
+    {% if total_hoy %}<p class="bloque__mas">Actualizado a las <time datetime="{{ ultimo.isoformat() }}">{{ ultimo.strftime('%H:%M') }}</time>, {{ total_hoy }} {{ 'noticia' if total_hoy == 1 else 'noticias' }} hoy</p>{% endif %}
+  </div>
   {{ lista_simple(ultima, pre) }}
 </section>
 {% endif %}
@@ -79,7 +87,7 @@
   </div>
   <div class="bloque__rejilla">
     {% for a in lista %}
-    {{ tarjeta(a, pre, con_cubierta=loop.first, con_entradilla=loop.first, seccion=false) }}
+    {{ tarjeta(a, pre, con_cubierta=true, con_entradilla=loop.first, seccion=false) }}
     {% endfor %}
   </div>
 </section>

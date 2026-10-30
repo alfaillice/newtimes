@@ -13,6 +13,13 @@ titular:
   email: "redaccion@newtimes.news"
   registro: ""   # inscripción registral si es sociedad; vacío si es persona física
 
+# Sección Directo: señal de televisión insertada con el reproductor oficial
+# de YouTube (dominio sin cookies). Para cambiar de canal, cambia el ID.
+directo:
+  youtube_id: zTv0hCakAhg
+  canal: FRANCE 24 Español
+  canal_url: https://www.youtube.com/@France24_es
+
 # Imágenes: solo se descargan de estos servidores (bancos con licencias
 # libres y fuentes oficiales que permiten la reutilización). Cualquier otra
 # procedencia, incluidos los medios de comunicación, se rechaza.

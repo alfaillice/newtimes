@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+{% from "es/_macros.html" import icono_directo %}
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +21,7 @@
 <link rel="preload" href="/fonts/inter-400.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="/css/site.css?v={{ v }}">
 <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="NewTimes.news" href="{{ pre }}/rss.xml">
 {% block cabeza %}{% endblock %}
 </head>
@@ -37,7 +39,10 @@
   </div>
   <div class="cabecera__marca envoltura">
     <a class="logo" href="{{ pre }}/" aria-label="NewTimes.news, ir a la portada">
-      <span class="logo__new">NEWTIMES</span><span class="logo__news">.NEWS</span>
+      <picture>
+        <source srcset="/img/logo-claro.svg" media="(prefers-color-scheme: dark)">
+        <img src="/img/logo.svg" alt="NewTimes.news" width="517" height="77">
+      </picture>
     </a>
     <a class="cabecera__buscar" href="{{ pre }}/buscar/">
       <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
@@ -46,12 +51,22 @@
   </div>
   <nav class="secciones" aria-label="Secciones">
     <ul class="secciones__lista envoltura" role="list">
+      <li class="secciones__directo"><a class="boton-directo" href="{{ pre }}/directo/" {% if seccion_actual == 'directo' %}aria-current="page"{% endif %}>{{ icono_directo() }}<span>Directo</span></a></li>
       {% for s in secciones %}
       <li><a href="{{ pre }}/seccion/{{ s.slug }}/" style="--c: {{ s.color }}" {% if seccion_actual == s.slug %}aria-current="page"{% endif %}>{{ s.nombre }}</a></li>
       {% endfor %}
       <li class="secciones__extra"><a href="{{ pre }}/hemeroteca/">Hemeroteca</a></li>
     </ul>
   </nav>
+  {% if ultima_hora and seccion_actual != 'directo' %}
+  <div class="ultima-hora">
+    <div class="envoltura ultima-hora__fila">
+      <p class="ultima-hora__etiqueta">Última hora</p>
+      <p class="ultima-hora__titular"><time datetime="{{ ultima_hora.fecha_iso }}">{{ ultima_hora.fecha.strftime('%H:%M') }}</time> <a href="{{ ultima_hora.url }}">{{ ultima_hora.titulo }}</a></p>
+      <a class="ultima-hora__directo" href="{{ pre }}/directo/">Ver el directo</a>
+    </div>
+  </div>
+  {% endif %}
 </header>
 
 <main id="contenido" tabindex="-1">
@@ -61,7 +76,10 @@
 <footer class="pie">
   <div class="envoltura pie__rejilla">
     <div class="pie__marca">
-      <p class="logo logo--pie"><span class="logo__new">NEWTIMES</span><span class="logo__news">.NEWS</span></p>
+      <p class="logo logo--pie"><picture>
+          <source srcset="/img/logo-claro.svg" media="(prefers-color-scheme: dark)">
+          <img src="/img/logo.svg" alt="NewTimes.news" width="517" height="77">
+      </picture></p>
       <p>{{ ed.lema }}</p>
       <p class="pie__ia">Las noticias de NewTimes.news las redacta un sistema de inteligencia artificial a partir de las fuentes que se citan en cada pieza. <a href="{{ pre }}/como-trabajamos/">Cómo trabajamos</a></p>
     </div>
@@ -88,7 +106,7 @@
       </ul>
     </nav>
   </div>
-  <p class="envoltura pie__copy">© {{ ahora.year }} NewTimes.news. Esta web no usa cookies ni rastreadores.</p>
+  <p class="envoltura pie__copy">© {{ ahora.year }} NewTimes.news. Esta web no usa cookies propias ni rastreadores.</p>
 </footer>
 <script src="/js/site.js?v={{ v }}" defer></script>
 {% block scripts %}{% endblock %}

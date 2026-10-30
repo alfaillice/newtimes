@@ -1,0 +1,63 @@
+{% extends "es/base.html" %}
+{% from "es/_macros.html" import icono_directo, hora %}
+{% block titulo %}En directo | NewTimes.news{% endblock %}
+{% block descripcion %}Sigue en directo la actualidad: televisión en vivo y las últimas noticias de NewTimes.news, minuto a minuto.{% endblock %}
+{% block canonica %}{{ pre }}/directo/{% endblock %}
+{% block clase_body %}pagina-directo{% endblock %}
+{% block contenido %}
+<section class="directo" aria-labelledby="directo-titulo">
+  <div class="envoltura directo__cabecera">
+    <p class="insignia-directo">{{ icono_directo() }}<span>En directo</span></p>
+    <h1 id="directo-titulo" class="directo__titulo">La actualidad, ahora</h1>
+  </div>
+  <div class="envoltura directo__rejilla">
+    <div class="directo__video">
+      <div class="video">
+        <iframe src="https://www.youtube-nocookie.com/embed/{{ cfg.directo.youtube_id }}?autoplay=1&amp;mute=1&amp;playsinline=1&amp;rel=0"
+                title="{{ cfg.directo.canal }} en directo"
+                allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+      <p class="directo__credito">Señal en directo de <a href="{{ cfg.directo.canal_url }}" rel="noopener" target="_blank">{{ cfg.directo.canal }}</a> a través de YouTube. El vídeo empieza sin sonido: actívalo desde el reproductor. NewTimes.news no es responsable de los contenidos de esta emisión.</p>
+    </div>
+    <aside class="directo__ultima" aria-labelledby="ultima-directo">
+      <div class="directo__ultima-cabecera">
+        <h2 id="ultima-directo">Última hora</h2>
+        <p class="directo__estado" data-estado-directo aria-live="polite">Se actualiza sola</p>
+      </div>
+      <ol class="minuto" role="list" data-feed="{{ pre }}/directo/feed.json">
+        {% for a in lista[:12] %}
+        <li class="minuto__item" data-url="{{ a.url }}">
+          <time datetime="{{ a.fecha_iso }}">{{ a.fecha.strftime('%H:%M') }}</time>
+          <div>
+            <span class="minuto__seccion" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}</span>
+            <a href="{{ a.url }}">{{ a.titulo }}</a>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </aside>
+  </div>
+</section>
+
+<section class="envoltura minuto-completo" aria-labelledby="minuto-titulo">
+  <h2 id="minuto-titulo" class="titulo-bloque">Minuto a minuto</h2>
+  <ol class="cronologia" role="list">
+    {% for a in lista %}
+    <li class="cronologia__item">
+      <p class="cronologia__hora">{{ hora(a) }}</p>
+      <article class="cronologia__pieza">
+        {% if a.foto %}<a href="{{ a.url }}" class="cronologia__foto" tabindex="-1" aria-hidden="true"><img src="{{ a.foto.src_peq }}" alt="" loading="lazy" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}"></a>{% endif %}
+        <div>
+          <p class="cronologia__seccion" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}, por {{ a.autor }}</p>
+          <h3><a href="{{ a.url }}">{{ a.titulo }}</a></h3>
+          <p>{{ a.entradilla }}</p>
+        </div>
+      </article>
+    </li>
+    {% else %}
+    <li>Todavía no hay noticias hoy.</li>
+    {% endfor %}
+  </ol>
+</section>
+{% endblock %}
