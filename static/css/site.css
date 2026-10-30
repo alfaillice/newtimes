@@ -442,3 +442,9 @@ ul, ol { margin: 0; padding: 0; }
   .bloque__cabecera { flex-wrap: wrap; row-gap: .3rem; }
   .bloque__cabecera--sencilla .bloque__mas { white-space: normal; flex-basis: 100%; }
 }
+
+/* Pausa del pase automático del carrusel */
+.carrusel__pausa .icono-play { display: none; }
+.carrusel__boton--pausado .icono-pausa { display: none; }
+.carrusel__boton--pausado .icono-play { display: block; }
+.carrusel__pausa[hidden] { display: none; }

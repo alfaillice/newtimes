@@ -47,6 +47,41 @@
       clearTimeout(espera);
       espera = setTimeout(function () { if (actual) actual.textContent = indice() + 1; }, 80);
     }, { passive: true });
+
+    /* Avance automático cada 7 segundos. Se detiene con el ratón o el foco encima,
+       con la pestaña oculta, con el botón de pausa o si el sistema pide menos movimiento. */
+    var boton = c.querySelector("[data-pausa]");
+    if (total < 2) return;
+    var reducir = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var pausadoUsuario = reducir;
+    var encima = false;
+    var reloj = null;
+    function pintarBoton() {
+      if (!boton) return;
+      boton.setAttribute("aria-label", pausadoUsuario ? "Reanudar el pase automático" : "Pausar el pase automático");
+      boton.setAttribute("aria-pressed", pausadoUsuario ? "true" : "false");
+      boton.classList.toggle("carrusel__boton--pausado", pausadoUsuario);
+    }
+    function arrancar() {
+      parar();
+      if (pausadoUsuario || encima || document.hidden) return;
+      reloj = setInterval(function () { ir(indice() + 1); }, 7000);
+    }
+    function parar() { if (reloj) { clearInterval(reloj); reloj = null; } }
+    c.addEventListener("mouseenter", function () { encima = true; parar(); });
+    c.addEventListener("mouseleave", function () { encima = false; arrancar(); });
+    c.addEventListener("focusin", function () { encima = true; parar(); });
+    c.addEventListener("focusout", function (e) { if (!c.contains(e.relatedTarget)) { encima = false; arrancar(); } });
+    pista.addEventListener("touchstart", function () { parar(); }, { passive: true });
+    pista.addEventListener("touchend", function () { arrancar(); }, { passive: true });
+    document.addEventListener("visibilitychange", arrancar);
+    if (boton) {
+      boton.hidden = false;
+      boton.addEventListener("click", function () { pausadoUsuario = !pausadoUsuario; pintarBoton(); arrancar(); });
+    }
+    c.querySelectorAll("[data-dir]").forEach(function (b) { b.addEventListener("click", arrancar); });
+    pintarBoton();
+    arrancar();
   });
 
   /* Directo: la lista de última hora se actualiza sola cada minuto */
