@@ -95,6 +95,16 @@ def md_a_html(texto: str) -> str:
     return markdown.markdown(seguro, extensions=["extra", "sane_lists"], output_format="html")
 
 
+def tras_parrafo(htmltxt: str, bloque, n: int = 3) -> str:
+    """Inserta un bloque (p. ej. un anuncio) tras el párrafo n, solo si quedan al menos
+    dos párrafos detrás, para no cortar noticias cortas."""
+    bloque = str(bloque or "").strip()
+    partes = htmltxt.split("</p>")
+    if not bloque or len(partes) - 1 < n + 2:
+        return htmltxt
+    return "</p>".join(partes[:n]) + "</p>\n" + bloque + "\n" + "</p>".join(partes[n:]).lstrip("\n")
+
+
 def texto_plano(htmltxt: str) -> str:
     return html.unescape(re.sub(r"<[^>]+>", " ", htmltxt)).strip()
 
@@ -484,7 +494,8 @@ class Constructor:
         self.env = Environment(loader=FileSystemLoader(RAIZ / "templates"),
                                autoescape=select_autoescape(["html", "xml"]),
                                trim_blocks=True, lstrip_blocks=True)
-        self.env.filters.update(fecha_larga=fecha_larga, fecha_corta=fecha_corta, fecha_dia=fecha_dia)
+        self.env.filters.update(fecha_larga=fecha_larga, fecha_corta=fecha_corta, fecha_dia=fecha_dia,
+                                tras_parrafo=tras_parrafo)
         self.version = self._version_estaticos()
         self.paginas_sitemap: list[tuple[str, str]] = []
         self.avisos: list[str] = []

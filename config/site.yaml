@@ -20,6 +20,18 @@ directo:
   canal: FRANCE 24 Español
   canal_url: https://www.youtube.com/@France24_es
 
+# Publicidad (Google AdSense). Cada bloque solo aparece cuando tiene su
+# identificador ("data-ad-slot", 10 cifras) creado en el panel de AdSense.
+publicidad:
+  activa: true
+  cliente: ca-pub-8207026302114375
+  bloques:              # bloque adaptable «encabezado» (5085417706), reutilizado
+    portada: "5085417706"          # banda horizontal entre secciones de la portada
+    articulo: "5085417706"         # dentro del texto, tras el tercer párrafo
+    articulo_final: "5085417706"   # al final de la noticia, tras las fuentes
+    seccion: "5085417706"          # entre las noticias de cada sección
+    directo: "5085417706"          # en el minuto a minuto, bajo el vídeo
+
 # Imágenes: solo se descargan de estos servidores (bancos con licencias
 # libres y fuentes oficiales que permiten la reutilización). Cualquier otra
 # procedencia, incluidos los medios de comunicación, se rechaza.

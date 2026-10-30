@@ -1,5 +1,5 @@
 {% extends "es/base.html" %}
-{% from "es/_macros.html" import icono_directo, hora %}
+{% from "es/_macros.html" import icono_directo, hora, anuncio %}
 {% block titulo %}En directo | NewTimes.news{% endblock %}
 {% block descripcion %}Sigue en directo la actualidad: televisión en vivo y las últimas noticias de NewTimes.news, minuto a minuto.{% endblock %}
 {% block canonica %}{{ pre }}/directo/{% endblock %}
@@ -55,6 +55,7 @@
         </div>
       </article>
     </li>
+    {% if loop.index == 4 and not loop.last %}<li class="cronologia__anuncio">{{ anuncio(cfg, 'directo') }}</li>{% endif %}
     {% else %}
     <li>Todavía no hay noticias hoy.</li>
     {% endfor %}

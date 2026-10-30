@@ -8,7 +8,7 @@ resumen: Qué datos personales trata NewTimes.news, para qué y cuáles son tus 
 
 ## Qué datos tratamos
 
-NewTimes.news no tiene registro de usuarios, no usa cookies propias, no instala herramientas de analítica ni publicidad y no comparte datos con terceros con fines comerciales.
+NewTimes.news no tiene registro de usuarios ni herramientas de analítica, y no instala cookies propias. La web se financia con publicidad de Google AdSense, que funciona como se explica más abajo.
 
 Solo se tratan estos datos:
 
@@ -16,6 +16,8 @@ Solo se tratan estos datos:
 - **Mensajes que nos envías.** Si escribes al correo de contacto, usamos tu dirección y tu mensaje solo para responderte o atender tu petición. Base jurídica: tu consentimiento al escribirnos. Se conservan el tiempo necesario para resolverla.
 
 - **Vídeo en directo.** La página Directo incluye el reproductor de YouTube en su modo de privacidad mejorada. Si reproduces la emisión, Google trata los datos de esa reproducción como responsable independiente, conforme a su propia política de privacidad. NewTimes.news no recibe ni guarda esos datos.
+
+- **Publicidad.** Los anuncios los sirve Google AdSense. Google y sus socios publicitarios pueden tratar datos de tu navegación (identificadores de cookies o del dispositivo, dirección IP, páginas visitadas) para mostrar y medir anuncios y, solo si lo aceptas en la ventana de consentimiento, para personalizarlos. Base jurídica: tu consentimiento (artículo 6.1.a del RGPD), que puedes retirar en cualquier momento desde «Configurar cookies» al pie de la web. Google actúa como responsable independiente de esos datos según su [política de privacidad](https://policies.google.com/privacy). Más detalle en la [política de cookies](/cookies/).
 
 ## Proveedores
 

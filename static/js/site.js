@@ -114,6 +114,22 @@
     setInterval(refrescar, 60000);
   }
 
+  /* Publicidad: activa cada bloque de AdSense de la página (sin scripts en línea) */
+  document.querySelectorAll("ins.adsbygoogle").forEach(function () {
+    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) { /* sin anuncio */ }
+  });
+
+  /* Reabrir la ventana de consentimiento de cookies (Google Privacidad y mensajes) */
+  document.querySelectorAll("[data-consentimiento]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      window.googlefc = window.googlefc || {};
+      window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+      window.googlefc.callbackQueue.push(function () {
+        if (window.googlefc.showRevocationMessage) window.googlefc.showRevocationMessage();
+      });
+    });
+  });
+
   /* Copiar enlace */
   document.querySelectorAll("[data-copiar]").forEach(function (b) {
     b.addEventListener("click", function () {

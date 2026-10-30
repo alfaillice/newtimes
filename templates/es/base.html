@@ -23,6 +23,9 @@
 <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="NewTimes.news" href="{{ pre }}/rss.xml">
+{% if cfg.publicidad and cfg.publicidad.activa %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ cfg.publicidad.cliente }}" crossorigin="anonymous"></script>
+{% endif %}
 {% block cabeza %}{% endblock %}
 </head>
 <body class="{% block clase_body %}{% endblock %}">
@@ -103,10 +106,11 @@
         <li><a href="{{ pre }}/aviso-legal/">Aviso legal</a></li>
         <li><a href="{{ pre }}/privacidad/">Privacidad</a></li>
         <li><a href="{{ pre }}/cookies/">Cookies</a></li>
+        {% if cfg.publicidad and cfg.publicidad.activa %}<li><button type="button" class="pie__boton" data-consentimiento>Configurar cookies</button></li>{% endif %}
       </ul>
     </nav>
   </div>
-  <p class="envoltura pie__copy">© {{ ahora.year }} NewTimes.news. Esta web no usa cookies propias ni rastreadores.</p>
+  <p class="envoltura pie__copy">© {{ ahora.year }} NewTimes.news. {% if cfg.publicidad and cfg.publicidad.activa %}La publicidad la sirve Google AdSense según tus preferencias de cookies.{% else %}Esta web no usa cookies propias ni rastreadores.{% endif %}</p>
 </footer>
 <script src="/js/site.js?v={{ v }}" defer></script>
 {% block scripts %}{% endblock %}

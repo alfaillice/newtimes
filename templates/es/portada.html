@@ -1,5 +1,5 @@
 {% extends "es/base.html" %}
-{% from "es/_macros.html" import tarjeta, cubierta, meta, lista_simple, hora, icono_directo %}
+{% from "es/_macros.html" import tarjeta, cubierta, meta, lista_simple, hora, icono_directo, anuncio %}
 {% block clase_body %}portada{% endblock %}
 {% block cabeza %}
 <script type="application/ld+json">
@@ -83,6 +83,8 @@
 </section>
 {% endif %}
 
+<div class="envoltura">{{ anuncio(cfg, 'portada') }}</div>
+
 {% for s, lista in bloques %}
 <section class="bloque envoltura" aria-labelledby="bloque-{{ s.slug }}" style="--c: {{ s.color }}">
   <div class="bloque__cabecera">
@@ -95,5 +97,6 @@
     {% endfor %}
   </div>
 </section>
+{% if loop.index % 3 == 0 and not loop.last %}<div class="envoltura">{{ anuncio(cfg, 'portada') }}</div>{% endif %}
 {% endfor %}
 {% endblock %}

@@ -448,3 +448,17 @@ ul, ol { margin: 0; padding: 0; }
 .carrusel__boton--pausado .icono-pausa { display: none; }
 .carrusel__boton--pausado .icono-play { display: block; }
 .carrusel__pausa[hidden] { display: none; }
+
+/* ---------- Publicidad: separada del contenido y con su espacio reservado */
+.anuncio { margin-block: clamp(2rem, 5vw, 3rem); padding-block: .6rem 1rem; border-block: 1px solid var(--linea); text-align: center; }
+.anuncio__etiqueta { font-family: var(--sans); font-size: .6875rem; letter-spacing: .02em; color: var(--suave); margin-bottom: .5rem; text-align: left; }
+.anuncio__hueco { min-height: 100px; }
+.anuncio--portada .anuncio__hueco, .anuncio--articulo_final .anuncio__hueco { min-height: 120px; }
+.anuncio--seccion { grid-column: 1 / -1; margin-block: 0; }
+.articulo__cuerpo .anuncio { margin-block: 2em; }
+.articulo__cuerpo .anuncio--articulo .anuncio__hueco { min-height: 250px; }
+.cronologia__anuncio { padding-block: .5rem; border-top: 1px solid var(--linea); }
+.cronologia__anuncio .anuncio { margin-block: .5rem; border: 0; }
+.anuncio:has(ins[data-ad-status="unfilled"]) { display: none; }
+.pie__boton { font: inherit; color: var(--texto); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
+.pie__boton:hover { text-decoration: underline; color: var(--enlace-hover); }

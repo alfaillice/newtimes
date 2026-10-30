@@ -1,5 +1,5 @@
 {% extends "es/base.html" %}
-{% from "es/_macros.html" import tarjeta, cubierta %}
+{% from "es/_macros.html" import tarjeta, cubierta, anuncio %}
 {% set seccion_actual = a.seccion.slug %}
 {% block titulo %}{{ a.titulo }} | NewTimes.news{% endblock %}
 {% block descripcion %}{{ a.entradilla }}{% endblock %}
@@ -57,7 +57,7 @@
   {% endif %}
 
   <div class="articulo__cuerpo">
-    {{ a.cuerpo_html|safe }}
+    {{ a.cuerpo_html|tras_parrafo(anuncio(cfg, 'articulo'), 3)|safe }}
   </div>
 
   <aside class="fuentes" aria-labelledby="fuentes-titulo">
@@ -86,6 +86,8 @@
     <button type="button" data-copiar>Copiar enlace</button>
   </div>
 </article>
+
+<div class="envoltura">{{ anuncio(cfg, 'articulo_final') }}</div>
 
 {% if relacionados %}
 <section class="bloque envoltura" style="--c: {{ a.seccion.color }}" aria-labelledby="mas-seccion">
