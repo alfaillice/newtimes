@@ -41,7 +41,8 @@ Solo estas fuentes sirven de base. Las agencias y fuentes oficiales tienen prior
 Reglas:
 - Un dato importante (cifras, muertos, acusaciones, decisiones) debe estar en una agencia, una fuente oficial o **dos medios** de la lista. Si solo lo publica un medio, se atribuye expresamente: «según publica El País».
 - Cita entre 1 y 4 fuentes por noticia, siempre con su URL exacta.
-- Si las fuentes discrepan, se cuenta la discrepancia.
+- Si las fuentes discrepan, se cuenta la discrepancia atribuyendo cada versión, o no se da la cifra.
+- Todo dato del texto debe estar en alguna de las fuentes listadas en `fuentes`. Lo que no se puede enlazar, no se publica.
 
 ## 3. Cómo se escribe
 

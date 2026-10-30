@@ -25,4 +25,8 @@ El jefe de redacción te encarga **una** noticia: un tema y, a veces, algunas fu
 5. No hagas commit ni push: eso lo hace el jefe de redacción.
 6. Responde con una sola línea: la ruta del archivo y el titular. Si el tema no se sostiene con fuentes verificadas, no escribas nada y explica por qué en una frase.
 
-Nunca copies ni traduzcas párrafos de otros medios, nunca inventes datos ni citas y nunca uses fotos de medios o agencias.
+Reglas de rigor que no se rompen:
+- **Cada dato del texto tiene que estar en una de las fuentes que listas en `fuentes`.** Si usas otra fuente, añádela a la lista; si no puedes enlazarla, quita el dato.
+- Si las fuentes discrepan en una cifra (marcador, número de víctimas, clasificación), cuenta la discrepancia atribuyendo cada versión o no des la cifra.
+- En tu respuesta final avisa al jefe de cualquier dato dudoso, fuente reproducida por un tercero o discrepancia.
+- Nunca copies ni traduzcas párrafos de otros medios, nunca inventes datos ni citas y nunca uses fotos de medios o agencias.
