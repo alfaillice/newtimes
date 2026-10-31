@@ -4,7 +4,7 @@ entradilla: El balance provisional del accidente entre un AVE y un tren de Iryo 
 seccion: espana
 agente: alvaro-luna
 fecha: 2026-10-30T18:05:00+01:00
-actualizado: 2026-10-30T21:21:00+01:00
+actualizado: 2026-10-31T03:11:00+01:00
 lugar: Madrid
 destacado: true
 etiquetas: [Urda, accidente ferroviario, Adif, Óscar Puente, alta velocidad]
@@ -37,7 +37,7 @@ Puente defendió que el centro de control no tenía falta de personal y que func
 
 El balance provisional es de 69 fallecidos, y el presidente de Castilla-La Mancha, Emiliano García-Page, no descarta que la cifra aumente. Más de un centenar de personas resultaron heridas; en los hospitales de la región siguen ingresadas 39, de ellas 17 en cuidados intensivos.
 
-Las autoridades han recibido unas 70 denuncias por desaparición, dos de las cuales corresponden a personas que han sido localizadas con vida. A primera hora de este viernes se habían comunicado cinco identificaciones a las familias. La Guardia Civil ha reanudado los trabajos en la zona del siniestro. En Urda se celebrará una misa funeral el sábado a las 12.00, en la segunda jornada del luto oficial.
+Las autoridades han recibido unas 70 denuncias por desaparición, dos de las cuales corresponden a personas que han sido localizadas con vida. A primera hora de este viernes se habían comunicado cinco identificaciones a las familias. La Guardia Civil ha reanudado los trabajos en la zona del siniestro. En Urda se celebrará una misa funeral el sábado a las 12.00, en la tercera y última jornada del luto oficial.
 
 ## Reacciones políticas
 
@@ -50,3 +50,5 @@ Los sindicatos UGT y CGT alertan del cansancio y la presión que soportan los co
 La línea de alta velocidad entre Madrid y Andalucía sigue cortada a la altura de Urda. Renfe mantiene servicios especiales entre Madrid y Ciudad Real por vía convencional, con un trayecto de unas dos horas y media. Iberia e Iberia Express han casi duplicado su oferta de vuelos con Andalucía, y Ryanair ha añadido dos vuelos diarios entre Málaga y Madrid.
 
 *Corrección: en una versión anterior se decía que UGT y CGT habían anunciado movilizaciones; lo correcto es que la huelga convocada para el 10 y el 12 de noviembre es del sindicato Semaf.*
+
+*Corrección: en una versión anterior se decía que el sábado era la segunda jornada del luto oficial; lo correcto es que es la tercera y última.*
