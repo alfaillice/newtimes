@@ -328,24 +328,24 @@ ul, ol { margin: 0; padding: 0; }
 @media (prefers-reduced-motion: reduce) { .insignia-directo .icono-directo { animation: none; } }
 
 /* Portada: noticia principal a sangre con el titular sobre la foto */
-.carrusel { background: var(--noche); color: #fff; }
+.carrusel { background: var(--noche); color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; font-optical-sizing: auto; }
 .carrusel__pista { display: grid; grid-auto-flow: column; grid-auto-columns: 100%; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scrollbar-width: none; }
 .carrusel__pista::-webkit-scrollbar { display: none; }
 @media (prefers-reduced-motion: reduce) { .carrusel__pista { scroll-behavior: auto; } }
 .diapositiva { scroll-snap-align: start; position: relative; display: flex; align-items: flex-end; min-height: clamp(27rem, 68vh, 42rem); background: var(--c); overflow: hidden; isolation: isolate; }
 .diapositiva__foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
-.diapositiva::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(10,23,48,0) 25%, rgba(10,23,48,.55) 55%, rgba(10,23,48,.94) 100%); }
+.diapositiva::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(10,23,48,0) 20%, rgba(10,23,48,.35) 40%, rgba(10,23,48,.78) 62%, rgba(10,23,48,.96) 100%); }
 .diapositiva--sin-foto::before { content: ""; position: absolute; inset: 0; z-index: -2; background: repeating-linear-gradient(90deg, rgba(255,255,255,.06) 0 1px, transparent 1px 88px); }
 .diapositiva__texto { padding-block: 3rem 2.2rem; }
 .diapositiva__seccion a { display: inline-block; font-family: var(--sans); font-weight: 600; font-size: .875rem; color: #fff; text-decoration: none; background: var(--c); padding: .25rem .65rem; border-radius: 3px; }
-.diapositiva__titulo { margin-top: .9rem; max-width: 22ch; font-size: clamp(2.1rem, 5.4vw, 4.1rem); line-height: 1.04; font-weight: 700; letter-spacing: -.015em; color: #fff; text-shadow: 0 2px 18px rgba(0,0,0,.35); }
+.diapositiva__titulo { margin-top: .9rem; max-width: 22ch; font-size: clamp(2.1rem, 5.4vw, 4.1rem); line-height: 1.08; font-weight: 700; letter-spacing: -.01em; color: #fff; text-shadow: 0 1px 2px rgba(5,12,26,.5); text-wrap: balance; }
 .diapositiva__titulo a { color: inherit; text-decoration: none; }
 .diapositiva__titulo a:hover { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: .12em; }
-.diapositiva__entradilla { margin-top: 1rem; max-width: 46rem; font-size: clamp(1.05rem, 1.6vw, 1.25rem); line-height: 1.5; color: #E3E9F2; }
-.diapositiva__meta { margin-top: 1rem; font-family: var(--sans); font-size: .875rem; color: #C3CEDF; }
+.diapositiva__entradilla { margin-top: 1rem; max-width: 46rem; font-size: clamp(1.05rem, 1.6vw, 1.25rem); line-height: 1.5; font-weight: 450; color: #F1F4F9; text-shadow: 0 1px 1px rgba(5,12,26,.45); }
+.diapositiva__meta { margin-top: 1rem; font-family: var(--sans); font-size: .875rem; color: #D5DDEA; }
 .carrusel__controles { display: flex; align-items: center; justify-content: flex-end; gap: .75rem; padding-block: 0 1.4rem; margin-top: -3.6rem; position: relative; font-family: var(--sans); font-size: .875rem; color: #C3CEDF; pointer-events: none; }
 .carrusel__controles > * { pointer-events: auto; }
-.carrusel__boton { width: 2.75rem; height: 2.75rem; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.4); border-radius: 50%; background: rgba(10,23,48,.5); color: #fff; cursor: pointer; backdrop-filter: blur(4px); }
+.carrusel__boton { width: 2.75rem; height: 2.75rem; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.4); border-radius: 50%; background: rgba(10,23,48,.72); color: #fff; cursor: pointer; }
 .carrusel__boton:hover { background: #fff; color: var(--noche); }
 .carrusel__contador { font-variant-numeric: tabular-nums; min-width: 4.5rem; text-align: center; }
 

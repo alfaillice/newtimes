@@ -39,10 +39,15 @@
     var actual = c.querySelector("[data-actual]");
     if (!pista) return;
     var total = pista.children.length;
-    function indice() { return Math.round(pista.scrollLeft / pista.clientWidth); }
+    /* Posiciones calculadas sobre las diapositivas reales: con zoom o escalado
+       de pantalla el ancho puede ser fraccionario y clientWidth (entero) dejaba
+       el texto a medio píxel, con aspecto borroso. */
+    function ancho() { return pista.getBoundingClientRect().width || pista.clientWidth; }
+    function indice() { return Math.round(pista.scrollLeft / ancho()); }
     function ir(i) {
       i = (i + total) % total;
-      pista.scrollTo({ left: i * pista.clientWidth });
+      var d = pista.children[i];
+      pista.scrollTo({ left: d ? d.offsetLeft - pista.children[0].offsetLeft : i * ancho() });
     }
     c.querySelectorAll("[data-dir]").forEach(function (b) {
       b.addEventListener("click", function () { ir(indice() + Number(b.dataset.dir)); });
