@@ -21,7 +21,7 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 
 ## Registro de revisiones
 
-### Revisión 2 · 31/10/2026 21:50
+### Revisión 2 · 31/10/2026 21:40
 **Cambios desde la revisión 1** (git log): 50 commits; edición en inglés `/en/` con 4 noticias (c014a77), redactor automático en el servidor con la API de Claude (d095676, requiere instalación en el VPS), menú fijo, reglas de rigor (duplicados, datos solo si están en las fuentes), retirada de una noticia duplicada.
 
 **Datos verificados**
