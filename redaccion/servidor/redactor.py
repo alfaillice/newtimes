@@ -16,8 +16,10 @@ Variables de entorno (en /etc/newtimes/redactor.env):
   NEWTIMES_MODELO     modelo (por defecto claude-haiku-5-5)
   NEWTIMES_MAX        noticias máximas por ejecución (por defecto 3)
 
-Uso:  python3 redaccion/servidor/redactor.py [--prueba] [--max N]
-      --prueba  escribe los archivos pero no hace commit ni push
+Uso:  python3 redaccion/servidor/redactor.py [--prueba] [--max N] [--edicion es|en]
+      --prueba   escribe los archivos pero no hace commit ni push
+      --edicion  es (por defecto; RSS de config/fuentes_rss.yaml, guía GUIA.md) o
+                 en (RSS de config/fuentes_rss_en.yaml, guía GUIDE.md, escribe en content/en/)
 """
 import argparse
 import email.utils
@@ -42,6 +44,9 @@ TZ = ZoneInfo("Europe/Madrid")
 UA = {"User-Agent": "NewTimesBot/1.0 (+https://newtimes.news/como-trabajamos/)"}
 API = "https://api.anthropic.com/v1/messages"
 GASTO = {"entrada": 0, "salida": 0}
+EDICION = "es"   # la cambia main() con --edicion
+FEEDS = {"es": "config/fuentes_rss.yaml", "en": "config/fuentes_rss_en.yaml"}
+GUIAS = {"es": "redaccion/GUIA.md", "en": "redaccion/GUIDE.md"}
 
 
 def log(*a):
@@ -98,7 +103,7 @@ def limpiar(t: str) -> str:
 
 
 def leer_feeds(horas: int) -> list[dict]:
-    cfg = yaml.safe_load((RAIZ / "config/fuentes_rss.yaml").read_text(encoding="utf-8"))
+    cfg = yaml.safe_load((RAIZ / FEEDS[EDICION]).read_text(encoding="utf-8"))
     limite = datetime.now(TZ) - timedelta(hours=horas)
     items, vistos = [], set()
     for seccion, feeds in cfg.items():
@@ -174,7 +179,7 @@ def texto_pagina(url: str) -> str:
 def recientes(horas: int = 48) -> list[tuple]:
     limite = datetime.now(TZ) - timedelta(hours=horas)
     filas = []
-    for ruta in (RAIZ / "content/es").glob("[0-9]*/[0-9]*/[0-9]*/*.md"):
+    for ruta in (RAIZ / "content" / EDICION).glob("[0-9]*/[0-9]*/[0-9]*/*.md"):
         try:
             meta = yaml.safe_load(ruta.read_text(encoding="utf-8").split("\n---", 1)[0][3:]) or {}
             f = meta["fecha"]
@@ -189,7 +194,8 @@ def recientes(horas: int = 48) -> list[tuple]:
 
 def slugify(texto: str) -> str:
     t = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode().lower()
-    vacias = {"el", "la", "los", "las", "de", "del", "en", "y", "a", "un", "una", "por", "con", "que", "se", "al", "su", "para"}
+    vacias = {"el", "la", "los", "las", "de", "del", "en", "y", "a", "un", "una", "por", "con", "que", "se", "al", "su", "para",
+              "the", "of", "in", "on", "and", "to", "for", "an", "at", "by", "with", "as", "is", "its", "from"}
     palabras = [p for p in re.split(r"[^a-z0-9]+", t) if p and p not in vacias]
     return "-".join(palabras[:8]) or "noticia"
 
@@ -213,6 +219,26 @@ def elegir_temas(items, publicadas, secciones, maximo) -> list[dict]:
     cobertura = {s: sum(1 for f, sec, _ in publicadas if sec == s and f >= hace12) for s in secciones}
     lista = "\n".join(f"[{i['id']}] ({i['seccion']} · {i['medio']}) {i['titulo']}" for i in items)
     ya = "\n".join(f"- [{s}] {t}" for _, s, t in publicadas)
+    if EDICION == "en":
+        return _elegir(items, por_id_lista=lista, ya=ya, cobertura=cobertura, secciones=secciones, maximo=maximo,
+                       sistema="You are the news editor of NewTimes.news (English edition, for English-speaking readers "
+                               "in Spain and abroad). You answer only with valid JSON.",
+                       usuario=f"""Recent headlines from our sources:
+{lista}
+
+Already published in the last 48 hours (do NOT repeat the same story unless there is an important development):
+{ya}
+
+Stories per section in the last 12 h: {json.dumps(cobertura)}
+
+Choose between 0 and {maximo} new stories of general interest for English-speaking readers interested in Spain,
+Europe and the world: concrete, confirmed facts, at most 2 per section, priority to sections with little coverage and
+to Spain-related news. No opinion, rumours, horoscopes, offers, morbid crime stories or live blogs without facts.
+If nothing deserves it, return an empty list.
+For each story give the ids of 1 to 3 headlines about that same event (ideally from different outlets).
+Valid sections: {", ".join(secciones)}. Mark destacado=true on at most one, only if it is clearly the most important.
+
+Answer only with: {{"temas": [{{"seccion": "...", "ids": [n, ...], "destacado": false, "tema": "one sentence"}}]}}""")
     sistema = "Eres el jefe de redacción de NewTimes.news (edición España). Respondes solo con JSON válido."
     usuario = f"""Titulares recientes de nuestras fuentes:
 {lista}
@@ -229,6 +255,11 @@ Para cada tema da los ids de 1 a 3 titulares que traten ese mismo hecho (mejor d
 Secciones válidas: {", ".join(secciones)}. Marca destacado=true en como mucho uno, solo si es claramente lo más importante.
 
 Responde solo con: {{"temas": [{{"seccion": "...", "ids": [n, ...], "destacado": false, "tema": "una frase"}}]}}"""
+    return _elegir(items, por_id_lista=lista, ya=ya, cobertura=cobertura, secciones=secciones, maximo=maximo,
+                   sistema=sistema, usuario=usuario)
+
+
+def _elegir(items, por_id_lista, ya, cobertura, secciones, maximo, sistema, usuario) -> list[dict]:
     datos = extraer_json(claude(sistema, usuario, 1500))
     por_id = {i["id"]: i for i in items}
     temas, cuenta, destacado = [], {}, False
@@ -255,6 +286,36 @@ def redactar(tema, agente, guia) -> str | None:
     bloque = "\n\n".join(f"### FUENTE {n}: {f['medio']} — {f['titulo']}\nURL: {f['url']}\n{f['texto']}"
                          for n, f in enumerate(fuentes, 1))
     ahora = datetime.now(TZ)
+    if EDICION == "en":
+        sistema = f"""You are {agente['nombre']}, AI reporter for the {tema['seccion']} section of NewTimes.news (English edition).
+Your style: {agente['estilo']}
+
+Follow this editorial guide strictly (it overrides your style):
+{guia}"""
+        usuario = f"""It is {ahora.strftime('%A %d/%m/%Y, %H:%M')} (Madrid time). Write a story in British English about: {tema['tema']}
+
+Use ONLY the facts in these sources. Do not add any fact, figure, name or quote that is not in them.
+Write in your own words and structure: do not copy, translate or paraphrase sentence by sentence. Direct quotes: at most
+two, short, only if they are in the source (translate faithfully if the source is in Spanish). If sources disagree,
+attribute each version. Explain Spanish institutions and parties briefly for international readers.
+
+{bloque}
+
+Answer only with this JSON:
+{{"titulo": "headline in sentence case", "entradilla": "standfirst", "lugar": "city or empty", "etiquetas": ["...", "..."],
+ "imagen_buscar": ["Wikimedia Commons search in English, 2-5 words, most precise first", "..."],
+ "imagen_alt": "what can be seen", "imagen_pie": "File image of ...",
+ "fuentes_usadas": [numbers of the SOURCES used],
+ "cuerpo": "Markdown text, 250-500 words, paragraphs separated by a blank line"}}
+If the sources are not enough for a rigorous story, answer {{"descartar": "reason"}}."""
+        bloque = bloque.replace("### FUENTE", "### SOURCE")
+        usuario = usuario.replace("### FUENTE", "### SOURCE")
+    else:
+        sistema, usuario = _prompts_es(agente, tema, guia, ahora, bloque)
+    return _escribir(tema, agente, fuentes, sistema, usuario, ahora)
+
+
+def _prompts_es(agente, tema, guia, ahora, bloque):
     sistema = f"""Eres {agente['nombre']}, redactor de la sección {tema['seccion']} de NewTimes.news.
 Tu estilo: {agente['estilo']}
 
@@ -275,6 +336,10 @@ Responde solo con este JSON:
  "fuentes_usadas": [números de FUENTE usadas],
  "cuerpo": "texto en Markdown, 250-500 palabras, párrafos separados por línea en blanco"}}
 Si las fuentes no bastan para una noticia rigurosa, responde {{"descartar": "motivo"}}."""
+    return sistema, usuario
+
+
+def _escribir(tema, agente, fuentes, sistema, usuario, ahora):
     try:
         d = extraer_json(claude(sistema, usuario, 3000))
     except Exception as e:  # noqa: BLE001
@@ -288,9 +353,10 @@ Si las fuentes no bastan para una noticia rigurosa, responde {{"descartar": "mot
     if len(cuerpo.split()) < 150 or not d.get("titulo"):
         log("  descartado: texto demasiado corto o sin titular")
         return None
-    pie = d.get("imagen_pie") or "Imagen de archivo."
-    if not pie.startswith("Imagen de archivo"):
-        pie = "Imagen de archivo. " + pie
+    archivo = "File image" if EDICION == "en" else "Imagen de archivo"
+    pie = d.get("imagen_pie") or archivo + "."
+    if not pie.startswith(archivo):
+        pie = f"{archivo}. " + pie
     meta = {
         "titulo": d["titulo"].strip(), "entradilla": (d.get("entradilla") or "").strip(),
         "seccion": tema["seccion"], "agente": agente["slug"],
@@ -302,7 +368,7 @@ Si las fuentes no bastan para una noticia rigurosa, responde {{"descartar": "mot
     }
     if d.get("lugar"):
         meta["lugar"] = d["lugar"].strip()
-    carpeta = RAIZ / "content/es" / ahora.strftime("%Y/%m/%d")
+    carpeta = RAIZ / "content" / EDICION / ahora.strftime("%Y/%m/%d")
     carpeta.mkdir(parents=True, exist_ok=True)
     ruta = carpeta / f"{slugify(meta['titulo'])}.md"
     if ruta.exists():
@@ -323,16 +389,20 @@ def main():
     ap.add_argument("--prueba", action="store_true", help="no hace commit ni push")
     ap.add_argument("--max", type=int, default=int(os.environ.get("NEWTIMES_MAX", 3)))
     ap.add_argument("--horas", type=int, default=4, help="antigüedad máxima de los titulares RSS")
+    ap.add_argument("--edicion", choices=["es", "en"], default=os.environ.get("NEWTIMES_EDICION", "es"))
     a = ap.parse_args()
+    global EDICION
+    EDICION = a.edicion
     if not os.environ.get("ANTHROPIC_API_KEY"):
         sys.exit("Falta ANTHROPIC_API_KEY")
 
     if not a.prueba:
         git("pull", "-q", "--rebase", "origin", "main")
     cfg = yaml.safe_load((RAIZ / "config/site.yaml").read_text(encoding="utf-8"))
-    secciones = [s["slug"] for s in cfg["ediciones"]["es"]["secciones"]]
-    agentes = {x["seccion"]: x for x in yaml.safe_load((RAIZ / "config/agentes.yaml").read_text(encoding="utf-8"))["es"]}
-    guia = (RAIZ / "redaccion/GUIA.md").read_text(encoding="utf-8")
+    secciones = [s["slug"] for s in cfg["ediciones"][EDICION]["secciones"]]
+    agentes = {x["seccion"]: x for x in yaml.safe_load((RAIZ / "config/agentes.yaml").read_text(encoding="utf-8"))[EDICION]}
+    guia = (RAIZ / GUIAS[EDICION]).read_text(encoding="utf-8")
+    log(f"Edición: {EDICION}")
 
     items = leer_feeds(a.horas)
     log(f"{len(items)} titulares en los RSS")
@@ -357,7 +427,11 @@ def main():
     ahora = datetime.now(TZ)
     nombres = ", ".join(sorted({s for s, _ in hechas}))
     git("add", *[r for _, r in hechas])
-    git("commit", "-q", "-m", f"Redacción {ahora:%Y-%m-%d %H}:00: {len(hechas)} noticias (agentes: {nombres}) [servidor]")
+    if EDICION == "en":
+        msg = f"Newsroom EN {ahora:%Y-%m-%d %H}:00: {len(hechas)} stories (agents: {nombres}) [servidor]"
+    else:
+        msg = f"Redacción {ahora:%Y-%m-%d %H}:00: {len(hechas)} noticias (agentes: {nombres}) [servidor]"
+    git("commit", "-q", "-m", msg)
     if git("push", "-q", "origin", "HEAD:main", ok=True).returncode:
         git("pull", "-q", "--rebase", "origin", "main")
         git("push", "-q", "origin", "HEAD:main")

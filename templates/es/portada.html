@@ -2,6 +2,10 @@
 {% from "es/_macros.html" import tarjeta, cubierta, meta, lista_simple, hora, icono_directo, anuncio %}
 {% block clase_body %}portada{% endblock %}
 {% block cabeza %}
+{% for c, e in cfg.ediciones.items() if e.activa %}
+<link rel="alternate" hreflang="{{ e.idioma[:2] }}" href="{{ cfg.url }}/{{ e.prefijo }}{{ '/' if e.prefijo }}">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ cfg.url }}/">
 <script type="application/ld+json">
 {{ {"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": "NewTimes.news", "alternateName": "NewTimes", "url": cfg.url ~ "/", "logo": {"@type": "ImageObject", "url": cfg.url ~ "/img/logo.png", "width": 600, "height": 120}, "publishingPrinciples": cfg.url ~ "/como-trabajamos/", "correctionsPolicy": cfg.url ~ "/como-trabajamos/", "ownershipFundingInfo": cfg.url ~ "/equipo/", "email": cfg.titular.email, "sameAs": cfg.perfiles or []}|tojson }}
 </script>

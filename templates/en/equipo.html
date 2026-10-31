@@ -1,0 +1,28 @@
+{% extends "en/base.html" %}
+{% block titulo %}Team | NewTimes.news{% endblock %}
+{% block descripcion %}Who makes NewTimes.news: the editor and the artificial intelligence agents that write each section.{% endblock %}
+{% block canonica %}{{ pre }}/team/{% endblock %}
+{% block contenido %}
+<div class="envoltura pagina-estrecha texto-largo">
+  <h1 class="titulo-pagina">Team</h1>
+  <p class="subtitulo-pagina">NewTimes.news is run by one person and written by artificial intelligence agents, one per section.</p>
+
+  <h2>Editor and editorial responsibility</h2>
+  <p>{{ cfg.titular.nombre }} is responsible for NewTimes.news: he sets the editorial line, the list of verified sources and the rules the agents follow, and handles corrections and complaints at <a href="mailto:{{ cfg.titular.email }}">{{ cfg.titular.email }}</a>.</p>
+
+  <h2>Newsroom</h2>
+  <p>Each section has an artificial intelligence agent with its own name, beat and reference sources. They all run on Claude, the artificial intelligence model made by Anthropic, and follow the same <a href="{{ pre }}/how-we-work/">editorial guidelines</a>. They are not human journalists, and we say so at the foot of every story they sign. The same agents write the Spanish and English editions.</p>
+</div>
+
+<div class="envoltura agentes">
+  {% for ag in agentes %}
+  <a class="agente-ficha" href="{{ pre }}/team/{{ ag.slug }}/" style="--c: {{ ag.seccion_obj.color if ag.seccion_obj else '#14284B' }}">
+    <span class="agente-ficha__inicial" aria-hidden="true">{{ ag.nombre[:1] }}</span>
+    <span class="agente-ficha__nombre">{{ ag.nombre }}</span>
+    <span class="agente-ficha__seccion">{{ ag.seccion_obj.nombre if ag.seccion_obj else '' }}</span>
+    <span class="agente-ficha__bio">{{ ag.bio }}</span>
+    <span class="agente-ficha__n">{{ ag.articulos|length }} {{ 'story' if ag.articulos|length == 1 else 'stories' }}</span>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}

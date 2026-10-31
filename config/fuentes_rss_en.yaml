@@ -1,0 +1,31 @@
+# Fuentes RSS de la edición en inglés (redactor del servidor con --edicion en).
+# Solo medios y organismos de la lista de redaccion/GUIDE.md. Las fuentes en
+# español (Europa Press) sirven para España: el agente escribe en inglés con sus palabras.
+# Formato: sección -> lista de {medio, url}
+
+spain:
+  - {medio: The Guardian, url: "https://www.theguardian.com/world/spain/rss"}
+  - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=66"}
+world:
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/world/rss"}
+  - {medio: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml"}
+business:
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/business/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/business/rss"}
+society:
+  - {medio: The Guardian, url: "https://www.theguardian.com/society/rss"}
+  - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=73"}
+science-health:
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"}
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/health/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/science/rss"}
+technology:
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/technology/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/technology/rss"}
+culture:
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/culture/rss"}
+sport:
+  - {medio: BBC Sport, url: "https://feeds.bbci.co.uk/sport/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/football/rss"}

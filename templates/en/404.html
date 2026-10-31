@@ -1,0 +1,14 @@
+{% extends "en/base.html" %}
+{% from "en/_macros.html" import lista_simple %}
+{% block titulo %}Page not found | NewTimes.news{% endblock %}
+{% block cabeza %}<meta name="robots" content="noindex">{% endblock %}
+{% block contenido %}
+<div class="envoltura pagina-estrecha">
+  <h1 class="titulo-pagina">This page does not exist</h1>
+  <p class="subtitulo-pagina">The link may be mistyped or the story may have moved. Try <a href="{{ pre }}/search/">searching for it</a> or go back to the <a href="{{ pre }}/">front page</a>.</p>
+  {% if ultima %}
+  <h2 class="titulo-bloque">Latest</h2>
+  {{ lista_simple(ultima, pre) }}
+  {% endif %}
+</div>
+{% endblock %}

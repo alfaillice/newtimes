@@ -1,0 +1,109 @@
+{% extends "en/base.html" %}
+{% from "en/_macros.html" import tarjeta, cubierta, meta, lista_simple, hora, icono_directo, anuncio %}
+{% block clase_body %}portada{% endblock %}
+{% block cabeza %}
+{% for c, e in cfg.ediciones.items() if e.activa %}
+<link rel="alternate" hreflang="{{ e.idioma[:2] }}" href="{{ cfg.url }}/{{ e.prefijo }}{{ '/' if e.prefijo }}">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ cfg.url }}/">
+<script type="application/ld+json">
+{{ {"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": "NewTimes.news", "alternateName": "NewTimes", "url": cfg.url ~ "/", "logo": {"@type": "ImageObject", "url": cfg.url ~ "/img/logo.png", "width": 600, "height": 120}, "publishingPrinciples": cfg.url ~ "/en/how-we-work/", "correctionsPolicy": cfg.url ~ "/en/how-we-work/", "ownershipFundingInfo": cfg.url ~ "/en/team/", "email": cfg.titular.email, "sameAs": cfg.perfiles or []}|tojson }}
+</script>
+<script type="application/ld+json">
+{{ {"@context": "https://schema.org", "@type": "WebSite", "name": "NewTimes.news", "url": cfg.url ~ "/en/", "inLanguage": "en-GB"}|tojson }}
+</script>
+{% endblock %}
+{% block contenido %}
+
+
+{% if destacados %}
+<section class="carrusel" aria-roledescription="carousel" aria-label="Top stories">
+  <div class="carrusel__pista" tabindex="0">
+    {% for a in destacados %}
+    <article class="diapositiva{% if not a.foto %} diapositiva--sin-foto{% endif %}" id="principal-{{ loop.index }}" aria-roledescription="slide" aria-label="{{ loop.index }} of {{ destacados|length }}" style="--c: {{ a.seccion.color }}">
+      {% if a.foto %}<img class="diapositiva__foto" src="{{ a.foto.src }}" alt="" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>{% endif %}
+      <div class="diapositiva__texto envoltura">
+        <p class="diapositiva__seccion"><a href="{{ pre }}/section/{{ a.seccion.slug }}/">{{ a.seccion.nombre }}</a></p>
+        <h2 class="diapositiva__titulo"><a href="{{ a.url }}">{{ a.titulo }}</a></h2>
+        <p class="diapositiva__entradilla">{{ a.entradilla }}</p>
+        <p class="diapositiva__meta">By {{ a.autor }}, {{ hora(a) }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% if destacados|length > 1 %}
+  <div class="carrusel__controles envoltura">
+    <button type="button" class="carrusel__boton" data-dir="-1" aria-label="Previous story">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg>
+    </button>
+    <p class="carrusel__contador" aria-live="polite"><span data-actual>1</span> of {{ destacados|length }}</p>
+    <button type="button" class="carrusel__boton carrusel__pausa" data-pausa hidden aria-label="Pause the slideshow" aria-pressed="false">
+      <svg class="icono-pausa" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
+      <svg class="icono-play" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>
+    </button>
+    <button type="button" class="carrusel__boton" data-dir="1" aria-label="Next story">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg>
+    </button>
+  </div>
+  {% endif %}
+</section>
+
+<a class="franja-directo" href="{{ pre }}/live/">
+  <span class="envoltura franja-directo__fila">
+    <span class="insignia-directo">{{ icono_directo() }}<span>Live</span></span>
+    <span class="franja-directo__texto">Live television and breaking news, minute by minute</span>
+    <span class="franja-directo__accion">Watch now</span>
+  </span>
+</a>
+{% else %}
+<section class="vacio envoltura">
+  <h1>The newsroom is preparing the first edition</h1>
+  <p>The first stories will appear here as soon as they are published. The front page is updated every hour.</p>
+</section>
+{% endif %}
+
+{% if horas %}
+<section class="reloj" aria-labelledby="reloj-titulo">
+  <div class="envoltura">
+    <h2 id="reloj-titulo" class="titulo-bloque">Today, hour by hour</h2>
+  </div>
+  <div class="reloj__pista envoltura" tabindex="0" aria-label="Today's stories grouped by hour">
+    {% for h, lista in horas.items()|reverse %}
+    <div class="reloj__hora">
+      <p class="reloj__marca">{{ '%02d'|format(h) }}:00</p>
+      <ul role="list">
+        {% for a in lista|reverse %}<li><a href="{{ a.url }}">{{ a.titulo }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if ultima %}
+<section class="envoltura columna-ultima" aria-labelledby="ultima-titulo">
+  <div class="bloque__cabecera bloque__cabecera--sencilla">
+    <h2 id="ultima-titulo" class="titulo-bloque">Latest</h2>
+    {% if total_hoy %}<p class="bloque__mas">Updated at <time datetime="{{ ultimo.isoformat() }}">{{ ultimo.strftime('%H:%M') }}</time>, {{ total_hoy }} {{ 'story' if total_hoy == 1 else 'stories' }} today</p>{% endif %}
+  </div>
+  {{ lista_simple(ultima, pre) }}
+</section>
+{% endif %}
+
+<div class="envoltura">{{ anuncio(cfg, 'portada') }}</div>
+
+{% for s, lista in bloques %}
+<section class="bloque envoltura" aria-labelledby="bloque-{{ s.slug }}" style="--c: {{ s.color }}">
+  <div class="bloque__cabecera">
+    <h2 id="bloque-{{ s.slug }}" class="bloque__titulo"><a href="{{ pre }}/section/{{ s.slug }}/">{{ s.nombre }}</a></h2>
+    <a class="bloque__mas" href="{{ pre }}/section/{{ s.slug }}/">See the whole section</a>
+  </div>
+  <div class="bloque__rejilla">
+    {% for a in lista %}
+    {{ tarjeta(a, pre, con_cubierta=true, con_entradilla=loop.first, seccion=false) }}
+    {% endfor %}
+  </div>
+</section>
+{% if loop.index % 3 == 0 and not loop.last %}<div class="envoltura">{{ anuncio(cfg, 'portada') }}</div>{% endif %}
+{% endfor %}
+{% endblock %}

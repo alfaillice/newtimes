@@ -1,0 +1,18 @@
+{% extends "en/base.html" %}
+{% from "en/_macros.html" import tarjeta %}
+{% block titulo %}{{ tema }}: latest news | NewTimes.news{% endblock %}
+{% block descripcion %}All NewTimes.news coverage of {{ tema }}: latest news, context and cited sources.{% endblock %}
+{% block canonica %}{{ pre }}/topic/{{ clave }}/{% endblock %}
+{% block cabeza %}{% if not indexable %}<meta name="robots" content="noindex, follow">{% endif %}{% endblock %}
+{% block contenido %}
+<div class="envoltura cabecera-seccion">
+  <p class="migas">Topic</p>
+  <h1>{{ tema }}</h1>
+  <p>{{ lista|length }} {{ 'story' if lista|length == 1 else 'stories' }}, newest first.</p>
+</div>
+<div class="envoltura">
+  <div class="rejilla-seccion">
+    {% for a in lista %}{{ tarjeta(a, pre, con_cubierta=true) }}{% endfor %}
+  </div>
+</div>
+{% endblock %}

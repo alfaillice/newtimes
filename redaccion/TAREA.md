@@ -37,3 +37,9 @@ Reglas que no se rompen: cada noticia la escribe y firma el agente de su secció
 ## Redactor automático en el servidor (alternativa sin gastar el plan de Claude)
 
 `redaccion/servidor/redactor.py` hace este mismo trabajo desde el servidor con la API de Anthropic (Claude Haiku por defecto): lee los RSS de `config/fuentes_rss.yaml`, elige temas, redacta con el agente de cada sección siguiendo esta guía, valida con `build.py --check` y hace push. Se instala con `sudo bash deploy/instalar-redactor.sh` y corre con el temporizador `newtimes-redactor.timer`. Sus commits terminan en `[servidor]`.
+
+## Edición en inglés (`/en/`)
+
+La edición en inglés tiene su propia guía, `redaccion/GUIDE.md` (mismos criterios que la española, para lectores angloparlantes), y la escriben los mismos agentes en sus secciones en inglés (`spain`, `world`, `business`, `society`, `science-health`, `technology`, `culture`, `sport`; tabla en GUIDE.md). Las noticias van en `content/en/AAAA/MM/DD/`. Lo publicado se consulta con `python3 redaccion/recientes.py 48 en`.
+
+La redacción horaria en inglés la hace el redactor del servidor (`redactor.py --edicion en`, temporizador `newtimes-redactor-en.timer` a las :35), no una tarea programada de Claude. Si alguna vez se hace a mano con Claude, el flujo es el de arriba, con GUIDE.md y el commit `Newsroom EN AAAA-MM-DD HH:00: N stories (agents: nombres)`.

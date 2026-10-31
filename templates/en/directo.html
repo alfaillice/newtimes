@@ -1,0 +1,65 @@
+{% extends "en/base.html" %}
+{% from "en/_macros.html" import icono_directo, hora, anuncio %}
+{% block titulo %}Live | NewTimes.news{% endblock %}
+{% block descripcion %}Follow the news live: live television and the latest NewTimes.news stories, minute by minute.{% endblock %}
+{% block canonica %}{{ pre }}/live/{% endblock %}
+{% block clase_body %}pagina-directo{% endblock %}
+{% block contenido %}
+{% set dir = ed.directo or cfg.directo %}
+<section class="directo" aria-labelledby="directo-titulo">
+  <div class="envoltura directo__cabecera">
+    <p class="insignia-directo">{{ icono_directo() }}<span>Live</span></p>
+    <h1 id="directo-titulo" class="directo__titulo">The news, right now</h1>
+  </div>
+  <div class="envoltura directo__rejilla">
+    <div class="directo__video">
+      <div class="video">
+        <iframe src="https://www.youtube-nocookie.com/embed/{% if dir.canal_id %}live_stream?channel={{ dir.canal_id }}&amp;{% else %}{{ dir.youtube_id }}?{% endif %}autoplay=1&amp;mute=1&amp;playsinline=1&amp;rel=0"
+                title="{{ dir.canal }} live"
+                allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+      <p class="directo__credito">Live feed from <a href="{{ dir.canal_url }}" rel="noopener" target="_blank">{{ dir.canal }}</a> via YouTube. The video starts muted: turn the sound on in the player. NewTimes.news is not responsible for the content of this broadcast.</p>
+    </div>
+    <aside class="directo__ultima" aria-labelledby="ultima-directo">
+      <div class="directo__ultima-cabecera">
+        <h2 id="ultima-directo">Breaking news</h2>
+        <p class="directo__estado" data-estado-directo aria-live="polite">Updates automatically</p>
+      </div>
+      <ol class="minuto" role="list" data-feed="{{ pre }}/live/feed.json">
+        {% for a in lista[:12] %}
+        <li class="minuto__item" data-url="{{ a.url }}">
+          <time datetime="{{ a.fecha_iso }}">{{ a.fecha.strftime('%H:%M') }}</time>
+          <div>
+            <span class="minuto__seccion" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}</span>
+            <a href="{{ a.url }}">{{ a.titulo }}</a>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </aside>
+  </div>
+</section>
+
+<section class="envoltura minuto-completo" aria-labelledby="minuto-titulo">
+  <h2 id="minuto-titulo" class="titulo-bloque">Minute by minute</h2>
+  <ol class="cronologia" role="list">
+    {% for a in lista %}
+    <li class="cronologia__item">
+      <p class="cronologia__hora">{{ hora(a) }}</p>
+      <article class="cronologia__pieza">
+        {% if a.foto %}<a href="{{ a.url }}" class="cronologia__foto" tabindex="-1" aria-hidden="true"><img src="{{ a.foto.src_peq }}" alt="" loading="lazy" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}"></a>{% endif %}
+        <div>
+          <p class="cronologia__seccion" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}, by {{ a.autor }}</p>
+          <h3><a href="{{ a.url }}">{{ a.titulo }}</a></h3>
+          <p>{{ a.entradilla }}</p>
+        </div>
+      </article>
+    </li>
+    {% if loop.index == 4 and not loop.last %}<li class="cronologia__anuncio">{{ anuncio(cfg, 'directo') }}</li>{% endif %}
+    {% else %}
+    <li>No stories yet today.</li>
+    {% endfor %}
+  </ol>
+</section>
+{% endblock %}

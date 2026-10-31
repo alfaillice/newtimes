@@ -2,13 +2,17 @@
 (function () {
   "use strict";
 
+  /* Textos según el idioma de la página (edición española o inglesa) */
+  var EN = (document.documentElement.lang || "").slice(0, 2) === "en";
+  function tx(es, en) { return EN ? en : es; }
+
   /* Horas relativas: "hace 12 min" para lo publicado hoy */
   function relativo(fecha) {
     var min = Math.round((Date.now() - fecha.getTime()) / 60000);
-    if (min < 1) return "ahora";
-    if (min < 60) return "hace " + min + " min";
+    if (min < 1) return tx("ahora", "just now");
+    if (min < 60) return EN ? min + " min ago" : "hace " + min + " min";
     var h = Math.floor(min / 60);
-    if (h < 24 && new Date().toDateString() === fecha.toDateString()) return "hace " + h + " h";
+    if (h < 24 && new Date().toDateString() === fecha.toDateString()) return EN ? h + " h ago" : "hace " + h + " h";
     return null;
   }
   function actualizarHoras() {
@@ -72,7 +76,7 @@
     var reloj = null;
     function pintarBoton() {
       if (!boton) return;
-      boton.setAttribute("aria-label", pausadoUsuario ? "Reanudar el pase automático" : "Pausar el pase automático");
+      boton.setAttribute("aria-label", pausadoUsuario ? tx("Reanudar el pase automático", "Resume the slideshow") : tx("Pausar el pase automático", "Pause the slideshow"));
       boton.setAttribute("aria-pressed", pausadoUsuario ? "true" : "false");
       boton.classList.toggle("carrusel__boton--pausado", pausadoUsuario);
     }
@@ -120,8 +124,8 @@
         });
         var ahora = new Date();
         if (estadoDirecto) {
-          estadoDirecto.textContent = (nuevas.length ? nuevas.length + (nuevas.length === 1 ? " noticia nueva. " : " noticias nuevas. ") : "") +
-            "Comprobado a las " + ("0" + ahora.getHours()).slice(-2) + ":" + ("0" + ahora.getMinutes()).slice(-2);
+          estadoDirecto.textContent = (nuevas.length ? nuevas.length + (nuevas.length === 1 ? tx(" noticia nueva. ", " new story. ") : tx(" noticias nuevas. ", " new stories. ")) : "") +
+            tx("Comprobado a las ", "Checked at ") + ("0" + ahora.getHours()).slice(-2) + ":" + ("0" + ahora.getMinutes()).slice(-2);
         }
       }).catch(function () {});
     };
@@ -155,8 +159,8 @@
       }
       if (navigator.clipboard) {
         navigator.clipboard.writeText(url).then(function () {
-          b.textContent = "Enlace copiado";
-          setTimeout(function () { b.textContent = "Copiar enlace"; }, 2500);
+          b.textContent = tx("Enlace copiado", "Link copied");
+          setTimeout(function () { b.textContent = tx("Copiar enlace", "Copy link"); }, 2500);
         });
       }
     });
@@ -181,18 +185,20 @@
     function buscar(q) {
       var palabras = norm(q).split(/\s+/).filter(function (p) { return p.length > 1; });
       if (!palabras.length) { estado.textContent = ""; lista.innerHTML = ""; return; }
-      estado.textContent = "Buscando…";
+      estado.textContent = tx("Buscando…", "Searching…");
       cargar().then(function (idx) {
         var res = idx.filter(function (a) { return palabras.every(function (p) { return a._n.indexOf(p) !== -1; }); })
           .map(function (a) { var s = 0; palabras.forEach(function (p) { if (a._t.indexOf(p) !== -1) s += 2; }); return [s, a]; })
           .sort(function (x, y) { return y[0] - x[0]; })
           .slice(0, 50).map(function (x) { return x[1]; });
-        estado.textContent = res.length ? res.length + (res.length === 1 ? " resultado" : " resultados") + " para «" + q + "»"
-          : "No hay noticias con «" + q + "». Prueba con menos palabras o con otra forma de decirlo.";
+        estado.textContent = res.length ? (EN ? res.length + (res.length === 1 ? " result" : " results") + " for “" + q + "”"
+               : res.length + (res.length === 1 ? " resultado" : " resultados") + " para «" + q + "»")
+          : tx("No hay noticias con «" + q + "». Prueba con menos palabras o con otra forma de decirlo.",
+               "No stories match “" + q + "”. Try fewer words or a different wording.");
         lista.innerHTML = res.map(function (a) {
           return '<li><a href="' + a.u + '">' + esc(a.t) + "</a><p>" + esc(a.e) + '</p><p class="meta"><span>' + esc(a.s) + "</span><span>" + a.f + "</span></p></li>";
         }).join("");
-      }).catch(function () { estado.textContent = "No se ha podido cargar el buscador. Recarga la página para intentarlo de nuevo."; });
+      }).catch(function () { estado.textContent = tx("No se ha podido cargar el buscador. Recarga la página para intentarlo de nuevo.", "The search could not be loaded. Reload the page to try again."); });
     }
     form.addEventListener("submit", function (e) {
       e.preventDefault();

@@ -1,0 +1,13 @@
+{% extends "en/base.html" %}
+{% from "en/_macros.html" import lista_simple %}
+{% block titulo %}News from {{ dia|fecha_dia }} | NewTimes.news{% endblock %}
+{% block descripcion %}Stories published in the NewTimes.news English edition on {{ dia|fecha_dia }}.{% endblock %}
+{% block canonica %}{{ pre }}/archive/{{ dia.strftime('%Y/%m/%d') }}/{% endblock %}
+{% block contenido %}
+<div class="envoltura pagina-estrecha">
+  <p class="migas"><a href="{{ pre }}/archive/">Archive</a></p>
+  <h1 class="titulo-pagina">{{ dia|fecha_dia }}</h1>
+  <p class="subtitulo-pagina">{{ lista|length }} {{ 'story published' if lista|length == 1 else 'stories published' }}, in order of publication.</p>
+  {{ lista_simple(lista, pre) }}
+</div>
+{% endblock %}

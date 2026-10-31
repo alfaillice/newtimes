@@ -1,0 +1,65 @@
+{% macro hora(a) -%}
+<time datetime="{{ a.fecha_iso }}" data-rel>{{ a.fecha.strftime('%H:%M') }}, {{ a.fecha|fecha_corta }}</time>
+{%- endmacro %}
+
+{% macro cubierta(a, grande=false) -%}
+{% if a.foto %}
+<div class="cubierta cubierta--foto{% if grande %} cubierta--grande{% endif %}">
+  <img src="{{ a.foto.src if grande else a.foto.src_peq }}" alt="{{ a.foto.alt }}" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" {% if not grande %}loading="lazy" {% endif %}decoding="async">
+</div>
+{% else %}
+<div class="cubierta{% if grande %} cubierta--grande{% endif %}" style="--c: {{ a.seccion.color }}" aria-hidden="true">
+  <span class="cubierta__seccion">{{ a.seccion.nombre }}</span>
+  <span class="cubierta__hora">{{ a.fecha.strftime('%H:%M') }}</span>
+</div>
+{% endif %}
+{%- endmacro %}
+
+{% macro meta(a, pre, seccion=true) -%}
+<p class="meta">
+  {% if seccion %}<a class="meta__seccion" href="{{ pre }}/section/{{ a.seccion.slug }}/" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}</a>{% endif %}
+  {{ hora(a) }}
+  <span class="meta__fuentes">{{ a.fuentes|length }} {{ 'source' if a.fuentes|length == 1 else 'sources' }}</span>
+</p>
+{%- endmacro %}
+
+{% macro tarjeta(a, pre, con_cubierta=true, con_entradilla=true, seccion=true) -%}
+<article class="tarjeta">
+  {% if con_cubierta %}<a href="{{ a.url }}" tabindex="-1" aria-hidden="true" class="tarjeta__cubierta">{{ cubierta(a) }}</a>{% endif %}
+  <h3 class="tarjeta__titulo"><a href="{{ a.url }}">{{ a.titulo }}</a></h3>
+  {% if con_entradilla %}<p class="tarjeta__entradilla">{{ a.entradilla }}</p>{% endif %}
+  {{ meta(a, pre, seccion) }}
+</article>
+{%- endmacro %}
+
+{% macro lista_simple(lista, pre) -%}
+<ol class="lista-simple" role="list">
+  {% for a in lista %}
+  <li>
+    <span class="lista-simple__hora">{{ a.fecha.strftime('%H:%M') }}</span>
+    <div>
+      <a href="{{ a.url }}">{{ a.titulo }}</a>
+      <span class="lista-simple__seccion" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}</span>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+{%- endmacro %}
+
+{% macro icono_directo(clase='') -%}
+<svg class="icono-directo {{ clase }}" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="3.4" fill="currentColor" stroke="none"/><path d="M8 8.3a5.4 5.4 0 0 0 0 7.4M16 8.3a5.4 5.4 0 0 1 0 7.4"/><path d="M5 5.4a9.4 9.4 0 0 0 0 13.2M19 5.4a9.4 9.4 0 0 1 0 13.2"/></svg>
+{%- endmacro %}
+
+{% macro anuncio(cfg, nombre, formato='auto') -%}
+{% set pub = cfg.publicidad %}
+{% if pub and pub.activa and pub.bloques[nombre] %}
+<aside class="anuncio anuncio--{{ nombre }}" aria-label="Advertisement">
+  <p class="anuncio__etiqueta">Advertisement</p>
+  <ins class="adsbygoogle anuncio__hueco"
+       style="display:block{% if formato == 'fluid' %}; text-align:center{% endif %}"
+       data-ad-client="{{ pub.cliente }}"
+       data-ad-slot="{{ pub.bloques[nombre] }}"
+       {% if formato == 'fluid' %}data-ad-layout="in-article" data-ad-format="fluid"{% else %}data-ad-format="{{ formato }}" data-full-width-responsive="true"{% endif %}></ins>
+</aside>
+{% endif %}
+{%- endmacro %}

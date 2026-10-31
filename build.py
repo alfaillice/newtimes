@@ -38,6 +38,13 @@ RAIZ = Path(__file__).resolve().parent
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+MONTHS = ["January", "February", "March", "April", "May", "June", "July",
+          "August", "September", "October", "November", "December"]
+DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+# Rutas de cada edición (las de la española son las de siempre; cada edición puede
+# traducirlas en config/site.yaml > ediciones > <código> > rutas)
+RUTAS_POR_DEFECTO = {"seccion": "seccion", "tema": "tema", "hemeroteca": "hemeroteca", "buscar": "buscar",
+                     "directo": "directo", "equipo": "equipo"}
 CAMPOS_OBLIGATORIOS = ["titulo", "entradilla", "seccion", "fecha", "fuentes"]
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 LICENCIAS = {
@@ -51,6 +58,9 @@ LICENCIAS = {
     "kit-de-prensa": "Material de prensa",
     "propia": "NewTimes.news",
 }
+LICENSES_EN = {**LICENCIAS, "dominio-publico": "Public domain", "pexels": "Pexels licence",
+               "unsplash": "Unsplash licence", "uso-oficial": "Free use with attribution",
+               "kit-de-prensa": "Press material"}
 LICENCIAS_VALIDAS = set(LICENCIAS)
 AGENTE_CABECERA = {"User-Agent": "NewTimesBot/1.0 (+https://newtimes.news/como-trabajamos/; redaccion@newtimes.news)"}
 
@@ -73,6 +83,24 @@ def fecha_corta(d: datetime) -> str:
 
 def fecha_dia(d) -> str:
     return f"{d.day} de {MESES[d.month - 1]} de {d.year}"
+
+
+def date_long(d: datetime) -> str:
+    return f"{DAYS[d.weekday()]} {d.day} {MONTHS[d.month - 1]} {d.year}"
+
+
+def date_short(d: datetime) -> str:
+    return f"{d.day} {MONTHS[d.month - 1][:3]}"
+
+
+def date_day(d) -> str:
+    return f"{d.day} {MONTHS[d.month - 1]} {d.year}"
+
+
+FILTROS_FECHA = {
+    "es": dict(fecha_larga=fecha_larga, fecha_corta=fecha_corta, fecha_dia=fecha_dia),
+    "en": dict(fecha_larga=date_long, fecha_corta=date_short, fecha_dia=date_day),
+}
 
 
 def leer_markdown(ruta: Path) -> tuple[dict, str]:
@@ -144,7 +172,10 @@ class Articulo:
 
 
 def cargar_config() -> dict:
-    return yaml.safe_load((RAIZ / "config/site.yaml").read_text(encoding="utf-8"))
+    cfg = yaml.safe_load((RAIZ / "config/site.yaml").read_text(encoding="utf-8"))
+    for ed in cfg["ediciones"].values():
+        ed["rutas"] = {**RUTAS_POR_DEFECTO, **(ed.get("rutas") or {})}
+    return cfg
 
 
 def cargar_agentes(codigo: str) -> list[dict]:
@@ -428,7 +459,7 @@ def preparar_foto(art: Articulo, salida: Path, cache: Path, avisos: list) -> Non
             "src": f"/img/n/{clave}-1200.jpg", "src_peq": f"/img/n/{clave}-640.jpg",
             "ancho": tamanos[1200][0], "alto": tamanos[1200][1],
             "alt": img.get("alt") or img.get("descripcion_commons") or "", "pie": img.get("pie") or "",
-            "autor": img.get("autor"), "licencia": LICENCIAS.get(img["licencia"], img["licencia"]),
+            "autor": img.get("autor"), "licencia": (LICENSES_EN if art.edicion == "en" else LICENCIAS).get(img["licencia"], img["licencia"]),
             "licencia_url": img.get("licencia_url") or "", "fuente": img.get("fuente") or "",
             "original": original,
         }
@@ -544,7 +575,9 @@ class Constructor:
         ed = self.cfg["ediciones"][codigo]
         pre = f"/{ed['prefijo']}" if ed["prefijo"] else ""
         t = codigo  # carpeta de plantillas
-        base_ctx = dict(ed=ed, codigo=codigo, pre=pre, secciones=ed["secciones"])
+        r = ed["rutas"]
+        self.env.filters.update(FILTROS_FECHA.get(codigo, FILTROS_FECHA["es"]))
+        base_ctx = dict(ed=ed, codigo=codigo, pre=pre, secciones=ed["secciones"], r=r)
         base_ctx["ultima_hora"] = articulos[0] if articulos else None
         cache_og = RAIZ / ".cache" / "og"
         for a in articulos:
@@ -588,7 +621,7 @@ class Constructor:
                     temas.setdefault(clave, {"nombre": e, "lista": []})["lista"].append(a)
         self.temas = {k: {"nombre": v["nombre"], "n": len(v["lista"])} for k, v in temas.items()}
         for clave, tema in temas.items():
-            self.escribir(f"{pre}/tema/{clave}/", self.render(f"{t}/tema.html", **base_ctx, clave=clave,
+            self.escribir(f"{pre}/{r['tema']}/{clave}/", self.render(f"{t}/tema.html", **base_ctx, clave=clave,
                                                               tema=tema["nombre"], lista=tema["lista"][:60],
                                                               indexable=len(tema["lista"]) >= 3),
                           sitemap=len(tema["lista"]) >= 3, prioridad="0.6", lastmod=tema["lista"][0].fecha)
@@ -606,11 +639,11 @@ class Constructor:
             lista = por_seccion[s["slug"]]
             total = max(1, math.ceil(len(lista) / n))
             for p in range(1, total + 1):
-                ruta = f"{pre}/seccion/{s['slug']}/" + (f"{p}/" if p > 1 else "")
+                ruta = f"{pre}/{r['seccion']}/{s['slug']}/" + (f"{p}/" if p > 1 else "")
                 self.escribir(ruta, self.render(f"{t}/seccion.html", **base_ctx, s=s, lista=lista[(p - 1) * n:p * n],
                                                 pagina=p, total_paginas=total), prioridad="0.7" if p == 1 else "0.3",
                               lastmod=lista[(p - 1) * n].fecha if lista else None)
-            self.escribir(f"{pre}/seccion/{s['slug']}/rss.xml", self.rss(ed, pre, lista[:30], s), sitemap=False)
+            self.escribir(f"{pre}/{r['seccion']}/{s['slug']}/rss.xml", self.rss(ed, pre, lista[:30], s), sitemap=False)
 
         # Hemeroteca
         dias: dict = {}
@@ -619,28 +652,29 @@ class Constructor:
         meses: dict = {}
         for d in sorted(dias, reverse=True):
             meses.setdefault((d.year, d.month), []).append((d, len(dias[d])))
-        self.escribir(f"{pre}/hemeroteca/", self.render(f"{t}/hemeroteca.html", **base_ctx, meses=meses, MESES=MESES))
+        self.escribir(f"{pre}/{r['hemeroteca']}/", self.render(f"{t}/hemeroteca.html", **base_ctx, meses=meses,
+                                                                MESES=MONTHS if codigo == "en" else MESES))
         for d, lista in dias.items():
-            self.escribir(f"{pre}/hemeroteca/{d:%Y/%m/%d}/",
+            self.escribir(f"{pre}/{r['hemeroteca']}/{d:%Y/%m/%d}/",
                           self.render(f"{t}/dia.html", **base_ctx, dia=d, lista=sorted(lista, key=lambda x: x.fecha)),
                           prioridad="0.3")
 
         # Búsqueda (índice de los últimos 3000 artículos)
         indice = [{"t": a.titulo, "e": a.entradilla, "s": a.seccion["nombre"], "u": a.url,
                    "f": a.fecha.strftime("%d/%m/%Y"), "g": a.etiquetas} for a in articulos[:3000]]
-        (self.salida / pre.lstrip("/") / "buscar").mkdir(parents=True, exist_ok=True)
-        (self.salida / pre.lstrip("/") / "buscar" / "indice.json").write_text(
+        (self.salida / pre.lstrip("/") / r["buscar"]).mkdir(parents=True, exist_ok=True)
+        (self.salida / pre.lstrip("/") / r["buscar"] / "indice.json").write_text(
             json.dumps(indice, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-        self.escribir(f"{pre}/buscar/", self.render(f"{t}/buscar.html", **base_ctx), sitemap=False)
+        self.escribir(f"{pre}/{r['buscar']}/", self.render(f"{t}/buscar.html", **base_ctx), sitemap=False)
 
         # Directo: vídeo y noticias minuto a minuto (el feed lo refresca el navegador)
         feed = [{"t": a.titulo, "e": a.entradilla, "u": a.url, "s": a.seccion["nombre"], "c": a.seccion["color"],
                  "h": a.fecha_iso, "a": a.autor, "f": a.foto["src_peq"] if a.foto else ""} for a in articulos[:40]]
-        (self.salida / pre.lstrip("/") / "directo").mkdir(parents=True, exist_ok=True)
-        (self.salida / pre.lstrip("/") / "directo" / "feed.json").write_text(
+        (self.salida / pre.lstrip("/") / r["directo"]).mkdir(parents=True, exist_ok=True)
+        (self.salida / pre.lstrip("/") / r["directo"] / "feed.json").write_text(
             json.dumps({"generado": self.ahora.isoformat(), "noticias": feed}, ensure_ascii=False, separators=(",", ":")),
             encoding="utf-8")
-        self.escribir(f"{pre}/directo/", self.render(f"{t}/directo.html", **base_ctx, lista=articulos[:40],
+        self.escribir(f"{pre}/{r['directo']}/", self.render(f"{t}/directo.html", **base_ctx, lista=articulos[:40],
                                                       seccion_actual="directo"), prioridad="0.9")
 
         # Equipo: una página general y una por agente
@@ -648,9 +682,9 @@ class Constructor:
         for ag in agentes:
             ag["seccion_obj"] = next((s for s in ed["secciones"] if s["slug"] == ag["seccion"]), None)
             ag["articulos"] = [a for a in articulos if a.agente and a.agente["slug"] == ag["slug"]]
-            self.escribir(f"{pre}/equipo/{ag['slug']}/", self.render(f"{t}/agente.html", **base_ctx, ag=ag,
+            self.escribir(f"{pre}/{r['equipo']}/{ag['slug']}/", self.render(f"{t}/agente.html", **base_ctx, ag=ag,
                                                                      lista=ag["articulos"][:30]), prioridad="0.3")
-        self.escribir(f"{pre}/equipo/", self.render(f"{t}/equipo.html", **base_ctx, agentes=agentes), prioridad="0.3")
+        self.escribir(f"{pre}/{r['equipo']}/", self.render(f"{t}/equipo.html", **base_ctx, agentes=agentes), prioridad="0.3")
 
         # Páginas fijas
         for ruta in sorted((RAIZ / "content" / codigo / "paginas").glob("*.md")):
@@ -674,8 +708,10 @@ class Constructor:
 
     def finalizar(self):
         self.escribir("/sitemap.xml", self.render("sitemap.xml", paginas=self.paginas_sitemap), sitemap=False)
-        self.escribir("/robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {self.cfg['url']}/sitemap.xml\n"
-                                     f"Sitemap: {self.cfg['url']}/sitemap-noticias.xml\n", sitemap=False)
+        noticias = "".join(f"Sitemap: {self.cfg['url']}{'/' + e['prefijo'] if e['prefijo'] else ''}/sitemap-noticias.xml\n"
+                           for e in self.cfg["ediciones"].values() if e.get("activa"))
+        self.escribir("/robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {self.cfg['url']}/sitemap.xml\n" + noticias,
+                      sitemap=False)
         shutil.copytree(RAIZ / "static", self.salida, dirs_exist_ok=True)
 
 

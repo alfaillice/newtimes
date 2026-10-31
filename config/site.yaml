@@ -89,10 +89,48 @@ ediciones:
         nombre: Deportes
         color: "#2E6B3A"
   en:
-    activa: false
+    activa: true
     idioma: en-GB
     prefijo: en
     nombre: English edition
+    lema: News from Spain and the world for English-speaking readers, updated every hour with verified sources.
+    por_pagina: 20
+    directo:                 # señal en directo propia de esta edición (canal_id: emite el directo activo del canal)
+      canal_id: UCQfwfsi5VrQ8yKZ-UWmAEFg
+      canal: FRANCE 24 English
+      canal_url: https://www.youtube.com/@France24_en
+    rutas:                   # direcciones en inglés: /en/section/spain/, /en/archive/...
+      seccion: section
+      tema: topic
+      hemeroteca: archive
+      buscar: search
+      directo: live
+      equipo: team
+    secciones:
+      - slug: spain
+        nombre: Spain
+        color: "#1F4E79"
+      - slug: world
+        nombre: World
+        color: "#2F5D50"
+      - slug: business
+        nombre: Business
+        color: "#7A5A12"
+      - slug: society
+        nombre: Society
+        color: "#5B3A68"
+      - slug: science-health
+        nombre: Science & health
+        color: "#1E5F6E"
+      - slug: technology
+        nombre: Tech & AI
+        color: "#3A3F68"
+      - slug: culture
+        nombre: Culture
+        color: "#7A2E3A"
+      - slug: sport
+        nombre: Sport
+        color: "#2E6B3A"
   fr:
     activa: false
     idioma: fr-FR

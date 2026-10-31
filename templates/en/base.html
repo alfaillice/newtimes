@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en-GB">
+{% from "en/_macros.html" import icono_directo %}
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block titulo %}NewTimes.news: news from Spain and the world in English{% endblock %}</title>
+<meta name="description" content="{% block descripcion %}{{ ed.lema }}{% endblock %}">
+<link rel="canonical" href="{{ cfg.url }}{% block canonica %}{{ pre }}/{% endblock %}">
+<meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#14284B">
+<meta property="og:site_name" content="NewTimes.news">
+<meta property="og:locale" content="en_GB">
+{% block og %}
+<meta property="og:type" content="website">
+<meta property="og:title" content="NewTimes.news">
+<meta property="og:description" content="{{ ed.lema }}">
+<meta property="og:image" content="{{ cfg.url }}/img/og-portada.png">
+{% endblock %}
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/fonts/lora-var.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/fonts/inter-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="/css/site.css?v={{ v }}">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="NewTimes.news (English)" href="{{ pre }}/rss.xml">
+{% if cfg.publicidad and cfg.publicidad.activa %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ cfg.publicidad.cliente }}" crossorigin="anonymous"></script>
+{% endif %}
+{% block cabeza %}{% endblock %}
+</head>
+<body class="{% block clase_body %}{% endblock %}">
+<a class="saltar" href="#contenido">Skip to content</a>
+
+<header class="cabecera">
+  <div class="cabecera__barra envoltura">
+    <p class="cabecera__fecha">{{ ahora|fecha_larga }}</p>
+    <nav class="cabecera__ediciones" aria-label="Editions">
+      {% for c, e in cfg.ediciones.items() if e.activa %}
+      <a href="/{{ e.prefijo }}{{ '/' if e.prefijo }}" lang="{{ e.idioma }}" {% if c == codigo %}aria-current="true"{% endif %}>{{ e.nombre }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+  <div class="cabecera__marca envoltura">
+    <a class="logo" href="{{ pre }}/" aria-label="NewTimes.news, go to the front page">
+      <picture>
+        <source srcset="/img/logo-claro.svg" media="(prefers-color-scheme: dark)">
+        <img src="/img/logo.svg" alt="NewTimes.news" width="517" height="77">
+      </picture>
+    </a>
+    <a class="cabecera__buscar" href="{{ pre }}/search/">
+      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      Search
+    </a>
+  </div>
+</header>
+<div class="centinela-menu" aria-hidden="true"></div>
+  <nav class="secciones" aria-label="Sections">
+    <ul class="secciones__lista envoltura" role="list">
+      <li class="secciones__marca" aria-hidden="true"><a href="{{ pre }}/" tabindex="-1"><img src="/img/logo-claro.svg" alt="" width="104" height="16"></a></li>
+      <li class="secciones__directo"><a class="boton-directo" href="{{ pre }}/live/" {% if seccion_actual == 'directo' %}aria-current="page"{% endif %}>{{ icono_directo() }}<span>Live</span></a></li>
+      {% for s in secciones %}
+      <li><a href="{{ pre }}/section/{{ s.slug }}/" style="--c: {{ s.color }}" {% if seccion_actual == s.slug %}aria-current="page"{% endif %}>{{ s.nombre }}</a></li>
+      {% endfor %}
+      <li class="secciones__extra"><a href="{{ pre }}/archive/">Archive</a></li>
+    </ul>
+  </nav>
+  {% if ultima_hora and seccion_actual != 'directo' %}
+  <div class="ultima-hora">
+    <div class="envoltura ultima-hora__fila">
+      <p class="ultima-hora__etiqueta">Breaking</p>
+      <p class="ultima-hora__titular"><time datetime="{{ ultima_hora.fecha_iso }}">{{ ultima_hora.fecha.strftime('%H:%M') }}</time> <a href="{{ ultima_hora.url }}">{{ ultima_hora.titulo }}</a></p>
+      <a class="ultima-hora__directo" href="{{ pre }}/live/">Follow live</a>
+    </div>
+  </div>
+  {% endif %}
+
+<main id="contenido" tabindex="-1">
+{% block contenido %}{% endblock %}
+</main>
+
+<footer class="pie">
+  <div class="envoltura pie__rejilla">
+    <div class="pie__marca">
+      <p class="logo logo--pie"><picture>
+          <source srcset="/img/logo-claro.svg" media="(prefers-color-scheme: dark)">
+          <img src="/img/logo.svg" alt="NewTimes.news" width="517" height="77">
+      </picture></p>
+      <p>{{ ed.lema }}</p>
+      <p class="pie__ia">NewTimes.news stories are written by an artificial intelligence system from the sources cited in each piece. Times are Spanish time (CET/CEST). <a href="{{ pre }}/how-we-work/">How we work</a></p>
+    </div>
+    <nav aria-label="Sections">
+      <h2 class="pie__titulo">Sections</h2>
+      <ul role="list">{% for s in secciones %}<li><a href="{{ pre }}/section/{{ s.slug }}/">{{ s.nombre }}</a></li>{% endfor %}</ul>
+    </nav>
+    <nav aria-label="About us">
+      <h2 class="pie__titulo">About us</h2>
+      <ul role="list">
+        <li><a href="{{ pre }}/how-we-work/">How we work</a></li>
+        <li><a href="{{ pre }}/team/">Team</a></li>
+        <li><a href="{{ pre }}/contact/">Contact</a></li>
+        <li><a href="{{ pre }}/archive/">Archive</a></li>
+        <li><a href="{{ pre }}/rss.xml">RSS</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Legal information">
+      <h2 class="pie__titulo">Legal</h2>
+      <ul role="list">
+        <li><a href="{{ pre }}/legal-notice/">Legal notice</a></li>
+        <li><a href="{{ pre }}/privacy/">Privacy</a></li>
+        <li><a href="{{ pre }}/cookies/">Cookies</a></li>
+        {% if cfg.publicidad and cfg.publicidad.activa %}<li><button type="button" class="pie__boton" data-consentimiento>Cookie settings</button></li>{% endif %}
+      </ul>
+    </nav>
+  </div>
+  <p class="envoltura pie__copy">© {{ ahora.year }} NewTimes.news. {% if cfg.publicidad and cfg.publicidad.activa %}Advertising is served by Google AdSense according to your cookie preferences.{% else %}This website uses no first-party cookies or trackers.{% endif %}</p>
+</footer>
+<script src="/js/site.js?v={{ v }}" defer></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

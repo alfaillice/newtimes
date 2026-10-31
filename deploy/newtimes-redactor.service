@@ -9,6 +9,6 @@ User=newtimes
 Group=newtimes
 EnvironmentFile=/etc/newtimes/redactor.env
 WorkingDirectory=/srv/newtimes/redactor
-ExecStart=/usr/bin/python3 /srv/newtimes/redactor/redaccion/servidor/redactor.py
+ExecStart=/usr/bin/flock -w 900 /srv/newtimes/.redactor.lock /usr/bin/python3 /srv/newtimes/redactor/redaccion/servidor/redactor.py --edicion es
 TimeoutStartSec=1200
 Nice=10

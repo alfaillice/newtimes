@@ -1,0 +1,22 @@
+{% extends "en/base.html" %}
+{% block titulo %}Archive | NewTimes.news{% endblock %}
+{% block descripcion %}Every story published in the NewTimes.news English edition, day by day.{% endblock %}
+{% block canonica %}{{ pre }}/archive/{% endblock %}
+{% block contenido %}
+<div class="envoltura pagina-estrecha">
+  <h1 class="titulo-pagina">Archive</h1>
+  <p class="subtitulo-pagina">Everything we have published, day by day. Pick a date to see its stories in order of publication.</p>
+  {% for (anio, mes), dias in meses.items() %}
+  <section class="hemeroteca__mes" aria-labelledby="mes-{{ anio }}-{{ mes }}">
+    <h2 id="mes-{{ anio }}-{{ mes }}">{{ MESES[mes - 1] }} {{ anio }}</h2>
+    <ul class="hemeroteca__dias" role="list">
+      {% for d, n in dias %}
+      <li><a href="{{ pre }}/archive/{{ d.strftime('%Y/%m/%d') }}/"><span class="hemeroteca__num">{{ d.day }}</span><span class="hemeroteca__n">{{ n }} {{ 'story' if n == 1 else 'stories' }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% else %}
+  <p>No stories archived yet.</p>
+  {% endfor %}
+</div>
+{% endblock %}

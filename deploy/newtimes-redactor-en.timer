@@ -1,0 +1,10 @@
+[Unit]
+Description=NewTimes.news: redactar noticias en inglés cada hora (media hora después de la española)
+
+[Timer]
+OnCalendar=*-*-* 07..23:35:00
+OnCalendar=*-*-* 00..06/3:35:00
+Persistent=false
+
+[Install]
+WantedBy=timers.target

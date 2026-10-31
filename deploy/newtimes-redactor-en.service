@@ -1,0 +1,15 @@
+[Unit]
+Description=NewTimes.news: redactor automático, edición en inglés (RSS + API de Claude)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=newtimes
+Group=newtimes
+EnvironmentFile=/etc/newtimes/redactor.env
+WorkingDirectory=/srv/newtimes/redactor
+# El candado evita que coincida con la edición española (comparten copia de trabajo)
+ExecStart=/usr/bin/flock -w 900 /srv/newtimes/.redactor.lock /usr/bin/python3 /srv/newtimes/redactor/redaccion/servidor/redactor.py --edicion en
+TimeoutStartSec=1800
+Nice=10

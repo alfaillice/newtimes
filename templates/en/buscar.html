@@ -1,0 +1,20 @@
+{% extends "en/base.html" %}
+{% block titulo %}Search | NewTimes.news{% endblock %}
+{% block descripcion %}Search stories published in the NewTimes.news English edition.{% endblock %}
+{% block canonica %}{{ pre }}/search/{% endblock %}
+{% block cabeza %}<meta name="robots" content="noindex">{% endblock %}
+{% block contenido %}
+<div class="envoltura pagina-estrecha">
+  <h1 class="titulo-pagina">Search</h1>
+  <form class="buscador" role="search" action="{{ pre }}/search/" data-indice="{{ pre }}/search/indice.json">
+    <label for="q">Search terms</label>
+    <div class="buscador__fila">
+      <input id="q" name="q" type="search" autocomplete="off" placeholder="For example: housing, Ukraine, inflation" required>
+      <button type="submit">Search</button>
+    </div>
+  </form>
+  <p class="buscador__estado" aria-live="polite" data-estado></p>
+  <ol class="resultados" role="list" data-resultados></ol>
+  <noscript><p>Search needs JavaScript. You can also browse the <a href="{{ pre }}/archive/">archive</a>.</p></noscript>
+</div>
+{% endblock %}

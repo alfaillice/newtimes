@@ -42,11 +42,15 @@ sudo -u "$USUARIO" git -C "$DIR" config user.email "redaccion@newtimes.news"
 sudo -u "$USUARIO" git -C "$DIR" pull -q --rebase origin main
 
 echo "==> 4/4 Temporizador"
-install -m 644 "$DIR/deploy/newtimes-redactor.service" /etc/systemd/system/
-install -m 644 "$DIR/deploy/newtimes-redactor.timer" /etc/systemd/system/
+for u in newtimes-redactor newtimes-redactor-en; do
+  install -m 644 "$DIR/deploy/$u.service" /etc/systemd/system/
+  install -m 644 "$DIR/deploy/$u.timer" /etc/systemd/system/
+done
+touch /srv/newtimes/.redactor.lock; chown "$USUARIO":"$USUARIO" /srv/newtimes/.redactor.lock
 systemctl daemon-reload
-systemctl enable -q --now newtimes-redactor.timer
+systemctl enable -q --now newtimes-redactor.timer newtimes-redactor-en.timer
 echo
-echo "Listo. Prueba sin publicar:"
+echo "Listo (edición española a las :05 y en inglés a las :35). Prueba sin publicar:"
 echo "  sudo -u $USUARIO env \$(cat $ENV | xargs) python3 $DIR/redaccion/servidor/redactor.py --prueba"
-echo "Ver el registro:  journalctl -u newtimes-redactor -n 50"
+echo "  sudo -u $USUARIO env \$(cat $ENV | xargs) python3 $DIR/redaccion/servidor/redactor.py --prueba --edicion en"
+echo "Ver el registro:  journalctl -u newtimes-redactor -n 50   |   journalctl -u newtimes-redactor-en -n 50"
