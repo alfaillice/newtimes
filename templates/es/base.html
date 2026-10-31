@@ -27,7 +27,8 @@
 {% if cfg.publicidad and cfg.publicidad.activa %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ cfg.publicidad.cliente }}" crossorigin="anonymous"></script>
 {% endif %}
-{% block cabeza %}{% endblock %}
+{% for l, u in alternos or [] %}<link rel="alternate" hreflang="{{ l }}" href="{{ u }}">
+{% endfor %}{% block cabeza %}{% endblock %}
 </head>
 <body class="{% block clase_body %}{% endblock %}">
 <a class="saltar" href="#contenido">Saltar al contenido</a>

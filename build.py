@@ -568,6 +568,34 @@ class Constructor:
         if sitemap and destino.name == "index.html":
             self.paginas_sitemap.append((ruta, prioridad, lastmod.isoformat() if lastmod else ""))
 
+    def alternos(self, tipo: str, indice: int | None = None, slug: str | None = None) -> list:
+        """Versiones equivalentes de una página en cada edición activa (hreflang).
+        Solo para páginas con equivalente real: secciones (mismo orden en ambas ediciones)
+        y equipo (mismos agentes). Las noticias no: cada edición escribe las suyas."""
+        activas = [(c, e) for c, e in self.cfg["ediciones"].items() if e.get("activa")]
+        if len(activas) < 2:
+            return []
+        salida = []
+        for c, e in activas:
+            pre = f"/{e['prefijo']}" if e["prefijo"] else ""
+            r = e["rutas"]
+            if tipo == "seccion":
+                secs = e.get("secciones") or []
+                if indice is None or indice >= len(secs):
+                    return []
+                ruta = f"{pre}/{r['seccion']}/{secs[indice]['slug']}/"
+            elif tipo == "equipo":
+                ruta = f"{pre}/{r['equipo']}/"
+            elif tipo == "agente":
+                if slug not in {ag.get("slug") for ag in cargar_agentes(c)}:
+                    return []
+                ruta = f"{pre}/{r['equipo']}/{slug}/"
+            else:
+                return []
+            salida.append((e["idioma"][:2], self.cfg["url"] + ruta))
+        salida.append(("x-default", salida[0][1]))
+        return salida
+
     def render(self, plantilla: str, **ctx) -> str:
         return self.env.get_template(plantilla).render(cfg=self.cfg, ahora=self.ahora, v=self.version, **ctx)
 
@@ -635,13 +663,14 @@ class Constructor:
 
         # Secciones con paginación
         n = ed.get("por_pagina", 20)
-        for s in ed["secciones"]:
+        for i_sec, s in enumerate(ed["secciones"]):
             lista = por_seccion[s["slug"]]
             total = max(1, math.ceil(len(lista) / n))
             for p in range(1, total + 1):
                 ruta = f"{pre}/{r['seccion']}/{s['slug']}/" + (f"{p}/" if p > 1 else "")
                 self.escribir(ruta, self.render(f"{t}/seccion.html", **base_ctx, s=s, lista=lista[(p - 1) * n:p * n],
-                                                pagina=p, total_paginas=total), prioridad="0.7" if p == 1 else "0.3",
+                                                pagina=p, total_paginas=total,
+                                                alternos=self.alternos("seccion", i_sec) if p == 1 else []), prioridad="0.7" if p == 1 else "0.3",
                               lastmod=lista[(p - 1) * n].fecha if lista else None)
             self.escribir(f"{pre}/{r['seccion']}/{s['slug']}/rss.xml", self.rss(ed, pre, lista[:30], s), sitemap=False)
 
@@ -683,8 +712,12 @@ class Constructor:
             ag["seccion_obj"] = next((s for s in ed["secciones"] if s["slug"] == ag["seccion"]), None)
             ag["articulos"] = [a for a in articulos if a.agente and a.agente["slug"] == ag["slug"]]
             self.escribir(f"{pre}/{r['equipo']}/{ag['slug']}/", self.render(f"{t}/agente.html", **base_ctx, ag=ag,
-                                                                     lista=ag["articulos"][:30]), prioridad="0.3")
-        self.escribir(f"{pre}/{r['equipo']}/", self.render(f"{t}/equipo.html", **base_ctx, agentes=agentes), prioridad="0.3")
+                                                                     lista=ag["articulos"][:30],
+                                                                     alternos=self.alternos("agente", slug=ag["slug"])),
+                          prioridad="0.3", lastmod=ag["articulos"][0].fecha if ag["articulos"] else None)
+        self.escribir(f"{pre}/{r['equipo']}/", self.render(f"{t}/equipo.html", **base_ctx, agentes=agentes,
+                                                            alternos=self.alternos("equipo")),
+                      prioridad="0.3", lastmod=ultimo)
 
         # Páginas fijas
         for ruta in sorted((RAIZ / "content" / codigo / "paginas").glob("*.md")):

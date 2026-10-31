@@ -26,7 +26,7 @@
   "inLanguage": "es-ES",
   "mainEntityOfPage": cfg.url ~ a.url,
   "image": ([cfg.url ~ a.foto.src] if a.foto else []) + ([cfg.url ~ a.og] if a.og else []),
-  "author": {"@type": "Organization", "name": a.autor, "url": cfg.url ~ "/como-trabajamos/"},
+  "author": {"@type": "Organization", "name": a.autor, "url": (cfg.url ~ pre ~ "/" ~ ed.rutas.equipo ~ "/" ~ a.agente.slug ~ "/") if a.agente else cfg.url ~ "/como-trabajamos/"},
   "publisher": {"@type": "Organization", "name": "NewTimes.news", "logo": {"@type": "ImageObject", "url": cfg.url ~ "/img/logo.png"}},
   "isBasedOn": a.fuentes|map(attribute="url")|list
 }|tojson }}
