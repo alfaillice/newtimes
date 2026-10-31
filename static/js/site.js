@@ -166,6 +166,26 @@
     });
   });
 
+  /* Instagram y TikTok no tienen enlace web para compartir: en el móvil se abre el menú
+     de compartir del sistema (donde aparecen sus apps); en el ordenador se copia el enlace. */
+  document.querySelectorAll("[data-red]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var caja = b.closest("[data-compartir]");
+      var url = caja.dataset.url;
+      var red = b.dataset.red;
+      if (navigator.share) {
+        navigator.share({ title: caja.dataset.titulo, url: url }).catch(function () {});
+        return;
+      }
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(function () {
+          b.textContent = tx("Enlace copiado: pégalo en " + red, "Link copied: paste it in " + red);
+          setTimeout(function () { b.textContent = red; }, 3000);
+        });
+      }
+    });
+  });
+
   /* Búsqueda */
   var form = document.querySelector(".buscador");
   if (form) {

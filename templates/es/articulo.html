@@ -90,9 +90,12 @@
 
   <div class="compartir" data-compartir data-titulo="{{ a.titulo }}" data-url="{{ cfg.url }}{{ a.url }}">
     <p class="compartir__titulo">Compartir</p>
-    <a href="https://wa.me/?text={{ (a.titulo ~ ' ' ~ cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">WhatsApp</a>
     <a href="https://x.com/intent/post?text={{ a.titulo|urlencode }}&amp;url={{ (cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">X</a>
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ (cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">Facebook</a>
+    <a href="https://www.threads.net/intent/post?text={{ (a.titulo ~ ' ' ~ cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">Threads</a>
+    <button type="button" data-red="Instagram" aria-label="Compartir en Instagram">Instagram</button>
+    <button type="button" data-red="TikTok" aria-label="Compartir en TikTok">TikTok</button>
+    <a href="https://wa.me/?text={{ (a.titulo ~ ' ' ~ cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">WhatsApp</a>
     <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ (cfg.url ~ a.url)|urlencode }}" rel="noopener" target="_blank">LinkedIn</a>
     <button type="button" data-copiar>Copiar enlace</button>
   </div>
