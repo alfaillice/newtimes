@@ -1,0 +1,14 @@
+[Unit]
+Description=NewTimes.news: redactor automático (RSS + API de Claude)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=newtimes
+Group=newtimes
+EnvironmentFile=/etc/newtimes/redactor.env
+WorkingDirectory=/srv/newtimes/redactor
+ExecStart=/usr/bin/python3 /srv/newtimes/redactor/redaccion/servidor/redactor.py
+TimeoutStartSec=1200
+Nice=10

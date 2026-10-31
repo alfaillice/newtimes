@@ -33,3 +33,7 @@ La definición completa de cada agente está en `.claude/agents/<agente>.md` (ge
 9. Termina con una línea por noticia publicada: agente, sección y titular.
 
 Reglas que no se rompen: cada noticia la escribe y firma el agente de su sección; nada copiado ni traducido de otros medios; ni datos ni citas inventados; ninguna foto de medios o agencias; no se toca nada fuera de `content/es/` salvo para corregir un error propio.
+
+## Redactor automático en el servidor (alternativa sin gastar el plan de Claude)
+
+`redaccion/servidor/redactor.py` hace este mismo trabajo desde el servidor con la API de Anthropic (Claude Haiku por defecto): lee los RSS de `config/fuentes_rss.yaml`, elige temas, redacta con el agente de cada sección siguiendo esta guía, valida con `build.py --check` y hace push. Se instala con `sudo bash deploy/instalar-redactor.sh` y corre con el temporizador `newtimes-redactor.timer`. Sus commits terminan en `[servidor]`.

@@ -1,0 +1,10 @@
+[Unit]
+Description=NewTimes.news: redactar noticias cada hora
+
+[Timer]
+OnCalendar=*-*-* 07..23:05:00
+OnCalendar=*-*-* 00..06/3:05:00
+Persistent=false
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,26 @@
+# Fuentes RSS que lee el redactor automático del servidor (redaccion/servidor/redactor.py).
+# Solo medios y organismos de la lista de redaccion/GUIA.md. Si un feed deja de
+# responder, el redactor lo avisa en el registro y sigue con los demás.
+# Formato: sección -> lista de {medio, url}
+
+espana:
+  - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=66"}
+  - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada"}
+internacional:
+  - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=69"}
+  - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada"}
+economia:
+  - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada"}
+sociedad:
+  - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/sociedad/portada"}
+ciencia-salud:
+  - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada"}
+tecnologia:
+  - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada"}
+cultura:
+  - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada"}
+deportes:
+  - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada"}
+# Portada general de Europa Press: el redactor la reparte por sección según el tema.
+general:
+  - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=94"}
