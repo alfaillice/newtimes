@@ -7,19 +7,43 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 
 | # | Acción | Impacto | Urgencia | Esfuerzo | Responsable | Estado |
 |---|---|---|---|---|---|---|
-| 1 | Verificar newtimes.news en Google Search Console (registro TXT en Cloudflare) y enviar sitemap.xml, sitemap-noticias.xml y /en/sitemap-noticias.xml | Muy alto | Alta | 15 min | JM | ⛔ |
-| 2 | Reejecutar el instalador en el VPS (activa 301/410 de URLs antiguas, CSP para AdSense y YouTube) | Alto | Alta | 5 min | JM | ⛔ |
-| 3 | Fuentes: enlazar la nota original de la agencia u organismo (EFE, Europa Press, oficiales) en vez de reproducciones (Infobae = 39 % de las fuentes; dominios fuera de la lista de GUIA.md) | Alto (E-E-A-T, Google News) | Alta | Medio | Claude (guía/agentes) + JM (decidir) | 📋 |
-| 4 | Equilibrar secciones: Tecnolog-IA, Cultura y Ciencia y salud con 4 noticias/semana frente a 14 de Internacional | Alto | Media | Bajo | Claude (jefe de redacción) | 📋 |
-| 5 | Google News: alta en Publisher Center (edición ES y EN por separado) con logo, secciones y RSS | Alto | Media | 30 min | JM | ⛔ |
-| 6 | Alta en Bing Webmaster Tools (importar desde Search Console) | Medio | Media | 10 min | JM | ⛔ |
-| 7 | AdSense: mensaje RGPD publicado, sitio aprobado, anuncios automáticos desactivados | Alto (ingresos) | Alta | 20 min | JM | ⛔ |
-| 8 | Perfiles de marca (X, Bluesky, Telegram, canal de WhatsApp) y añadirlos a `perfiles` en config/site.yaml (hoy `sameAs` vacío) | Medio | Media | 1 h | JM + Claude | 📋 |
-| 9 | Confirmar si el redactor del servidor (RSS + Haiku, commit d095676) está instalado y activo; si publica, que respete GUIA.md igual que los agentes | Medio | Media | 5 min | JM | ⛔ |
-| 10 | Páginas de tema "pilares" (Urda/alta velocidad, Irán-Ormuz, dana, inflación) con contexto propio | Medio | Media | Medio | Claude | 📋 |
-| 11 | Fuentes WOFF2 generadas en el servidor | Bajo | Baja | Bajo | Claude | 📋 |
+| 1 | Continuidad de la redacción: hueco de casi 5 días sin publicar (01/11 09:13 → 06/11 07:32). Averiguar la causa (¿tareas suspendidas, límite de uso?) y dejar un respaldo que no dependa de las tareas en la nube (redactor del servidor) | Muy alto (frescura, Google News, Discover) | Inmediata | 15 min | JM | ⛔ |
+| 2 | Verificar newtimes.news en Google Search Console (registro TXT en Cloudflare) y enviar sitemap.xml, sitemap-noticias.xml y /en/sitemap-noticias.xml | Muy alto | Alta | 15 min | JM | ⛔ |
+| 3 | Reejecutar el instalador en el VPS (activa 301/410 de URLs antiguas, CSP para AdSense y YouTube) | Alto | Alta | 5 min | JM | ⛔ |
+| 4 | Fuentes: enlazar la nota original de la agencia u organismo en vez de reproducciones (Infobae = 37 % de las fuentes de la semana). Aviso automático en `build.py --check` desde 92fcd44; falta que el jefe de redacción lo aplique | Alto (E-E-A-T, Google News) | Alta | Bajo | Claude (jefe de redacción) | 🛠 |
+| 5 | Evitar duplicados cuando vigilante y jefe de redacción coinciden (06/11: retirada pieza Koldo, ccdc5ca) | Medio | Media | Bajo | Claude + JM (decidir) | 📋 |
+| 6 | Equilibrar secciones: Tecnolog-IA, Cultura y Ciencia y salud con 5 noticias/semana frente a 17 de Internacional | Alto | Media | Bajo | Claude (jefe de redacción) | 📋 |
+| 7 | Google News: alta en Publisher Center (edición ES y EN por separado) con logo, secciones y RSS | Alto | Media | 30 min | JM | ⛔ |
+| 8 | Alta en Bing Webmaster Tools (importar desde Search Console) | Medio | Media | 10 min | JM | ⛔ |
+| 9 | AdSense: mensaje RGPD publicado, sitio aprobado, anuncios automáticos desactivados | Alto (ingresos) | Alta | 20 min | JM | ⛔ |
+| 10 | Perfiles de marca (X, Bluesky, Telegram, canal de WhatsApp) y añadirlos a `perfiles` en config/site.yaml (hoy `sameAs` vacío) | Medio | Media | 1 h | JM + Claude | 📋 |
+| 11 | Redactor del servidor (d095676): ningún commit `[servidor]` en todo el historial, luego no está instalado o no publica | Medio | Media | 5 min | JM | ⛔ |
+| 12 | Permitir newtimes.news en WebFetch para las tareas programadas (esta revisión no pudo leer producción) | Medio (medición) | Media | 2 min | JM | ⛔ |
+| 13 | Páginas de tema "pilares" (Urda/alta velocidad, Irán-Ormuz, dana, inflación) con contexto propio | Medio | Media | Medio | Claude | 📋 |
+| 14 | Fuentes WOFF2 generadas en el servidor | Bajo | Baja | Bajo | Claude | 📋 |
 
 ## Registro de revisiones
+
+### Revisión 3 · 06/11/2026 07:40
+**Cambios desde la revisión 2** (git log): ~20 commits de redacción el 31/10–01/11, botones de compartir (Threads, Instagram, TikTok), carrusel de portada; **ningún commit entre el 01/11 09:13 y el 06/11 07:30 (hora de Madrid)**. Hoy, a las 07:32, el vigilante hizo una edición de recuperación (840000d, 4 noticias) y a la vez el jefe de redacción publicó 4 (7d6effb); una pieza duplicada del caso Koldo se retiró (ccdc5ca).
+
+**Datos verificados**
+- Hueco de publicación: 4 días y 22 h sin noticias (git log). En ese tiempo sitemap-noticias.xml quedó vacío (la construcción local sin noticias de 48 h genera `<urlset>` vacío) y la portada se quedó en el 01/11.
+- Tareas (list_triggers): jefe de redacción, vigilante y esta revisión se dispararon todas a las 06:22 del 06/11 y figuran actualizadas a esa hora; la de TikTok terminó el 05/11 en 3 segundos. No hay registro de las ejecuciones intermedias, así que la causa del hueco no se puede demostrar desde aquí.
+- `site:newtimes.news` y "NewTimes.news" (buscador de la herramienta, no Google): ningún resultado propio; dominan Phoenix/Miami New Times y New Times (Ruanda).
+- Producción: **no verificada**. WebFetch rechazó todas las URLs de newtimes.news (permiso no concedido en una ejecución desatendida); no se usó otro método.
+- Volumen (recientes.py 168, antes de la recuperación): 74 noticias; internacional 17, deportes 12, España 11, economía 10, sociedad 9, tecnología 5, cultura 5, ciencia-salud 5. Por día: 30/10 19, 31/10 46, 01/11 9, 02–05/11 0.
+- Fuentes de esas 74 noticias: 255 enlaces; infobae.com 96 (37 %), eldiario.es 12, unitel.bo 12, aljazeera.com 9, yahoo 9, diariosigloxxi.com 4. Mediana 511 palabras, mínimo 233. Todas con imagen y firma de agente (el check exige agente correcto por sección).
+- `build.py --check`: 85 artículos válidos, 0 errores (tras la recuperación). Construcción local: canonical, og, NewsArticle con datePublished/dateModified y RSS presentes.
+
+**Cambios (commit 92fcd44)** ✅ en el repositorio
+- `build.py --check` avisa, sin bloquear, cuando una noticia de las últimas 6 h enlaza una reproducción (infobae.com, yahoo.com, msn.com, unitel.bo, diariosigloxxi.com) y remite al apartado 2 de GUIA.md. Probado con una noticia de prueba con fecha actual (dos avisos, 0 errores) y retirada antes del commit.
+
+**Problemas**
+- Hueco de casi 5 días: el problema más grave del periodo; para Google News la regularidad pesa más que cualquier ajuste técnico.
+- Vigilante y jefe de redacción pueden publicar a la vez (duplicado de hoy).
+- Infobae sigue siendo la fuente principal; el redactor del servidor no está activo.
+- Sin acceso a producción ni a Search Console, no hay medición.
 
 ### Revisión 2 · 31/10/2026 21:40
 **Cambios desde la revisión 1** (git log): 50 commits; edición en inglés `/en/` con 4 noticias (c014a77), redactor automático en el servidor con la API de Claude (d095676, requiere instalación en el VPS), menú fijo, reglas de rigor (duplicados, datos solo si están en las fuentes), retirada de una noticia duplicada.
@@ -66,5 +90,7 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 - Analítica de visitas: ninguna instalada (opción sin cookies: Plausible/Umami en el VPS).
 - AdSense: aprobación, RPM, ingresos.
 - Core Web Vitals reales (CrUX), cuando haya tráfico; PageSpeed no accesible desde el entorno de revisión.
-- Estado del redactor del servidor (systemctl status newtimes-redactor.timer) y su registro.
+- Estado del redactor del servidor (systemctl status newtimes-redactor.timer) y su registro: sin commits `[servidor]`.
+- Historial de ejecuciones de las tareas programadas entre el 01/11 y el 06/11 (causa del hueco).
+- Acceso de WebFetch a newtimes.news en las tareas desatendidas (para verificar producción).
 - Enlaces entrantes (no hay herramienta de backlinks disponible).
