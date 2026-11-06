@@ -443,11 +443,6 @@ ul, ol { margin: 0; padding: 0; }
   .bloque__cabecera--sencilla .bloque__mas { white-space: normal; flex-basis: 100%; }
 }
 
-/* Pausa del pase automático del carrusel */
-.carrusel__pausa .icono-play { display: none; }
-.carrusel__boton--pausado .icono-pausa { display: none; }
-.carrusel__boton--pausado .icono-play { display: block; }
-.carrusel__pausa[hidden] { display: none; }
 
 /* ---------- Publicidad: separada del contenido y con su espacio reservado */
 .anuncio { margin-block: clamp(2rem, 5vw, 3rem); padding-block: .6rem 1rem; border-block: 1px solid var(--linea); text-align: center; }
