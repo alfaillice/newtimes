@@ -46,6 +46,9 @@ DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sun
 RUTAS_POR_DEFECTO = {"seccion": "seccion", "tema": "tema", "hemeroteca": "hemeroteca", "buscar": "buscar",
                      "directo": "directo", "equipo": "equipo"}
 CAMPOS_OBLIGATORIOS = ["titulo", "entradilla", "seccion", "fecha", "fuentes"]
+# Webs que reproducen teletipos de agencias. No están en la lista de redaccion/GUIA.md:
+# hay que enlazar la nota original (efe.com, europapress.es, fuente oficial...). Solo avisa.
+REPRODUCCIONES = ("infobae.com", "yahoo.com", "msn.com", "unitel.bo", "diariosigloxxi.com")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 LICENCIAS = {
     "cc0": "CC0",
@@ -287,6 +290,12 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                 raise ValueError(f"entradilla demasiado larga ({len(str(meta['entradilla']))} caracteres; máximo 320)")
             if any("newtimes.news" in str(f.get("url", "")) for f in fuentes):
                 raise ValueError("una fuente no puede ser la propia NewTimes.news")
+            if fecha > datetime.now(tz) - timedelta(hours=6):
+                for f in fuentes:
+                    dominio = re.sub(r"^https://(www\.)?", "", str(f.get("url", ""))).split("/")[0]
+                    if any(dominio == d or dominio.endswith("." + d) for d in REPRODUCCIONES):
+                        avisos.append(f"{rel}: fuente {dominio} es una reproducción; enlaza la nota original "
+                                      "de la agencia o fuente oficial (redaccion/GUIA.md, apartado 2)")
             url = f"/{ed['prefijo'] + '/' if ed['prefijo'] else ''}{fecha:%Y/%m/%d}/{slug}/"
             if url in vistos:
                 raise ValueError(f"URL duplicada con {vistos[url]}")
