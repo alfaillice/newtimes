@@ -4,6 +4,7 @@ entradilla: Pese a ser la formación más votada, el partido gobernante cae al 3
 seccion: internacional
 agente: juan-de-la-torre
 fecha: '2026-11-09T00:15:00+01:00'
+actualizado: '2026-11-09T00:21:00+01:00'
 destacado: false
 etiquetas:
 - Sudáfrica
@@ -27,12 +28,14 @@ El Congreso Nacional Africano (ANC) ha sido la formación más votada en las ele
 
 En las municipales de 2021 el partido había logrado el 46 % de los sufragios, y en 2006 alcanzó el 64,82 %. El descenso se traduce en que el ANC solo gobernará con mayoría absoluta en una de las nueve provincias, Limpopo, frente a las seis en las que la tenía en 2021.
 
-A nivel de ciudad, la formación tendrá mayoría absoluta en dos de las ocho ciudades, cuando controlaba seis desde la última votación local. La participación fue del 52,29 %, ligeramente superior al 45,9 % registrado en 2021.
+A nivel de ciudad, la formación tendrá mayoría absoluta en dos de las ocho ciudades, cuando controlaba seis desde la última votación local. La participación fue del 52,29 %, superior al 45,9 % registrado en 2021.
 
 La Alianza Democrática fue la segunda fuerza, con el 24,64 %, y logró mayoría absoluta en Ciudad del Cabo. El partido MK, del expresidente Jacob Zuma, quedó tercero con el 9,76 % y ganó en Durban. Los Luchadores por la Libertad Económica (EFF), de Julius Malema, se situaron cuartos con el 6,22 %.
 
-El secretario general del ANC, Fikile Mbalula, calificó el resultado de «muy catastrófico» para la formación y señaló que el alto coste de la vida y el voto de la clase media han pesado en la derrota. Según la agencia, el partido dijo que está analizando los datos.
+El secretario general del ANC, Fikile Mbalula, calificó el resultado de «muy catastrófico» para la formación y señaló que el alto coste de la vida y el voto de la clase media han pesado en la derrota. Según Europa Press, el partido dijo que está analizando los datos.
 
 Por su parte, el presidente sudafricano y líder del ANC, Cyril Ramaphosa, afirmó: «Este es su veredicto y lo aceptamos con humildad». Reconoció que la caída es preocupante.
 
 El ANC ya perdió la mayoría absoluta en el Parlamento en 2024 y gobierna desde entonces en coalición con otros partidos, en el denominado Gobierno de Unidad Nacional.
+
+*Corrección: en una versión anterior se decía que la participación era «ligeramente» superior a la de 2021; lo correcto es que subió del 45,9 % al 52,29 %.*
