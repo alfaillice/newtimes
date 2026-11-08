@@ -1,0 +1,15 @@
+[Unit]
+Description=NewTimes.news: escribe los encargos del jefe de redacción (agentes en el servidor)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=newtimes
+Group=newtimes
+EnvironmentFile=/etc/newtimes/redactor.env
+WorkingDirectory=/srv/newtimes/redactor
+# Si otro redactor está trabajando, sale sin error y lo intenta en el siguiente ciclo
+ExecStart=/usr/bin/flock -n -E 0 /srv/newtimes/.redactor.lock /usr/bin/python3 /srv/newtimes/redactor/redaccion/servidor/redactor.py --encargos
+TimeoutStartSec=1200
+Nice=10

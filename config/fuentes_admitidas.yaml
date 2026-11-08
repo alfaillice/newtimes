@@ -1,0 +1,89 @@
+# Dominios que acepta el redactor del servidor (redaccion/servidor/redactor.py).
+# Refleja el apartado 2 de redaccion/GUIA.md y redaccion/GUIDE.md.
+# Un subdominio cuenta como su dominio (www.bbc.co.uk -> bbc.co.uk).
+# fuertes: agencias y fuentes oficiales o científicas; una sola basta.
+# medios: medios de referencia; hacen falta dos distintos, o atribuir el dato al único que lo publica.
+fuertes:
+  # Agencias
+  - efe.com
+  - europapress.es
+  - reuters.com
+  - afp.com
+  - apnews.com
+  # Oficiales de España
+  - gob.es
+  - boe.es
+  - congreso.es
+  - senado.es
+  - poderjudicial.es
+  - ine.es
+  - bde.es
+  - cnmv.es
+  - aemet.es
+  - dgt.es
+  # Comunidades autónomas
+  - gencat.cat
+  - juntadeandalucia.es
+  - comunidad.madrid
+  - gva.es
+  - euskadi.eus
+  - xunta.gal
+  - gobiernodecanarias.org
+  - jcyl.es
+  - aragon.es
+  - navarra.es
+  - carm.es
+  - caib.es
+  - jccm.es
+  - juntaex.es
+  - asturias.es
+  - cantabria.es
+  - larioja.org
+  # Oficiales internacionales
+  - europa.eu
+  - un.org
+  - who.int
+  - unhcr.org
+  - nato.int
+  - imf.org
+  - oecd.org
+  - worldbank.org
+  # Ciencia
+  - csic.es
+  - agenciasinc.es
+  - nature.com
+  - science.org
+  - thelancet.com
+  - nejm.org
+  - pnas.org
+medios:
+  - rtve.es
+  - cincodias.elpais.com
+  - elpais.com
+  - elmundo.es
+  - lavanguardia.com
+  - abc.es
+  - eldiario.es
+  - elconfidencial.com
+  - cadenaser.com
+  - cope.es
+  - 20minutos.es
+  - elperiodico.com
+  - larazon.es
+  - expansion.com
+  - eleconomista.es
+  - marca.com
+  - as.com
+  - bbc.com
+  - bbc.co.uk
+  - theguardian.com
+  - ft.com
+  - nytimes.com
+  - washingtonpost.com
+  - lemonde.fr
+  - aljazeera.com
+  - economist.com
+  - politico.eu
+  - bloomberg.com
+  - sky.com
+  - euronews.com
