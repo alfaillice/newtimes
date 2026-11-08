@@ -1,0 +1,14 @@
+[Unit]
+Description=NewTimes.news: guarda los titulares de los RSS para el jefe de redacción
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=newtimes
+Group=newtimes
+EnvironmentFile=/etc/newtimes/redactor.env
+WorkingDirectory=/srv/newtimes/redactor
+ExecStart=/usr/bin/flock -w 240 /srv/newtimes/.redactor.lock /usr/bin/python3 /srv/newtimes/redactor/redaccion/servidor/redactor.py --titulares --horas 12
+TimeoutStartSec=600
+Nice=10

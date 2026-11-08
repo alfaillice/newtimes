@@ -22,7 +22,7 @@ Variables de entorno (en /etc/newtimes/redactor.env):
   NEWTIMES_MAX        noticias máximas por ejecución (por defecto 3)
   NEWTIMES_MAX_ENCARGOS  encargos máximos por ejecución (por defecto 6)
 
-Uso:  python3 redaccion/servidor/redactor.py [--prueba] [--max N] [--edicion es|en] [--encargos]
+Uso:  python3 redaccion/servidor/redactor.py [--prueba] [--max N] [--edicion es|en] [--encargos] [--titulares]
       --prueba   escribe los archivos pero no hace commit ni push
       --edicion  es (por defecto; RSS de config/fuentes_rss.yaml, guía GUIA.md) o
                  en (RSS de config/fuentes_rss_en.yaml, guía GUIDE.md, escribe en content/en/)
@@ -602,6 +602,18 @@ def procesar_encargos(secciones, agentes, guia, prueba: bool) -> None:
         log(f"Publicadas {len(hechas)} noticias; {cambios} encargos sin publicar")
 
 
+def publicar_titulares(horas: int) -> None:
+    """Deja en el repositorio los titulares recientes de los RSS para que el jefe elija. No usa la API."""
+    items = [i for i in leer_feeds(horas) if clasificar(i["url"])]
+    ahora = datetime.now(TZ).replace(second=0, microsecond=0)
+    datos = {"generado": ahora.isoformat(), "titulares": [
+        {k: i[k] for k in ("seccion", "medio", "titulo", "url", "resumen")} for i in items]}
+    ruta = RAIZ / "redaccion/encargos/titulares.yaml"
+    ruta.write_text(yaml.safe_dump(datos, allow_unicode=True, sort_keys=False, width=1000), encoding="utf-8")
+    log(f"{len(items)} titulares guardados")
+    _publicar([], [str(ruta.relative_to(RAIZ))], f"Titulares {ahora:%Y-%m-%d %H:%M}")
+
+
 def informar_gasto() -> None:
     coste = GASTO["entrada"] / 1e6 * float(os.environ.get("NEWTIMES_PRECIO_ENTRADA", 0.10)) + \
         GASTO["salida"] / 1e6 * float(os.environ.get("NEWTIMES_PRECIO_SALIDA", 0.50))
@@ -615,6 +627,7 @@ def main():
     ap.add_argument("--horas", type=int, default=4, help="antigüedad máxima de los titulares RSS")
     ap.add_argument("--edicion", choices=["es", "en"], default=os.environ.get("NEWTIMES_EDICION", "es"))
     ap.add_argument("--encargos", action="store_true", help="escribe los encargos pendientes en vez de elegir temas")
+    ap.add_argument("--titulares", action="store_true", help="guarda los titulares de los RSS para el jefe de redacción")
     a = ap.parse_args()
     global EDICION
     EDICION = a.edicion
@@ -627,6 +640,9 @@ def main():
     secciones = [s["slug"] for s in cfg["ediciones"][EDICION]["secciones"]]
     agentes = {x["seccion"]: x for x in yaml.safe_load((RAIZ / "config/agentes.yaml").read_text(encoding="utf-8"))[EDICION]}
     guia = (RAIZ / GUIAS[EDICION]).read_text(encoding="utf-8")
+    if a.titulares:
+        publicar_titulares(a.horas)
+        return
     if a.encargos:
         procesar_encargos(secciones, agentes, guia, a.prueba)
         return

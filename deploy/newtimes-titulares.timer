@@ -1,0 +1,9 @@
+[Unit]
+Description=NewTimes.news: titulares para el jefe de redacción, diez minutos antes de cada turno
+
+[Timer]
+OnCalendar=*-*-* 08,17:50:00 Europe/Madrid
+Persistent=false
+
+[Install]
+WantedBy=timers.target

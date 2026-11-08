@@ -2,6 +2,10 @@
 
 El jefe de redacción (Claude) elige los temas y deja un archivo por noticia en `redaccion/encargos/pendientes/`. En el servidor, `newtimes-encargos.timer` mira cada 5 minutos: si hay encargos, `redactor.py --encargos` descarga las fuentes, escribe con el agente de la sección (Haiku, por API), contrasta y publica. Si no hay encargos no llama a la API.
 
+## Titulares
+
+A las 8:50 y las 17:50 (Madrid), `newtimes-titulares.timer` guarda en `redaccion/encargos/titulares.yaml` los titulares recientes de los RSS, con sección, medio, título, enlace y resumen. No usa la API. Así el jefe elige sobre fuentes que el servidor puede leer.
+
 ## Formato
 
 Archivo `redaccion/encargos/pendientes/AAAAMMDD-HHMM-slug.yaml`:
@@ -43,7 +47,7 @@ Si algo falla, no se publica y el encargo pasa a `redaccion/encargos/descartados
 **Jefe de redacción**, en lugar de los pasos 3 a 5:
 
 > 3. Elige hasta 4 temas nuevos de actualidad, como máximo 2 por sección, solo si hay hechos que lo justifiquen; ejecuta antes `python3 redaccion/recientes.py 48` y da prioridad a las secciones sin cobertura.
-> 4. No uses agentes ni escribas noticias. Lee `redaccion/ENCARGOS.md`, busca para cada tema 2-3 fuentes abiertas de `config/fuentes_admitidas.yaml`, con una agencia o fuente oficial siempre que exista, y deja un encargo por noticia en `redaccion/encargos/pendientes/`.
+> 4. No uses agentes ni escribas noticias. Lee `redaccion/ENCARGOS.md` y `redaccion/encargos/titulares.yaml`, que el servidor actualiza diez minutos antes de cada turno. Elige los temas de esa lista y usa sus enlaces como fuentes, con una agencia siempre que exista; solo busca en la web si hace falta una fuente más de `config/fuentes_admitidas.yaml`. Deja un encargo por noticia en `redaccion/encargos/pendientes/`.
 > 5. Haz commit "Encargos AAAA-MM-DD HH:00: N temas" (hora de Madrid) y `git push` a main. Si falla por cambios remotos, `git pull --rebase` y reintenta una vez.
 
 **Vigilante**, añadir en el paso 2:
