@@ -21,6 +21,7 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 | 12 | Permitir newtimes.news en WebFetch para las tareas programadas (esta revisión no pudo leer producción) | Medio (medición) | Media | 2 min | JM | ⛔ |
 | 13 | Páginas de tema "pilares" (Urda/alta velocidad, Irán-Ormuz, dana, inflación) con contexto propio | Medio | Media | Medio | Claude | 📋 |
 | 14 | Fuentes WOFF2 generadas en el servidor | Bajo | Baja | Bajo | Claude | 📋 |
+| 15 | Evaluar la redacción en el VPS tras una semana: noticias publicadas y descartadas (`redaccion/encargos/descartados/`), errores corregidos por el vigilante, gasto de API. Si es sólida, valorar que el VPS también elija los temas y retirar al jefe de Claude | Alto (costes) | Media | Bajo | Claude + JM (Sonnet para el jefe) | 📋 |
 
 ## Registro de revisiones
 
