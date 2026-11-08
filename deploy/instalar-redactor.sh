@@ -6,9 +6,18 @@ set -euo pipefail
 USUARIO="newtimes"
 DIR="/srv/newtimes/redactor"
 REPO_SSH="git@github.com:alfaillice/newtimes.git"
-CLAVE="/home/$USUARIO/.ssh/id_redactor"
 ENV="/etc/newtimes/redactor.env"
 [ "$(id -u)" -eq 0 ] || { echo "Ejecútalo con sudo"; exit 1; }
+
+# Carpeta personal real del usuario: puede no existir si el usuario es anterior al instalador
+CASA="$(getent passwd "$USUARIO" | cut -d: -f6)"
+if [ -z "$CASA" ] || [ "$CASA" = "/nonexistent" ]; then
+  CASA="/home/$USUARIO"
+  usermod -d "$CASA" "$USUARIO"
+fi
+[ -d "$CASA" ] || install -d -o "$USUARIO" -g "$USUARIO" -m 755 "$CASA"
+install -d -o "$USUARIO" -g "$USUARIO" -m 700 "$CASA/.ssh"
+CLAVE="$CASA/.ssh/id_redactor"
 
 echo "==> 1/4 Clave de API"
 mkdir -p /etc/newtimes
@@ -19,7 +28,6 @@ fi
 chown root:"$USUARIO" "$ENV"; chmod 640 "$ENV"
 
 echo "==> 2/4 Clave SSH con permiso de escritura en GitHub"
-sudo -u "$USUARIO" install -d -m 700 "/home/$USUARIO/.ssh"
 if [ ! -f "$CLAVE" ]; then
   sudo -u "$USUARIO" ssh-keygen -q -t ed25519 -N "" -C "newtimes-redactor-escritura" -f "$CLAVE"
 fi
