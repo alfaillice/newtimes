@@ -19,6 +19,7 @@ fi
 chown root:"$USUARIO" "$ENV"; chmod 640 "$ENV"
 
 echo "==> 2/4 Clave SSH con permiso de escritura en GitHub"
+sudo -u "$USUARIO" install -d -m 700 "/home/$USUARIO/.ssh"
 if [ ! -f "$CLAVE" ]; then
   sudo -u "$USUARIO" ssh-keygen -q -t ed25519 -N "" -C "newtimes-redactor-escritura" -f "$CLAVE"
 fi
