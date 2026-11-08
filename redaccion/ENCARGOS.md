@@ -41,7 +41,7 @@ Si algo falla, no se publica y el encargo pasa a `redaccion/encargos/descartados
 
 1. En el VPS: `sudo bash /srv/newtimes/repo/deploy/instalar-redactor.sh`, tras actualizar el repositorio.
 2. Probar sin publicar (escribe el archivo, pero no hace commit; bórralo después): dejar un encargo y ejecutar, como indica el instalador, `redactor.py --encargos --prueba`.
-3. Cuando funcione, cambiar las instrucciones de las tareas programadas con los textos de abajo. Hasta entonces, el jefe de Claude sigue publicando con sus agentes.
+3. Activo desde el 09/11/2026: las tareas programadas de Claude ya usan este sistema (los textos de abajo).
 
 ## Instrucciones para el cambio
 

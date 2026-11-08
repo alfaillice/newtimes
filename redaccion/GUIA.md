@@ -1,18 +1,18 @@
 # Guía editorial de NewTimes.news (edición España)
 
-Esta guía la siguen los agentes que redactan cada hora. Si algo no está aquí, manda el sentido común periodístico: exactitud, atribución y servicio al lector.
+Esta guía la siguen los agentes que redactan las noticias. Si algo no está aquí, manda el sentido común periodístico: exactitud, atribución y servicio al lector.
 
 ## 1. Qué publicamos
 
 Actualidad de interés general para lectores en España: política nacional, internacional, economía, sociedad, ciencia y salud, tecnología, cultura y deportes.
 
-Cada hora se publican **entre 2 y 4 noticias**, solo si hay hechos nuevos que lo justifiquen. Mejor una noticia sólida que cuatro flojas. Si en esa hora no hay nada nuevo y relevante, no se publica nada.
+En cada turno se publican **entre 2 y 4 noticias**, solo si hay hechos nuevos que lo justifiquen. Mejor una noticia sólida que cuatro flojas. Si en ese turno no hay nada nuevo y relevante, no se publica nada.
 
 ### Criterios para elegir
 1. Hechos nuevos de las últimas horas, confirmados por al menos una fuente de la lista.
 2. Impacto en mucha gente o relevancia pública clara.
 3. Que no lo hayamos publicado ya. Comprueba siempre `python3 redaccion/recientes.py` antes de elegir. Si un asunto ya publicado tiene novedades importantes, escribe una pieza nueva con el desarrollo (no edites la anterior salvo para corregir errores).
-4. Variedad: no más de 2 piezas de la misma sección por hora.
+4. Variedad: no más de 2 piezas de la misma sección por turno.
 
 ### Lo que no se publica nunca
 - Rumores, filtraciones sin confirmar, contenido viral sin verificar.
@@ -139,7 +139,7 @@ imagen:
 
 ## 6. Agentes de la redacción
 
-Cada sección tiene su agente redactor, definido en `config/agentes.yaml` (y en `.claude/agents/`). **Cada noticia la investiga, la escribe y la firma el agente de su sección**, con su estilo (`estilo`) y priorizando sus fuentes de referencia (`fuentes`). Las reglas de esta guía están siempre por encima del estilo de cada agente.
+Cada sección tiene su agente redactor, definido en `config/agentes.yaml` (y en `.claude/agents/`). **El jefe de redacción elige cada tema y sus fuentes, y el agente de la sección lo escribe y lo firma** a partir de ellas (ver `redaccion/ENCARGOS.md`), con su estilo (`estilo`) y priorizando sus fuentes de referencia (`fuentes`). Las reglas de esta guía están siempre por encima del estilo de cada agente.
 
 La firma es obligatoria en los metadatos: `agente: <slug>`. El generador rechaza una noticia sin firma o firmada por el agente de otra sección. Si una noticia toca dos secciones, se elige la principal y la firma su agente.
 
@@ -147,7 +147,7 @@ La firma es obligatoria en los metadatos: `agente: <slug>`. El generador rechaza
 
 1. `python3 build.py --check` debe terminar sin errores.
 2. Relee: ¿cada dato está en alguna fuente citada? ¿hay alguna frase copiada de una fuente? ¿el titular dice lo que el texto cuenta?
-3. Un commit por hora: `Redacción AAAA-MM-DD HH:00: N noticias`.
+3. Un commit por turno: `Redacción AAAA-MM-DD HH:00: N noticias`.
 
 ## 8. Correcciones
 
