@@ -76,7 +76,8 @@ def descargar(url: str, limite: int = 2_000_000) -> bytes:
         return r.read(limite)
 
 
-def claude(sistema: str, usuario: str, max_tokens: int = 4000) -> str:
+def claude(sistema: str, usuario: str, max_tokens: int = 8000) -> str:
+    # Haiku 5.5 razona por defecto y ese razonamiento consume max_tokens: hay que dejar margen.
     cuerpo = json.dumps({
         "model": os.environ.get("NEWTIMES_MODELO", "claude-haiku-5-5"),
         "max_tokens": max_tokens,
@@ -96,6 +97,8 @@ def claude(sistema: str, usuario: str, max_tokens: int = 4000) -> str:
     uso = resp.get("usage", {})
     GASTO["entrada"] += uso.get("input_tokens", 0)
     GASTO["salida"] += uso.get("output_tokens", 0)
+    if resp.get("stop_reason") == "max_tokens":
+        raise ValueError(f"respuesta cortada al llegar a max_tokens ({max_tokens})")
     return "".join(b.get("text", "") for b in resp.get("content", []) if b.get("type") == "text")
 
 
@@ -293,7 +296,7 @@ artículo. Señala solo lo que NO esté en las fuentes o las contradiga. Si fuen
 una traducción fiel es correcta. El estilo no importa.
 
 Responde solo con: {{"problemas": ["dato y por qué falla", ...]}} (lista vacía si todo está sostenido por las fuentes)."""
-    datos = extraer_json(claude(sistema, usuario, 800))
+    datos = extraer_json(claude(sistema, usuario, 8000))
     if not isinstance(datos.get("problemas"), list):
         raise ValueError("respuesta del verificador sin lista de problemas")
     return [str(p) for p in datos["problemas"]]
@@ -347,7 +350,7 @@ Responde solo con: {{"temas": [{{"seccion": "...", "ids": [n, ...], "destacado":
 
 
 def _elegir(items, por_id_lista, ya, cobertura, secciones, maximo, sistema, usuario) -> list[dict]:
-    datos = extraer_json(claude(sistema, usuario, 1500))
+    datos = extraer_json(claude(sistema, usuario, 6000))
     por_id = {i["id"]: i for i in items}
     temas, cuenta, destacado = [], {}, False
     for t in datos.get("temas", []):
@@ -437,7 +440,7 @@ Si las fuentes no bastan para una noticia rigurosa, responde {{"descartar": "mot
 
 def _escribir(tema, agente, fuentes, sistema, usuario, ahora):
     try:
-        d = extraer_json(claude(sistema, usuario, 3000))
+        d = extraer_json(claude(sistema, usuario, 16000))
     except Reintentar:
         raise
     except Exception as e:  # noqa: BLE001
@@ -635,7 +638,7 @@ def main():
         return
     try:
         temas = elegir_temas(items, recientes(48), secciones, a.max)
-    except Reintentar as e:
+    except (Reintentar, ValueError) as e:
         log(f"Fallo de la API al elegir temas: {e}")
         return
     log(f"{len(temas)} temas elegidos: " + " | ".join(f"[{t['seccion']}] {t['tema']}" for t in temas))
