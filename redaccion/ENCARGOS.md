@@ -26,6 +26,7 @@ fuentes:
 - Entre 1 y 4 fuentes, con su URL `https` exacta y dominio en `config/fuentes_admitidas.yaml`. Deben ser páginas abiertas: el agente solo sabe lo que hay en ellas.
 - Hace falta una agencia o fuente oficial, o dos medios distintos. Con un solo medio, la noticia atribuye los datos a ese medio.
 - `destacado: true` en una como mucho.
+- El `tema` solo orienta: no incluyas datos que no estén en las fuentes, porque el verificador descartará la noticia.
 
 ## Qué comprueba el servidor antes de publicar
 

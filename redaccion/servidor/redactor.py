@@ -282,7 +282,11 @@ def verificar(d: dict, fuentes: list[dict]) -> list[str]:
     """Segunda lectura: lista de datos del artículo que las fuentes no sostienen."""
     bloque = "\n\n".join(f"### FUENTE {n}: {f['medio']}\n{f['texto']}" for n, f in enumerate(fuentes, 1))
     sistema = "Eres el verificador de NewTimes.news. Compruebas un artículo contra sus fuentes. Respondes solo con JSON válido."
-    usuario = f"""FUENTES:
+    hoy = datetime.now(TZ).strftime("%A %d/%m/%Y")
+    usuario = f"""Hoy es {hoy}. Una fecha deducida correctamente de una referencia relativa de las fuentes («el pasado miércoles»,
+«este domingo») es correcta.
+
+FUENTES:
 {bloque}
 
 ARTÍCULO:
