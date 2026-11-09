@@ -1,4 +1,4 @@
-generado: '2026-11-09T22:57:00+01:00'
+generado: '2026-11-09T23:10:00+01:00'
 titulares:
 - seccion: espana
   medio: Europa Press
@@ -20,21 +20,6 @@ titulares:
   titulo: Delcy Rodríguez presenta una querella contra Víctor de Aldama por presuntas injurias con publicidad
   url: https://www.europapress.es/nacional/noticia-delcy-rodriguez-presenta-querella-contra-victor-aldama-presuntas-injurias-publicidad-20261109115939.html
   resumen: La presidenta encargada de Venezuela, Delcy Rodríguez, ha interpuesto una querella contra el empresario Víctor de Aldama por un presunto delito de injurias graves con publicidad, a raíz de las declaraciones que realizó en dos programas de televisión.
-- seccion: espana
-  medio: El País
-  titulo: Canarias reclama al Estado un paquete extraordinario para El Hierro y reuniones semanales para tratar la migración
-  url: https://elpais.com/espana/2026-11-09/canarias-reclama-al-estado-un-paquete-extraordinario-para-el-hierro-y-reuniones-semanales-para-tratar-la-migracion.html
-  resumen: Clavijo insistirá en su reunión con el Gobierno en el despliegue del Frontex y en que se activen los mecanismos de solidaridad del Pacto Europeo de Migración y Asilo
-- seccion: espana
-  medio: El País
-  titulo: Núcleo Nacional reclutaba nuevos miembros a través de un grupo ultra que organizaba “cacerías” humanas
-  url: https://elpais.com/espana/2026-11-09/nucleo-nacional-reclutaba-nuevos-miembros-con-un-grupo-ultra-asturiano-que-organizaba-cacerias-contra-inmigrantes.html
-  resumen: 'La organización asturiana White Boys entrevistaba a los aspirantes a entrar en la asociación extremista: “¿Por qué eres nazi?"'
-- seccion: espana
-  medio: El País
-  titulo: Al menos 35 muertos y decenas de desaparecidos tras el naufragio de un cayuco en Senegal
-  url: https://elpais.com/espana/2026-11-09/al-menos-35-muertos-y-decenas-de-desaparecidos-tras-el-naufragio-de-un-cayuco-en-senegal.html
-  resumen: La mitad de las embarcaciones llegadas a El Hierro entre octubre y noviembre proceden de este país, sumido en una grave crisis política y económica
 - seccion: internacional
   medio: Europa Press
   titulo: Condenado a diez años y medio de prisión por violación y agresión sexual el cómico y actor Russell Brand
@@ -77,24 +62,19 @@ titulares:
   resumen: Los principales sindicatos de Francia han rechazado este lunes la subida del salario mínimo anunciada por el Gobierno al considerar que es insuficiente y han convocado una nueva jornada de huelga para el próximo 17 de noviembre para exigir aumentos mayores.
 - seccion: internacional
   medio: El País
-  titulo: Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia
-  url: https://elpais.com/internacional/2026-11-09/alice-huang-la-espia-china-de-pasado-misterioso-que-llego-hasta-el-consejero-delegado-de-nvidia.html
-  resumen: Pekín califica de “calumnias” las informaciones sobre el espionaje de la empresaria y rechaza que actuara a sueldo de sus servicios de inteligencia
-- seccion: internacional
-  medio: El País
-  titulo: 'El diario ruso ‘Nóvaya Gazeta’ se despide con la promesa de seguir haciendo periodismo: “Encontraremos una nueva oportunidad”'
-  url: https://elpais.com/internacional/2026-11-09/el-diario-ruso-novaya-gazeta-se-despide-con-la-promesa-de-seguir-haciendo-periodismo-encontraremos-una-nueva-oportunidad.html
-  resumen: El periódico que simbolizó el regreso de la prensa libre a Rusia echa el cierre asfixiado por el Kremlin. Su exdirector Dmitri Murátov reclama una tregua en la guerra
-- seccion: internacional
-  medio: El País
-  titulo: '“Listos para AOC”: nace el movimiento que empuja a Alexandria Ocasio-Cortez a postularse a la presidencia de Estados Unidos'
-  url: https://elpais.com/us/2026-11-09/listos-para-aoc-nace-el-movimiento-que-empuja-a-alexandria-ocasio-cortez-a-postularse-a-la-presidencia-de-estados-unidos.html
-  resumen: Una red de organizadores de campañas en todo el país pretende movilizar a un millón de personas con la fórmula que hizo triunfar a Mamdani y Obama
+  titulo: 'AfD, neonazis y Javier Milei: una feria del libro en Alemania se convierte en la gran fiesta de la extrema derecha'
+  url: https://elpais.com/internacional/2026-11-09/afd-neonazis-y-javier-milei-una-feria-del-libro-en-alemania-se-convierte-en-la-gran-fiesta-de-la-extrema-derecha.html
+  resumen: Miles de personas visitan Seitenwechsel, el mayor escaparate del nacionalismo alemán y la doctrina ultra en Europa
 - seccion: economia
   medio: BBC
   titulo: Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy
   url: https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss
   resumen: The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.
+- seccion: economia
+  medio: BBC
+  titulo: 'Zoe Kleinman: Nvidia CEO''s affair will cause ripples across US and beyond'
+  url: https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss
+  resumen: Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.
 - seccion: economia
   medio: BBC
   titulo: Civil servant who secretly held five jobs found guilty of fraud
@@ -240,16 +220,6 @@ titulares:
   titulo: Nvidia’s board needs to do some succession planning – sharpish | Nils Pratley
   url: https://www.theguardian.com/technology/2026/nov/09/nvidia-board-jensen-huang
   resumen: The chipmaker faces business risks and political scrutiny due to its over-reliance on founder and CEO Jensen Huang Why is Nvidia’s Jensen Huang at the centre of a US-China row? Too big – and too well-connected – to sack? One doesn’t have to be overly cynical to think Jensen Huang, the Nvidia boss, s
-- seccion: tecnologia
-  medio: The Guardian
-  titulo: 'Crime pays: how Grand Theft Auto became a cultural colossus'
-  url: https://www.theguardian.com/games/2026/nov/09/grand-theft-auto-creators-gta
-  resumen: 'Ever since it crashed on to PC and consoles in the late 90s, GTA has been tearing up the game-making rulebook. We explore how its cultural references, rebel spirit and sprawling sense of freedom make it a definitive work of art In the 00s, when the Grand Theft Auto developer Rockstar Games revealed '
-- seccion: cultura
-  medio: El País
-  titulo: 'Aparece en la trastienda de una galería de París un ‘caravaggio’ perdido: “Era de tal calidad que no tuve la más mínima duda”'
-  url: https://elpais.com/cultura/2026-11-09/aparece-en-la-trastienda-de-una-galeria-de-paris-un-caravaggio-perdido.html
-  resumen: La experta que descubrió el ‘Ecce homo’ en Madrid desvela el hallazgo de ‘Joven con jarra de rosas’, obra de los inicios del pintor y conocido hasta ahora solo por copias
 - seccion: cultura
   medio: BBC
   titulo: Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault
@@ -287,11 +257,6 @@ titulares:
   resumen: ‘Dressed as knights, we’d walk onstage to the sound of the William Tell overture. I’d quote Henry V and the crowd would shout, “You’re the rightful king of England!”’ I’d worked up the basic idea on Stiff Records’ three-month tour of the northern hemisphere. It’s near-impossible to write songs on th
 - seccion: cultura
   medio: The Guardian
-  titulo: 'U2: Carnaval de Luz review – rousing, restorative rock from a band ready to take on the world again'
-  url: https://www.theguardian.com/music/2026/nov/09/u2-carnaval-de-luz-review
-  resumen: (Island) On their first album of new songs in nearly a decade, even earnest Bono-isms carry weight amid music that is impassioned and rejuvenated Even artists who enjoy a seemingly unstoppable imperial period eventually seem to encounter spells of turbulence when the creative planets no longer align
-- seccion: cultura
-  medio: The Guardian
   titulo: '‘A medieval jigsaw puzzle’: rediscovering Coventry cathedral’s ‘stunning’ stained glass windows'
   url: https://www.theguardian.com/uk-news/2026/nov/09/a-medieval-jigsaw-puzzle-rediscovering-coventry-cathedrals-stunning-stained-glass-windows
   resumen: Remnants of 15th-century artwork form a treasure trove that can now be viewed for the first time in almost 90 years In the decades after Coventry cathedral was destroyed by the Luftwaffe in 1940, the shattered fragments of what had once been its glorious medieval stained glass windows were packed in
@@ -300,16 +265,6 @@ titulares:
   titulo: ‘We did 10 takes of it!’ Kerr Smith on Dawson’s Creek and filming US TV’s first gay kiss
   url: https://www.theguardian.com/tv-and-radio/2026/nov/09/kerr-smith-dawsons-creek-tv
   resumen: As he releases a memoir, the actor opens up about the late James Van Der Beek, the magic of the Creek, and facing homophobia for playing gay in the 90s There are worse things to spend a couple of decades chasing than the feeling of being young, successful and surrounded by people who love you. For K
-- seccion: cultura
-  medio: The Guardian
-  titulo: '‘Sadistic, forbidden pleasure’: why Gone Girl is my feelgood movie'
-  url: https://www.theguardian.com/film/2026/nov/09/gone-girl-david-fincher-comfort-movie
-  resumen: The latest in our ongoing series of writers highlighting their go-to comfort films is a reminder of the dark joys that can be found in David Fincher’s devilish thriller “When I think of my wife, I always think of the back of her head,” narrates Ben Affleck in the opening scene of Gone Girl , David F
-- seccion: cultura
-  medio: The Guardian
-  titulo: A Fox Under a Pink Moon review – Iranian teen refugee paints boldly imaginative self-portrait
-  url: https://www.theguardian.com/film/2026/nov/09/a-fox-under-a-pink-moon-review-iran-refugee
-  resumen: 'Soraya Akhlaghi filmed her perilous flight from Iran and precarious new life over five years on her phone, reassembled here with yearning animations The world feels like an overwhelmingly forlorn place in this striking refugee self-portrait, shot on smartphone by Soraya Akhlaghi over five years and '
 - seccion: deportes
   medio: Europa Press
   titulo: España arranca entre cientos de aficionados y con recuerdo a De Miguel
@@ -332,19 +287,19 @@ titulares:
   resumen: Alexia Putellas, Irene Paredes, Mapi León y Claudia Pina acompañan a Aitana tras la votación de 6.511 futbolistas
 - seccion: deportes
   medio: Europa Press
-  titulo: Alavés y Valencia viven su esperado debut en Copa contra Anaitasuna y UE Tavernes
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-alaves-valencia-viven-esperado-debut-copa-contra-anaitasuna-ue-tavernes-20261109193120.html
-  resumen: El Deportivo Alavés y el Valencia CF vivirán este martes su estreno en la Copa del Rey Mapfre con la primera eliminatoria contra Anaitasuna y UE Tavernes, en medio de una mala racha liguera.
-- seccion: deportes
-  medio: Europa Press
   titulo: El Barça pierde a Kevin Punter seis semanas
   url: https://www.europapress.es/deportes/baloncesto-00163/noticia-barca-pierde-kevin-punter-seis-semanas-20261109220125.html
   resumen: El Barça informó este lunes sobre las lesiones de Kevin Punter y Tosan Evbuomwan, con periodos de baja de seis y tres semanas, sufridas este domingo en la séptima jornada de la Liga Endesa.
 - seccion: deportes
-  medio: El País
-  titulo: 'Stephanie Case, la primera corredora de 100 millas en la Antártida: entrenamientos a 54 grados bajo cero y un récord memorable'
-  url: https://elpais.com/deportes/2026-11-09/stephanie-case-la-primera-corredora-de-100-millas-en-la-antartida-entrenamientos-a-54-grados-bajo-cero-y-un-record-memorable.html
-  resumen: La canadiense marca un hito en la Antartic Ice Race en un continente que llegó a considerarse tan hostil para las mujeres que llegaron a quedar vetadas en expediciones científicas
+  medio: Europa Press
+  titulo: El Real Madrid no evita esta vez en Lezama el tropiezo y vuelve a alejarse del Barça Femení en la Liga F Moeve
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-real-madrid-no-evita-vez-lezama-tropiezo-vuelve-alejarse-barca-femeni-liga-moeve-20261109230105.html
+  resumen: El Real Madrid se descolgó a cuatro puntos del líder Barça Femení en la clasificación de la Liga F Moeve 2026-2027 después de no evitar esta vez el tropiezo en su visita al Athletic Club y empatar a un tanto, mientra que el conjunto blaugrana no lo desaprovechó para golear 5-1 al Madrid CFF, que per
+- seccion: deportes
+  medio: Europa Press
+  titulo: El Real Madrid quiere cimentar su reacción europea ante el París
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-real-madrid-quiere-cimentar-reaccion-europea-paris-20261109170143.html
+  resumen: El Real Madrid recibe este martes en el estadio Alfredo Di Stéfano al París FC, en la cuarta jornada de la fase liga de la UEFA Women's Champions League, un encuentro en el que las de Pau Quesada buscarán un primer triunfo en la competición que le permitiría meterse de lleno en la lucha por el Top 4
 - seccion: deportes
   medio: BBC Sport
   titulo: Kane and Bellingham air strong views in England World Cup review
@@ -407,14 +362,14 @@ titulares:
   resumen: Kettering Town says it "can no longer hide" from the issue of racism after a visiting Redditch player was allegedly subjected to "sickening" abuse.
 - seccion: deportes
   medio: BBC Sport
+  titulo: Brady ends association with Birmingham City
+  url: https://www.bbc.co.uk/sport/football/articles/cmd6d63vegd4o?at_medium=RSS&at_campaign=rss
+  resumen: NFL legend Tom Brady ends his association with top-of-the-table Championship side Birmingham City after three years.
+- seccion: deportes
+  medio: BBC Sport
   titulo: Ali weeps as world title dream realised in Texas
   url: https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss
   resumen: Ramla Ali dedicated her win to her late father as she defeated Mikiah Kreps to become the unified super-bantamweight world champion.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: England clear way for Carse return and drop Bashir
-  url: https://www.bbc.co.uk/sport/cricket/articles/cw8dzd953nq5o?at_medium=RSS&at_campaign=rss
-  resumen: England open the door for Brydon Carse to return to Test cricket for the tour of South Africa by naming him in the Lions squad.
 - seccion: deportes
   medio: BBC Sport
   titulo: Alisson wants to sign new Liverpool contract
@@ -442,7 +397,7 @@ titulares:
   resumen: Arsenal defender was jeered during draw with Uruguay ‘Everyone can do whatever they want,’ says White Ben White has said he has no complaints at being booed by England fans when he ended his international exile during the 1-1 draw with ­Uruguay this year. The Arsenal defender, who has returned to Th
 - seccion: deportes
   medio: The Guardian
-  titulo: 'That’s a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life'
+  titulo: 'That’s a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life | Nicky Bandini'
   url: https://www.theguardian.com/football/2026/nov/09/rodrigo-mora-roma-lazio-rome-serie-a
   resumen: Roma and Lazio have both made unbeaten starts to the Serie A season, giving those in the Italian capital dreams of a Scudetto After nine games in 28 days, Gian Piero Gasperini finally got a moment to pause and reflect on Sunday night. The Roma manager was back in Liguria, where he worked for the bes
 - seccion: deportes
@@ -472,11 +427,6 @@ titulares:
   resumen: Sign up now! Sign up now! Sign up now? Sign up now! Precisely 13,266 games have been played since the inception of the Premier League, and 19 of those matches have finished 4-4 (0.1%), a rarity in a division dominated by the mighty 1-0 (17.6%). It was about time we got one, though. The months of Aug
 - seccion: general
   medio: Europa Press
-  titulo: Los Reyes asisten este martes al funeral de la Catedral de Toledo que estará presidido por el Cristo de Urda
-  url: https://www.europapress.es/castilla-lamancha/noticia-reyes-asisten-martes-funeral-catedral-toledo-estara-presidido-cristo-urda-20261109190138.html
-  resumen: La Catedral de Toledo acogerá este martes, 10 de noviembre, a las 19.00 horas la misa funeral en memoria de las 69 víctimas del accidente ferroviario ocurrido el 28 de octubre en la localidad toledana de Urda, al que asistirán los Reyes Felipe VI y Letizia.
-- seccion: general
-  medio: Europa Press
-  titulo: La FIFA visita el Camp Nou como parte del camino al Mundial 2030
-  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-fifa-visita-camp-nou-parte-camino-mundial-2030-20261109224258.html
-  resumen: La delegación de la FIFA encargada del seguimiento del Mundial 2030 que organizará España junto a Portugal y a Marruecos visitó este lunes el Spotify Camp Nou junto al equipo de la Real Federación Española de Fútbol (RFEF).
+  titulo: Sindicatos de inquilinas piden reformar la Constitución para garantizar el derecho a la vivienda
+  url: https://www.europapress.es/economia/construccion-y-vivienda-00342/noticia-sindicatos-inquilinas-piden-reformar-constitucion-garantizar-derecho-vivienda-20261109182137.html
+  resumen: La Confederación de Sindicatos de Inquilinas (CSI) ha presentado este lunes 'Casas para vivir', un programa de reforma integral del modelo de vivienda que plantea, entre otras medidas, modificar el marco constitucional para que el derecho a la vivienda prevalezca sobre la libertad de empresa en caso
