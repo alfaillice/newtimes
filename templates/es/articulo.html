@@ -106,10 +106,11 @@
 {% if relacionados %}
 <section class="bloque envoltura" style="--c: {{ a.seccion.color }}" aria-labelledby="mas-seccion">
   <div class="bloque__cabecera">
-    <h2 id="mas-seccion" class="bloque__titulo"><a href="{{ pre }}/seccion/{{ a.seccion.slug }}/">Más en {{ a.seccion.nombre }}</a></h2>
+    <h2 id="mas-seccion" class="bloque__titulo">Noticias relacionadas</h2>
+    <a class="bloque__mas" href="{{ pre }}/seccion/{{ a.seccion.slug }}/">Más en {{ a.seccion.nombre }}</a>
   </div>
   <div class="bloque__rejilla bloque__rejilla--iguales">
-    {% for r in relacionados %}{{ tarjeta(r, pre, con_cubierta=false, con_entradilla=false, seccion=false) }}{% endfor %}
+    {% for r in relacionados %}{{ tarjeta(r, pre, con_cubierta=false, con_entradilla=false) }}{% endfor %}
   </div>
 </section>
 {% endif %}

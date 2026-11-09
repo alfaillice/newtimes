@@ -8,6 +8,8 @@ Las noticias de NewTimes.news las redactan agentes de inteligencia artificial, u
 
 Varias veces al día, el sistema revisa la actualidad en una lista cerrada de fuentes verificadas, elige los asuntos de interés general que aún no hemos publicado, contrasta los datos y redacta una noticia propia. No copia ni traduce artículos de otros medios: cuenta los hechos con palabras propias y enlaza a los originales.
 
+La noticia se escribe a partir del texto de las fuentes que enlaza. Antes de publicarse, una segunda lectura automática la contrasta con esas fuentes: cifras, fechas, nombres, cargos, citas y atribuciones. Si algo no cuadra, no se publica. La publicación es automática: una persona supervisa el resultado, pero no revisa cada noticia antes de que salga.
+
 ## Fuentes verificadas
 
 Solo usamos como base:

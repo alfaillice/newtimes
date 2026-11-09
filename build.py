@@ -18,6 +18,7 @@ import json
 import math
 import os
 import re
+from collections import Counter
 import shutil
 import sys
 import unicodedata
@@ -337,6 +338,21 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
     duplicados = {e.split(":")[0] for e in errores}
     articulos = [a for a in articulos if a.ruta_fuente not in duplicados]
     return articulos
+
+
+def relacionados_de(a, articulos, misma_seccion, veces_etiqueta, n: int = 4) -> list:
+    """Noticias del mismo asunto (etiquetas poco frecuentes en común); si faltan, las últimas de la sección."""
+    propias = {e.lower() for e in a.etiquetas}
+    puntuados = []
+    for x in articulos:
+        comunes = propias & {e.lower() for e in x.etiquetas}
+        puntos = sum(1 / veces_etiqueta[e] for e in comunes)
+        if x is not a and puntos >= 0.1:  # una etiqueta en común con 10 noticias o menos, o varias más amplias
+            puntuados.append((puntos, x.fecha, x))
+    puntuados.sort(key=lambda p: (p[0], p[1]), reverse=True)
+    lista = [p[2] for p in puntuados[:n]]
+    lista += [x for x in misma_seccion if x is not a and x not in lista][:n - len(lista)]
+    return lista
 
 
 # ---------------------------------------------------------------- fotos
@@ -673,8 +689,9 @@ class Constructor:
                           sitemap=len(tema["lista"]) >= 3, prioridad="0.6", lastmod=tema["lista"][0].fecha)
 
         # Artículos
+        veces_etiqueta = Counter(e.lower() for a in articulos for e in set(a.etiquetas))
         for a in articulos:
-            relacionados = [x for x in por_seccion[a.seccion["slug"]] if x is not a][:4]
+            relacionados = relacionados_de(a, articulos, por_seccion[a.seccion["slug"]], veces_etiqueta)
             self.escribir(a.url, self.render(f"{t}/articulo.html", **base_ctx, a=a, relacionados=relacionados,
                                              temas=self.temas),
                           prioridad="0.8", lastmod=a.actualizado or a.fecha)
