@@ -2,6 +2,8 @@
 # Solo medios y organismos de la lista de redaccion/GUIA.md. Si un feed deja de
 # responder, el redactor lo avisa en el registro y sigue con los demás.
 # Formato: sección -> lista de {medio, url}
+# El País bloquea al servidor (403) y solo da texto en algunas piezas; Europa Press, BBC y The Guardian sí se leen.
+# Las fuentes en inglés se escriben en español con palabras propias (la verificación contrasta las cifras).
 
 espana:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=66"}
@@ -11,21 +13,28 @@ internacional:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada"}
 economia:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada"}
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/business/rss.xml"}
 sociedad:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=73"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/sociedad/portada"}
 ciencia-salud:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada"}
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"}
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/health/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/science/rss"}
 tecnologia:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada"}
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/technology/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/technology/rss"}
 cultura:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada"}
+  - {medio: BBC, url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/culture/rss"}
 deportes:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada"}
   - {medio: Marca, url: "https://e00-marca.uecdn.es/rss/portada.xml"}
+  - {medio: BBC Sport, url: "https://feeds.bbci.co.uk/sport/rss.xml"}
+  - {medio: The Guardian, url: "https://www.theguardian.com/football/rss"}
 # Portada general de Europa Press: el redactor la reparte por sección según el tema.
 general:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=94"}
-  # Abiertas que el servidor puede leer (El País tiene muro de pago). Sin verificar desde el entorno de
-  # desarrollo: ejecutar `python3 redaccion/servidor/redactor.py --feeds` en el VPS y quitar las que fallen.
-  - {medio: RTVE, url: "https://www.rtve.es/api/noticias.rss"}
