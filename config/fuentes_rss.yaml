@@ -12,6 +12,7 @@ internacional:
 economia:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada"}
 sociedad:
+  - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=73"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/sociedad/portada"}
 ciencia-salud:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada"}
@@ -21,6 +22,10 @@ cultura:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada"}
 deportes:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada"}
+  - {medio: Marca, url: "https://e00-marca.uecdn.es/rss/portada.xml"}
 # Portada general de Europa Press: el redactor la reparte por sección según el tema.
 general:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=94"}
+  # Abiertas que el servidor puede leer (El País tiene muro de pago). Sin verificar desde el entorno de
+  # desarrollo: ejecutar `python3 redaccion/servidor/redactor.py --feeds` en el VPS y quitar las que fallen.
+  - {medio: RTVE, url: "https://www.rtve.es/api/noticias.rss"}

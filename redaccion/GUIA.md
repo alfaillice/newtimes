@@ -6,7 +6,7 @@ Esta guía la siguen los agentes que redactan las noticias. Si algo no está aqu
 
 Actualidad de interés general para lectores en España: política nacional, internacional, economía, sociedad, ciencia y salud, tecnología, cultura y deportes.
 
-En cada turno se publican **entre 2 y 4 noticias**, solo si hay hechos nuevos que lo justifiquen. Mejor una noticia sólida que cuatro flojas. Si en ese turno no hay nada nuevo y relevante, no se publica nada.
+En cada turno (el del jefe de redacción, cinco al día, y el del redactor automático, cada hora) se publican **entre 1 y 4 noticias**, solo si hay hechos nuevos que lo justifiquen. Mejor una noticia sólida que cuatro flojas. Si en ese turno no hay nada nuevo y relevante, no se publica nada.
 
 ### Criterios para elegir
 1. Hechos nuevos de las últimas horas, confirmados por al menos una fuente de la lista.

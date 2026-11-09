@@ -28,7 +28,9 @@ Uso:  python3 redaccion/servidor/redactor.py [--prueba] [--max N] [--edicion es|
                  en (RSS de config/fuentes_rss_en.yaml, guía GUIDE.md, escribe en content/en/)
 """
 import argparse
+import concurrent.futures
 import email.utils
+import functools
 import html
 import json
 import os
@@ -185,6 +187,7 @@ class _Parrafos(HTMLParser):
             self.actual.append(data)
 
 
+@functools.lru_cache(maxsize=1024)
 def texto_pagina(url: str) -> str:
     try:
         p = _Parrafos()
@@ -193,6 +196,44 @@ def texto_pagina(url: str) -> str:
     except Exception as e:  # noqa: BLE001
         log(f"AVISO no se pudo leer {url}: {e}")
         return ""
+
+
+MIN_LEGIBLE = 600   # caracteres de texto propio que debe dar una página para poder usarla como fuente
+
+
+def solo_legibles(items: list[dict], hilos: int = 8) -> list[dict]:
+    """Descarta las piezas cuyo texto el servidor no puede leer (muro de pago, bloqueo, página vacía).
+
+    Así ni el jefe de redacción ni el redactor automático gastan un turno en un tema que luego se
+    descartaría por «sin texto suficiente». No usa la API: solo descarga páginas.
+    """
+    def ok(it):
+        return len(texto_pagina(it["url"])) >= MIN_LEGIBLE
+    with concurrent.futures.ThreadPoolExecutor(max_workers=hilos) as ex:
+        validos = list(ex.map(ok, items))
+    legibles = [it for it, v in zip(items, validos) if v]
+    por_medio = {}
+    for it, v in zip(items, validos):
+        a = por_medio.setdefault(it["medio"], [0, 0])
+        a[0] += v
+        a[1] += 1
+    log("Legibilidad por medio: " + ", ".join(f"{m} {a[0]}/{a[1]}" for m, a in sorted(por_medio.items())))
+    return legibles
+
+
+def comprobar_feeds() -> None:
+    """Diagnóstico (--feeds): estado de cada RSS configurado y cuántas piezas legibles da."""
+    for ed, ruta in FEEDS.items():
+        cfg = yaml.safe_load((RAIZ / ruta).read_text(encoding="utf-8"))
+        for seccion, feeds in cfg.items():
+            for f in feeds:
+                try:
+                    raiz = ET.fromstring(descargar(f["url"]))
+                    enlaces = [_texto(x, "link") for x in raiz.iter() if x.tag.split("}")[-1] in ("item", "entry")][:4]
+                    leg = sum(len(texto_pagina(u)) >= MIN_LEGIBLE for u in enlaces if u)
+                    print(f"OK    {ed}/{seccion:14} {f['medio']:14} {len(enlaces)} piezas, {leg} legibles  {f['url']}")
+                except Exception as e:  # noqa: BLE001
+                    print(f"FALLA {ed}/{seccion:14} {f['medio']:14} {e}  {f['url']}")
 
 
 # ------------------------------------------------------------------ repositorio
@@ -608,7 +649,7 @@ def procesar_encargos(secciones, agentes, guia, prueba: bool) -> None:
 
 def publicar_titulares(horas: int) -> None:
     """Deja en el repositorio los titulares recientes de los RSS para que el jefe elija. No usa la API."""
-    items = [i for i in leer_feeds(horas) if clasificar(i["url"])]
+    items = solo_legibles([i for i in leer_feeds(horas) if clasificar(i["url"])])
     ahora = datetime.now(TZ).replace(second=0, microsecond=0)
     datos = {"generado": ahora.isoformat(), "titulares": [
         {k: i[k] for k in ("seccion", "medio", "titulo", "url", "resumen")} for i in items]}
@@ -631,10 +672,14 @@ def main():
     ap.add_argument("--horas", type=int, default=4, help="antigüedad máxima de los titulares RSS")
     ap.add_argument("--edicion", choices=["es", "en"], default=os.environ.get("NEWTIMES_EDICION", "es"))
     ap.add_argument("--encargos", action="store_true", help="escribe los encargos pendientes en vez de elegir temas")
+    ap.add_argument("--feeds", action="store_true", help="comprueba cada RSS configurado y sale")
     ap.add_argument("--titulares", action="store_true", help="guarda los titulares de los RSS para el jefe de redacción")
     a = ap.parse_args()
     global EDICION
     EDICION = a.edicion
+    if a.feeds:
+        comprobar_feeds()
+        return
     if not os.environ.get("ANTHROPIC_API_KEY"):
         sys.exit("Falta ANTHROPIC_API_KEY")
 
@@ -654,10 +699,15 @@ def main():
 
     items = leer_feeds(a.horas)
     log(f"{len(items)} titulares en los RSS")
+    items = solo_legibles([i for i in items if clasificar(i["url"])])
+    for n, i in enumerate(items):
+        i["id"] = n
+    log(f"{len(items)} piezas legibles")
     if not items:
         return
     try:
-        temas = elegir_temas(items, recientes(48), secciones, a.max)
+        # Se piden 2 temas de más: si la verificación descarta alguno, el turno no se pierde
+        temas = elegir_temas(items, recientes(48), secciones, a.max + 2)
     except (Reintentar, ValueError) as e:
         log(f"Fallo de la API al elegir temas: {e}")
         return
@@ -665,6 +715,8 @@ def main():
 
     hechas = []
     for t in temas:
+        if len(hechas) >= a.max:
+            break
         log(f"Redactando [{t['seccion']}] {t['tema']}")
         try:
             r = redactar(t, agentes[t["seccion"]], guia)

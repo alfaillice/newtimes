@@ -4,7 +4,19 @@ El jefe de redacción (Claude) elige los temas y deja un archivo por noticia en 
 
 ## Titulares
 
-A las 8:50 y las 17:50 (Madrid), `newtimes-titulares.timer` guarda en `redaccion/encargos/titulares.yaml` los titulares recientes de los RSS, con sección, medio, título, enlace y resumen. No usa la API. Así el jefe elige sobre fuentes que el servidor puede leer.
+A las 8:50, 11:50, 14:50, 17:50 y 20:50 (Madrid), `newtimes-titulares.timer` guarda en `redaccion/encargos/titulares.yaml` los titulares recientes de los RSS, con sección, medio, título, enlace y resumen. No usa la API. Antes de guardarlos descarga cada página y **descarta las que el servidor no puede leer** (muro de pago, bloqueo): todo lo que figura en la lista es utilizable como fuente. Así el jefe elige sobre fuentes que el servidor puede leer.
+
+## Horario diario (Madrid)
+
+| Hora | Quién | Qué |
+|---|---|---|
+| 8:50, 11:50, 14:50, 17:50, 20:50 | Servidor | Titulares legibles, sin API |
+| 9:06, 12:06, 15:06, 18:06, 21:06 | Jefe de redacción (Claude) | Deja hasta 4 encargos; el servidor los publica hacia las :15 |
+| Cada 5 min | Servidor | Escribe y publica los encargos pendientes |
+| :20 de cada hora, 7-23 h, y 0, 3 y 6 h | Servidor | Redactor autónomo ES: elige entre RSS legibles y publica hasta 2 |
+| :35 de cada hora, 7-23 h, y 0, 3 y 6 h | Servidor | Redactor autónomo EN |
+
+El autónomo sale a las :20 para encontrar ya publicados los encargos del jefe y no repetir temas. Pide dos temas de más para compensar los que descarte la verificación, de modo que un turno no se pierde por un solo descarte.
 
 ## Formato
 
