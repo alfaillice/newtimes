@@ -7,23 +7,57 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 
 | # | Acción | Impacto | Urgencia | Esfuerzo | Responsable | Estado |
 |---|---|---|---|---|---|---|
-| 1 | Continuidad de la redacción: hueco de casi 5 días sin publicar (01/11 09:13 → 06/11 07:32). Averiguar la causa (¿tareas suspendidas, límite de uso?) y dejar un respaldo que no dependa de las tareas en la nube (redactor del servidor) | Muy alto (frescura, Google News, Discover) | Inmediata | 15 min | JM | ⛔ |
-| 2 | Verificar newtimes.news en Google Search Console (registro TXT en Cloudflare) y enviar sitemap.xml, sitemap-noticias.xml y /en/sitemap-noticias.xml | Muy alto | Alta | 15 min | JM | ⛔ |
-| 3 | Reejecutar el instalador en el VPS (activa 301/410 de URLs antiguas, CSP para AdSense y YouTube) | Alto | Alta | 5 min | JM | ⛔ |
-| 4 | Fuentes: enlazar la nota original de la agencia u organismo en vez de reproducciones (Infobae = 37 % de las fuentes de la semana). Aviso automático en `build.py --check` desde 92fcd44; falta que el jefe de redacción lo aplique | Alto (E-E-A-T, Google News) | Alta | Bajo | Claude (jefe de redacción) | 🛠 |
-| 5 | Evitar duplicados cuando vigilante y jefe de redacción coinciden (06/11: retirada pieza Koldo, ccdc5ca) | Medio | Media | Bajo | Claude + JM (decidir) | 📋 |
-| 6 | Equilibrar secciones: Tecnolog-IA, Cultura y Ciencia y salud con 5 noticias/semana frente a 17 de Internacional | Alto | Media | Bajo | Claude (jefe de redacción) | 📋 |
-| 7 | Google News: alta en Publisher Center (edición ES y EN por separado) con logo, secciones y RSS | Alto | Media | 30 min | JM | ⛔ |
-| 8 | Alta en Bing Webmaster Tools (importar desde Search Console) | Medio | Media | 10 min | JM | ⛔ |
-| 9 | AdSense: mensaje RGPD publicado, sitio aprobado, anuncios automáticos desactivados | Alto (ingresos) | Alta | 20 min | JM | ⛔ |
-| 10 | Perfiles de marca (X, Bluesky, Telegram, canal de WhatsApp) y añadirlos a `perfiles` en config/site.yaml (hoy `sameAs` vacío) | Medio | Media | 1 h | JM + Claude | 📋 |
-| 11 | Redactor del servidor (d095676): ningún commit `[servidor]` en todo el historial, luego no está instalado o no publica | Medio | Media | 5 min | JM | ⛔ |
-| 12 | Permitir newtimes.news en WebFetch para las tareas programadas (esta revisión no pudo leer producción) | Medio (medición) | Media | 2 min | JM | ⛔ |
-| 13 | Páginas de tema "pilares" (Urda/alta velocidad, Irán-Ormuz, dana, inflación) con contexto propio | Medio | Media | Medio | Claude | 📋 |
-| 14 | Fuentes WOFF2 generadas en el servidor | Bajo | Baja | Bajo | Claude | 📋 |
-| 15 | Evaluar la redacción en el VPS tras una semana: noticias publicadas y descartadas (`redaccion/encargos/descartados/`), errores corregidos por el vigilante, gasto de API. Si es sólida, valorar que el VPS también elija los temas y retirar al jefe de Claude | Alto (costes) | Media | Bajo | Claude + JM (Sonnet para el jefe) | 📋 |
+| 1 | Verificar newtimes.news en Google Search Console (registro TXT en Cloudflare) y enviar sitemap.xml, sitemap-noticias.xml y /en/sitemap-noticias.xml. Sin esto no hay ninguna medición real | Muy alto | Inmediata | 15 min | JM | ⛔ |
+| 2 | Comprobar que el redactor autónomo del VPS publica: sin commits entre el 09/11 01:36 y 08:50 (Madrid) pese a turnos previstos. `sudo journalctl -u newtimes-redactor -u newtimes-redactor-en --since today -n 40` | Muy alto (frescura) | Inmediata | 5 min | JM | ⛔ |
+| 3 | Permitir newtimes.news en WebFetch para las tareas programadas: dos revisiones seguidas sin poder leer producción | Alto (medición) | Alta | 2 min | JM | ⛔ |
+| 4 | Google News: alta en Publisher Center (ES y EN por separado) con logo, secciones y RSS | Alto | Alta | 30 min | JM | ⛔ |
+| 5 | Reejecutar `instalar.sh` en el VPS (301/410 de URLs antiguas, 301 de los duplicados retirados, CSP para AdSense y YouTube) | Alto | Alta | 5 min | JM | ⛔ |
+| 6 | Fuentes: enlazar la nota original. Infobae baja de 37 % a 33 % de los enlaces (76 de 228); no está en `config/fuentes_admitidas.yaml`, así que los encargos del VPS ya no deberían usarlo. Medir en la revisión 5 | Alto (E-E-A-T, Google News) | Alta | Bajo | Claude (jefe de redacción) | 🛠 |
+| 7 | Continuidad: 49 noticias el 06/11, 3 el 07/11, 10 el 08/11. El VPS ya sirve de respaldo; confirmar una semana de ritmo estable | Muy alto | Alta | Bajo | Claude + JM | 🛠 |
+| 8 | Evaluar la redacción en el VPS tras una semana completa (hoy: menos de 12 h de datos, 1 noticia ES y 3 EN, 0 descartadas). Si es sólida, valorar que el VPS elija temas y retirar al jefe de Claude | Alto (costes) | Media | Bajo | Claude + JM | 📋 |
+| 9 | Perfiles de marca (X, Bluesky, Telegram, canal de WhatsApp) y añadirlos a `perfiles` en config/site.yaml (hoy `sameAs` vacío). Textos listos abajo | Medio | Media | 1 h | JM + Claude | 📋 |
+| 10 | Equilibrar secciones: Cultura 4, Tecnolog-IA 5 y Ciencia y salud 6 noticias/semana frente a 15 de Internacional | Alto | Media | Bajo | Claude (jefe de redacción) | 📋 |
+| 11 | Hacer crecer la edición inglesa: 7 noticias en total, 3 esta semana. Debería subir con el temporizador EN | Alto (audiencia global) | Media | Bajo | Claude + JM | 📋 |
+| 12 | Alta en Bing Webmaster Tools (importar desde Search Console) | Medio | Media | 10 min | JM | ⛔ |
+| 13 | AdSense: mensaje RGPD publicado, sitio aprobado, anuncios automáticos desactivados | Alto (ingresos) | Alta | 20 min | JM | ⛔ |
+| 14 | Páginas de tema "pilares" (huelga general 11N, Urda/alta velocidad, Irán-Ormuz, 29N) con contexto propio. De 510 temas, 66 son indexables | Medio | Media | Medio | Claude | 📋 |
+| 15 | Duplicados por retiradas tardías: 3 pares más retirados y check reforzado. El check solo detecta casos muy parecidos: el 2.º y el 3.º par no los habría parado. Vigilar que el vigilante no publique si el jefe ya lo hizo | Medio | Media | Bajo | Claude | 🛠 |
+| 16 | Titulares largos en España: mediana de 101 caracteres; Google muestra unos 60. Regla añadida a GUIA.md; medir en la revisión 5 | Medio | Media | Bajo | Claude | 🛠 |
+| — | Hechos: redactor del servidor activo (primer `[servidor]` el 08/11 23:10 UTC) ✅ · Fuentes WOFF2 🛠 · Relacionadas por tema 🛠 | | | | | |
+
+### Textos para abrir perfiles (JM crea la cuenta; Claude añade la URL a `perfiles`)
+- Nombre: NewTimes.news. Usuario: `newtimesnews` (o el más parecido disponible).
+- Bio ES: «Periódico digital escrito por agentes de inteligencia artificial, con fuentes enlazadas en cada noticia. Supervisión humana.»
+- Bio EN: «Digital newspaper written by AI agents, with sources linked in every story. Human oversight.»
+- Enlace: https://newtimes.news (o /en/). Imagen: `/img/logo.svg`. La autoría de IA debe verse en la bio.
+- Automatización posible con el RSS (`/rss.xml`, `/en/rss.xml`) cuando existan las cuentas.
 
 ## Registro de revisiones
+
+### Revisión 4 · 09/11/2026 09:30
+**Cambios desde la revisión 3** (git log, 44 commits en 8 días): la redacción pasa a encargos; instalado el redactor del servidor (primer commit `[servidor]` el 08/11 23:10 UTC, noticia del ANC); titulares y temporizadores en el VPS; jefe de redacción a dos turnos (9:06 y 18:06) con Sonnet; vigilante una vez al día.
+
+**Datos verificados**
+- Volumen ES (recientes.py 168): 63 noticias antes de retirar duplicados, 60 después. Por día: 06/11 49, 07/11 3, 08/11 10, 09/11 1. Secciones: internacional 15, economía 10, España 9, deportes 7, sociedad 7, ciencia-salud 6, tecnología 5, cultura 4.
+- Edición EN: 7 noticias en total, 3 esta semana (00:35–01:35 del 09/11, ya desde el VPS). Fuentes Guardian, Al Jazeera, BBC; una de ellas con una sola fuente, atribuida en todo el texto.
+- Fuentes ES: 228 enlaces; infobae.com 76 (33 %), eldiario.es 19, aljazeera.com 10, pbs.org 5, unitel.bo 4, diariosigloxxi.com 4. Mediana 534 palabras, mínimo 290. Todas con imagen y firma de agente.
+- Titulares ES: mediana 101 caracteres, máximo 112, 4 por encima de 110.
+- `build.py --check`: 141 artículos válidos, 0 errores (tras los cambios). Encargos: `pendientes/` y `descartados/` vacíos.
+- Tareas (list_triggers): jefe y vigilante SUCCEEDED, últimos disparos el 08/11 a las 21:41 y 21:47 UTC. El historial no recoge por qué el 07/11 hubo solo 3 noticias.
+- Construcción local: 270 URLs en sitemap.xml (antes de retirar), 14 en sitemap-noticias, 3 en /en/; canonical, og, NewsArticle y BreadcrumbList presentes; 510 temas, 66 indexables.
+- Móvil local (Playwright, 390 px, sin AdSense ni red real): sin desbordamiento horizontal, CLS 0, 8-9 peticiones; portada 287 KB sin comprimir.
+- `site:newtimes.news` y "NewTimes.news" (buscador de la herramienta, no Google): ningún resultado propio.
+- Producción: **no verificada**. WebFetch rechazó robots.txt, sitemaps, ads.txt y portada (permiso no respondido en ejecución desatendida); no se usó otro método. Tampoco se pudo revisar la licencia de las imágenes publicadas: Commons no responde desde el entorno.
+
+**Cambios** ✅ en el repositorio · 🛠 pendiente de verificar en producción
+- a6a2f75: retirados 3 duplicados del 06/11 (Bruna, Cumbre Iberoamericana, UCO/Koldo), manteniendo las versiones con fuentes originales; `build.py --check` rechaza titular y entradilla muy parecidos en la misma sección y 24 h (probado: detecta el par de la Cumbre, ninguno de los 141 restantes). 301 preparados en nginx-antiguas.conf (requieren el instalador; mientras, 404).
+- 4e41be4: relacionadas por etiquetas poco frecuentes, también entre secciones (revisado el HTML en 3 noticias); fuentes WOFF2 con WOFF de respaldo, 206 → 163 KB (comprobado que el navegador solo descarga las WOFF2); «Cómo trabajamos» y «How we work» explican la verificación automática y que no hay revisión humana previa de cada noticia; GUIA.md pide el hecho principal en los primeros 70 caracteres del titular.
+
+**Problemas**
+- Redactor autónomo: sin commits entre 01:36 y 08:50 del 09/11 aunque había turnos ES a las 07:05 y EN a las 04:35, 07:35 y 08:35 (Madrid). Puede ser falta de temas o un fallo: solo se ve en journalctl.
+- Sin Search Console ni acceso a producción no hay ninguna medición de resultados.
+- Marca invisible en el buscador disponible; `sameAs` vacío.
+- Ritmo irregular entre el 06/11 y el 08/11.
 
 ### Revisión 3 · 06/11/2026 07:40
 **Cambios desde la revisión 2** (git log): ~20 commits de redacción el 31/10–01/11, botones de compartir (Threads, Instagram, TikTok), carrusel de portada; **ningún commit entre el 01/11 09:13 y el 06/11 07:30 (hora de Madrid)**. Hoy, a las 07:32, el vigilante hizo una edición de recuperación (840000d, 4 noticias) y a la vez el jefe de redacción publicó 4 (7d6effb); una pieza duplicada del caso Koldo se retiró (ccdc5ca).
@@ -91,7 +125,7 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 - Analítica de visitas: ninguna instalada (opción sin cookies: Plausible/Umami en el VPS).
 - AdSense: aprobación, RPM, ingresos.
 - Core Web Vitals reales (CrUX), cuando haya tráfico; PageSpeed no accesible desde el entorno de revisión.
-- Estado del redactor del servidor (systemctl status newtimes-redactor.timer) y su registro: sin commits `[servidor]`.
-- Historial de ejecuciones de las tareas programadas entre el 01/11 y el 06/11 (causa del hueco).
-- Acceso de WebFetch a newtimes.news en las tareas desatendidas (para verificar producción).
+- Registro del redactor del VPS (`journalctl`): turnos sin publicación y motivo; gasto real de API acumulado.
+- Acceso de WebFetch a newtimes.news en las tareas desatendidas, para verificar producción y licencias de imagen.
+- Historial de ejecuciones de las tareas programadas (causa de los huecos del 01–06/11 y del 07/11).
 - Enlaces entrantes (no hay herramienta de backlinks disponible).
