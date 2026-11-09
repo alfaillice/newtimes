@@ -317,14 +317,23 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
     vistos_t: list = []
     for a in sorted(articulos, key=lambda x: x.fecha):
         palabras_t = {w for w in re.findall(r"\w+", slugify(a.titulo).replace("-", " ")) if len(w) > 3}
-        for otro, otras_p in vistos_t:
-            if abs((a.fecha - otro.fecha).total_seconds()) < 48 * 3600 and palabras_t and otras_p:
+        palabras_c = {w for w in re.findall(r"\w+", slugify(f"{a.titulo} {a.entradilla}").replace("-", " ")) if len(w) > 3}
+        for otro, otras_p, otras_c in vistos_t:
+            distancia = abs((a.fecha - otro.fecha).total_seconds())
+            if distancia < 48 * 3600 and palabras_t and otras_p:
                 parecido = len(palabras_t & otras_p) / len(palabras_t | otras_p)
                 if parecido >= 0.6:
                     errores.append(f"{a.ruta_fuente}: titular casi igual a {otro.ruta_fuente} "
                                    f"({parecido:.0%}); si hay novedades, cuenta el desarrollo con otro enfoque")
                     break
-        vistos_t.append((a, palabras_t))
+            # Mismo hecho con otras palabras: titular y entradilla muy parecidos, misma sección, mismo día
+            if distancia < 24 * 3600 and a.seccion["slug"] == otro.seccion["slug"] and palabras_c and otras_c:
+                parecido = len(palabras_c & otras_c) / len(palabras_c | otras_c)
+                if parecido >= 0.45:
+                    errores.append(f"{a.ruta_fuente}: titular y entradilla casi iguales a {otro.ruta_fuente} "
+                                   f"({parecido:.0%}); si hay novedades, cuenta el desarrollo con otro enfoque")
+                    break
+        vistos_t.append((a, palabras_t, palabras_c))
     duplicados = {e.split(":")[0] for e in errores}
     articulos = [a for a in articulos if a.ruta_fuente not in duplicados]
     return articulos
