@@ -1,25 +1,45 @@
-generado: '2026-11-09T00:09:00+01:00'
+generado: '2026-11-09T08:50:00+01:00'
 titulares:
 - seccion: espana
-  medio: Europa Press
-  titulo: Irene Montero acusa al Gobierno de un aumento "premeditado" de la "violencia policial" contra las movilizaciones
-  url: https://www.europapress.es/nacional/noticia-irene-montero-acusa-gobierno-aumento-premeditado-violencia-policial-contra-movilizaciones-20261108125106.html
-  resumen: La eurodiputada y candidata de Podemos a las elecciones generales del 29 de noviembre, Irene Montero, ha acusado al Gobierno de un aumento "premeditado" de la "violencia policial" contra movilizaciones.
+  medio: El País
+  titulo: El bloque de la derecha mantiene su ventaja pero el PSOE se acerca al PP
+  url: https://elpais.com/espana/elecciones-generales/2026-11-09/el-bloque-de-la-derecha-mantiene-su-ventaja-pero-el-psoe-se-acerca-al-pp.html
+  resumen: Los socialistas avanzan pese al accidente de Urda mientras el desplome amenaza a las fuerzas a su izquierda, según una encuesta de 40dB. para EL PAÍS y la SER
 - seccion: espana
+  medio: El País
+  titulo: El efecto urnas
+  url: https://elpais.com/espana/elecciones-generales/2026-11-09/el-efecto-urnas.html
+  resumen: En estos momentos, la sociedad reacciona más ante la obligación de decidir que ante las sacudidas externas
+- seccion: espana
+  medio: El País
+  titulo: La huelga divide a los españoles y más de la mitad rechaza las acampadas
+  url: https://elpais.com/espana/elecciones-generales/2026-11-09/la-huelga-divide-a-los-espanoles-y-mas-de-la-mitad-rechaza-las-acampadas.html
+  resumen: El 30% dice que las elecciones no son limpias y el 70% cree erróneamente que España crece menos que Europa, según una encuesta de 40dB.
+- seccion: espana
+  medio: El País
+  titulo: La huelga general como palanca de movilización hacia el 29-N
+  url: https://elpais.com/espana/elecciones-generales/2026-11-09/la-huelga-general-como-palanca-de-movilizacion-hacia-el-29-n.html
+  resumen: La izquierda y los sindicatos nutren las razones del paro de reivindicaciones para los comicios
+- seccion: espana
+  medio: El País
+  titulo: 'Los helicópteros pioneros que salvaron vidas en el accidente de Urda: “Perdimos la cuenta de la gente a la que llegamos a atender”'
+  url: https://elpais.com/espana/2026-11-09/los-helicopteros-pioneros-que-salvaron-vidas-en-el-accidente-de-urda-perdimos-la-cuenta-de-la-gente-a-la-que-llegamos-a-atender.html
+  resumen: La capacidad de los servicios de emergencia de Castilla-La Mancha para hacer transfusiones en sus aeronaves evitó que la cifra de fallecidos fuese mayor
+- seccion: espana
+  medio: El País
+  titulo: 'Albares: “La comunidad iberoamericana está más polarizada que nunca”'
+  url: https://elpais.com/espana/2026-11-09/albares-la-comunidad-iberoamericana-esta-mas-polarizada-que-nunca.html
+  resumen: 'El ministro de Exteriores valora la reciente Cumbre Iberoamericana y las posibilidades de una victoria progresista el 29-N: “Esa ola que arranca en Brasil y en Estados Unidos va a seguir en España”'
+- seccion: internacional
   medio: Europa Press
-  titulo: Bolaños alerta que España puede volver a tener ministros "fascistas" y Marlaska llama a frenar la "involución"
-  url: https://www.europapress.es/nacional/noticia-bolanos-alerta-espana-puede-volver-tener-ministros-fascistas-marlaska-llama-frenar-involucion-20261108124629.html
-  resumen: El ministro de la Presidencia, Justicia y Relaciones con las Cortes, Félix Bolaños, ha llamado a los "demócratas" a apoyar al PSOE en las elecciones del próximo 29 de noviembre para evitar que España vuelva a tener ministros "ultraderechistas y fascistas", mientras que el titular de Interior, Fernan
+  titulo: Muere en el hospital el autor del tiroteo en Cracovia (Polonia) que dejó seis muertos y tres familiares asesinados
+  url: https://www.europapress.es/internacional/noticia-muere-hospital-autor-tiroteo-cracovia-polonia-dejo-seis-muertos-tres-familiares-asesinados-20261109080110.html
+  resumen: El hombre de 24 años responsable del tiroteo masivo perpetrado este sábado en la plaza del Mercado Principal de Cracovia ha fallecido a primera hora de este lunes en el hospital en el que se encontraba ingresado en estado crítico, según ha informado la Policía polaca.
 - seccion: internacional
   medio: Europa Press
   titulo: El Gobierno francés podría elevar el salario mínimo por encima de los 1.500 euros a partir de diciembre
   url: https://www.europapress.es/internacional/noticia-gobierno-frances-podria-elevar-salario-minimo-encima-1500-euros-partir-diciembre-20261108214523.html
   resumen: El Gobierno francés está barajando elevar desde los 1.477,93 a más de 1.500 euros el Salario Mínimo Interprofesional de Crecimiento (SMIC) a partir del mes de diciembre, según han informado varios medios de comunicación franceses citando fuentes gubernamentales.
-- seccion: internacional
-  medio: Europa Press
-  titulo: Eisenkot augura acciones políticas "creativas y extraordinarias" tras asumir el encargo de formar gobierno en Israel
-  url: https://www.europapress.es/internacional/noticia-eisenkot-augura-acciones-politicas-creativas-extraordinarias-asumir-encargo-formar-gobierno-israel-20261108170205.html
-  resumen: El líder del partido israelí Yashar, Gadi Eisenkot, ha planteado este domingo la necesidad de acometer acciones políticas "creativas y extraordinarias" tras asumir formalmente el encargo de formar gobierno en Israel de manos del presidente israelí, Isaac Herzog.
 - seccion: internacional
   medio: Europa Press
   titulo: Nvidia abre una investigación por la relación de su consejero delegado con una supuesta espía china
@@ -31,55 +51,135 @@ titulares:
   url: https://www.europapress.es/internacional/noticia-detenido-argentina-individuo-acusado-amenazar-muerte-papa-20261108235604.html
   resumen: La Secretaría de Inteligencia de Estado (SIDE) de Argentina ha informado de la detención de una persona acusada de haber realizado amenazas de muerte contra el papa León XIV antes de que llegara al país en visita oficial.
 - seccion: internacional
-  medio: Europa Press
-  titulo: Al menos siete muertos y 125 heridos tras descarrilar un tren en Guiza, Egipto, según un nuevo balance
-  url: https://www.europapress.es/internacional/noticia-mas-60-heridos-descarrilar-tren-pasajeros-gobernacion-guiza-egipto-20261108145134.html
-  resumen: Al menos siete personas han muerto y 125 han resultado heridas después de que varios vagones de un tren de pasajeros volcaran en la línea ferroviaria que conecta El Cairo con Asuán, a la altura del cruce de Jarza, en la gobernación egipcia de Guiza, según ha informado el Ministerio de Sanidad de Egi
-- seccion: internacional
-  medio: Europa Press
-  titulo: El Congreso Nacional Africano obtiene los peores resultados de su historia en las municipales y regionales de Sudáfrica
-  url: https://www.europapress.es/internacional/noticia-congreso-nacional-africano-obtiene-peores-resultados-historia-municipales-regionales-20261108202044.html
-  resumen: 'El histórico partido Congreso Nacional Africano (ANC, por sus siglas en inglés) ha sido el más votado en las elecciones regionales y municipales celebradas en Sudáfrica el pasado miércoles con un 30,76% de apoyo, aunque es la peor cifra histórica de la formación desde la llegada de la democracia al '
-- seccion: internacional
-  medio: Europa Press
-  titulo: El partido árabe Raam apoyaría un gobierno de Eisenkot en Israel incluso sin un acuerdo de coalición
-  url: https://www.europapress.es/internacional/noticia-partido-arabe-raam-apoyaria-gobierno-eisenkot-israel-incluso-acuerdo-coalicion-20261108125544.html
-  resumen: El partido árabe-israelí Raam ha anunciado que apoyará a Gadi Eisenkot, líder del partido Yashar, como primer ministro de Israel incluso si no se cierra primero un acuerdo de coalición, según ha informado el diario israelí 'Haaretz'.
+  medio: El País
+  titulo: 'La incógnita de Eisenkot en política exterior: pragmático, pero contrario a un Estado palestino'
+  url: https://elpais.com/internacional/2026-11-09/la-incognita-de-eisenkot-en-politica-exterior-mas-pragmatico-que-religioso-pero-contrario-al-estado-palestino.html
+  resumen: El exjefe del ejército israelí, que ha recibido el encargo presidencial de formar Gobierno, defiende la colonización de Cisjordania pero quiere mitigar la violencia de los colonos
 - seccion: internacional
   medio: El País
-  titulo: Eisenkot apela a un Gobierno de “emergencia nacional” ante la “necesidad urgente de un nuevo liderazgo” en Israel
-  url: https://elpais.com/internacional/2026-11-08/eisenkot-apela-a-un-gobierno-de-emergencia-nacional-ante-la-necesidad-urgente-de-un-nuevo-liderazgo-en-israel.html
-  resumen: El exjefe del Estado Mayor recibe el encargo del presidente y pide concesiones al resto de partidos porque el país no puede “prolongar la situación o entrar en una ronda interminable de elecciones”
+  titulo: La moral decae, pero Kiev se niega a bajar la persiana
+  url: https://elpais.com/internacional/2026-11-09/la-moral-decae-pero-kiev-se-niega-a-bajar-la-persiana.html
+  resumen: Tiendas y empresas intentan mantener su actividad entre apagones, cortes de agua y ataques rusos, mientras la capital ucrania se prepara para otro invierno de guerra
 - seccion: internacional
   medio: El País
-  titulo: 'El atentado en Cracovia deja a Polonia en estado de ‘shock’: “Es lo más aterrador que he vivido. Esto se nos va a quedar”'
-  url: https://elpais.com/internacional/2026-11-08/el-atentado-en-cracovia-deja-a-polonia-en-estado-de-shock-es-lo-mas-aterrador-que-he-vivido-esto-se-nos-va-a-quedar.html
-  resumen: El tiroteo con seis muertos y 15 heridos derrumba la sensación de seguridad en un país que no había vivido un ataque terrorista
+  titulo: ‘Trumpazo’ económico, debacle política
+  url: https://elpais.com/internacional/2026-11-09/trumpazo-economico-debacle-politica.html
+  resumen: Los dos factores determinantes del disparo del coste de la vida, aranceles e Irán, han sido voluntarios y premeditados
+- seccion: internacional
+  medio: El País
+  titulo: Kim Jong-un aprovecha la guerra de Ucrania para impulsar el poder militar de Corea del Norte
+  url: https://elpais.com/internacional/2026-11-09/kim-jong-un-aprovecha-la-guerra-de-ucrania-para-impulsar-el-poder-militar-de-corea-del-norte.html
+  resumen: La modernización militar norcoreana combina la disuasión y el refuerzo del control social en un contexto de frustración económica
+- seccion: internacional
+  medio: El País
+  titulo: Muere en el hospital el autor del atentado en Cracovia que causó seis muertos
+  url: https://elpais.com/internacional/2026-11-09/muere-en-el-hospital-el-atacante-del-atentado-en-cracovia-que-causo-seis-muertos.html
+  resumen: El hombre, de 24 años, permanecía ingresado tras ser herido por la policía. Antes de abrir fuego en el centro de la ciudad polaca, mató a tres miembros de su familia
 - seccion: internacional
   medio: El País
   titulo: Las fuertes lluvias inundan miles de precarias tiendas de campaña en Gaza y agravan la crisis humanitaria
   url: https://elpais.com/internacional/2026-11-08/las-fuertes-lluvias-inundan-miles-de-precarias-tiendas-de-campana-en-gaza-y-agravan-la-crisis-humanitaria.html
   resumen: Cinco palestinos, tres de ellos menores, mueren por un derrumbe de tierra. Israel lleva más de un año de alto el fuego bloqueando la reconstrucción de la Franja
-- seccion: internacional
+- seccion: economia
   medio: El País
-  titulo: La policía rusa detiene a más de un centenar de personas en una zona de bares de Moscú en plena campaña contra la “juventud informal”
-  url: https://elpais.com/internacional/2026-11-08/la-policia-rusa-detiene-a-mas-de-un-centenar-de-jovenes-en-una-zona-de-bares-de-moscu-en-plena-campana-contra-la-juventud-informal.html
-  resumen: Varios chicos denuncian haber sido presionados en comisaría para alistarse y luchar en Ucrania
-- seccion: internacional
+  titulo: Los sindicatos se preparan para un seguimiento “desigual” de la huelga por territorios, sectores y edades
+  url: https://elpais.com/economia/2026-11-09/los-sindicatos-preven-un-seguimiento-desigual-por-territorios-sectores-y-edades-en-la-huelga-general.html
+  resumen: Las centrales anticipan manifestaciones masivas y buscan detener la actividad, pero prevén un respaldo “asimétrico” en función del impacto de la crisis de la vivienda y del conflicto ya en marcha
+- seccion: economia
   medio: El País
-  titulo: Sudáfrica castiga al partido de Mandela en unas municipales que abren una nueva batalla por el poder local
-  url: https://elpais.com/internacional/2026-11-08/sudafrica-castiga-al-partido-de-mandela-en-unas-municipales-que-abren-una-nueva-batalla-por-el-poder-local.html
-  resumen: El ANC logra el 31% de los votos y su secretario general califica el resultado de “catastrófico”. La principal formación rival logra el 25% de los sufragios y el partido del expresidente Zuma mejora resultados en bastiones clave
-- seccion: internacional
+  titulo: Más de la mitad de la oferta de alquiler de vivienda es de habitaciones y de temporada
+  url: https://elpais.com/economia/vivienda/2026-11-09/mas-de-la-mitad-de-la-oferta-de-alquiler-de-vivienda-es-de-habitaciones-y-de-temporada.html
+  resumen: Un estudio de Consumo y el CSIC muestra que el 55,8% de los anuncios ofrecían estas modalidades antes del decreto de octubre, que endudrece los requisitos
+- seccion: economia
   medio: El País
-  titulo: Al menos siete muertos y 125 heridos por la colisión de dos trenes en la provincia egipcia de Giza
-  url: https://elpais.com/internacional/2026-11-08/varios-muertos-y-heridos-por-la-colision-de-dos-trenes-en-la-provincia-egipcia-de-giza.html
-  resumen: El Gobierno egipcio informa de que el número de víctimas podría aumentar a medida que avancen las labores de rescate
+  titulo: 'Munich trata de resolver el expediente X de sus zapatillas: de acelerar la apertura de tiendas a aplicar recortes'
+  url: https://elpais.com/economia/negocios/2026-11-09/munich-trata-de-resolver-el-expediente-x-de-sus-zapatillas-de-acelerar-la-apertura-de-tiendas-a-aplicar-recortes.html
+  resumen: La empresa de calzado catalana pacta un ERE con los sindicatos y acuerda refinanciar su deuda con los principales acreedores en un momento de debilidad de sus puntos de venta por los mayores costes
+- seccion: economia
+  medio: El País
+  titulo: El tropiezo de la IA que comenzó en China se extiende a Estados Unidos
+  url: https://cincodias.elpais.com/mercados-financieros/2026-11-09/la-burbuja-bursatil-de-la-ia-pincho-primero-en-china-el-star-50-pierde-casi-la-mitad-de-su-valor.html
+  resumen: El índice tecnológico del país asiático ha perdido casi 394.000 millones de euros desde finales de junio y las tecnológicas acumulan cuatro meses de caídas
+- seccion: economia
+  medio: El País
+  titulo: Pensiones con visión progresista
+  url: https://elpais.com/economia/2026-11-09/pensiones-con-vision-progresista.html
+  resumen: La respuesta al envejecimiento y la sostenibilidad de las pensiones exige una revisión a fondo de toda la economía y la organización social
+- seccion: economia
+  medio: El País
+  titulo: La eterna torre de Babel
+  url: https://cincodias.elpais.com/opinion/2026-11-09/la-eterna-torre-de-babel.html
+  resumen: La cooperación global retrocede ante un mundo fragmentado por nacionalismos, guerras y élites que alimentan la división
+- seccion: economia
+  medio: El País
+  titulo: Estados Unidos, Francia, España
+  url: https://cincodias.elpais.com/fondos-y-planes/2026-11-09/estados-unidos-francia-espana.html
+  resumen: 'Tres comicios, tres realidades y un mismo juez: la reacción de los mercados'
+- seccion: economia
+  medio: El País
+  titulo: 'Iván Basa (Lombard Odier): “Mi lista de reproducción incluye desde AC/DC hasta Julio Iglesias”'
+  url: https://elpais.com/economia/negocios/2026-11-09/ivan-basa-lombard-odier-mi-lista-de-reproduccion-incluye-desde-acdc-hasta-julio-iglesias.html
+  resumen: El responsable en España del banco privado suizo es un aficionado al deporte, los viajes y la literatura
+- seccion: economia
+  medio: El País
+  titulo: La guerra abierta entre fondos y bancos deja al borde de la quiebra al líder español en ‘call centers’
+  url: https://cincodias.elpais.com/companias/2026-11-09/la-guerra-abierta-entre-fondos-y-bancos-deja-al-borde-de-la-quiebra-al-lider-espanol-en-call-centers.html
+  resumen: Konecta impaga los intereses de su deuda y pone en jaque a 100.000 trabajadores
+- seccion: economia
+  medio: El País
+  titulo: La cuenta Financia Europa desembarca en España con un tercio del ahorro de las familias en depósitos
+  url: https://cincodias.elpais.com/mercados-financieros/2026-11-08/la-cuenta-financia-europa-desembarca-en-espana-con-un-tercio-del-ahorro-de-las-familias-en-depositos.html
+  resumen: El ‘lobby’ europeo de la banca de inversión, AFME, sitúa a España a la cola de las cuatro grandes economías de la UE en inversión en los mercados
+- seccion: economia
+  medio: El País
+  titulo: 'Joe McMonigle: “Si se produce una nueva crisis en Ormuz podríamos asistir a una escalada de precios muy grave”'
+  url: https://cincodias.elpais.com/mercados-financieros/2026-11-09/joe-mcmonigle-si-se-produce-una-nueva-crisis-en-ormuz-podriamos-asistir-a-una-escalada-de-precios-muy-grave.html
+  resumen: El experto en energía, que trabajó para el Gobierno Bush y fue vicepresidente de la AIE, califica de “pesadilla” el cierre del Estrecho e insiste en que los países del Golfo deben buscar rutas alternativas para exportar
+- seccion: economia
+  medio: El País
+  titulo: EE UU vetará el acceso a la numeración telefónica a las tres grandes operadoras chinas
+  url: https://cincodias.elpais.com/companias/2026-11-09/ee-uu-vetara-el-acceso-a-la-numeracion-telefonica-a-las-tres-grandes-operadoras-chinas.html
+  resumen: El regulador estadounidense aprobará una propuesta que restringe el acceso de China Mobile, China Telecom y China Unicom a los números nacionales a través de servicios de voz sobre internet
+- seccion: sociedad
+  medio: El País
+  titulo: 'Los bancos de sangre desechan una de cada mil donaciones por infecciones como sífilis, malaria, hepatitis y VIH: “No se nos puede escapar ni una”'
+  url: https://elpais.com/sociedad/2026-11-09/los-bancos-de-sangre-desechan-una-de-cada-mil-donaciones-por-infecciones-como-sifilis-malaria-hepatitis-y-vih-no-se-nos-puede-escapar-ni-una.html
+  resumen: La estricta seguridad de los centros de transfusión, que realizan 1,7 millones de extracciones al año, ha tenido un único incidente en la última década con un contagio del virus del Nilo sin consecuencias para el paciente
+- seccion: sociedad
+  medio: El País
+  titulo: 'Héctor Ruiz, investigador en psicología cognitiva: “Los bebés no imitan tus movimientos, sino tu intención”'
+  url: https://elpais.com/educacion/2026-11-09/hector-ruiz-investigador-en-psicologia-cognitiva-los-bebes-no-imitan-tus-movimientos-sino-tu-intencion.html
+  resumen: El experto en educación y memoria reúne en un libro qué ha descubierto la ciencia sobre el aprendizaje de los niños en sus primeros años de vida
+- seccion: ciencia-salud
+  medio: El País
+  titulo: 'Nanomáquinas, pegamentos contra la psoriasis y ecuaciones para entender el cerebro: tres ideas ganadoras de científicos españoles'
+  url: https://elpais.com/ciencia/2026-11-09/nanomaquinas-pegamentos-contra-la-psoriasis-y-ecuaciones-para-entender-el-cerebro-tres-ideas-ganadoras-de-cientificos-espanoles.html
+  resumen: Cristina Mayor-Ruiz, Jesús Mosquera y David Poyato son tres de los 59 becarios de la Fundación BBVA 2026. Estos son sus proyectos
+- seccion: tecnologia
+  medio: El País
+  titulo: Una investigación española descubre miles de nuevos vídeos y perfiles pedófilos en TikTok
+  url: https://elpais.com/tecnologia/2026-11-09/una-investigacion-espanola-descubre-miles-de-nuevos-videos-y-perfiles-pedofilos-en-tiktok.html
+  resumen: La organización ‘Maldita.es’, autora del trabajo, ha denunciado ante la Fiscalía a la red social por su inacción ante las cuentas que crean este contenido con millones de visualizaciones
 - seccion: cultura
   medio: El País
-  titulo: Muere Richard Lloyd, guitarrista y miembro fundador del grupo Television, a los 75 años
-  url: https://elpais.com/cultura/2026-11-08/muere-richard-lloyd-guitarrista-y-miembro-fundador-del-grupo-television-a-los-75-anos.html
-  resumen: El músico estadounidense fue una pieza clave del sonido de la banda y de la revolución del punk neoyorquino de los setenta
+  titulo: 'Cima, 20 años de lucha feminista en el mundo audiovisual: “Muchos hombres no entendieron el objetivo de la asociación”'
+  url: https://elpais.com/cultura/cine/2026-11-09/cima-20-anos-de-lucha-feminista-en-el-mundo-audiovisual-muchos-hombres-no-entendieron-el-objetivo-de-la-asociacion.html
+  resumen: La agrupación de mujeres, que nació en octubre de 2006, mantiene las batallas como la equidad en lo laboral, lograr que las directoras accedan a los mismos presupuestos que los hombres y sacar a la luz las agresiones sexuales
+- seccion: cultura
+  medio: El País
+  titulo: 'Radiografía del Robe más desconocido: la primera canción que escribió se llamó ‘Cepillo de dientes’'
+  url: https://elpais.com/cultura/2026-11-09/radiografia-del-robe-mas-desconocido-la-primera-cancion-que-escribio-se-llamo-cepillo-de-dientes.html
+  resumen: Un documental de tres horas y media rastrea los primeros y fundamentales años del músico en su ciudad, Plasencia
+- seccion: cultura
+  medio: El País
+  titulo: Fígaro monta su revolución en el Elíseo al grito de las protestas callejeras
+  url: https://elpais.com/cultura/2026-11-09/figaro-monta-su-revolucion-en-el-eliseo-al-grito-de-las-protestas-callejeras.html
+  resumen: La primera coproducción del Teatro Real con la Metropolitan Opera de Nueva York, firmada por Robert Carsen, actualiza la trama de poder y escándalos de la ópera de Mozart en vísperas de la huelga general
+- seccion: cultura
+  medio: El País
+  titulo: Juan de Pablos, confesiones de medianoche
+  url: https://elpais.com/cultura/2026-11-09/juan-de-pablos-confesiones-de-medianoche.html
+  resumen: La biografía oral de un hombre bendito, un locutor siempre en la cuerda floja pero salvado regularmente por gente generosa
 - seccion: deportes
   medio: El País
   titulo: El líder del Metropolitano fue Fermín para la remontada del Barça ante el Atlético
@@ -92,49 +192,39 @@ titulares:
   resumen: El argentino desperdició dos ocasiones muy claras y el azulgrana embocó las suyas
 - seccion: deportes
   medio: El País
-  titulo: 'Alcaraz, un campeón sin fronteras: Shelton claudica y París ya luce en su expediente'
-  url: https://elpais.com/deportes/tenis/2026-11-08/alcaraz-un-campeon-sin-fronteras-shelton-a-la-lona-y-paris-ya-en-su-expediente.html
-  resumen: El murciano contiene con sangre fría al estadounidense (7-6(5) y 7-5, en 1h 59m) y conquista otro Masters 1000, a falta de solo dos para lograr el pleno en la categoría
+  titulo: 'Flick, tras remontar en el Metropolitano: “Del uno al diez, irse al parón líderes es un diez″'
+  url: https://elpais.com/deportes/futbol/2026-11-08/flick-tras-remontar-en-el-metropolitano-del-uno-al-diez-irse-al-paron-lideres-es-un-diez.html
+  resumen: 'Simeone, contento con el esfuerzo de sus jugadores, alabó el trabajo de Julián Alvarez en el encuentro en una noche gris del delantero argentino: “Sin Julián no vamos a llegar. Tiene toda nuestra confianza”'
 - seccion: deportes
   medio: El País
-  titulo: Marc Márquez no remata el título en un GP de Qatar que gana Marco Bezzecchi
-  url: https://elpais.com/deportes/motociclismo/2026-11-08/marc-marquez-no-remata-el-titulo-en-un-gp-de-qatar-que-gana-marco-bezzecchi.html
-  resumen: El líder del campeonato termina segundo y amplía su distancia sobre Jorge Martín, séptimo bajo los focos en Lusail a pesar de competir con la muñeca rota
+  titulo: El viaje también es el partido
+  url: https://elpais.com/deportes/futbol/2026-11-09/el-viaje-tambien-es-el-partido.html
+  resumen: Gracias al fútbol visitamos lugares a los que nunca habríamos pensado ir
 - seccion: deportes
   medio: El País
-  titulo: Norris se pega un chapuzón y Verstappen se da un festín en Interlagos
-  url: https://elpais.com/deportes/formula-1/2026-11-08/norris-se-pega-un-chapuzon-y-verstappen-se-da-un-festin-en-interlagos.html
-  resumen: El campeón saliente se impone bajo la lluvia en la carrera en Brasil, donde el holandés se marca otra de sus frenéticas remontadas
+  titulo: Gol de Marsol
+  url: https://elpais.com/deportes/futbol/2026-11-09/gol-de-marsol.html
+  resumen: El escritor e ilustrador publica una emocionante novela gráfica
+- seccion: deportes
+  medio: El País
+  titulo: Y al tercer año, el Real Madrid encuentra un hilo del que tirar
+  url: https://elpais.com/deportes/futbol/2026-11-09/y-al-tercer-ano-el-real-madrid-encuentra-un-hilo-del-que-tirar.html
+  resumen: Los cambios de Mourinho, que valora la mayor intensidad de los jugadores, dan lugar a un equipo más equilibrado que recupera más balones
+- seccion: deportes
+  medio: El País
+  titulo: 'Valdano: “El portero Owono es la segunda víctima de un accidente”'
+  url: https://elpais.com/deportes/2026-11-09/valdano-el-portero-owono-es-la-segunda-victima-de-un-accidente.html
+  resumen: El exfutbolista y exdirectivo del Madrid se considera “un zurdo” a ojos de Milei, celebra los últimos cambios de Mourinho y califica el fichaje de Nadal de “golpe maestro”
+- seccion: deportes
+  medio: El País
+  titulo: 'Alcaraz y el techo, una relación que empieza a fructificar: “He conseguido ser yo mismo”'
+  url: https://elpais.com/deportes/tenis/2026-11-09/alcaraz-y-el-techo-una-relacion-que-empieza-a-fructificar-he-conseguido-ser-yo-mismo.html
+  resumen: El murciano celebra su evolución a cubierto, tras cuatro años de frustraciones, y valora el “salto mental” que ha dado de cara a la próxima cita, la Copa de Maestros
 - seccion: deportes
   medio: El País
   titulo: El Madrid sigue invicto en la ACB tras siete jornadas
   url: https://elpais.com/deportes/baloncesto/2026-11-08/el-madrid-sigue-invicto-en-la-acb-tras-siete-jornadas.html
   resumen: Los blancos vencen al UCAM Murcia y suman dos triunfos de ventaja sobre Valencia, Baskonia, Tenerife, Zaragoza y Barça
-- seccion: deportes
-  medio: El País
-  titulo: 'La liberación de Jon Rahm: gana en Abu Dabi después de la desaparición de LIV'
-  url: https://elpais.com/deportes/2026-11-08/la-liberacion-de-jon-rahm-gana-en-abu-dabi-despues-de-la-desaparicion-de-liv.html
-  resumen: El golfista vasco logra su primera victoria fuera de la Liga saudí desde el Masters de Augusta de 2023 y llama con fuerza a volver al circuito americano
-- seccion: deportes
-  medio: El País
-  titulo: Los Cincinnati Bengals derrotan a los Atlanta Falcons en el segundo partido de la NFL en Madrid
-  url: https://elpais.com/deportes/2026-11-08/los-cincinnati-bengals-derrotan-a-los-atlanta-falcons-en-el-segundo-partido-de-la-nfl-en-madrid.html
-  resumen: El conjunto de Ohio, liderado por su ‘quarterback’, Joe Burrow, se impone gracias a su espectacular juego aéreo
-- seccion: deportes
-  medio: El País
-  titulo: El Betis tira de plantilla y acaba con un Elche fundido
-  url: https://elpais.com/deportes/futbol/2026-11-08/el-betis-tira-de-plantilla-y-acaba-con-un-elche-fundido.html
-  resumen: Los cambios de Pellegrini le dan el triunfo a un conjunto bético que se dispara con 26 puntos en la cuarta plaza
-- seccion: general
-  medio: Europa Press
-  titulo: Sánchez insiste en blindar pensiones y subir el SMI, y pide votar "en masa" para "llegar mucho más lejos"
-  url: https://www.europapress.es/euskadi/noticia-sanchez-insiste-blindar-pensiones-subir-smi-pide-votar-masa-llegar-mucho-mas-lejos-20261108133745.html
-  resumen: Asegura que van "a por el Congreso y Senado como en EEUU" y dice al 'sheriff' Trump que en España no deciden ni Whashington ni Tel Aviv
-- seccion: general
-  medio: Europa Press
-  titulo: Feijóo se compromete a revisar la vía "palmo a palmo" y ve "vomitivas" las gratificaciones a directivos de Adif
-  url: https://www.europapress.es/andalucia/malaga-00356/noticia-feijoo-compromete-revisar-via-palmo-palmo-ve-vomitivas-gratificaciones-directivos-adif-20261108140049.html
-  resumen: El presidente del PP y candidato a la Presidencia del Gobierno, Alberto Núñez Feijóo, se ha comprometido este domingo a que si llega a la Moncloa revisará el transporte ferroviario "palmo a palmo" para que "vuelva la seguridad", al tiempo que ha reclamado que los directivos de Adif devuelvan las gra
 - seccion: general
   medio: Europa Press
   titulo: El Barça se reivindica en el Metropolitano
@@ -142,16 +232,6 @@ titulares:
   resumen: El FC Barcelona asaltó el Riyadh Air Metropolitano este domingo con un 1-2 sobre el Atlético de Madrid en la jornada 12 de LaLiga EA Sports, remontada con un doblete de Fermín López para defender el liderato antes de un nuevo parón por selecciones.
 - seccion: general
   medio: Europa Press
-  titulo: Irán reitera su propuesta de plan de alto el fuego a EEUU una vez superadas las 'midterm'
-  url: https://www.europapress.es/internacional/noticia-iran-reitera-propuesta-plan-alto-fuego-eeuu-vez-superadas-midterm-20261108182149.html
-  resumen: El ministro de Asuntos Exteriores iraní, Abbas Araqchi, ha reiterado este domingo a Estados Unidos su propuesta de alto el fuego de aplicación en dos días tras las elecciones de mitad de mandato del pasado martes, en las que el presidente estadounidense, Donald Trump, sufrió un duro revés.
-- seccion: general
-  medio: Europa Press
   titulo: Adif niega que haya blindado el cobro de un "bonus" para "la cúpula" de la empresa
   url: https://www.europapress.es/economia/transportes-00343/noticia-adif-niega-haya-blindado-cobro-bonus-cupula-empresa-20261108221852.html
   resumen: Adif ha negado que la empresa blindara el cobro de un "bonus" para la dirección de la compañía y ha manifestado su "total rechazo" a estas afirmaciones, que ha calificado como "sesgadas e incompletas" ante distintas informaciones publicadas durante este fin de semana.
-- seccion: general
-  medio: Europa Press
-  titulo: La jueza deja en libertad a 10 de los integrantes de Núcleo Nacional pero les prohíbe salir de España
-  url: https://www.europapress.es/asturias/noticia-fiscalia-solicita-diez-detenidos-operacion-contra-nucleo-nacional-no-puedan-salir-espana-20261108131919.html
-  resumen: 'La titular del Juzgado de Instrucción número uno de Gijón ha dictado, de conformidad con el criterio del Ministerio Fiscal, la imposición de medidas cautelares para diez personas detenidas en el marco de la operación policial vinculada a Núcleo Nacional, que obligan a la comparecencia semanal en el '
