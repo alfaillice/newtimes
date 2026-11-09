@@ -23,14 +23,17 @@ ciencia-salud:
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/health/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/science/rss"}
 tecnologia:
+  - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=72"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada"}
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/technology/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/technology/rss"}
 cultura:
+  - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=71"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada"}
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/culture/rss"}
 deportes:
+  - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=67"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada"}
   - {medio: Marca, url: "https://e00-marca.uecdn.es/rss/portada.xml"}
   - {medio: BBC Sport, url: "https://feeds.bbci.co.uk/sport/rss.xml"}
