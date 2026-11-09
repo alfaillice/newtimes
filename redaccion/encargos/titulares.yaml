@@ -1,4 +1,4 @@
-generado: '2026-11-09T22:12:00+01:00'
+generado: '2026-11-09T22:16:00+01:00'
 titulares:
 - seccion: espana
   medio: Europa Press
@@ -72,14 +72,49 @@ titulares:
   resumen: El periódico que simbolizó el regreso de la prensa libre a Rusia echa el cierre asfixiado por el Kremlin. Su exdirector Dmitri Murátov reclama una tregua en la guerra
 - seccion: internacional
   medio: El País
-  titulo: La reelección de María Elvira Salazar al Congreso, sometida a recuento de votos
-  url: https://elpais.com/us/2026-11-09/la-reeleccion-de-maria-elvira-salazar-al-congreso-sometida-a-recuento-de-votos.html
-  resumen: En los resultados, la diferencia entre la congresista cubano-estadounidense y el demócrata Elliot Rodríguez es de menos de medio punto porcentual
-- seccion: economia
+  titulo: Cómo la xenofobia que marcó a California en 1994 terminó llevando a un hijo de inmigrantes a la gubernatura
+  url: https://elpais.com/us/2026-11-09/como-la-xenofobia-que-marco-a-california-en-1994-termino-llevando-a-un-hijo-de-inmigrantes-a-la-gubernatura.html
+  resumen: En la década de los noventa una nueva generación de dirigentes hispanos, entre ellos Xavier Becerra, gobernador electo de California, surgieron de una iniciativa que entonces buscaba negar servicios públicos a los indocumentados
+- seccion: internacional
   medio: El País
-  titulo: Estos son los servicios mínimos de transporte y otras áreas para la huelga general del 11 de noviembre
-  url: https://elpais.com/economia/2026-11-09/estos-son-los-servicios-minimos-de-transporte-y-otras-areas-para-la-huelga-general-del-11-de-noviembre.html
-  resumen: En Cercanías pasarán el 75% de los trenes en hora punta y se asegura ente el 56% y el 85% de los vuelos a las islas. Para sanidad y educación, depende de la autonomía
+  titulo: El ‘boom’ exportador de la inteligencia artificial y el alza de la inversión dan un nuevo impulso a la economía mexicana
+  url: https://elpais.com/mexico/economia/2026-11-09/el-boom-exportador-de-la-inteligencia-artificial-y-el-alza-de-la-inversion-dan-un-nuevo-impulso-a-la-economia-mexicana.html
+  resumen: Las exportaciones de México a Estados Unidos crecieron un 20% en los primeros nueve meses de 2026 y alcanzaron el récord de 481.586 millones de dólares
+- seccion: economia
+  medio: BBC
+  titulo: Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy
+  url: https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss
+  resumen: The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.
+- seccion: economia
+  medio: BBC
+  titulo: Civil servant who secretly held five jobs found guilty of fraud
+  url: https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss
+  resumen: Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.
+- seccion: economia
+  medio: BBC
+  titulo: How a civil servant got away with juggling five jobs for so long
+  url: https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss
+  resumen: Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.
+- seccion: economia
+  medio: BBC
+  titulo: Poundland unable to buy new stock as fears over collapse grow
+  url: https://www.bbc.co.uk/news/articles/cw1l3lmem165o?at_medium=RSS&at_campaign=rss
+  resumen: The discount chain is continuing to edge towards collapse and is said to be "running on fumes", according to one insider.
+- seccion: economia
+  medio: BBC
+  titulo: What we know so far about Jensen Huang's affair with suspected Chinese spy
+  url: https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss
+  resumen: The billionaire tech executive finds himself mired in a personal and national security scandal.
+- seccion: economia
+  medio: BBC
+  titulo: Government's EV targets expected to be reduced this week
+  url: https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss
+  resumen: New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.
+- seccion: economia
+  medio: BBC
+  titulo: Action on energy costs is my overriding aim, says Fahnbulleh
+  url: https://www.bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss
+  resumen: The energy secretary says reducing bills is key to maintaining public support for climate action.
 - seccion: sociedad
   medio: Europa Press
   titulo: El Gobierno plantea paralizar TikTok ante denuncias por posibles videos de abuso sexual infantil en la plataforma
@@ -122,9 +157,284 @@ titulares:
   resumen: La tradicional procesión de la Virgen de la Almudena por las calles de Madrid no se celebrará este lunes debido a la lluvia, según ha anunciado el arzobispo de Madrid, José Cobo, quien ha animado a los fieles a llevar a la patrona de la capital "desde el corazón" por los distintos rincones de la ciu
 - seccion: sociedad
   medio: El País
-  titulo: El Gobierno se plantea paralizar los servicios de TikTok en España por permitir abuso sexual infantil
-  url: https://elpais.com/tecnologia/2026-11-09/el-gobierno-se-plantea-paralizar-los-servicios-de-tiktok-en-espana-por-permitir-abuso-sexual-infantil.html
-  resumen: La ministra de Juventud e Infancia, Sira Rego, pide a la Fiscalía la apertura de una investigación contra la red social por dejar que pederastas usen abiertamente su plataforma
+  titulo: El actor Russell Brand, condenado a diez años y seis meses por la violación de una mujer y agresiones sexuales a otras tres
+  url: https://elpais.com/sociedad/2026-11-09/el-actor-russell-brand-condenado-a-diez-anos-y-seis-meses-por-la-violacion-de-una-mujer-y-agresiones-sexuales-a-otras-tres.html
+  resumen: El juez, que ha definido al actor como un “depredador sexual”, ha tenido en cuenta las circunstancias agravantes de humillación a las víctimas
+- seccion: ciencia-salud
+  medio: BBC
+  titulo: Birds return to waterfowl park after oil vandalism
+  url: https://www.bbc.co.uk/news/articles/c6gqwq1x85e0o?at_medium=RSS&at_campaign=rss
+  resumen: The vandalism of a nearby home heating oil tank resulted in the death of 13 birds from the park.
+- seccion: ciencia-salud
+  medio: BBC
+  titulo: How yesterday's waste is becoming tomorrow's fashion
+  url: https://www.bbc.co.uk/news/articles/cm5yd1q12g1no?at_medium=RSS&at_campaign=rss
+  resumen: Brands including Dr Martens, Nike and Coach are among those using recycled materials.
+- seccion: ciencia-salud
+  medio: BBC
+  titulo: Senior doctors at Glasgow hospital in care delay warning
+  url: https://www.bbc.co.uk/news/articles/ckx2d2vv40w6o?at_medium=RSS&at_campaign=rss
+  resumen: Consultants at the Queen Elizabeth University Hospital say conditions for emergency patients there are deteriorating.
+- seccion: ciencia-salud
+  medio: BBC
+  titulo: New GP contract deal a 'start' but more funding needed, BMA warns
+  url: https://www.bbc.co.uk/news/articles/cmd7q1w8q0e3o?at_medium=RSS&at_campaign=rss
+  resumen: The Department of Health (DoH) said it will give an additional £40m across two years for "improvements in patient access and primary care activity".
+- seccion: ciencia-salud
+  medio: BBC
+  titulo: Psychiatric intensive care unit for women to open
+  url: https://www.bbc.co.uk/news/articles/cmly0dk420rgo?at_medium=RSS&at_campaign=rss
+  resumen: The unit will care for women with serious mental health needs in Kent and Medway.
+- seccion: ciencia-salud
+  medio: The Guardian
+  titulo: Medical breakthrough offers hope to people with same stiff person syndrome as Céline Dion
+  url: https://www.theguardian.com/science/2026/nov/09/medical-breakthrough-offers-hope-to-people-with-same-stiff-person-syndrome-as-celine-dion
+  resumen: Some patients with autoimmune condition, taking part in trial, have been able to return to work and resume hobbies Doctors have made a potentially significant breakthrough in the hunt for a treatment for stiff person syndrome, the autoimmune condition which affects the singer Céline Dion. Stiff pers
+- seccion: ciencia-salud
+  medio: The Guardian
+  titulo: Did you solve it? The multi-choice maths quiz taking over the world
+  url: https://www.theguardian.com/science/2026/nov/09/did-you-solve-it-the-multi-choice-maths-quiz-taking-over-the-world
+  resumen: The answer to today’s Kangaroo puzzle Earlier today I set you the following problem from the international maths Kangaroo, a multiple choice challenge taken by more than seven million children every year. (For more details about this extraordinary event see the original story .) Here is is again wit
+- seccion: tecnologia
+  medio: BBC
+  titulo: Who is the suspected Chinese spy at centre of the Nvidia investigation?
+  url: https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss
+  resumen: Alice Huang, a Chinese businesswoman, had a close relationship with Nvidia boss Jensen Huang, reports say.
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy
+  url: https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk
+  resumen: Elon Musk and other finance moguls defend Jensen Huang after he admitted to the affair in an email to employees Nvidia’s board needs to do some succession planning – sharpish Donald Trump , Elon Musk and prominent finance moguls have expressed their support for embattled Nvidia CEO Jensen Huang , as
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: 'Revealed: Palantir lobbied minister to stretch AI tools’ reach to NHS GP records'
+  url: https://www.theguardian.com/technology/2026/nov/09/revealed-palantir-lobbied-minister-to-stretch-ai-tools-reach-to-nhs-gp-records
+  resumen: 'Exclusive: WhatsApp messages show firm pressuring Zubir Ahmed MP to help bring sensitive data into its platform UK politics live – latest updates Palantir lobbied a health minister to consider extending its AI technology into GP records, stretching its reach into the NHS in a way doctors fear could '
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: Cyber-attack on French supermarket freezers has geopolitical context
+  url: https://www.theguardian.com/technology/2026/nov/09/cyber-attack-french-supermarket-freezers-iran-europe
+  resumen: ‘Not particularly complex’ defrosting hack has been attributed to Iran, with presumption it is linked to others across Europe Iranian hackers like to send a message. In 2023 a state-backed group interrupted TV streaming services in the United Arab Emirates to broadcast a deepfake report on the war i
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: Today’s AI won’t achieve superintelligence. But catastrophic risk is real | Sunita Verma
+  url: https://www.theguardian.com/commentisfree/2026/nov/09/ai-superintelligence-risk
+  resumen: The same technical limits that prevent superintelligence make these systems dangerous. But we know how to regulate them Many Silicon Valley leaders believe superintelligence is an imminent threat to society. The White House even published an accord about it. This isn’t enough. Geoffrey Hinton, the g
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: 'The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security'
+  url: https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security
+  resumen: 'Jensen Huang’s close relationship with president means Nvidia CEO’s affair with woman alleged to be working for Beijing is a big deal A hand on the back, a kiss on the cheek; the footage of Alice Huang’s interaction with Jensen Huang in a Taipei venue last year does not seem particularly remarkable '
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: 'Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’'
+  url: https://www.theguardian.com/us-news/2026/nov/09/parents-teachers-google-search-schools-ai
+  resumen: Company says schools should control student AI use, but if they block its AI tools, they’ll lose access to search engine Parents and teachers across the US are criticizing Google’s announcement that schools choosing to block AI tools could also lose access to Google Search. Google announced last wee
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: Jensen Huang’s image has been shattered. Could he be pushed out at Nvidia?
+  url: https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia
+  resumen: Huang built Nvidia as a family business but after the co-founder had an affair with an alleged Chinese spy, its board faces a difficult decision For more than 30 years, Jensen Huang has been the seemingly unshakable public face of Nvidia. He co-founded the company as a young engineer in 1993 and ove
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: Nvidia’s board needs to do some succession planning – sharpish | Nils Pratley
+  url: https://www.theguardian.com/technology/2026/nov/09/nvidia-board-jensen-huang
+  resumen: The chipmaker faces business risks and political scrutiny due to its over-reliance on founder and CEO Jensen Huang Why is Nvidia’s Jensen Huang at the centre of a US-China row? Too big – and too well-connected – to sack? One doesn’t have to be overly cynical to think Jensen Huang, the Nvidia boss, s
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: 'Crime pays: how Grand Theft Auto became a cultural colossus'
+  url: https://www.theguardian.com/games/2026/nov/09/grand-theft-auto-creators-gta
+  resumen: 'Ever since it crashed on to PC and consoles in the late 90s, GTA has been tearing up the game-making rulebook. We explore how its cultural references, rebel spirit and sprawling sense of freedom make it a definitive work of art In the 00s, when the Grand Theft Auto developer Rockstar Games revealed '
+- seccion: cultura
+  medio: BBC
+  titulo: Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault
+  url: https://www.bbc.co.uk/news/articles/ckzd6dl18dmyo?at_medium=RSS&at_campaign=rss
+  resumen: The disgraced entertainer was sentenced on Monday following a four-week trial at Southwark Crown Court.
+- seccion: cultura
+  medio: BBC
+  titulo: Ground Force and Homes Under the Hammer star Tommy Walsh dies aged 69
+  url: https://www.bbc.co.uk/news/articles/ck0e0elq4ndpo?at_medium=RSS&at_campaign=rss
+  resumen: The building and DIY expert also appeared on TV shows like Challenge Tommy Walsh and Clean It, Fix It.
+- seccion: cultura
+  medio: BBC
+  titulo: Find out who's in the running for this year's Booker Prize
+  url: https://www.bbc.co.uk/news/articles/cqzjz8dk4wddo?at_medium=RSS&at_campaign=rss
+  resumen: The winner of this year's literary award will be announced in London on Monday.
+- seccion: cultura
+  medio: BBC
+  titulo: '''I''ve got a band now'' - Club anthem star Shygirl on why she''s switching up her sound'
+  url: https://www.bbc.co.uk/news/articles/cxyvrr5rz282o?at_medium=RSS&at_campaign=rss
+  resumen: Fans know her for big electronic bangers, but the singer and DJ has come back with an indie-tinged sound.
+- seccion: cultura
+  medio: BBC
+  titulo: Ioan Gruffudd in AI warning after fan claimed they had been in year-long affair
+  url: https://www.bbc.co.uk/news/articles/cmwyvydp2vz8o?at_medium=RSS&at_campaign=rss
+  resumen: The Aberdare actor urged fans not to send money, saying "explicit and disturbing" images are "not me".
+- seccion: cultura
+  medio: BBC
+  titulo: Mariah Carey set to headline 2027 music festival
+  url: https://www.bbc.co.uk/news/articles/c674p4lynjk1o?at_medium=RSS&at_campaign=rss
+  resumen: She is due to perform at Powderham Castle near Exeter in June 2027 with the Sugababes and Eternal.
+- seccion: cultura
+  medio: The Guardian
+  titulo: A one-part wonder! The West End’s streamlined Harry Potter and the Cursed Child works like magic
+  url: https://www.theguardian.com/stage/2026/nov/09/harry-potter-and-the-cursed-child-one-part-production-review-palace-theatre-london-jack-thorne
+  resumen: Palace theatre, London Five hours have been trimmed to three for this new version but it is packed with magic moments and superb performances Ten years on from its premiere , Harry Potter and the Cursed Child has been transformed from an epic two-part play into a richly absorbing one-part production
+- seccion: cultura
+  medio: The Guardian
+  titulo: '‘A three-minute history of England written in the tour bus toilet’: how Tenpole Tudor made Swords of a Thousand Men'
+  url: https://www.theguardian.com/culture/2026/nov/09/tenpole-tudor-made-swords-of-a-thousand-men-king
+  resumen: ‘Dressed as knights, we’d walk onstage to the sound of the William Tell overture. I’d quote Henry V and the crowd would shout, “You’re the rightful king of England!”’ I’d worked up the basic idea on Stiff Records’ three-month tour of the northern hemisphere. It’s near-impossible to write songs on th
+- seccion: cultura
+  medio: The Guardian
+  titulo: 'U2: Carnaval de Luz review – rousing, restorative rock from a band ready to take on the world again'
+  url: https://www.theguardian.com/music/2026/nov/09/u2-carnaval-de-luz-review
+  resumen: (Island) On their first album of new songs in nearly a decade, even earnest Bono-isms carry weight amid music that is impassioned and rejuvenated Even artists who enjoy a seemingly unstoppable imperial period eventually seem to encounter spells of turbulence when the creative planets no longer align
+- seccion: cultura
+  medio: The Guardian
+  titulo: '‘A medieval jigsaw puzzle’: rediscovering Coventry cathedral’s ‘stunning’ stained glass windows'
+  url: https://www.theguardian.com/uk-news/2026/nov/09/a-medieval-jigsaw-puzzle-rediscovering-coventry-cathedrals-stunning-stained-glass-windows
+  resumen: Remnants of 15th-century artwork form a treasure trove that can now be viewed for the first time in almost 90 years In the decades after Coventry cathedral was destroyed by the Luftwaffe in 1940, the shattered fragments of what had once been its glorious medieval stained glass windows were packed in
+- seccion: cultura
+  medio: The Guardian
+  titulo: ‘We did 10 takes of it!’ Kerr Smith on Dawson’s Creek and filming US TV’s first gay kiss
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/09/kerr-smith-dawsons-creek-tv
+  resumen: As he releases a memoir, the actor opens up about the late James Van Der Beek, the magic of the Creek, and facing homophobia for playing gay in the 90s There are worse things to spend a couple of decades chasing than the feeling of being young, successful and surrounded by people who love you. For K
+- seccion: cultura
+  medio: The Guardian
+  titulo: '‘Sadistic, forbidden pleasure’: why Gone Girl is my feelgood movie'
+  url: https://www.theguardian.com/film/2026/nov/09/gone-girl-david-fincher-comfort-movie
+  resumen: The latest in our ongoing series of writers highlighting their go-to comfort films is a reminder of the dark joys that can be found in David Fincher’s devilish thriller “When I think of my wife, I always think of the back of her head,” narrates Ben Affleck in the opening scene of Gone Girl , David F
+- seccion: cultura
+  medio: The Guardian
+  titulo: A Fox Under a Pink Moon review – Iranian teen refugee paints boldly imaginative self-portrait
+  url: https://www.theguardian.com/film/2026/nov/09/a-fox-under-a-pink-moon-review-iran-refugee
+  resumen: 'Soraya Akhlaghi filmed her perilous flight from Iran and precarious new life over five years on her phone, reassembled here with yearning animations The world feels like an overwhelmingly forlorn place in this striking refugee self-portrait, shot on smartphone by Soraya Akhlaghi over five years and '
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Kane and Bellingham air strong views in England World Cup review
+  url: https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss
+  resumen: England players are understood to have aired strong views about their World Cup semi-final defeat by Argentina in a team meeting.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Man Utd yet to make decision on Carrick's future
+  url: https://www.bbc.co.uk/sport/football/articles/cw4g1g7z2mdgo?at_medium=RSS&at_campaign=rss
+  resumen: Manchester United's board are yet to make a final decision on Michael Carrick's future, despite the club's worst start to a campaign in 40 years.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: People don't know full story behind England exile - White
+  url: https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss
+  resumen: Arsenal defender Ben White says people don't know the "full story" behind his decision to previously make himself unavailable for England selection - but says he would make the same decision again.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: 'Incident-by-incident: Was it a bad weekend for VAR?'
+  url: https://www.bbc.co.uk/sport/football/articles/c6n9r93dnr9do?at_medium=RSS&at_campaign=rss
+  resumen: Almost every game had a controversial VAR decision in the Premier League this weekend. But how many might go down as errors?
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Khawaja 100% accurate on ball-tampering - Warner
+  url: https://www.bbc.co.uk/sport/cricket/articles/c5wyry9gmz4ko?at_medium=RSS&at_campaign=rss
+  resumen: David Warner says he throws his "full support" behind former team-mate Usman Khawaja following his claim that all the Australia players knew about ball-tampering.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Aberdeen sack Robinson after league slump
+  url: https://www.bbc.co.uk/sport/football/articles/cwj34k2z5p00o?at_medium=RSS&at_campaign=rss
+  resumen: Aberdeen sack head coach Stephen Robinson after dropping to second bottom of the Scottish Premiership.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Bronze named in World 11 for record ninth time
+  url: https://www.bbc.co.uk/sport/football/articles/cmkgeg2z4dlwo?at_medium=RSS&at_campaign=rss
+  resumen: Lucy Bronze is one of five England players named in the Fifpro Women's World 11.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: How Hawkins overcame illness to star for England
+  url: https://www.bbc.co.uk/sport/rugby-league/articles/cmvgxgdqgdgvo?at_medium=RSS&at_campaign=rss
+  resumen: When Rob Hawkins replied to what he thought was an advert to play wheelchair basketball in 2014 he could not have imagined he would be a key part of an England side defending their Rugby League World Cup title.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Chelsea staff warned over Fantasy Premier League use
+  url: https://www.bbc.co.uk/sport/football/articles/c98rzr51rlvpo?at_medium=RSS&at_campaign=rss
+  resumen: Chelsea warn staff to be careful about revealing team news through Fantasy Premier League after Joao Pedro's injury appeared to have been inadvertently disclosed through team selections.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: England wing Feyi-Waboso out of Nations Championship
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cw5yny20m7jzo?at_medium=RSS&at_campaign=rss
+  resumen: England wing Immanuel Feyi-Waboso is ruled out of the rest of the Nations Championship as his injury misfortune continues.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Wimborne to host Bradford in FA Cup second round - see full draw
+  url: https://www.bbc.co.uk/sport/football/articles/c6wyrynd848jo?at_medium=RSS&at_campaign=rss
+  resumen: Seventh-tier side Wimborne Town will host League One Bradford City in the second round of the FA Cup, while former winners Leicester City will visit National League South side Dover Athletic.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Atletico target Zubimendi move - Tuesday's gossip
+  url: https://www.bbc.co.uk/sport/football/articles/cjn5v5xypez2o?at_medium=RSS&at_campaign=rss
+  resumen: Arsenal midfielder Martin Zubimendi is a target for Atletico Madrid, Leeds United plan to step up contract talks with striker Dominic Calvert-Lewin, Barcelona are keen on Bayern Munich defender Jonathan Tah, plus more.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Kettering 'cannot hide' from racism problem at club after 'sickening abuse'
+  url: https://www.bbc.co.uk/sport/football/articles/cr0j0jnln3j0o?at_medium=RSS&at_campaign=rss
+  resumen: Kettering Town says it "can no longer hide" from the issue of racism after a visiting Redditch player was allegedly subjected to "sickening" abuse.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Ali weeps as world title dream realised in Texas
+  url: https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss
+  resumen: Ramla Ali dedicated her win to her late father as she defeated Mikiah Kreps to become the unified super-bantamweight world champion.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: England clear way for Carse return and drop Bashir
+  url: https://www.bbc.co.uk/sport/cricket/articles/cw8dzd953nq5o?at_medium=RSS&at_campaign=rss
+  resumen: England open the door for Brydon Carse to return to Test cricket for the tour of South Africa by naming him in the Lions squad.
+- seccion: deportes
+  medio: The Guardian
+  titulo: Manchester United weighing up Michael Carrick sacking as Wilcox leads review
+  url: https://www.theguardian.com/football/2026/nov/09/manchester-united-michael-carrick-jason-wilcox-review-sacking
+  resumen: Carrick given time after Como and Bournemouth defeats Recommendation will be made to Sir Jim Ratcliffe Manchester United are deciding whether Michael Carrick should be sacked, with Jason Wilcox, the director of football, leading the review after the head coach was given the Chelsea, Roma and Aston V
+- seccion: deportes
+  medio: The Guardian
+  titulo: Manchester City’s weaknesses under Enzo Maresca are being exposed
+  url: https://www.theguardian.com/football/2026/nov/09/manchester-city-enzo-maresca-premier-league
+  resumen: After three straight defeats, City’s manager says he will use the international break to reassess. Their problems may go beyond tactics Sign up for our free newsletter here Enzo Maresca seemed, if not quite baffled by his side’s Saturday defeat to Nottingham Forest, then at least a little put out. A
+- seccion: deportes
+  medio: The Guardian
+  titulo: Ben White says he has no complaints at boos from England fans over self-imposed exile
+  url: https://www.theguardian.com/football/2026/nov/09/ben-white-england-international-exile-arsenal-thomas-tuchel-squad-nations-league-spain-croatia
+  resumen: Arsenal defender was jeered during draw with Uruguay ‘Everyone can do whatever they want,’ says White Ben White has said he has no complaints at being booed by England fans when he ended his international exile during the 1-1 draw with ­Uruguay this year. The Arsenal defender, who has returned to Th
+- seccion: deportes
+  medio: The Guardian
+  titulo: Felix Nmecha’s faith is forcing Borussia Dortmund into an uncomfortable debate
+  url: https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga
+  resumen: Midfielder’s spectacular strikes rescued a frustrating day, only for celebrations to reignite dialogue that has followed him through his career It was just what they needed at just the right time. For a tricky first half and beyond, Elversberg had been a stone in Borussia Dortmund’s shoe, the promot
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’'
+  url: https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife
+  resumen: 'Across La Liga and beyond this weekend, footballers took to the field knowing it could have been them In the final few minutes before stepping into the arena once more, heading out for his 199th Osasuna match on Saturday evening, the man who has scored more first division goals than anyone in their '
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'That’s a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life'
+  url: https://www.theguardian.com/football/2026/nov/09/rodrigo-mora-roma-lazio-rome-serie-a
+  resumen: Roma and Lazio have both made unbeaten starts to the Serie A season, giving those in the Italian capital dreams of a Scudetto After nine games in 28 days, Gian Piero Gasperini finally got a moment to pause and reflect on Sunday night. The Roma manager was back in Liguria, where he worked for the bes
+- seccion: deportes
+  medio: The Guardian
+  titulo: Lens were humiliated by Como. The pain continued against Marseille
+  url: https://www.theguardian.com/football/2026/nov/09/lens-como-marseille-pierre-sage-coupe-de-france-ligue-1
+  resumen: Pierre Sage led Lens to second and glory in the Coupe de France last season. A lot has changed in the last six months The Lens striker, Florian Sotoca, was completely motionless as he looked into the middle space from the bench. The game, finely poised at 2-1 with a few minutes remaining, was not be
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?'
+  url: https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce
+  resumen: The City forward hit a WSL hat-trick for the ninth time while Eva Olid’s United have found defensive stability Not only did Khadija “Bunny” Shaw score a record-extending ninth WSL hat-trick, she scored a “perfect hat-trick” for the fourth time in the competition, something nobody else has managed mo
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'NWSL playoffs scheduling snafu: Washington Spirit keep Audi Field; Gotham move to Icahn'
+  url: https://www.theguardian.com/football/2026/nov/08/washington-spirit-semifinal-audi-field-gotham-nwsl-playoffs
+  resumen: Washington to play in Saturday noon broadcast window Shift to Northwest Stadium was reportedly in play Gotham move to Icahn amid ‘atrocious’ pitch conditions The Washington Spirit will play their NWSL semi-final at Audi Field after the club reached a deal to avoid playing a playoff game at Northwest
+- seccion: deportes
+  medio: The Guardian
+  titulo: Football Daily | Manchester United, Aston Villa and the unseriousness of a 4-4 draw
+  url: https://www.theguardian.com/football/2026/nov/09/football-daily-email-manchester-united-aston-villa-4-4
+  resumen: Sign up now! Sign up now! Sign up now? Sign up now! Precisely 13,266 games have been played since the inception of the Premier League, and 19 of those matches have finished 4-4 (0.1%), a rarity in a division dominated by the mighty 1-0 (17.6%). It was about time we got one, though. The months of Aug
 - seccion: general
   medio: Europa Press
   titulo: Sánchez reivindica las conquistas laborales y sociales y advierte de que "se pueden perder en un instante"
