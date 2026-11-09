@@ -16,13 +16,13 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 | 7 | Continuidad: 49 noticias el 06/11, 3 el 07/11, 10 el 08/11. El VPS ya sirve de respaldo; confirmar una semana de ritmo estable | Muy alto | Alta | Bajo | Claude + JM | 🛠 |
 | 8 | Evaluar la redacción en el VPS tras una semana completa (hoy: menos de 12 h de datos, 1 noticia ES y 3 EN, 0 descartadas). Si es sólida, valorar que el VPS elija temas y retirar al jefe de Claude | Alto (costes) | Media | Bajo | Claude + JM | 📋 |
 | 9 | Perfiles de marca (X, Bluesky, Telegram, canal de WhatsApp) y añadirlos a `perfiles` en config/site.yaml (hoy `sameAs` vacío). Textos listos abajo | Medio | Media | 1 h | JM + Claude | 📋 |
-| 10 | Equilibrar secciones: Cultura 4, Tecnolog-IA 5 y Ciencia y salud 6 noticias/semana frente a 15 de Internacional | Alto | Media | Bajo | Claude (jefe de redacción) | 📋 |
+| 10 | (Parcial: horario con 5 turnos, filtro de legibilidad y 2 temas por sección) Equilibrar secciones: Cultura 4, Tecnolog-IA 5 y Ciencia y salud 6 noticias/semana frente a 15 de Internacional | Alto | Media | Bajo | Claude (jefe de redacción) | 📋 |
 | 11 | Hacer crecer la edición inglesa: 7 noticias en total, 3 esta semana. Debería subir con el temporizador EN | Alto (audiencia global) | Media | Bajo | Claude + JM | 📋 |
 | 12 | Alta en Bing Webmaster Tools (importar desde Search Console) | Medio | Media | 10 min | JM | ⛔ |
 | 13 | AdSense: mensaje RGPD publicado, sitio aprobado, anuncios automáticos desactivados | Alto (ingresos) | Alta | 20 min | JM | ⛔ |
 | 14 | Páginas de tema "pilares" (huelga general 11N, Urda/alta velocidad, Irán-Ormuz, 29N) con contexto propio. De 510 temas, 66 son indexables | Medio | Media | Medio | Claude | 📋 |
 | 15 | Duplicados por retiradas tardías: 3 pares más retirados y check reforzado. El check solo detecta casos muy parecidos: el 2.º y el 3.º par no los habría parado. Vigilar que el vigilante no publique si el jefe ya lo hizo | Medio | Media | Bajo | Claude | 🛠 |
-| 16 | Titulares largos en España: mediana de 101 caracteres; Google muestra unos 60. Regla añadida a GUIA.md; medir en la revisión 5 | Medio | Media | Bajo | Claude | 🛠 |
+| 16 | Titulares largos en España: mediana de 100 caracteres. Regla endurecida el 09/11 a 60-90 caracteres en GUIA.md; medir con `docs/salud-seo.md` | Medio | Media | Bajo | Claude | 🛠 |
 | — | Hechos: redactor del servidor activo (primer `[servidor]` el 08/11 23:10 UTC) ✅ · Fuentes WOFF2 🛠 · Relacionadas por tema 🛠 | | | | | |
 
 ### Textos para abrir perfiles (JM crea la cuenta; Claude añade la URL a `perfiles`)
@@ -33,6 +33,31 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 - Automatización posible con el RSS (`/rss.xml`, `/en/rss.xml`) cuando existan las cuentas.
 
 ## Registro de revisiones
+
+### Revisión 5 · 09/11/2026 22:00 (manual, a petición de JM)
+**Datos verificados**
+- Producción legible por WebFetch (portada al día: última noticia 18:11 del 09/11; title y description correctos; Open Graph, canonical, robots con max-image-preview y selector de edición). En construcción local: NewsMediaOrganization, WebSite, NewsArticle, BreadcrumbList e hreflang presentes; `sameAs` vacío.
+- Ritmo (redaccion/seo_salud.py): ES 15 noticias en 24 h, mayor hueco entre 7 y 23 h de 10,3 h (no hubo publicación entre las 18:11 y las 22:00 pese al turno de las 20:05); EN 11 en 24 h. Secciones ES (7 d): internacional 17, economía 11, España 10, deportes 7, sociedad 7, tecnología 6, ciencia-salud 6, cultura 4.
+- Titulares ES: mediana 100 caracteres y 68 de 68 por encima de 70 (EN: mediana 63). Causa probable de títulos cortados en Google.
+- Fuentes ES (7 d): infobae.com sigue en cabeza (72 enlaces de 68 noticias), seguido de eldiario.es 17 y aljazeera.com 10; Europa Press solo 9. 10 de 68 noticias con una sola fuente; EN 8 de 11.
+- `build.py --check`: 157 artículos válidos, 0 errores.
+
+**Cambios** (commits c7157fe y 723610f) 🛠 pendiente de verificar en producción
+- Redacción: jefe a 5 turnos, titulares a 5 al día con filtro de legibilidad, autónomo ES horario a las :20, sobremuestreo de candidatas (detalle en `redaccion/ENCARGOS.md`).
+- Secciones: título y descripción propios por sección y edición (antes «Economía | NewTimes.news» y una descripción genérica); las páginas 2+ añaden el número de página a ambos.
+- Noticias: `keywords`, `wordCount` e `isAccessibleForFree` en NewsArticle; `article:modified_time` y `article:tag` en Open Graph.
+- GUIA.md: titular entre 60 y 90 caracteres (máximo 100).
+- `redaccion/seo_salud.py` y `newtimes-salud.timer`: informe diario sin API en `docs/salud-seo.md` (requiere reejecutar `instalar-redactor.sh`).
+
+**Cadencia de gestión decidida**
+- Diaria, gratuita (VPS, 23:30): `docs/salud-seo.md`.
+- Semanal, Claude (lunes 8:58): revisión completa con prompt ampliado (frescura, Google News, titulares, secciones, oportunidades de tráfico).
+- No se añade tarea diaria de Claude: con Search Console parado no habría datos nuevos que justifiquen el gasto de plan.
+
+**Problemas**
+- Infobae sigue siendo la fuente enlazada principal (reproducción de EFE/Europa Press): los encargos y el redactor deben enlazar la agencia original.
+- Sin Search Console no hay medición real; es el mayor freno para decidir con datos.
+- El hueco de la tarde-noche del 09/11 debería cerrarse con el nuevo horario; comprobar en la próxima revisión.
 
 ### Revisión 4 · 09/11/2026 09:30
 **Cambios desde la revisión 3** (git log, 44 commits en 8 días): la redacción pasa a encargos; instalado el redactor del servidor (primer commit `[servidor]` el 08/11 23:10 UTC, noticia del ANC); titulares y temporizadores en el VPS; jefe de redacción a dos turnos (9:06 y 18:06) con Sonnet; vigilante una vez al día.
