@@ -1,8 +1,8 @@
 {% extends "en/base.html" %}
 {% from "en/_macros.html" import tarjeta, anuncio %}
 {% set seccion_actual = s.slug %}
-{% block titulo %}{{ s.nombre }}{% if pagina > 1 %}, page {{ pagina }}{% endif %} | NewTimes.news{% endblock %}
-{% block descripcion %}Latest {{ s.nombre }} news in English from NewTimes.news, with cited sources.{% endblock %}
+{% block titulo %}{{ s.titulo_seo|default(s.nombre) }}{% if pagina > 1 %}, page {{ pagina }}{% endif %} | NewTimes.news{% endblock %}
+{% block descripcion %}{% if s.descripcion %}{{ s.descripcion }}{% else %}Latest {{ s.nombre }} news in English from NewTimes.news, with cited sources.{% endif %}{% if pagina > 1 %} Page {{ pagina }}.{% endif %}{% endblock %}
 {% block canonica %}{{ pre }}/section/{{ s.slug }}/{% if pagina > 1 %}{{ pagina }}/{% endif %}{% endblock %}
 {% block cabeza %}<link rel="alternate" type="application/rss+xml" title="{{ s.nombre }} at NewTimes.news" href="{{ pre }}/section/{{ s.slug }}/rss.xml">{% endblock %}
 {% block contenido %}

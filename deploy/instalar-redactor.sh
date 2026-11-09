@@ -51,15 +51,15 @@ sudo -u "$USUARIO" git -C "$DIR" config user.email "redaccion@newtimes.news"
 sudo -u "$USUARIO" git -C "$DIR" pull -q --rebase origin main
 
 echo "==> 4/4 Temporizador"
-for u in newtimes-redactor newtimes-redactor-en newtimes-encargos newtimes-titulares; do
+for u in newtimes-redactor newtimes-redactor-en newtimes-encargos newtimes-titulares newtimes-salud; do
   install -m 644 "$DIR/deploy/$u.service" /etc/systemd/system/
   install -m 644 "$DIR/deploy/$u.timer" /etc/systemd/system/
 done
 touch /srv/newtimes/.redactor.lock; chown "$USUARIO":"$USUARIO" /srv/newtimes/.redactor.lock
 systemctl daemon-reload
-systemctl enable -q --now newtimes-redactor.timer newtimes-redactor-en.timer newtimes-encargos.timer newtimes-titulares.timer
+systemctl enable -q --now newtimes-redactor.timer newtimes-redactor-en.timer newtimes-encargos.timer newtimes-titulares.timer newtimes-salud.timer
 echo
-echo "Listo (edición española a las 7, 11, 13, 15, 20 y 22:05; inglés a las :35; encargos cada 5 min). Prueba sin publicar:"
+echo "Listo (español a las :20 de cada hora; inglés a las :35; encargos cada 5 min; titulares 5 veces al día; informe de salud SEO a las 23:30). Prueba sin publicar:"
 echo "  sudo -u $USUARIO env \$(cat $ENV | xargs) python3 $DIR/redaccion/servidor/redactor.py --prueba"
 echo "  sudo -u $USUARIO env \$(cat $ENV | xargs) python3 $DIR/redaccion/servidor/redactor.py --prueba --edicion en"
 echo "Ver el registro:  journalctl -u newtimes-redactor -n 50   |   journalctl -u newtimes-redactor-en -n 50   |   journalctl -u newtimes-encargos -n 50"

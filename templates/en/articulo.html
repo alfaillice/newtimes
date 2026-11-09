@@ -11,7 +11,10 @@
 <meta property="og:url" content="{{ cfg.url }}{{ a.url }}">
 {% if a.og %}<meta property="og:image" content="{{ cfg.url }}{{ a.og }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">{% endif %}
 <meta property="article:published_time" content="{{ a.fecha_iso }}">
+<meta property="article:modified_time" content="{{ (a.actualizado or a.fecha).isoformat() }}">
 <meta property="article:section" content="{{ a.seccion.nombre }}">
+{% for e in a.etiquetas[:5] %}<meta property="article:tag" content="{{ e }}">
+{% endfor %}
 {% endblock %}
 {% block cabeza %}
 <script type="application/ld+json">
@@ -28,7 +31,10 @@
   "image": ([cfg.url ~ a.foto.src] if a.foto else []) + ([cfg.url ~ a.og] if a.og else []),
   "author": {"@type": "Organization", "name": a.autor, "url": (cfg.url ~ pre ~ "/" ~ ed.rutas.equipo ~ "/" ~ a.agente.slug ~ "/") if a.agente else cfg.url ~ "/en/how-we-work/"},
   "publisher": {"@type": "Organization", "name": "NewTimes.news", "logo": {"@type": "ImageObject", "url": cfg.url ~ "/img/logo.png"}},
-  "isBasedOn": a.fuentes|map(attribute="url")|list
+  "isBasedOn": a.fuentes|map(attribute="url")|list,
+  "keywords": a.etiquetas|join(", "),
+  "wordCount": a.palabras,
+  "isAccessibleForFree": true
 }|tojson }}
 </script>
 <script type="application/ld+json">

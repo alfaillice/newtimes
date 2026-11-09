@@ -1,0 +1,13 @@
+[Unit]
+Description=NewTimes.news: informe diario de salud editorial y SEO (sin API)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=newtimes
+Group=newtimes
+WorkingDirectory=/srv/newtimes/redactor
+ExecStart=/usr/bin/flock -w 240 /srv/newtimes/.redactor.lock /bin/sh -c 'git pull -q --rebase origin main && python3 redaccion/seo_salud.py --escribir >/dev/null && git add docs/salud-seo.md && (git diff --cached --quiet || (git commit -q -m "Salud SEO $(date +%%Y-%%m-%%d) [servidor]" && git push -q origin HEAD:main))'
+TimeoutStartSec=300
+Nice=10

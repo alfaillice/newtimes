@@ -67,27 +67,43 @@ ediciones:
       - slug: espana
         nombre: España
         color: "#1F4E79"
+        titulo_seo: "Noticias de España: política, Gobierno y tribunales"
+        descripcion: "Última hora de la política española: Gobierno, Congreso, partidos, tribunales y comunidades autónomas. Fuentes citadas y actualización constante."
       - slug: internacional
         nombre: Internacional
         color: "#2F5D50"
+        titulo_seo: "Noticias internacionales: última hora del mundo"
+        descripcion: "Actualidad internacional: conflictos, elecciones, Unión Europea, Estados Unidos y Oriente Medio. Fuentes verificadas en cada noticia."
       - slug: economia
         nombre: Economía
         color: "#7A5A12"
+        titulo_seo: "Economía: empleo, precios, empresas y mercados"
+        descripcion: "Noticias de economía en España y Europa: empleo, inflación, tipos de interés, empresas y mercados, con fuentes citadas."
       - slug: sociedad
         nombre: Sociedad
         color: "#5B3A68"
+        titulo_seo: "Sociedad: vivienda, educación, transporte y vida cotidiana"
+        descripcion: "Noticias de sociedad: vivienda, educación, sanidad pública, tráfico, clima y sucesos de interés general, con fuentes citadas."
       - slug: ciencia-salud
         nombre: Ciencia y salud
         color: "#1E5F6E"
+        titulo_seo: "Ciencia y salud: investigación, medicina y medioambiente"
+        descripcion: "Noticias de ciencia y salud: estudios científicos, medicina, medioambiente y espacio, basadas en revistas y organismos oficiales."
       - slug: tecnologia
         nombre: Tecnolog-IA
         color: "#3A3F68"
+        titulo_seo: "Tecnología e inteligencia artificial: últimas noticias"
+        descripcion: "Noticias de tecnología e inteligencia artificial: empresas, regulación, ciberseguridad, móviles y chips, con fuentes citadas."
       - slug: cultura
         nombre: Cultura
         color: "#7A2E3A"
+        titulo_seo: "Cultura: cine, música, arte, literatura y premios"
+        descripcion: "Noticias de cultura: cine, música, arte, literatura, teatro y premios, con fuentes citadas y firma de nuestros agentes."
       - slug: deportes
         nombre: Deportes
         color: "#2E6B3A"
+        titulo_seo: "Deportes: fútbol, tenis, baloncesto y motor"
+        descripcion: "Última hora deportiva: LaLiga, Champions, selección, tenis, baloncesto y motor. Resultados y crónicas con fuentes citadas."
   en:
     activa: true
     idioma: en-GB
@@ -110,27 +126,43 @@ ediciones:
       - slug: spain
         nombre: Spain
         color: "#1F4E79"
+        titulo_seo: "Spain news: politics, government and courts in English"
+        descripcion: "Latest news from Spain in English: government, parliament, courts and regions, with cited sources."
       - slug: world
         nombre: World
         color: "#2F5D50"
+        titulo_seo: "World news: latest international headlines"
+        descripcion: "Latest world news in English: conflicts, elections, the EU, the US and the Middle East, with verified sources."
       - slug: business
         nombre: Business
         color: "#7A5A12"
+        titulo_seo: "Business and economy news from Spain and Europe"
+        descripcion: "Business news in English: jobs, inflation, interest rates, companies and markets in Spain and Europe, with cited sources."
       - slug: society
         nombre: Society
         color: "#5B3A68"
+        titulo_seo: "Society news: housing, education, transport and daily life"
+        descripcion: "Society news from Spain in English: housing, education, public health, transport, weather and general-interest stories."
       - slug: science-health
         nombre: Science & health
         color: "#1E5F6E"
+        titulo_seo: "Science and health news: research, medicine, environment"
+        descripcion: "Science and health news in English: studies, medicine, environment and space, based on journals and official bodies."
       - slug: technology
         nombre: Tech & AI
         color: "#3A3F68"
+        titulo_seo: "Technology and AI news: latest headlines"
+        descripcion: "Technology and artificial intelligence news in English: companies, regulation, cybersecurity, phones and chips."
       - slug: culture
         nombre: Culture
         color: "#7A2E3A"
+        titulo_seo: "Culture news: film, music, art, books and awards"
+        descripcion: "Culture news in English: film, music, art, literature, theatre and awards, with cited sources."
       - slug: sport
         nombre: Sport
         color: "#2E6B3A"
+        titulo_seo: "Sport news: football, tennis, basketball and motor racing"
+        descripcion: "Latest sport news in English: La Liga, Champions League, Spain national team, tennis, basketball and motor racing."
   fr:
     activa: false
     idioma: fr-FR

@@ -50,7 +50,7 @@ Reglas:
 - **Citas literales:** solo declaraciones de protagonistas, cortas (menos de 25 palabras), entre comillas españolas o inglesas, atribuidas a quien las dijo. Como máximo dos por noticia. Nunca inventes ni retoques una cita.
 - **Extensión:** cuerpo de 250 a 600 palabras (mínimo técnico: 120).
 - **Estructura:** primer párrafo con lo esencial (qué, quién, cuándo, dónde); después contexto, reacciones atribuidas y qué pasará ahora. Ladillos (`## Subtítulo`) solo si pasa de 450 palabras.
-- **Titular:** informativo, en presente o pasado, sin clickbait, sin preguntas, sin "esto es lo que", sin mayúsculas innecesarias. Máximo ~110 caracteres, con quién y qué ha pasado en los primeros 70: es lo que se ve en Google y en el móvil.
+- **Titular:** informativo, en presente o pasado, sin clickbait, sin preguntas, sin "esto es lo que", sin mayúsculas innecesarias. **Entre 60 y 90 caracteres** (máximo absoluto 100): Google corta hacia los 60 y la mediana actual, de 100, es demasiado larga. Con quién y qué ha pasado al principio, y nada de subordinadas ni listas de nombres. Mejor «Merz propone a Ilse Aigner para presidir Alemania con el apoyo del SPD» que repetir todo el cuerpo en el titular.
 - **Entradilla:** una o dos frases que añadan información al titular (no lo repitan). Máximo ~250 caracteres.
 - **Estilo:** español de España, norma RAE y recomendaciones de FundéuRAE. Cifras con punto de millar (1.250), decimales con coma (4,9 %). Horas en formato 24 h con referencia («a las 18.00, hora peninsular»).
 - **Neutralidad:** verbos de atribución neutros (dijo, afirmó, explicó). Evita «denunció», «reconoció», «admitió» salvo que sea literal. Da voz a las partes implicadas cuando la fuente la recoja.
