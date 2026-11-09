@@ -1,4 +1,4 @@
-generado: '2026-11-09T22:16:00+01:00'
+generado: '2026-11-09T22:57:00+01:00'
 titulares:
 - seccion: espana
   medio: Europa Press
@@ -20,6 +20,21 @@ titulares:
   titulo: Delcy Rodríguez presenta una querella contra Víctor de Aldama por presuntas injurias con publicidad
   url: https://www.europapress.es/nacional/noticia-delcy-rodriguez-presenta-querella-contra-victor-aldama-presuntas-injurias-publicidad-20261109115939.html
   resumen: La presidenta encargada de Venezuela, Delcy Rodríguez, ha interpuesto una querella contra el empresario Víctor de Aldama por un presunto delito de injurias graves con publicidad, a raíz de las declaraciones que realizó en dos programas de televisión.
+- seccion: espana
+  medio: El País
+  titulo: Canarias reclama al Estado un paquete extraordinario para El Hierro y reuniones semanales para tratar la migración
+  url: https://elpais.com/espana/2026-11-09/canarias-reclama-al-estado-un-paquete-extraordinario-para-el-hierro-y-reuniones-semanales-para-tratar-la-migracion.html
+  resumen: Clavijo insistirá en su reunión con el Gobierno en el despliegue del Frontex y en que se activen los mecanismos de solidaridad del Pacto Europeo de Migración y Asilo
+- seccion: espana
+  medio: El País
+  titulo: Núcleo Nacional reclutaba nuevos miembros a través de un grupo ultra que organizaba “cacerías” humanas
+  url: https://elpais.com/espana/2026-11-09/nucleo-nacional-reclutaba-nuevos-miembros-con-un-grupo-ultra-asturiano-que-organizaba-cacerias-contra-inmigrantes.html
+  resumen: 'La organización asturiana White Boys entrevistaba a los aspirantes a entrar en la asociación extremista: “¿Por qué eres nazi?"'
+- seccion: espana
+  medio: El País
+  titulo: Al menos 35 muertos y decenas de desaparecidos tras el naufragio de un cayuco en Senegal
+  url: https://elpais.com/espana/2026-11-09/al-menos-35-muertos-y-decenas-de-desaparecidos-tras-el-naufragio-de-un-cayuco-en-senegal.html
+  resumen: La mitad de las embarcaciones llegadas a El Hierro entre octubre y noviembre proceden de este país, sumido en una grave crisis política y económica
 - seccion: internacional
   medio: Europa Press
   titulo: Condenado a diez años y medio de prisión por violación y agresión sexual el cómico y actor Russell Brand
@@ -62,9 +77,9 @@ titulares:
   resumen: Los principales sindicatos de Francia han rechazado este lunes la subida del salario mínimo anunciada por el Gobierno al considerar que es insuficiente y han convocado una nueva jornada de huelga para el próximo 17 de noviembre para exigir aumentos mayores.
 - seccion: internacional
   medio: El País
-  titulo: 'La CDU confirma a Ilse Aigner como candidata a la presidencia de Alemania: “Represento la fuerza del centro frente a los populismos”'
-  url: https://elpais.com/internacional/2026-11-09/la-cdu-confirma-a-ilse-aigner-como-candidata-a-la-presidencia-de-alemania-represento-la-fuerza-del-centro-frente-a-los-populismos.html
-  resumen: Los democristianos alemanes presentan a la política bávara para ser la primera mujer jefa de Estado con un mensaje contra los extremismos
+  titulo: Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia
+  url: https://elpais.com/internacional/2026-11-09/alice-huang-la-espia-china-de-pasado-misterioso-que-llego-hasta-el-consejero-delegado-de-nvidia.html
+  resumen: Pekín califica de “calumnias” las informaciones sobre el espionaje de la empresaria y rechaza que actuara a sueldo de sus servicios de inteligencia
 - seccion: internacional
   medio: El País
   titulo: 'El diario ruso ‘Nóvaya Gazeta’ se despide con la promesa de seguir haciendo periodismo: “Encontraremos una nueva oportunidad”'
@@ -72,14 +87,9 @@ titulares:
   resumen: El periódico que simbolizó el regreso de la prensa libre a Rusia echa el cierre asfixiado por el Kremlin. Su exdirector Dmitri Murátov reclama una tregua en la guerra
 - seccion: internacional
   medio: El País
-  titulo: Cómo la xenofobia que marcó a California en 1994 terminó llevando a un hijo de inmigrantes a la gubernatura
-  url: https://elpais.com/us/2026-11-09/como-la-xenofobia-que-marco-a-california-en-1994-termino-llevando-a-un-hijo-de-inmigrantes-a-la-gubernatura.html
-  resumen: En la década de los noventa una nueva generación de dirigentes hispanos, entre ellos Xavier Becerra, gobernador electo de California, surgieron de una iniciativa que entonces buscaba negar servicios públicos a los indocumentados
-- seccion: internacional
-  medio: El País
-  titulo: El ‘boom’ exportador de la inteligencia artificial y el alza de la inversión dan un nuevo impulso a la economía mexicana
-  url: https://elpais.com/mexico/economia/2026-11-09/el-boom-exportador-de-la-inteligencia-artificial-y-el-alza-de-la-inversion-dan-un-nuevo-impulso-a-la-economia-mexicana.html
-  resumen: Las exportaciones de México a Estados Unidos crecieron un 20% en los primeros nueve meses de 2026 y alcanzaron el récord de 481.586 millones de dólares
+  titulo: '“Listos para AOC”: nace el movimiento que empuja a Alexandria Ocasio-Cortez a postularse a la presidencia de Estados Unidos'
+  url: https://elpais.com/us/2026-11-09/listos-para-aoc-nace-el-movimiento-que-empuja-a-alexandria-ocasio-cortez-a-postularse-a-la-presidencia-de-estados-unidos.html
+  resumen: Una red de organizadores de campañas en todo el país pretende movilizar a un millón de personas con la fórmula que hizo triunfar a Mamdani y Obama
 - seccion: economia
   medio: BBC
   titulo: Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy
@@ -117,6 +127,11 @@ titulares:
   resumen: The energy secretary says reducing bills is key to maintaining public support for climate action.
 - seccion: sociedad
   medio: Europa Press
+  titulo: 29N.- Sánchez dice que la llegada de más de 6.600 migrantes a Canarias "es bastante habitual en este momento del año"
+  url: https://www.europapress.es/epsocial/migracion/noticia-29n-sanchez-dice-llegada-mas-6600-migrantes-canarias-bastante-habitual-momento-ano-20261109224243.html
+  resumen: El presidente del Gobierno, Pedro Sánchez, ha señalado que el pico de llegadas de migrantes a las Islas Canarias en los últimos días (más de 6.665 en los primeros nueve días de noviembre) "es bastante habitual en este momento del año por la calma en el Atlántico".
+- seccion: sociedad
+  medio: Europa Press
   titulo: El Gobierno plantea paralizar TikTok ante denuncias por posibles videos de abuso sexual infantil en la plataforma
   url: https://www.europapress.es/epsocial/infancia/noticia-gobierno-plantea-paralizar-tiktok-denuncias-posibles-videos-abuso-sexual-infantil-plataforma-20261109114500.html
   resumen: 'El Ministerio de Juventud e Infancia ha remitido un escrito a la Fiscalía General del Estado para que actúe ante las informaciones publicadas por Maldita.es sobre presuntos casos de abuso sexual infantil en TikTok, y ha planteado la posibilidad de paralizar los servicios de la plataforma en España, '
@@ -144,22 +159,12 @@ titulares:
   medio: Europa Press
   titulo: 'Arquitectos avisan: No solo se necesitan más viviendas sino otro tipo de viviendas'
   url: https://www.europapress.es/epsocial/igualdad/noticia-arquitectos-avisan-no-solo-necesitan-mas-viviendas-otro-tipo-viviendas-20261109123248.html
-  resumen: El Observatorio del Consejo Superior de los Colegios de Arquitectos de España (CSCAE) ha presentado la publicación 'Cuchara. Geranio. Palique. Espacios para nuevas maneras de habitar. Nuevos significados', que aborda el desafío del acceso a la vivienda mediante una resignificación de sus espacios pa
+  resumen: El Observatorio del Consejo Superior de los Colegios de Arquitectos de España (CSCAE) ha presentado la publicación 'Cuchara. Geranio. Palique. Espacios para nuevas maneras de habitar.
 - seccion: sociedad
   medio: Europa Press
   titulo: Los regantes reclaman un Pacto de Estado del Agua y la ejecución de embalses pendientes ante las elecciones del 29N
   url: https://www.europapress.es/sociedad/noticia-regantes-reclaman-pacto-estado-agua-ejecucion-embalses-pendientes-elecciones-29n-20261109114449.html
   resumen: La Federación Nacional de Comunidades de Regantes de España (Fenacore) ha pedido a los partidos políticos que concurren a las elecciones generales del próximo 29 de noviembre que impulsen un Pacto de Estado del Agua, ejecuten las infraestructuras hidráulicas pendientes y continúen con la modernizaci
-- seccion: sociedad
-  medio: Europa Press
-  titulo: La lluvia impide la procesión de la Almudena y Cobo anima a llevar a la Virgen por Madrid "desde el corazón"
-  url: https://www.europapress.es/madrid/noticia-lluvia-impide-procesion-almudena-cobo-anima-llevar-virgen-madrid-corazon-20261109122843.html
-  resumen: La tradicional procesión de la Virgen de la Almudena por las calles de Madrid no se celebrará este lunes debido a la lluvia, según ha anunciado el arzobispo de Madrid, José Cobo, quien ha animado a los fieles a llevar a la patrona de la capital "desde el corazón" por los distintos rincones de la ciu
-- seccion: sociedad
-  medio: El País
-  titulo: El actor Russell Brand, condenado a diez años y seis meses por la violación de una mujer y agresiones sexuales a otras tres
-  url: https://elpais.com/sociedad/2026-11-09/el-actor-russell-brand-condenado-a-diez-anos-y-seis-meses-por-la-violacion-de-una-mujer-y-agresiones-sexuales-a-otras-tres.html
-  resumen: El juez, que ha definido al actor como un “depredador sexual”, ha tenido en cuenta las circunstancias agravantes de humillación a las víctimas
 - seccion: ciencia-salud
   medio: BBC
   titulo: Birds return to waterfowl park after oil vandalism
@@ -175,11 +180,6 @@ titulares:
   titulo: Senior doctors at Glasgow hospital in care delay warning
   url: https://www.bbc.co.uk/news/articles/ckx2d2vv40w6o?at_medium=RSS&at_campaign=rss
   resumen: Consultants at the Queen Elizabeth University Hospital say conditions for emergency patients there are deteriorating.
-- seccion: ciencia-salud
-  medio: BBC
-  titulo: New GP contract deal a 'start' but more funding needed, BMA warns
-  url: https://www.bbc.co.uk/news/articles/cmd7q1w8q0e3o?at_medium=RSS&at_campaign=rss
-  resumen: The Department of Health (DoH) said it will give an additional £40m across two years for "improvements in patient access and primary care activity".
 - seccion: ciencia-salud
   medio: BBC
   titulo: Psychiatric intensive care unit for women to open
@@ -224,7 +224,7 @@ titulares:
   medio: The Guardian
   titulo: 'The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security'
   url: https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security
-  resumen: 'Jensen Huang’s close relationship with president means Nvidia CEO’s affair with woman alleged to be working for Beijing is a big deal A hand on the back, a kiss on the cheek; the footage of Alice Huang’s interaction with Jensen Huang in a Taipei venue last year does not seem particularly remarkable '
+  resumen: Jensen Huang’s close relationship with president means Nvidia CEO’s affair with woman alleged to be working for Beijing is under intense scrutiny A hand on the back, a kiss on the cheek; the footage of Alice Huang’s interaction with Jensen Huang in a Taipei venue last year does not seem particularly
 - seccion: tecnologia
   medio: The Guardian
   titulo: 'Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’'
@@ -245,6 +245,11 @@ titulares:
   titulo: 'Crime pays: how Grand Theft Auto became a cultural colossus'
   url: https://www.theguardian.com/games/2026/nov/09/grand-theft-auto-creators-gta
   resumen: 'Ever since it crashed on to PC and consoles in the late 90s, GTA has been tearing up the game-making rulebook. We explore how its cultural references, rebel spirit and sprawling sense of freedom make it a definitive work of art In the 00s, when the Grand Theft Auto developer Rockstar Games revealed '
+- seccion: cultura
+  medio: El País
+  titulo: 'Aparece en la trastienda de una galería de París un ‘caravaggio’ perdido: “Era de tal calidad que no tuve la más mínima duda”'
+  url: https://elpais.com/cultura/2026-11-09/aparece-en-la-trastienda-de-una-galeria-de-paris-un-caravaggio-perdido.html
+  resumen: La experta que descubrió el ‘Ecce homo’ en Madrid desvela el hallazgo de ‘Joven con jarra de rosas’, obra de los inicios del pintor y conocido hasta ahora solo por copias
 - seccion: cultura
   medio: BBC
   titulo: Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault
@@ -270,11 +275,6 @@ titulares:
   titulo: Ioan Gruffudd in AI warning after fan claimed they had been in year-long affair
   url: https://www.bbc.co.uk/news/articles/cmwyvydp2vz8o?at_medium=RSS&at_campaign=rss
   resumen: The Aberdare actor urged fans not to send money, saying "explicit and disturbing" images are "not me".
-- seccion: cultura
-  medio: BBC
-  titulo: Mariah Carey set to headline 2027 music festival
-  url: https://www.bbc.co.uk/news/articles/c674p4lynjk1o?at_medium=RSS&at_campaign=rss
-  resumen: She is due to perform at Powderham Castle near Exeter in June 2027 with the Sugababes and Eternal.
 - seccion: cultura
   medio: The Guardian
   titulo: A one-part wonder! The West End’s streamlined Harry Potter and the Cursed Child works like magic
@@ -311,6 +311,41 @@ titulares:
   url: https://www.theguardian.com/film/2026/nov/09/a-fox-under-a-pink-moon-review-iran-refugee
   resumen: 'Soraya Akhlaghi filmed her perilous flight from Iran and precarious new life over five years on her phone, reassembled here with yearning animations The world feels like an overwhelmingly forlorn place in this striking refugee self-portrait, shot on smartphone by Soraya Akhlaghi over five years and '
 - seccion: deportes
+  medio: Europa Press
+  titulo: España arranca entre cientos de aficionados y con recuerdo a De Miguel
+  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-espana-arranca-cientos-aficionados-recuerdo-miguel-20261109210440.html
+  resumen: La selección española masculina de fútbol completó este lunes un emotivo entrenamiento a puerta abierta en el campo principal de la Ciudad del Fútbol de Las Rozas (Madrid), donde Luis de la Fuente empezó a preparar el primer encuentro de la 'ventana' de la Liga de Naciones ante Chequia, el jueves en
+- seccion: deportes
+  medio: Europa Press
+  titulo: Pau Cubarsí gana el premio Golden Boy 2026
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-pau-cubarsi-gana-premio-golden-boy-2026-20261109175454.html
+  resumen: El defensa internacional español del FC Barcelona Pau Cubarsí ha sido galardonado este lunes con el premio Golden Boy 2026, reconocimiento que concede anualmente el diario italiano 'Tuttosport' al mejor futbolista menor de 21 años que compite en Europa, tras imponerse en la votación final después de
+- seccion: deportes
+  medio: Europa Press
+  titulo: José Mourinho, entrenador del mes de octubre en LaLiga EA Sports y líder histórico en porcentaje de victorias
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-jose-mourinho-entrenador-mes-octubre-laliga-ea-sports-lider-historico-porcentaje-victorias-20261109161110.html
+  resumen: El entrenador del Real Madrid, José Mourinho, ha sido elegido este lunes 'Mejor Entrenador de LaLiga EA Sports 2026-27 en el mes de octubre, tramo de la temporada en el que los blancos han firmado un mes sobresaliente, ganando todos los encuentros que ha disputado, lo que sumado a las victorias de n
+- seccion: deportes
+  medio: Europa Press
+  titulo: España lidera el Mejor 11 Femenino de FIFPRO con cinco jugadoras y Aitana Bonmatí como la más votada
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-espana-lidera-mejor-11-femenino-fifpro-cinco-jugadoras-aitana-bonmati-mas-votada-20261109151426.html
+  resumen: Alexia Putellas, Irene Paredes, Mapi León y Claudia Pina acompañan a Aitana tras la votación de 6.511 futbolistas
+- seccion: deportes
+  medio: Europa Press
+  titulo: Alavés y Valencia viven su esperado debut en Copa contra Anaitasuna y UE Tavernes
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-alaves-valencia-viven-esperado-debut-copa-contra-anaitasuna-ue-tavernes-20261109193120.html
+  resumen: El Deportivo Alavés y el Valencia CF vivirán este martes su estreno en la Copa del Rey Mapfre con la primera eliminatoria contra Anaitasuna y UE Tavernes, en medio de una mala racha liguera.
+- seccion: deportes
+  medio: Europa Press
+  titulo: El Barça pierde a Kevin Punter seis semanas
+  url: https://www.europapress.es/deportes/baloncesto-00163/noticia-barca-pierde-kevin-punter-seis-semanas-20261109220125.html
+  resumen: El Barça informó este lunes sobre las lesiones de Kevin Punter y Tosan Evbuomwan, con periodos de baja de seis y tres semanas, sufridas este domingo en la séptima jornada de la Liga Endesa.
+- seccion: deportes
+  medio: El País
+  titulo: 'Stephanie Case, la primera corredora de 100 millas en la Antártida: entrenamientos a 54 grados bajo cero y un récord memorable'
+  url: https://elpais.com/deportes/2026-11-09/stephanie-case-la-primera-corredora-de-100-millas-en-la-antartida-entrenamientos-a-54-grados-bajo-cero-y-un-record-memorable.html
+  resumen: La canadiense marca un hito en la Antartic Ice Race en un continente que llegó a considerarse tan hostil para las mujeres que llegaron a quedar vetadas en expediciones científicas
+- seccion: deportes
   medio: BBC Sport
   titulo: Kane and Bellingham air strong views in England World Cup review
   url: https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss
@@ -332,19 +367,14 @@ titulares:
   resumen: Almost every game had a controversial VAR decision in the Premier League this weekend. But how many might go down as errors?
 - seccion: deportes
   medio: BBC Sport
-  titulo: Khawaja 100% accurate on ball-tampering - Warner
-  url: https://www.bbc.co.uk/sport/cricket/articles/c5wyry9gmz4ko?at_medium=RSS&at_campaign=rss
-  resumen: David Warner says he throws his "full support" behind former team-mate Usman Khawaja following his claim that all the Australia players knew about ball-tampering.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Aberdeen sack Robinson after league slump
-  url: https://www.bbc.co.uk/sport/football/articles/cwj34k2z5p00o?at_medium=RSS&at_campaign=rss
-  resumen: Aberdeen sack head coach Stephen Robinson after dropping to second bottom of the Scottish Premiership.
-- seccion: deportes
-  medio: BBC Sport
   titulo: Bronze named in World 11 for record ninth time
   url: https://www.bbc.co.uk/sport/football/articles/cmkgeg2z4dlwo?at_medium=RSS&at_campaign=rss
   resumen: Lucy Bronze is one of five England players named in the Fifpro Women's World 11.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: England wing Feyi-Waboso out of Nations Championship
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cw5yny20m7jzo?at_medium=RSS&at_campaign=rss
+  resumen: England wing Immanuel Feyi-Waboso is ruled out of the rest of the Nations Championship as his injury misfortune continues.
 - seccion: deportes
   medio: BBC Sport
   titulo: How Hawkins overcame illness to star for England
@@ -357,14 +387,14 @@ titulares:
   resumen: Chelsea warn staff to be careful about revealing team news through Fantasy Premier League after Joao Pedro's injury appeared to have been inadvertently disclosed through team selections.
 - seccion: deportes
   medio: BBC Sport
-  titulo: England wing Feyi-Waboso out of Nations Championship
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/cw5yny20m7jzo?at_medium=RSS&at_campaign=rss
-  resumen: England wing Immanuel Feyi-Waboso is ruled out of the rest of the Nations Championship as his injury misfortune continues.
-- seccion: deportes
-  medio: BBC Sport
   titulo: Wimborne to host Bradford in FA Cup second round - see full draw
   url: https://www.bbc.co.uk/sport/football/articles/c6wyrynd848jo?at_medium=RSS&at_campaign=rss
   resumen: Seventh-tier side Wimborne Town will host League One Bradford City in the second round of the FA Cup, while former winners Leicester City will visit National League South side Dover Athletic.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Aberdeen sack Robinson after league slump
+  url: https://www.bbc.co.uk/sport/football/articles/cwj34k2z5p00o?at_medium=RSS&at_campaign=rss
+  resumen: Aberdeen sack head coach Stephen Robinson after dropping to second bottom of the Scottish Premiership.
 - seccion: deportes
   medio: BBC Sport
   titulo: Atletico target Zubimendi move - Tuesday's gossip
@@ -386,10 +416,20 @@ titulares:
   url: https://www.bbc.co.uk/sport/cricket/articles/cw8dzd953nq5o?at_medium=RSS&at_campaign=rss
   resumen: England open the door for Brydon Carse to return to Test cricket for the tour of South Africa by naming him in the Lions squad.
 - seccion: deportes
+  medio: BBC Sport
+  titulo: Alisson wants to sign new Liverpool contract
+  url: https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o?at_medium=RSS&at_campaign=rss
+  resumen: Liverpool goalkeeper Alisson Becker wants to stay at the club beyond the end of the season, when his current contract is set to expire.
+- seccion: deportes
   medio: The Guardian
-  titulo: Manchester United weighing up Michael Carrick sacking as Wilcox leads review
+  titulo: Michael Carrick facing Manchester United axe amid review by Jason Wilcox
   url: https://www.theguardian.com/football/2026/nov/09/manchester-united-michael-carrick-jason-wilcox-review-sacking
-  resumen: Carrick given time after Como and Bournemouth defeats Recommendation will be made to Sir Jim Ratcliffe Manchester United are deciding whether Michael Carrick should be sacked, with Jason Wilcox, the director of football, leading the review after the head coach was given the Chelsea, Roma and Aston V
+  resumen: Director of football in discussions with Omar Berrada Recommendation will be made to Sir Jim Ratcliffe Manchester United are moving towards sacking Michael Carrick, though no final decision has been made by Jason Wilcox, the director of football, who is leading the review after the head coach was gi
+- seccion: deportes
+  medio: The Guardian
+  titulo: Manchester’s soulless content machine football clubs sum up post-imperial Britain | Barney Ronay
+  url: https://www.theguardian.com/football/2026/nov/09/manchester-united-city-soulless-content-machines-premier-league
+  resumen: United and City dominate the news cycle with stories so strange and vast they threaten to consume the rest of the league In Manchester this weekend it was possible to bookend your Thursday‑to‑Sunday entertainment with two cultural events. First up, a debut screening of the re‑released and uncensored
 - seccion: deportes
   medio: The Guardian
   titulo: Manchester City’s weaknesses under Enzo Maresca are being exposed
@@ -402,6 +442,11 @@ titulares:
   resumen: Arsenal defender was jeered during draw with Uruguay ‘Everyone can do whatever they want,’ says White Ben White has said he has no complaints at being booed by England fans when he ended his international exile during the 1-1 draw with ­Uruguay this year. The Arsenal defender, who has returned to Th
 - seccion: deportes
   medio: The Guardian
+  titulo: 'That’s a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life'
+  url: https://www.theguardian.com/football/2026/nov/09/rodrigo-mora-roma-lazio-rome-serie-a
+  resumen: Roma and Lazio have both made unbeaten starts to the Serie A season, giving those in the Italian capital dreams of a Scudetto After nine games in 28 days, Gian Piero Gasperini finally got a moment to pause and reflect on Sunday night. The Roma manager was back in Liguria, where he worked for the bes
+- seccion: deportes
+  medio: The Guardian
   titulo: Felix Nmecha’s faith is forcing Borussia Dortmund into an uncomfortable debate
   url: https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga
   resumen: Midfielder’s spectacular strikes rescued a frustrating day, only for celebrations to reignite dialogue that has followed him through his career It was just what they needed at just the right time. For a tricky first half and beyond, Elversberg had been a stone in Borussia Dortmund’s shoe, the promot
@@ -410,16 +455,6 @@ titulares:
   titulo: 'Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’'
   url: https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife
   resumen: 'Across La Liga and beyond this weekend, footballers took to the field knowing it could have been them In the final few minutes before stepping into the arena once more, heading out for his 199th Osasuna match on Saturday evening, the man who has scored more first division goals than anyone in their '
-- seccion: deportes
-  medio: The Guardian
-  titulo: 'That’s a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life'
-  url: https://www.theguardian.com/football/2026/nov/09/rodrigo-mora-roma-lazio-rome-serie-a
-  resumen: Roma and Lazio have both made unbeaten starts to the Serie A season, giving those in the Italian capital dreams of a Scudetto After nine games in 28 days, Gian Piero Gasperini finally got a moment to pause and reflect on Sunday night. The Roma manager was back in Liguria, where he worked for the bes
-- seccion: deportes
-  medio: The Guardian
-  titulo: Lens were humiliated by Como. The pain continued against Marseille
-  url: https://www.theguardian.com/football/2026/nov/09/lens-como-marseille-pierre-sage-coupe-de-france-ligue-1
-  resumen: Pierre Sage led Lens to second and glory in the Coupe de France last season. A lot has changed in the last six months The Lens striker, Florian Sotoca, was completely motionless as he looked into the middle space from the bench. The game, finely poised at 2-1 with a few minutes remaining, was not be
 - seccion: deportes
   medio: The Guardian
   titulo: 'WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?'
@@ -437,26 +472,11 @@ titulares:
   resumen: Sign up now! Sign up now! Sign up now? Sign up now! Precisely 13,266 games have been played since the inception of the Premier League, and 19 of those matches have finished 4-4 (0.1%), a rarity in a division dominated by the mighty 1-0 (17.6%). It was about time we got one, though. The months of Aug
 - seccion: general
   medio: Europa Press
-  titulo: Sánchez reivindica las conquistas laborales y sociales y advierte de que "se pueden perder en un instante"
-  url: https://www.europapress.es/economia/laboral-00346/noticia-sanchez-reivindica-conquistas-laborales-sociales-advierte-pueden-perder-instante-20261109104349.html
-  resumen: El secretario general del PSOE y presidente del Gobierno, Pedro Sánchez, ha reivindicado los avances laborales y sociales logradas a lo largo de la historia en España y ha advertido de que "lo que costó un siglo conquistar se puede perder en un instante", al tiempo que ha cargado contra PP y Vox por
-- seccion: general
-  medio: Europa Press
-  titulo: 'Feijóo niega haber ofrecido dinero a Koldo: "En nombre del PP no se ha ofrecido un euro a nadie"'
-  url: https://www.europapress.es/nacional/noticia-feijoo-niega-haber-ofrecido-dinero-koldo-nombre-pp-no-ofrecido-euro-nadie-20261109143058.html
-  resumen: El presidente del PP, Alberto Núñez Feijóo, ha afirmado que el partido "jamás" ofreció nada al exasesor ministerial Koldo García, que, según las informaciones publicadas, asegura haber pactado con el hasta ahora abogado del PP el pago de sus defensas y de un millón de euros a cambio de información p
-- seccion: general
-  medio: Europa Press
   titulo: Los Reyes asisten este martes al funeral de la Catedral de Toledo que estará presidido por el Cristo de Urda
   url: https://www.europapress.es/castilla-lamancha/noticia-reyes-asisten-martes-funeral-catedral-toledo-estara-presidido-cristo-urda-20261109190138.html
   resumen: La Catedral de Toledo acogerá este martes, 10 de noviembre, a las 19.00 horas la misa funeral en memoria de las 69 víctimas del accidente ferroviario ocurrido el 28 de octubre en la localidad toledana de Urda, al que asistirán los Reyes Felipe VI y Letizia.
 - seccion: general
   medio: Europa Press
-  titulo: Sindicatos de inquilinas piden reformar la Constitución para garantizar el derecho a la vivienda
-  url: https://www.europapress.es/economia/construccion-y-vivienda-00342/noticia-sindicatos-inquilinas-piden-reformar-constitucion-garantizar-derecho-vivienda-20261109182137.html
-  resumen: La Confederación de Sindicatos de Inquilinas (CSI) ha presentado este lunes 'Casas para vivir', un programa de reforma integral del modelo de vivienda que plantea, entre otras medidas, modificar el marco constitucional para que el derecho a la vivienda prevalezca sobre la libertad de empresa en caso
-- seccion: general
-  medio: Europa Press
-  titulo: 29N- Emilio Delgado reconoce que su formación no logró los avances deseados en vivienda por el "ritmo caribeño" del PSOE
-  url: https://www.europapress.es/castilla-y-leon/noticia-29n-emilio-delgado-reconoce-formacion-no-logro-avances-deseados-vivienda-ritmo-caribeno-psoe-20261109161512.html
-  resumen: El candidato de Frente Amplio por Madrid Emilio Delgado ha reconocido que la vivienda fue una de las materias en las que su partido no ha logrado los avances deseados durante el gobierno de coalición y se ha referido al "ritmo caribeño" de su socio del gobierno, el PSOE, en esta materia de vivienda.
+  titulo: La FIFA visita el Camp Nou como parte del camino al Mundial 2030
+  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-fifa-visita-camp-nou-parte-camino-mundial-2030-20261109224258.html
+  resumen: La delegación de la FIFA encargada del seguimiento del Mundial 2030 que organizará España junto a Portugal y a Marruecos visitó este lunes el Spotify Camp Nou junto al equipo de la Real Federación Española de Fútbol (RFEF).
