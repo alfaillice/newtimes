@@ -1,5 +1,10 @@
-generado: '2026-11-10T11:50:00+01:00'
+generado: '2026-11-10T14:50:00+01:00'
 titulares:
+- seccion: espana
+  medio: Europa Press
+  titulo: Feijóo reunirá el ingreso mínimo vital y subsidios en una "renta de activación" vinculada a la búsqueda de empleo
+  url: https://www.europapress.es/nacional/noticia-feijoo-reunira-ingreso-minimo-vital-subsidios-renta-activacion-vinculada-busqueda-empleo-20261110143401.html
+  resumen: El líder del PP y candidato a la Presidencia del Gobierno, Alberto Núñez Feijóo, ha anunciado este martes que si llega al Palacio de la Moncloa reunirá el ingreso mínimo vital y los diferentes subsidios en una "renta de activación" vinculada a la búsqueda de empleo. Además, ha avisado que rechazar e
 - seccion: espana
   medio: Europa Press
   titulo: Tellado denuncia la "huelga electoral" de los sindicatos contra el PP, "el verdadero partido de los currantes"
@@ -7,59 +12,44 @@ titulares:
   resumen: El secretario general del PP, Miguel Tellado, ha denunciado la "huelga electoral" y "preventiva" que han convocado los sindicatos este 11 de noviembre contra el Partido Popular, al que ha definido como "el verdadero partido de los currantes".
 - seccion: espana
   medio: Europa Press
+  titulo: El Gobierno celebrará cuatro reuniones del Consejo de Ministros antes del 29N para aprobar medidas sociales
+  url: https://www.europapress.es/nacional/noticia-gobierno-celebrara-cuatro-reuniones-consejo-ministros-antes-29n-aprobar-medidas-sociales-20261110124228.html
+  resumen: El ministro de la Presidencia, Justicia y Relaciones con las Cortes, Félix Bolaños, ha avanzado que el Gobierno celebrará cuatro reuniones del Consejo de Ministros antes del 29N, de las cuales dos serán en sesión extraordinaria, para aprobar medidas sociales que "mejoren y refuercen" el Estado de bi
+- seccion: espana
+  medio: Europa Press
+  titulo: 'Última hora de la actualidad política en España, en directo: elecciones generales del 29N y huelga general'
+  url: https://www.europapress.es/nacional/noticia-ultima-hora-actualidad-politica-espana-directo-elecciones-generales-29n-huelga-general-20261110082835.html
+  resumen: El presidente del Gobierno, Pedro Sánchez, ha criticado la actuación del presidente de Vox y candidato a la Presidencia del Ejecutivo, Santiago Abascal, durante la entrevista en 'La Revuelta' de David Broncano. "Amenazar sonriendo no es hacer humor, es degradar nuestra democracia", ha afirmado.
+- seccion: espana
+  medio: Europa Press
+  titulo: 'Vox replica a Sánchez que Abascal no amenazó a Broncano: "Santiago sabe lo que es una amenaza, las recibió durante años"'
+  url: https://www.europapress.es/nacional/noticia-vox-replica-sanchez-abascal-no-amenazo-broncano-santiago-sabe-amenaza-recibio-anos-20261110141452.html
+  resumen: Vox ha contestado este martes al presidente, Pedro Sánchez, que el líder del partido, Santiago Abascal, no amenazó a David Broncano al término de su entrevista en 'La Revuelta', y ha recordado que la banda terrorista ETA "amenazaba y asesinaba periodistas" y el jefe del Ejecutivo "gobierna con sus v
+- seccion: espana
+  medio: Europa Press
   titulo: Abascal cree que Broncano "lo pasó mal" en su entrevista en 'La Revuelta' por la presión de la izquierda
   url: https://www.europapress.es/nacional/noticia-abascal-cree-broncano-paso-mal-entrevista-revuelta-presion-inaceptable-izquierda-20261110095928.html
   resumen: Figaredo dice que La Revuelta cortó 40 minutos de entrevista en los que el presidente de Vox hablaba de Sanidad y de turismo sanitario
 - seccion: espana
   medio: Europa Press
-  titulo: Sánchez avanza que habrá Consejos de Ministros extraordinarios para aprobar medidas sociales antes de las generales
-  url: https://www.europapress.es/nacional/noticia-sanchez-avanza-habra-consejos-ministros-extraordinarios-aprobar-medidas-sociales-antes-generales-20261110001609.html
-  resumen: El presidente del Gobierno, Pedro Sánchez, ha adelantado que antes de que se celebren las elecciones del 29 de noviembre habrá algún Consejo de Ministros con carácter extrordinario para aprobar medidas sociales.
+  titulo: PNV cree "terrible" que TVE "diera espacio" a Abascal, al que "se le está poniendo cara de vicepresidente"
+  url: https://www.europapress.es/euskadi/noticia-pnv-cree-terrible-tve-diera-espacio-abascal-le-poniendo-cara-vicepresidente-20261110091733.html
+  resumen: Díez Antxustegi llama a los vascos a votar porque Vox "viene a cargarse el autogobierno y el sistema de bienestar", y el PNV los protegerá
 - seccion: espana
   medio: Europa Press
-  titulo: Sánchez asegura que Puente no le consultó su dimisión, pero la considera un "acierto"
-  url: https://www.europapress.es/nacional/noticia-sanchez-asegura-puente-no-le-consulto-dimision-considera-acierto-20261110000414.html
-  resumen: El presidente del Gobierno, Pedro Sánchez, ha asegurado este lunes que el exministro de Transportes Óscar Puente no le consultó su dimisión pero considera un "acierto" el momento que eligió para llevarla a cabo, después de haber dado explicaciones ante los medios y en la Cortes.
+  titulo: Colau dice que, a diferencia de Abascal, irá a 'La Revuelta' sin elegir al público y defiende una TVE "sin censura"
+  url: https://www.europapress.es/nacional/noticia-colau-dice-diferencia-abascal-ira-revuelta-elegir-publico-defiende-tve-censura-20261110132434.html
+  resumen: La candidata de Frente Amplio, Ada Colau, ha afirmado que acudirá a la entrevista en el programa 'La Revuelta' de TVE sin elegir al público, a diferencia del líder del Vox Santiago Abascal, y ha defendido una televisión pública "crítica, sin censura y sin fascismo".
 - seccion: espana
   medio: Europa Press
-  titulo: 'Última hora de la actualidad política en España, en directo: elecciones generales del 29N y huelga general'
-  url: https://www.europapress.es/nacional/noticia-ultima-hora-actualidad-politica-espana-directo-elecciones-generales-29n-huelga-general-20261110082835.html
-  resumen: El Consejo de Ministros ha aprobado este martes un Real Decreto-ley de medidas urgentes para el refuerzo de la seguridad operacional en el transporte ferroviario y la protección social de los profesionales del sector, según ha anunciado el Gobierno. Entre otros aspectos, deja en manos de los maquini
+  titulo: Podemos critica que se lleve a Abascal a 'La Revuelta' para alimentar "el monstruo" buscando que el PSOE crezca en votos
+  url: https://www.europapress.es/nacional/noticia-podemos-critica-lleve-abascal-revuelta-alimentar-monstruo-buscando-psoe-crezca-votos-20261110141058.html
+  resumen: Irene Montero afirma que no se puede responsabilizar a David Broncano del desenlace de esta entrevista "aunque no lo hiciera bien"
 - seccion: espana
   medio: Europa Press
   titulo: Un policía nacional fallecido y otro herido grave por la explosión de un artefacto en Oviedo
   url: https://www.europapress.es/asturias/noticia-policia-fallecido-otro-herido-grave-incidente-barrio-otero-20261110094857.html
   resumen: Un policía nacional, subinspector de Guías Caninos ha fallecido y otro agente perteneciente a los TEDAX ha resultado herido de gravedad y ha sufrido la amputación de una pierna, tras la explosión de un artefacto en el barrio de Otero, en Oviedo.
-- seccion: espana
-  medio: Europa Press
-  titulo: 'Feijóo lamenta la muerte de un policía este martes tras explotar un artefacto en Oviedo: "Es desolador"'
-  url: https://www.europapress.es/nacional/noticia-feijoo-lamenta-muerte-policia-martes-explotar-artefacto-oviedo-desolador-20261110105116.html
-  resumen: El presidente del PP, Alberto Núñez Feijóo, ha lamentado este martes el suceso ocurrido en el barrio de Otero, en Oviedo, tras explotar un artefacto que ha dejado a un policía subsinspector de Guías Caninos fallecido y otro agente perteneciente a los TEDAX herido grave tras sufrir la amputación de u
-- seccion: espana
-  medio: Europa Press
-  titulo: 'Fiscalía apoya la extradición del multimillonario propalestino Fergie Chambers a EEUU: ve probado que benefició a Hamás'
-  url: https://www.europapress.es/nacional/noticia-fiscalia-apoya-extradicion-multimillonario-propalestino-fergie-chambers-eeuu-ve-probado-beneficio-hamas-20261110110036.html
-  resumen: La Fiscalía de la Audiencia Nacional (AN) apoya la extradición del filántropo propalestino estadounidense Fergie Chambers a Estados Unidos, como reclama el país norteamericano, al ver probado que habría llevado a cabo transferencias de dinero con el objetivo de "promover actividades ilícitas" y "vio
-- seccion: espana
-  medio: Europa Press
-  titulo: Exdirigentes del Granada CF niegan haberse lucrado y defraudado a Hacienda con fichajes de futbolistas
-  url: https://www.europapress.es/nacional/noticia-exdirigentes-granada-cf-niegan-haberse-lucrado-defraudado-hacienda-fichajes-futbolistas-20261110113533.html
-  resumen: El expresidente del Granada Club de Fútbol Enrique Pina, su expropietario Gino Pozzo y otros tres acusados han negado las acusaciones en la primera jornada del juicio en su contra por presuntamente tomar el "control" del club nazarí para lucrarse con el traspaso de jugadores.
-- seccion: espana
-  medio: Europa Press
-  titulo: 'Urtasun admite que la huelga general es "política" por la vivienda: "Los ciudadanos juzgarán quién pone palos a la rueda'
-  url: https://www.europapress.es/nacional/noticia-urtasun-admite-huelga-general-politica-vivienda-ciudadanos-juzgaran-quien-pone-palos-rueda-20261110092454.html
-  resumen: El ministro de Cultura y número 2 de Frente Amplio por Barcelona, Ernest Urtasun, ha admitido que la huelga general convocada para este 11 de noviembre es de carácter "político" sobre un gran "problema social" como es la vivienda, señalando que serán los ciudadanos los que juzguen qué partido políti
-- seccion: espana
-  medio: El País
-  titulo: Defensa liquida el año con la firma de los contratos de 15 nuevos programas de armamento para cumplir con la OTAN
-  url: https://elpais.com/espana/2026-11-10/defensa-liquida-el-ano-con-la-firma-de-los-contratos-de-15-nuevos-programas-de-armamento-para-cumplir-con-la-otan.html
-  resumen: La compra de sistemas antidrones, misiles o corbetas permitirá repetir el 2% del PIB en gasto militar en 2026
-- seccion: internacional
-  medio: Europa Press
-  titulo: Trump afirma que el FBI investiga el caso de la supuesta espía para China y amante del consejero delegado de Nvidia
-  url: https://www.europapress.es/internacional/noticia-trump-afirma-fbi-investiga-caso-supuesta-espia-china-amante-consejero-delegado-nvidia-20261110013946.html
-  resumen: 'El presidente de Estados Unidos, Donald Trump, ha afirmado este lunes que la Oficina Federal de Investigación (FBI, por sus siglas en inglés) está llevando a cabo una investigación en torno al caso del consejero delegado y fundador de la empresa tecnológica Nvidia, Jensen Huang, tras su admisión de '
 - seccion: internacional
   medio: Europa Press
   titulo: Arrancan en Abu Dabi las primeras conversaciones trilaterales entre Ucrania, Rusia y EEUU desde febrero
@@ -72,34 +62,49 @@ titulares:
   resumen: La Unión Europea, Estados Unidos, Ucrania y la OTAN, junto a representantes de Francia, Alemania, Italia y Reino Unido, han defendido este martes que la OTAN debe seguir siendo el eje de la defensa colectiva euroatlántica una vez concluya la guerra en Ucrania, y han abogado por establecer mecanismos
 - seccion: internacional
   medio: Europa Press
+  titulo: Ucrania trabaja en "alternativas" para garantizar la electricidad en Kiev tras los nuevos ataques rusos
+  url: https://www.europapress.es/internacional/noticia-ucrania-trabaja-alternativas-garantizar-electricidad-kiev-nuevos-ataques-rusos-20261110125146.html
+  resumen: El presidente de Ucrania, Volodimir Zelenski, ha informado este martes de que las autoridades trabajan en "alternativas" para garantizar el suministro eléctrico en Kiev y en otras regiones, después de que durante la pasada noche el Ejército ruso bombardeara cinco grandes estaciones encargadas de lle
+- seccion: internacional
+  medio: Europa Press
   titulo: Mueren dos personas en un ataque con drones de Rusia contra Vínnitsa, en el centro de Ucrania
   url: https://www.europapress.es/internacional/noticia-mueren-dos-personas-ataque-drones-rusia-contra-vinnitsa-centro-ucrania-20261110103559.html
   resumen: Al menos dos personas han muerto este martes a causa de un ataque lanzado por el Ejército de Rusia contra la localidad ucraniana de Ladizhin, situada en la provincia de Vínnitsa (centro), según han denunciado las autoridades locales, en el marco de la invasión desatada por Moscú en febrero de 2022.
 - seccion: internacional
   medio: Europa Press
-  titulo: La ciudad de Lugansk, anexionada por Rusia, sufre un apagón debido a un ataque con drones ucranianos
-  url: https://www.europapress.es/internacional/noticia-ciudad-lugansk-anexionada-rusia-sufre-apagon-debido-ataque-drones-ucranianos-20261110071202.html
-  resumen: Un ataque con drones perpetrado por las Fuerzas Armadas de Ucrania contra la red eléctrica de la autoproclamada República Popular de Lugansk, anexionada por Rusia, ha provocado un apagón masivo en la capital homónima y en varios municipios colindantes, según han denunciado este martes las autoridade
+  titulo: EEUU adopta medidas para la seguridad de sus tropas en Europa y evita pronunciarse sobre rotaciones en Reino Unido
+  url: https://www.europapress.es/internacional/noticia-eeuu-adopta-medidas-seguridad-tropas-europa-evita-pronunciarse-rotaciones-reino-unido-20261110123952.html
+  resumen: El EUCOM apunta a movimientos de aviones "por diversos motivos" tras las informaciones sobre la salida de diez aparatos de reabastecimiento de una base británica
 - seccion: internacional
   medio: Europa Press
-  titulo: Hegseth resta importancia al 'impeachment' en su contra y Massie prevé su destitución antes de fin de año
-  url: https://www.europapress.es/internacional/noticia-hegseth-resta-importancia-impeachment-contra-massie-preve-destitucion-antes-fin-ano-20261110052710.html
-  resumen: Trump sale en defensa de su secretario de Defensa, al que considera "el oficial más exitoso del país", tras la moción presentada por el republicano disidente
+  titulo: El bloque opositor a Netanyahu nomina a un exministro aliado de Eisenkot para presidir la Knesset
+  url: https://www.europapress.es/internacional/noticia-bloque-opositor-netanyahu-nomina-exministro-aliado-eisenkot-presidir-knesset-20261110125304.html
+  resumen: El bloque opositor al primer ministro en funciones de Israel, Benjamin Netanyahu, ha llegado a un acuerdo este martes para nominar al exministro Matan Kahana del partido Yashar, de Gadi Eisenkot, como próximo presidente de la Knesset, el Parlamento israelí.
 - seccion: internacional
   medio: Europa Press
-  titulo: Un grupo de progresistas lanza una campaña en EEUU para impulsar la candidatura de Ocasio-Cortez a la Casa Blanca
-  url: https://www.europapress.es/internacional/noticia-grupo-progresistas-lanza-campana-eeuu-impulsar-candidatura-ocasio-cortez-casa-blanca-20261110083402.html
-  resumen: Un grupo del ala progresista del Partido Demócrata ha lanzado una campaña en Estados Unidos para impulsar la candidatura de la congresista Alexandria Ocasio-Cortez a las elecciones presidenciales de 2028, en las que aspiraría a suceder al actual inquilino de la Casa Blanca, el republicano Donald Tru
+  titulo: El Likud de Netanyahu anuncia que Saar compaginará las carteras de Exteriores e Interior en Israel
+  url: https://www.europapress.es/internacional/noticia-likud-netanyahu-anuncia-saar-compaginara-carteras-exteriores-interior-israel-20261110120803.html
+  resumen: El partido del primer ministro de Israel, Benjamin Netanyahu, el Likud, ha anunciado este martes que el ministro de Exteriores, Gideon Saar, será también titular de la cartera del Interior, después de que el jefe de Gobierno haya estado al frente de la misma desde la dimisión de Moshe Arbel en julio
 - seccion: internacional
   medio: Europa Press
-  titulo: El presidente de la UFC, Dana White, rechaza ser portavoz de la Casa Blanca
-  url: https://www.europapress.es/internacional/noticia-eeuu-presidente-ufc-dana-white-rechaza-ser-portavoz-casa-blanca-20261110034842.html
-  resumen: El consejero delegado de la empresa de espectáculos de artes marciales mixtas UFC, Dana White, ha rechazado este lunes convertirse en secretario de prensa de la Casa Blanca, después de que el presidente de Estados Unidos, Donald Trump, anunciara esta oferta el pasado sábado.
+  titulo: La Guardia Revolucionaria de Irán informa de explosiones en dos petroleros en el paso de Ormuz
+  url: https://www.europapress.es/internacional/noticia-guardia-revolucionaria-iran-informa-explosiones-dos-petroleros-paso-ormuz-20261110140356.html
+  resumen: La Guardia Revolucionaria de Irán ha informado este martes de que dos petroleros en el paso de Ormuz han sufrido explosiones mientras trataban de cruzar el estratégico estrecho sin la autorización de Teherán, en medio de los continuos ataques en esta región.
 - seccion: internacional
   medio: Europa Press
-  titulo: Muere un adolescente palestino tiroteado por el Ejército de Israel en una operación en Cisjordania
-  url: https://www.europapress.es/internacional/noticia-muere-adolescente-palestino-tiroteado-ejercito-israel-operacion-cisjordania-20261110101539.html
-  resumen: Un adolescente palestino de catorce años ha muerto tras ser tiroteado por el Ejército de Israel durante una nueva operación lanzada en la ciudad cisjordana de Burqa, situada en los alrededores de Nablús (norte), según han denunciado las autoridades palestinas, tras lo que las Fuerzas de Defensa de I
+  titulo: Mueren tres palestinos en nuevos ataques de Israel contra Gaza pese al acuerdo de alto el fuego
+  url: https://www.europapress.es/internacional/noticia-mueren-tres-palestinos-nuevos-ataques-israel-contra-gaza-pese-acuerdo-alto-fuego-20261110124922.html
+  resumen: 'Al menos tres palestinos han muerto este martes a causa de nuevos ataques lanzados por el Ejército de Israel contra la Franja de Gaza a pesar del acuerdo de alto el fuego alcanzado en octubre de 2025 con el Movimiento de Resistencia Islámica (Hamás) al hilo de la propuesta de Estados Unidos para el '
+- seccion: economia
+  medio: BBC
+  titulo: Anthropic heads for $1.3 trillion valuation in major stock market listing
+  url: https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss
+  resumen: The AI company behind the Claude chatbot will offer its shares at between $70 and $78.
+- seccion: economia
+  medio: BBC
+  titulo: Sales of tinned food and bottled water jump after 'Be Ready' campaign launch
+  url: https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss
+  resumen: Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.
 - seccion: economia
   medio: BBC
   titulo: Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
@@ -107,24 +112,14 @@ titulares:
   resumen: The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.
 - seccion: economia
   medio: BBC
-  titulo: 'Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security'
-  url: https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss
-  resumen: Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.
-- seccion: economia
-  medio: BBC
   titulo: Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash
   url: https://www.bbc.co.uk/news/articles/cqp8g8p53x6ko?at_medium=RSS&at_campaign=rss
   resumen: The contents of the calendar, including hair clips and keychains, have been widely criticised on social media.
 - seccion: economia
   medio: BBC
-  titulo: I took Vinted to court to get my money back
-  url: https://www.bbc.co.uk/news/articles/cm369e3l15lwo?at_medium=RSS&at_campaign=rss
-  resumen: The BBC hears from Vinted sellers who describe difficulties accessing money held in their online wallets.
-- seccion: economia
-  medio: BBC
-  titulo: The superpower battle over energy – and what it means for your bills
-  url: https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss
-  resumen: A tug-of-war between China and the US could have a big impact on energy costs, but who will win?
+  titulo: 'Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security'
+  url: https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss
+  resumen: Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.
 - seccion: economia
   medio: BBC
   titulo: Californians reject wealth tax for billionaires
@@ -137,14 +132,19 @@ titulares:
   resumen: AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.
 - seccion: economia
   medio: BBC
+  titulo: Civil servant who secretly held five jobs found guilty of fraud
+  url: https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss
+  resumen: Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.
+- seccion: economia
+  medio: BBC
   titulo: Qantas to outsource 850 local jobs with most roles moving to India
   url: https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss
   resumen: The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.
 - seccion: economia
   medio: BBC
-  titulo: What we know so far about Jensen Huang's affair with suspected Chinese spy
-  url: https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss
-  resumen: The billionaire tech executive finds himself mired in a personal and national security scandal.
+  titulo: New regulation for heating oil market, but no price controls
+  url: https://www.bbc.co.uk/news/articles/cv70p0d3d686o?at_medium=RSS&at_campaign=rss
+  resumen: The Competition and Markets Authority has investigated the heating oil market in Northern Ireland and other parts of the UK.
 - seccion: economia
   medio: BBC
   titulo: Thousands of 'off-grid' homes eligible for £250 to help with heating bills
@@ -165,16 +165,16 @@ titulares:
   titulo: Final chapter for bookshop after rise in bills
   url: https://www.bbc.co.uk/news/articles/crx2dd92ne9yo?at_medium=RSS&at_campaign=rss
   resumen: The Chicken and Frog in Brentwood says business rates and electricity bills have risen dramatically.
-- seccion: economia
-  medio: BBC
-  titulo: New chief outlines main issues facing Isle of Man
-  url: https://www.bbc.co.uk/news/articles/cw0737zmv799o?at_medium=RSS&at_campaign=rss
-  resumen: The chief minister says connectivity and food storage were among his top government priorities.
 - seccion: sociedad
   medio: Europa Press
-  titulo: El Gobierno aprueba un decreto ley que equipara las familias monoparentales con dos hijos a las numerosas
+  titulo: El Ejecutivo aprueba un decreto ley que equipara las familias monoparentales con dos hijos a las numerosas
   url: https://www.europapress.es/epsocial/igualdad/noticia-gobierno-aprueba-decreto-ley-equipara-familias-monoparentales-dos-hijos-numerosas-20261110094517.html
   resumen: El Consejo de Ministros ha aprobado en la reunión de este martes un real decreto ley para ampliar la protección de familias monomarentales, las numerosas con pocos recursos y las de personas con una persona progenitoria con discapacidad y más de un hijo.
+- seccion: sociedad
+  medio: Europa Press
+  titulo: El Gobierno aprueba un real decreto-ley para asegurar 7.240 millones al sistema de la dependencia en 2027
+  url: https://www.europapress.es/epsocial/igualdad/noticia-gobierno-aprueba-real-decreto-ley-asegurar-7240-millones-sistema-dependencia-2027-20261110134331.html
+  resumen: El Gobierno ha aprobado este martes en Consejo de Ministros un real decreto-ley impulsado por el Ministerio de Derechos Sociales para consolidar el despliegue de la reforma del Sistema para la Autonomía y Atención a la Dependencia con la que garantiza el crédito necesario para que la inversión estat
 - seccion: sociedad
   medio: Europa Press
   titulo: La Academia de Televisión confirma su disposición para que se puedan celebrar los debates electorales
@@ -182,39 +182,39 @@ titulares:
   resumen: La Academia de Televisión y de las Ciencias y las Artes del Audiovisual ha confirmado su disposición para ofrecer a los ciudadanos el debate o debates electorales televisados que "consensuadamente se estimen oportunos" de cara a la convocatoria electoral del próximo 29 de noviembre,
 - seccion: sociedad
   medio: Europa Press
+  titulo: López (RTVE) admite que la entrevista a Abascal en 'La Revuelta' "invita a la reflexión" y muestra su apoyo a Broncano
+  url: https://www.europapress.es/sociedad/noticia-lopez-rtve-admite-entrevista-abascal-revuelta-invita-reflexion-muestra-apoyo-broncano-20261110130319.html
+  resumen: El presidente de RTVE, José Pablo López, ha trasladado este martes "todo" su apoyo a David Broncano y al equipo de 'La Revuelta' tras las críticas recibidas por la entrevista al presidente de Vox y candidato a la presidencia del Gobierno, Santiago Abascal, en el programa de La 1.
+- seccion: sociedad
+  medio: Europa Press
+  titulo: 'Consejo de Informativos de TVE tras el paso de Abascal por ''La Revuelta'': "Alguien debería asumir las responsabilidades"'
+  url: https://www.europapress.es/sociedad/noticia-consejo-informativos-tve-paso-abascal-revuelta-alguien-deberia-asumir-responsabilidades-20261110135649.html
+  resumen: El Consejo de Informativos de TVE considera que "alguien debería asumir las responsabilidades" tras la entrevista de este lunes al presidente de Vox y candidato a la Presidencia del Gobierno, Santiago Abascal, en 'La Revuelta' de David Broncano.
+- seccion: sociedad
+  medio: Europa Press
+  titulo: El Gobierno declara la emergencia Migratoria en Canarias y destina 15,18 millones para plazas y traslados entre islas
+  url: https://www.europapress.es/epsocial/migracion/noticia-gobierno-declara-emergencia-migratoria-canarias-destina-1518-millones-plazas-traslados-islas-20261110130336.html
+  resumen: El Gobierno ha declarado la emergencia Migratoria en Canarias y ha destinado 15,18 millones de euros para la habilitación de más plazas en centros de titularidad estatal y a los traslados entre islas.
+- seccion: sociedad
+  medio: Europa Press
+  titulo: 15.671 migrantes han retornado de Ceuta a Marruecos y en 452 las devoluciones, según Migracioness
+  url: https://www.europapress.es/epsocial/migracion/noticia-gobierno-cifra-15671-migrantes-retornado-ceuta-marruecos-452-devoluciones-20261110134308.html
+  resumen: La portavoz del Gobierno y ministra de Inclusión, Seguridad Social y Migraciones, Elma Saiz, ha cifrado en 15.671 los migrantes que han retornado de Ceuta a Marruecos tras la entrada masiva de julio y en 452 las devoluciones.
+- seccion: sociedad
+  medio: Europa Press
+  titulo: 'Saiz sobre la ausencia de Sánchez en el funeral de Urda (Toledo): "El Gobierno va a estar con una alta representación"'
+  url: https://www.europapress.es/sociedad/noticia-saiz-ausencia-sanchez-funeral-urda-toledo-gobierno-va-estar-alta-representacion-20261110135702.html
+  resumen: La portavoz del Gobierno y ministra de Inclusión, Seguridad Social y Migraciones, Elma Saiz, ha respondido que "el Gobierno va a estar con una alta representación" en el funeral por las víctimas del accidente ferroviario de Urda (Toledo), preguntada por la ausencia del presidente del Ejecutivo, Pedr
+- seccion: sociedad
+  medio: Europa Press
+  titulo: Protección Civil envía un Es-Alert para evacuar Piedralaves ante el posible desborde de la presa de Horcajo (Ávila)
+  url: https://www.europapress.es/castilla-y-leon/noticia-proteccion-civil-envia-alert-evacuar-piedralaves-posible-desborde-presa-horcajo-avila-20261110111108.html
+  resumen: La Agencia de Protección Civil y Emergencias de la Junta de Castilla y León ha enviado un mensaje masivo a la población para la evacuación de Piedralaves (Ávila) a través del sistema Es-Alert en el que ha informado del aviso rojo activado por la Agencia Estatal de Meteorología (Aemet) ante la presen
+- seccion: sociedad
+  medio: Europa Press
   titulo: Bruna seguirá dejando este martes lluvias en la mitad occidental peninsular, con Ávila y Cáceres en aviso rojo
   url: https://www.europapress.es/sociedad/noticia-tiempo-hoy-espana-10-noviembre-2026-20261110082805.html
   resumen: Los frentes asociados a la borrasca Bruna seguirán dejando este martes una situación de inestabilidad y lluvias en la mitad occidental peninsular. Habrá avisos de nivel rojo activos por lluvias muy intensas en el sur de Ávila y en el norte de Cáceres, donde se prevén acumulaciones de hasta 120 litro
-- seccion: sociedad
-  medio: Europa Press
-  titulo: La borrasca 'Charles', tercera de la temporada, dejará desde mañana lluvia y oleaje en suroeste peninsular y Canarias
-  url: https://www.europapress.es/sociedad/noticia-borrasca-charles-tercera-temporada-dejara-manana-lluvia-oleaje-suroeste-peninsular-canarias-20261110105248.html
-  resumen: La borrasca 'Charles', tercera nombrada de este temporada, es un sistema de procedencia subtropical que provocará un temporal muy adverso en el sur y oeste peninsular y Canarias de lluvias, vientos y mal estado de la mar entre este miércoles y, en menor medida, el jueves, según la Agencia Estatal de
-- seccion: sociedad
-  medio: Europa Press
-  titulo: Octubre de 2026 fue muy cálido y muy seco en España, con una temperatura media de 16,1ºC, 1,5ºC más de lo normal
-  url: https://www.europapress.es/sociedad/noticia-octubre-2026-fue-muy-calido-muy-seco-espana-temperatura-media-161c-15c-mas-normal-20261110114919.html
-  resumen: El mes de octubre de 2026 fue muy cálido y muy seco en España, según el avance del resumen climático publicado este martes por la Agencia Estatal de Meteorología (AEMET).
-- seccion: sociedad
-  medio: Europa Press
-  titulo: Las prestaciones activas del IMV suben un 17,9% en el último año y beneficia a 4 millones de personas desde su inicio
-  url: https://www.europapress.es/epsocial/igualdad/noticia-prestaciones-activas-imv-suben-179-ultimo-ano-beneficia-millones-personas-inicio-20261110105631.html
-  resumen: Las prestaciones activas del Ingreso Mínimo Vital (IMV) han subido un 17,9% en el último año y ha beneficiado a casi 4 millones de personas desde su inicio, hace más de seis años.
-- seccion: sociedad
-  medio: Europa Press
-  titulo: Llegan 229 migrantes más a bordo de tres embarcaciones en las últimas horas a la isla de El Hierro
-  url: https://www.europapress.es/islas-canarias/noticia-llegan-229-migrantes-mas-bordo-tres-embarcaciones-ultimas-horas-isla-hierro-20261110102028.html
-  resumen: Un total de 229 migrantes llegaron este lunes al muelle de La Restinga, en El Hierro, a última hora de la tarde y a bordo de tres embarcaciones irregulares, según ha informado el Centro Coordinador de Seguridad y Emergencias del Gobierno de Canarias (Cecoes 112).
-- seccion: sociedad
-  medio: Europa Press
-  titulo: Abascal alerta sobre "el efecto llamada" en la crisis migratoria y pide que "el que cometa delitos" sea "deportado"
-  url: https://www.europapress.es/epsocial/migracion/noticia-abascal-alerta-efecto-llamada-crisis-migratoria-pide-cometa-delitos-sea-deportado-20261110111333.html
-  resumen: 'El presidente de Vox y candidato a la presidencia del Gobierno, Santiago Abascal, ha abogado por "mandar un mensaje político" para combatir a las mafias y la ruta atlántica que utilizan los migrantes para llegar a Canarias. "Si el mensaje que mandamos es que todo el que llega a España finalmente es '
-- seccion: sociedad
-  medio: Europa Press
-  titulo: 'Pedro Rollán, presidente del Senado: "Ruego a Dios un nuevo Gobierno a la altura de la nación"'
-  url: https://www.europapress.es/sociedad/noticia-pedro-rollan-presidente-senado-ruego-dios-nuevo-gobierno-altura-nacion-20261110112054.html
-  resumen: El presidente del Senado de España, Pedro Rollán, ha rogado a Dios, de cara a las elecciones generales del próximo 29 de noviembre, que dé a España "un Gobierno que esté a la altura de la nación".
 - seccion: sociedad
   medio: El País
   titulo: “Leer te hace más inteligente porque te hace elegir mejor”
@@ -235,6 +235,11 @@ titulares:
   titulo: House martin artificial nests scheme set to expand
   url: https://www.bbc.co.uk/news/articles/c64g1ge73y8lo?at_medium=RSS&at_campaign=rss
   resumen: The artificial nests are more robust than the endangered migratory birds' own mud creations.
+- seccion: ciencia-salud
+  medio: BBC
+  titulo: Amber alert as Scotland faces blood donation shortages
+  url: https://www.bbc.co.uk/news/articles/c678p8yz0k38o?at_medium=RSS&at_campaign=rss
+  resumen: An amber alert has been issued after stockpiles of blood fell below target several times in recent months
 - seccion: ciencia-salud
   medio: BBC
   titulo: NHS boss received nearly £400,000 'redundancy' pay-off when she retired
@@ -260,11 +265,26 @@ titulares:
   titulo: Winter depression is real. Here’s what can help - podcast
   url: https://www.theguardian.com/science/audio/2026/nov/10/why-we-get-sad-and-what-helps-podcast
   resumen: As the nights draw in, many of us can experience low mood. But for a small proportion of people a more intense depression develops through the winter months. It’s a phenomenon that since the 1980s has been labelled seasonal affective disorder, or Sad, and can be debilitating for sufferers. To find o
+- seccion: ciencia-salud
+  medio: The Guardian
+  titulo: Pharma firms’ focus on weight-loss drugs could put insulin supply at risk, experts warn
+  url: https://www.theguardian.com/business/2026/nov/10/pharma-firms-weight-loss-drugs-insulin-glp-1-ozempic-mounjaro
+  resumen: GLP-1 products such as Ozempic and Mounjaro spread but many in poorer countries struggle to get basic diabetes treatment The gold rush into GLP-1 weight-loss drugs risks diverting pharmaceutical firms’ attention away from diabetes treatments such as insulin, the head of the Access to Medicine Founda
+- seccion: ciencia-salud
+  medio: The Guardian
+  titulo: What happens to your brain when the days get darker? - video
+  url: https://www.theguardian.com/science/video/2026/nov/10/what-happens-to-your-brain-when-the-days-get-darker-video
+  resumen: As the nights draw in, many of us can experience low mood. But for a small proportion of people a more intense depression develops through the winter months. It’s a phenomenon that since the 1980s has been labelled seasonal affective disorder, or Sad, and can be debilitating for sufferers. To find o
 - seccion: tecnologia
   medio: The Guardian
-  titulo: Nvidia and Jensen Huang sued by shareholders over affair with alleged Chinese spy
+  titulo: Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy
   url: https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi
-  resumen: Legal action comes as Donald Trump says FBI is investigating tech company CEO’s links with Alice Huang Business live – latest updates Nvidia’s board needs to do some succession planning – sharpish Nvidia and its chief executive, Jensen Huang, have been accused of defrauding shareholders in a lawsuit
+  resumen: California lawsuit comes as Donald Trump says FBI is investigating tech CEO’s links with Alice Huang Business live – latest updates Nvidia’s board needs to do some succession planning – sharpish Nvidia and its chief executive, Jensen Huang, have been accused of misleading shareholders in a lawsuit o
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: ChatGPT’s Teen Mode could deprive teenagers of a fundamental need | Robin Kirman
+  url: https://www.theguardian.com/commentisfree/2026/nov/10/chatgpt-teen-mode-cognitive-skills
+  resumen: 'What young students stand to lose is more than cognitive skill: it’s a reliable sense of their own minds In August, OpenAI launched Teen Mode – a version of ChatGPT in which every user under 18 will automatically be enrolled – a year after a lawsuit alleged that ChatGPT had contributed to the suicid'
 - seccion: tecnologia
   medio: The Guardian
   titulo: Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’
@@ -272,9 +292,9 @@ titulares:
   resumen: Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email , free app or daily news podcast OpenAI will not face criminal penalties over the Medicare data breach , but the prime minister has flagged
 - seccion: tecnologia
   medio: The Guardian
-  titulo: Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul
-  url: https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul
-  resumen: Australian carrier announces agreement with Accenture amid ‘unprecedented’ technological disruption, CEO Vanessa Hudson says Get our breaking news email , free app or daily news podcast Qantas is preparing to cut 850 local jobs and outsource work offshore under an AI-driven overhaul, marking a growi
+  titulo: '‘Without storyboards, I feel like I’m in Grand Central station in my underwear’: film’s fightback against AI'
+  url: https://www.theguardian.com/film/2026/nov/10/storyboard-artists-ai
+  resumen: 'As Hollywood begins to adopt the technology, the professionals in most direct jeopardy are the illustrators mapping out directors’ first visions. They sketch out what could be lost A film industry dominated by AI is a dystopian prospect: stories and dialogue generated by large language models, popul'
 - seccion: tecnologia
   medio: The Guardian
   titulo: Are walking pads worth it? We put the best under-desk treadmills to the test
@@ -292,9 +312,19 @@ titulares:
   resumen: M John Harrison becomes the oldest ever winner of the prestigious literary award at the age of 81.
 - seccion: cultura
   medio: BBC
+  titulo: Met Police investigate several reports on Russell Brand following his conviction
+  url: https://www.bbc.co.uk/news/articles/cvwy7ydg4264o?at_medium=RSS&at_campaign=rss
+  resumen: Det Supt Andy Furphy says the force had received "several reports in during the trial and since the trial".
+- seccion: cultura
+  medio: BBC
   titulo: Jemima Goldsmith accuses Russell Brand of violence and abuse against her
   url: https://www.bbc.co.uk/news/articles/c95ynylr8j6xo?at_medium=RSS&at_campaign=rss
   resumen: Goldsmith accuses the disgraced entertainer of "violence, coercive control and abuse" while they were in a relationship.
+- seccion: cultura
+  medio: The Guardian
+  titulo: '‘It wasn’t long until he asked me if I’d ever had sex before’: David Walliams accused of preying on young women for sex'
+  url: https://www.theguardian.com/tv-and-radio/ng-interactive/2026/nov/10/david-walliams-accused-sex-grooming-allegations-young-women
+  resumen: Comedian and former Britain’s Got Talent judge alleged to have groomed fans he met when they were as young as 15 and harassed women in the workplace over a number of years. He denies the allegations Continue reading...
 - seccion: cultura
   medio: The Guardian
   titulo: '‘It was hard coming after the shallow, egocentric YBAs’: brilliantly bolshie artist Ryan Gander lambasts practically everyone'
@@ -317,9 +347,14 @@ titulares:
   resumen: From naked tennis to Richter-scale juddering near wildfowl, Jilly Cooper’s bonkbuster features a whopping 33 romps. Ahead of season two’s return this week, gird your loins as we celebrate the busiest buttocks in Rutshire Rejoice! Rejoice! Five months after it staggered off with its leotard around it
 - seccion: cultura
   medio: The Guardian
-  titulo: '‘We are human too’: the Roma film-makers striking back at stereotypes'
-  url: https://www.theguardian.com/world/2026/nov/10/roma-romany-film-makers-seville-film-festival-showcase
-  resumen: Seven films in Seville programme highlight how Roma are creating their own narratives Growing up in Romania, whenever Alina Șerban spotted Roma people on television or in movies, they were usually cast as villains or depicted as somehow exotic. But this week the Romany actor and film-maker is part o
+  titulo: '‘I’m looking for faces which surprise me’: how Richard Avedon photographed the soul of his subjects'
+  url: https://www.theguardian.com/film/2026/nov/10/richard-avedon-photography-netflix-documentary
+  resumen: 'Ron Howard’s illuminating Netflix documentary looks back on the career of one of America’s most inventive and versatile photographers Richard Avedon had only taken a couple of frames when he accidentally hit his head on a light being held above him. The Dalai Lama burst into laughter. That was when '
+- seccion: cultura
+  medio: The Guardian
+  titulo: Old Vic 2027 season to open with Damian Lewis as Henry V
+  url: https://www.theguardian.com/stage/2026/nov/10/old-vic-2027-season-damian-lewis-henry-v
+  resumen: Rupert Goold begins his tenure as artistic director with a ‘provocative’ version of Shakespeare’s history play, followed by shows starring Milly Alcock and Arinzé Kene Damian Lewis is to play Henry V at the Old Vic in London in the first production under the theatre’s new artistic director, Rupert G
 - seccion: cultura
   medio: The Guardian
   titulo: 'TV tonight: a documentary about penis enhancement surgery'
@@ -332,14 +367,19 @@ titulares:
   resumen: The unlikely friendship between French and English composers Maurice Ravel and Ralph Vaughan Williams has inspired a tender and generous novel In 1907, composer Ralph Vaughan Williams confided to the critic Edwin Evans that he was finding his own music “lumpy and stodgy”. His musical education at th
 - seccion: cultura
   medio: The Guardian
-  titulo: Soul Patrol review – heart stopping story of Vietnam’s first Black special ops team
-  url: https://www.theguardian.com/film/2026/nov/10/soul-patrol-review-heart-stopping-story-of-vietnams-first-black-special-ops-team
-  resumen: 'Based on a 2003 memoir, this remarkable documentary shows the incredible bravery these young men showed in the face of battle and unrelenting bigotry Here is the remarkable story of the US army’s “Soul Patrol” unit in the Vietnam war: the all-Black Long-Range Reconnaissance Patrol (or LURP), a six-m'
+  titulo: Traces of Justice review – ‘Chinese Sherlock Holmes’ at centre of arresting forensic cop thriller
+  url: https://www.theguardian.com/film/2026/nov/10/traces-of-justice-review-arresting-forensic-cop-thriller-chases-the-science
+  resumen: Based on real scientist Cui Daozhi, this sharp feature has thumping set pieces and knotty puzzles set across 30 years of gripping cases The latest from Chen Sicheng, prime mover behind the hit Detective Chinatown franchise , offers a disarming mix of propaganda, copaganda and gripping narrative. It’
 - seccion: cultura
   medio: The Guardian
-  titulo: '‘I’m looking for faces which surprise me’: how Richard Avedon photographed the soul of his subjects'
-  url: https://www.theguardian.com/film/2026/nov/10/richard-avedon-photography-netflix-documentary
-  resumen: 'Ron Howard’s illuminating Netflix documentary looks back on the career of one of America’s most inventive and versatile photographers Richard Avedon had only taken a couple of frames when he accidentally hit his head on a light being held above him. The Dalai Lama burst into laughter. That was when '
+  titulo: Soul Patrol review – heartstopping story of the US army’s first Black special ops team at work in Vietnam
+  url: https://www.theguardian.com/film/2026/nov/10/soul-patrol-review-heart-stopping-story-of-vietnams-first-black-special-ops-team
+  resumen: 'Based on a 2003 memoir, this remarkable documentary shows the incredible bravery these young men showed in the face of battle and unrelenting bigotry Here is the remarkable story of the US army’s “Soul Patrol” unit in the Vietnam war: the all-Black Long-Range Reconnaissance Patrol (or LURP), a six-m'
+- seccion: deportes
+  medio: Europa Press
+  titulo: 'Marc Roca: "Ha sido un camino largo llegar a la selección y lo valoro mucho más"'
+  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-marc-roca-sido-camino-largo-llegar-seleccion-valoro-mucho-mas-20261110131726.html
+  resumen: 'El centrocampista Marc Roca se mostró "muy contento" y con "mucha ilusión" por recibir su primera llamada con la selección española, a la que llega después de un exitoso paso por las categorías inferiores y de "un camino largo" que hace que valore "mucho más" esta convocatoria con un equipo "con el '
 - seccion: deportes
   medio: Marca
   titulo: El Langui cierra una temporada inolvidable con una plata en Sao Paulo
@@ -397,6 +437,11 @@ titulares:
   resumen: Su valoración sobre las palabras del político de VOX en cuanto a la perspectiva de género al urbanismo
 - seccion: deportes
   medio: BBC Sport
+  titulo: Hill gets first England call-up as Konsa cover
+  url: https://www.bbc.co.uk/sport/football/articles/ckjrwrggjlryo?at_medium=RSS&at_campaign=rss
+  resumen: Bournemouth defender James Hill is added to the England squad for Thursday's Nations League match against Croatia at Wembley.
+- seccion: deportes
+  medio: BBC Sport
   titulo: Cast your vote for BBC Women's Footballer of the Year 2026
   url: https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss
   resumen: Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist.
@@ -412,6 +457,11 @@ titulares:
   resumen: Former Arsenal manager Arsene Wenger is considering standing against Gianni Infantino as a candidate in Fifa's presidential election in March.
 - seccion: deportes
   medio: BBC Sport
+  titulo: Jockey Neale, 22, dies after fall during race
+  url: https://www.bbc.co.uk/sport/horse-racing/articles/c933x3yjk530o?at_medium=RSS&at_campaign=rss
+  resumen: Australian jockey Izzy Neale passes away following a fall during a race in Australia on Sunday.
+- seccion: deportes
+  medio: BBC Sport
   titulo: How good is Hamilton and how long can he stay in F1? - Q&A
   url: https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko?at_medium=RSS&at_campaign=rss
   resumen: BBC F1 correspondent Andrew Benson answers your latest questions after the Sao Paulo Grand Prix.
@@ -422,34 +472,44 @@ titulares:
   resumen: From bitter rivalries and controversial decisions to dramatic knockouts, we look back at five unforgettable all-British boxing contests and ask you to vote for the greatest.
 - seccion: deportes
   medio: BBC Sport
+  titulo: Dortmund fans' group criticises Nmecha celebration
+  url: https://www.bbc.co.uk/sport/football/articles/cm3696yy9z64o?at_medium=RSS&at_campaign=rss
+  resumen: A Christian group set up for footballers says it wants to "demonstrate love and respect towards everyone" following criticism from fans.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: DeChambeau running out of options - McIlroy
+  url: https://www.bbc.co.uk/sport/golf/articles/cwz0v0jmxpl0o?at_medium=RSS&at_campaign=rss
+  resumen: Rory McIlroy says the addition of Bryson DeChambeau to the DP World Tour next season would bring more "eyeballs" to the tour but feels the American is running out of options.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Wales call up MK Dons' Collins as Moore withdraws
+  url: https://www.bbc.co.uk/sport/football/articles/c62l4l2k0lyro?at_medium=RSS&at_campaign=rss
+  resumen: Wales have called up MK Dons striker Aaron Collins for this month's Nations League matches following Wrexham frontman Kieffer Moore's withdrawal due to injury.
+- seccion: deportes
+  medio: BBC Sport
   titulo: How Germany's greatest goalscorer is guiding the next generation
   url: https://www.bbc.co.uk/sport/football/articles/cmq8nnddpllqo?at_medium=RSS&at_campaign=rss
   resumen: Miroslav Klose rose from amateur to World Cup winner as a player - now the German is forging a similar path as a coach.
 - seccion: deportes
   medio: BBC Sport
+  titulo: Who are the main candidates for the Aberdeen job?
+  url: https://www.bbc.co.uk/sport/football/articles/c3rryr85v874o?at_medium=RSS&at_campaign=rss
+  resumen: Two domestic names stand out, while there is also the possibility of a foreign appointment following Stephen Robinson's departure.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Wainwright gives Wales injury scare for All Blacks
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/crvg6gzg59d1o?at_medium=RSS&at_campaign=rss
+  resumen: Number eight Aaron Wainwright is a major Wales concern for the Nations Championship game against New Zealand on Saturday in Cardiff.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Khawaja alleges racial abuse by MCC member
+  url: https://www.bbc.co.uk/sport/cricket/articles/cmwy9y0r1gp3o?at_medium=RSS&at_campaign=rss
+  resumen: Australia batter Usman Khawaja alleges he was racially abused by an MCC member during the Ashes Test at Lord's in 2023.
+- seccion: deportes
+  medio: BBC Sport
   titulo: Meet Stephanie Case - the first woman to run 100 miles in Antarctica
   url: https://www.bbc.co.uk/sport/articles/cm98z8w9kx02o?at_medium=RSS&at_campaign=rss
   resumen: Stephanie Case makes history by becoming the first woman to complete extreme 100-mile race in Antarctica.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Initiative launched to make UK world leader in women's sport
-  url: https://www.bbc.co.uk/sport/articles/crp3g3l2wew3o?at_medium=RSS&at_campaign=rss
-  resumen: The FA, Team GB and England Netball are among major organisations to back the Equal Sport Project - a new initiative aimed at improving equality and making the UK world leaders for women and girls' sport.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: The fans at the FA Cup game no-one could see
-  url: https://www.bbc.co.uk/news/articles/cmqjnjvld27yo?at_medium=RSS&at_campaign=rss
-  resumen: Thick fog left Notts County fans unable to see parts of the Magpies' FA Cup win over Altrincham.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: 'UFC 334: Gane v Hokit - all you need to know'
-  url: https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6n494my0g32o?at_medium=RSS&at_campaign=rss
-  resumen: All you need to know as Ciryl Gane defends his heavyweight title against Josh Hokit and Kayla Harrison puts her women's bantamweight belt on the line against Amanda Nunes.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Bills join league-leading 49ers on 7-1 - NFL week nine
-  url: https://www.bbc.co.uk/sport/american-football/articles/cmdxwxry2pr8o?at_medium=RSS&at_campaign=rss
-  resumen: The Buffalo Bills and San Francisco 49ers share the NFL's best record halfway through the 2026 season after both won during week nine.
 - seccion: deportes
   medio: The Guardian
   titulo: 'Ultimate 1-50: the male footballers best associated with each squad number'
@@ -457,14 +517,14 @@ titulares:
   resumen: Who is football’s most legendary No 9? Has there ever been a legendary No 28? And why exactly does Mario Balotelli love wearing No 45 so much? Here’s our list and the stories behind it The relationship between players and numbers is a long-established one filled with memories and fascinating as well
 - seccion: deportes
   medio: The Guardian
-  titulo: Wilcox and Berrada poised to tell Ratcliffe in Monaco that Carrick should be sacked
-  url: https://www.theguardian.com/football/2026/nov/10/manchester-united-jason-wilcox-omar-berrada-jim-ratcliffe-michael-carrick-should-be-sacked
-  resumen: Manchester United executives to settle head coach’s fate Mauricio Pochettino a strong candidate to take over Manchester United’s director of football, Jason Wilcox, and chief executive, Omar Berrada, are expected to meet Sir Jim Ratcliffe in Monaco on Tuesday and recommend the sacking of Michael Car
-- seccion: deportes
-  medio: The Guardian
   titulo: Rui Pinto’s lawyers in talks with UK authorities over cooperation deal for whistleblower
   url: https://www.theguardian.com/football/2026/nov/10/rui-pinto-lawyers-talks-uk-authorities-cooperation-deal-whistleblower
   resumen: 'Serious Fraud Office has contacted Pinto He is willing to assist in exchange for protection Rui Pinto’s lawyers are in talks with British authorities over a potential cooperation agreement under which the Manchester City whistleblower could help to expose serious financial and sporting crime in the '
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'Sisters in Sweat: how a former Spurs player got 20,000 Indian women into sport'
+  url: https://www.theguardian.com/football/2026/nov/10/sisters-in-sweat-indian-women-sport-moving-the-goalposts
+  resumen: A dinner-party question, a Sunday kickabout and an idea that snowballed. Nine years on, Tanvie Hans and Swetha Subbiah have taken sporting sisterhood to 10 cities On a breezy evening in 2017, as conversations flowed and so did the drinks at a dinner party, Tanvie Hans was asked an all-too-familiar q
 - seccion: deportes
   medio: The Guardian
   titulo: Felix Nmecha denies goal celebrations promote ‘intolerance, discrimination and hate’
@@ -477,11 +537,11 @@ titulares:
   resumen: Dutch full-back on relief of winning the Double and needing a ‘sense of normality’ while in the spotlight Kerstin Casparij loves football, especially Champions League nights under the lights, but perspective is important too. “I would say football is my most important secondary thing in life, and I’
 - seccion: deportes
   medio: The Guardian
-  titulo: Tom Brady ends tenure as investor in Birmingham City after three years
-  url: https://www.theguardian.com/football/2026/nov/09/tom-brady-birmingham-city-investor-sale-exit
-  resumen: Former NFL quarterback invested in 2023 Club did not give a reason for Brady’s departure Tom Brady has ended his three-year involvement as a ⁠minority investor in Birmingham City, the English second-tier club said on Monday, ⁠thanking the seven-times ⁠Super ​Bowl champion for his support. “Birmingha
+  titulo: From W-M to the No 10, shirt numbers tell a story of football’s tactical evolution
+  url: https://www.theguardian.com/football/2026/nov/10/shirt-numbers-tell-story-football-tactical-evolution
+  resumen: 'In the days before squad numbers, the number on a shirt was an indicator of position, as well as the attributes a player was supposed to demonstrate Ultimate 1-50: check out our complete list of players Numbers have a fascination. The No 10 is revered almost everywhere, but perhaps most especially i'
 - seccion: deportes
   medio: The Guardian
-  titulo: 'CF Montreal are for sale: What it means, how much it could cost, and what’s next for the MLS club'
-  url: https://www.theguardian.com/sport/2026/nov/09/cf-montreal-sale-mls-joey-saputo
-  resumen: In an emotional press conference, CF Montreal’s founder and owner Joey Saputo refused to rule out relocation In a rare press conference, CF Montreal owner Joey Saputo announced that his family was beginning the process of “initiating a structured sale process” of the MLS club. Saputo informed the pu
+  titulo: Bunny Shaw shines again for five-star Manchester City – Women’s Football Weekly
+  url: https://www.theguardian.com/football/audio/2026/nov/10/bunny-shaw-shines-again-for-five-star-manchester-city-womens-football-weekly
+  resumen: 'Faye Carruthers is joined by Suzanne Wrack , Sophie Downey and Marva Kreel to discuss the weekend’s WSL action On the podcast today: It is a five-star performance from Manchester City as Bunny Shaw shines again, but a frustrating afternoon for Chelsea as they are held to a draw by Everton. Plus Arse'
