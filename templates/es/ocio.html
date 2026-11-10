@@ -1,0 +1,36 @@
+{% extends "es/base.html" %}
+{% block titulo %}{{ titulo }} | NewTimes.news{% endblock %}
+{% block descripcion %}{{ descripcion }}{% endblock %}
+{% block canonica %}/{{ ocio_ruta }}/{% endblock %}
+{% block cabeza %}<link rel="stylesheet" href="/ocio/ocio.css?v={{ v }}">{% endblock %}
+{% block contenido %}
+<section id="nt-ocio" data-mode="{{ modo }}" aria-label="{{ titulo }}">
+  <p class="etiqueta">ENTRETENIMIENTO</p>
+  <h1 class="titulo-pagina">{{ titulo }}</h1>
+  <p>{{ descripcion }}</p>
+  <p><a href="/juegos/">Juegos</a> · <a href="/horoscopo/">Horóscopo</a></p>
+  {% if modo == "juegos" %}
+  <ul class="tarjetas">
+    <li><a href="/juegos/sudoku/">Sudoku</a><p>Tres dificultades, solución única y progreso guardado.</p></li>
+    <li><a href="/juegos/sopa-de-letras/">Sopa de letras</a><p>Busca palabras de un tema y marca sus extremos.</p></li>
+    <li><a href="/juegos/conexiones/">Conexiones</a><p>Dieciséis palabras, cuatro nexos. ¿Encuentras los grupos?</p></li>
+  </ul>
+  <p>Los retos se seleccionan por fecha, según la hora de Madrid. Puedes volver a los días anteriores en cada juego.</p>
+  {% else %}
+  <label>Fecha <input id="fecha" type="date" aria-label="Fecha del reto"></label>
+  <button type="button" id="hoy">Hoy</button>
+  {% if modo in ["conexiones", "sopa-de-letras"] %}
+  <p>Banco inicial de siete temas: se reutilizan cada semana.{% if modo == "sopa-de-letras" %} La disposición del tablero cambia cada día.{% endif %}</p>
+  {% endif %}
+  {% if modo == "sudoku" %}<p>La dificultad es orientativa según el número de pistas.</p>{% endif %}
+  {% if modo == "horoscopo" %}<p>Textos recreativos seleccionados de un banco de reflexiones. No son predicciones ni consejos médicos, económicos o personales.</p>{% endif %}
+  <div id="tablero"></div>
+  <p id="estado" role="status" aria-live="polite"></p>
+  <noscript>Activa JavaScript para usar el calendario y los retos.</noscript>
+  {% endif %}
+  {% if modo not in ["juegos", "horoscopo"] %}
+  <p>El progreso se guarda solo en este navegador. Si borras sus datos, perderás las partidas guardadas.</p>
+  {% endif %}
+</section>
+{% endblock %}
+{% block scripts %}{% if modo != "juegos" %}<script src="/ocio/ocio.js?v={{ v }}" defer></script>{% endif %}{% endblock %}

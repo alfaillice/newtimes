@@ -763,6 +763,11 @@ class Constructor:
                                                               cuerpo=md_a_html(cuerpo), slug=ruta.stem),
                           prioridad="0.2")
 
+        # Ocio: páginas propias, sin alterar portadas, artículos ni el flujo de noticias.
+        if codigo == "es":
+            from ocio import construir
+            construir(self, base_ctx)
+
         # 404, RSS general, sitemap de noticias
         self.escribir(f"{pre}/404.html", self.render(f"{t}/404.html", **base_ctx, ultima=articulos[:5]), sitemap=False)
         self.escribir(f"{pre}/rss.xml", self.rss(ed, pre, articulos[:50]), sitemap=False)
