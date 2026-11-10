@@ -1,5 +1,6 @@
 import importlib.util
 import sys
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -33,7 +34,7 @@ class OcioTests(unittest.TestCase):
 
     def test_styles_do_not_target_existing_layout(self):
         css = (ROOT / "static/ocio/ocio.css").read_text()
-        for rule in css.split("}"):
+        for rule in re.sub(r"@media[^{}]+\{", "", css).split("}"):
             if not rule.strip():
                 continue
             selectors = rule.split("{")[0]
