@@ -1,0 +1,9 @@
+seccion: tecnologia
+tema: Una investigación revela que los promotores de centros de datos de IA planean construir a gran escala centrales de gas propias en EEUU y Europa por los retrasos en la conexión a las redes eléctricas. Usar solo las cifras que figuren en la fuente.
+destacado: false
+fuentes:
+- medio: The Guardian
+  titulo: AI datacentres plan on-site power stations on huge scale despite climate risks, research reveals
+  url: https://www.theguardian.com/world/2026/nov/11/ai-datacentres-on-site-gas-fired-power-stations
+motivo: 'cifras que no están en las fuentes: 2025'
+descartado: '2026-11-11T21:11:09+01:00'
