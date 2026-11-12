@@ -1,0 +1,12 @@
+seccion: deportes
+tema: El Crystal Palace destituye al técnico Pierre Sage tras 16 partidos, con el equipo colista, y negocia con Thomas Frank para sustituirle.
+destacado: false
+fuentes:
+- medio: BBC Sport
+  titulo: Palace sack Sage after 16 games with Frank in advanced talks
+  url: https://www.bbc.co.uk/sport/football/articles/cv5y18lkk87do?at_medium=RSS&at_campaign=rss
+- medio: The Guardian
+  titulo: Crystal Palace sack Pierre Sage and in advanced talks to appoint Thomas Frank
+  url: https://www.theguardian.com/football/2026/nov/12/pierre-sage-sacked-crystal-palace-manager-thomas-frank
+motivo: 'la verificación encontró datos sin sostén: Atribución incorrecta: el artículo dice «según la BBC» que Frank «ya había tenido contacto con el club en verano», pero esa información aparece solo en The Guardian («He spoke to Palace in the summer»). La BBC no lo menciona.'
+descartado: '2026-11-12T18:11:18+01:00'
