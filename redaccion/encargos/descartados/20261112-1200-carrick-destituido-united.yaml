@@ -1,0 +1,12 @@
+seccion: deportes
+tema: El Manchester United ha destituido a Michael Carrick con el equipo en la zona de descenso de la Premier League, tras menos de 15 partidos en el banquillo.
+destacado: false
+fuentes:
+- medio: The Guardian
+  titulo: Carrick sacked by Manchester United with team in Premier League relegation zone – live
+  url: https://www.theguardian.com/football/live/2026/nov/12/carrick-sacked-by-manchester-united-with-team-in-premier-league-relegation-zone-live
+- medio: BBC Sport
+  titulo: The chaos that took Carrick from two-year deal to sacked within 15 games
+  url: https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss
+motivo: 'la verificación encontró datos sin sostén: "en particular en la alineación inicial ante el Hull": BBC Sport dice que "no cabe duda de que Carrick cometió errores" y que la actuación ante el Hull fue "inexplicable", pero no identifica la alineación inicial como su error concreto. Atribuir a BBC esa precisión va más allá de lo que dice la fuente.'
+descartado: '2026-11-12T12:10:38+01:00'
