@@ -1,10 +1,35 @@
-generado: '2026-11-12T08:50:00+01:00'
+generado: '2026-11-12T11:50:00+01:00'
 titulares:
+- seccion: espana
+  medio: Europa Press
+  titulo: La Fiscalía Europea investiga un presunto fraude con fondos de la UE para las pulseras antimaltrato en España
+  url: https://www.europapress.es/nacional/noticia-fiscalia-europea-investiga-presunto-fraude-fondos-ue-pulseras-antimaltrato-espana-20261112113802.html
+  resumen: La Fiscalía Europea (EPPO) ha anunciado este jueves que está llevando una investigación en las sedes del Ministerio de Igualdad y del Tribunal de Cuentas de España por un presunto fraude relacionado con fondos europeos destinados a la adquisición de pulseras telemáticas para controlar el cumplimient
+- seccion: espana
+  medio: Europa Press
+  titulo: Marlaska ordena al director de la Policía abrir una investigación por las cargas policiales durante la huelga
+  url: https://www.europapress.es/nacional/noticia-marlaska-ordena-director-policia-abrir-investigacion-cargas-policiales-huelga-20261112095525.html
+  resumen: El ministro del Interior, Fernando Grande-Marlaska, ha instado al director general de la Policía Nacional, Francisco Pardo Piqueras, la apertura de "investigaciones específicas" por las actuaciones policiales durante la huelga general del 11 de noviembre, según fuentes del citado departamento minist
 - seccion: espana
   medio: Europa Press
   titulo: 'Última hora de la actualidad política en España, en directo: elecciones generales del 29N y arranque de campaña'
   url: https://www.europapress.es/nacional/noticia-ultima-hora-actualidad-politica-espana-directo-elecciones-generales-29n-arranque-campana-20261112082710.html
-  resumen: Los decretos leyes de vivienda afrontarán este jueves, 12 de noviembre, su votación definitva en la Diputación Permanente del Congreso, justo un día después de la huelga general y en la víspera de la campaña electoral, que arrancará a las cero horas del viernes 13.
+  resumen: La coalición Frente Amplio ha exigido al presidente del Gobierno, Pedro Sánchez, el cese del ministro del Interior, Fernando Grande Marlaska, por la actuación "desmedida y desproporcionada" de la Policía Nacional durante la jornada de la huelga general de este miércoles.
+- seccion: espana
+  medio: Europa Press
+  titulo: Rufián ve "excesiva" la actuación policial en la huelga, culpa al PSOE e insiste en la dimisión de Marlaska
+  url: https://www.europapress.es/nacional/noticia-rufian-ve-excesiva-actuacion-policial-huelga-culpa-psoe-insiste-dimision-marlaska-20261112101335.html
+  resumen: El portavoz de ERC en el Congreso, Gabriel Rufián, ha calificado este jueves de "excesiva" la actuación policial durante la huelga general, especialmente en Barcelona, y ha responsabilizado al PSOE de lo sucedido, al recordar que es el partido que gobierna España. Además, ha reiterado la petición de
+- seccion: espana
+  medio: Europa Press
+  titulo: 'Belarra pide amparo a Armengol al sentirse "hostigada" por la Policía en la huelga: "Hubo agresiones injustificadas"'
+  url: https://www.europapress.es/nacional/noticia-belarra-pide-amparo-armengol-sentirse-hostigada-policia-huelga-hubo-agresiones-injustificadas-20261112103252.html
+  resumen: La secretaria general de Podemos, Ione Belarra, ha dirigido un escrito a la presidenta del Congreso, la socialista Francina Armengol, pidiendo amparo como diputada al considerarse "víctima y testigo" de "hostigamiento policial" en la jornada de huelga general del 11 de noviembre. "Hubo agresiones in
+- seccion: espana
+  medio: Europa Press
+  titulo: 'Ester Muñoz ve un "fracaso" la "huelga preventiva" y condena la violencia: "hace falta un Gobierno que ponga orden"'
+  url: https://www.europapress.es/nacional/noticia-ester-munoz-ve-fracaso-huelga-preventiva-condena-violencia-hace-falta-gobierno-ponga-orden-20261112101510.html
+  resumen: La portavoz del Grupo Popular en el Congreso, Ester Muñoz, ha calificado hoy de "fracaso" la huelga general convocada para ayer por el Sindicato de Inquilinas, UGT y CCOO, la ha calificado de "preventiva" y ha condenado la violencia de los piquetes. En su opinión, hace falta un Gobierno "que ponga o
 - seccion: espana
   medio: Europa Press
   titulo: Sánchez abre campaña hoy en Sevilla, Feijóo lo hará en Badalona mientras que Abascal y Colau eligen Madrid
@@ -12,14 +37,19 @@ titulares:
   resumen: 'El jefe del Ejecutivo y candidato socialista, Pedro Sánchez, abrirá este jueves en Sevilla la campaña electoral para las elecciones generales del próximo 29 de noviembre, mientras que el líder del PP, Alberto Núñez Feijóo, lo hará en Badalona (Cataluña). Por su parte, el presidente de Vox, Santiago '
 - seccion: espana
   medio: Europa Press
-  titulo: 'Feijóo promete derogar decretos de vivienda si gobierna y subir pensiones conforme IPC: "No jugaré con los pensionistas"'
-  url: https://www.europapress.es/nacional/noticia-feijoo-promete-derogar-decretos-vivienda-si-gobierna-subir-pensiones-conforme-ipc-no-jugare-pensionistas-20261111232434.html
-  resumen: Dice que los decretos de vivienda, que se votan este jueves en el Congreso, son "malos para los inquilinos y para los propietarios"
+  titulo: Abascal asume las consecuencias de no acudir al podcast de Jordi Wild y reivindica valentía al tomar la decisión
+  url: https://www.europapress.es/nacional/noticia-abascal-asume-consecuencias-no-acudir-podcast-jordi-wild-reivindica-valentia-tomar-decision-20261112113745.html
+  resumen: El presidente de Vox, Santiago Abascal, ha asumido "las críticas y las consecuencias" de no acudir a la entrevista con el 'youtuber' Jordi Wild que iba a emitirse este viernes junto a la del resto de candidatos a las elecciones del 29 de noviembre, pero ha reivindicado que también hay "valentía" a l
 - seccion: espana
   medio: Europa Press
-  titulo: El Gobierno expresa máximo respeto por quienes han secundado el paro y condena la actitud del PP durante la jornada
-  url: https://www.europapress.es/nacional/noticia-gobierno-expresa-maximo-respeto-quienes-secundado-paro-condena-actitud-pp-jornada-20261111211130.html
-  resumen: El Gobierno ha expresado su "máximo respeto" hacia la convocatoria de huelga general de este miércoles 11 de noviembre y por quienes han decidido secundarla.
+  titulo: Bolaños afirma que, pese a una mayoría reaccionaria, todas las encuestas coinciden en la tendencia al alza del PSOE
+  url: https://www.europapress.es/nacional/noticia-bolanos-afirma-pese-mayoria-reaccionaria-todas-encuestas-coinciden-tendencia-alza-psoe-20261112103550.html
+  resumen: El ministro de la Presidencia, Justicia y Relaciones con las Cortes, Félix Bolaños, ha sostenido que todos los sondeos sobre las elecciones del 29N "coinciden en que hay una tendencia del PSOE a la alza" y, por el contrario, "una tendencia del PP a la baja".
+- seccion: espana
+  medio: Europa Press
+  titulo: Rufián se pregunta por qué ha tardado tanto en convocarse una huelga y arranca la campaña "con ganas de revancha"
+  url: https://www.europapress.es/nacional/noticia-rufian-pregunta-tardado-tanto-convocarse-huelga-arranca-campana-ganas-revancha-20261112102742.html
+  resumen: El portavoz de ERC en el Congreso, Gabriel Rufián, se ha preguntado este jueves porqué se ha tardado 14 años en convocar una huelga general como la que tuvo lugar este miércoles por una vivienda y unos salarios dignos y ha avanzado que arranca la campaña electoral para las elecciones del día 20 "con
 - seccion: internacional
   medio: Europa Press
   titulo: El Partido Demócrata vence en la carrera al Senado por Misisipi tras 40 años de hegemonía republicana
@@ -34,7 +64,7 @@ titulares:
   medio: Europa Press
   titulo: Al menos seis muertos y 20 heridos en un bombardeo israelí contra el Complejo Médico Nasser en el sur de Gaza
   url: https://www.europapress.es/internacional/noticia-menos-seis-muertos-20-heridos-bombardeo-israeli-contra-complejo-medico-nasser-sur-gaza-20261112041207.html
-  resumen: Al menos seis personas han muerto y otras 20 han resultado heridas a primera hora de este jueves como consecuencia de un bombardeo ejecutado por el Ejército de Israel contra el Complejo Médico Nasser, situado en la ciudad de Jan Yunis, en el sur de la Franja de Gaza.
+  resumen: El grupo tilda de "falsas" las acusaciones y habla de "un intento descarado de encubrir un nuevo crimen de guerra" por parte de Israel
 - seccion: internacional
   medio: Europa Press
   titulo: Eisenkot exige a Netanyahu que no emprenda "maniobras peligrosas" ni ponga en riesgo la seguridad nacional
@@ -47,29 +77,29 @@ titulares:
   resumen: El primer ministro en funciones de Israel, Benjamin Netanyahu, ha defendido que la economía de su país "es lo suficientemente sólida como para eliminar, de forma gradual, la ayuda militar estadounidense", contradiciendo así aparentemente las palabras del presidente de Estados Unidos, Donald Trump, q
 - seccion: internacional
   medio: Europa Press
+  titulo: Witkoff y Kushner llegan a Moscú para abordar con Putin posibles vías para acabar la guerra en Ucrania
+  url: https://www.europapress.es/internacional/noticia-witkoff-kushner-llegan-moscu-abordar-putin-posibles-vias-acabar-guerra-ucrania-20261112110111.html
+  resumen: Los enviados de Estados Unidos Steve Witkoff y Jared Kushner han aterrizado este jueves por la mañana en Moscú para mantener un encuentro con el presidente ruso, Vladimir Putin, centrado en explorar posibles avances hacia una solución del conflicto en Ucrania tras la reanudación de las conversacione
+- seccion: internacional
+  medio: Europa Press
+  titulo: Al menos un muerto y cinco heridos en un ataque ruso contra una zona residencial de Kiev
+  url: https://www.europapress.es/internacional/noticia-menos-muerto-cinco-heridos-ataque-ruso-contra-zona-residencial-kiev-20261112105907.html
+  resumen: Al menos una persona ha muerto y cinco han resultado heridas este jueves a causa de un bombardeo ruso en el distrito residencial de Solomianski en la capital, Kiev, según ha denunciado la Administración de Kiev.
+- seccion: internacional
+  medio: Europa Press
   titulo: Escocia, Irlanda del Norte e Irlanda registran falsas amenazas de bomba contra más de 1.700 escuelas
   url: https://www.europapress.es/internacional/noticia-escocia-irlanda-norte-irlanda-registran-falsas-amenazas-bomba-contra-mas-1700-escuelas-20261112034353.html
   resumen: Más de un millar de colegios en Escocia, al menos otros 300 en Irlanda del Norte y cientos más en Irlanda --incluidos cerca de 400 en la histórica provincia de Munster, que abarca el sudoeste de la isla-- han recibido este miércoles falsas amenazas de bomba, de manera similar a los mensajes recibido
 - seccion: internacional
-  medio: Europa Press
-  titulo: Meloni asegura que "no se ha hallado nada" tras las amenazas de bomba a más de 6.000 escuelas italianas
-  url: https://www.europapress.es/internacional/noticia-meloni-asegura-no-hallado-nada-amenazas-bomba-mas-6000-escuelas-italianas-20261112024409.html
-  resumen: 'Convoca a los líderes de la oposición a una reunión en la sede del Gobierno: "En la seguridad de los italianos no hay mayoría ni oposición: hay Italia"'
-- seccion: internacional
-  medio: Europa Press
-  titulo: Un soldado recrimina al secretario de Defensa de EEUU, Pete Hegseth, por reír frente a la Tumba del Soldado Desconocido
-  url: https://www.europapress.es/internacional/noticia-soldado-recrimina-secretario-defensa-eeuu-pete-hegseth-reir-frente-tumba-soldado-desconocido-20261112062923.html
-  resumen: 'Un centinela del Ejército de Estados Unidos encargado de custodiar la Tumba del Soldado Desconocido en el Cementerio Nacional de Arlington ha reprendido al secretario de Defensa estadounidense, Pete Hegseth, y a varios de sus principales asesores por hablar y reír en las inmediaciones del monumento '
-- seccion: internacional
-  medio: Europa Press
-  titulo: Alemania está estableciendo el marco legislativo para "contraatacar" ante ciberataques, según su ministro de Interior
-  url: https://www.europapress.es/internacional/noticia-alemania-estableciendo-marco-legislativo-contraatacar-ciberataques-ministro-interior-20261112042144.html
-  resumen: El ministro de Interior de Alemania, Alexander Dobrindt, ha defendido que Alemania debería "contraatacar" cuando sea objeto de ciberataques y ha afirmado que el Ejecutivo está trabajando ya en establecer el marco legal necesario para llevar a cabo estas represalias, aduciendo un nuevo nivel en la in
-- seccion: internacional
-  medio: Europa Press
-  titulo: El papa León XIV regresa "a su patria" en Perú pidiendo "concordia y justicia" para abordar las tensiones del pasado
-  url: https://www.europapress.es/internacional/noticia-papa-leon-xiv-regresa-patria-peru-pidiendo-concordia-justicia-abordar-tensiones-pasado-20261112053021.html
-  resumen: El Pontífice, que posee la nacionalidad peruana desde 2015, reclama dignidad laboral y garantías jurídicas frente a la inteligencia artificial
+  medio: El País
+  titulo: Un exterrorista italiano se fuga en Buenos Aires descolgándose de un quinto piso para evitar ser extraditado
+  url: https://elpais.com/internacional/2026-11-12/un-exterrorista-italiano-se-fuga-en-buenos-aires-descolgandose-de-un-quinto-piso-para-evitar-ser-extraditado.html
+  resumen: El exmiembro de las Brigadas Rojas Leonardo Bertulazzi, de 74 años y huido desde 1980, vivía como refugiado en Argentina hasta que Milei revocó la decisión
+- seccion: economia
+  medio: BBC
+  titulo: Who could replace Jensen Huang as Nvidia's chief executive?
+  url: https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss
+  resumen: As uncertainty swirls over the boss of the AI chip giant, some names have emerged as potential successors.
 - seccion: economia
   medio: BBC
   titulo: UK economy grows at fastest rate for more than two years
@@ -87,7 +117,7 @@ titulares:
   resumen: The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.
 - seccion: economia
   medio: BBC
-  titulo: From Paris to DC - why offices are being turned into apartments
+  titulo: Office buildings emptied out but are filling up again - as homes
   url: https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss
   resumen: Office buildings with low occupancy rates are being transformed into flats.
 - seccion: economia
@@ -100,11 +130,11 @@ titulares:
   titulo: Gas bills to rise as Middle East turmoil persists
   url: https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss
   resumen: Gas bills will increase by about 5% from 1 December, Island Energy announces.
-- seccion: economia
-  medio: BBC
-  titulo: Clashes erupt in Barcelona after thousands join Spain general strike
-  url: https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss
-  resumen: Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.
+- seccion: sociedad
+  medio: Europa Press
+  titulo: 'Abascal justifica su ausencia en The Wild Project: "No queremos someter a ningún tipo de riesgo nuestro discurso"'
+  url: https://www.europapress.es/sociedad/noticia-abascal-justifica-ausencia-the-wild-project-no-queremos-someter-ningun-tipo-riesgo-discurso-20261112113756.html
+  resumen: El presidente de Vox, Santiago Abascal, ha asegurado que canceló su entrevista con el youtuber Jordi Wild en el podcast The Wild Project para "no someter a ningún tipo de riesgo" su discurso, tras el "error" cometido por asistir a 'La Revuelta', que no emitió su entrevista íntegra.
 - seccion: sociedad
   medio: Europa Press
   titulo: La borrasca Charles mantiene en aviso por lluvias, viento y olas a casi todo el este peninsular
@@ -112,9 +142,9 @@ titulares:
   resumen: La borrasca de gran impacto Charles mantendrá este jueves en aviso a 14 comunidades autónomas (CCAA) y a Ceuta por lluvias, viento y olas, según la predicción de la Agencia Estatal de Meteorología (AEMET). Seis de esas comunidades y la ciudad autónoma tendrán avisos de nivel naranja.
 - seccion: sociedad
   medio: Europa Press
-  titulo: Feijóo garantiza que las mujeres podrán abortar en un hospital público en un gobierno con Vox
-  url: https://www.europapress.es/sociedad/noticia-feijoo-garantiza-mujeres-podran-abortar-hospital-publico-gobierno-vox-20261111235453.html
-  resumen: El líder del PP y candidato a la Presidencia del Gobierno, Alberto Núñez Feijóo, ha garantizado este miércoles que las mujeres podrán abortar en un hospital público en un gobierno de coalición con Vox.
+  titulo: Guterres reclama "voluntad política" para impulsar un futuro de independencia energética limpia en la COP31
+  url: https://www.europapress.es/sociedad/medio-ambiente-00647/noticia-guterres-reclama-voluntad-politica-impulsar-futuro-independencia-energetica-limpia-cop31-20261112104904.html
+  resumen: El secretario general de la ONU, António Guterres, ha reclamado este jueves "voluntad política" para impulsar un futuro de independencia energética limpia después en la Conferencia de las Naciones Unidas sobre el Cambio Climático de este año (COP31 o Cumbre del Clima) en Antalya (Turquía).
 - seccion: ciencia-salud
   medio: BBC
   titulo: '''Summer was a wake-up call, winter could be dire'' warning over food supplies'
@@ -147,7 +177,7 @@ titulares:
   resumen: The advertising watchdog says they also must not make misleading claims that sunbeds can treat skin conditions or improve mental health.
 - seccion: ciencia-salud
   medio: BBC
-  titulo: Free SAD lamps given out as disorder 'makes it hard to do anything on darker days'
+  titulo: Free Sad lamps given out as disorder 'makes it hard to do anything on darker days'
   url: https://www.bbc.co.uk/news/articles/c6wyvy50r2ewo?at_medium=RSS&at_campaign=rss
   resumen: Seasonal Affective Disorder can affect mood, energy and sleep during the winter months.
 - seccion: ciencia-salud
@@ -157,19 +187,14 @@ titulares:
   resumen: Una Brown had always said she would give a kidney to her husband Sean if the time came, and she did so in a roundabout way.
 - seccion: ciencia-salud
   medio: BBC
-  titulo: Welsh NHS bosses call for multi-year health funding
-  url: https://www.bbc.co.uk/news/articles/cmn80735d3eqo?at_medium=RSS&at_campaign=rss
-  resumen: Next week Welsh ministers will unveil next year's draft spending plans for all public services.
-- seccion: ciencia-salud
-  medio: BBC
   titulo: Are max strength cold and flu pills worth the money?
   url: https://www.bbc.co.uk/news/articles/cjkgep4rgngro?at_medium=RSS&at_campaign=rss
   resumen: Some cold and flu remedies cost 20 times as much as a basic pack of paracetamol or ibuprofen.
 - seccion: tecnologia
   medio: The Guardian
-  titulo: 'Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI'
-  url: https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai
-  resumen: Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Get our daily political email , free app or daily news podcast Entry-level jobs will be the first to be automated due to AI, but it could mean fewer hours and higher wages for or
+  titulo: Nvidia board reportedly deciding whether to oust CEO Jensen Huang as stock price plunges
+  url: https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair
+  resumen: Meeting comes after CEO admitted to having a relationship with a woman who is alleged to be a Chinese spy Business live – latest updates Nvidia’s board of directors met on Wednesday to decide whether to oust Jensen Huang as CEO of the world’s most valuable chip company, according to reports, after a
 - seccion: tecnologia
   medio: The Guardian
   titulo: Facial recognition errors put ethnic minorities at risk of wrongful arrest, police watchdog warns
@@ -177,12 +202,17 @@ titulares:
   resumen: Inspectors find some officers acted on potential matches from retrospective searches without making enough checks Police officers risk arresting innocent people, especially from ethnic minorities, if they treat inaccurate facial recognition data as evidence, an official report has found. Although th
 - seccion: tecnologia
   medio: The Guardian
-  titulo: 'You had me at LOL: some notes for the You’ve Got Mail reboot'
-  url: https://www.theguardian.com/film/2026/nov/12/youve-got-mail-reboot-email
-  resumen: Substackers in love, dodgy romance scams and Jeff Bezos as the dashing lead … the film-makers behind the remake of the dial-up classic will be facing an embarrassment of pitches Assuming you have already heard about the You’ve Got Mail reboot, you are probably in one of two states. You are either ex
+  titulo: 'Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI'
+  url: https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai
+  resumen: Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Get our daily political email , free app or daily news podcast Entry-level jobs will be the first to be automated due to AI, but it could mean fewer hours and higher wages for or
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: 'Tanuki: Pon’s Summer review – an adorable raccoon mends the world, one parcel at a time'
+  url: https://www.theguardian.com/games/2026/nov/12/tanuki-pons-summer-review
+  resumen: Nintendo Switch/2, PlayStation 4/5, Xbox One/series X/S, PC; Denkiworks/Inpleron Limited This gentle game of fixing and fetching, in which you play as a furry post office worker on a BMX, has a slow, calming magic that delights in routine and restoration Arriving alongside November’s blue wave , Tan
 - seccion: cultura
   medio: BBC
-  titulo: Government could force media industry to improve safeguards after Walliams allegations
+  titulo: Media industry could be forced to improve safeguards after Walliams allegations
   url: https://www.bbc.co.uk/news/articles/cm3egj20v5x4o?at_medium=RSS&at_campaign=rss
   resumen: Culture Secretary Lisa Nandy could force participation in an industry watchdog to protect whistleblowers, the BBC understands.
 - seccion: cultura
@@ -190,16 +220,6 @@ titulares:
   titulo: How much art does your council own and is it locked away or on display?
   url: https://www.bbc.co.uk/news/articles/crgqwgzxeexno?at_medium=RSS&at_campaign=rss
   resumen: More than 500,000 pieces of art are owned by 225 councils, the BBC finds, but most of it is storage.
-- seccion: cultura
-  medio: BBC
-  titulo: Author says there were 'real concerns' about David Walliams within publishing industry
-  url: https://www.bbc.co.uk/news/articles/c95y15830k77o?at_medium=RSS&at_campaign=rss
-  resumen: The comedian denies allegations of sexual misconduct, inappropriate behaviour and abusing his power more than 10 years ago.
-- seccion: cultura
-  medio: BBC
-  titulo: African writing award probe finds 'no evidence' winning story was AI generated
-  url: https://www.bbc.co.uk/news/articles/cmglr260z7eko?at_medium=RSS&at_campaign=rss
-  resumen: Zimbabwean writer Simbarashe Kundizeza has also vehemently denied the allegation made in a US magazine.
 - seccion: cultura
   medio: The Guardian
   titulo: I wear a feline leotard and ears to see Cats – and meet all the other theatre superfans going crazy for costumes
@@ -212,14 +232,39 @@ titulares:
   resumen: The British actor took up writing and producing to have control over what she stars in after a scandal involving some of the most powerful men in the film business After a recent run as an assassin, a serial killer and a gangster, Charlotte Kirk was looking for something a little lighter, and surely
 - seccion: cultura
   medio: The Guardian
+  titulo: '‘I railed against the stereotype of the humourless lesbian’: the cheeky, feminist photography of Jill Posener'
+  url: https://www.theguardian.com/artanddesign/2026/nov/12/jill-posener-interview-radical-feminist-photography
+  resumen: 'Her witty photos served as a rebuttal to 80s misogyny and Thatcherite conservatism. Now 50 years on, the photographer is receiving an overdue retrospective. ‘I loved that we could respond with humour,’ she says. If it were a lady it would get its bottom pinched. If this lady was a car she’d run you '
+- seccion: cultura
+  medio: The Guardian
+  titulo: Public Access Afterworld by Jane Schoenbrun review – horror in the TV static
+  url: https://www.theguardian.com/books/2026/nov/12/public-access-afterworld-by-jane-schoenbrun-review-horror-in-the-tv-static
+  resumen: The Teenage Sex and Death at Camp Miasma writer-director’s first novel is a wry, hugely fun journey into the dark world behind our screens Public Access Afterworld is the first novel by Jane Schoenbrun, director of cult-hit horror film I Saw the TV Glow and the more recent Teenage Sex and Death at C
+- seccion: cultura
+  medio: The Guardian
+  titulo: '‘You can almost smell the sweat’: striptease artists and steel pans light up this week’s free art shows'
+  url: https://www.theguardian.com/artanddesign/2026/nov/12/you-can-almost-smell-the-sweat-striptease-artists-and-steel-pans-light-up-this-weeks-free-art-shows
+  resumen: Four free exhibitions take you from a luxury white enclave in Rio de Janeiro to exhausted erotic dancers touring the US and a culture-changing London address ★★★★☆ Continue reading...
+- seccion: cultura
+  medio: The Guardian
+  titulo: Years of onscreen jokes suggest Walliams’ reputation was ‘in plain sight’ within industry, insider says
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/12/years-of-onscreen-jokes-suggest-walliams-reputation-was-in-plain-sight-within-industry-insider-says
+  resumen: References raise questions over whether claims about bankable stars have been ignored by entertainment industry The comedy sketch opens in a doctor’s office, with a trouserless David Walliams apparently being treated for a fictional sexually transmitted disease. The doctor tells him it is bad news a
+- seccion: cultura
+  medio: The Guardian
   titulo: Bronze leg found in Scottish bog sheds new light on Roman occupation
   url: https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit
   resumen: Once thought to have been looted by Scottish tribes, the gilded limb is the centrepiece of a new exhibition on Roman Scotland in Edinburgh A large bronze leg found in a bog in rural Scotland more than 200 years ago and then hidden away in a duke’s storeroom is helping to rewrite the history of the R
 - seccion: cultura
   medio: The Guardian
-  titulo: Hunting Alice Bell review – this conspiracy theory thriller starring Simon Pegg is a hot mess
-  url: https://www.theguardian.com/tv-and-radio/2026/nov/11/hunting-alice-bell-review-thriller-simon-pegg-alexandra-roach-channel-4
-  resumen: Inspired by the story of Maxine Carr, this twisty drama follows a group of women accused of helping a killer. It tackles everything from witch hunts to incel culture … and unravels like a real-life version of The Traitors Hunting Alice Bell begins with a familiar scene. A woman has been found guilty
+  titulo: 'The bar singer, the K-pop veteran and the ‘railway track diva’: meet three Eurovision Asia 2026 hopefuls'
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/12/meet-three-eurovision-asia-2026-hopefuls
+  resumen: 'For some, it’s their first big break, for others it’s a chance to secure their fame. But for all 11 acts, it’s an opportunity to be Asia’s first ever winner Eurovision is heading to Asia: here’s what to expect Next week the Eurovision juggernaut beloved by millions across Europe will arrive in Bangk'
+- seccion: cultura
+  medio: The Guardian
+  titulo: South Park takes on the expensive, confusing world of club sports – with a nod to Heated Rivalry
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/12/south-park-episode-5-world-of-club-sports
+  resumen: The US midterms made it into this week’s episode, which focuses on gay couple Craig and Tweek as they join a ‘pay-to-play’ sport team which promises them a better future South Park (or South America, as it’s known this season) is renowned for its turning around episodes far quicker than just about a
 - seccion: cultura
   medio: The Guardian
   titulo: 'TV tonight: Philomena Cunk is back – and taking on Hollywood'
@@ -232,29 +277,24 @@ titulares:
   resumen: 'This good-natured if relentlessly unsubtle family film from Netflix and the studio behind Bluey relies on a cute alien with no personality It’s important for stories about magical formative experiences to make the point that time marches forward. Puff the Magic Dragon slinks back into his cave; Max '
 - seccion: cultura
   medio: The Guardian
-  titulo: '‘You can almost smell the sweat’: striptease artists and steel pans light up this week’s free art shows'
-  url: https://www.theguardian.com/artanddesign/2026/nov/12/you-can-almost-smell-the-sweat-striptease-artists-and-steel-pans-light-up-this-weeks-free-art-shows
-  resumen: Four free exhibitions take you from a luxury white enclave in Rio de Janeiro to exhausted erotic dancers touring the US and a culture-changing London address ★★★★☆ Continue reading...
+  titulo: 'You had me at LOL: some notes for the You’ve Got Mail reboot'
+  url: https://www.theguardian.com/film/2026/nov/12/youve-got-mail-reboot-email
+  resumen: Substackers in love, dodgy romance scams and Jeff Bezos as the dashing lead … the film-makers behind the remake of the dial-up classic will be facing an embarrassment of pitches Assuming you have already heard about the You’ve Got Mail reboot, you are probably in one of two states. You are either ex
 - seccion: deportes
   medio: Europa Press
-  titulo: Mbappé tiene "una leve molestia" y descansará contra Italia
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-mbappe-tiene-leve-molestia-descansara-contra-italia-20261111212011.html
-  resumen: El seleccionador de Francia, Zinedine Zidane, confirmó que no podrá contar con Kylian Mbappé este jueves contra Italia en Milán, encuentro de la Liga de Naciones, aunque descartó que el jugador del Real Madrid abandone la concentración por "una leve molestia".
-- seccion: deportes
-  medio: Europa Press
-  titulo: Un Baskonia sin remedio pierde también en Belgrado
-  url: https://www.europapress.es/deportes/baloncesto-00163/noticia-baskonia-remedio-pierde-tambien-belgrado-20261111225017.html
-  resumen: El Kosner Baskonia perdió (80-66) este miércoles en su visita al Partizán Belgrado en la undécima jornada de la Euroliga, siempre a remolque y lejos de cambiar su mala dinámica en la máxima competición continental para seguir colista.
+  titulo: Laporte y Nico Williams, fuera de la convocatoria ante República Checa
+  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-laporte-nico-williams-fuera-convocatoria-republica-checa-20261112103204.html
+  resumen: El central Aymeric Laporte y el extremo Nico Williams se han quedado este jueves fuera de la convocatoria para el partido de la quinta jornada de la fase de grupos de la Liga de Naciones, que enfrenta a España y República Checa en Praga, una convocatoria en la que se estrenan Marc Roca y Jacobo Ramó
 - seccion: deportes
   medio: BBC Sport
-  titulo: England's Blues brothers - how the Bellinghams helped save Birmingham
-  url: https://www.bbc.co.uk/sport/football/articles/cm1j3j20r2rzo?at_medium=RSS&at_campaign=rss
-  resumen: Boyhood Birmingham City fans Jude and Jobe Bellingham could become the first brothers to play for England for 19 years.
+  titulo: The chaos that took Carrick from two-year deal to sacked within 15 games
+  url: https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss
+  resumen: Michael Carrick becomes the third Manchester United manager to be sacked in three seasons - where did it go wrong?
 - seccion: deportes
   medio: BBC Sport
-  titulo: Andreeva wins 11 games in a row to thrash Sabalenka at WTA Finals
-  url: https://www.bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_medium=RSS&at_campaign=rss
-  resumen: Mirra Andreeva wins 11 games in a row to thrash world number two Aryna Sabalenka and reach the last four at the WTA Finals.
+  titulo: England legend Anderson, 44, joins Surrey
+  url: https://www.bbc.co.uk/sport/cricket/articles/c6879g5z0v0wo?at_medium=RSS&at_campaign=rss
+  resumen: Legendary England bowler James Anderson extends his record-breaking career beyond his 45th birthday by signing for Surrey.
 - seccion: deportes
   medio: BBC Sport
   titulo: Robertson set to make history but his hero Dalglish will always be King
@@ -262,31 +302,66 @@ titulares:
   resumen: Ties bind Scotland captain Andy Robertson and the man whose caps record he's about to equal, Kenny Dalglish, in more ways than one, writes Tom English.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Kane's top 10 England moments - which was your favourite?
-  url: https://www.bbc.co.uk/sport/football/articles/c64g12w5zpjpo?at_medium=RSS&at_campaign=rss
-  resumen: BBC Sport looks at 10 of Harry Kane's most iconic England moments as he prepares to break his country's caps record.
+  titulo: Nurmagomedov slaps Dvalishvili to spark hotel brawl
+  url: https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq0l38rw2w7ro?at_medium=RSS&at_campaign=rss
+  resumen: Former UFC bantamweight champion Merab Dvalishvili and PFL lightweight champion Usman Nurmagomedov are involved in a physical altercation in Abu Dhabi.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Wales' James warns of Norwegian revenge in Oslo
-  url: https://www.bbc.co.uk/sport/football/articles/c623jl1kenvyo?at_medium=RSS&at_campaign=rss
-  resumen: Winger Dan James says Wales proved a point when they beat Norway – but is wary Erling Haaland's team will now want to do the same to them.
+  titulo: Andreeva wins 11 games in a row to thrash Sabalenka at WTA Finals
+  url: https://www.bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_medium=RSS&at_campaign=rss
+  resumen: Mirra Andreeva wins 11 games in a row to thrash world number two Aryna Sabalenka and reach the last four at the WTA Finals.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Arsenal join Scott chase - Thursday's gossip
-  url: https://www.bbc.co.uk/sport/football/articles/c62l51xyl98no?at_medium=RSS&at_campaign=rss
-  resumen: Arsenal contact Bournemouth about midfielder Alex Scott, Manchester United add two defenders to list of potential targets, Aston Villa weigh up move for Chelsea midfielder Romeo Lavia, plus more.
+  titulo: Marsh dodges Khawaja claims as Cummins vows to 'respond properly'
+  url: https://www.bbc.co.uk/sport/cricket/articles/c623jlxgn9rno?at_medium=RSS&at_campaign=rss
+  resumen: Mitchell Marsh persistently refuses to speak about Australia's ball-tampering saga at a press conference but captain Pat Cummins vows to "respond properly".
 - seccion: deportes
   medio: BBC Sport
-  titulo: Workaholic with a tattooed throat – meet The Merthyr Mexican
-  url: https://www.bbc.co.uk/sport/boxing/articles/c607303x7yedo?at_medium=RSS&at_campaign=rss
-  resumen: Welsh boxer Gavin Gwynne faces Zelfa Barrett at Wembley on 14 November as he aims for an unlikely world title shot.
+  titulo: England's Mitchell faces prolonged spell out after hamstring operation
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cwr7grg25432o?at_medium=RSS&at_campaign=rss
+  resumen: England scrum-half Alex Mitchell is facing a prolonged spell on the sidelines after an operation to fix recurring hamstring issues.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Wales' Basham starts against All Blacks as Wainwright ruled out
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cmvg2dwpyx70o?at_medium=RSS&at_campaign=rss
+  resumen: Wales number eight Taine Basham will start his first international for four years as he replaces the injured Aaron Wainwright against New Zealand.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: England's Blues brothers - how the Bellinghams helped save Birmingham
+  url: https://www.bbc.co.uk/sport/football/articles/cm1j3j20r2rzo?at_medium=RSS&at_campaign=rss
+  resumen: Boyhood Birmingham City fans Jude and Jobe Bellingham could become the first brothers to play for England for 19 years.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: How 'Barca way' continues despite big-name exits
+  url: https://www.bbc.co.uk/sport/football/articles/c5vg23nmgp2yo?at_medium=RSS&at_campaign=rss
+  resumen: Arsenal face a much-changed Barcelona in the Women's Champions League on Thursday - but how have the Spanish giants coped so well with losing key players?
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Britain's Kelly to face Ennis in February unification bout
+  url: https://www.bbc.co.uk/sport/boxing/articles/c3wy04zvre15o?at_medium=RSS&at_campaign=rss
+  resumen: Unbeaten two-weight world champion Jaron Ennis will look to end Josh Kelly's nine-fight winning streak.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: USA withdraw from U17 World Cup over armed conflict risk
+  url: https://www.bbc.co.uk/sport/football/articles/c6y49yz77pppo?at_medium=RSS&at_campaign=rss
+  resumen: The USA pull out of the Under-17 World Cup, which starts in Qatar next week, because of the risk of armed conflict.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Young duo at heart of Nations League's meanest defence
+  url: https://www.bbc.co.uk/sport/articles/cw24epvmq96lo?at_medium=RSS&at_campaign=rss
+  resumen: With Northern Ireland yet to concede a goal in the 2026-27 Nations League, young defenders Ruairi McConville and Tom Atcheson have been impressing for Michael O'Neill's side.
 - seccion: deportes
   medio: The Guardian
-  titulo: 'Meeting of two lost souls: can Pochettino make it work at Manchester United? | Barney Ronay'
-  url: https://www.theguardian.com/football/2026/nov/11/mauricio-pochettino-manchester-united-old-trafford-manager
-  resumen: Manager has been hurt by experiences at elite clubs but several players at Old Trafford could fit his playing style Welcome, Mauricio, to the meat grinder. Or rather, welcome back. We’ve been expecting you. There is nothing surprising in the news Manchester United may be on the verge of appointing M
+  titulo: Carrick sacked by Manchester United with team in Premier League relegation zone – live
+  url: https://www.theguardian.com/football/live/2026/nov/12/carrick-sacked-by-manchester-united-with-team-in-premier-league-relegation-zone-live
+  resumen: ⚽️ Head coach departs after one win in 11 games ⚽️ Carrick sacked with Pochettino poised to take over ⚽️ Have any thoughts? Email Luke Michael Carrick has been dismissed by Manchester United. He departs after a 4-4 draw with Aston Villa at Old Trafford last Sunday that left the team in the Premier L
 - seccion: deportes
   medio: The Guardian
-  titulo: US withdraw from U-17 World Cup in Qatar due to safety concerns
-  url: https://www.theguardian.com/football/2026/nov/11/usa-u-17-world-cup-qatar-withdrawal-middle-east-conflict
-  resumen: USSF cites state department advisory about Qatar Competition set to kick off in eight days The US men’s national team have pulled out of the Fifa U-17 World Cup, which is due to kick off in Qatar in just over a week. In a letter sent to players explaining the decision, the US Soccer Federation cited
+  titulo: 'Harry Kane’s England caps record: an illustrious career in numbers and charts'
+  url: https://www.theguardian.com/football/2026/nov/12/harry-kane-england-caps-record-career-in-numbers-charts
+  resumen: Striker to play historic 126th match and that’s far from the only statistic that sets him apart for his country Harry Kane will become the most capped player for England’s men when he features against Croatia at Wembley. Yet in the context of the grand history of international football, his record t
+- seccion: deportes
+  medio: The Guardian
+  titulo: Less drama, more listening, but is Kozo Tashima the candidate to topple Infantino?
+  url: https://www.theguardian.com/football/2026/nov/12/fifa-kozo-tashima-seeks-change-of-tone
+  resumen: Japan FA honorary president is hoping a calmer approach that makes fewer unwelcome headlines for Fifa will be welcomed by football Not many remember Japan’s bid for the 2022 World Cup, when the country finished the race with only two of the final 22 votes. Kozo Tashima was involved then, and now the
