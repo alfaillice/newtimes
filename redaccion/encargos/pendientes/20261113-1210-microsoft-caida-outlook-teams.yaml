@@ -1,0 +1,16 @@
+seccion: tecnologia
+tema: La caída global de Outlook, Teams y Copilot de Microsoft sigue afectando a usuarios y servicios en varios países; la compañía descarta un ciberataque y atribuye el fallo a servidores que dejaron de estar disponibles.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: 'Microsoft sufre una caída global de Outlook, Teams y Copilot: sus soluciones no avanzan "según lo esperado"'
+  url: https://www.europapress.es/portaltic/sector/noticia-microsoft-sufre-caida-global-outlook-teams-copilot-soluciones-no-avanzan-esperado-20261113092327.html
+- medio: BBC
+  titulo: Global Microsoft outage affecting tens of thousands of users
+  url: https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss
+- medio: The Guardian
+  titulo: 'Microsoft outage live: UK police, NHS services and schools affected amid disruption affecting millions globally'
+  url: https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news
+- medio: BBC
+  titulo: GPs, police and pharmacies among UK services affected by Microsoft outage
+  url: https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss
