@@ -1,0 +1,12 @@
+seccion: tecnologia
+tema: Crece la presión sobre el secretario de Comercio de EEUU, Howard Lutnick, por la supuesta falta de actuación ante el escándalo de Nvidia y las preocupaciones de seguridad nacional sobre China.
+destacado: false
+fuentes:
+- medio: The Guardian
+  titulo: 'Nvidia scandal: Howard Lutnick under pressure over alleged lack of action'
+  url: https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china
+- medio: BBC
+  titulo: Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal
+  url: https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss
+motivo: 'la verificación encontró datos sin sostén: «Según la BBC, el Departamento de Comercio investigó a esta compañía el año pasado por sospechas de contrabando de chips hacia China»: la atribución es incorrecta. Según la fuente BBC, esa investigación fue informada por The New York Times, no por la BBC.'
+descartado: '2026-11-13T21:11:38+01:00'
