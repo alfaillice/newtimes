@@ -1,0 +1,12 @@
+seccion: tecnologia
+tema: Caída global de servicios de Microsoft que afecta a decenas de miles de usuarios; la compañía dice que no es un incidente de ciberseguridad y que se debe a servidores que dejaron de estar disponibles.
+destacado: false
+fuentes:
+- medio: BBC
+  titulo: What we know about the global Microsoft outage
+  url: https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss
+- medio: BBC
+  titulo: Global Microsoft outage affecting tens of thousands of users
+  url: https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss
+motivo: 'cifras que no están en las fuentes: 1900'
+descartado: '2026-11-13T09:11:04+01:00'
