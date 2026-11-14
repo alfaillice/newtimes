@@ -1,10 +1,35 @@
-generado: '2026-11-14T08:50:00+01:00'
+generado: '2026-11-14T11:50:00+01:00'
 titulares:
+- seccion: espana
+  medio: Europa Press
+  titulo: El PP pide a Bruselas que verifique si Sánchez ejecuta las inversiones ferroviarias financiadas con fondos europeos
+  url: https://www.europapress.es/nacional/noticia-pp-pide-bruselas-verifique-si-sanchez-ejecuta-inversiones-ferroviarias-financiadas-fondos-europeos-20261114102349.html
+  resumen: El PP pretende que la Comisión Europea examine la ejecución de las inversiones financiadas con dinero comunitario, los controles de mantenimiento y modernización ferroviaria y el cumplimiento de las obligaciones europeas en materia de seguridad, a raíz de los accidentes ferroviarios de Adamuz (Córdo
+- seccion: espana
+  medio: Europa Press
+  titulo: El Senado dará más de 188.000 euros al año a cada grupo parlamentario y otros 23.600 por cada integrante
+  url: https://www.europapress.es/nacional/noticia-senado-dara-mas-188000-euros-ano-cada-grupo-parlamentario-otros-23600-cada-integrante-20261114101950.html
+  resumen: El Senado continúa preparándose para la nueva legislatura que surja de las elecciones generales del próximo 29 de noviembre y, en el apartado de subvenciones, facilitará a los grupos parlamentarios una cuantía fija de 188.784 euros al año y otra variable de 23.598 euros anuales por cada integrante.
+- seccion: espana
+  medio: Europa Press
+  titulo: Sánchez protagoniza un vídeo en el que relata la historia de Teresa para poner en valor el 'decreto Maricarmen'
+  url: https://www.europapress.es/nacional/noticia-sanchez-protagoniza-video-relata-historia-teresa-poner-valor-decreto-maricarmen-20261114113350.html
+  resumen: 'El PSOE ha lanzado este sábado un vídeo electoral en el que el presidente del Gobierno y candidato a la reelección, Pedro Sánchez, relata la historia personal de Teresa para destacar las bondades del conocido como ''decreto Maricarmen'' y dejar claro que no da igual quién gobierne España a partir del '
+- seccion: espana
+  medio: Europa Press
+  titulo: El Polisario cree que el próximo Gobierno puede liderar la solución del conflicto en el Sáhara y "reparar el daño"
+  url: https://www.europapress.es/nacional/noticia-polisario-cree-proximo-gobierno-puede-liderar-solucion-conflicto-sahara-reparar-dano-20261114093947.html
+  resumen: El primer ministro de la autoproclamada República Árabe Saharaui Democrática (RASD), Bucharaya Hamudi Beyun, ha defendido que el Gobierno que salga de las elecciones del 29 de noviembre en España está en situación de poder liderar una solución del conflicto en el Sáhara Occidental y de "reparar el d
 - seccion: internacional
   medio: Europa Press
   titulo: EEUU reabre su espacio aéreo tras la suspensión de los vuelos en su territorio
   url: https://www.europapress.es/internacional/noticia-eeuu-reabre-espacio-aereo-suspension-vuelos-territorio-20261114025823.html
   resumen: La Administración Federal de Aviación (FAA) de Estados Unidos ha levantado este sábado la orden que suspendía todos los vuelos en el país tras cuatro horas de paralización que han provocado miles de retrasos y cancelaciones alegando "problemas en las telecomunicaciones".
+- seccion: internacional
+  medio: Europa Press
+  titulo: El brote de ébola cumple seis meses como el más mortal de RDC y en medio de problemas para contenerlo
+  url: https://www.europapress.es/internacional/noticia-brote-ebola-cumple-seis-meses-mas-mortal-rdc-medio-problemas-contenerlo-20261114083148.html
+  resumen: El brote de ébola declarado a mediados de mayo en República Democrática del Congo (RDC) cumple este domingo seis meses convertido ya en el más mortal en la historia del país --y la segunda hasta la fecha a nivel mundial, con alrededor de 5.500 fallecidos-- y entre alertas internacionales sobre la ex
 - seccion: internacional
   medio: Europa Press
   titulo: EEUU descarta la amenaza terrorista e insiste en un fallo de telecomunicaciones ante la suspensión de vuelos
@@ -15,16 +40,6 @@ titulares:
   titulo: Trump, Xi y Putin mantendrán una reunión histórica en China centrada en la no proliferación nuclear
   url: https://www.europapress.es/internacional/noticia-trump-xi-putin-mantendran-reunion-historica-china-centrada-no-proliferacion-nuclear-20261114063927.html
   resumen: Los presidentes de Estados Unidos, China y Rusia mantendrán una reunión la próxima semana en el marco de la cumbre del Foro de Cooperación Económica Asia-Pacífico (APEC) en la ciudad china de Shenzhen, una cita histórica entre las tres principales potencias nucleares en la que previsiblemente aborda
-- seccion: internacional
-  medio: Europa Press
-  titulo: EEUU suspende todos sus vuelos de salida por "motivos de seguridad"
-  url: https://www.europapress.es/internacional/noticia-eeuu-suspende-todos-vuelos-salida-motivos-seguridad-20261113224537.html
-  resumen: Las autoridades de Estados Unidos han suspendido este viernes todas las salidas para todos los aeropuertos de su territorio, alegando "circunstancias extraordinarias y motivos de seguridad", por lo que los vuelos de salida deberán permanecer en tierra hasta nuevo aviso.
-- seccion: internacional
-  medio: Europa Press
-  titulo: Un petrolero hunde un ferry de pasajeros en el río Misisipi, de momento sin víctimas
-  url: https://www.europapress.es/internacional/noticia-petrolero-hunde-ferry-mas-129-personas-bordo-rio-misisipi-20261113212318.html
-  resumen: Un petrolero ha hundido este viernes un ferry de pasajeros a bordo en el río Misisipi, a altura del puerto de la ciudad de Nueva Orleans, de momento sin constancia de fallecidos.
 - seccion: economia
   medio: El País
   titulo: 'El ‘made in Italy’ está en peligro: se busca relevo generacional'
@@ -37,9 +52,9 @@ titulares:
   resumen: Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.
 - seccion: economia
   medio: BBC
-  titulo: Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal
-  url: https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss
-  resumen: Scott Bessent told CNBC that several government agencies "were in favour of putting Megaspeed on the entity list for months".
+  titulo: Football kit giveaway aims to boost participation
+  url: https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss
+  resumen: Millie Bright helps hand out free kit to young girls to help them keep playing in spite of costs.
 - seccion: economia
   medio: BBC
   titulo: What do Christmas market traders say about rising prices?
@@ -85,6 +100,11 @@ titulares:
   titulo: SpaceX Starship megarocket blasts off before expected return for reuse
   url: https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit
   resumen: 'Flight 15 expected to orbit Earth about 14 times over 22 hours, before company catches it at Starbase, Texas SpaceX’s Starship megarocket blasted off from Texas on Friday afternoon as the aerospace company sought to make history with a double catch of its reusable rocket, but ultimately fell short. '
+- seccion: ciencia-salud
+  medio: The Guardian
+  titulo: Hundreds of children in England prescribed weight-loss jabs, figures show
+  url: https://www.theguardian.com/science/2026/nov/14/children-iengland-prescribed-weight-loss-jabs
+  resumen: 'Exclusive: investigation finds prescriptions for children under 12, as experts stress need for specialist supervision and long-term monitoring Hundreds of children in England are receiving prescriptions for GLP-1 medications, including some younger than 12, the Guardian can reveal. GLP-1 medications'
 - seccion: tecnologia
   medio: BBC
   titulo: Even Grand Theft Auto's original creators haven't been able to play GTA 6
@@ -95,21 +115,6 @@ titulares:
   titulo: How the Jensen Huang scandal created a headache for business-friendly Singapore
   url: https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss
   resumen: The scandal has cast a spotlight on Singapore's success as a chip hub - and a location for alleged illicit trade.
-- seccion: tecnologia
-  medio: BBC
-  titulo: Microsoft outage 'stark reminder' of how much we rely on tech
-  url: https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss
-  resumen: Microsoft has apologised for the issue, which it said was due to a technical failure.
-- seccion: tecnologia
-  medio: The Guardian
-  titulo: Microsoft ‘deeply sorry’ for disruption affecting millions and says it’s ‘not related to cyber or AI’ – as it happened
-  url: https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news
-  resumen: 'This live blog is now closed. Tell us: have you been affected by the Microsoft outage? Microsoft struggles to fix huge outage affecting Outlook and Teams What happened and when will it be fixed? There are plenty of essential services that remain unaffected by the outage, which is largely impacting e'
-- seccion: tecnologia
-  medio: The Guardian
-  titulo: 'Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action'
-  url: https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china
-  resumen: US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang US politics – live updates The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of action over the Nvidia spying scandal a
 - seccion: cultura
   medio: BBC
   titulo: 'Brand, Walliams and MAFS: Is this a reckoning for the entertainment industry?'
@@ -117,19 +122,39 @@ titulares:
   resumen: These stories represent the consequences of changes that began years ago, rather than being a sudden cultural shift.
 - seccion: cultura
   medio: BBC
-  titulo: Timothée Chalamet and Zendaya prank Rylan Clark for Children in Need
-  url: https://www.bbc.co.uk/news/articles/cqly4lnxn031o?at_medium=RSS&at_campaign=rss
-  resumen: The TV star fell victim to a practical joke from the Hollywood stars of the Dune franchise.
-- seccion: cultura
-  medio: BBC
-  titulo: Dept Q crew member dies after being injured at Edinburgh film studio
-  url: https://www.bbc.co.uk/news/articles/cqr7g5l4z9zeo?at_medium=RSS&at_campaign=rss
-  resumen: Emergency crews were called to reports of an incident at FirstStage in Leith.
-- seccion: cultura
-  medio: BBC
   titulo: Why so much love between Ireland and Garth Brooks?
   url: https://www.bbc.co.uk/news/articles/c65y1jjlq1qjo?at_medium=RSS&at_campaign=rss
   resumen: Country music superstar Garth Brooks will perform a multi-city tour of Ireland in 2027.
+- seccion: cultura
+  medio: The Guardian
+  titulo: Our critics’ verdicts on this week’s UK cinema releases
+  url: https://www.theguardian.com/film/ng-interactive/2026/nov/14/this-week-uk-cinema-releases-cynthia-erivo-prima-facie-johnny-depp-ebenezer
+  resumen: From Cynthia Erivo’s bravura barrister to Johnny Depp’s surprisingly good Scrooge, take a quick glance at this week’s new films *** Continue reading...
+- seccion: cultura
+  medio: The Guardian
+  titulo: '‘It’s like the wild west’: how AI has rocked the literary world'
+  url: https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world
+  resumen: With authors losing lucrative deals and writers removed from prize shortlists, accusations of AI use are sending shock waves through the publishing industry. Is it too late to turn the tide on machine writing? T he romance novelist Coral Hart got her break writing books for Mills & Boon, the publish
+- seccion: cultura
+  medio: The Guardian
+  titulo: 'From Cunk on Cinema to Prima Facie: the week in rave reviews'
+  url: https://www.theguardian.com/culture/2026/nov/14/from-cunk-on-cinema-to-prima-facie-the-week-in-rave-reviews
+  resumen: Television’s most deadpan (and dense) documentarian casts her eye over cinema, while Cynthia Erivo dazzles in a sexual assault legal drama. Here’s the pick of the week’s culture, taken from the Guardian’s best-rated reviews Continue reading...
+- seccion: cultura
+  medio: The Guardian
+  titulo: 'From Fjord to U2: your complete entertainment guide to the week ahead'
+  url: https://www.theguardian.com/culture/2026/nov/14/going-out-staying-in-fjord-u2-grand-theft-auto-vi-complete-entertainment-guide-week-ahead
+  resumen: Sebastian Stan and Renate Reinsve are in a custody battle in Cristian Mungiu’s powerful drama, while the Irish stadium monsters are back, and back on form, after nine years away Fjord Out now Romanian auteur Cristian Mungiu’s latest stars Sebastian Stan and Renate Reinsve in a Norway-set drama about
+- seccion: cultura
+  medio: The Guardian
+  titulo: 'Honey: this flirty, kinky Killing Eve prequel should have been called Carré on Spying'
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/14/honey-bbc-flirty-kinky-killing-eve-prequel-should-have-been-called-carre-on-spying
+  resumen: 'The amazing Ann Skelly plays Eve’s spy-handler Carolyn in a steamy, camp cold war thriller set in east Germany. Tagline: ‘everyone is watching – look hot!’ I always found it odd that spy stories are the quintessential interest of middle-aged men. Isn’t spying all about relationships, listening and c'
+- seccion: cultura
+  medio: The Guardian
+  titulo: Immersive show brings Kyffin Williams’ rugged Welsh landscapes to life
+  url: https://www.theguardian.com/artanddesign/2026/nov/14/sir-kyffin-williams-artist-immersive-exhibition-national-library-wales-aberystwyth
+  resumen: Paintings by one of country’s most important artists have been animated and set to music at National Library of Wales The paintings of artists such as Vincent van Gogh, Paul Cézanne and David Hockney have been brought to life in all-singing, all-dancing immersive shows in recent years. Now one of Wa
 - seccion: cultura
   medio: The Guardian
   titulo: 'TV tonight: a spicy, funny cold war Killing Eve prequel'
@@ -137,39 +162,19 @@ titulares:
   resumen: 'This Berlin-set origin story stars Ann Skelly and Rory Kinnear. Plus: the clever, creepy mystery of Yaga takes another turn. Here’s what to watch this evening 9pm, BBC One If you ever wondered how Fiona Shaw’s Killing Eve MI6 oddball Carolyn Martens got so eccentric, you’re in luck. This drama, set '
 - seccion: deportes
   medio: Europa Press
-  titulo: La 'Oranje' de Xavi impresiona con un 7-0 a Grecia
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-oranje-xavi-impresiona-grecia-20261113233646.html
-  resumen: La selección de Países Bajos goleó (7-0) a Grecia este viernes para tomar el liderato del Grupo 2 en la máxima división de la Liga de Naciones, atados ya los cuartos de final, mientras que Alemania se impuso (1-3) a Serbia para tener también opciones.
-- seccion: deportes
-  medio: Europa Press
-  titulo: Owono, sancionado con 12 partidos por "infracción grave"
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-owono-sancionado-12-partidos-infraccion-grave-20261113220152.html
-  resumen: El Comité de Disciplina de la Real Federación Española de Fútbol (RFEF) anunció este viernes la "imposición de la sanción en su grado máximo", "doce partidos de suspensión", al portero del FC Andorra Jesús Owono, tras la trágica acción que le costó la vida al delantero del CD Tenerife Jesús de Migue
-- seccion: deportes
-  medio: Europa Press
-  titulo: '''Manita'' copera del Celta al Salamanca UDS con dobletes de Jutglà y Swedberg'
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-manita-copera-celta-salamanca-uds-dobletes-jutgla-swedberg-20261113230159.html
-  resumen: El RC Celta de Vigo ha accedido este viernes a los treintaidosavos de final de la Copa del Rey Mapfre 2026-27 gracias a su triunfo por 0-5 ante el Salamanca UDS, encauzado por un doblete de Ferran Jutglà antes de la primera media hora y sentenciado por otro doblete de Williot Swedberg en los minutos
-- seccion: deportes
-  medio: Europa Press
-  titulo: 'Louzán: "Que España organice la final del Mundial 2030 es innegociable"'
-  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-louzan-espana-organice-final-mundial-2030-innegociable-20261113212100.html
-  resumen: El presidente de la Real Federación Española de Fútbol (RFEF), Rafael Louzán, intervino este viernes en el XX Congreso Nacional de Derecho Deportivo y analizó los retos de la organización de la Copa del Mundo 2030, defendiendo que es "innegociable" que la final del torneo se dispute en España.
-- seccion: deportes
-  medio: Europa Press
-  titulo: El Barça asalta el OAKA con un Robinson estelar
-  url: https://www.europapress.es/deportes/baloncesto-00163/noticia-barca-asalta-oaka-robinson-estelar-20261113230259.html
-  resumen: El Barça tumbó (74-76) al Panathinaikos este viernes en la jornada 11 de la Euroliga para igualar en lo alto de la tabla a los griegos con ocho victorias tras un último cuarto brillante en el Telekom Center Athens, remontando 13 puntos de la mano de un enchufado Justin Robinson (24 puntos).
-- seccion: deportes
-  medio: Europa Press
-  titulo: Bruno Iribarne salva el triunfo de la selección española sub-21 ante Japón
-  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-bruno-iribarne-salva-triunfo-seleccion-espanola-sub-21-japon-20261113210810.html
-  resumen: La selección española masculina sub-21 de fútbol ha derrotado este viernes por 2-0 a la selección sub-21 de Japón, con goles de Ángel Alarcón y Pablo García, en un partido amistoso disputado en el Estadio Francisco de la Hera de Almendralejo y donde el portero Bruno Iribarne ha salvado el triunfo lo
+  titulo: Aday Mara cae como titular ante los Clippers
+  url: https://www.europapress.es/deportes/baloncesto-00163/noticia-aday-mara-cae-titular-clippers-20261114113344.html
+  resumen: El pívot Aday Mara, el único español con minutos esta jornada en la NBA, volvió a ser titular con Oklahoma City Thunder pero sufrió una nueva derrota frente a unos Los Angeles Clippers (113-112) sin su compatriota Baba Miller, en un partido en el que un tiro fallado por Shai Gilgeous-Alexander sobre
 - seccion: deportes
   medio: BBC Sport
   titulo: Fitness obsessed & 'control freak' - what can Man Utd expect from Pochettino?
   url: https://www.bbc.co.uk/sport/football/articles/c85y13pv69xwo?at_medium=RSS&at_campaign=rss
   resumen: What can Manchester United fans expect from their new manager Mauricio Pochettino? BBC Sport gets an insight from Toby Alderweireld, who played under him at Spurs.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Tuchel to remind England of anti-racism protocols before Spain game
+  url: https://www.bbc.co.uk/sport/football/articles/c60mdzn2dk1eo?at_medium=RSS&at_campaign=rss
+  resumen: Manager Thomas Tuchel will remind England's players of Uefa's anti-racism protocols before Sunday's Nations League fixture against Spain in Madrid.
 - seccion: deportes
   medio: BBC Sport
   titulo: Warner accuses Cricket Australia of 'cover-up'
@@ -182,9 +187,14 @@ titulares:
   resumen: George Francis was left “broken” after he was banned from competing at the Under-19 World Championships because his team did not organise a sex verification test to prove he is male.
 - seccion: deportes
   medio: BBC Sport
-  titulo: France hold nerve to edge past South Africa in thriller
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/cqm2j810r2m2o?at_medium=RSS&at_campaign=rss
-  resumen: France hold on to end their five-match losing run against South Africa at Stade de France with an enthralling 21-19 victory in Paris.
+  titulo: Japan's unlikely leader who turned down the All Blacks
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cq74297dvnygo?at_medium=RSS&at_campaign=rss
+  resumen: Warner Dearns did not want to go to Japan as a teenager. Now he is determined to stay and do his adopted country proud.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Six goals to go - will McGinn catch Dalglish & Law?
+  url: https://www.bbc.co.uk/sport/football/articles/cke89156y10zo?at_medium=RSS&at_campaign=rss
+  resumen: After drawing level with Hughie Gallacher on 24 Scotland goals, will midfielder John McGinn reach Kenny Dalglish and Denis Law's record tally of 30?
 - seccion: deportes
   medio: BBC Sport
   titulo: How a reunion with scout Bompastor solved Chelsea's striker issue
@@ -192,14 +202,19 @@ titulares:
   resumen: Chelsea striker Melvine Malard and manager Sonia Bompastor tell the story of their 12-year footballing relationship.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Goalkeeper involved in fatal collision gets 12-game ban
-  url: https://www.bbc.co.uk/sport/football/articles/cm98xy2j8k1ko?at_medium=RSS&at_campaign=rss
-  resumen: Jesus Owono is given a 12-match suspension by the Spanish football federation's disciplinary committee after his challenge which resulted in the death of Jesus de Miguel.
-- seccion: deportes
-  medio: BBC Sport
   titulo: The challenge that brought Nunes out of retirement
   url: https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6e3dw87pyjeo?at_medium=RSS&at_campaign=rss
   resumen: Amanda Nunes says the prospect of fighting Kayla Harrison and putting women's MMA back in the spotlight convinced her to come out of retirement to fight at UFC 334 on Saturday.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Sooryavanshi becomes youngest captain in men's T20s
+  url: https://www.bbc.co.uk/sport/cricket/articles/ckvg2exrj5elo?at_medium=RSS&at_campaign=rss
+  resumen: Teenage India sensation Vaibhav Sooryavanshi breaks the record held by Croatia's Zach Vukusic as the youngest captain in top-level men's Twenty20 cricket.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Taylor-Brown wins in Dubai to top T100 standings
+  url: https://www.bbc.co.uk/sport/triathlon/articles/c6930qpvq207o?at_medium=RSS&at_campaign=rss
+  resumen: British triathlete Georgia Taylor-Brown moves top of the overall standings in the women's T100 series with her second victory of the season in Dubai.
 - seccion: deportes
   medio: BBC Sport
   titulo: Sabalenka's season ended by Svitolina at WTA Finals
@@ -207,24 +222,19 @@ titulares:
   resumen: Aryna Sabalenka's season ends in disappointment as Elina Svitolina beats the former world number one to claim her place in the knockout stage at the WTA Finals.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Salah scores twice as Egypt and Nigeria win Afcon 2027 qualifiers
-  url: https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&at_campaign=rss
-  resumen: Nigeria beat Tanzania to boost their hopes of reaching the 2027 Africa Cup of Nations, while Mohamed Salah scores twice as Egypt cruise to victory over Malawi.
+  titulo: 'Clough''s longevity: landmark achievement or indictment on football?'
+  url: https://www.bbc.co.uk/sport/football/articles/cqr7grl145zpo?at_medium=RSS&at_campaign=rss
+  resumen: Mansfield boss Nigel Clough discusses his longevity and staying power as he becomes a club's longest-serving manager for a second time in his career.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Man Utd want Paz, Chelsea target Kounde - Saturday's gossip
-  url: https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss
-  resumen: Manchester United are targeting Como midfielder Nico Paz as new manager Mauricio Pochettino prepares to receive backing in the transfer market at Old Trafford.
+  titulo: France hold nerve to edge past South Africa in thriller
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cqm2j810r2m2o?at_medium=RSS&at_campaign=rss
+  resumen: France hold on to end their five-match losing run against South Africa at Stade de France with an enthralling 21-19 victory in Paris.
 - seccion: deportes
-  medio: BBC Sport
-  titulo: '''Gloves are off'' - how Australian papers reacted to Cummins on Khawaja'
-  url: https://www.bbc.co.uk/sport/cricket/articles/cq1k97y4e1rxo?at_medium=RSS&at_campaign=rss
-  resumen: The Australian newpapers have their say after Pat Cummins' extraordinary 68-minute news conference.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Wales out to derail Norway's repair job in Oslo
-  url: https://www.bbc.co.uk/sport/football/articles/ck9871qr76gmo?at_medium=RSS&at_campaign=rss
-  resumen: Norway's golden generation host Wales in a crunch Nations League clash on Saturday, aiming to end a rare losing streak for Erling Haaland and company.
+  medio: The Guardian
+  titulo: Pochettino to Manchester United latest, WSL and Nations League buildup – matchday live
+  url: https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live
+  resumen: 'All the latest news from around the footballing world Get in touch: contact our matchday live writers on email Among the 20 managers with more than 290 matches in the Premier League, only the five “big beasts” of Alex Ferguson, Arsène Wenger, José Mourinho, Jürgen Klopp and Pep Guardiola have better'
 - seccion: deportes
   medio: The Guardian
   titulo: Portugal did the extraordinary with Cristiano Ronaldo. Can they do it without him?
@@ -232,41 +242,11 @@ titulares:
   resumen: 'The captain, the talisman, the brand: former teammates and experts discuss Portugal entering a new era after 23 years There are days football fans hope will never come. For Portugal, this is one of them. For 23 years, Cristiano Ronaldo has been more than the country’s greatest footballer; he has bee'
 - seccion: deportes
   medio: The Guardian
-  titulo: John McGinn double saves Scotland’s blushes against North Macedonia
-  url: https://www.theguardian.com/football/2026/nov/13/scotland-north-macedonia-nations-league-match-report
-  resumen: A special occasion for Andy Robertson saw Scotland flirt with embarrassment. Collection of his 102nd cap moves him level with Kenny Dalglish in the all-time Scottish list. Robertson will soon be a record holder. This was, however, John McGinn’s night. A double from McGinn, the second a penalty, spar
-- seccion: deportes
-  medio: The Guardian
   titulo: 'Nations League: Germany set up Netherlands clash after beating Serbia'
   url: https://www.theguardian.com/football/2026/nov/13/nations-league-germany-set-up-netherlands-clash-serbia-greece
   resumen: Florian Wirtz on target in Germany’s 3-1 win in Serbia Tijjani Reijnders hat-trick as Netherlands hammer Greece Germany cruised to a 3-1 win against Serbia in Belgrade on Friday, setting up a crunch encounter with the Netherlands in Berlin on Monday to decide who tops Group A2. In teeming rain in an
 - seccion: deportes
   medio: The Guardian
-  titulo: Jesús Owono given 12-match ban for tackle that resulted in Jesús de Miguel’s death
-  url: https://www.theguardian.com/football/2026/nov/13/jesus-owono-given-12-match-ban-for-tackle-that-resulted-in-jesus-de-miguels-death
-  resumen: 'FC Andorra goalkeeper collided with De Miguel Owono: ‘I feel immense pain over the loss of Jesús’ The FC Andorra goalkeeper Jesús Owono was suspended for 12 matches by the Spanish football federation’s disciplinary committee on Friday after his challenge on Jesús de Miguel resulted in the death of t'
-- seccion: general
-  medio: Europa Press
-  titulo: PSOE y Frente Amplio defienden prórrogas de alquiler, PP apuesta por construir y Vox por la "reinmigración"
-  url: https://www.europapress.es/economia/construccion-y-vivienda-00342/noticia-psoe-frente-amplio-defienden-prorrogas-alquiler-pp-apuesta-construir-vox-reinmigracion-20261113225830.html
-  resumen: PSOE y Frente Amplio han defendido las prórrogas de los contratos de alquiler y las medidas fiscales adoptadas en los últimos reales decretos de vivienda, mientras que el PP ha apostado por construir un millón de viviendas y Vox ha situado la "remigración" y la reducción de la demanda vinculada a la
-- seccion: general
-  medio: Europa Press
-  titulo: PP y Vox prometen bajar impuestos, pero PSOE y Frente Amplio cuestionan cómo lo harán sin recortar servicios
-  url: https://www.europapress.es/economia/fiscal-00347/noticia-pp-vox-prometen-bajar-impuestos-psoe-frente-amplio-cuestionan-haran-recortar-servicios-20261113234025.html
-  resumen: El Partido Popular y Vox han prometido, en el marco de la campaña electoral del 29 de noviembre, una bajada de impuestos si llegan al Gobierno, pero PSOE y Frente Amplio les han cuestionado cómo lo harán sin recortar servicios públicos.
-- seccion: general
-  medio: Europa Press
-  titulo: PSOE y Frente Amplio prometen más inversión en el tren, frente a PP y Vox que piden una auditoría de la red
-  url: https://www.europapress.es/economia/transportes-00343/noticia-psoe-frente-amplio-prometen-mas-inversion-tren-frente-pp-vox-piden-auditoria-red-20261113222931.html
-  resumen: PP promete invertir 300.000 millones si consigue gobernar y Frente Amplio pide dejar de ampliar aeropuertos e invertir en Cercanías
-- seccion: general
-  medio: Europa Press
-  titulo: 'El PSOE admite que el gasto en pensiones necesita de revisiones: "Hay que ver si hacemos bien los deberes"'
-  url: https://www.europapress.es/economia/laboral-00346/noticia-psoe-admite-gasto-pensiones-necesita-revisiones-hay-ver-si-hacemos-bien-deberes-20261113231131.html
-  resumen: El vicepresidente primero y ministro de Economía, Carlos Cuerpo, ha garantizado que si el PSOE gobierna, las pensiones se revalorizarán con el IPC, pero ha admitido que el gasto en el sistema necesita de revisiones periódicas para saber si hacen falta ajustes en los ingresos o en los gastos.
-- seccion: general
-  medio: Europa Press
-  titulo: Debate de La Sexta en directo | últimas noticias minuto a minuto
-  url: https://www.europapress.es/economia/noticia-debate-sexta-directo-ultimas-noticias-minuto-minuto-20261113205810.html
-  resumen: La Sexta emite este viernes desde las 21:30 un debate económico entre los principales partidos que concurren a las elecciones el próximo 29 de noviembre.
+  titulo: De la Fuente feels the strain as Lamine Yamal club v country debate rages in Spain
+  url: https://www.theguardian.com/football/2026/nov/14/lamine-yamal-luis-de-la-fuente-spain-england-club-country
+  resumen: Head coach hits out at ‘lies’ as suggestions of preferential treatment for young star overshadow preparations for England game in Madrid From the London Palladium to Madrid’s Metropolitano, they’re all here. On Sunday night, the footballers who lifted the game’s biggest awards meet again three weeks
