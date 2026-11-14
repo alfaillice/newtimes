@@ -1,4 +1,4 @@
-generado: '2026-11-14T17:50:00+01:00'
+generado: '2026-11-14T20:50:00+01:00'
 titulares:
 - seccion: espana
   medio: Europa Press
@@ -10,6 +10,11 @@ titulares:
   titulo: El PP pide a Bruselas que verifique si Sánchez ejecuta las inversiones ferroviarias financiadas con fondos europeos
   url: https://www.europapress.es/nacional/noticia-pp-pide-bruselas-verifique-si-sanchez-ejecuta-inversiones-ferroviarias-financiadas-fondos-europeos-20261114102349.html
   resumen: El PP pretende que la Comisión Europea examine la ejecución de las inversiones financiadas con dinero comunitario, los controles de mantenimiento y modernización ferroviaria y el cumplimiento de las obligaciones europeas en materia de seguridad, a raíz de los accidentes ferroviarios de Adamuz (Córdo
+- seccion: espana
+  medio: Europa Press
+  titulo: El PSOE cancela el acto de Sánchez y Lula da Silva en Madrid por una afonía del presidente brasileño
+  url: https://www.europapress.es/nacional/noticia-psoe-cancela-acto-sanchez-lula-da-silva-madrid-afonia-presidente-brasileno-20261114194841.html
+  resumen: El PSOE ha cancelado el acto de campaña previsto para el lunes 16 de noviembre en Madrid, en el que iban a participar el presidente del Gobierno y candidato a la reelección, Pedro Sánchez, y el presidente de Brasil, Luiz Inácio Lula da Silva por una afonía del mandatario brasileño. Fuentes de Monclo
 - seccion: espana
   medio: Europa Press
   titulo: El Senado dará más de 188.000 euros al año a cada grupo parlamentario y otros 23.600 por cada integrante
@@ -37,14 +42,19 @@ titulares:
   resumen: El presidente no hace distinción entre Feijóo y su socio potencial de Gobierno y destaca las alianzas del líder de Vox con dirigentes de la ultraderecha global como Trump, Milei, Orban, Salvini y Meloni
 - seccion: espana
   medio: El País
-  titulo: 'Abascal defiende la prioridad nacional: “Nos presentamos a las elecciones para hacer legal lo que hoy nos dicen que es ilegal”'
-  url: https://elpais.com/espana/elecciones-generales/2026-11-14/abascal-defiende-la-prioridad-nacional-nos-presentamos-a-las-elecciones-para-hacer-legal-lo-que-hoy-nos-dicen-que-es-ilegal.html
-  resumen: El líder de Vox contesta al líder del PP, Alberto Núñez Feijóo, que el viernes calificó de ilegal el principio que propone la formación de ultraderecha
+  titulo: Colau contrapone su propuesta para ampliar la cobertura de la sanidad pública con el modelo “debilitado” del PP en Andalucía
+  url: https://elpais.com/espana/elecciones-generales/2026-11-14/colau-contrapone-su-propuesta-para-ampliar-la-cobertura-de-la-sanidad-publica-con-el-modelo-debilitado-del-pp-en-andalucia.html
+  resumen: Frente Amplio se desmarca de Adelante y llama al voto con una reivindicación de su papel en el Gobierno
 - seccion: internacional
   medio: Europa Press
-  titulo: El brote de ébola cumple seis meses como el más mortal de RDC y en medio de problemas para contenerlo
-  url: https://www.europapress.es/internacional/noticia-brote-ebola-cumple-seis-meses-mas-mortal-rdc-medio-problemas-contenerlo-20261114083148.html
-  resumen: El brote de ébola declarado a mediados de mayo en República Democrática del Congo (RDC) cumple este domingo seis meses convertido ya en el más mortal en la historia del país --y la segunda hasta la fecha a nivel mundial, con alrededor de 5.500 fallecidos-- y entre alertas internacionales sobre la ex
+  titulo: Más de 106.000 manifestantes en el quinto sábado de movilizaciones sociales en Francia
+  url: https://www.europapress.es/internacional/noticia-mas-106000-manifestantes-quinto-sabado-movilizaciones-sociales-francia-20261114182053.html
+  resumen: Unas 106.000 personas, según el Ministerio del Interior, 200.000, según los convocantes, han tomado este sábado las calles de las principales ciudades de Francia en la quinta semana de movilizaciones sociales iniciadas al hilo de las protestas en educación, pero que se han ampliado para protestar po
+- seccion: internacional
+  medio: Europa Press
+  titulo: Protestas por la vivienda en más de 30 ciudades de Portugal
+  url: https://www.europapress.es/internacional/noticia-protestas-vivienda-mas-30-ciudades-portugal-20261114192917.html
+  resumen: Un total de 32 poblaciones han sido testigo este sábado de manifestaciones por la vivienda convocadas por la plataforma Casa Para Vivir, que exige la retirada de la reforma del Nuevo Régimen de Arrendamiento Urbano que tramita el Parlamento portugués.
 - seccion: internacional
   medio: Europa Press
   titulo: Zelenski asegura que EEUU ha ofrecido a Ucrania entrar en la OTAN a cambio de renunciar al Donbás
@@ -52,64 +62,59 @@ titulares:
   resumen: El presidente de Ucrania, Volodimir Zelenski, ha explicado que los negociadores de Estados Unidos han planteado la posibilidad de aceptar a Ucrania en la OTAN a cambio de que renuncie al Donbás y se lo entregue a Rusia.
 - seccion: internacional
   medio: Europa Press
+  titulo: Rusia asegura que Europa estaría más segura sin el "dolor de muelas" de la OTAN
+  url: https://www.europapress.es/internacional/noticia-rusia-asegura-europa-estaria-mas-segura-dolor-muelas-otan-20261114202145.html
+  resumen: La portavoz del Ministerio de Asuntos Exteriores ruso, Maria Zajarova, ha asegurado este sábado que Europa estaría más segura sin la OTAN, alianza a la que ha calificado de "dolor de muelas".
+- seccion: internacional
+  medio: Europa Press
+  titulo: El Gobierno de EEUU apunta a un fallo del contratista o un "rúter defectuoso" como responsable del caos aéreo
+  url: https://www.europapress.es/internacional/noticia-gobierno-eeuu-apunta-fallo-contratista-ruter-defectuoso-responsable-caos-aereo-20261114184551.html
+  resumen: El secretario de Transportes de Estados Unidos, Sean Duffy, ha mencionado este sábado a un fallo de la empresa contratista de los servicios de comunicación del control aéreo L3Harris y un posible "rúter defectuoso" como causas del caos aéreo que ha provocado retrasos y la cancelación de más de 9.000
+- seccion: internacional
+  medio: Europa Press
   titulo: Rusia anuncia la toma de otra localidad en la región ucraniana de Zaporiyia
   url: https://www.europapress.es/internacional/noticia-rusia-anuncia-toma-otra-localidad-region-ucraniana-zaporiyia-20261114113837.html
   resumen: El Ministerio de Defensa de Rusia ha anunciado este sábado que sus fuerzas militares han tomado el control de la localidad de Tersianka, en la región ucraniana de Zaporiyia, tras una operación encabezada por unidades del Ejército ruso desplegadas en los frentes del este y sur de Ucrania.
 - seccion: internacional
   medio: Europa Press
-  titulo: Trump, Xi y Putin mantendrán una reunión histórica en China centrada en la no proliferación nuclear
-  url: https://www.europapress.es/internacional/noticia-trump-xi-putin-mantendran-reunion-historica-china-centrada-no-proliferacion-nuclear-20261114063927.html
-  resumen: Los presidentes de Estados Unidos, China y Rusia mantendrán una reunión la próxima semana en el marco de la cumbre del Foro de Cooperación Económica Asia-Pacífico (APEC) en la ciudad china de Shenzhen, una cita histórica entre las tres principales potencias nucleares en la que previsiblemente aborda
-- seccion: internacional
-  medio: Europa Press
   titulo: China y Tailandia sellan nuevos proyectos estratégicos para llevar su cooperación económica a "nuevos niveles"
   url: https://www.europapress.es/internacional/noticia-china-tailandia-sellan-nuevos-proyectos-estrategicos-llevar-cooperacion-economica-nuevos-niveles-20261114103623.html
   resumen: El primer ministro chino, Li Qiang, ha mantenido una reunión con su homólogo tailandés, Autin Charnvirakul, en la que ambos han defendido el fortalecimiento de los vínculos bilaterales mediante nuevos acuerdos estratégicos en materia comercial, de inversiones y proyectos de infraestructuras, según h
-- seccion: internacional
-  medio: Europa Press
-  titulo: 'La ONU asegura que el impacto de las tormentas en Gaza "era evitable" y reclama ayuda urgente: "Hay vidas en juego"'
-  url: https://www.europapress.es/internacional/noticia-onu-asegura-impacto-tormentas-gaza-era-evitable-reclama-ayuda-urgente-hay-vidas-juego-20261114094053.html
-  resumen: El Equipo Humanitario (HCT, por sus siglas en inglés) del Territorio Palestino Ocupado ha advertido de que las consecuencias de las recientes tormentas en la Franja de Gaza podrían haberse evitado y ha reclamado a Israel que permita la entrada inmediata de suministros para el ivierno que permitan pr
-- seccion: internacional
-  medio: Europa Press
-  titulo: Al menos tres muertos al naufragar una embarcación en un río en el suroeste de Canadá
-  url: https://www.europapress.es/internacional/noticia-menos-tres-muertos-naufragar-embarcacion-rio-suroeste-canada-20261114085533.html
-  resumen: Tres personas han fallecido y varias más han sido rescatadas tras colisionar una embarcación con un objeto no identificado en el el río Squamish, cerca de Squamish (Columbia Británica, Canadá), durante la jornada del jueves, marcada por las fuertes lluvias y las inundaciones.
-- seccion: internacional
-  medio: Europa Press
-  titulo: Dos palestinos muertos en Gaza en un bombardeo israelí a pesar del alto el fuego
-  url: https://www.europapress.es/internacional/noticia-dos-palestinos-muertos-gaza-bombardeo-israeli-pesar-alto-fuego-20261114123243.html
-  resumen: Al menos dos personas han muerto y varias más han resultado heridas después de un nuevo bombardeo de un dron israelí perpetrado este sábado en Yabalia, en el norte de la Franja de Gaza, a pesar del alto el fuego formalmente en vigor desde hace más de un año.
-- seccion: internacional
-  medio: El País
-  titulo: 'Agentes señuelo, piratas informáticos y códigos malignos: así se espían China y Estados Unidos'
-  url: https://elpais.com/us/2026-11-14/agentes-senuelo-piratas-informaticos-y-codigos-malignos-asi-se-espian-china-y-estados-unidos.html
-  resumen: Washington aún no ha determinado si Alice Huang, la amante del exjefe de Nvidia, es una espía de Pekín
 - seccion: economia
-  medio: BBC
-  titulo: Microsoft says services fully restored after day-long global outage
-  url: https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss
-  resumen: Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.
+  medio: El País
+  titulo: 'Anthropic: la madre de todas las salidas a Bolsa (que puede poner en riesgo a la humanidad con su IA) donde hay más en juego que mucho dinero'
+  url: https://elpais.com/economia/negocios/2026-11-14/anthropic-la-madre-de-todas-las-salidas-a-bolsa-que-puede-poner-en-riesgo-a-la-humanidad-con-sus-modelos-de-ia-donde-hay-mas-en-juego-que-muchisimo-dinero.html
+  resumen: Los recelos de los inversores acerca de las valoraciones del sector tecnológico amenazaron con hacer descarrilar la operación, pero los enormes intereses económicos y políticos en juego empujan para que su inminente estreno en el parqué sea un éxito
 - seccion: economia
   medio: BBC
   titulo: Football kit giveaway aims to boost participation
   url: https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss
   resumen: Millie Bright helps hand out free kit to young girls to help them keep playing in spite of costs.
-- seccion: economia
-  medio: BBC
-  titulo: What do Christmas market traders say about rising prices?
-  url: https://www.bbc.co.uk/news/articles/c95y152k8erpo?at_medium=RSS&at_campaign=rss
-  resumen: From £8 bratwursts to £11 Yorkshire pudding wraps, why is the cost of the markets rising year on year?
-- seccion: economia
-  medio: BBC
-  titulo: Food bank sees donations drop by 10% each year
-  url: https://www.bbc.co.uk/news/articles/c6702j7e48eno?at_medium=RSS&at_campaign=rss
-  resumen: Staff fear the government stockpiling advice will have an impact on donations as Christmas looms.
 - seccion: sociedad
   medio: Europa Press
   titulo: ¿Son accesibles los debates electorales?
   url: https://www.europapress.es/epsocial/igualdad/noticia-son-accesibles-debates-electorales-20261114113251.html
   resumen: La Confederación Estatal de Personas Sordas (CNSE) ha solicitado a las formaciones políticas que concurren a las elecciones generales del próximo 29 de noviembre un "compromiso firme" para garantizar la accesibilidad de los debates electorales mediante interpretación en lengua de signos y subtitulad
+- seccion: sociedad
+  medio: Europa Press
+  titulo: RTVE emitirá el cara a cara entre Sánchez y Feijóo el 19 de noviembre y el debate de ocho formaciones el día 23
+  url: https://www.europapress.es/sociedad/noticia-rtve-emitira-cara-cara-sanchez-feijoo-19-noviembre-debate-ocho-formaciones-dia-23-20261114123307.html
+  resumen: RTVE emitirá en directo el próximo jueves 19 de noviembre, a las 22.00 horas, el debate cara a cara entre el presidente del Gobierno y candidato del PSOE, Pedro Sánchez, y el candidato del PP, Alberto Núñez Feijóo, organizado por la Academia de Televisión en el marco de la campaña electoral para las
+- seccion: sociedad
+  medio: Europa Press
+  titulo: El Papa pide en los Andes peruanos abrir los ojos ante el sufrimiento de quien "se ve obligado a abandonar su patria"
+  url: https://www.europapress.es/sociedad/noticia-papa-pide-andes-peruanos-abrir-ojos-sufrimiento-quien-ve-obligado-abandonar-patria-20261114193032.html
+  resumen: El Papa León XIV ha pedido este sábado "abrir los ojos ante tantas situaciones dolorosas", entre ellas "el sufrimiento de quien se ve obligado a abandonar su patria para buscar un futuro mejor, para sí y para los suyos, en las grandes ciudades de la costa", durante la misa que ha presidido en la exp
+- seccion: sociedad
+  medio: Europa Press
+  titulo: Los retos del sistema de cuidados ante el envejecimiento de la población
+  url: https://www.europapress.es/epsocial/igualdad/noticia-retos-sistema-cuidados-envejecimiento-poblacion-20261114120247.html
+  resumen: El medio rural concentra desafíos de acceso, derivados de la dispersión geográfica y falta de ciertos servicios y profesionales
+- seccion: sociedad
+  medio: Europa Press
+  titulo: La Reina Sofía participa en Madrid en la Gran Recogida 2026 de los Bancos de Alimentos
+  url: https://www.europapress.es/sociedad/noticia-reina-sofia-participa-madrid-gran-recogida-2026-bancos-alimentos-20261114173353.html
+  resumen: La Reina Sofía ha participado este sábado en la Gran Recogida 2026, la campaña anual de la Federación Española de Bancos de Alimentos (FESBAL), una iniciativa que se celebra los días 13, 14 y 15 de noviembre en más de 11.000 establecimientos de toda España y que tiene como objetivo recaudar el equiv
 - seccion: sociedad
   medio: Europa Press
   titulo: BepiColombo alcanzará en una semana la órbita de Mercurio tras 8 años de viaje
@@ -131,26 +136,6 @@ titulares:
   url: https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss
   resumen: The planets of Mercury, Venus, Mars and Jupiter will align in pre-dawn sky throughout November.
 - seccion: ciencia-salud
-  medio: BBC
-  titulo: Bluetongue virus confirmed on County Down farm
-  url: https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss
-  resumen: Officials from the Department of Agriculture, Environment and Rural Affairs said the virus had been detected in three sheep.
-- seccion: ciencia-salud
-  medio: BBC
-  titulo: Extreme weather leaves gardeners hedging their bets
-  url: https://www.bbc.co.uk/news/articles/c6qj5r2qzqpwo?at_medium=RSS&at_campaign=rss
-  resumen: Gardeners across Sussex are changing their planting strategies after this year's unprecedented heat.
-- seccion: ciencia-salud
-  medio: BBC
-  titulo: Woman with terminal cancer gets dream wedding on hospital ward
-  url: https://www.bbc.co.uk/news/articles/cm702wjg48k2o?at_medium=RSS&at_campaign=rss
-  resumen: Maggie Heginbothom thanked the staff after a "dream" ceremony was arranged two days after her partner proposed.
-- seccion: ciencia-salud
-  medio: BBC
-  titulo: '''I cycled across America in memory of my wife - I know she''s proud of me'''
-  url: https://www.bbc.co.uk/news/articles/cm20v65gye9zo?at_medium=RSS&at_campaign=rss
-  resumen: Declan Faulkner cycled 3,800 miles from Portland, Oregon, to Portland, Maine, as a tribute to his late wife Patrina.
-- seccion: ciencia-salud
   medio: The Guardian
   titulo: Hundreds of children in England prescribed weight-loss jabs, figures show
   url: https://www.theguardian.com/science/2026/nov/14/children-iengland-prescribed-weight-loss-jabs
@@ -159,7 +144,7 @@ titulares:
   medio: BBC
   titulo: Italy fines Meta €805m over accessing users' photos
   url: https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss
-  resumen: The social media giant is accused of not informing about 20 million users it had access to their photos.
+  resumen: The social media giant is accused of not informing 20 million users it had access to their photos.
 - seccion: tecnologia
   medio: The Guardian
   titulo: Microsoft says services fully restored after global outage hits governments
@@ -172,6 +157,11 @@ titulares:
   resumen: Shatterproof wine glasses, Jellycat plushies, ‘yoga paws’ and more gifts handpicked by our experts The best personalized gift ideas Nothing says holiday cheer quite like panic-browsing websites in pursuit of the perfect gift , toggling between 47 open tabs, eyes straining against your screen’s harsh
 - seccion: cultura
   medio: Europa Press
+  titulo: El Centro Cultural Coreano combina exposiciones, literatura, gastronomía y el fenómeno K-Pop para cerrar 2026 en Madrid
+  url: https://www.europapress.es/cultura/noticia-centro-cultural-coreano-combina-exposiciones-literatura-gastronomia-fenomeno-pop-cerrar-2026-madrid-20261114182044.html
+  resumen: El Centro Cultural Coreano en España desplegará en Madrid una amplia agenda cultural durante el tramo final de 2026, que contempla exposiciones así como actividades literarias o gastronómicas, sin olvidar el fenómeno de las K-Pop. Gran parte de las actividades son gratuitas, previa inscripción.
+- seccion: cultura
+  medio: Europa Press
   titulo: Sergio Ramírez ingresa este domingo en la RAE para ocupar la silla L, vacante desde la muerte de Vargas Llosa
   url: https://www.europapress.es/cultura/noticia-sergio-ramirez-ingresa-domingo-rae-ocupar-silla-vacante-muerte-vargas-llosa-20261114124450.html
   resumen: El escritor nicaragüense y ganador del Premio Cervantes 2017, Sergio Ramírez, ingresará este domingo 15 de noviembre como académico de número en la Real Academia Española (RAE) para ocupar la silla L, vacante desde el fallecimiento de Mario Vargas Llosa el 13 de abril de 2025.
@@ -182,24 +172,29 @@ titulares:
   resumen: The Great British Bake Off presenter says he has not been in contact with the convicted rapist "for many years".
 - seccion: cultura
   medio: BBC
+  titulo: Philippines wins first Eurovision Song Contest Asia
+  url: https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss
+  resumen: Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.
+- seccion: cultura
+  medio: BBC
   titulo: Bonnie Tyler remembers loved ones in posthumous Christmas single
   url: https://www.bbc.co.uk/news/articles/c6y493wzkxgko?at_medium=RSS&at_campaign=rss
   resumen: Christmas single Love, Light and Peace was Bonnie Tyler's last studio recording, and was released on Friday.
 - seccion: cultura
-  medio: BBC
-  titulo: Why so much love between Ireland and Garth Brooks?
-  url: https://www.bbc.co.uk/news/articles/c65y1jjlq1qjo?at_medium=RSS&at_campaign=rss
-  resumen: Country music superstar Garth Brooks will perform a multi-city tour of Ireland in 2027.
-- seccion: cultura
   medio: The Guardian
-  titulo: Our critics’ verdicts on this week’s UK cinema releases
-  url: https://www.theguardian.com/film/ng-interactive/2026/nov/14/this-week-uk-cinema-releases-cynthia-erivo-prima-facie-johnny-depp-ebenezer
-  resumen: From Cynthia Erivo’s bravura barrister to Johnny Depp’s surprisingly good Scrooge, take a quick glance at this week’s new films *** Continue reading...
+  titulo: '‘It’s an architect’s dream’: five beautiful eco buildings around the world'
+  url: https://www.theguardian.com/artanddesign/2026/nov/14/architects-dream-five-beautiful-eco-buildings
+  resumen: From a bamboo gym in Bali to a house made from earth in Wiltshire, these projects show the beauty in sustainable design With construction accounting for more than a third of global emissions, sustainable architecture is central to the world meeting its climate targets. The following five creations f
 - seccion: cultura
   medio: The Guardian
   titulo: '‘It’s like the wild west’: how AI has rocked the literary world'
   url: https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world
   resumen: With authors losing lucrative deals and writers removed from prize shortlists, accusations of AI use are sending shock waves through the publishing industry. Is it too late to turn the tide on machine writing? T he romance novelist Coral Hart got her break writing books for Mills & Boon, the publish
+- seccion: cultura
+  medio: The Guardian
+  titulo: 'James Blunt: ‘Do I have a nickname? Yes, it rhymes with blunt’'
+  url: https://www.theguardian.com/music/2026/nov/15/james-blunt-10-chaotic-questions-interview
+  resumen: The singer on his love for Ibiza, the weirdest thing he’s done in the name of romance, and being signed up for Celebrity Traitors against his will You were a punching bag for such a long time after You’re Beautiful became a massive hit, but your consistent good humour is deeply admirable. Does it ev
 - seccion: cultura
   medio: The Guardian
   titulo: Masterpieces haunted by brutal past could send records tumbling at Sotheby’s
@@ -222,29 +217,19 @@ titulares:
   resumen: In ambitious documentary Soul Patrol, the complicated experiences of the Vietnam war’s first Black special ops team are explored both on and off the battleground Ask the average American to name an elite US fighting force, and they might kick off with the Rangers or the Seals. But during the Vietnam
 - seccion: cultura
   medio: The Guardian
-  titulo: 'From Cunk on Cinema to Prima Facie: the week in rave reviews'
-  url: https://www.theguardian.com/culture/2026/nov/14/from-cunk-on-cinema-to-prima-facie-the-week-in-rave-reviews
-  resumen: Television’s most deadpan (and dense) documentarian casts her eye over cinema, while Cynthia Erivo dazzles in a sexual assault legal drama. Here’s the pick of the week’s culture, taken from the Guardian’s best-rated reviews Continue reading...
-- seccion: cultura
-  medio: The Guardian
-  titulo: 'Honey: this flirty, kinky Killing Eve prequel should have been called Carré on Spying'
-  url: https://www.theguardian.com/tv-and-radio/2026/nov/14/honey-bbc-flirty-kinky-killing-eve-prequel-should-have-been-called-carre-on-spying
-  resumen: 'The amazing Ann Skelly plays Eve’s spy-handler Carolyn in a steamy, camp cold war thriller set in east Germany. Tagline: ‘everyone is watching – look hot!’ I always found it odd that spy stories are the quintessential interest of middle-aged men. Isn’t spying all about relationships, listening and c'
-- seccion: cultura
-  medio: The Guardian
-  titulo: 'TV tonight: a spicy, funny cold war Killing Eve prequel'
-  url: https://www.theguardian.com/tv-and-radio/2026/nov/14/tv-tonight-a-spicy-funny-cold-war-killing-eve-prequel
-  resumen: 'This Berlin-set origin story stars Ann Skelly and Rory Kinnear. Plus: the clever, creepy mystery of Yaga takes another turn. Here’s what to watch this evening 9pm, BBC One If you ever wondered how Fiona Shaw’s Killing Eve MI6 oddball Carolyn Martens got so eccentric, you’re in luck. This drama, set '
-- seccion: cultura
-  medio: The Guardian
   titulo: Immersive show brings Kyffin Williams’ rugged Welsh landscapes to life
   url: https://www.theguardian.com/artanddesign/2026/nov/14/sir-kyffin-williams-artist-immersive-exhibition-national-library-wales-aberystwyth
   resumen: Paintings by one of country’s most important artists have been animated and set to music at National Library of Wales The paintings of artists such as Vincent van Gogh, Paul Cézanne and David Hockney have been brought to life in all-singing, all-dancing immersive shows in recent years. Now one of Wa
 - seccion: deportes
   medio: Europa Press
-  titulo: 'De la Fuente: "El Metropolitano es un escenario perfecto y esperamos a una afición volcada"'
-  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-fuente-metropolitano-escenario-perfecto-esperamos-aficion-volcada-20261114152402.html
-  resumen: El seleccionador español masculino de fútbol, Luis de la Fuente, ha asegurado que el Riyadh Air Metropolitano es "un escenario perfecto" para enfrentarse este domingo a Inglaterra en la última jornada de la fase de grupos de la Liga de Naciones, y ha deseado que se puedan encontrar a "una afición vo
+  titulo: 'De la Fuente: "Decidle a Tuchel que en España no hay racismo"'
+  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-fuente-decidle-tuchel-espana-no-hay-racismo-20261114184546.html
+  resumen: El seleccionador español de fútbol, Luis de la Fuente, ha recalcado que en España "no hay racismo", saliendo al paso de unas declaraciones del seleccionador inglés, Thomas Tuchel, en las que reconoció que había advertido a sus futbolistas de que estuviesen atentos al protocolo antirracista en el par
+- seccion: deportes
+  medio: Europa Press
+  titulo: España gana en Bulgaria y continúa recta hacia el Eurobasket Femenino de 2027
+  url: https://www.europapress.es/deportes/baloncesto-00163/noticia-espana-gana-bulgaria-continua-recta-eurobasket-femenino-2027-20261114200028.html
+  resumen: España gana en Bulgaria y continúa recta hacia el Eurobasket Femenino de 2027 Triunfo de 'La Familia' (64-85) en la jornada 2 de su grupo dentro de la segunda ronda MADRID, 14 (EUROPA PRESS) La selección española femenina de baloncesto ha ganado este sábado por 64-85 en su visita a la de Bulgaria, t
 - seccion: deportes
   medio: Europa Press
   titulo: 'Alcaraz, sobre su reencuentro con Ferrero: "No voy a mentir, va a ser extraño"'
@@ -256,25 +241,20 @@ titulares:
   url: https://www.europapress.es/deportes/tenis-00166/noticia-jodar-no-tengo-ninguna-presion-semana-recompensa-bien-ido-ano-20261114134626.html
   resumen: El tenista español Rafa Jódar ha reconocido que "no" siente "ninguna presión" al jugar las Finales de la ATP de Turín, ya que esta semana supone "una recompensa" al trabajo que ha desarrollado durante todo 2026, además de desear que le sirva "como experiencia para el futuro".
 - seccion: deportes
-  medio: Europa Press
-  titulo: 'Louzán: "El Mundial 2030 pertenece al continente europeo"'
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-louzan-mundial-2030-pertenece-continente-europeo-20261114162835.html
-  resumen: El presidente de la Real Federación Española de Fútbol (RFEF), Rafael Louzán, ha asegurado que "no se contempla" una retirada de España de la organización del Mundial 2030 porque es "innegociable" que la final se dispute en nuestro país, recalcando también que el torneo "pertenece al continente euro
-- seccion: deportes
-  medio: Europa Press
-  titulo: 'Álvaro Cervera, tras la muerte de Jesús de Miguel: "No sabemos si estamos preparados para competir"'
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-alvaro-cervera-muerte-jesus-miguel-no-sabemos-si-estamos-preparados-competir-20261114150713.html
-  resumen: 'El entrenador del CD Tenerife, Álvaro Cervera, ha reconocido que "no" sabe si están preparados para "competir" este domingo en LaLiga Hypermotion ante el Ceuta, en el primer encuentro del equipo tras la muerte del futbolista Jesús de Miguel, y ha rechazado valorar la sanción de 12 partidos impuesta '
-- seccion: deportes
-  medio: Europa Press
-  titulo: La selección visita a Ander Barrenetxea tras ser operado
-  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-seleccion-visita-ander-barrenetxea-ser-operado-20261114144608.html
-  resumen: Los internacionales españoles Mikel Oyarzabal, Martín Zubimendi y Mikel Merino han visitado este sábado en el hospital al delantero de la Real Sociedad Ander Barrenetxea, que había sido convocado por Luis de la Fuente para los últimos partidos del grupo de la Liga de Naciones y que se lesionó de gra
-- seccion: deportes
   medio: BBC Sport
   titulo: Magnificent Wales beat New Zealand for first time since 1953
   url: https://www.bbc.co.uk/sport/rugby-union/articles/c63dgev0p8pgo?at_medium=RSS&at_campaign=rss
-  resumen: Wales celebrate a first victory against New Zealand in 73 years with a brilliant 35-28 win to provide astonishing scenes in Cardiff. Wales celebrate a first victory against New Zealand in 73 years with a brilliant performance to provide astonishing scenes in Cardiff.
+  resumen: Wales celebrate a first victory against New Zealand since 1953 with a brilliant 35-28 win to spark astonishing scenes in Cardiff.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Joseph scores record-equalling five tries as England rout Japan
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cmvg208nlw04o?at_medium=RSS&at_campaign=rss
+  resumen: Will Joseph marked his comeback after four years out the Test game with a record-equalling five tries as England tore through Japan.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Bompastor's risks pay off as Chelsea go top of WSL
+  url: https://www.bbc.co.uk/sport/football/articles/cmvg25w18q9qo?at_medium=RSS&at_campaign=rss
+  resumen: In any big encounter you will often hear managers say it is the "fine margins" that decide a game. In this case, it was Sonia Bompastor's decisions.
 - seccion: deportes
   medio: BBC Sport
   titulo: Tuchel to remind England of anti-racism protocols before Spain game
@@ -287,24 +267,19 @@ titulares:
   resumen: Tenerife boss Alvaro Cervera reacts to goalkeeper Jesus Owono's 12-match ban as the club prepare for their first game since the death of Jesus de Miguel.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Warner accuses Cricket Australia of 'cover-up'
-  url: https://www.bbc.co.uk/sport/cricket/articles/c59vwpv4rxjeo?at_medium=RSS&at_campaign=rss
-  resumen: Former vice-captain David Warner accuses Cricket Australia of a "cover-up", claiming Australia's bowlers were not interviewed in ball-tampering investigation.
-- seccion: deportes
-  medio: BBC Sport
   titulo: McIlroy fades as Hatton leads in Dubai
   url: https://www.bbc.co.uk/sport/golf/articles/cqkgm00ykp7ko?at_medium=RSS&at_campaign=rss
   resumen: Rory McIlroy's hopes of an eighth Race to Dubai title are dented as Tyrrell Hatton takes the outright lead into the fourth round of the DP World Tour Championship.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Six goals to go - will McGinn catch Dalglish & Law?
-  url: https://www.bbc.co.uk/sport/football/articles/cke89156y10zo?at_medium=RSS&at_campaign=rss
-  resumen: After drawing level with Hughie Gallacher on 24 Scotland goals, will midfielder John McGinn reach Kenny Dalglish and Denis Law's record tally of 30?
+  titulo: Wales believed they could create history - Lake
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/c820q64ezyn7o?at_medium=RSS&at_campaign=rss
+  resumen: Captain Dewi Lake says he always believed Wales could defeat New Zealand and end the 73-year hoodoo against the All Blacks.
 - seccion: deportes
   medio: BBC Sport
-  titulo: England boxer missed Worlds over sex-test mix-up
-  url: https://www.bbc.co.uk/sport/boxing/articles/c9ly4lerj8m3o?at_medium=RSS&at_campaign=rss
-  resumen: George Francis was left “broken” after he was banned from competing at the Under-19 World Championships because his team did not organise a sex verification test to prove he is male.
+  titulo: All Blacks ran into a Welsh brick wall - Barrett
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cmly5dwnpvdzo?at_medium=RSS&at_campaign=rss
+  resumen: New Zealand captain Beauden Barrett praises Wales' brick wall defence after the All Blacks are stunned in Cardiff.
 - seccion: deportes
   medio: BBC Sport
   titulo: Sooryavanshi becomes youngest captain in men's T20s
@@ -316,40 +291,30 @@ titulares:
   url: https://www.bbc.co.uk/sport/rugby-union/articles/c3j4rv9ypl1ko?at_medium=RSS&at_campaign=rss
   resumen: Both Scotland and Australia are capable of scintillating highs and crushing lows, but who will come out on top at Murrayfield on Sunday?
 - seccion: deportes
-  medio: BBC Sport
-  titulo: The challenge that brought Nunes out of retirement
-  url: https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6e3dw87pyjeo?at_medium=RSS&at_campaign=rss
-  resumen: Amanda Nunes says the prospect of fighting Kayla Harrison and putting women's MMA back in the spotlight convinced her to come out of retirement to fight at UFC 334 on Saturday.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Meetmebythesea wins first Paddy Power Gold Cup for McManus
-  url: https://www.bbc.co.uk/sport/horse-racing/articles/c8p3v5wqgrzyo?at_medium=RSS&at_campaign=rss
-  resumen: Jockey Harry Cobden rides Meetmebythesea to a first Paddy Power Gold Cup success for owner JP McManus at Cheltenham.
+  medio: The Guardian
+  titulo: Clinical Norway dent Wales’ Nations League top-tier hopes with victory in Oslo
+  url: https://www.theguardian.com/football/2026/nov/14/clinical-norway-dent-wales-nations-league-top-tier-hopes-with-victory-in-oslo
+  resumen: Home side avenge October defeat in Cardiff Wales bottom of Group A4 with one game left Wales suffered a 3-1 defeat to Norway in Oslo to dent their hopes of staying in the top tier of the Nations League. Antonio Nusa and Andreas Schjelderup struck in the space of nine second-half minutes as Norway tu
 - seccion: deportes
   medio: The Guardian
-  titulo: 'Norway v Wales: Nations League – live'
-  url: https://www.theguardian.com/football/live/2026/nov/14/norway-v-wales-nations-league-live
-  resumen: 'Updates from 5pm (GMT) kick-off at the Ullevaal Stadion Get in touch: email Scott and follow us on BlueSky Presented for your pleasure. To read at your leisure. This isn’t a meeting of two teams in form. Norway have lost their last three games, perhaps a wee bit emotionally spent following their glo'
+  titulo: De la Fuente adamant there is no racism in Spain despite England reminder to players
+  url: https://www.theguardian.com/football/2026/nov/14/luis-de-la-fuente-spain-england-racism-thomas-tuchel-natiions-league
+  resumen: England’s first game in Madrid since racist abuse in 2004 De la Fuente tells Tuchel ‘we’re not racists, none of us’ Luis de la Fuente has told Thomas Tuchel there is no racism in Spain after the England coach’s admission that he would remind his players of the anti-racism protocol prior to their mee
 - seccion: deportes
   medio: The Guardian
   titulo: Chelsea go top of WSL as Sandy Baltimore bullet sees off Manchester City
   url: https://www.theguardian.com/football/2026/nov/14/chelsea-manchester-city-womens-super-league-match-report
-  resumen: 'Pragmatic, resolute and gutsy. Sonia Bompastor showed her ruthless side and delivered a tactical masterclass as Chelsea earned a 1-0 win over Manchester City and leapfrogged them at the top of the Women’s Super League. Sandy Baltimore’s stunning strike in added time at the end of the first half was '
+  resumen: Pragmatic, resolute and gutsy. Sonia Bompastor showed her ruthless side and delivered a tactical masterclass as Chelsea earned a 1-0 win over Manchester City and leapfrogged them at the top of the Women’s Super League. Lucy Bronze credited fellow full-back Katie McCabe with firing Chelsea up pre-mat
 - seccion: deportes
   medio: The Guardian
-  titulo: De la Fuente feels the strain as Lamine Yamal club v country debate rages in Spain
-  url: https://www.theguardian.com/football/2026/nov/14/lamine-yamal-luis-de-la-fuente-spain-england-club-country
-  resumen: Head coach hits out at ‘lies’ as suggestions of preferential treatment for young star overshadow preparations for England game in Madrid From the London Palladium to Madrid’s Metropolitano, they’re all here. On Sunday night, the footballers who lifted the game’s biggest awards meet again three weeks
+  titulo: Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend
+  url: https://www.theguardian.com/football/2026/nov/14/portugal-immortalise-cristiano-ronaldos-no-7-shirt-in-tribute-to-national-legend
+  resumen: Original No 7 design preserved to honour player Career brought 146 goals and three major titles Portugal have made a permanent change to the No 7 shirt to honour the legacy of Cristiano Ronaldo and ensure the number remains forever associated with their greatest footballing icon. The former forward,
 - seccion: deportes
   medio: The Guardian
   titulo: Raphinha sees red as Brazil stunned by Japan while Argentina’s post-Messi era starts with defeat
   url: https://www.theguardian.com/football/2026/nov/14/brazil-argentina-japan-uruguay-wales-norway-portugal-denmark
   resumen: Loss in Singapore marred by unruly end to friendly Argentina beaten 2-1 by Uruguay in Buenos Aires Raphinha was sent off as Brazil crashed to a 3-2 defeat to Japan in their international friendly in Singapore. The Barcelona captain had been substituted after 71 minutes, but was shown a red card afte
-- seccion: deportes
-  medio: The Guardian
-  titulo: Portugal did the extraordinary with Cristiano Ronaldo. Can they do it without him?
-  url: https://www.theguardian.com/football/2026/nov/14/portugal-cristiano-ronaldo-football-memories-future
-  resumen: 'The captain, the talisman, the brand: former teammates and experts discuss Portugal entering a new era after 23 years There are days football fans hope will never come. For Portugal, this is one of them. For 23 years, Cristiano Ronaldo has been more than the country’s greatest footballer; he has bee'
 - seccion: deportes
   medio: The Guardian
   titulo: Mauricio Pochettino asked the US to believe in his project. Did he believe in it himself?
@@ -362,11 +327,6 @@ titulares:
   resumen: El líder del PP y candidato a La Moncloa, Alberto Núñez Feijóo, se ha reivindicado este sábado como "gestor" desde Galicia, donde dirigió la Xunta durante 13 años, al tiempo que ha cargado con dureza contra los "ocho años" de un Ejecutivo central que ha resumido "en un ministerio, el de Transportes"
 - seccion: general
   medio: Europa Press
-  titulo: Colau critica a una derecha "muy cruel con vulnerables, pero muy cobarde para dar la cara" y defiende "pensiones dignas"
-  url: https://www.europapress.es/andalucia/noticia-colau-critica-derecha-muy-cruel-vulnerables-muy-cobarde-dar-cara-defiende-pensiones-dignas-20261114142625.html
-  resumen: La candidata a la Presidencia del Gobierno de Frente Amplio a los comicios generales del 29 de noviembre, Ada Colau, ha defendido este sábado 14 "servicios públicos fuertes y pensiones dignas" ante una derecha "muy cruel con los vulnerables, pero muy cobardes para dar la cara" que pretende "arrebata
-- seccion: general
-  medio: Europa Press
   titulo: Montero aboga por prohibir la vivienda vacacional en Canarias, donde el turismo se 'carga' la vida de los canarios
   url: https://www.europapress.es/islas-canarias/noticia-montero-aboga-prohibir-vivienda-vacacional-canarias-donde-turismo-carga-vida-canarios-20261114142605.html
   resumen: La candidata de Podemos a la presidencia del Gobierno para las elecciones del 29 de noviembre, Irene Montero, ha abogado por prohibir la vivienda vacacional en Canarias y, además, ha acusado al turismo de estarse "cargando la vida misma" de los canarios.
@@ -375,8 +335,3 @@ titulares:
   titulo: Abascal (Vox) alerta en Almería de que "no hay un enemigo peor que las encuestas" y pide una "movilización gigantesca"
   url: https://www.europapress.es/andalucia/almeria-00350/noticia-abascal-vox-alerta-almeria-no-hay-enemigo-peor-encuestas-pide-movilizacion-gigantesca-20261114143517.html
   resumen: El presidente de Vox y candidato por esta formación a la presidencia del Gobierno, Santiago Abascal, ha advertido de que, de cara a las elecciones generales del próximo 29 de noviembre, el partido no tiene "un enemigo mayor que las encuestas en estos momentos" que abren la puerta al cambio. Es por e
-- seccion: general
-  medio: Europa Press
-  titulo: RTVE emitirá el cara a cara entre Sánchez y Feijóo el 19 de noviembre y el debate de ocho formaciones el día 23
-  url: https://www.europapress.es/sociedad/noticia-rtve-emitira-cara-cara-sanchez-feijoo-19-noviembre-debate-ocho-formaciones-dia-23-20261114123307.html
-  resumen: RTVE emitirá en directo el próximo jueves 19 de noviembre, a las 22.00 horas, el debate cara a cara entre el presidente del Gobierno y candidato del PSOE, Pedro Sánchez, y el candidato del PP, Alberto Núñez Feijóo, organizado por la Academia de Televisión en el marco de la campaña electoral para las
