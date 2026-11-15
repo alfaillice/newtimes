@@ -1,0 +1,12 @@
+seccion: deportes
+tema: Rafa Jódar cae ante Alexander Zverev (6-4, 6-4) en su debut en las Finales de la ATP en Turín; primer duelo del Grupo John McEnroe.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: Jódar sucumbe ante Zverev en su estreno en las Finales de la ATP
+  url: https://www.europapress.es/deportes/tenis-00166/noticia-jodar-sucumbe-zverev-estreno-finales-atp-20261115161154.html
+- medio: BBC Sport
+  titulo: Zverev claims first win as world number one at ATP Finals
+  url: https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o
+motivo: 'la verificación encontró datos sin sostén: "BBC destaca que se trata de su primera victoria en el torneo como número uno del mundo": BBC dice "his first victory as world number one", sin limitarla al torneo. El añadido "en el torneo" cambia la atribución.'
+descartado: '2026-11-15T18:15:42+01:00'
