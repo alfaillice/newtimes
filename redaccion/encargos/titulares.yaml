@@ -1,50 +1,85 @@
-generado: '2026-11-15T08:50:00+01:00'
+generado: '2026-11-15T11:50:00+01:00'
 titulares:
+- seccion: espana
+  medio: Europa Press
+  titulo: 'Feijóo: "Pido a los españoles un apoyo amplio para derogar lo más rápido posible el sanchismo"'
+  url: https://www.europapress.es/nacional/noticia-feijoo-pido-espanoles-apoyo-amplio-derogar-mas-rapido-posible-sanchismo-20261115103206.html
+  resumen: El presidente del PP, Alberto Núñez Feijóo, ha pedido a los españoles un "apoyo amplio" para derogar "lo más rápido posible el sanchismo" y ha situado la regeneración democrática, la vivienda y la recuperación de la "verdad, la sinceridad y la honestidad" en la política entre sus principales objetiv
+- seccion: espana
+  medio: Europa Press
+  titulo: 'El papel histórico del Senado: de las críticas por su utilidad al artículo 155 en Cataluña'
+  url: https://www.europapress.es/nacional/noticia-papel-historico-senado-criticas-utilidad-articulo-155-cataluna-20261115112958.html
+  resumen: El expresidente de la institución Manuel Cruz (PSC) apuesta por desligar las elecciones del Senado a las del Congreso MADRID, 15 (EUROPA PRESS) Las alianzas electorales acordadas por los bloques políticos para conseguir el control del Senado han devuelto al primer plano el peso histórico de la Cámar
+- seccion: espana
+  medio: Europa Press
+  titulo: Expertos alertan del riesgo del "corredor" entre España y Marruecos que está forjando Estado Islámico desde el Sahel
+  url: https://www.europapress.es/nacional/noticia-expertos-alertan-riesgo-corredor-espana-marruecos-forjando-estado-islamico-sahel-20261115104649.html
+  resumen: 'Las operaciones antiterroristas llevadas a cabo por España y Marruecos en los últimos meses ponen de manifiesto el interés de Estado Islámico, a través de su filial en el Sahel, de crear un corredor logístico que una los dos países con el que se ha convertido en el principal escenario del yihadismo '
+- seccion: espana
+  medio: El País
+  titulo: 'Todos los caminos a La Moncloa pasan por el ‘podcast’: “¿Eres más pija o más quinqui?”'
+  url: https://elpais.com/espana/elecciones-generales/2026-11-15/todos-los-caminos-a-la-moncloa-pasan-por-el-podcast.html
+  resumen: 'Por primera vez, una campaña a las generales en España se vive en estos formatos. Sánchez ya lleva tres y su equipo no descarta más: “Lo cerramos en el último momento”'
+- seccion: espana
+  medio: El País
+  titulo: 'La derecha recupera la idea de la repetición de curso para los rezagados: al revés que los 10 mejores países del Informe PISA'
+  url: https://elpais.com/espana/elecciones-generales/2026-11-15/la-derecha-recupera-la-idea-de-la-repeticion-de-curso-para-los-rezagados.html
+  resumen: España tiene unos 200.000 alumnos que rehacen su año académico en etapas obligatorias y una de las tasas más altas del mundo desarrollado
 - seccion: internacional
   medio: Europa Press
-  titulo: Italia multa a Meta con 805 millones por acceder a fotos, vídeos y metadatos almacenados en teléfonos móviles
-  url: https://www.europapress.es/internacional/noticia-italia-multa-meta-805-millones-acceder-fotos-videos-metadatos-almacenados-telefonos-moviles-20261114211735.html
-  resumen: La Autoridad Italiana de Protección de Datos ha multado a la empresa estadounidense Meta Platforms Ireland Limited con 805 millones de euros por el acceso no autorizado a través de la aplicación para Android de Facebook a fotografías, vídeos y metadatos relacionados almacenados en los teléfonos de u
+  titulo: Un ataque con drones en Rostov (Rusia) deja al menos un muerto y cuatro heridos e interrumpe el tráfico ferroviario
+  url: https://www.europapress.es/internacional/noticia-ataque-drones-rostov-rusia-deja-menos-muerto-cuatro-heridos-interrumpe-trafico-ferroviario-20261115085939.html
+  resumen: Al menos una persona ha fallecido y otras cuatro han resultado heridas como consecuencia de un ataque con drones registrado durante la noche del sábado en la región rusa de Rostov, según ha comunicado el gobernador regional, Yuri Sliusar.
 - seccion: internacional
   medio: Europa Press
-  titulo: La 'Starship' de SpaceX completa con éxito su primer aterrizaje tras una misión en órbita
-  url: https://www.europapress.es/internacional/noticia-starship-spacex-completa-exito-primer-aterrizaje-mision-orbita-20261114230315.html
-  resumen: La nave 'Starship' de la empresa SpaceX ha completado este sábado con éxito su primera maniobra de aterrizaje tras una misión en órbita, lo que abre la puerta a su posible reutilización.
+  titulo: Colombia captura a 'Primo Gay', uno de los criminales más buscados del país
+  url: https://www.europapress.es/internacional/noticia-colombia-captura-primo-gay-criminales-mas-buscados-pais-20261115074849.html
+  resumen: ''
 - seccion: internacional
   medio: Europa Press
-  titulo: Macron advierte de que quien quieren reducir las aportaciones para Ucrania aspira a "una paz injusta"
-  url: https://www.europapress.es/internacional/noticia-macron-advierte-quien-quieren-reducir-aportaciones-ucrania-aspira-paz-injusta-20261114221242.html
-  resumen: El presidente francés, Emmanuel Macron, ha advertido este sábado de que quienes quieren reducir las aportaciones para la guerra en Ucrania defienden en el fondo "una paz injusta", que Ucrania "sea permanentemente vulnerable y que por consiguiente Europa sea también vulnerable".
-- seccion: internacional
-  medio: Europa Press
-  titulo: EEUU trabaja para incluir a los países europeos en las negociaciones por Ucrania
-  url: https://www.europapress.es/internacional/noticia-eeuu-trabaja-incluir-paises-europeos-negociaciones-ucrania-20261114225416.html
-  resumen: El enviado especial de Estados Unidos Jared Kushner ha asegurado este sábado que están trabajando para incluir a los países europeos en los contactos que mantienen con el formato trilateral con representantes de Ucrania y de Rusia para intentar resolver el conflicto bélico.
+  titulo: Las protestas juveniles en Alemania pierden fuerza en su segunda convocatoria y transcurren de forma pacífica
+  url: https://www.europapress.es/internacional/noticia-protestas-juveniles-alemania-pierden-fuerza-segunda-convocatoria-transcurren-forma-pacifica-20261115070901.html
+  resumen: La participación en la segunda jornada de protestas juveniles celebradas en Alemania ha caído drásticamente respecto a la convocatoria registrada hace dos semanas, en una movilización que se ha desarrollado de forma mayoritariamente pacífica, según ha informado la Policía.
 - seccion: economia
   medio: BBC
-  titulo: Beauty advent calendars can cost hundreds - but are they value for money?
+  titulo: Beauty advent calendars can cost hundreds but are they value for money?
   url: https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss
   resumen: Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.
 - seccion: ciencia-salud
   medio: BBC
-  titulo: SpaceX successfully catches top of huge Starship rocket for first time
-  url: https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss
-  resumen: The rocket stage was caught mid air using huge mechanical arms nicknamed "chopsticks".
-- seccion: ciencia-salud
-  medio: BBC
-  titulo: '''Can you believe it?'': SpaceX catches part of its Starship rocket on return to Earth'
-  url: https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss
-  resumen: SpaceX has performed the historic catch using mechanical arms nicknamed "chopsticks".
+  titulo: How to spot November's planetary parade in the pre-dawn sky
+  url: https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss
+  resumen: The planets of Mercury, Venus, Mars and Jupiter will align in pre-dawn sky throughout November.
 - seccion: ciencia-salud
   medio: BBC
   titulo: Mental health is no joke - but I've turned it into a stand-up routine
   url: https://www.bbc.co.uk/news/articles/ck1l05lqjrq6o?at_medium=RSS&at_campaign=rss
   resumen: People who have struggled with mental ill-health are giving stand-up a go to tell their stories.
-- seccion: ciencia-salud
+- seccion: tecnologia
   medio: The Guardian
-  titulo: SpaceX’s Starship returns to launch pad from orbit in victory for company
-  url: https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch
-  resumen: Although booster exploded, company caught upper stage for first time in campaign to make megarocket reusable SpaceX’s megarocket Starship returned to its Texas launch tower on Saturday, a milestone in the company’s efforts to make the craft suitable for human spaceflight. The 171ft (52-meter) bullet
+  titulo: '‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick'
+  url: https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare
+  resumen: Jensen Huang’s affair with a suspected spy is Silicon Valley’s worst nightmare come true The resignation this week of Nvidia’s founder and CEO Jensen Huang is one of the most astonishing corporate scandals in memory, featuring allegations of international espionage and extramarital affairs involving
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: Italy fines Meta $887m for accessing Android users’ photos and videos
+  url: https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos
+  resumen: The fine is among the largest an Italian authority has imposed on a tech giant and Meta says it plans to appeal the decision Italy’s data protection agency has fined Facebook parent company Meta €805m ($887m) for accessing users’ photos without their specific consent. Through the Facebook applicatio
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: '‘Prove you are not a robot’: how the Captcha scam captures your computer'
+  url: https://www.theguardian.com/money/2026/nov/15/captcha-scam-computer-malicious-software
+  resumen: 'Unlike familiar Captcha tests, this con asks you to press a series of keys. And that’s a way in for fraudsters to install malicious software You are looking for some gifts for Christmas and want to support small businesses when you shop. When you visit the site of one you’ve heard good things about '
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: '160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating'
+  url: https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam
+  resumen: Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national exam for aspiring tax accountants this year seemed too good to be true. On Sunday, sceptics were ⁠proven right when he ⁠confe
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: 'Ten years, thousands of staff and a billion dollars: the exclusive inside story of Grand Theft Auto VI'
+  url: https://www.theguardian.com/games/ng-interactive/2026/nov/15/grand-theft-auto-vi-inside-rockstar-games
+  resumen: The latest instalment of the epic crime saga is finally here. We visit Rockstar Games for a hands-on encounter with the cultural event of the decade – and can confirm it’s more than lives up to the hype It still comes as a surprise for many to learn that Grand Theft Auto, the brazenly American crime
 - seccion: cultura
   medio: Europa Press
   titulo: 'Madrid abraza a Love of Lesbian antes de su parón indefinido: "No es una despedida, es un agradecimiento"'
@@ -57,14 +92,19 @@ titulares:
   resumen: The singer felt forced to compete with her female peers, until she realised the power of longevity.
 - seccion: cultura
   medio: BBC
+  titulo: Hannah Fry feels 'unbelievably lucky' after cervical cancer treatment
+  url: https://www.bbc.co.uk/news/articles/cw62p4n3n1xyo?at_medium=RSS&at_campaign=rss
+  resumen: The presenter says she has received a 'five-year clear' after having a hysterectomy in her thirties.
+- seccion: cultura
+  medio: BBC
   titulo: Alleged Russell Brand rape victim wants age of consent law changed
   url: https://www.bbc.co.uk/news/articles/cm3rgx9p583zo?at_medium=RSS&at_campaign=rss
   resumen: Mia Latter, who says she was 16 when she met the convicted rapist, wants a staggered age of consent.
 - seccion: cultura
   medio: BBC
-  titulo: Hannah Fry feels 'unbelievably lucky' after cervical cancer treatment
-  url: https://www.bbc.co.uk/news/articles/cw62p4n3n1xyo?at_medium=RSS&at_campaign=rss
-  resumen: The presenter says she has received a 'five-year clear' after having a hysterectomy in her thirties.
+  titulo: Star-studded MacGowan tribute album gave grieving wife purpose
+  url: https://www.bbc.co.uk/news/articles/cm782dxxzjw2o?at_medium=RSS&at_campaign=rss
+  resumen: Three years after her husband's death, Victoria Mary Clarke's idea to put together a tribute album for her late husband came to fruition.
 - seccion: cultura
   medio: BBC
   titulo: '''It''s like you''re in one of his paintings'' Kyffin Williams'' art brought to life'
@@ -77,19 +117,14 @@ titulares:
   resumen: Undercover cameras paint a bleak portrait of the situation. Plus, it’s sea lion v black neck swan in Blue Planet III. Here’s what to watch this evening 10pm, ITV1 Continue reading...
 - seccion: deportes
   medio: Europa Press
-  titulo: 'Tuchel: "Es el mayor desafío del fútbol mundial a nivel de selecciones porque España parece imbatible"'
-  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-tuchel-mayor-desafio-futbol-mundial-nivel-selecciones-porque-espana-parece-imbatible-20261114220900.html
-  resumen: El seleccionador inglés masculino de fútbol, Thomas Tuchel, ha dicho este sábado que enfrentarse "ahora mismo" a la selección española "es el mayor desafío del fútbol mundial a nivel de selecciones porque parece imbatible", en la víspera de su duelo en Madrid durante la jornada 6 de su grupo en la L
+  titulo: De la Fuente descarta a Álvaro Valles, Jacobo Ramón, De Frutos y Roberto Fernández para el España-Inglaterra
+  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-fuente-descarta-alvaro-valles-jacobo-ramon-frutos-roberto-fernandez-espana-inglaterra-20261115105854.html
+  resumen: El seleccionador español masculino de fútbol, Luis de la Fuente, ha descartado a los jugadores Álvaro Valles, Jacobo Ramón, Jorge de Frutos y Roberto Fernández, junto a un Alejandro Grimaldo que el sábado abandonó la concentración de la selección por un proceso febril, para el último partido de la f
 - seccion: deportes
   medio: Europa Press
-  titulo: La Laguna Tenerife evita problemas en Andorra y el Asisa Joventut aprieta más que el Casademont Zaragoza
-  url: https://www.europapress.es/deportes/baloncesto-00163/noticia-laguna-tenerife-evita-problemas-andorra-asisa-joventut-aprieta-mas-casademont-zaragoza-20261114234824.html
-  resumen: La Laguna Tenerife ha ganado por 84-90 al MoraBanc Andorra durante la jornada 8 de la Liga Endesa, en un sábado que también ha visto los triunfos del Río Breogán por 119-110 ante el Recoletas Salud San Pablo Burgos y del Asisa Joventut por 99-94 contra el Casademont Zaragoza.
-- seccion: deportes
-  medio: Europa Press
-  titulo: Álex Grimaldo abandona la concentración de España por un proceso gripal
-  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-alex-grimaldo-abandona-concentracion-espana-proceso-gripal-20261114213606.html
-  resumen: El defensa internacional español Álex Grimaldo ha abandonado este sábado la concentración de la selección nacional absoluta "a causa de una indisposición por un cuadro febril", según informó la Real Federación Española de Fútbol (RFEF) desde su cuenta en la red social X.
+  titulo: Los Mavericks de Santi Aldama tropiezan con los Cavaliers
+  url: https://www.europapress.es/deportes/baloncesto-00163/noticia-mavericks-santi-aldama-tropiezan-cavaliers-20261115103529.html
+  resumen: El ala-pívot español Santi Aldama partió desde el banquillo para aportar siete puntos en la derrota de los Dallas Mavericks en casa de Cleveland Cavaliers (127-117), la segunda consecutiva y que deja a la franquicia texana en la última posición de 'PlayIn' de la Conferencia Oeste de la NBA.
 - seccion: deportes
   medio: BBC Sport
   titulo: Australia's Sayers 'took sandpaper from field' & rejects Cummins' claims
@@ -97,14 +132,19 @@ titulares:
   resumen: Australia bowler Chadd Sayers says he helped take sandpaper from the field in the match prior to the Cape Town Test and backs Usman Khawaja's recollection over Pat Cummins'.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Spain test will reveal if Tuchel and England have learned World Cup lessons
-  url: https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss
-  resumen: England's game with world champions Spain will reveal if head coach Thomas Tuchel has learned from summer disappointment, says chief football writer Phil McNulty.
-- seccion: deportes
-  medio: BBC Sport
   titulo: How Spain's humble superstar Simon became world's best keeper
   url: https://www.bbc.co.uk/sport/football/articles/cqvg23nv0jw2o?at_medium=RSS&at_campaign=rss
   resumen: As Spain prepare to host England in the Nations League, BBC Sport columnist Guillem Balague charts the rise of Unai Simon to become the world's best keeper.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Reality dawns after Wales dared to dream
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cvx2xnyxl85ko?at_medium=RSS&at_campaign=rss
+  resumen: As Welsh rugby fans wake up on Sunday morning the realisation will dawn on them that Wales beat New Zealand for the first time in 73 years.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: England are favourites against All Blacks, and fearless Wales are an inspiration
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/c6wy41738nv7o?at_medium=RSS&at_campaign=rss
+  resumen: In his latest BBC Sport column, England World Cup winner Matt Dawson reflects on Steve Borthwick's side's emphatic 78-15 thrashing of Japan and looks ahead to their match against New Zealand next weekend.
 - seccion: deportes
   medio: BBC Sport
   titulo: Ruthless Australia win record fourth Women's World Cup
@@ -122,24 +162,19 @@ titulares:
   resumen: Harry Kane, Jude Bellingham and Anthony Gordon are three of England's current biggest stars, but all have chosen to play their club football abroad.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Comeback kid Joseph thrills as England eye All Blacks
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/cq0l3pn5z20xo?at_medium=RSS&at_campaign=rss
-  resumen: Will Joseph's comeback after four years off the Test scene was worth waiting for. And there was plenty elsewhere to buoy England in a rout of Japan.
+  titulo: Harrison shocks Nunes on UFC return to retain title
+  url: https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c5742819x9n3o?at_medium=RSS&at_campaign=rss
+  resumen: Kayla Harrison shocks returning great Amanda Nunes by submitting the former double champion to retain her bantamweight title at UFC 334 in New York.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Svitolina races into WTA Finals showpiece against Andreeva
-  url: https://www.bbc.co.uk/sport/tennis/articles/ck5y1xdrne28o?at_medium=RSS&at_campaign=rss
-  resumen: Elina Svitolina drops just three games as she thrashes Linda Noskova to set up a WTA Finals showpiece against Mirra Andreeva.
+  titulo: Sabalenka apologises & says viral comment 'not directed at Svitolina'
+  url: https://www.bbc.co.uk/sport/tennis/articles/ck62p9ge4d76o?at_medium=RSS&at_campaign=rss
+  resumen: Aryna Sabalenka apologises and denies claims she insulted opponent Elina Svitolina after a viral clip showed her swearing in Russian during her WTA Finals defeat by the Ukrainian.
 - seccion: deportes
   medio: BBC Sport
   titulo: The 'manager's dream' who has put NI one game from history
   url: https://www.bbc.co.uk/sport/football/articles/c84gn2dl4zleo?at_medium=RSS&at_campaign=rss
   resumen: After scoring his first international goal in the 1-0 win over Ukraine, Northern Ireland boss Michael O'Neill says Terry Devlin is "a bit of a dream" to manage.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: What Wales need to stay in Nations League top tier
-  url: https://www.bbc.co.uk/sport/football/articles/cmx28nxw1elvo?at_medium=RSS&at_campaign=rss
-  resumen: BBC Sport Wales explains how Wales can stay in the Nations League top tier despite finishing bottom of their group.
 - seccion: deportes
   medio: BBC Sport
   titulo: Fiji 'did Ireland a favour' before South Africa game
@@ -152,26 +187,26 @@ titulares:
   resumen: Luke Littler begins his Grand Slam of Darts title defence with a comfortable 5-2 win over Beau Greaves in Wolverhampton.
 - seccion: deportes
   medio: The Guardian
-  titulo: Here Manchester United go again, taking the Two Ronnies route to hiring a new boss | Jonathan Wilson
-  url: https://www.theguardian.com/football/2026/nov/14/here-manchester-united-go-again-taking-the-two-ronnies-route-to-hiring-a-new-boss
-  resumen: 'Mauricio Pochettino’s arrival feels like yet another appointment that would have been better made a few years ago Magnusson: And your time starts ... now! What is paleontology? Smithers: Yes, absolutely correct. Magnusson: What’s the name of the directory that lists members of the peerage? Smithers:'
+  titulo: Spain v England buildup, reaction to Portugal’s post-Ronaldo thrashing, WSL and more – matchday live
+  url: https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live
+  resumen: 'All the latest news from around the footballing world Get in touch: contact our matchday live writers on email We have a huge derby day today. John Brewin will provide you with minute-by-minute coverage of Arsenal v London City Lionesses at 4:30pm. Aston Villa v Brimingham City West Ham v Charlton A'
 - seccion: deportes
   medio: The Guardian
-  titulo: Declan Rice accepts he had an ‘average World Cup’ as England gear up for Spain showdown
-  url: https://www.theguardian.com/football/2026/nov/14/declan-rice-england-spain-nations-league-world-cup-thomas-tuchel
-  resumen: Midfielder needed a break ‘to come back stronger’ James Trafford selected to start in goal for England Declan Rice has admitted he had an “average” World Cup at the end of a gruelling season and needed time out during the international window in September and October in order to return stronger. The
+  titulo: 'Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’'
+  url: https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better
+  resumen: The former England centre-back answers your questions on Diego Maradona, Bobby Robson and on staying in strange places “Have you made up all these on your own?” asks Terry Butcher, sitting in a London office in the week he is presented with his England legacy cap. It turns out dozens of Guardian rea
 - seccion: deportes
   medio: The Guardian
-  titulo: 'Nations League roundup: Portugal mauled by Denmark as Norway sink Wales'
-  url: https://www.theguardian.com/football/2026/nov/14/clinical-norway-dent-wales-nations-league-top-tier-hopes-with-victory-in-oslo
-  resumen: Portugal thrashed 4-1 at home by Denmark Wales bottom of Group A4 after 3-1 loss Portugal were hammered 4-1 by Denmark on Saturday, an embarrassing Nations League defeat in their first match without Cristiano Ronaldo after his retirement from international football. Rasmus Højlund starred with a sup
-- seccion: deportes
-  medio: The Guardian
-  titulo: De la Fuente adamant there is no racism in Spain despite England reminder to players
-  url: https://www.theguardian.com/football/2026/nov/14/luis-de-la-fuente-spain-england-racism-thomas-tuchel-natiions-league
-  resumen: 'De la Fuente tells Tuchel ‘we’re not racists, none of us’ Tuchel hits out at media for ‘creating confusion’ Luis de la Fuente has told Thomas Tuchel there is no racism in Spain after the England coach’s admission that he would remind his players of the anti-racism protocol prior to their meeting at '
-- seccion: deportes
-  medio: The Guardian
-  titulo: Clara Luvanga strikes as Washington Spirit beat Utah to reach third straight NWSL final
-  url: https://www.theguardian.com/football/2026/nov/14/washington-spirit-utah-royals-nwsl-semi-final-clara-luvanga
-  resumen: 'Tanzanian scores second-half winner in 2-1 victory Spirit reach fifth NWSL final and third in succession Washington will chase second title at home ground Clara Luvanga scored her second goal of the postseason in the 57th minute, capitalizing on an errant pass as the Washington Spirit reached their '
+  titulo: AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership
+  url: https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership
+  resumen: 'Clubs with wealthy proprietors can maintain a loss-making operation but things can be more complex when the supporters carry the can When you walk up from Haydons Road train station to Plough Lane there is a blue AFC Wimbledon billboard that reads “Fan owned football”, directly opposite the site of '
+- seccion: general
+  medio: Europa Press
+  titulo: Colau critica que Sánchez "ha suspendido" en materia de vivienda
+  url: https://www.europapress.es/catalunya/noticia-colau-critica-sanchez-suspendido-materia-vivienda-20261115101621.html
+  resumen: La candidata de Frente Amplio a la presidencia del Gobierno, Ada Colau, ha criticado al presidente del Gobierno, Pedro Sánchez, por la gestión realizada en materia de vivienda y ha asegurado que el presidente "ha suspendido" a este respecto, según ha dicho en una entrevista concedida a 'La Vanguardi
+- seccion: general
+  medio: Europa Press
+  titulo: El ministro Ángel Víctor Torres se desplaza este domingo a El Hierro ante el repunte migratorio que padece la isla
+  url: https://www.europapress.es/islas-canarias/noticia-ministro-angel-victor-torres-desplaza-domingo-hierro-repunte-migratorio-padece-isla-20261115110904.html
+  resumen: El ministro de Política Territorial del Gobierno de España, Ángel Víctor Torres, se desplaza este domingo hacia El Hierro para conocer la elevada presión migratoria que padece la isla. La visita se produce tras el acuerdo entre el Gobierno regional y estatal para reforzar los recursos y atender la e
