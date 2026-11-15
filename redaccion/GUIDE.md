@@ -117,6 +117,8 @@ Same rules as the Spanish edition: **never** photos from media or agencies. Pref
 
 Order of preference: the person at the centre of the story; the place or institution; a generic object or scene. The caption (`pie`) starts with **"File image"** when the picture is not of the event itself (almost always). No images of victims, injured people, bodies or minors. `alt` describes what can be seen.
 
+**At least two images and, when there is one, a video** (house rule since 15/11/2026, not a blocking requirement): add a second picture of a *different* subject in `imagenes:` (same format as `imagen`, up to 4), and a YouTube video in `video:` (`id`, `autor`, `titulo`) only if it can be embedded and shows exactly the event in the story, preferably from the official channel of the people or institution involved or from an agency or outlet on the source list. The site places them inside the text automatically, with the same design as the main photo. See the Spanish guide, section 5.
+
 Other permitted origins (only if Commons does not work): Pexels, Unsplash, official photos from La Moncloa, the European Commission or the European Parliament, NASA and ESA, with `url`, `autor`, `licencia`, `fuente` filled in by hand (see the Spanish guide).
 
 ## 6. Agents

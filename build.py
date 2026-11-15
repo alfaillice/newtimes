@@ -67,6 +67,20 @@ LICENSES_EN = {**LICENCIAS, "dominio-publico": "Public domain", "pexels": "Pexel
                "unsplash": "Unsplash licence", "uso-oficial": "Free use with attribution",
                "kit-de-prensa": "Press material", "video-oficial": "Still from the official video"}
 LICENCIAS_VALIDAS = set(LICENCIAS)
+
+
+def normalizar_video(v) -> dict | None:
+    """'video' admite el identificador de YouTube o un bloque {id, autor, titulo}."""
+    if not v:
+        return None
+    if not isinstance(v, dict):
+        v = {"id": v}
+    vid = str(v.get("id") or "").strip()
+    if not VIDEO_RE.match(vid):
+        raise ValueError(f"'video' debe llevar el identificador de YouTube de 11 caracteres, no '{vid}'")
+    return {"id": vid, "autor": str(v.get("autor") or "").strip(), "titulo": str(v.get("titulo") or "").strip()}
+
+
 VIDEO_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")   # identificador de un vídeo de YouTube
 AGENTE_CABECERA = {"User-Agent": "NewTimesBot/1.0 (+https://newtimes.news/como-trabajamos/; redaccion@newtimes.news)"}
 
@@ -139,6 +153,28 @@ def tras_parrafo(htmltxt: str, bloque, n: int = 3) -> str:
     return "</p>".join(partes[:n]) + "</p>\n" + bloque + "\n" + "</p>".join(partes[n:]).lstrip("\n")
 
 
+def con_medios(htmltxt: str, bloques) -> str:
+    """Reparte fotos y vídeos dentro del texto sin pegarlos a la foto de cabecera ni al anuncio
+    (que va tras el párrafo 3): tras el párrafo 5, 7, 9...; en noticias cortas, antes del último
+    párrafo. Cada bloque necesita al menos un párrafo detrás; los que no caben se omiten."""
+    bloques = [str(b).strip() for b in (bloques or []) if str(b or "").strip()]
+    partes = htmltxt.split("</p>")
+    total = len(partes) - 1
+    if not bloques or total < 2:
+        return htmltxt
+    huecos = list(range(5, total, 2)) if total >= 6 else [total - 1]
+    huecos += [h for h in (2, 1) if h < total and h not in huecos and h != 3]
+    sitio = dict(zip(huecos, bloques))
+    salida = []
+    for i, trozo in enumerate(partes):
+        salida.append(trozo)
+        if i < total:
+            salida.append("</p>")
+            if i + 1 in sitio:
+                salida.append("\n" + sitio[i + 1] + "\n")
+    return "".join(salida)
+
+
 def texto_plano(htmltxt: str) -> str:
     return html.unescape(re.sub(r"<[^>]+>", " ", htmltxt)).strip()
 
@@ -164,7 +200,20 @@ class Articulo:
     autor: str = "JM Triviño"
     agente: dict | None = None
     foto: dict | None = None     # imagen ya optimizada y servida desde la web
-    video: str = ""              # vídeo de YouTube que se inserta en lugar de la foto (lanzamientos musicales)
+    video: dict | None = None    # vídeo de YouTube: {id, autor, titulo}
+    imagenes: list = field(default_factory=list)      # imágenes adicionales (mismo formato que 'imagen')
+    fotos_extra: list = field(default_factory=list)   # imágenes adicionales ya optimizadas
+
+    @property
+    def video_arriba(self) -> bool:
+        """El vídeo ocupa el lugar de la foto si no hay foto o si la foto es un fotograma suyo."""
+        if not self.video:
+            return False
+        return not self.foto or (self.imagen or {}).get("licencia") == "video-oficial"
+
+    @property
+    def fotos(self) -> list:
+        return ([self.foto] if self.foto else []) + self.fotos_extra
     ruta_fuente: str = ""
     url: str = ""          # ruta relativa al sitio, empieza y acaba en /
     og: str = ""           # ruta de la imagen para compartir
@@ -278,11 +327,19 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                     imagen["licencia"] = str(imagen["licencia"]).lower()
             else:
                 avisos.append(f"{rel}: sin imagen")
-            video = str(meta.get("video") or "").strip()
-            if video and not VIDEO_RE.match(video):
-                raise ValueError(f"'video' debe ser el identificador de YouTube de 11 caracteres, no '{video}'")
-            if imagen and imagen.get("licencia") == "video-oficial" and (not video or f"/vi/{video}/" not in str(imagen.get("url"))):
-                raise ValueError("una imagen 'video-oficial' tiene que ser un fotograma del vídeo indicado en 'video'")
+            video = normalizar_video(meta.get("video"))
+            extras = meta.get("imagenes") or []
+            if not isinstance(extras, list) or len(extras) > 4:
+                raise ValueError("'imagenes' debe ser una lista de hasta 4 imágenes, con el mismo formato que 'imagen'")
+            for im in extras:
+                comprobar_imagen(im, cfg)
+                if im.get("licencia"):
+                    im["licencia"] = str(im["licencia"]).lower()
+            for im in ([imagen] if imagen else []) + extras:
+                if im.get("licencia") == "video-oficial" and (not video or f"/vi/{video['id']}/" not in str(im.get("url"))):
+                    raise ValueError("una imagen 'video-oficial' tiene que ser un fotograma del vídeo indicado en 'video'")
+            if imagen and not extras and fecha > datetime.now(tz) - timedelta(hours=6):
+                avisos.append(f"{rel}: una sola imagen; la guía pide al menos dos cuando haya material (apartado 5)")
             agente = por_slug.get(str(meta.get("agente") or ""))
             if agentes:
                 esperado = por_seccion.get(meta["seccion"])
@@ -318,7 +375,7 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                 fecha=fecha, actualizado=act, fuentes=fuentes, cuerpo_html=cuerpo_html,
                 palabras=palabras, etiquetas=[str(e) for e in meta.get("etiquetas") or []],
                 destacado=bool(meta.get("destacado")), lugar=str(meta.get("lugar") or ""),
-                imagen=imagen or None, agente=agente, video=video,
+                imagen=imagen or None, agente=agente, video=video, imagenes=extras,
                 autor=agente["nombre"] if agente else str(meta.get("autor") or "JM Triviño"),
                 ruta_fuente=rel, url=url,
             ))
@@ -455,21 +512,30 @@ def _elegir_commons(paginas: list, exacto: bool) -> dict | None:
 
 
 def preparar_foto(art: Articulo, salida: Path, cache: Path, avisos: list) -> None:
-    """Descarga (una sola vez) y optimiza la foto. Se sirve siempre desde la web propia."""
-    img = art.imagen
-    if not img:
-        return
+    """Prepara la foto principal y las adicionales, sin repetir la misma imagen."""
+    art.foto = _preparar_imagen(art, art.imagen, salida, cache, avisos) if art.imagen else None
+    vistas = {str(art.foto["original"])} if art.foto else set()
+    art.fotos_extra = []
+    for im in art.imagenes:
+        f = _preparar_imagen(art, im, salida, cache, avisos)
+        if f and str(f["original"]) not in vistas:
+            vistas.add(str(f["original"]))
+            art.fotos_extra.append(f)
+
+
+def _preparar_imagen(art: Articulo, img: dict, salida: Path, cache: Path, avisos: list) -> dict | None:
+    """Descarga (una sola vez) y optimiza una imagen. Se sirve siempre desde la web propia."""
     try:
         from PIL import Image, ImageOps
     except ImportError:
-        return
+        return None
     if img.get("commons") or img.get("buscar"):
         try:
             img = {**img, **resolver_commons(img, cache)}
             img["autor"] = _limpiar_html(img.get("autor"))
         except Exception as e:  # noqa: BLE001
             avisos.append(f"{art.ruta_fuente}: no se encontró la imagen en Commons ({e})")
-            return
+            return None
     origen = str(img.get("url") or img.get("archivo"))
     clave = hashlib.sha1(origen.encode()).hexdigest()[:16]
     cache.mkdir(parents=True, exist_ok=True)
@@ -500,7 +566,7 @@ def preparar_foto(art: Articulo, salida: Path, cache: Path, avisos: list) -> Non
             from PIL import Image as _I
             with _I.open(en_cache) as hecho:
                 tamanos[ancho] = hecho.size
-        art.foto = {
+        return {
             "src": f"/img/n/{clave}-1200.jpg", "src_peq": f"/img/n/{clave}-640.jpg",
             "ancho": tamanos[1200][0], "alto": tamanos[1200][1],
             "alt": img.get("alt") or img.get("descripcion_commons") or "", "pie": img.get("pie") or "",
@@ -510,6 +576,7 @@ def preparar_foto(art: Articulo, salida: Path, cache: Path, avisos: list) -> Non
         }
     except Exception as e:  # noqa: BLE001 — sin foto se usa la cubierta tipográfica
         avisos.append(f"{art.ruta_fuente}: no se pudo preparar la imagen ({e})")
+        return None
 
 
 # ---------------------------------------------------------------- imágenes para compartir
@@ -591,7 +658,8 @@ class Constructor:
                                autoescape=select_autoescape(["html", "xml"]),
                                trim_blocks=True, lstrip_blocks=True)
         self.env.filters.update(fecha_larga=fecha_larga, fecha_corta=fecha_corta, fecha_dia=fecha_dia,
-                                tras_parrafo=tras_parrafo, slug=slugify)
+                                tras_parrafo=tras_parrafo, con_medios=con_medios, slug=slugify,
+                                prepend_url=lambda ruta, base: base + ruta)
         self.version = self._version_estaticos()
         self.paginas_sitemap: list[tuple[str, str, str]] = []
         self.temas: dict = {}

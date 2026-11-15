@@ -483,3 +483,6 @@ html { scroll-padding-top: 4rem; }
 
 /* Noticias de lanzamientos: el vídeo oficial ocupa el lugar de la foto */
 .articulo__video .video { box-shadow: none; border-radius: 4px; }
+
+/* Fotos y vídeos adicionales dentro del texto: mismo estilo que la foto principal */
+.articulo__foto--cuerpo { margin-block: 2rem; }

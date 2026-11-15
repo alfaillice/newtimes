@@ -187,11 +187,42 @@ class _Parrafos(HTMLParser):
             self.actual.append(data)
 
 
+@functools.lru_cache(maxsize=256)
+def html_pagina(url: str) -> str:
+    return descargar(url).decode("utf-8", "replace")
+
+
+VIDEO_YT = re.compile(r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|shorts/)|youtu\.be/)([A-Za-z0-9_-]{11})")
+
+
+def videos_fuentes(fuentes: list[dict], maximo: int = 5) -> list[dict]:
+    """Vídeos de YouTube insertados en las páginas de las fuentes que YouTube deja insertar
+    (oEmbed responde solo si el vídeo es público e insertable), con su título y su canal."""
+    vistos, videos = set(), []
+    for f in fuentes:
+        try:
+            ids = VIDEO_YT.findall(html_pagina(f["url"]))
+        except Exception:  # noqa: BLE001
+            continue
+        for vid in ids:
+            if vid in vistos or len(videos) >= maximo:
+                continue
+            vistos.add(vid)
+            try:
+                o = json.loads(descargar("https://www.youtube.com/oembed?format=json&url="
+                                         + urllib.parse.quote(f"https://www.youtube.com/watch?v={vid}"), 100_000))
+            except Exception:  # noqa: BLE001
+                continue
+            videos.append({"id": vid, "titulo": str(o.get("title") or "").strip(),
+                           "autor": str(o.get("author_name") or "").strip()})
+    return videos
+
+
 @functools.lru_cache(maxsize=1024)
 def texto_pagina(url: str) -> str:
     try:
         p = _Parrafos()
-        p.feed(descargar(url).decode("utf-8", "replace"))
+        p.feed(html_pagina(url))
         return "\n".join(p.parrafos)[:7000]
     except Exception as e:  # noqa: BLE001
         log(f"AVISO no se pudo leer {url}: {e}")
@@ -426,6 +457,10 @@ def redactar(tema, agente, guia) -> str | None:
         return None
     bloque = "\n\n".join(f"### FUENTE {n}: {f['medio']} — {f['titulo']}\nURL: {f['url']}\n{f['texto']}"
                          for n, f in enumerate(fuentes, 1))
+    tema["videos"] = videos_fuentes(fuentes)
+    if tema["videos"]:
+        bloque += ("\n\n### VÍDEOS DE YOUTUBE INSERTADOS EN LAS FUENTES\n"
+                   + "\n".join(f"[{v['id']}] «{v['titulo']}» — canal: {v['autor']}" for v in tema["videos"]))
     ahora = datetime.now(TZ)
     if EDICION == "en":
         sistema = f"""You are {agente['nombre']}, AI reporter for the {tema['seccion']} section of NewTimes.news (English edition).
@@ -446,6 +481,9 @@ Answer only with this JSON:
 {{"titulo": "headline in sentence case", "entradilla": "standfirst", "lugar": "city or empty", "etiquetas": ["...", "..."],
  "imagen_buscar": ["Wikimedia Commons search in English, 2-5 words, most precise first", "..."],
  "imagen_alt": "what can be seen", "imagen_pie": "File image of ...",
+ "imagen2_buscar": ["Commons search for a SECOND picture of a different subject (place, institution, other person involved)", "..."],
+ "imagen2_alt": "what can be seen", "imagen2_pie": "File image of ...",
+ "video": "id of a video from the YOUTUBE VIDEOS list that shows exactly this event, or empty",
  "cuerpo": "Markdown text, 250-500 words, paragraphs separated by a blank line"}}
 If the sources are not enough for a rigorous story, answer {{"descartar": "reason"}}."""
         bloque = bloque.replace("### FUENTE", "### SOURCE")
@@ -478,6 +516,9 @@ Responde solo con este JSON:
 {{"titulo": "...", "entradilla": "...", "lugar": "ciudad o vacío", "etiquetas": ["...", "..."],
  "imagen_buscar": ["búsqueda Wikimedia Commons en inglés, 2-5 palabras, de la más precisa a la más general", "..."],
  "imagen_alt": "qué se ve", "imagen_pie": "Imagen de archivo de ...",
+ "imagen2_buscar": ["búsqueda en Commons para una SEGUNDA foto de otro motivo (lugar, institución, otra persona implicada)", "..."],
+ "imagen2_alt": "qué se ve", "imagen2_pie": "Imagen de archivo de ...",
+ "video": "id de un vídeo de la lista VÍDEOS DE YOUTUBE que muestre exactamente este hecho, o vacío",
  "cuerpo": "texto en Markdown, 250-500 palabras, párrafos separados por línea en blanco"}}
 Si las fuentes no bastan para una noticia rigurosa, responde {{"descartar": "motivo"}}."""
     return sistema, usuario
@@ -534,6 +575,16 @@ def _escribir(tema, agente, fuentes, sistema, usuario, ahora, extra=None):
     }
     if d.get("lugar"):
         meta["lugar"] = d["lugar"].strip()
+    # Segunda imagen (otro motivo) y vídeo, si el agente los propone: la guía pide al menos dos imágenes
+    busca2 = [b for b in (d.get("imagen2_buscar") or []) if str(b).strip()][:4]
+    if busca2 and busca2 != meta["imagen"]["buscar"]:
+        pie2 = d.get("imagen2_pie") or archivo + "."
+        if not pie2.startswith(archivo):
+            pie2 = f"{archivo}. " + pie2
+        meta["imagenes"] = [{"buscar": busca2, "alt": d.get("imagen2_alt") or d["titulo"], "pie": pie2}]
+    elegido = next((v for v in tema.get("videos") or [] if v["id"] == str(d.get("video") or "").strip()), None)
+    if elegido:
+        meta["video"] = elegido
     if extra:
         meta.update(extra)
     carpeta = RAIZ / "content" / EDICION / ahora.strftime("%Y/%m/%d")
@@ -583,6 +634,9 @@ def _videos_publicados() -> set[str]:
     hechos = set()
     for ruta in (RAIZ / "content").glob("*/*/*/*/*.md"):
         m = re.search(r"^video:\s*['\"]?([A-Za-z0-9_-]{11})", ruta.read_text(encoding="utf-8")[:4000], re.M)
+        if m:
+            hechos.add(m.group(1))
+        m = re.search(r"^video:\s*\n\s+id:\s*['\"]?([A-Za-z0-9_-]{11})", ruta.read_text(encoding="utf-8")[:4000], re.M)
         if m:
             hechos.add(m.group(1))
     return hechos
@@ -646,7 +700,7 @@ def escribir_lanzamiento(agentes, guia) -> str | None:
                 "publicado, de quién, cuándo y dónde verlo, y lo que diga la descripción del artista (atribuida a él). "
                 "No valores la obra ni añadas nada sobre la trayectoria del artista que no esté en las fuentes; si la "
                 "descripción está vacía, sé breve. Deja imagen_buscar vacío: la imagen será un fotograma del propio vídeo.")
-    extra = {"video": v["id"], "imagen": {
+    extra = {"video": v["id"], "imagenes": [], "imagen": {
         "url": foto, "autor": f"{v['artista']} / YouTube", "licencia": "video-oficial", "fuente": v["url"],
         "alt": f"Fotograma del vídeo «{v['titulo']}» de {v['artista']}",
         "pie": f"Fotograma del vídeo «{v['titulo']}», publicado por {v['artista']} en YouTube."}}

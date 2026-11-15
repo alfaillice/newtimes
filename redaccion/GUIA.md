@@ -127,6 +127,27 @@ Reglas del pie de foto:
 
 Excepción: en las noticias de lanzamientos musicales (encargo mensual de Cultura, ver `redaccion/ENCARGOS.md`) la imagen es un fotograma del vídeo oficial del que trata la noticia, publicado por el propio artista.
 
+### Al menos dos imágenes y, si lo hay, un vídeo
+
+Somos un medio visual: cada noticia debe llevar **al menos dos imágenes** siempre que haya material, y **un vídeo** cuando exista uno adecuado. No es un requisito que bloquee la publicación (el generador solo avisa), pero es la norma desde el 15/11/2026.
+
+- La segunda imagen (y siguientes, hasta 4) va en `imagenes:`, con el mismo formato que `imagen` y **otro motivo**: si la principal es la persona, la segunda puede ser el lugar o la institución, u otra persona implicada. Nunca la misma foto dos veces.
+- El vídeo va en `video:` y solo si es de YouTube, se puede insertar y muestra **exactamente el hecho** de la noticia (una rueda de prensa, el acto, el gol). Preferentemente del canal oficial del protagonista, de la institución o de una agencia o medio de la lista de fuentes. Nunca vídeos de terceros que hayan copiado material ajeno, ni de víctimas o menores.
+- La web los coloca sola dentro del texto (tras el quinto párrafo, o antes del último en las piezas cortas), con el mismo diseño que la foto principal.
+
+```yaml
+imagenes:
+  - buscar: ["Congress of Deputies Madrid"]
+    alt: "Fachada del Congreso de los Diputados"
+    pie: "Imagen de archivo del Congreso de los Diputados."
+video:
+  id: dQw4w9WgXcQ             # identificador de YouTube (11 caracteres)
+  autor: "La Moncloa"          # canal que lo publica
+  titulo: "Rueda de prensa tras el Consejo de Ministros"
+```
+
+El redactor del servidor busca solo los vídeos que ya están insertados en las páginas de las fuentes y descarta los que YouTube no deja insertar.
+
 Otras procedencias permitidas (solo si Commons no sirve): Pexels, Unsplash, fotos oficiales de La Moncloa, de la Comisión Europea o del Parlamento Europeo, NASA y ESA. En ese caso se indica todo a mano:
 
 ```yaml

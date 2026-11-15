@@ -28,7 +28,7 @@
   "articleSection": a.seccion.nombre,
   "inLanguage": "es-ES",
   "mainEntityOfPage": cfg.url ~ a.url,
-  "image": ([cfg.url ~ a.foto.src] if a.foto else []) + ([cfg.url ~ a.og] if a.og else []),
+  "image": (a.fotos|map(attribute="src")|map("prepend_url", cfg.url)|list) + ([cfg.url ~ a.og] if a.og else []),
   "author": {"@type": "Organization", "name": a.autor, "url": (cfg.url ~ pre ~ "/" ~ ed.rutas.equipo ~ "/" ~ a.agente.slug ~ "/") if a.agente else cfg.url ~ "/como-trabajamos/"},
   "publisher": {"@type": "Organization", "name": "NewTimes.news", "logo": {"@type": "ImageObject", "url": cfg.url ~ "/img/logo.png"}},
   "isBasedOn": a.fuentes|map(attribute="url")|list,
@@ -66,10 +66,10 @@
     </div>
   </header>
 
-  {% if a.video %}
+  {% if a.video_arriba %}
   <figure class="articulo__foto articulo__video">
-    <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{{ a.video }}?rel=0&amp;playsinline=1" title="{{ a.titulo }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-    {% set im = a.foto or a.imagen or {} %}<figcaption>{% if im.pie %}{{ im.pie }} {% endif %}<span class="credito">Vídeo: {{ im.autor }}, <a href="https://www.youtube.com/watch?v={{ a.video }}" rel="nofollow noopener" target="_blank">Ver en YouTube</a></span></figcaption>
+    <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{{ a.video.id }}?rel=0&amp;playsinline=1" title="{{ a.titulo }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    {% set im = a.foto or a.imagen or {} %}<figcaption>{% if im.pie %}{{ im.pie }} {% endif %}<span class="credito">Vídeo: {{ a.video.autor or im.autor }}, <a href="https://www.youtube.com/watch?v={{ a.video.id }}" rel="nofollow noopener" target="_blank">Ver en YouTube</a></span></figcaption>
   </figure>
   {% elif a.foto %}
   <figure class="articulo__foto">
@@ -79,7 +79,16 @@
   {% endif %}
 
   <div class="articulo__cuerpo">
-    {{ a.cuerpo_html|tras_parrafo(anuncio(cfg, 'articulo'), 3)|safe }}
+    {% macro figura(f) %}<figure class="articulo__foto articulo__foto--cuerpo">
+    <img src="{{ f.src }}" srcset="{{ f.src_peq }} 640w, {{ f.src }} 1200w" sizes="(max-width: 52rem) 100vw, 52rem" alt="{{ f.alt }}" width="{{ f.ancho }}" height="{{ f.alto }}" loading="lazy" decoding="async">
+    <figcaption>{% if f.pie %}{{ f.pie }} {% endif %}<span class="credito">Foto: {% if f.fuente %}<a href="{{ f.fuente }}" rel="nofollow noopener" target="_blank">{{ f.autor }}</a>{% else %}{{ f.autor }}{% endif %}, {% if f.licencia_url %}<a href="{{ f.licencia_url }}" rel="license noopener" target="_blank">{{ f.licencia }}</a>{% else %}{{ f.licencia }}{% endif %}</span></figcaption>
+  </figure>{% endmacro %}
+  {% macro figura_video(v) %}<figure class="articulo__foto articulo__foto--cuerpo articulo__video">
+    <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{{ v.id }}?rel=0&amp;playsinline=1" title="{{ v.titulo or a.titulo }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <figcaption>{% if v.titulo %}{{ v.titulo }}. {% endif %}<span class="credito">Vídeo: {% if v.autor %}{{ v.autor }} / {% endif %}YouTube, <a href="https://www.youtube.com/watch?v={{ v.id }}" rel="nofollow noopener" target="_blank">Ver en YouTube</a></span></figcaption>
+  </figure>{% endmacro %}
+  {% set medios = [] %}{% if a.video and not a.video_arriba %}{% set _ = medios.append(figura_video(a.video)) %}{% endif %}{% for f in a.fotos_extra %}{% set _ = medios.append(figura(f)) %}{% endfor %}
+    {{ a.cuerpo_html|con_medios(medios)|tras_parrafo(anuncio(cfg, 'articulo'), 3)|safe }}
   </div>
 
   <aside class="fuentes" aria-labelledby="fuentes-titulo">
