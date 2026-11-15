@@ -1,5 +1,10 @@
-generado: '2026-11-15T17:50:00+01:00'
+generado: '2026-11-15T20:50:00+01:00'
 titulares:
+- seccion: espana
+  medio: Europa Press
+  titulo: 'Sánchez reivindica a Carlos Cuerpo frente al "equipo contrario" de Feijóo y Abascal: "Vamos a ganar las elecciones"'
+  url: https://www.europapress.es/nacional/noticia-sanchez-reivindica-carlos-cuerpo-frente-equipo-contrario-feijoo-abascal-vamos-ganar-elecciones-20261115203237.html
+  resumen: 'Denuncia los ''deepfakes'' del Partido Popular "contra su mujer y contra él": "Eso es lo que hacen los acosadores en redes sociales"'
 - seccion: espana
   medio: Europa Press
   titulo: El PSOE promete blindar 19.000 millones hasta 2030 para mantener la red ferroviaria e impulsar un Pacto de Estado
@@ -17,14 +22,14 @@ titulares:
   resumen: El presidente del PP y candidato a la Presidencia del Gobierno, Alberto Núñez Feijóo, ha pedido este domingo, en un mitin celebrado en Santander ante unas 4.000 personas, movilizar el voto para su formación de cara a las elecciones del próximo 29 de noviembre, y ha defendido que España necesita "dec
 - seccion: espana
   medio: Europa Press
-  titulo: Sánchez se reúne con Lula en Moncloa este lunes aunque se cancela un acto de campaña por afonía del presidente brasileño
-  url: https://www.europapress.es/nacional/noticia-sanchez-reune-lula-moncloa-lunes-cancela-acto-campana-afonia-presidente-brasileno-20261115150524.html
-  resumen: El presidente del Gobierno, Pedro Sánchez, se reunirá este lunes en Moncloa con el presidente de Brasil, Luiz Inácio Lula da Silva, aunque se ha cancelado un acto de campaña en el que intervenían ambos mandatarios previsto también para este lunes.
-- seccion: espana
-  medio: Europa Press
   titulo: 'Feijóo: "Pido a los españoles un apoyo amplio para derogar lo más rápido posible el sanchismo"'
   url: https://www.europapress.es/nacional/noticia-feijoo-pido-espanoles-apoyo-amplio-derogar-mas-rapido-posible-sanchismo-20261115103206.html
   resumen: El presidente del PP, Alberto Núñez Feijóo, ha pedido a los españoles un "apoyo amplio" para derogar "lo más rápido posible el sanchismo" y ha situado la regeneración democrática, la vivienda y la recuperación de la "verdad, la sinceridad y la honestidad" en la política entre sus principales objetiv
+- seccion: espana
+  medio: Europa Press
+  titulo: Sánchez se reúne con Lula en Moncloa este lunes aunque se cancela un acto de campaña por afonía del presidente brasileño
+  url: https://www.europapress.es/nacional/noticia-sanchez-reune-lula-moncloa-lunes-cancela-acto-campana-afonia-presidente-brasileno-20261115150524.html
+  resumen: El presidente del Gobierno, Pedro Sánchez, se reunirá este lunes en Moncloa con el presidente de Brasil, Luiz Inácio Lula da Silva, aunque se ha cancelado un acto de campaña en el que intervenían ambos mandatarios previsto también para este lunes.
 - seccion: espana
   medio: Europa Press
   titulo: Los tribunales no paran en campaña electoral con declaraciones de los casos 'Leire', 'Koldo', 'Plus Ultra' o Ceuta
@@ -46,20 +51,30 @@ titulares:
   url: https://www.europapress.es/nacional/noticia-frente-amplio-propone-familia-elegida-pueda-tener-permisos-retribuidos-cuidados-20261115121612.html
   resumen: Frente Amplio ha propuesto este domingo que la "familia elegida", como amigos y vecinos cercanos, puedan tener permisos retribuidos por cuidados en casos de enfermedad, hospitalización, dependencia o crianza de menores.
 - seccion: espana
+  medio: El País
+  titulo: 'La corrupción política: razones y recetas para un problema enquistado'
+  url: https://elpais.com/espana/elecciones-generales/2026-11-15/la-corrupcion-politica-razones-y-recetas-para-un-problema-enquistado.html
+  resumen: Presionados por diversos escándalos, PP y PSOE han formulado propuestas de prevención similares que nunca terminan de aplicarse
+- seccion: espana
+  medio: El País
+  titulo: Abascal vincula inmigración y delincuencia con datos falsos sobre la población extranjera de Cornellà
+  url: https://elpais.com/espana/elecciones-generales/2026-11-15/abascal-vincula-inmigracion-y-delincuencia-con-datos-falsos-sobre-la-poblacion-extranjera-de-cornella.html
+  resumen: El líder de Vox asegura en un mitin que “los españoles son minoría” en la ciudad, cuando según las estadísticas representan el 81% de los vecinos
+- seccion: espana
+  medio: El País
+  titulo: Feijóo hará campaña en Guipuzkoa tras la agresión a jóvenes de Nuevas Generaciones en Hernani
+  url: https://elpais.com/espana/elecciones-generales/2026-11-15/feijoo-hara-campana-en-guipuzcoa-tras-la-agresion-a-jovenes-de-nuevas-generaciones-en-hernani.html
+  resumen: El líder del PP reitera su propuesta de no pagar el IRPF durante el primer año del primer empleo
+- seccion: internacional
   medio: Europa Press
-  titulo: Expertos alertan del riesgo del "corredor" entre España y Marruecos que está forjando Estado Islámico desde el Sahel
-  url: https://www.europapress.es/nacional/noticia-expertos-alertan-riesgo-corredor-espana-marruecos-forjando-estado-islamico-sahel-20261115104649.html
-  resumen: 'Las operaciones antiterroristas llevadas a cabo por España y Marruecos en los últimos meses ponen de manifiesto el interés de Estado Islámico, a través de su filial en el Sahel, de crear un corredor logístico que una los dos países con el que se ha convertido en el principal escenario del yihadismo '
-- seccion: espana
-  medio: El País
-  titulo: 'Frente Amplio echa el resto para revalidar su escaño por Zaragoza: “Puede ser decisivo y se juega aquí”'
-  url: https://elpais.com/espana/elecciones-generales/2026-11-15/frente-amplio-echa-el-resto-para-revalidar-su-escano-por-zaragoza-puede-ser-decisivo-y-se-juega-aqui.html
-  resumen: 'Colau se lanza a por el voto de los autónomos: propone hacer indefinida la tarifa plana para aquellos que ingresen menos del salario mínimo anual y medidas para reducir la burocracia'
-- seccion: espana
-  medio: El País
-  titulo: 'Ábalos pide la nulidad del último registro en su vivienda: “Solo tengo conocimiento a través de la televisión”'
-  url: https://elpais.com/espana/2026-11-15/abalos-pide-la-nulidad-del-ultimo-registro-en-su-vivienda-solo-tengo-conocimiento-a-traves-de-la-television.html
-  resumen: El abogado del exministro ve vulnerado el derecho a la defensa y a la inviolabilidad del domicilio
+  titulo: Cientos de miles de personas se manifiestan en Praga por la independencia de los medios públicos
+  url: https://www.europapress.es/internacional/noticia-cientos-miles-personas-manifiestan-praga-independencia-medios-publicos-20261115182350.html
+  resumen: 'Unas 400.000 personas, según los convocantes, han salido este domingo a la explanada de Letná de Praga para denunciar la intención del Gobierno de reemplazar el pago de licencia para recibir las emisiones de los medios públicos por una financiación estatal directa, lo que ha provocado recelos sobre '
+- seccion: internacional
+  medio: Europa Press
+  titulo: Rosa María Payá reprocha al Gobierno español que "haya ignorado el sufrimiento de Cuba" y espera un cambio tras el 29N
+  url: https://www.europapress.es/internacional/noticia-rosa-maria-paya-reprocha-gobierno-espanol-haya-ignorado-sufrimiento-cuba-espera-cambio-29n-20261115185435.html
+  resumen: La opositora cubana Rosa María Payá ha reprochado al Gobierno español que "haya ignorado el sufrimiento de Cuba" y ha expresado su esperanza de que después de las elecciones previstas para el próximo 29 de noviembre haya un cambio.
 - seccion: internacional
   medio: Europa Press
   titulo: Un ataque con drones en Rostov (Rusia) deja al menos un muerto y cuatro heridos e interrumpe el tráfico ferroviario
@@ -67,14 +82,24 @@ titulares:
   resumen: Al menos una persona ha fallecido y otras cuatro han resultado heridas como consecuencia de un ataque con drones registrado durante la noche del sábado en la región rusa de Rostov, según ha comunicado el gobernador regional, Yuri Sliusar.
 - seccion: internacional
   medio: Europa Press
-  titulo: Colombia captura a 'Primo Gay', uno de los criminales más buscados del país
-  url: https://www.europapress.es/internacional/noticia-colombia-captura-primo-gay-criminales-mas-buscados-pais-20261115074849.html
-  resumen: Las autoridades colombianas han capturado este sábado a Néider Yesid Uñates López, conocido con el alias de 'Primo Gay', señalado como uno de los principales cabecillas de estructuras armadas ilegales y considerado el hombre más buscado de la provincia de Antioquia, al noreste de Colombia.
+  titulo: Estonia anuncia el cierre de su frontera con Rusia a partir del 1 de diciembre
+  url: https://www.europapress.es/internacional/noticia-estonia-anuncia-cierre-frontera-rusia-partir-diciembre-20261115174828.html
+  resumen: El primer ministro estonio, Kristen Michal, ha ordenado al ministro del Interior, Igor Taro, organizar las medidas necesarias para el cierre de la frontera del país con Rusia a partir del 1 de diciembre en respuesta a un intento de sabotaje contra la militar estonia Threod que Estonia atribuye a Mos
 - seccion: internacional
   medio: Europa Press
-  titulo: Las protestas juveniles en Alemania pierden fuerza en su segunda convocatoria y transcurren de forma pacífica
-  url: https://www.europapress.es/internacional/noticia-protestas-juveniles-alemania-pierden-fuerza-segunda-convocatoria-transcurren-forma-pacifica-20261115070901.html
-  resumen: La participación en la segunda jornada de protestas juveniles celebradas en Alemania ha caído drásticamente respecto a la convocatoria registrada hace dos semanas, en una movilización que se ha desarrollado de forma mayoritariamente pacífica, según ha informado la Policía.
+  titulo: Irán informa de dos petroleros hundidos en Ormuz tras impactar con minas navales
+  url: https://www.europapress.es/internacional/noticia-iran-informa-dos-petroleros-hundidos-ormuz-impactar-minas-navales-20261115192629.html
+  resumen: La Guardia Revolucionaria iraní ha informado este domingo del "hundimiento" de dos petroleros en aguas del estrecho de Ormuz tras intentar cruzar esta estratégica ruta sin la autorización iraní e impactar con sendas minas navales.
+- seccion: internacional
+  medio: Europa Press
+  titulo: Los partidos israelíes Yashar y Likud se reúnen para negociar un posible gobierno de unidad
+  url: https://www.europapress.es/internacional/noticia-partidos-israelies-yashar-likud-reunen-negociar-posible-gobierno-unidad-20261115132656.html
+  resumen: El partido Likud del primer ministro israelí, Benjamin Netanyahu, y Yashar, de su principal rival, Gadi Eisenkot, se han reunido este domingo para explorar la posibilidad de formar un gobierno de unidad para Israel tras las elecciones legislativas del pasado 27 de octubre.
+- seccion: internacional
+  medio: Europa Press
+  titulo: Trump achaca a la herencia de Biden el "desastre" de la aviación civil
+  url: https://www.europapress.es/internacional/noticia-trump-achaca-herencia-biden-desastre-aviacion-civil-20261115143618.html
+  resumen: El presidente estadounidense, Donald Trump, ha responsabilizado a su antecesor, Joe Biden, por el "desastre" de la Administración Federal de Aviación (FAA) que el viernes provocó retrasos y la cancelación de más de 9.000 vuelos durante la jornada del viernes.
 - seccion: internacional
   medio: Europa Press
   titulo: Los hutíes liberan a 600 detenidos en relación con el conflicto armado en Yemen
@@ -82,29 +107,9 @@ titulares:
   resumen: 'Los hutíes que controlan el centro y norte de Yemen, incluida la capital, Saná, han puesto en libertad este domingo a 600 personas detenidas en relación con el conflicto armado en Yemen, en una medida unilateral impulsada por el Comité Nacional para Asuntos de Prisioneros y respaldada por el Comité '
 - seccion: internacional
   medio: Europa Press
-  titulo: Atacado un petrolero en el estrecho de Ormuz
-  url: https://www.europapress.es/internacional/noticia-atacado-petrolero-estrecho-ormuz-20261115134214.html
-  resumen: Un buque ha sido atacado en las últimas horas mientras navegaba en aguas del estrecho de Ormuz, frente a las costas de Omán, según ha informado el centro de Operaciones Marítimas Comerciales de Reino Unido (UKMTO, por sus siglas en inglés).
-- seccion: internacional
-  medio: Europa Press
-  titulo: Los partidos israelíes Yashar y Likud se reúnen para negociar un posible gobierno de unidad
-  url: https://www.europapress.es/internacional/noticia-partidos-israelies-yashar-likud-reunen-negociar-posible-gobierno-unidad-20261115132656.html
-  resumen: El partido Likud del primer ministro israelí, Benjamin Netanyahu, y Yashar, de su principal rival, Gadi Eisenkot, van a reunirse este domingo para explorar la posibilidad de formar un gobierno de unidad para Israel tras las elecciones legislativas del pasado 27 de octubre.
-- seccion: internacional
-  medio: Europa Press
   titulo: Detenido en Israel un ciudadano acusado de realizar labores de espionaje para Irán
   url: https://www.europapress.es/internacional/noticia-detenido-israel-ciudadano-acusado-realizar-labores-espionaje-iran-20261115132609.html
   resumen: Las autoridades de Israel han detenido a un ciudadano israelí de origen árabe, residente el la localidad de Mazraa, en el norte del país, por su supuesta vinculación con los servicios de inteligencia iraníes mediante la recopilación y transmisión de información sobre instalaciones estratégicas y obj
-- seccion: internacional
-  medio: Europa Press
-  titulo: Doce muertos tras un accidente de autobús en Irán
-  url: https://www.europapress.es/internacional/noticia-doce-muertos-accidente-autobus-iran-20261115130632.html
-  resumen: Al menos doce personas han muerto en un accidente de autobús ocurrido en Irlam, en el condado de Abdanan, provincia de Ilam, según han informado las autoridades iraníes.
-- seccion: internacional
-  medio: Europa Press
-  titulo: Francia prohíbe temporalmente la venta y uso de material pirotécnico ante la escalada de las protestas
-  url: https://www.europapress.es/internacional/noticia-francia-prohibe-temporalmente-venta-uso-material-pirotecnico-escalada-protestas-20261115125336.html
-  resumen: El Gobierno francés ha decretado la prohibición temporal de vender y utilizar artefactos pirotécnicos y artículos de pirotecnia recreativa en todo el país hasta el próximo 27 de noviembre, en respuesta a los riesgos para el orden público asociados a las movilizaciones y bloqueos registrados ante cen
 - seccion: economia
   medio: BBC
   titulo: Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says
@@ -115,6 +120,11 @@ titulares:
   titulo: Minister backs legal right to job support for young people
   url: https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss
   resumen: The work and pensions secretary said the level of support currently on offer was too vague.
+- seccion: sociedad
+  medio: Europa Press
+  titulo: El Papa dice en Cuzco que las tradiciones populares son "un tesoro invaluable de buenas enseñanzas" para los jóvenes
+  url: https://www.europapress.es/sociedad/noticia-papa-dice-cuzco-tradiciones-populares-son-tesoro-invaluable-buenas-ensenanzas-jovenes-20261115183234.html
+  resumen: El Papa León XIV ha afirmado este domingo que "las tradiciones populares, con sus símbolos y sus dinámicas, impregnadas de valores de comunión y solidaridad cristiana, son un tesoro invaluable de buenas enseñanzas, especialmente para las nuevas generaciones", durante su encuentro con fieles y repres
 - seccion: sociedad
   medio: Europa Press
   titulo: 'El matemático Ian Stewart defiende una "desaceleración" de la IA: "Se encuentra actualmente en un estado de anarquía"'
@@ -137,9 +147,9 @@ titulares:
   resumen: The planets of Mercury, Venus, Mars and Jupiter will align in pre-dawn sky throughout November.
 - seccion: ciencia-salud
   medio: BBC
-  titulo: Mental health is no joke - but I've turned it into a stand-up routine
-  url: https://www.bbc.co.uk/news/articles/ck1l05lqjrq6o?at_medium=RSS&at_campaign=rss
-  resumen: People who have struggled with mental ill-health are giving stand-up a go to tell their stories.
+  titulo: One of the most commonly injured parts of the body that many of us never train
+  url: https://www.bbc.co.uk/news/articles/c6vgxjevv5v7o?at_medium=RSS&at_campaign=rss
+  resumen: Performance physiotherapist Genevieve Taiwah shares her top tips for looking after the joint that accounts for 5% of A&E visits.
 - seccion: ciencia-salud
   medio: The Guardian
   titulo: Gout is on the rise – and excruciating. Why are sufferers still judged for it?
@@ -152,19 +162,9 @@ titulares:
   resumen: Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.
 - seccion: tecnologia
   medio: The Guardian
-  titulo: '‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick'
-  url: https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare
-  resumen: Jensen Huang’s affair with a suspected spy is Silicon Valley’s worst nightmare come true The resignation this week of Nvidia’s founder and CEO Jensen Huang is one of the most astonishing corporate scandals in memory, featuring allegations of international espionage and extramarital affairs involving
-- seccion: tecnologia
-  medio: The Guardian
   titulo: '160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating'
   url: https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam
   resumen: Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national exam for aspiring tax accountants this year seemed too good to be true. On Sunday, sceptics were ⁠proven right when he ⁠confe
-- seccion: tecnologia
-  medio: The Guardian
-  titulo: '‘Prove you are not a robot’: how the Captcha scam captures your computer'
-  url: https://www.theguardian.com/money/2026/nov/15/captcha-scam-computer-malicious-software
-  resumen: 'Unlike familiar Captcha tests, this con asks you to press a series of keys. And that’s a way in for fraudsters to install malicious software You are looking for some gifts for Christmas and want to support small businesses when you shop. When you visit the site of one you’ve heard good things about '
 - seccion: tecnologia
   medio: The Guardian
   titulo: '‘Grand Theft Auto Flu’: is the whole world really taking the day off work to play GTA VI?'
@@ -176,20 +176,25 @@ titulares:
   url: https://www.theguardian.com/games/ng-interactive/2026/nov/15/grand-theft-auto-vi-inside-rockstar-games
   resumen: The latest instalment of the epic crime saga is finally here. We visit Rockstar Games for a hands-on encounter with the cultural event of the decade – and can confirm it more than lives up to the hype It still comes as a surprise for many to learn that Grand Theft Auto, the brazenly American crime s
 - seccion: cultura
-  medio: BBC
-  titulo: Alleged Russell Brand rape victim wants age of consent law changed
-  url: https://www.bbc.co.uk/news/articles/cm3rgx9p583zo?at_medium=RSS&at_campaign=rss
-  resumen: Mia Latter, who says she was 16 when she met the convicted rapist, wants a staggered age of consent.
+  medio: Europa Press
+  titulo: 'Sergio Ramírez ingresa en la RAE, dedica su discurso a Vargas Llosa y agradece: "Nunca he sido extranjero en España"'
+  url: https://www.europapress.es/cultura/noticia-sergio-ramirez-ingresa-rae-dedica-discurso-vargas-llosa-agradece-nunca-he-sido-extranjero-espana-20261115203310.html
+  resumen: El escritor nicaragüense y ganador del Premio Cervantes 2017, Sergio Ramírez, ha ingresado este domingo como académico de número en la Real Academia Española (RAE) para ocupar la silla L, vacante desde el fallecimiento de Mario Vargas Llosa.
+- seccion: cultura
+  medio: El País
+  titulo: 'Sergio Ramírez ingresa en la RAE: “Perdí un país, pero nunca he sido extranjero en España”'
+  url: https://elpais.com/cultura/2026-11-15/sergio-ramirez-ingresa-en-la-rae-perdi-un-pais-pero-nunca-he-sido-extranjero-en-espana.html
+  resumen: El nuevo académico, exiliado de Nicaragua en 2021, glosa en su discurso la figura de Vargas Llosa, cuya silla L hereda
+- seccion: cultura
+  medio: El País
+  titulo: 'Las ‘pinturas profanas’ de Sijena se despiden del MNAC: “¿Son estas las que se llevan el martes?”'
+  url: https://elpais.com/espana/catalunya/2026-11-15/las-pinturas-profanas-de-sijena-se-despiden-del-mnac-son-estas-las-que-se-llevan-el-martes.html
+  resumen: Los murales románicos pasan desapercibidos en la última jornada de exhibición en el museo antes de ser preparados para su traslado a los Monegros, donde esperarán hasta 2028 para volver a ser expuestos
 - seccion: cultura
   medio: BBC
-  titulo: Star-studded MacGowan tribute album gave grieving wife purpose
-  url: https://www.bbc.co.uk/news/articles/cm782dxxzjw2o?at_medium=RSS&at_campaign=rss
-  resumen: Three years after her husband's death, Victoria Mary Clarke's idea to put together a tribute album for her late husband came to fruition.
-- seccion: cultura
-  medio: BBC
-  titulo: '''It''s like you''re in one of his paintings'' Kyffin Williams'' art brought to life'
-  url: https://www.bbc.co.uk/news/articles/cwp9g9ey10dko?at_medium=RSS&at_campaign=rss
-  resumen: Technology similar to that used for exhibitions of Van Gogh, Cézanne and LS Lowry is being used.
+  titulo: Charlotte Church closes wellness retreat after five 'beautiful' years
+  url: https://www.bbc.co.uk/news/articles/c65y13z1d8eyo?at_medium=RSS&at_campaign=rss
+  resumen: Church previously said she blew "pretty much all my life savings" on the £1.5m home.
 - seccion: cultura
   medio: The Guardian
   titulo: '‘No one wants us any more’: how Hollywood turned its back on trans actors'
@@ -220,11 +225,6 @@ titulares:
   titulo: 'Reclaiming Mary Cassatt: putting overlooked American artist back at heart of impressionism'
   url: https://www.theguardian.com/artanddesign/2026/nov/15/reclaiming-mary-cassatt-putting-overlooked-american-artist-back-at-heart-of-impressionism
   resumen: New exhibition restores painter’s place as leading figure in French movement that revolutionised art As a painter, friend, and collaborator of Edgar Degas, who exhibited with impressionist artists including Claude Monet and Camille Pissarro, Mary Cassatt was at the heart of the 19th-century movement
-- seccion: cultura
-  medio: The Guardian
-  titulo: 'TV tonight: a tough look inside Crowborough asylum camp'
-  url: https://www.theguardian.com/tv-and-radio/2026/nov/15/tv-tonight-a-tough-look-inside-crowborough-asylum-camp
-  resumen: Undercover cameras paint a bleak portrait of the situation. Plus, it’s sea lion v black neck swan in Blue Planet III. Here’s what to watch this evening 10pm, ITV1 Continue reading...
 - seccion: deportes
   medio: Europa Press
   titulo: Jódar sucumbe ante Zverev en su estreno en las Finales de la ATP
@@ -242,9 +242,29 @@ titulares:
   resumen: El golfista norirlandés Rory McIlroy se ha coronado en la Race to Dubai, conquistado por octava vez en su carrera la Orden de Mérito, después de quedar segundo en Dubái en el último torneo del calendario del DP World Tour, el circuito europeo de golf, un resultado que le ha permitido imponerse al es
 - seccion: deportes
   medio: Europa Press
-  titulo: Muere Antonio Sabugueiro, creador de la San Silvestre Vallecana
-  url: https://www.europapress.es/deportes/noticia-muere-antonio-sabugueiro-creador-san-silvestre-vallecana-20261115154157.html
-  resumen: Antonio Sabugueiro, creador de la San Silvestre Vallecana, la carrera en la que participan cada 31 de diciembre por las calles de Madrid más de 40.000 personas, ha fallecido este domingo a los 94 años, ha confirmado la organización de la prueba.
+  titulo: Bernardo Silva abandona por lesión la concentración de Portugal
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-bernardo-silva-abandona-lesion-concentracion-portugal-20261115133233.html
+  resumen: El centrocampista del Real Madrid Bernardo Silva ha abandonado este domingo la concentración de la selección de Portugal tras ser declarado "no apto" para afrontar el último partido de la fase de grupos de la Liga de Naciones ante Gales, ha anunciado la Federación Portuguesa de Fútbol (FPF).
+- seccion: deportes
+  medio: El País
+  titulo: Zverev, demasiado Zverev para un aguerrido Jódar
+  url: https://elpais.com/deportes/tenis/2026-11-15/zverev-demasiado-zverev-para-jodar.html
+  resumen: 'El español cede en su estreno maestro contra el número uno, imponente al servicio y en el peloteo: doble 6-4, en 1h 27m. El martes se la jugará frente a Shelton o Fils'
+- seccion: deportes
+  medio: El País
+  titulo: España-Inglaterra, en directo, la UEFA Nations League en vivo|Lamine y Oyarzabal titulares en el ataque
+  url: https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html
+  resumen: La selección dirigida por Luis de la Fuente buscará sumar una victoria que le permita asegurarse el liderato de su grupo
+- seccion: deportes
+  medio: El País
+  titulo: Rory McIlroy conquista la Race to Dubai ante un gran Eugenio Chacarra
+  url: https://elpais.com/deportes/2026-11-15/rory-mcilroy-conquista-la-race-to-dubai-ante-un-gran-eugenio-chacarra.html
+  resumen: El norirlandés logra su octava Orden de Mérito y el madrileño cierra con honores la temporada en el circuito americano antes de jugar en el PGA Tour
+- seccion: deportes
+  medio: El País
+  titulo: 'Ronaldinho regresa al fútbol profesional y brilla a los 46 años: una asistencia y una ovación de la hinchada en el Rávena de la Serie C italiana'
+  url: https://elpais.com/deportes/futbol/2026-11-15/ronaldinho-regresa-al-futbol-profesional-y-brilla-a-los-46-anos-una-asistencia-y-una-ovacion-de-la-hinchada-en-el-ravena-de-la-serie-c-italiana.html
+  resumen: El astro brasileño protagoniza una insólita vuelta a las canchas después de llevar más de una década alejado de los terrenos de juego
 - seccion: deportes
   medio: BBC Sport
   titulo: Tearful McIlroy dedicates record-equalling win to ill dad
@@ -252,19 +272,24 @@ titulares:
   resumen: Rory McIlroy wipes away tears as he dedicates his record-equalling eighth Race to Dubai title to his ill father, Gerry.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Banton pushes case and bowlers sparkle for inconsistent England
-  url: https://www.bbc.co.uk/sport/cricket/articles/c8n50wgr6vd4o?at_medium=RSS&at_campaign=rss
-  resumen: Tom Banton scores a century and Sonny Baker and Gus Atkinson impress with the ball as England's wildly inconsistent one-day team hammer Australia.
+  titulo: Final whistle a blessing as Scotland edge dull Test against Australia
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cmd91np3pqk0o?at_medium=RSS&at_campaign=rss
+  resumen: Scotland edge a dull Nations Championship encounter against Australia at Murrayfield.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Branthwaite, Garner and King omitted for Spain game
-  url: https://www.bbc.co.uk/sport/football/articles/cq4gn7014x76o?at_medium=RSS&at_campaign=rss
-  resumen: England manager Thomas Tuchel omits Josh King, James Garner and Jarrad Branthwaite from his squad to face Spain on Sunday night.
+  titulo: Ronaldinho, 46, makes comeback for Ravenna
+  url: https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss
+  resumen: Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Australia's Sayers 'took sandpaper from field' & rejects Cummins' claims
-  url: https://www.bbc.co.uk/sport/cricket/articles/c9ly4jm8djy7o?at_medium=RSS&at_campaign=rss
-  resumen: Australia bowler Chadd Sayers says he helped take sandpaper from the field in the match prior to the Cape Town Test and backs Usman Khawaja's recollection over Pat Cummins'.
+  titulo: Aberdeen appoint Liechtenstein's Frick as head coach
+  url: https://www.bbc.co.uk/sport/football/articles/cqrmgz9ypvwko?at_medium=RSS&at_campaign=rss
+  resumen: Former Liechtenstein striker Mario Frick is announced as the new head coach of Aberdeen.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Chapecoense crash survivor wins promotion in final game
+  url: https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss
+  resumen: Alan Ruschel, one of six survivors in the 2016 plane crash that was carrying members of the Chapecoense team, wins promotion to Brazil‘s Serie A in his final match before retiring.
 - seccion: deportes
   medio: BBC Sport
   titulo: '''We got disrespected'' - Walsh and Australia make World Cup point'
@@ -272,14 +297,19 @@ titulares:
   resumen: 'Reece Walsh gave a powerful response to Australia''s critics as they secured a fourth successive World Cup triumph, saying that: "I feel we got disrespected."'
 - seccion: deportes
   medio: BBC Sport
-  titulo: Zverev claims first win as world number one at ATP Finals
-  url: https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o?at_medium=RSS&at_campaign=rss
-  resumen: Alexander Zverev claims his first victory as world number one as he sweeps aside Rafael Jodar in the opening match of the ATP Finals.
+  titulo: Banton pushes case and bowlers sparkle for inconsistent England
+  url: https://www.bbc.co.uk/sport/cricket/articles/c8n50wgr6vd4o?at_medium=RSS&at_campaign=rss
+  resumen: Tom Banton scores a century and Sonny Baker and Gus Atkinson impress with the ball as England's wildly inconsistent one-day team hammer Australia.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Reality dawns after Wales dared to dream
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/cvx2xnyxl85ko?at_medium=RSS&at_campaign=rss
-  resumen: As Welsh rugby fans wake up on Sunday morning the realisation will dawn on them that Wales beat New Zealand for the first time in 73 years.
+  titulo: Australia's Sayers 'took sandpaper from field' & rejects Cummins' claims
+  url: https://www.bbc.co.uk/sport/cricket/articles/c9ly4jm8djy7o?at_medium=RSS&at_campaign=rss
+  resumen: Australia bowler Chadd Sayers says he helped take sandpaper from the field in the match prior to the Cape Town Test and backs Usman Khawaja's recollection over Pat Cummins'.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Zverev 'felt a lot of joy' in first win as world number one
+  url: https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o?at_medium=RSS&at_campaign=rss
+  resumen: Alexander Zverev claims his first victory as world number one as he sweeps aside Rafael Jodar in the opening match of the ATP Finals.
 - seccion: deportes
   medio: BBC Sport
   titulo: Triumph or flop? The Rugby League World Cup that split opinion
@@ -287,29 +317,29 @@ titulares:
   resumen: Has the Rugby League World Cup set a new benchmark for the international game? BBC Sport discovers the answer to that question differs in the northern and southern hemispheres.
 - seccion: deportes
   medio: BBC Sport
-  titulo: How Spain's humble superstar Simon became world's best keeper
-  url: https://www.bbc.co.uk/sport/football/articles/cqvg23nv0jw2o?at_medium=RSS&at_campaign=rss
-  resumen: As Spain prepare to host England in the Nations League, BBC Sport columnist Guillem Balague charts the rise of Unai Simon to become the world's best keeper.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Tenerife return to action after death of De Miguel
-  url: https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss
-  resumen: Tenerife play their first game since the death of striker Jesus de Miguel on an emotional day at the Heliodoro Rodriguez Lopez stadium.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Club's first match after player's death abandoned because of serious injury
-  url: https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss
-  resumen: Hendon's first match since the death of midfielder Ezekiel Williams is abandoned because of a serious injury to Ethan Creary.
+  titulo: Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli
+  url: https://www.bbc.co.uk/sport/football/articles/cw1mdl14dzx8o?at_medium=RSS&at_campaign=rss
+  resumen: Scotland head coach Sebastien Pocognoli says he draws on the influence of iconic manager Louis van Gaal in his own coaching career.
 - seccion: deportes
   medio: The Guardian
-  titulo: 'Arsenal v London City Lionesses: Women’s Super League – live'
-  url: https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live
-  resumen: 'Updates from 4.30pm (GMT) kick-off at the Emirates Stadium Get in touch: email John and follow us on BlueSky Charles Antaki gets in touch: “Renee Slegers under pressure indeed. Arsenal’s form this season has been nothing short of alarming, and there is a distinct danger of failing to qualify for nex'
+  titulo: 'Spain v England: Nations League – live'
+  url: https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live
+  resumen: 'Updates from 7.45pm (GMT) kick-off in Madrid Get in touch: email Daniel and follow us on BlueSky Tuchel speaks, telling ITV that “it’s a beautiful match”. They’ve qualified, done their homework and now can try and top the group. Quansah keeps his place for doing well, while he wants to see White und'
+- seccion: deportes
+  medio: The Guardian
+  titulo: Mary Earps frustrates Arsenal as London City Lionesses earn battling draw
+  url: https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report
+  resumen: Arsenal and London City Lionesses played out an entertaining 1-1 draw but the result did little to bolster European qualification hopes for Renée Slegers’s side as the visitors’ goalkeeper Mary Earps produced a fine display to thwart the north London side. Frida Maanum finished off a superb team mov
 - seccion: deportes
   medio: The Guardian
   titulo: Record-breaking Andy Robertson is Scotland’s finest captain
   url: https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain
   resumen: As he passes Kenny Dalglish’s appearance total, it is important to remember that it is the left-back’s journey that sets him apart Andy Robertson may not be Scotland’s greatest player, but he is indisputably their finest captain. It counts as sacrilege, even to generations who have watched Kenny Dal
+- seccion: deportes
+  medio: The Guardian
+  titulo: Ronaldinho makes debut for Italian side Ravenna after 11-year hiatus in playing career
+  url: https://www.theguardian.com/football/2026/nov/15/ronaldinho-debut-italian-side-ravenna-after-11-year-hiatus-playing-career
+  resumen: 'Brazil legend plays first half for Serie C club at age 46 ‘Is this my last one? I don’t know,’ Ronaldinho says Ronaldinho played 45 minutes on his return to professional football in Italy. The 46-year-old Brazil great announced in June that he had signed for the Serie C side Ravenna, 11 years after '
 - seccion: deportes
   medio: The Guardian
   titulo: 'Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’'
@@ -320,16 +350,11 @@ titulares:
   titulo: AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership
   url: https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership
   resumen: 'Clubs with wealthy proprietors can maintain a loss-making operation but things can be more complex when the supporters carry the can When you walk up from Haydons Road train station to Plough Lane there is a blue AFC Wimbledon billboard that reads “Fan owned football”, directly opposite the site of '
-- seccion: general
-  medio: Europa Press
-  titulo: 'Abascal ve existenciales estas elecciones: "España no resiste 4 años más" de Sánchez'
-  url: https://www.europapress.es/catalunya/noticia-29n-abascal-ve-existenciales-elecciones-espana-no-resiste-anos-mas-sanchez-20261115143203.html
-  resumen: El candidato de Vox a presidir el Gobierno, Santiago Abascal, ha asegurado que estos comicios son una elección existencial porque "España no resiste 4 años más de Pedro Sánchez" y ha acusado al Gobierno de destruir los servicios públicos, por lo que Vox se presenta para responder a la emergencia que
-- seccion: general
-  medio: Europa Press
-  titulo: Feijóo está "valorando" reformar la ley para que amenazados por ETA que tuvieron que irse puedan votar en Euskadi
-  url: https://www.europapress.es/euskadi/noticia-feijoo-valorando-reformar-ley-amenazados-eta-tuvieron-irse-puedan-votar-euskadi-20261115114838.html
-  resumen: Condena la agresión al candidato por Guipúzcoa y dice que la violencia nunca les ha silenciado, "y no va a ser ahora cuando empecemos a callar"
+- seccion: deportes
+  medio: The Guardian
+  titulo: Five red cards issued for mass brawl in New York Red Bulls v Club América friendly
+  url: https://www.theguardian.com/football/2026/nov/15/red-bulls-club-america-brawl-friendly
+  resumen: Game played without veterans and stars on both sides Red Bulls’ MLS season is already over One hallmark of Mauricio Pochettino’s time in international management was been his refusal to embrace the term “friendly.” His preferred branding is “unofficial games”. His spin gained a bit of validity on Sa
 - seccion: general
   medio: Europa Press
   titulo: Lula se reunirá con Sánchez en Madrid pese a la cancelación de un acto conjunto por la afonía del presidente brasileño
