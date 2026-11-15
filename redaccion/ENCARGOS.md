@@ -40,6 +40,16 @@ fuentes:
 - `destacado: true` en una como mucho.
 - El `tema` solo orienta: no incluyas datos que no estén en las fuentes, porque el verificador descartará la noticia.
 
+## Encargo mensual de Cultura: lanzamientos musicales
+
+Una vez al mes, una tarea programada de Claude deja este encargo (sin fuentes: las busca el servidor):
+
+```yaml
+tipo: lanzamiento-youtube
+```
+
+El servidor lee el RSS público de los canales oficiales de `config/lanzamientos.yaml` (Nyomi Jet y Pressente), descarta los *shorts*, los vídeos de más de 60 días y los que ya tienen noticia (campo `video:`), y elige el más reciente. Jesús Lozano escribe una pieza breve con el título, la fecha y la descripción del artista, sin valorar la obra; pasa la misma verificación que el resto. La noticia lleva `video: <id>`, que inserta el reproductor en lugar de la foto, y como imagen un fotograma del propio vídeo (`licencia: video-oficial`, solo de `i.ytimg.com` y solo del vídeo indicado). Si no hay lanzamiento nuevo, el encargo pasa a descartados con ese motivo.
+
 ## Qué comprueba el servidor antes de publicar
 
 1. Que las fuentes estén admitidas y tengan texto suficiente.

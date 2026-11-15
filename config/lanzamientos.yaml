@@ -1,0 +1,13 @@
+# Lanzamientos musicales que sigue la sección de Cultura (Jesús Lozano).
+# Una vez al mes, el encargo «lanzamiento-youtube» lee los vídeos recientes de estos
+# canales oficiales y se escribe una noticia sobre el último lanzamiento que aún no
+# hayamos contado, con el vídeo insertado y un fotograma suyo como imagen.
+# Para añadir un artista: nombre, canal (URL) y canal_id (empieza por UC).
+seccion: cultura
+artistas:
+  - nombre: Nyomi Jet
+    canal: https://www.youtube.com/@nyomijet
+    canal_id: UCLqFrehedjLR5v1iIh0CrMA
+  - nombre: Pressente
+    canal: https://www.youtube.com/@pressente-e6i
+    canal_id: UCx6YIXIJppmUBt5MS4iqBFQ

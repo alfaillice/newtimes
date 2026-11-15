@@ -480,3 +480,6 @@ html { scroll-padding-top: 4rem; }
 .video__sonido:hover .video__sonido-pastilla, .video__sonido:focus-visible .video__sonido-pastilla { background: #C40E24; }
 .directo__aviso-sonido { margin-top: .6rem; font-family: var(--sans); font-size: .875rem; color: #FFD2D7; }
 @media (prefers-reduced-motion: reduce) { .video__sonido-pastilla { animation: none; } }
+
+/* Noticias de lanzamientos: el vídeo oficial ocupa el lugar de la foto */
+.articulo__video .video { box-shadow: none; border-radius: 4px; }

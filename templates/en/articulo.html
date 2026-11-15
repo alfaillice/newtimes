@@ -66,7 +66,12 @@
     </div>
   </header>
 
-  {% if a.foto %}
+  {% if a.video %}
+  <figure class="articulo__foto articulo__video">
+    <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{{ a.video }}?rel=0&amp;playsinline=1" title="{{ a.titulo }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    {% set im = a.foto or a.imagen or {} %}<figcaption>{% if im.pie %}{{ im.pie }} {% endif %}<span class="credito">Video: {{ im.autor }}, <a href="https://www.youtube.com/watch?v={{ a.video }}" rel="nofollow noopener" target="_blank">Watch on YouTube</a></span></figcaption>
+  </figure>
+  {% elif a.foto %}
   <figure class="articulo__foto">
     <img fetchpriority="high" src="{{ a.foto.src }}" srcset="{{ a.foto.src_peq }} 640w, {{ a.foto.src }} 1200w" sizes="(max-width: 52rem) 100vw, 52rem" alt="{{ a.foto.alt }}" width="{{ a.foto.ancho }}" height="{{ a.foto.alto }}" decoding="async">
     <figcaption>{% if a.foto.pie %}{{ a.foto.pie }} {% endif %}<span class="credito">Photo: {% if a.foto.fuente %}<a href="{{ a.foto.fuente }}" rel="nofollow noopener" target="_blank">{{ a.foto.autor }}</a>{% else %}{{ a.foto.autor }}{% endif %}, {% if a.foto.licencia_url %}<a href="{{ a.foto.licencia_url }}" rel="license noopener" target="_blank">{{ a.foto.licencia }}</a>{% else %}{{ a.foto.licencia }}{% endif %}</span></figcaption>

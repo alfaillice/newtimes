@@ -125,6 +125,8 @@ Reglas del pie de foto:
 - Nada de imágenes de víctimas, heridos, cadáveres ni menores.
 - `alt` describe lo que se ve, para lectores con discapacidad visual.
 
+Excepción: en las noticias de lanzamientos musicales (encargo mensual de Cultura, ver `redaccion/ENCARGOS.md`) la imagen es un fotograma del vídeo oficial del que trata la noticia, publicado por el propio artista.
+
 Otras procedencias permitidas (solo si Commons no sirve): Pexels, Unsplash, fotos oficiales de La Moncloa, de la Comisión Europea o del Parlamento Europeo, NASA y ESA. En ese caso se indica todo a mano:
 
 ```yaml

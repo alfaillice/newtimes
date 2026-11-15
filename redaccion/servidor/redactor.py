@@ -483,7 +483,7 @@ Si las fuentes no bastan para una noticia rigurosa, responde {{"descartar": "mot
     return sistema, usuario
 
 
-def _escribir(tema, agente, fuentes, sistema, usuario, ahora):
+def _escribir(tema, agente, fuentes, sistema, usuario, ahora, extra=None):
     try:
         d = extraer_json(claude(sistema, usuario, 16000))
     except Reintentar:
@@ -534,6 +534,8 @@ def _escribir(tema, agente, fuentes, sistema, usuario, ahora):
     }
     if d.get("lugar"):
         meta["lugar"] = d["lugar"].strip()
+    if extra:
+        meta.update(extra)
     carpeta = RAIZ / "content" / EDICION / ahora.strftime("%Y/%m/%d")
     carpeta.mkdir(parents=True, exist_ok=True)
     ruta = carpeta / f"{slugify(meta['titulo'])}.md"
@@ -548,6 +550,107 @@ def _escribir(tema, agente, fuentes, sistema, usuario, ahora):
         return None
     log(f"  OK {ruta.relative_to(RAIZ)} — {meta['titulo']}")
     return str(ruta.relative_to(RAIZ))
+
+
+# ------------------------------------------------------------- lanzamientos musicales
+
+YT = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015",
+      "media": "http://search.yahoo.com/mrss/"}
+
+
+def videos_canal(artista: dict) -> list[dict]:
+    """Vídeos recientes de un canal oficial de YouTube, por su RSS público (sin API ni IA)."""
+    raiz = ET.fromstring(descargar(f"https://www.youtube.com/feeds/videos.xml?channel_id={artista['canal_id']}"))
+    videos = []
+    for e in raiz.findall("a:entry", YT):
+        vid = e.findtext("yt:videoId", "", YT)
+        nodo = e.find("a:link", YT)
+        enlace = (nodo.get("href") if nodo is not None else "") or ""
+        if not vid or "/shorts/" in enlace:   # un short no es un lanzamiento
+            continue
+        grupo = e.find("media:group", YT)
+        videos.append({
+            "artista": artista["nombre"], "canal": artista["canal"], "id": vid,
+            "titulo": e.findtext("a:title", "", YT).strip(),
+            "publicado": datetime.fromisoformat(e.findtext("a:published", "", YT)).astimezone(TZ),
+            "descripcion": (grupo.findtext("media:description", "", YT) if grupo is not None else "").strip(),
+            "url": f"https://www.youtube.com/watch?v={vid}",
+        })
+    return sorted(videos, key=lambda v: v["publicado"], reverse=True)
+
+
+def _videos_publicados() -> set[str]:
+    hechos = set()
+    for ruta in (RAIZ / "content").glob("*/*/*/*/*.md"):
+        m = re.search(r"^video:\s*['\"]?([A-Za-z0-9_-]{11})", ruta.read_text(encoding="utf-8")[:4000], re.M)
+        if m:
+            hechos.add(m.group(1))
+    return hechos
+
+
+def _fotograma(vid: str) -> str:
+    for calidad in ("maxresdefault", "hqdefault"):
+        url = f"https://i.ytimg.com/vi/{vid}/{calidad}.jpg"
+        try:
+            descargar(url, 5_000_000)
+            return url
+        except Exception:  # noqa: BLE001
+            continue
+    return ""
+
+
+def escribir_lanzamiento(agentes, guia) -> str | None:
+    """Encargo mensual de Cultura: el último lanzamiento aún no contado de los artistas de config/lanzamientos.yaml."""
+    cfg = yaml.safe_load((RAIZ / "config/lanzamientos.yaml").read_text(encoding="utf-8"))
+    seccion = cfg.get("seccion", "cultura")
+    dias = int(cfg.get("dias", 60))
+    ya = _videos_publicados()
+    limite = datetime.now(TZ) - timedelta(days=dias)
+    por_artista, candidatos = {}, []
+    for art in cfg["artistas"]:
+        try:
+            vids = videos_canal(art)
+        except Exception as e:  # noqa: BLE001
+            log(f"  AVISO no se pudo leer el canal de {art['nombre']}: {e}")
+            continue
+        por_artista[art["nombre"]] = vids
+        candidatos += [v for v in vids if v["id"] not in ya and v["publicado"] >= limite]
+    if not por_artista:
+        raise Reintentar("no se pudo leer ningún canal de YouTube")
+    if not candidatos:
+        descartar(f"ningún lanzamiento nuevo sin publicar en los últimos {dias} días")
+        return None
+    v = max(candidatos, key=lambda x: x["publicado"])
+    log(f"  lanzamiento elegido: {v['artista']} — {v['titulo']} ({v['publicado']:%d/%m/%Y}) {v['url']}")
+    otros = [o for o in por_artista[v["artista"]] if o["id"] != v["id"]][:6]
+    fuentes = [{"medio": f"{v['artista']} (canal oficial en YouTube)", "titulo": v["titulo"], "url": v["url"],
+                "texto": f"Artista: {v['artista']}\nCanal oficial: {v['canal']}\nTítulo del vídeo: {v['titulo']}\n"
+                         f"Publicado en YouTube el {v['publicado']:%d/%m/%Y}\n\nDescripción publicada por el artista:\n"
+                         f"{v['descripcion'] or '(sin descripción)'}"}]
+    if otros:
+        fuentes.append({"medio": f"{v['artista']} (canal oficial en YouTube)", "titulo": "Vídeos anteriores del canal",
+                        "url": v["canal"],
+                        "texto": "Vídeos anteriores publicados en el canal oficial:\n" + "\n".join(
+                            f"- «{o['titulo']}», publicado el {o['publicado']:%d/%m/%Y}" for o in otros)})
+    foto = _fotograma(v["id"])
+    if not foto:
+        descartar(f"no se pudo obtener un fotograma del vídeo {v['id']}")
+        return None
+    tema = {"seccion": seccion, "destacado": False,
+            "tema": f"el lanzamiento de «{v['titulo']}», nuevo vídeo de {v['artista']} publicado en su canal oficial de YouTube"}
+    bloque = "\n\n".join(f"### FUENTE {n}: {f['medio']} — {f['titulo']}\nURL: {f['url']}\n{f['texto']}"
+                         for n, f in enumerate(fuentes, 1))
+    ahora = datetime.now(TZ)
+    sistema, usuario = _prompts_es(agentes[seccion], tema, guia, ahora, bloque)
+    usuario += ("\n\nEs una pieza de servicio sobre un lanzamiento musical, de 150 a 300 palabras. Cuenta qué se ha "
+                "publicado, de quién, cuándo y dónde verlo, y lo que diga la descripción del artista (atribuida a él). "
+                "No valores la obra ni añadas nada sobre la trayectoria del artista que no esté en las fuentes; si la "
+                "descripción está vacía, sé breve. Deja imagen_buscar vacío: la imagen será un fotograma del propio vídeo.")
+    extra = {"video": v["id"], "imagen": {
+        "url": foto, "autor": f"{v['artista']} / YouTube", "licencia": "video-oficial", "fuente": v["url"],
+        "alt": f"Fotograma del vídeo «{v['titulo']}» de {v['artista']}",
+        "pie": f"Fotograma del vídeo «{v['titulo']}», publicado por {v['artista']} en YouTube."}}
+    return _escribir(tema, agentes[seccion], fuentes, sistema, usuario, ahora, extra)
 
 
 # ------------------------------------------------------------------ encargos
@@ -605,22 +708,26 @@ def procesar_encargos(secciones, agentes, guia, prueba: bool) -> None:
         try:
             encargo = yaml.safe_load(ruta.read_text(encoding="utf-8"))
         except yaml.YAMLError as e:
-            encargo, error = None, f"YAML no válido: {e}"
+            encargo, error, especial = None, f"YAML no válido: {e}", False
         else:
-            error = _validar_encargo(encargo, secciones)
+            especial = isinstance(encargo, dict) and encargo.get("tipo") == "lanzamiento-youtube"
+            error = "" if especial else _validar_encargo(encargo, secciones)
         if error:
             log(f"Encargo {ruta.name} rechazado: {error}")
             if not prueba:
                 _archivar(ruta, encargo, error)
                 cambios += 1
             continue
-        tema = {"seccion": encargo["seccion"], "tema": str(encargo["tema"]).strip(),
-                "destacado": bool(encargo.get("destacado")),
-                "items": [{"medio": f.get("medio") or urllib.parse.urlsplit(f["url"]).hostname, "url": f["url"],
-                           "titulo": f.get("titulo") or "", "resumen": ""} for f in encargo["fuentes"]]}
+        if especial:
+            tema = {"seccion": "cultura", "tema": "lanzamiento musical (YouTube)"}
+        else:
+            tema = {"seccion": encargo["seccion"], "tema": str(encargo["tema"]).strip(),
+                    "destacado": bool(encargo.get("destacado")),
+                    "items": [{"medio": f.get("medio") or urllib.parse.urlsplit(f["url"]).hostname, "url": f["url"],
+                               "titulo": f.get("titulo") or "", "resumen": ""} for f in encargo["fuentes"]]}
         log(f"Encargo {ruta.name}: [{tema['seccion']}] {tema['tema']}")
         try:
-            hecha = redactar(tema, agentes[tema["seccion"]], guia)
+            hecha = escribir_lanzamiento(agentes, guia) if especial else redactar(tema, agentes[tema["seccion"]], guia)
         except Reintentar as e:
             intentos = int(encargo.get("intentos", 0)) + 1
             log(f"  fallo de la API (intento {intentos} de {MAX_INTENTOS}): {e}")

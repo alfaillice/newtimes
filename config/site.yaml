@@ -54,6 +54,7 @@ imagenes_permitidas:
   - images-assets.nasa.gov
   - www.nasa.gov
   - www.esa.int
+  - i.ytimg.com            # solo fotogramas del vídeo oficial del que trata la noticia (licencia video-oficial)
 
 ediciones:
   es:

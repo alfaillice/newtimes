@@ -61,11 +61,13 @@ LICENCIAS = {
     "uso-oficial": "Uso libre con atribución",
     "kit-de-prensa": "Material de prensa",
     "propia": "NewTimes.news",
+    "video-oficial": "Imagen del vídeo oficial",
 }
 LICENSES_EN = {**LICENCIAS, "dominio-publico": "Public domain", "pexels": "Pexels licence",
                "unsplash": "Unsplash licence", "uso-oficial": "Free use with attribution",
-               "kit-de-prensa": "Press material"}
+               "kit-de-prensa": "Press material", "video-oficial": "Still from the official video"}
 LICENCIAS_VALIDAS = set(LICENCIAS)
+VIDEO_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")   # identificador de un vídeo de YouTube
 AGENTE_CABECERA = {"User-Agent": "NewTimesBot/1.0 (+https://newtimes.news/como-trabajamos/; redaccion@newtimes.news)"}
 
 
@@ -162,6 +164,7 @@ class Articulo:
     autor: str = "JM Triviño"
     agente: dict | None = None
     foto: dict | None = None     # imagen ya optimizada y servida desde la web
+    video: str = ""              # vídeo de YouTube que se inserta en lugar de la foto (lanzamientos musicales)
     ruta_fuente: str = ""
     url: str = ""          # ruta relativa al sitio, empieza y acaba en /
     og: str = ""           # ruta de la imagen para compartir
@@ -208,6 +211,9 @@ def comprobar_imagen(imagen, cfg: dict) -> None:
         if u.scheme != "https" or u.hostname not in cfg.get("imagenes_permitidas", []):
             raise ValueError(f"imagen de un servidor no permitido ({u.hostname}). Solo: "
                              + ", ".join(cfg.get("imagenes_permitidas", [])))
+        # Fotograma de YouTube: solo como imagen del propio vídeo del que trata la noticia (ver cargar_articulos)
+        if (u.hostname == "i.ytimg.com") != (lic == "video-oficial"):
+            raise ValueError("las imágenes de i.ytimg.com solo valen con 'licencia: video-oficial', y esa licencia solo con ellas")
         if lic not in {"kit-de-prensa", "propia"} and not imagen.get("fuente"):
             raise ValueError("la imagen necesita 'fuente' (página donde figura su licencia)")
     elif imagen.get("archivo"):
@@ -272,6 +278,11 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                     imagen["licencia"] = str(imagen["licencia"]).lower()
             else:
                 avisos.append(f"{rel}: sin imagen")
+            video = str(meta.get("video") or "").strip()
+            if video and not VIDEO_RE.match(video):
+                raise ValueError(f"'video' debe ser el identificador de YouTube de 11 caracteres, no '{video}'")
+            if imagen and imagen.get("licencia") == "video-oficial" and (not video or f"/vi/{video}/" not in str(imagen.get("url"))):
+                raise ValueError("una imagen 'video-oficial' tiene que ser un fotograma del vídeo indicado en 'video'")
             agente = por_slug.get(str(meta.get("agente") or ""))
             if agentes:
                 esperado = por_seccion.get(meta["seccion"])
@@ -307,7 +318,7 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                 fecha=fecha, actualizado=act, fuentes=fuentes, cuerpo_html=cuerpo_html,
                 palabras=palabras, etiquetas=[str(e) for e in meta.get("etiquetas") or []],
                 destacado=bool(meta.get("destacado")), lugar=str(meta.get("lugar") or ""),
-                imagen=imagen or None, agente=agente,
+                imagen=imagen or None, agente=agente, video=video,
                 autor=agente["nombre"] if agente else str(meta.get("autor") or "JM Triviño"),
                 ruta_fuente=rel, url=url,
             ))
