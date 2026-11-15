@@ -472,3 +472,11 @@ html { scroll-padding-top: 4rem; }
 .centinela-menu { height: 1px; margin-bottom: -1px; }
 @media (prefers-reduced-motion: reduce) { .secciones { transition: none; } }
 @media (max-width: 40rem) { .secciones--fijo .secciones__marca { display: none; } }
+
+/* Directo: botón para activar el sonido sobre el vídeo */
+.video__sonido { position: absolute; inset: 0; z-index: 2; display: flex; align-items: flex-end; justify-content: center; padding: clamp(.8rem, 3vw, 1.4rem); background: linear-gradient(180deg, transparent 55%, rgba(0,0,0,.45)); border: 0; cursor: pointer; }
+.video__sonido[hidden] { display: none; }
+.video__sonido-pastilla { display: inline-flex; align-items: center; gap: .55rem; padding: .75rem 1.25rem; border-radius: 999px; background: var(--rojo-vivo); color: #fff; font-family: var(--sans); font-weight: 600; font-size: clamp(1rem, 2.6vw, 1.125rem); box-shadow: 0 6px 22px rgba(0,0,0,.4); animation: latido 2.2s ease-out infinite; }
+.video__sonido:hover .video__sonido-pastilla, .video__sonido:focus-visible .video__sonido-pastilla { background: #C40E24; }
+.directo__aviso-sonido { margin-top: .6rem; font-family: var(--sans); font-size: .875rem; color: #FFD2D7; }
+@media (prefers-reduced-motion: reduce) { .video__sonido-pastilla { animation: none; } }

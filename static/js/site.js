@@ -88,6 +88,78 @@
     arrancar();
   });
 
+  /* Directo: el vídeo arranca solo y sin sonido (los navegadores lo exigen) y se
+     activa el sonido con un toque. Se habla con el reproductor por su API (postMessage). */
+  var marcoVideo = document.querySelector("[data-video-directo]");
+  if (marcoVideo) {
+    var ifr = marcoVideo.querySelector("iframe");
+    var capaSonido = marcoVideo.querySelector("[data-activar-sonido]");
+    var avisoSonido = document.querySelector("[data-aviso-sonido]");
+    var origenYT = "https://www.youtube-nocookie.com";
+    var yt = { conectado: false, silenciado: true, estado: -1 };
+    var conSonidoYa = false;
+    var enviar = function (obj) {
+      try { ifr.contentWindow.postMessage(JSON.stringify(obj), origenYT); } catch (e) { /* sin reproductor */ }
+    };
+    var orden = function (func, args) { enviar({ event: "command", func: func, args: args || [], id: 1, channel: "widget" }); };
+    var escuchar = function () { enviar({ event: "listening", id: 1, channel: "widget" }); };
+    window.addEventListener("message", function (e) {
+      if (e.origin !== origenYT || e.source !== ifr.contentWindow) return;
+      var d; try { d = typeof e.data === "string" ? JSON.parse(e.data) : e.data; } catch (x) { return; }
+      if (!d || !d.event) return;
+      yt.conectado = true;
+      if (d.event === "infoDelivery" && d.info) {
+        if (typeof d.info.muted === "boolean") yt.silenciado = d.info.muted;
+        if (typeof d.info.playerState === "number") yt.estado = d.info.playerState;
+      }
+      if (d.event === "onStateChange" && typeof d.info === "number") yt.estado = d.info;
+      if (pedido && yt.silenciado === false && yt.estado === 1) conSonido();
+    });
+    ifr.addEventListener("load", escuchar);
+    var intentos = 0;
+    var reloj = setInterval(function () { if (yt.conectado || ++intentos > 20) { clearInterval(reloj); return; } escuchar(); }, 500);
+
+    var pedido = false;
+    var conSonido = function () {
+      conSonidoYa = true;
+      if (capaSonido) capaSonido.hidden = true;
+      if (avisoSonido) avisoSonido.hidden = true;
+    };
+    var activarSonido = function (conGesto) {
+      if (conSonidoYa) return;
+      pedido = true;
+      orden("unMute"); orden("setVolume", [100]); orden("playVideo");
+      setTimeout(function () {
+        if (conSonidoYa) return;
+        if (yt.silenciado === false && yt.estado === 1) { conSonido(); return; }
+        // El navegador no lo ha permitido: el vídeo sigue en marcha sin sonido
+        if (yt.estado !== 1) { orden("mute"); orden("playVideo"); }
+        if (conGesto) {
+          // Se retira el botón para dejar a mano los controles del propio reproductor
+          if (capaSonido) capaSonido.hidden = true;
+          if (avisoSonido) avisoSonido.hidden = false;
+        }
+      }, 1500);
+    };
+    if (capaSonido) {
+      capaSonido.hidden = false;
+      capaSonido.addEventListener("click", function (e) { e.preventDefault(); activarSonido(true); });
+    }
+    // El primer toque o tecla en cualquier parte de la página también activa el sonido
+    var primerGesto = function () {
+      document.removeEventListener("pointerdown", primerGesto, true);
+      document.removeEventListener("keydown", primerGesto, true);
+      activarSonido(false);
+    };
+    document.addEventListener("pointerdown", primerGesto, true);
+    document.addEventListener("keydown", primerGesto, true);
+    // Si el navegador ya permite sonido automático (algunos lo hacen con webs que visitas a menudo), se intenta sin esperar
+    if (navigator.getAutoplayPolicy && navigator.getAutoplayPolicy("mediaelement") === "allowed") {
+      var esperaInicio = setInterval(function () { if (yt.estado === 1) { clearInterval(esperaInicio); activarSonido(false); } }, 500);
+      setTimeout(function () { clearInterval(esperaInicio); }, 15000);
+    }
+  }
+
   /* Directo: la lista de última hora se actualiza sola cada minuto */
   var feed = document.querySelector("[data-feed]");
   if (feed) {

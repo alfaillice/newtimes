@@ -12,13 +12,17 @@
   </div>
   <div class="envoltura directo__rejilla">
     <div class="directo__video">
-      <div class="video">
-        <iframe src="https://www.youtube-nocookie.com/embed/{{ cfg.directo.youtube_id }}?autoplay=1&amp;mute=1&amp;playsinline=1&amp;rel=0"
+      <div class="video" data-video-directo>
+        <iframe src="https://www.youtube-nocookie.com/embed/{{ cfg.directo.youtube_id }}?autoplay=1&amp;mute=1&amp;playsinline=1&amp;rel=0&amp;enablejsapi=1&amp;origin={{ cfg.url|urlencode }}"
                 title="{{ cfg.directo.canal }} en directo"
                 allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen
                 referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <button type="button" class="video__sonido" data-activar-sonido hidden>
+          <span class="video__sonido-pastilla"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5z" fill="currentColor"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg><span>Toca para activar el sonido</span></span>
+        </button>
       </div>
-      <p class="directo__credito">Señal en directo de <a href="{{ cfg.directo.canal_url }}" rel="noopener" target="_blank">{{ cfg.directo.canal }}</a> a través de YouTube. El vídeo empieza sin sonido: actívalo desde el reproductor. NewTimes.news no es responsable de los contenidos de esta emisión.</p>
+      <p class="directo__aviso-sonido" data-aviso-sonido hidden>El navegador no ha dejado activar el sonido desde aquí: toca el vídeo y usa su botón de volumen.</p>
+      <p class="directo__credito">Señal en directo de <a href="{{ cfg.directo.canal_url }}" rel="noopener" target="_blank">{{ cfg.directo.canal }}</a> a través de YouTube. Los navegadores obligan a que el vídeo empiece sin sonido: toca «Activar sonido» para escucharlo. NewTimes.news no es responsable de los contenidos de esta emisión.</p>
     </div>
     <aside class="directo__ultima" aria-labelledby="ultima-directo">
       <div class="directo__ultima-cabecera">
