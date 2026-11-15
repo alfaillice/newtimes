@@ -1,5 +1,25 @@
-generado: '2026-11-15T14:50:00+01:00'
+generado: '2026-11-15T17:50:00+01:00'
 titulares:
+- seccion: espana
+  medio: Europa Press
+  titulo: El PSOE promete blindar 19.000 millones hasta 2030 para mantener la red ferroviaria e impulsar un Pacto de Estado
+  url: https://www.europapress.es/nacional/noticia-psoe-promete-blindar-19000-millones-2030-mantener-red-ferroviaria-impulsar-pacto-estado-20261115164705.html
+  resumen: El PSOE ha propuesto en su programa electoral para las elecciones generales del 29 de noviembre blindar una inversión de unos 19.000 millones de euros entre 2026 y 2030 para la conservación y el mantenimiento de la red ferroviaria, así como impulsar un Pacto de Estado por la Seguridad Ferroviaria, l
+- seccion: espana
+  medio: Europa Press
+  titulo: Sánchez anuncia más impuestos a fondos propietarios de vivienda y permisos para cuidar hijos de menos de 8 años
+  url: https://www.europapress.es/nacional/noticia-sanchez-anuncia-mas-impuestos-fondos-propietarios-viviendas-permisos-cuidado-hijos-menores-anos-20261115135836.html
+  resumen: Incluye en el programa electoral la figura de la "unión de amistad" para otorgar derechos a personas sin vínculo familiar o de pareja
+- seccion: espana
+  medio: Europa Press
+  titulo: Feijóo pide concentrar el voto en PP para "abrir un tiempo nuevo" y acusa a Sánchez de liderar "con incompetencia"
+  url: https://www.europapress.es/cantabria/noticia-feijoo-pide-concentrar-voto-pp-abrir-tiempo-nuevo-acusa-sanchez-liderar-incompetencia-20261115140501.html
+  resumen: El presidente del PP y candidato a la Presidencia del Gobierno, Alberto Núñez Feijóo, ha pedido este domingo, en un mitin celebrado en Santander ante unas 4.000 personas, movilizar el voto para su formación de cara a las elecciones del próximo 29 de noviembre, y ha defendido que España necesita "dec
+- seccion: espana
+  medio: Europa Press
+  titulo: Sánchez se reúne con Lula en Moncloa este lunes aunque se cancela un acto de campaña por afonía del presidente brasileño
+  url: https://www.europapress.es/nacional/noticia-sanchez-reune-lula-moncloa-lunes-cancela-acto-campana-afonia-presidente-brasileno-20261115150524.html
+  resumen: El presidente del Gobierno, Pedro Sánchez, se reunirá este lunes en Moncloa con el presidente de Brasil, Luiz Inácio Lula da Silva, aunque se ha cancelado un acto de campaña en el que intervenían ambos mandatarios previsto también para este lunes.
 - seccion: espana
   medio: Europa Press
   titulo: 'Feijóo: "Pido a los españoles un apoyo amplio para derogar lo más rápido posible el sanchismo"'
@@ -7,9 +27,9 @@ titulares:
   resumen: El presidente del PP, Alberto Núñez Feijóo, ha pedido a los españoles un "apoyo amplio" para derogar "lo más rápido posible el sanchismo" y ha situado la regeneración democrática, la vivienda y la recuperación de la "verdad, la sinceridad y la honestidad" en la política entre sus principales objetiv
 - seccion: espana
   medio: Europa Press
-  titulo: Frente Amplio propone que la "familia elegida" pueda tener permisos retribuidos por cuidados
-  url: https://www.europapress.es/nacional/noticia-frente-amplio-propone-familia-elegida-pueda-tener-permisos-retribuidos-cuidados-20261115121612.html
-  resumen: Frente Amplio ha propuesto este domingo que la "familia elegida", como amigos y vecinos cercanos, puedan tener permisos retribuidos por cuidados en casos de enfermedad, hospitalización, dependencia o crianza de menores.
+  titulo: Los tribunales no paran en campaña electoral con declaraciones de los casos 'Leire', 'Koldo', 'Plus Ultra' o Ceuta
+  url: https://www.europapress.es/nacional/noticia-tribunales-no-paran-campana-electoral-declaraciones-casos-leire-koldo-plus-ultra-ceuta-20261115125957.html
+  resumen: 'La campaña electoral de las elecciones generales del próximo 29 de noviembre no detendrá la actividad de los tribunales en las próximas semanas, en las que se esperan declaraciones de investigados y testigos en las causas más mediáticas de la Audiencia Nacional, como el ''caso Koldo'', el ''caso Leire '
 - seccion: espana
   medio: Europa Press
   titulo: 'Un año de la condena a García Ortiz: un indulto "en la mesa" del Gobierno y el TC estudiará su amparo después del 29N'
@@ -17,19 +37,29 @@ titulares:
   resumen: El Tribunal Supremo (TS) condenó por primera vez a un fiscal general del estado el 20 de noviembre de 2025, cuando declaró culpable a Álvaro García Ortiz de revelar secretos contra el empresario Alberto González Amador. Transcurrido un año de ello, el Gobierno tiene su indulto "en la mesa" y la soli
 - seccion: espana
   medio: Europa Press
-  titulo: Los tribunales no paran en campaña electoral con declaraciones de los casos 'Leire', 'Koldo', 'Plus Ultra' o Ceuta
-  url: https://www.europapress.es/nacional/noticia-tribunales-no-paran-campana-electoral-declaraciones-casos-leire-koldo-plus-ultra-ceuta-20261115125957.html
-  resumen: 'La campaña electoral de las elecciones generales del próximo 29 de noviembre no detendrá la actividad de los tribunales en las próximas semanas, en las que se esperan declaraciones de investigados y testigos en las causas más mediáticas de la Audiencia Nacional, como el ''caso Koldo'', el ''caso Leire '
-- seccion: espana
-  medio: Europa Press
   titulo: 'El papel histórico del Senado: de las críticas por su utilidad al artículo 155 en Cataluña'
   url: https://www.europapress.es/nacional/noticia-papel-historico-senado-criticas-utilidad-articulo-155-cataluna-20261115112958.html
   resumen: Las alianzas electorales acordadas por los bloques políticos para conseguir el control del Senado han devuelto al primer plano el peso histórico de la Cámara Alta, una institución que ha transitado por la democracia entre las críticas recurrentes a su papel "secundario" y su intervención decisiva en
 - seccion: espana
   medio: Europa Press
+  titulo: Frente Amplio propone que la "familia elegida" pueda tener permisos retribuidos por cuidados
+  url: https://www.europapress.es/nacional/noticia-frente-amplio-propone-familia-elegida-pueda-tener-permisos-retribuidos-cuidados-20261115121612.html
+  resumen: Frente Amplio ha propuesto este domingo que la "familia elegida", como amigos y vecinos cercanos, puedan tener permisos retribuidos por cuidados en casos de enfermedad, hospitalización, dependencia o crianza de menores.
+- seccion: espana
+  medio: Europa Press
   titulo: Expertos alertan del riesgo del "corredor" entre España y Marruecos que está forjando Estado Islámico desde el Sahel
   url: https://www.europapress.es/nacional/noticia-expertos-alertan-riesgo-corredor-espana-marruecos-forjando-estado-islamico-sahel-20261115104649.html
   resumen: 'Las operaciones antiterroristas llevadas a cabo por España y Marruecos en los últimos meses ponen de manifiesto el interés de Estado Islámico, a través de su filial en el Sahel, de crear un corredor logístico que una los dos países con el que se ha convertido en el principal escenario del yihadismo '
+- seccion: espana
+  medio: El País
+  titulo: 'Frente Amplio echa el resto para revalidar su escaño por Zaragoza: “Puede ser decisivo y se juega aquí”'
+  url: https://elpais.com/espana/elecciones-generales/2026-11-15/frente-amplio-echa-el-resto-para-revalidar-su-escano-por-zaragoza-puede-ser-decisivo-y-se-juega-aqui.html
+  resumen: 'Colau se lanza a por el voto de los autónomos: propone hacer indefinida la tarifa plana para aquellos que ingresen menos del salario mínimo anual y medidas para reducir la burocracia'
+- seccion: espana
+  medio: El País
+  titulo: 'Ábalos pide la nulidad del último registro en su vivienda: “Solo tengo conocimiento a través de la televisión”'
+  url: https://elpais.com/espana/2026-11-15/abalos-pide-la-nulidad-del-ultimo-registro-en-su-vivienda-solo-tengo-conocimiento-a-traves-de-la-television.html
+  resumen: El abogado del exministro ve vulnerado el derecho a la defensa y a la inviolabilidad del domicilio
 - seccion: internacional
   medio: Europa Press
   titulo: Un ataque con drones en Rostov (Rusia) deja al menos un muerto y cuatro heridos e interrumpe el tráfico ferroviario
@@ -76,10 +106,15 @@ titulares:
   url: https://www.europapress.es/internacional/noticia-francia-prohibe-temporalmente-venta-uso-material-pirotecnico-escalada-protestas-20261115125336.html
   resumen: El Gobierno francés ha decretado la prohibición temporal de vender y utilizar artefactos pirotécnicos y artículos de pirotecnia recreativa en todo el país hasta el próximo 27 de noviembre, en respuesta a los riesgos para el orden público asociados a las movilizaciones y bloqueos registrados ante cen
 - seccion: economia
-  medio: El País
-  titulo: Alta velocidad Madrid-Barcelona, una reforma compleja en medio de un debate incendiado
-  url: https://elpais.com/espana/2026-11-15/alta-velocidad-madrid-barcelona-una-reforma-compleja-en-medio-de-un-debate-incendiado.html
-  resumen: Adif ha barajado parar el tráfico en la línea para agilizar y asegurar la fiabilidad de las obras que arrancarán en 2027, lo que fue reconocido por Óscar Puente y le supuso un mar de críticas. También se analizan cortes parciales y ampliaciones de las franjas horarias de trabajo
+  medio: BBC
+  titulo: Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says
+  url: https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss
+  resumen: The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.
+- seccion: economia
+  medio: BBC
+  titulo: Minister backs legal right to job support for young people
+  url: https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss
+  resumen: The work and pensions secretary said the level of support currently on offer was too vague.
 - seccion: sociedad
   medio: Europa Press
   titulo: 'El matemático Ian Stewart defiende una "desaceleración" de la IA: "Se encuentra actualmente en un estado de anarquía"'
@@ -105,6 +140,11 @@ titulares:
   titulo: Mental health is no joke - but I've turned it into a stand-up routine
   url: https://www.bbc.co.uk/news/articles/ck1l05lqjrq6o?at_medium=RSS&at_campaign=rss
   resumen: People who have struggled with mental ill-health are giving stand-up a go to tell their stories.
+- seccion: ciencia-salud
+  medio: The Guardian
+  titulo: Gout is on the rise – and excruciating. Why are sufferers still judged for it?
+  url: https://www.theguardian.com/lifeandstyle/2026/nov/15/gout-is-on-the-rise-and-excruciating-why-are-sufferers-still-judged-for-it
+  resumen: About 1.6 million people in the UK have this agonising condition, but it is often viewed as a comical malady brought on by overconsumption and idleness. What can be done to end the stigma? Brett McAllister-Byrne was in his early 30s when he first noticed a sharp ache in his ankle and big toe. “I fel
 - seccion: tecnologia
   medio: BBC
   titulo: South Korea's top scorer in tax accountancy exam admits cheating
@@ -117,9 +157,9 @@ titulares:
   resumen: Jensen Huang’s affair with a suspected spy is Silicon Valley’s worst nightmare come true The resignation this week of Nvidia’s founder and CEO Jensen Huang is one of the most astonishing corporate scandals in memory, featuring allegations of international espionage and extramarital affairs involving
 - seccion: tecnologia
   medio: The Guardian
-  titulo: Italy fines Meta $887m for accessing Android users’ photos and videos
-  url: https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos
-  resumen: The fine is among the largest an Italian authority has imposed on a tech giant and Meta says it plans to appeal the decision Italy’s data protection agency has fined Facebook parent company Meta €805m ($887m) for accessing users’ photos without their specific consent. Through the Facebook applicatio
+  titulo: '160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating'
+  url: https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam
+  resumen: Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national exam for aspiring tax accountants this year seemed too good to be true. On Sunday, sceptics were ⁠proven right when he ⁠confe
 - seccion: tecnologia
   medio: The Guardian
   titulo: '‘Prove you are not a robot’: how the Captcha scam captures your computer'
@@ -127,9 +167,9 @@ titulares:
   resumen: 'Unlike familiar Captcha tests, this con asks you to press a series of keys. And that’s a way in for fraudsters to install malicious software You are looking for some gifts for Christmas and want to support small businesses when you shop. When you visit the site of one you’ve heard good things about '
 - seccion: tecnologia
   medio: The Guardian
-  titulo: '160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating'
-  url: https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam
-  resumen: Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national exam for aspiring tax accountants this year seemed too good to be true. On Sunday, sceptics were ⁠proven right when he ⁠confe
+  titulo: '‘Grand Theft Auto Flu’: is the whole world really taking the day off work to play GTA VI?'
+  url: https://www.theguardian.com/games/2026/nov/16/grand-theft-auto-gta-vi-first-new-game-released-in-13-years
+  resumen: 'Headlines have claimed the release of the first new GTA game in 13 years will hugely affect the global economy on Thursday – but there’s another story that’s been left behind A new pandemic is threatening planet Earth. It’s scheduled to hit 19 November. Entire offices and worksites will be emptied; '
 - seccion: tecnologia
   medio: The Guardian
   titulo: 'Ten years, thousands of staff and a billion dollars: the exclusive inside story of Grand Theft Auto VI'
@@ -157,9 +197,19 @@ titulares:
   resumen: As a new report finds a shocking decline in trans and non-binary representation on-screen, actors Trace Lysette, Vico Ortiz and Rebecca Root speak out At the start of 2024, Trace Lysette was feeling like she had reached the apex of her career. She had just been nominated for an Independent Spirit Aw
 - seccion: cultura
   medio: The Guardian
+  titulo: '‘She was a monster’: the real Patricia Highsmith, by the people who knew her'
+  url: https://www.theguardian.com/books/2026/nov/15/she-was-a-monster-the-real-patricia-highsmith-by-the-people-who-knew-her
+  resumen: 'A new film starring Helen Mirren explores the Ripley writer’s later years, but was she really so rude and eccentric? Editors and publishers who worked with her look back Publisher and bookseller Otto Penzler has loved Patricia Highsmith’s work all his life, but their first meeting was a washout. In '
+- seccion: cultura
+  medio: The Guardian
   titulo: Tamsin Greig is sensational in a Cranford where comedy and pain are in perfect balance
   url: https://www.theguardian.com/stage/2026/nov/15/cranford-review-orange-tree-theatre-tamsin-greig
   resumen: Orange Tree theatre, London This streamlined adaptation of Elizabeth Gaskell’s novel gets right to the heart of her characters, who face heartbreak and loss but gain from the strength of female friendship There’s more than one worry for any new dramatisation of Elizabeth Gaskell’s novel to contend w
+- seccion: cultura
+  medio: The Guardian
+  titulo: Spark review – Glyndebourne Youth Opera light up a terrific new show of monsters and magic
+  url: https://www.theguardian.com/music/2026/nov/15/spark-review-glyndebourne-youth-opera-lucy-armstrong
+  resumen: Glyndebourne, Lewes Lucy Armstrong’s family opera transports audiences to a secret world above the rooftops. It explores themes of grief and loss with a lightness of touch, and is directed, designed and performed with panache. For decades now, Glyndebourne has been setting the bar for what a youth o
 - seccion: cultura
   medio: The Guardian
   titulo: Paris Paloma review – arena-scale alt-pop drama from a singer on her way to bigger things
@@ -177,24 +227,34 @@ titulares:
   resumen: Undercover cameras paint a bleak portrait of the situation. Plus, it’s sea lion v black neck swan in Blue Planet III. Here’s what to watch this evening 10pm, ITV1 Continue reading...
 - seccion: deportes
   medio: Europa Press
+  titulo: Jódar sucumbe ante Zverev en su estreno en las Finales de la ATP
+  url: https://www.europapress.es/deportes/tenis-00166/noticia-jodar-sucumbe-zverev-estreno-finales-atp-20261115161154.html
+  resumen: El tenista español Rafa Jódar ha caído este domingo ante el alemán Alexander Zverev (6-4, 6-4) en su estreno en las Finales de la ATP, que se están disputando en el Inalpi Arena de Turín (Italia), el primer duelo en un Grupo John McEnroe que completan el estadounidense Ben Shelton y el francés Arthu
+- seccion: deportes
+  medio: Europa Press
   titulo: De la Fuente descarta a Álvaro Valles, Jacobo Ramón, De Frutos y Roberto Fernández para el España-Inglaterra
   url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-fuente-descarta-alvaro-valles-jacobo-ramon-frutos-roberto-fernandez-espana-inglaterra-20261115105854.html
   resumen: El seleccionador español masculino de fútbol, Luis de la Fuente, ha descartado a los jugadores Álvaro Valles, Jacobo Ramón, Jorge de Frutos y Roberto Fernández, junto a un Alejandro Grimaldo que el sábado abandonó la concentración de la selección por un proceso febril, para el último partido de la f
 - seccion: deportes
   medio: Europa Press
-  titulo: Bernardo Silva abandona por lesión la concentración de Portugal
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-bernardo-silva-abandona-lesion-concentracion-portugal-20261115133233.html
-  resumen: El centrocampista del Real Madrid Bernardo Silva ha abandonado este domingo la concentración de la selección de Portugal tras ser declarado "no apto" para afrontar el último partido de la fase de grupos de la Liga de Naciones ante Gales, ha anunciado la Federación Portuguesa de Fútbol (FPF).
+  titulo: McIlroy supera a Chacarra y conquista su octava Orden de Mérito
+  url: https://www.europapress.es/deportes/golf-00168/noticia-mcilroy-supera-chacarra-conquista-octava-orden-merito-20261115173634.html
+  resumen: El golfista norirlandés Rory McIlroy se ha coronado en la Race to Dubai, conquistado por octava vez en su carrera la Orden de Mérito, después de quedar segundo en Dubái en el último torneo del calendario del DP World Tour, el circuito europeo de golf, un resultado que le ha permitido imponerse al es
+- seccion: deportes
+  medio: Europa Press
+  titulo: Muere Antonio Sabugueiro, creador de la San Silvestre Vallecana
+  url: https://www.europapress.es/deportes/noticia-muere-antonio-sabugueiro-creador-san-silvestre-vallecana-20261115154157.html
+  resumen: Antonio Sabugueiro, creador de la San Silvestre Vallecana, la carrera en la que participan cada 31 de diciembre por las calles de Madrid más de 40.000 personas, ha fallecido este domingo a los 94 años, ha confirmado la organización de la prueba.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Tearful McIlroy dedicates record-equalling win to ill dad
+  url: https://www.bbc.co.uk/sport/golf/articles/c6kg7rwmz1g8o?at_medium=RSS&at_campaign=rss
+  resumen: Rory McIlroy wipes away tears as he dedicates his record-equalling eighth Race to Dubai title to his ill father, Gerry.
 - seccion: deportes
   medio: BBC Sport
   titulo: Banton pushes case and bowlers sparkle for inconsistent England
   url: https://www.bbc.co.uk/sport/cricket/articles/c8n50wgr6vd4o?at_medium=RSS&at_campaign=rss
   resumen: Tom Banton scores a century and Sonny Baker and Gus Atkinson impress with the ball as England's wildly inconsistent one-day team hammer Australia.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: McIlroy wins record-equalling eighth European title
-  url: https://www.bbc.co.uk/sport/golf/articles/c6kg7rwmz1g8o?at_medium=RSS&at_campaign=rss
-  resumen: Rory McIlroy pips Eugenio Chacarra in a thrilling battle to win a record-equalling eighth season-long European tour title, and his fifth in a row.
 - seccion: deportes
   medio: BBC Sport
   titulo: Branthwaite, Garner and King omitted for Spain game
@@ -207,14 +267,24 @@ titulares:
   resumen: Australia bowler Chadd Sayers says he helped take sandpaper from the field in the match prior to the Cape Town Test and backs Usman Khawaja's recollection over Pat Cummins'.
 - seccion: deportes
   medio: BBC Sport
+  titulo: '''We got disrespected'' - Walsh and Australia make World Cup point'
+  url: https://www.bbc.co.uk/sport/rugby-league/articles/cw808lm89x81o?at_medium=RSS&at_campaign=rss
+  resumen: 'Reece Walsh gave a powerful response to Australia''s critics as they secured a fourth successive World Cup triumph, saying that: "I feel we got disrespected."'
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Zverev claims first win as world number one at ATP Finals
+  url: https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o?at_medium=RSS&at_campaign=rss
+  resumen: Alexander Zverev claims his first victory as world number one as he sweeps aside Rafael Jodar in the opening match of the ATP Finals.
+- seccion: deportes
+  medio: BBC Sport
   titulo: Reality dawns after Wales dared to dream
   url: https://www.bbc.co.uk/sport/rugby-union/articles/cvx2xnyxl85ko?at_medium=RSS&at_campaign=rss
   resumen: As Welsh rugby fans wake up on Sunday morning the realisation will dawn on them that Wales beat New Zealand for the first time in 73 years.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Dominant Australia defeat New Zealand in Men's World Cup final
-  url: https://www.bbc.co.uk/sport/rugby-league/articles/cm9q8l51pgeqo?at_medium=RSS&at_campaign=rss
-  resumen: Australia win a fourth successive Men's Rugby League World Cup, beating New Zealand comfortably in the final in Brisbane.
+  titulo: Triumph or flop? The Rugby League World Cup that split opinion
+  url: https://www.bbc.co.uk/sport/rugby-league/articles/cwdr1dl21l1vo?at_medium=RSS&at_campaign=rss
+  resumen: Has the Rugby League World Cup set a new benchmark for the international game? BBC Sport discovers the answer to that question differs in the northern and southern hemispheres.
 - seccion: deportes
   medio: BBC Sport
   titulo: How Spain's humble superstar Simon became world's best keeper
@@ -222,44 +292,19 @@ titulares:
   resumen: As Spain prepare to host England in the Nations League, BBC Sport columnist Guillem Balague charts the rise of Unai Simon to become the world's best keeper.
 - seccion: deportes
   medio: BBC Sport
-  titulo: England are favourites against All Blacks, and fearless Wales are an inspiration
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/c6wy41738nv7o?at_medium=RSS&at_campaign=rss
-  resumen: In his latest BBC Sport column, England World Cup winner Matt Dawson reflects on Steve Borthwick's side's emphatic 78-15 thrashing of Japan and looks ahead to their match against New Zealand next weekend.
+  titulo: Tenerife return to action after death of De Miguel
+  url: https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss
+  resumen: Tenerife play their first game since the death of striker Jesus de Miguel on an emotional day at the Heliodoro Rodriguez Lopez stadium.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Ruthless Australia win record fourth Women's World Cup
-  url: https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss
-  resumen: Australia blow New Zealand away in the first half, with a hat-trick for Jaime Chapman, to win 34-10 in Brisbane and clinch a record fourth World Cup.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Wenger decides not to challenge Fifa chief Infantino
-  url: https://www.bbc.co.uk/sport/football/articles/c539gn33z1l3o?at_medium=RSS&at_campaign=rss
-  resumen: Arsene Wenger decides against running for the Fifa presidency, in a boost to Gianni Infantino's hopes of a fourth term.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Curran's best weapon? The 'moon ball' strikes again
-  url: https://www.bbc.co.uk/sport/cricket/articles/c0q44le0z5wo?at_medium=RSS&at_campaign=rss
-  resumen: Statistics show Sam Curran's 'moon ball' is one of his most effective weapons. How does he do it and what makes it so effective?
-- seccion: deportes
-  medio: BBC Sport
-  titulo: '''We got disrespected'' - Walsh and Australia make World Cup point'
-  url: https://www.bbc.co.uk/sport/rugby-league/articles/cw808lm89x81o?at_medium=RSS&at_campaign=rss
-  resumen: 'Reece Walsh gave a powerful response to Australia''s critics as they secured a fourth successive World Cup triumph, saying that: "I feel we got disrespected."'
-- seccion: deportes
-  medio: BBC Sport
-  titulo: How Aston Villa are reclaiming their identity
-  url: https://www.bbc.co.uk/sport/football/articles/cm4gkgnkkn9zo?at_medium=RSS&at_campaign=rss
-  resumen: Aston Villa Women are celebrating an important 30-year milestone on Sunday - but how are they trying to reclaim their identity?
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Skipper Bryce sets new Scotland run record in win over UAE
-  url: https://www.bbc.co.uk/sport/cricket/articles/c699erlyv74po?at_medium=RSS&at_campaign=rss
-  resumen: Kathyrn and Sarah Bryce shine as Scotland earn a seven-wicket win over host nation United Arab Emirates at the ICC Women's Emerging Nations Trophy.
+  titulo: Club's first match after player's death abandoned because of serious injury
+  url: https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss
+  resumen: Hendon's first match since the death of midfielder Ezekiel Williams is abandoned because of a serious injury to Ethan Creary.
 - seccion: deportes
   medio: The Guardian
-  titulo: 'Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’'
-  url: https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better
-  resumen: The former England centre-back answers your questions on Diego Maradona, Bobby Robson and on staying in strange places “Have you made up all these on your own?” asks Terry Butcher, sitting in a London office in the week he is presented with his England legacy cap. It turns out dozens of Guardian rea
+  titulo: 'Arsenal v London City Lionesses: Women’s Super League – live'
+  url: https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live
+  resumen: 'Updates from 4.30pm (GMT) kick-off at the Emirates Stadium Get in touch: email John and follow us on BlueSky Charles Antaki gets in touch: “Renee Slegers under pressure indeed. Arsenal’s form this season has been nothing short of alarming, and there is a distinct danger of failing to qualify for nex'
 - seccion: deportes
   medio: The Guardian
   titulo: Record-breaking Andy Robertson is Scotland’s finest captain
@@ -267,14 +312,14 @@ titulares:
   resumen: As he passes Kenny Dalglish’s appearance total, it is important to remember that it is the left-back’s journey that sets him apart Andy Robertson may not be Scotland’s greatest player, but he is indisputably their finest captain. It counts as sacrilege, even to generations who have watched Kenny Dal
 - seccion: deportes
   medio: The Guardian
+  titulo: 'Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’'
+  url: https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better
+  resumen: The former England centre-back answers your questions on Diego Maradona, Bobby Robson and on staying in strange places “Have you made up all these on your own?” asks Terry Butcher, sitting in a London office in the week he is presented with his England legacy cap. It turns out dozens of Guardian rea
+- seccion: deportes
+  medio: The Guardian
   titulo: AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership
   url: https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership
   resumen: 'Clubs with wealthy proprietors can maintain a loss-making operation but things can be more complex when the supporters carry the can When you walk up from Haydons Road train station to Plough Lane there is a blue AFC Wimbledon billboard that reads “Fan owned football”, directly opposite the site of '
-- seccion: general
-  medio: Europa Press
-  titulo: Feijóo pide concentrar el voto en PP para "abrir un tiempo nuevo" y acusa a Sánchez de liderar "con incompetencia"
-  url: https://www.europapress.es/cantabria/noticia-feijoo-pide-concentrar-voto-pp-abrir-tiempo-nuevo-acusa-sanchez-liderar-incompetencia-20261115140501.html
-  resumen: El presidente del PP y candidato a la Presidencia del Gobierno, Alberto Núñez Feijóo, ha pedido este domingo, en un mitin celebrado en Santander ante unas 4.000 personas, movilizar el voto para su formación de cara a las elecciones del próximo 29 de noviembre, y ha defendido que España necesita "dec
 - seccion: general
   medio: Europa Press
   titulo: 'Abascal ve existenciales estas elecciones: "España no resiste 4 años más" de Sánchez'
@@ -282,11 +327,11 @@ titulares:
   resumen: El candidato de Vox a presidir el Gobierno, Santiago Abascal, ha asegurado que estos comicios son una elección existencial porque "España no resiste 4 años más de Pedro Sánchez" y ha acusado al Gobierno de destruir los servicios públicos, por lo que Vox se presenta para responder a la emergencia que
 - seccion: general
   medio: Europa Press
-  titulo: Clavijo exige "acelerar" la ayuda a El Hierro y pide al Estado una "respuesta inmediata" al repunte migratorio
-  url: https://www.europapress.es/islas-canarias/noticia-clavijo-exige-acelerar-ayuda-hierro-pide-estado-respuesta-inmediata-repunte-migratorio-20261115133248.html
-  resumen: Reclama que las medidas extraordinarias acordadas el pasado martes en la Interministerial Extraordinaria de Inmigración se pongan en marcha "sin más demoras" porque la isla de El Hierro "no puede esperar"
+  titulo: Feijóo está "valorando" reformar la ley para que amenazados por ETA que tuvieron que irse puedan votar en Euskadi
+  url: https://www.europapress.es/euskadi/noticia-feijoo-valorando-reformar-ley-amenazados-eta-tuvieron-irse-puedan-votar-euskadi-20261115114838.html
+  resumen: Condena la agresión al candidato por Guipúzcoa y dice que la violencia nunca les ha silenciado, "y no va a ser ahora cuando empecemos a callar"
 - seccion: general
   medio: Europa Press
-  titulo: Nogueras apela al votante de ERC que veta pactar con Podemos, contrario a delegar inmigración
-  url: https://www.europapress.es/catalunya/noticia-nogueras-apela-votante-erc-veta-pactar-podemos-contrario-delegar-inmigracion-20261115135701.html
-  resumen: La candidata de Junts a las elecciones generales, Miriam Nogueras, ha apelado este domingo a los votantes de ERC que rechazan concurrir a los comicios en coalición con Podemos porque estos se opusieron a delegar a Catalunya las competencias en inmigración.
+  titulo: Lula se reunirá con Sánchez en Madrid pese a la cancelación de un acto conjunto por la afonía del presidente brasileño
+  url: https://www.europapress.es/internacional/noticia-lula-reunira-sanchez-madrid-pese-cancelacion-acto-conjunto-afonia-presidente-brasileno-20261115143351.html
+  resumen: El presidente de Brasil, Luiz Inácio Lula da Silva, ha asegurado que viajará a Madrid para reunirse con el presidente del Gobierno español, Pedro Sánchez, tras poner fin su agenda en el marco la Cumbre de la Asociación de Naciones del Sudeste Asiático (ASEAN), pese a la cancelación por parte del PSO
