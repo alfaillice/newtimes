@@ -1,10 +1,10 @@
-generado: '2026-11-16T14:50:00+01:00'
+generado: '2026-11-16T17:50:00+01:00'
 titulares:
 - seccion: espana
   medio: Europa Press
   titulo: Frente Amplio quiere limitar las herencias de ultrarricos a un máximo de 10 millones por heredero
   url: https://www.europapress.es/nacional/noticia-frente-amplio-propone-limitar-herencias-ultrarricos-maximo-10-millones-euros-heredero-20261116105438.html
-  resumen: Frente Amplio recoge dentro de su programa electoral para los comicios del 29N la limitación de las herencias de los ultrarricos, topándolas a una cantidad máxima de 10 millones de euros por heredero de un gran patrimonio.
+  resumen: Plantea una banca pública, asumir viviendas ante impagos hipotecarios y que las empresas gratifiquen a su plantilla con un 10% de los beneficios
 - seccion: espana
   medio: Europa Press
   titulo: Feijóo propone una 'ley de nietos vasca' para que los exiliados por ETA puedan votar en Euskadi y Navarra
@@ -32,24 +32,44 @@ titulares:
   resumen: El juzgado a cargo del 'caso Begoña Gómez' ha instado a Google a que no elimine el contenido de proyectos relacionados con el 'software' de la Universidad Complutense de Madrid (UCM) por el que ha sido enviada a juicio la esposa del presidente del Gobierno, Pedro Sánchez.
 - seccion: espana
   medio: Europa Press
+  titulo: El PP pide a Marlaska medidas de protección policial para su candidato en Guipúzcoa tras la agresión en Hernani
+  url: https://www.europapress.es/nacional/noticia-pp-pide-marlaska-medidas-proteccion-policial-candidato-guipuzcoa-agresion-hernani-20261116170649.html
+  resumen: '"No podemos permitir que quienes recurren a la violencia consigan imponer sus amenazas", asegura Tellado en una misiva al ministro'
+- seccion: espana
+  medio: Europa Press
   titulo: El SUP pide ante Fiscalía paralizar las restricciones de Marlaska al espray policial y exige "instrucciones claras"
   url: https://www.europapress.es/nacional/noticia-sup-pide-fiscalia-paralizar-restricciones-marlaska-espray-policial-exige-instrucciones-claras-20261116104342.html
   resumen: El Sindicato Unificado de Policía (SUP) ha presentado sendos escritos ante la Fiscalía General del Estado y el Ministerio del Interior para reclamar la paralización de las restricciones al uso del espray con gas lacrimógeno de defensa personal que anunció el titular de la cartera, Fernando Grande-Ma
+- seccion: espana
+  medio: Europa Press
+  titulo: Finaliza el dispositivo policial en estaciones de tren de Barcelona tras no localizar a 'El Ruso'
+  url: https://www.europapress.es/catalunya/noticia-descartada-presencia-ruso-tren-manresa-barcelona-alerta-testigo-20261116135559.html
+  resumen: BARCELONA, 16 (EUROPA PRESS) Los Mossos d'Esquadra han desmontado el dispositivo de este lunes por la mañana en las principales estaciones de Barcelona cuando una persona avisó de la posible presencia en Manresa (Barcelona) de 'El Ruso' (presunto homicida de un policía nacional la semana pasada en O
 - seccion: espana
   medio: Europa Press
   titulo: Colau afirma que la OIT pierde a la mejor aspirante tras retirar Yolanda Díaz su candidata para dirigir el organismo
   url: https://www.europapress.es/nacional/noticia-colau-afirma-oit-pierde-mejor-aspirante-retirar-yolanda-diaz-candidata-dirigir-organismo-20261116094456.html
   resumen: La candidata de Frente Amplio a las elecciones generales del 29N, Ada Colau, ha afirmado que la Organización Internacional del Trabajo (OIT) pierde a la mejor presidenta posible tras retirarse la vicepresidenta segunda, Yolanda Díaz, de la carrera para dirigir este organismo internacional.
 - seccion: espana
-  medio: Europa Press
-  titulo: Miriam González propone un visado de oportunidad de seis meses para que los migrantes puedan buscar trabajo
-  url: https://www.europapress.es/nacional/noticia-miriam-gonzalez-propone-visado-oportunidad-seis-meses-migrantes-puedan-buscar-trabajo-20261116115731.html
-  resumen: La líder de Democracia 21 y candidata a la presidencia del Gobierno en las elecciones del 29 de noviembre, Miriam González, ha defendido este lunes la creación de un "visado de oportunidad" para los inmigrantes que lleguen a España, con el que el Estado ofrezca un permiso de trabajo con una duración
+  medio: El País
+  titulo: Lula da en Madrid un respaldo político a Sánchez, que trata de usar la remontada brasileña como ejemplo
+  url: https://elpais.com/espana/2026-11-16/lula-visita-a-sanchez-durante-la-campana-electoral.html
+  resumen: Los dos presidentes defienden las instituciones democráticas frente a la amenaza ultraderechista y graban un vídeo de apoyo
+- seccion: espana
+  medio: El País
+  titulo: Feijóo quiere “mano de obra” de inmigrantes para el medio rural, pero con compromiso de “integración”
+  url: https://elpais.com/espana/elecciones-generales/2026-11-16/feijoo-quiere-mano-de-obra-de-inmigrantes-para-el-medio-rural-pero-con-compromiso-de-integracion.html
+  resumen: 'El líder del PP anuncia una guía de medidas sobre la actividad agrícola con postulados cercanos a Vox y a Aliança Catalana: “No vamos a ignorar los riesgos del fundamentalismo islámico”. Génova aprovecha una visita a Lleida para su presentación'
 - seccion: internacional
   medio: Europa Press
-  titulo: División entre los 27 por el equipo europeo para negociar con Rusia, con escaso apoyo a Kallas
-  url: https://www.europapress.es/internacional/noticia-division-27-equipo-europeo-negociar-rusia-escaso-apoyo-kallas-20261116121819.html
-  resumen: Alemania, Italia, Francia y Polonia respaldan el formato elegido, mientras que solo España reivindica el rol de la Alta Representante
+  titulo: Alemania, Dinamarca y otros tres países de la UE pactan con Ruanda la apertura de un centro de expulsión de migrantes
+  url: https://www.europapress.es/internacional/noticia-alemania-dinamarca-otros-tres-paises-ue-pactan-ruanda-apertura-centro-expulsion-migrantes-20261116171414.html
+  resumen: Alemania, Dinamarca, Grecia, Países Bajos y Austria han anunciado este lunes desde Viena un acuerdo con Ruanda para la apertura en 2027 en este país de un centro de deportación de migrantes, a donde los cinco países europeos podrán trasladar a quienes no tengan residencia legal, incluidos aquellos a
+- seccion: internacional
+  medio: Europa Press
+  titulo: 'Trump considera que Putin "cede un poco" en Ucrania y quiere el final de la guerra: "Está dando marcha atrás"'
+  url: https://www.europapress.es/internacional/noticia-trump-considera-putin-cede-poco-ucrania-quiere-final-guerra-dando-marcha-atras-20261116165417.html
+  resumen: El presidente de Estados Unidos, Donald Trump, ha señalado este lunes que el presidente de Rusia, Vladimir Putin, "cede un poco" en la guerra en Ucrania y ha firmado que a su homólogo le gustaría que el conflicto "llegara a su fin".
 - seccion: internacional
   medio: Europa Press
   titulo: Rusia afirma que las declaraciones de la UE "sugieren una reticencia a contribuir" a la paz en Ucrania
@@ -57,9 +77,9 @@ titulares:
   resumen: Las autoridades de Rusia han señalado este lunes que las recientes declaraciones de la Unión Europea (UE) sobre las conversaciones en torno a Ucrania "sugieren una reticencia a contribuir al proceso de paz", si bien ha incidido en que Moscú espera "entender de boca de los europeos cómo su posición p
 - seccion: internacional
   medio: Europa Press
-  titulo: La UE aprueba nuevas sanciones contra Rusia dirigidas a bancos, empresas energéticas y redes de desinformación
-  url: https://www.europapress.es/internacional/noticia-ue-aprueba-nuevas-sanciones-contra-rusia-dirigidas-bancos-empresas-energeticas-redes-desinformacion-20261116130952.html
-  resumen: 'La Unión Europea ha aprobado este lunes nuevas sanciones contra un total de 145 personas y entidades vinculadas a Rusia, entre ellas cerca de medio centenar de bancos e instituciones financieras, empresas del sector energético y operadores de la denominada flota fantasma, con el objetivo de reducir '
+  titulo: Kallas aboga por recurrir a Inteligencia para obtener datos de excombatientes rusos y prohibirles entrar en la UE
+  url: https://www.europapress.es/internacional/noticia-kallas-aboga-recurrir-inteligencia-obtener-datos-excombatientes-rusos-prohibirles-entrar-ue-20261116173111.html
+  resumen: La Alta Representante de la Unión Europea para Política Exterior, Kaja Kallas, ha abogado este lunes por recurrir a los servicios de Inteligencia comunitarios para obtener información sobre los soldados rusos que han participado en la invasión de Ucrania, con el objetivo de identificarlos y prohibir
 - seccion: internacional
   medio: Europa Press
   titulo: Ucrania ataca nuevamente el Puente de Crimea y obliga a interrumpir el tráfico
@@ -67,19 +87,14 @@ titulares:
   resumen: Ucrania ha bombardeado nuevamente este lunes con drones el Puente de Crimea --que une la península homónima con la provincia rusa de Krasnodar--, provocando cierres al tráfico por carretera, en el que es el segundo ataque de este tipo en lo que va de 2026 y a la espera de conocer el verdadero alcanc
 - seccion: internacional
   medio: Europa Press
-  titulo: Rusia derriba más de 1.330 drones ucranianos, un nuevo récord en una sola noche desde el inicio del conflicto
-  url: https://www.europapress.es/internacional/noticia-rusia-derriba-mas-1330-drones-ucranianos-nuevo-record-sola-noche-inicio-conflicto-20261116073120.html
-  resumen: Las autoridades de Rusia han anunciado este lunes el derribo de 1.336 drones lanzados por el Ejército de Ucrania durante la pasada noche, lo que supone la cifra más alta interceptada en una sola jornada desde el estallido de la guerra tras la orden de invasión firmada en febrero de 2022 por el presi
+  titulo: Ucrania denuncia dos muertos y varios heridos en ataques rusos en Nicolaiev y Járkov
+  url: https://www.europapress.es/internacional/noticia-ucrania-denuncia-dos-muertos-varios-heridos-ataques-rusos-nicolaiev-jarkov-20261116152410.html
+  resumen: Al menos dos personas han muerto y varias han resultado heridas este lunes en sendos ataque de Rusia contra las regiones de Nicolaiev y Járkov, según han denunciado las autoridades ucranianas.
 - seccion: internacional
   medio: Europa Press
-  titulo: Mueren tres personas en una nueva oleada de ataques de Rusia contra varios puntos de Ucrania
-  url: https://www.europapress.es/internacional/noticia-mueren-tres-personas-nueva-oleada-ataques-rusia-contra-varios-puntos-ucrania-20261116100006.html
-  resumen: Al menos tres personas han muerto este lunes a causa de una nueva oleada de ataques lanzada por el Ejército de Rusia contra Ucrania, según han denunciado las autoridades locales, en medio de la guerra desatada por la orden de invasión firmada en febrero de 2022 por el presidente ruso, Vladimir Putin
-- seccion: internacional
-  medio: Europa Press
-  titulo: China confirma que Xi, Trump y Putin celebrarán su cumbre trilateral el próximo 19 de noviembre en Shenzhen
-  url: https://www.europapress.es/internacional/noticia-china-confirma-xi-trump-putin-celebraran-cumbre-trilateral-proximo-19-noviembre-shenzhen-20261116032746.html
-  resumen: El Ministerio de Exteriores de China ha confirmado este lunes que el presidente chino, Xi Jinping, celebrará una cumbre trilateral con sus homólogos de Rusia, Vladimir Putin, y de Estados Unidos, Donald Trump, el próximo jueves 19 de noviembre en la ciudad china de Shenzhen.
+  titulo: 'Trump se desmarca de la crisis en los aeropuertos y subraya que no hubo accidentes: "Todo el mundo estuvo a salvo"'
+  url: https://www.europapress.es/internacional/noticia-trump-desmarca-crisis-aeropuertos-subraya-no-hubo-accidentes-todo-mundo-estuvo-20261116164531.html
+  resumen: El presidente de Estados Unidos, Donald Trump, se ha desmarcado este lunes de los problemas en la Administración Federal de Aviación (FAA) que el viernes provocaron retrasos y la cancelación de más de 9.000 vuelos, asegurando que no asume responsabilidad alguna y defendiendo la actuación de las auto
 - seccion: internacional
   medio: Europa Press
   titulo: Dos líderes opositores acusan a Netanyahu de "un intento de golpe" durante la jornada de las legislativas
@@ -91,18 +106,13 @@ titulares:
   url: https://www.europapress.es/internacional/noticia-israel-reivindica-bombardeo-libano-contra-supuesto-envio-armas-hezbola-frontera-siria-20261116102537.html
   resumen: El Ejército de Israel ha reivindicado este lunes un bombardeo contra un supuesto "envío de armas" al partido-milicia chií Hezbolá en una zona de Líbano situada cerca de la frontera con Siria, sin que por ahora haya informaciones sobre víctimas y sin que el grupo libanés se haya pronunciado al respec
 - seccion: internacional
-  medio: Europa Press
-  titulo: Dos tiroteos dejan al menos 17 muertos en Sudáfrica durante la noche del domingo
-  url: https://www.europapress.es/internacional/noticia-dos-tiroteos-dejan-menos-17-muertos-sudafrica-noche-domingo-20261116130745.html
-  resumen: Al menos 17 personas han muerto esta pasada noche como consecuencia de dos tiroteos, en principio no relacionados, ocurridos en el oeste de la capital del país, Pretoria, donde nueve personas han sido acribilladas en una choza de una barriada, y en la provincia oriental de KwaZulu-Natal, escenario d
-- seccion: economia
   medio: El País
-  titulo: 'Margarita Madrigal (Más Que Vinos): “Cuando vi en el cine la película de DiCaprio y nuestra botella me entraron ganas de levantarme y decir: ‘¡ese vino es mío!"'
-  url: https://elpais.com/economia/negocios/entrevistas-afterwork/2026-11-16/margarita-madrigal-mas-que-vinos-cuando-vi-en-el-cine-la-pelicula-de-dicaprio-y-nuestra-botella-me-entraron-ganas-de-levantarme-y-decir-ese-vino-es-mio.html
-  resumen: La cofundadora y enóloga de la bodega toledana elabora también una gama para Pedro Almodóvar y se declara una experta en pescado al horno
+  titulo: El Reino Unido, Australia, Canadá e Italia exigen al Gobierno de Israel que permita la entrada de ayuda humanitaria en Gaza
+  url: https://elpais.com/internacional/2026-11-16/el-reino-unido-australia-canada-e-italia-exigen-al-gobierno-de-israel-que-permita-la-entrada-de-ayuda-humanitaria-en-gaza.html
+  resumen: Los cuatro países remarcan en un comunicado conjunto que 150.000 tiendas de campaña siguen retenidas en la frontera en pleno inicio del invierno
 - seccion: economia
   medio: BBC
-  titulo: Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss
+  titulo: Trump says he wouldn't mind seeing Huang return to Nvidia
   url: https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss
   resumen: A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.
 - seccion: economia
@@ -112,9 +122,9 @@ titulares:
   resumen: Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.
 - seccion: economia
   medio: BBC
-  titulo: Intel sued by investors after PC sales slump hits share price
-  url: https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss
-  resumen: A proposed class action claims the firm hid the impact of slowing PC sales from shareholders.
+  titulo: 'Faisal Islam: What''s in the Brexit reset food deal and are there trade-offs?'
+  url: https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss
+  resumen: EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.
 - seccion: economia
   medio: BBC
   titulo: Gas starts flowing from Jackdaw after government green light
@@ -152,9 +162,9 @@ titulares:
   resumen: Propone modificar la LOSU para que las comunidades autónomas destinen al menos el 1% de su PIB regional a financiar universidades públicas
 - seccion: sociedad
   medio: Europa Press
-  titulo: Frente Amplio propone un Plan Estatal para el aprendizaje y divulgación de las lenguas cooficiales en toda España
-  url: https://www.europapress.es/sociedad/educacion-00468/noticia-frente-amplio-propone-plan-estatal-aprendizaje-divulgacion-lenguas-cooficiales-toda-espana-20261116130355.html
-  resumen: Quiere acabar con la concertada y, en el periodo "de coexistencia" con la pública, sancionar a los centros con cuotas obligatorias
+  titulo: Frente Amplio propone no sancionar la prostitución y proteger a víctimas de trata sin exigir denuncia
+  url: https://www.europapress.es/epsocial/igualdad/noticia-29n-frente-amplio-propone-no-sancionar-prostitucion-proteger-victimas-trata-exigir-denuncia-20261116152044.html
+  resumen: Frente Amplio propone eliminar toda normativa que penalice o punitivice a las personas que ejercen la prostitución, así como proteger a las víctimas de trata en situación irregular sin exigir su colaboración con las autoridades policiales.
 - seccion: sociedad
   medio: Europa Press
   titulo: Frente Amplio quiere limitar la concentración de medios según su audiencia, ingresos publicitarios e influencia
@@ -162,9 +172,9 @@ titulares:
   resumen: Frente Amplio propone fijar límites a la propiedad y al control cruzado de medios de comunicación en función de sus audiencias, ingresos publicitarios e influencia, además de exigir transparencia sobre sus titulares reales, participaciones y financiación, aplicando criterios "objetivos y auditables"
 - seccion: sociedad
   medio: Europa Press
-  titulo: Al menos 3.160 migrantes llegaron durante este fin de semana de forma irregular a Canarias
-  url: https://www.europapress.es/epsocial/migracion/noticia-menos-3160-migrantes-llegaron-fin-semana-forma-irregular-canarias-20261116134612.html
-  resumen: Al menos 3.160 migrantes han llegado durante este fin de semana de forma irregular a Canarias, según datos provisionales facilitados por Salvamento Marítimo y recogidos por Europa Press.
+  titulo: PSOE propone una ley para garantizar un mínimo de plazas en titulaciones de alta demanda de universidades públicas
+  url: https://www.europapress.es/sociedad/educacion-00468/noticia-psoe-propone-ley-garantizar-minimo-plazas-titulaciones-alta-demanda-universidades-publicas-20261116172133.html
+  resumen: El PSOE quiere aprobar una nueva Ley de Equidad en el Acceso a la Universidad Pública que garantice una financiación suficiente, estable y de calidad para las universidades públicas en todas las comunidades autónomas, mediante compromisos plurianuales vinculantes y mecanismos de seguimiento de su cu
 - seccion: sociedad
   medio: Europa Press
   titulo: Una disputa en COP31 pone en riesgo que los informes del IPCC lleguen a tiempo al balance climático de 2028
@@ -175,11 +185,6 @@ titulares:
   titulo: El borrador de la COP31 pide acelerar la eliminación de combustibles fósiles y elevar la electrificación al 35%
   url: https://www.europapress.es/sociedad/noticia-borrador-cop31-pide-acelerar-eliminacion-combustibles-fosiles-elevar-electrificacion-35-20261116134516.html
   resumen: El borrador de decisión general de la Cumbre del Clima (COP31) de Antalya (Turquía), fechado este lunes, propone acelerar la eliminación progresiva de los combustibles fósiles, incluida una transición inmediata para dejar de utilizarlos en los sistemas energéticos, y elevar al 35% la participación d
-- seccion: sociedad
-  medio: Europa Press
-  titulo: España se suma a la iniciativa para elevar el 35% el peso de la electricidad pero de la mano de las renovables
-  url: https://www.europapress.es/sociedad/medio-ambiente-00647/noticia-espana-suma-iniciativa-elevar-35-peso-electricidad-mano-renovables-20261116094905.html
-  resumen: España se ha sumado a la iniciativa para elevar el 35% el peso de la electricidad en el consumo energético mundial en 2035, según ha anunciado la vicepresidente segunda y Ministra de Transición Energética y Reto Demográfico, Sara Aagesen, desde la cumbre del Cllma de Antalya (Turquía). Aagensen ha a
 - seccion: ciencia-salud
   medio: BBC
   titulo: Yellow weather warnings issued for snow as temperatures plummet
@@ -221,6 +226,11 @@ titulares:
   url: https://www.theguardian.com/us-news/2026/nov/16/hiv-scientist-nih-grant-making-process
   resumen: Researchers forced to scrap original studies as NIH rethinks grants not in ‘alignment’ with administration’s priorities Dr Jade Pagkas-Bather received her first grant from the National Institutes of Health (NIH) in June 2025 – a milestone in any researcher’s career. She planned to study basic income
 - seccion: tecnologia
+  medio: El País
+  titulo: La estafa de la tienda en línea falsa
+  url: https://elpais.com/tecnologia/branded/ocurrio-en-internet/2026-11-16/la-estafa-de-la-tienda-en-linea-falsa.html
+  resumen: Supuestos comercios ‘online’ lanzan ofertas agresivas para atraer a los compradores, especialmente durante el Black Friday y la Navidad, pero detrás de cada ganga se esconde un engaño
+- seccion: tecnologia
   medio: BBC
   titulo: GTA 6 hacker pleads guilty after release from secure hospital
   url: https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss
@@ -245,11 +255,41 @@ titulares:
   titulo: UK exposed to polycrisis of threats amid government ‘complacency’
   url: https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency
   resumen: Lords report calls for urgent new approach to resilience planning in face of cyber-attacks, sabotage and climate crisis Ministers are complacent in the face of fast-changing and increasingly interconnected threats to the UK, and must act quickly to increase national resilience to possibly very major
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: 'Killer tunes: how Grand Theft Auto conquered the music world'
+  url: https://www.theguardian.com/games/2026/nov/16/auto-tunes-music-grand-theft-auto-conquered-zeitgeist-gta
+  resumen: Featuring hundreds of songs from the hippest real-world artists, the radio stations in Rockstar’s crime sagas are as hotly anticipated as the storylines. Contributors including Flying Lotus, Wavves and Nite Jewel reflect on the soundtracks’ curation and impact • The exclusive inside story of Grand T
+- seccion: cultura
+  medio: El País
+  titulo: Hazte con tu vinilo de ‘Ravalear’
+  url: https://elpais.com/suscripciones/elpaismas/experiencias/2026-11-16/hazte-con-tu-vinilo-de-ravalear.html
+  resumen: Revive la banda sonora con esta pieza con un diseño exclusivo de la serie
+- seccion: cultura
+  medio: El País
+  titulo: ‘Por Camarón. Concierto Homenaje 75 aniversario’
+  url: https://elpais.com/suscripciones/elpaismas/2026-11-16/por-camaron-concierto-homenaje-75-aniversario.html
+  resumen: Consigue entradas para este evento único que reunirá a grandes artistas de la música española
 - seccion: cultura
   medio: BBC
-  titulo: Russell Brand prison message denying rape 'appalling' and being investigated, No 10 says
+  titulo: 'Robert Pattinson: How the Twilight star became 007'
+  url: https://www.bbc.co.uk/news/articles/c574290jvk8wo?at_medium=RSS&at_campaign=rss
+  resumen: The Twilight, Batman and Odyssey star's profile will go even more stellar when he plays James Bond.
+- seccion: cultura
+  medio: BBC
+  titulo: Raye, Rosalia and Dolly Parton recognised in Grammy nominations
+  url: https://www.bbc.co.uk/news/articles/cq9vwkggpx73o?at_medium=RSS&at_campaign=rss
+  resumen: British singer Raye lands 11 nominations while Dolly Parton is recognised two months after her death.
+- seccion: cultura
+  medio: BBC
+  titulo: 'James Bond: What we know so far about the next 007 film'
+  url: https://www.bbc.co.uk/news/articles/ck79p0lev47po?at_medium=RSS&at_campaign=rss
+  resumen: Josh O'Connor, Jack Lowden and Callum Turner are reportedly in the frame to replace Daniel Craig.
+- seccion: cultura
+  medio: BBC
+  titulo: Russell Brand prison message 'appalling' and being investigated, No 10 says
   url: https://www.bbc.co.uk/news/articles/cm9d7pe8y559o?at_medium=RSS&at_campaign=rss
-  resumen: The victims' commissioner for London says the message, broadcast by Brand's wife on their YouTube show, will "certainly retraumatise his victims".
+  resumen: Brand's wife read out comments from the comedian on their podcast in which the convicted rapist said he was "not guilty of the offences I have been jailed for".
 - seccion: cultura
   medio: BBC
   titulo: Brand moved from Wandsworth to category C prison, his wife confirms on podcast
@@ -257,9 +297,9 @@ titulares:
   resumen: The convicted rapist has been moved to HMP Littlehey, which houses sex offenders.
 - seccion: cultura
   medio: BBC
-  titulo: Shakespeare chief threatens to resign over Birmingham move
-  url: https://www.bbc.co.uk/news/articles/cm752wdrw0zqo?at_medium=RSS&at_campaign=rss
-  resumen: Michael Dobson says he is "very unhappy" as Stratford is where "people go to dream of Shakespeare".
+  titulo: Gérard Depardieu drops appeal against sexual assault conviction
+  url: https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss
+  resumen: The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.
 - seccion: cultura
   medio: BBC
   titulo: Tourette's film I Swear wins three Scottish Baftas
@@ -267,14 +307,34 @@ titulares:
   resumen: The film about Tourette syndrome campaigner John Davidson won Best Film, Best Director and Best Actor.
 - seccion: cultura
   medio: BBC
+  titulo: Shakespeare chief threatens to resign over Birmingham move
+  url: https://www.bbc.co.uk/news/articles/cm752wdrw0zqo?at_medium=RSS&at_campaign=rss
+  resumen: University of Birmingham is to move its research institute from Stratford-upon-Avon to Edgbaston.
+- seccion: cultura
+  medio: BBC
   titulo: The Scouse actor reaching new heights in Liverpool drama This City Is Ours
   url: https://www.bbc.co.uk/news/articles/cm15e3xg9njeo?at_medium=RSS&at_campaign=rss
   resumen: Adam Abbou says more needs to be done to improve working-class representation in TV.
 - seccion: cultura
-  medio: BBC
-  titulo: Mansion featured in Rivals drops price by £1.5m after failing to sell
-  url: https://www.bbc.co.uk/news/articles/ck053g1rz103o?at_medium=RSS&at_campaign=rss
-  resumen: The house was put up for sale with an £8m price tag in May before estate agents cut it to £6.5m.
+  medio: The Guardian
+  titulo: New James Bond announced ... and the name’s Pattinson, Robert Pattinson
+  url: https://www.theguardian.com/film/2026/nov/16/new-james-bond-announced-and-the-names-pattinson-robert-pattinson
+  resumen: 'Daniel Craig’s successor in the franchise is confirmed after a long casting process, making Pattinson the seventh actor to play the role of 007 • Share your thoughts on the casting • Peter Bradshaw: Robert Pattinson’s gift for cool, sensual menace makes him an exquisite choice as James Bond Robert P'
+- seccion: cultura
+  medio: The Guardian
+  titulo: 'Grammys 2027: Raye, Rosalía and Olivia Rodrigo lead female-heavy nominations'
+  url: https://www.theguardian.com/music/2026/nov/16/grammy-nominations-2027-female-artists
+  resumen: 'The race is led by a number of female artists, also including Phoebe Bridgers and Ella Langley, with Beyoncé receiving her record-breaking 100th nomination Grammys 2027: the nominations in all the major categories Raye is leading this year’s female-heavy Grammys race with 11 nominations. The British'
+- seccion: cultura
+  medio: The Guardian
+  titulo: 'Russell Brand: Open Secret review – ​a real tribute to the journalists and victims who brought him to justice'
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/16/russell-brand-open-secret-review-a-real-tribute-to-the-journalists-and-victims-who-brought-him-to-justice
+  resumen: This Netflix documentary offers a fascinating look at how Brand’s behaviour wasn’t simply tolerated; it was actively celebrated Last week was quite the week. Coming within a few days of each other, the sentencing of Russell Brand and the allegations about David Walliams have felt dizzying. As well a
+- seccion: cultura
+  medio: The Guardian
+  titulo: '‘George Michael came out of his coma talking like Jill’: Julia Davis and Rebecca Front on their squirm-inducing comedy Nighty Night'
+  url: https://www.theguardian.com/culture/2026/nov/16/julia-davis-rebecca-front-nighty-night-george-michael-steve-coogan
+  resumen: '‘When Jill and Glen are in bed, that was Steve Coogan’s bed. He was rarely there so we didn’t bother washing the sheets afterwards’ It all started with the character of Jill Tyrell. I’d done Human Remains [a black comedy about oddball couples] with Rob Brydon and was trying to write something of my '
 - seccion: cultura
   medio: The Guardian
   titulo: '‘I have to sell my bum on OnlyFans to go on tour’: Kate Nash on fame, feminism and fighting the music business'
@@ -285,31 +345,6 @@ titulares:
   titulo: Souped-up and now on screen, Starlight Express is moving in all sorts of ways
   url: https://www.theguardian.com/stage/2026/nov/16/starlight-express-luke-sheppard-andrew-lloyd-webber-musical-cinemas-tour
   resumen: Luke Sheppard’s revival of Andrew Lloyd Webber’s 80s musical is in cinemas and going on tour. What gives these ridiculous, rollerskating trains such emotional force? I hardly ever cry at the theatre but can think of three recent cases. 1. The beautifully jittery balcony scene in Liverpool Everyman’s
-- seccion: cultura
-  medio: The Guardian
-  titulo: '‘A songbook for protest movements’: how did this secret mission to smuggle antifascist music out of Spain ever get forgotten?'
-  url: https://www.theguardian.com/film/2026/nov/16/antifascist-music-spain-the-drunkmens-marseillaise-la-marsellesa-de-los-borachos
-  resumen: In 1961, a group of Italian creatives crossed the border to collect anti-Franco resistance songs and share them with the world – sparking intense backlash from the dictator. A new documentary retraces that perilous journey In the summer of 1961, four Italians crossed the Pyrenees into fascist Spain.
-- seccion: cultura
-  medio: The Guardian
-  titulo: '‘I’m a smalltown girl with a terrible disability. He’s a Hollywood superstar. But we’ve been laughing since we met’: Emma Fogarty and Colin Farrell on their extraordinary story'
-  url: https://www.theguardian.com/film/2026/nov/16/emma-fogarty-colin-farrell-marathons-friendship-the-slightest-touch
-  resumen: She has a rare debilitating skin condition but still tackled a marathon, helped by her old friend. As new film The Slightest Touch tells the full story of that emotional day, its stars talk about their lifelong bond – and why he opened up about parenthood Last month, HBO sent a private jet to Dublin
-- seccion: cultura
-  medio: The Guardian
-  titulo: The Sensualist by Gary Shteyngart review – a delectable romp through life’s pleasures
-  url: https://www.theguardian.com/books/2026/nov/16/the-sensualist-by-gary-shteyngart-review-a-delectable-romp-through-lifes-pleasures
-  resumen: From martinis to capybara videos, the novelist celebrates the little things (some more expensive than others) that bring him joy In 2024, the novelist Gary Shteyngart flew from New York to Milan in search of the perfect midnight-blue suit. There he chose fabric, before flying to Hong Kong to be fitt
-- seccion: cultura
-  medio: The Guardian
-  titulo: Post your questions for A-ha frontman Morten Harket
-  url: https://www.theguardian.com/music/2026/nov/16/post-your-questions-for-a-ha-frontman-morten-harket
-  resumen: 'As he releases new solo album Human Grace, and lives with Parkinson’s disease, the synthpop heartthrob will take on your questions His group A-ha were one of the defining acts of 80s synthpop, thanks to hits such as Take On Me and Hunting High and Low – and lead singer Morten Harket is now about to '
-- seccion: cultura
-  medio: The Guardian
-  titulo: The DCU’s James Gunn and Peter Safran are out – this is the biggest disaster to hit superhero movies in years
-  url: https://www.theguardian.com/film/2026/nov/16/james-gunn-fired-dc-studios-peter-safran-superman-skydance
-  resumen: The adventurous weirdness of the Gunn/Safran era that fans responded to is now history. Can the DCU ever get back on track? What was Warner Bros’ plan in 2022 , when the studio decided to reboot its superhero output, jettison the increasingly muddled DC Extended Universe (DCEU) and replace it with a
 - seccion: cultura
   medio: The Guardian
   titulo: Gérard Depardieu drops appeal against sexual assault conviction
@@ -327,9 +362,19 @@ titulares:
   resumen: 'The two stars are brilliant in Dominic Savage’s I Am Helen. Plus: Wayne Rooney and a bunch of celebrities land in the jungle. Here’s what to watch this evening. 9pm, Channel 4 Helen and Steve have been together for five years. They’re generally happy, but something is starting to feel wrong. Steve w'
 - seccion: cultura
   medio: The Guardian
+  titulo: The Sensualist by Gary Shteyngart review – a delectable romp through life’s pleasures
+  url: https://www.theguardian.com/books/2026/nov/16/the-sensualist-by-gary-shteyngart-review-a-delectable-romp-through-lifes-pleasures
+  resumen: From martinis to capybara videos, the novelist celebrates the little things (some more expensive than others) that bring him joy In 2024, the novelist Gary Shteyngart flew from New York to Milan in search of the perfect midnight-blue suit. There he chose fabric, before flying to Hong Kong to be fitt
+- seccion: cultura
+  medio: The Guardian
   titulo: Michael by Bob Mortimer review – heartwarming quirkiness from the comedian
   url: https://www.theguardian.com/books/2026/nov/16/michael-by-bob-mortimer-review-heartwarming-quirkiness-from-the-comedian
   resumen: Mortimer’s off-kilter charm energises the story of a troubled teenager in 1970s Middlesbrough In comedian Bob Mortimer’s fourth novel, Michael, when we meet him, isn’t an angel; but he’s in a place that he suspects is at least angel-adjacent. He’s dead, or close to it, having come round from an emer
+- seccion: cultura
+  medio: The Guardian
+  titulo: '‘I’m a smalltown girl with a terrible disability. He’s a Hollywood superstar. But we’ve been laughing since we met’: Emma Fogarty and Colin Farrell on their extraordinary story'
+  url: https://www.theguardian.com/film/2026/nov/16/emma-fogarty-colin-farrell-marathons-friendship-the-slightest-touch
+  resumen: She has a rare debilitating skin condition but still tackled a marathon, helped by her old friend. As new film The Slightest Touch tells the full story of that emotional day, its stars talk about their lifelong bond – and why he opened up about parenthood Last month, HBO sent a private jet to Dublin
 - seccion: cultura
   medio: The Guardian
   titulo: '‘Partly the movie’s fault I’m a writer at all’: why Wonder Boys is my feelgood movie'
@@ -337,34 +382,34 @@ titulares:
   resumen: The latest in our series of writers picking their most comforting rewatches is a tribute to Curtis Hanson’s insightful 2000 comedy drama I’m allergic to movies and books about writers. Washed-up novelists, aspiring screenwriters, creative writing professors in the throes of a midlife crisis who chea
 - seccion: cultura
   medio: The Guardian
-  titulo: The Nice Ones review – invasion of the sunny personality snatchers
-  url: https://www.theguardian.com/film/2026/nov/16/the-nice-ones-review-peter-stylianou
-  resumen: Peter Stylianou’s watchably unsettling tale of unbalanced minds and Unidentified Aerial Phenomena does its best to please Drone shots are two-a-penny in cinema these days, but it’s a mark of this £80,000 British indie sci-fi’s visual astuteness that it largely avoids them in a film plagued by drone-
-- seccion: cultura
-  medio: The Guardian
   titulo: Filipiñana review – sexual exploitation at the golf club in menacing satire on class and privilege
   url: https://www.theguardian.com/film/2026/nov/16/filipinana-review-rafael-manuel-golf
   resumen: A sense of threat permeates a verdant private golf course in water-deprived Manila, peopled with submissive tee-girls and geisha-style caddies catering to the male clientele A spectacle filled with dreamlike tableaux, off-centre framing and slow trance-like zooms, Filipiñana is an elegant and politi
 - seccion: cultura
   medio: The Guardian
-  titulo: Downstate review – razor-sharp tragicomedy set in a home for sex offenders
-  url: https://www.theguardian.com/stage/2026/nov/15/downstate-play-review
-  resumen: Booth theatre, New York City Liza Colón-Zayas and Thomas Sadoski star in a provocative drama that brings nuance – and dark humor – to the stories of four child sex offenders Fred doesn’t get out much these days, thanks to the incident that put him in a wheelchair. But the elderly man finds joy in sm
+  titulo: The Nice Ones review – invasion of the sunny personality snatchers
+  url: https://www.theguardian.com/film/2026/nov/16/the-nice-ones-review-peter-stylianou
+  resumen: Peter Stylianou’s watchably unsettling tale of unbalanced minds and Unidentified Aerial Phenomena does its best to please Drone shots are two-a-penny in cinema these days, but it’s a mark of this £80,000 British indie sci-fi’s visual astuteness that it largely avoids them in a film plagued by drone-
 - seccion: deportes
   medio: Europa Press
-  titulo: 'Vinícius: "Entrené menos y cometí errores, soy humano"'
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-vinicius-entrene-menos-cometi-errores-soy-humano-20261116135718.html
-  resumen: El extremo brasileño del Real Madrid Vinícius Júnior confesó entrenó "menos" y cometió "errores" después del último Mundial y antes de la presente campaña, algo que ha "afectado" su inicio de curso, pero defendió que es "humano" y "también" tiene que "disfrutar un poco de la vida".
+  titulo: Philippe Diallo será el candidato de la UEFA para las elecciones a la presidencia de la FIFA
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-philippe-diallo-sera-candidato-uefa-elecciones-presidencia-fifa-20261116171956.html
+  resumen: El presidente de la Federación Francesa de Fútbol (FFF), Philippe Diallo, será el candidato que apoyen "unánimemente" las federaciones nacionales representadas en el Comité Ejecutivo de la UEFA en las elecciones a la presidencia de la FIFA, que se celebrarán en marzo de 2027.
 - seccion: deportes
   medio: Europa Press
-  titulo: Nike suministrará los balones de la Champions hasta 2031
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-nike-suministrara-balones-champions-2031-20261116133539.html
-  resumen: La marca deportiva estadounidense Nike suministrará el balón de la Liga de Campeones y el resto de competiciones masculinas europeas de clubes a partir de la temporada 2027-28, arrebatándole a la empresa alemana Adidas un vínculo con UEFA que arrancó en 2001.
+  titulo: Davidovich se pierde la Davis por lesión y su sustituto será Dani Mérida
+  url: https://www.europapress.es/deportes/tenis-00166/noticia-davidovich-pierde-davis-lesion-sustituto-sera-dani-merida-20261116103239.html
+  resumen: El tenista español Alejandro Davidovich no estará presente en las Finales de la Copa Davis, que se disputan del 24 al 29 de noviembre en Bolonia, y su sustituto será el madrileño Dani Mérida, actual número 52 del mundo, que se unirá a Carlos Alcaraz, Rafa Jódar, Pedro Martínez y Marcel Granollers.
 - seccion: deportes
   medio: BBC Sport
   titulo: Has Trafford replaced Pickford as England No 1?
   url: https://www.bbc.co.uk/sport/football/articles/cmvg2r752ykzo?at_medium=RSS&at_campaign=rss
   resumen: James Trafford was given a chance to stake his claim as England's new number one - and away to the world champions, he absolutely took it.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: How Frank can restore reputation and save Crystal Palace
+  url: https://www.bbc.co.uk/sport/football/articles/cmge3y2qjlyro?at_medium=RSS&at_campaign=rss
+  resumen: Will Thomas Frank rebuild his reputation at Crystal Palace after a bruising time in charge of Tottenham?
 - seccion: deportes
   medio: BBC Sport
   titulo: Cap fits as Robertson poised to take King Kenny's crown
@@ -377,6 +422,16 @@ titulares:
   resumen: Germany manager Jurgen Klopp says he "didn't think things could get worse after Sepp Blatter, but someone has managed to do just that" as he calls for Fifa president Gianni Infantino to be replaced.
 - seccion: deportes
   medio: BBC Sport
+  titulo: Ratcliffe's Ineos settles £180m boat claim with Ainslie
+  url: https://www.bbc.co.uk/sport/sailing/articles/cwg5r2q5dz3zo?at_medium=RSS&at_campaign=rss
+  resumen: Sir Jim Ratcliffe's Ineos group settles a High Court claim with Sir Ben Ainslie's Athena Racing over a £180m boat used in the America's Cup.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Alcaraz 'best I've felt' in statement start at ATP Finals
+  url: https://www.bbc.co.uk/sport/tennis/articles/ckvg294x5yzqo?at_medium=RSS&at_campaign=rss
+  resumen: Carlos Alcaraz warns his rivals he has never felt better at this stage of a season after beginning his ATP Finals bid with a statement win over Frances Tiafoe.
+- seccion: deportes
+  medio: BBC Sport
   titulo: Burnham urges caution on scrapping 3pm TV blackout
   url: https://www.bbc.co.uk/sport/football/articles/c6jre22p3941o?at_medium=RSS&at_campaign=rss
   resumen: Andy Burnham urges caution on lifting the Saturday 3pm TV blackout in the UK, saying the health of the football pyramid should come first.
@@ -387,19 +442,29 @@ titulares:
   resumen: Welsh legend Sir Gerald Davies questions the Welsh Rugby Union's ability to capitalise on the nation's historic victory over New Zealand.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Vinicius says transfer interest affected Real form
-  url: https://www.bbc.co.uk/sport/football/articles/cmqx584jwwpvo?at_medium=RSS&at_campaign=rss
-  resumen: Real Madrid forward Vinicius Jr says he felt "truly overwhelmed" by transfer speculation in the summer.
-- seccion: deportes
-  medio: BBC Sport
   titulo: Belgium's record men's scorer Lukaku retires from internationals
   url: https://www.bbc.co.uk/sport/football/articles/cwlymxr0ge8zo?at_medium=RSS&at_campaign=rss
   resumen: Romelu Lukaku retires from international football, saying he has "enjoyed every single moment" of playing for Belgium.
 - seccion: deportes
   medio: BBC Sport
+  titulo: Vinicius says transfer interest affected Real form
+  url: https://www.bbc.co.uk/sport/football/articles/cmqx584jwwpvo?at_medium=RSS&at_campaign=rss
+  resumen: Real Madrid forward Vinicius Jr says he felt "truly overwhelmed" by transfer speculation in the summer.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Prendergast cited and could miss South Africa game
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/c3pw42zrp4peo?at_medium=RSS&at_campaign=rss
+  resumen: Ireland fly-half Sam Prendergast is in danger of missing Saturday's Nations Championship match against South Africa after being cited for a tackle against Fiji.
+- seccion: deportes
+  medio: BBC Sport
   titulo: Formula 1's one-race wonders
   url: https://www.bbc.co.uk/sport/formula1/articles/cqp9dr4kedd3o?at_medium=RSS&at_campaign=rss
   resumen: Making it to Formula 1 is the undoubted pinnacle of any racing driver’s career – but what became of some of those who only had one shot?
+- seccion: deportes
+  medio: BBC Sport
+  titulo: South Africa recall Etzebeth for Ireland match
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/c8lyd2l9336qo?at_medium=RSS&at_campaign=rss
+  resumen: South Africa record cap holder Eben Etzebeth is recalled for Saturday's much-anticipated Nations Championship game against Ireland in Dublin.
 - seccion: deportes
   medio: BBC Sport
   titulo: 49ers stun Cowboys, Chiefs and Bengals impress - NFL week 10
@@ -411,20 +476,20 @@ titulares:
   url: https://www.bbc.co.uk/sport/formula1/articles/c804w7nxr61zo?at_medium=RSS&at_campaign=rss
   resumen: Rafael Camara will again race for Haas in the Las Vegas Grand Prix following the sacking of Esteban Ocon.
 - seccion: deportes
-  medio: BBC Sport
-  titulo: '''We know we can do it'' - Farrell eyes Springbok scalp'
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/c6x2ey1r444lo?at_medium=RSS&at_campaign=rss
-  resumen: Head coach Andy Farrell says Ireland will look to draw inspiration from the big wins they have had under his watch when they renew their rivalry with world champions South Africa this weekend.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Homophobia on the rise in football - what is your club doing about it?
-  url: https://www.bbc.co.uk/sport/football/articles/c617ked5wn9po?at_medium=RSS&at_campaign=rss
-  resumen: Homophobia and transphobia are on the rise in English football, with new data revealing record numbers of discrimination reports in the game - so what is the Premier League doing about it?
+  medio: The Guardian
+  titulo: French football head Philippe Diallo to fight Infantino for Fifa presidency
+  url: https://www.theguardian.com/football/2026/nov/16/philippe-diallo-fifa-gianni-infantino-president-french-football-federation
+  resumen: Diallo confirmed by Uefa as its chosen candidate He accused Infantino of seriously damaging football The French Football Federation president, Philippe Diallo, has been confirmed as Uefa’s surprise late choice to run for the Fifa presidency. The search for a Uefa-backed candidate to challenge Gianni
 - seccion: deportes
   medio: The Guardian
-  titulo: French football head Philippe Diallo is shock contender to fight Infantino for Fifa job
-  url: https://www.theguardian.com/football/2026/nov/16/philippe-diallo-fifa-gianni-infantino-president-french-football-federation
-  resumen: Diallo may have candidacy confirmed by Uefa on Tuesday Uefa executive committee meeting to discuss matter The French Football Federation president, Philippe Diallo, is a surprise late contender to run for the Fifa presidency and could have his candidacy confirmed by Tuesday. The search for a Uefa-ba
+  titulo: Union of European Clubs escalates fight for football influence with formal complaint
+  url: https://www.theguardian.com/football/2026/nov/16/union-of-european-clubs-complaint-european-commission-uefa-european-football-clubs
+  resumen: Body of 138 members complains to European Commission Uefa and the European Football Clubs power targeted The Union of European Clubs has submitted a formal complaint against the stranglehold Uefa and European Football Clubs maintain on football within the continent, dramatically escalating its effor
+- seccion: deportes
+  medio: The Guardian
+  titulo: European football body’s plan to go global leaves Fifa on tenterhooks
+  url: https://www.theguardian.com/football/2026/nov/16/fifa-waits-european-football-clubs-plan-global
+  resumen: Findings of ‘feasibility study’ into quest for world domination loom with Europe’s wealthiest certain to benefit whatever the outcome It will be one of the most eagerly devoured documents in football circles, assuming its contents are ever fully revealed. In September, the increasingly powerful Euro
 - seccion: deportes
   medio: The Guardian
   titulo: 'WSL talking points: Chelsea’s gamble pays off and have Arsenal lost fear factor?'
@@ -434,14 +499,34 @@ titulares:
   medio: The Guardian
   titulo: 'A long wait, some magic and that smile: Ronaldinho savours Ravenna debut at 46'
   url: https://www.theguardian.com/football/2026/nov/16/ronaldinho-ravenna-debut-serie-c-report
-  resumen: Brazilian legend, an investor at Serie C club, showed glimpses of old brilliance as he played 45 minutes for the promotion-chasing side It may have been the longest buildup in world football. In June the former Barcelona and Brazil legend Ronaldinho was unveiled by Italian Serie C side Ravenna, to m
-- seccion: deportes
-  medio: The Guardian
-  titulo: European football body’s plan to go global leaves Fifa on tenterhooks
-  url: https://www.theguardian.com/football/2026/nov/16/fifa-waits-european-football-clubs-plan-global
-  resumen: Findings of ‘feasibility study’ into quest for world domination loom with Europe’s wealthiest certain to benefit whatever the outcome It will be one of the most eagerly anticipated documents in football circles, assuming its contents are ever fully revealed. In September the increasingly powerful Eu
+  resumen: 'Brazilian legend, an investor at Serie C club, showed glimpses of old brilliance as he played 45 minutes for the promotion-chasing side It may have been the longest buildup in world football. In June, the former Barcelona and Brazil legend Ronaldinho was unveiled by the Serie C side Ravenna to make '
 - seccion: deportes
   medio: The Guardian
   titulo: Republic of Ireland have plenty of promise, but are unable to shake self-sabotage
   url: https://www.theguardian.com/football/2026/nov/16/republic-of-ireland-heimir-hallgrimsson-nations-league-kosovo
   resumen: Hopes of promotion remain alive, but another costly collapse has raised familiar questions before the decisive Nations League game with Kosovo The Republic of Ireland stand on the verge, although of what, nobody seems quite sure. Tuesday’s final Nations League group match, at home to Kosovo, present
+- seccion: deportes
+  medio: The Guardian
+  titulo: Do good club managers necessarily make good international managers? | Jonathan Wilson
+  url: https://www.theguardian.com/global/2026/nov/16/mauricio-pochettino-usmnt-replacement-coach
+  resumen: In a mailbag edition of our newsletter, we look at Mauricio Pochettino, Pep Guardiola’s international credentials and the lack of elite English managers Sign up for our free newsletter here Who should replace Mauricio Pochettino as the USMNT manager? – Tom S Although the salary I’m sure will be exce
+- seccion: deportes
+  medio: The Guardian
+  titulo: Beckham firm sues after fragrance found for sale in Poundland
+  url: https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station
+  resumen: Brand reacted with ‘shock and dismay’ after products were also found in a ‘bargain bin inside a gas station’ Business live – latest updates David Beckham’s company reacted with “shock and dismay” after discovering his branded fragrance range was on sale in petrol stations and in Poundland, court doc
+- seccion: deportes
+  medio: The Guardian
+  titulo: ‘Inexcusable’ stadium sagas provide NWSL with unwelcome reality check
+  url: https://www.theguardian.com/football/2026/nov/16/nwsl-playoffs-gotham-icahn-stadium-controversy
+  resumen: 'Problems faced by Gotham FC and Washington Spirit over staging of their playoff semi-finals shows the league still has work to do In so many ways, Icahn Stadium, tucked away on Randall’s Island in the Harlem River, is a fantastic place to watch soccer. The 5,000-seat facility was thrown together in '
+- seccion: deportes
+  medio: The Guardian
+  titulo: Familiarity of Doha drives home just how far Socceroos have come in recent years
+  url: https://www.theguardian.com/football/blog/2026/nov/16/doha-socceroos-return-stronger-after-asian-cup-heartbreak
+  resumen: There is increasing evidence of an evolution not only in approach but also mentality, highlighted by a return to the scene of Asian Cup heartbreak Last week’s 3-0 dismissal of Qatar at the Abdullah bin Khalifa Stadium marked the first time the Socceroos had returned to the Gulf state since their hea
+- seccion: general
+  medio: Europa Press
+  titulo: El Gobierno aprobará mañana la subida del 5,3% del SMI en 2027, hasta los 1.286 euros al mes
+  url: https://www.europapress.es/economia/laboral-00346/noticia-gobierno-aprobara-manana-subida-53-smi-2027-1286-euros-mes-20261116140908.html
+  resumen: La vicepresidenta segunda y ministra de Trabajo y Economía Social, Yolanda Díaz, ha confirmado este lunes que el Gobierno aprobará mañana martes en Consejo de Ministros la subida del 5,3% del Salario Mínimo Interprofesional (SMI) para 2027, hasta los 1.286 euros al mes en catorce pagas, y que estará
