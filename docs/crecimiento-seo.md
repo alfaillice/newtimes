@@ -7,23 +7,19 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 
 | # | Acción | Impacto | Urgencia | Esfuerzo | Responsable | Estado |
 |---|---|---|---|---|---|---|
-| 1 | Verificar newtimes.news en Google Search Console (registro TXT en Cloudflare) y enviar sitemap.xml, sitemap-noticias.xml y /en/sitemap-noticias.xml. Sin esto no hay ninguna medición real | Muy alto | Inmediata | 15 min | JM | ⛔ |
-| 2 | Comprobar que el redactor autónomo del VPS publica: sin commits entre el 09/11 01:36 y 08:50 (Madrid) pese a turnos previstos. `sudo journalctl -u newtimes-redactor -u newtimes-redactor-en --since today -n 40` | Muy alto (frescura) | Inmediata | 5 min | JM | ⛔ |
-| 3 | Permitir newtimes.news en WebFetch para las tareas programadas: dos revisiones seguidas sin poder leer producción | Alto (medición) | Alta | 2 min | JM | ⛔ |
-| 4 | Google News: alta en Publisher Center (ES y EN por separado) con logo, secciones y RSS | Alto | Alta | 30 min | JM | ⛔ |
-| 5 | Reejecutar `instalar.sh` en el VPS (301/410 de URLs antiguas, 301 de los duplicados retirados, CSP para AdSense y YouTube) | Alto | Alta | 5 min | JM | ⛔ |
-| 6 | Fuentes: enlazar la nota original. Infobae baja de 37 % a 33 % de los enlaces (76 de 228); no está en `config/fuentes_admitidas.yaml`, así que los encargos del VPS ya no deberían usarlo. Medir en la revisión 5 | Alto (E-E-A-T, Google News) | Alta | Bajo | Claude (jefe de redacción) | 🛠 |
-| 7 | Continuidad: 49 noticias el 06/11, 3 el 07/11, 10 el 08/11. El VPS ya sirve de respaldo; confirmar una semana de ritmo estable | Muy alto | Alta | Bajo | Claude + JM | 🛠 |
-| 8 | Evaluar la redacción en el VPS tras una semana completa (hoy: menos de 12 h de datos, 1 noticia ES y 3 EN, 0 descartadas). Si es sólida, valorar que el VPS elija temas y retirar al jefe de Claude | Alto (costes) | Media | Bajo | Claude + JM | 📋 |
-| 9 | Perfiles de marca (X, Bluesky, Telegram, canal de WhatsApp) y añadirlos a `perfiles` en config/site.yaml (hoy `sameAs` vacío). Textos listos abajo | Medio | Media | 1 h | JM + Claude | 📋 |
-| 10 | (Parcial: horario con 5 turnos, filtro de legibilidad y 2 temas por sección) Equilibrar secciones: Cultura 4, Tecnolog-IA 5 y Ciencia y salud 6 noticias/semana frente a 15 de Internacional | Alto | Media | Bajo | Claude (jefe de redacción) | 📋 |
-| 11 | Hacer crecer la edición inglesa: 7 noticias en total, 3 esta semana. Debería subir con el temporizador EN | Alto (audiencia global) | Media | Bajo | Claude + JM | 📋 |
-| 12 | Alta en Bing Webmaster Tools (importar desde Search Console) | Medio | Media | 10 min | JM | ⛔ |
-| 13 | AdSense: mensaje RGPD publicado, sitio aprobado, anuncios automáticos desactivados | Alto (ingresos) | Alta | 20 min | JM | ⛔ |
-| 14 | Páginas de tema "pilares" (huelga general 11N, Urda/alta velocidad, Irán-Ormuz, 29N) con contexto propio. De 510 temas, 66 son indexables | Medio | Media | Medio | Claude | 📋 |
-| 15 | Duplicados por retiradas tardías: 3 pares más retirados y check reforzado. El check solo detecta casos muy parecidos: el 2.º y el 3.º par no los habría parado. Vigilar que el vigilante no publique si el jefe ya lo hizo | Medio | Media | Bajo | Claude | 🛠 |
-| 16 | Titulares largos en España: mediana de 100 caracteres. Regla endurecida el 09/11 a 60-90 caracteres en GUIA.md; medir con `docs/salud-seo.md` | Medio | Media | Bajo | Claude | 🛠 |
-| — | Hechos: redactor del servidor activo (primer `[servidor]` el 08/11 23:10 UTC) ✅ · Fuentes WOFF2 🛠 · Relacionadas por tema 🛠 | | | | | |
+| 1 | Verificar newtimes.news en Google Search Console (registro TXT en Cloudflare) y enviar sitemap.xml, sitemap-noticias.xml y /en/sitemap-noticias.xml. Sin esto no hay ninguna medición de tráfico ni de indexación | Muy alto | Inmediata | 15 min | JM | ⛔ |
+| 2 | Google News: alta en Publisher Center (ES y EN por separado) con logo, secciones y RSS. El ritmo ya lo justifica (30-45 noticias/día ES, 14-21 EN) | Alto | Alta | 30 min | JM | ⛔ |
+| 3 | Fuente original: 0 de 372 noticias de la semana enlazan el documento oficial o científico en que se basan; 198 de 247 ES y 100 de 125 EN tienen una sola fuente. El redactor ya añade el documento si la fuente lo enlaza (6137899) y el jefe tiene el criterio (afe44bf). Medir en `docs/salud-seo.md` («Con documento original») | Alto (E-E-A-T, Google News) | Alta | Bajo | Claude | 🛠 |
+| 4 | Eficiencia del jefe de redacción: 59 de unos 114 encargos (10-16/11) acabaron en descartados (33 por la verificación, 17 por cifras). Revisar si el jefe deja datos en `tema` que no están en las fuentes o elige piezas pobres; valorar menos turnos si el autónomo ya cubre el objetivo | Medio (costes) | Media | Bajo | Claude + JM | 📋 |
+| 5 | Equilibrar Tecnolog-IA: 16 ES y 6 EN en 7 días (Internacional 52 y 37). Criterio añadido para el jefe (afe44bf); añadir RSS de tecnología en inglés si no sube | Alto | Media | Bajo | Claude | 🛠 |
+| 6 | Perfiles de marca (X, Bluesky, Telegram, canal de WhatsApp) y añadirlos a `perfiles` en config/site.yaml (hoy `sameAs` vacío). Textos listos abajo | Medio | Media | 1 h | JM + Claude | ⛔ |
+| 7 | Alta en Bing Webmaster Tools (importar desde Search Console) | Medio | Media | 10 min | JM | ⛔ |
+| 8 | AdSense: mensaje RGPD publicado, sitio aprobado, anuncios automáticos desactivados | Alto (ingresos) | Alta | 20 min | JM | ⛔ |
+| 9 | Páginas de tema "pilares": 141 de 1075 temas indexables; los mayores (Estados Unidos, Rusia, Reino Unido, Ucrania, IA, elecciones generales, huelga general, Adif, vivienda, AEMET) merecen una entradilla propia de contexto | Medio | Media | Medio | Claude | 📋 |
+| 10 | Segunda imagen genérica: la norma de dos imágenes produce fotos de relleno (p. ej. «avenida de Madrid» en la noticia del INE sobre móviles de menores). Que el redactor omita la segunda si no muestra algo del hecho | Medio (calidad, Discover) | Media | Bajo | Claude | 📋 |
+| 11 | Meta description de noticias de 161-178 caracteres (Google corta hacia 155-160): recortar en la plantilla por palabra completa | Bajo | Baja | Bajo | Claude | 📋 |
+| 12 | Duplicados por retiradas tardías: check reforzado; vigilar | Medio | Media | Bajo | Claude | 🛠 |
+| — | Hechos y verificados en producción el 16/11 (auditoría de GitHub Actions): redactor del VPS publicando (✅), instalador reejecutado: 301/410 heredados, CSP, HSTS, nosniff y gzip (✅), WebFetch sustituido por la auditoría de producción (✅), Infobae fuera de las fuentes más citadas (✅), titulares ES con mediana 79 caracteres (antes 100) (✅), edición EN por encima del objetivo (✅) · h1 en portada (🛠) | | | | | |
 
 ### Textos para abrir perfiles (JM crea la cuenta; Claude añade la URL a `perfiles`)
 - Nombre: NewTimes.news. Usuario: `newtimesnews` (o el más parecido disponible).
@@ -33,6 +29,28 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 - Automatización posible con el RSS (`/rss.xml`, `/en/rss.xml`) cuando existan las cuentas.
 
 ## Registro de revisiones
+
+### Revisión 6 · 16/11/2026 09:15 (semanal, programada)
+**Datos verificados**
+- Ritmo (seo_salud.py --dias 7, contenido del repositorio): ES 39 noticias en 24 h y 247 en 7 días (objetivo 14/día); EN 20 en 24 h y 125 en 7 días (objetivo 8/día). Por día 10-15/11: ES 42, 30, 45, 42, 31, 39; EN 18, 21, 14, 18, 21, 19. Mayor hueco diurno: 1,8 h ES y 3,0 h EN (el informe anterior daba 9-10 h porque contaba la noche: corregido).
+- Secciones (7 d) ES: internacional 52, España 41, deportes 39, sociedad 36, economía 24, ciencia-salud 20, cultura 19, tecnología 16. EN: world 37, sport 18, science-health 15, business 14, spain 13, culture 11, society 11, technology 6.
+- Titulares: mediana ES 79 caracteres (209 de 247 pasan de 70), EN 71. Objetivo 60-90 cumplido en mediana.
+- Fuentes ES: europapress.es 183, bbc.co.uk 50, theguardian.com 35, elpais.com 30; Infobae ya no aparece. Una sola fuente: 198 de 247 (ES) y 100 de 125 (EN). Con documento original oficial o científico: 0 de 372.
+- Encargos 10-16/11: unos 114 encargados (suma de los commits «Encargos»), 59 descartados (33 verificación, 17 cifras sin fuente, 5 el agente, 3 sin texto, 1 YAML); `pendientes/` vacío.
+- **Producción, por primera vez desde la revisión 2** (workflow «Auditoría producción», ejecución 43829046561, 08:10 UTC): robots.txt con los 3 sitemaps; ads.txt 200; sitemap.xml 778 URLs (197 /en/, 141 /tema/, 37 sin lastmod); sitemap-noticias ES 68 URLs (última hace 1,8 h) y EN 42 (hace 0,6 h); portadas ES y EN 200, 11 KB con gzip, canonical, hreflang es/en/x-default, NewsMediaOrganization y WebSite, sin h1; cabeceras cache-control 60 s, HSTS, nosniff, CSP y referrer-policy; 3 noticias recientes con NewsArticle (autor, fechas, 3 imágenes) y BreadcrumbList, descriptions de 161-178 caracteres; `/categoria/espana/` 301 a la portada y `/noticias/…` 410, es decir, el instalador ya está aplicado. Vigilancia portada: 21 ejecuciones desde el 10/11, todas correctas.
+- `build.py --check`: 513 artículos válidos, 0 errores. Tareas (list_triggers): jefe de redacción y vigilante SUCCEEDED en su último disparo (15/11 21:06 y 19:12 Madrid).
+- `site:newtimes.news` y "NewTimes.news" (buscador de la herramienta, no Google): ningún resultado propio.
+- No disponible: WebFetch a newtimes.news (permiso no respondido en ejecución desatendida, tercera vez), red saliente del entorno (no se pudieron probar nuevos RSS), Search Console, analítica.
+
+**Cambios**
+- 6137899 🛠: el redactor del servidor añade como fuente el documento oficial o científico que la fuente enlaza en su texto (INE, BOE, Banco de España, OMS, revistas…), solo si es una página concreta y legible, y el agente solo puede usarlo para datos del mismo hecho (probado con HTML simulado: ignora menús, pies y PDF); GUIA.md y GUIDE.md lo piden. `seo_salud.py` mide «Con documento original» y no cuenta la noche como hueco. Nueva `redaccion/auditoria_produccion.py` y workflow semanal (lunes 6:20 UTC) y bajo demanda ✅ (ejecutado con éxito). h1 accesible en las portadas ES y EN (construcción local revisada; en producción todavía sin h1 a las 08:10 UTC, pendiente del siguiente despliegue).
+- afe44bf ✅ en el repositorio: criterios de crecimiento para el jefe de redacción en ENCARGOS.md (fuente original, Tecnolog-IA, temas de servicio, seguimiento de temas con página propia).
+
+**Problemas**
+- Rigor percibido: 80 % de noticias con una sola fuente y ninguna con el documento original. Para Google News y E-E-A-T es hoy la mayor debilidad del contenido.
+- La mitad de los encargos del jefe se descartan: gasto de plan y de API sin noticia.
+- Segunda imagen de relleno en algunas noticias.
+- Sin Search Console ni Publisher Center, el volumen alcanzado no se puede convertir en datos ni en presencia en Google News.
 
 ### Revisión 5 · 09/11/2026 22:00 (manual, a petición de JM)
 **Datos verificados**
@@ -149,8 +167,9 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 - Search Console (ES y EN): impresiones, clics, CTR, posición, cobertura, Discover, Google News.
 - Analítica de visitas: ninguna instalada (opción sin cookies: Plausible/Umami en el VPS).
 - AdSense: aprobación, RPM, ingresos.
-- Core Web Vitals reales (CrUX), cuando haya tráfico; PageSpeed no accesible desde el entorno de revisión.
-- Registro del redactor del VPS (`journalctl`): turnos sin publicación y motivo; gasto real de API acumulado.
-- Acceso de WebFetch a newtimes.news en las tareas desatendidas, para verificar producción y licencias de imagen.
-- Historial de ejecuciones de las tareas programadas (causa de los huecos del 01–06/11 y del 07/11).
+- Core Web Vitals reales (CrUX), cuando haya tráfico; PageSpeed no accesible desde el entorno de revisión (se podría añadir a la auditoría de GitHub Actions con la API pública de PageSpeed).
+- Registro del redactor del VPS (`journalctl`) y gasto real de API acumulado.
+- Qué parte de las noticias publicadas viene de encargos del jefe y cuál del redactor autónomo (los commits no lo distinguen).
+- Licencias de las imágenes en producción (Commons no responde desde el entorno de revisión).
 - Enlaces entrantes (no hay herramienta de backlinks disponible).
+- Ya resuelto: producción se verifica con el workflow «Auditoría producción» (no hace falta WebFetch).
