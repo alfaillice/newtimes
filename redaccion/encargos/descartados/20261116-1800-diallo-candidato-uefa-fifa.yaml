@@ -1,0 +1,12 @@
+seccion: deportes
+tema: Philippe Diallo, presidente de la Federación Francesa, será el candidato de la UEFA a la presidencia de la FIFA frente a Gianni Infantino.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: Philippe Diallo será el candidato de la UEFA para las elecciones a la presidencia de la FIFA
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-philippe-diallo-sera-candidato-uefa-elecciones-presidencia-fifa-20261116171956.html
+- medio: The Guardian
+  titulo: French football head Philippe Diallo to fight Infantino for Fifa presidency
+  url: https://www.theguardian.com/football/2026/nov/16/philippe-diallo-fifa-gianni-infantino-president-french-football-federation
+motivo: 'la verificación encontró datos sin sostén: "El semanario de referencia del fútbol británico": The Guardian es un diario, no un semanario. El propio artículo lo llama "diario británico" más adelante.'
+descartado: '2026-11-16T18:10:49+01:00'
