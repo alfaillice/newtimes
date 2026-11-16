@@ -40,6 +40,15 @@ fuentes:
 - `destacado: true` en una como mucho.
 - El `tema` solo orienta: no incluyas datos que no estén en las fuentes, porque el verificador descartará la noticia.
 
+## Criterios de crecimiento (revisión SEO 6, 16/11/2026)
+
+Al elegir entre temas de igual interés, el jefe de redacción prefiere, por este orden:
+
+1. **Fuente original.** Si la pieza de agencia se basa en un documento oficial o científico abierto (nota del INE, BOE, Banco de España, AEMET, DGT, estudio en una revista), ponlo también en `fuentes`. Hoy 0 de 372 noticias de la semana enlazan un documento original.
+2. **Tecnolog-IA**, la sección más floja en las dos ediciones (16 noticias ES y 6 EN en 7 días, frente a 52 y 37 de Internacional): un tema de tecnología por turno si `titulares.yaml` trae alguno con hechos nuevos.
+3. **Temas de servicio que la gente busca**, siempre con hechos de fuentes admitidas y sin especular: avisos naranja o rojo de la AEMET (zonas, horas), huelgas con fechas y servicios mínimos, operaciones especiales de tráfico de la DGT, plazos y calendarios oficiales (campaña de la renta, festivos, cambio de hora), resultados de los grandes partidos con datos del encuentro. El titular dice qué, dónde y cuándo.
+4. **Seguimiento de los temas con página propia** (`/tema/...` con más noticias: huelga general, elecciones generales, vivienda, Adif, AEMET, inteligencia artificial): cuando haya un hecho nuevo, nombra el asunto en el campo `tema` con esas mismas palabras para que el agente use la etiqueta existente y la página de tema crezca.
+
 ## Encargo mensual de Cultura: lanzamientos musicales
 
 Una vez al mes, una tarea programada de Claude deja este encargo (sin fuentes: las busca el servidor):
