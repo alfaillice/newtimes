@@ -486,3 +486,6 @@ html { scroll-padding-top: 4rem; }
 
 /* Fotos y vídeos adicionales dentro del texto: mismo estilo que la foto principal */
 .articulo__foto--cuerpo { margin-block: 2rem; }
+
+/* Texto solo para lectores de pantalla y buscadores (h1 de la portada) */
+.solo-lectores{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}

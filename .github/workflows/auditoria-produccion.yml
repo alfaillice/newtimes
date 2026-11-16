@@ -1,0 +1,23 @@
+name: Auditoría producción
+# Auditoría SEO técnica de https://newtimes.news (robots, sitemaps, ads.txt, portadas, últimas noticias,
+# cabeceras, datos estructurados y redirecciones heredadas). Solo lee. Se ejecuta cada lunes antes de la
+# revisión semanal de Claude, que lee el resultado con las herramientas de GitHub, y bajo demanda.
+on:
+  schedule:
+    - cron: '20 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  auditoria:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: redaccion/auditoria_produccion.py
+          sparse-checkout-cone-mode: false
+      - name: Auditar producción
+        run: python3 redaccion/auditoria_produccion.py --noticias 3

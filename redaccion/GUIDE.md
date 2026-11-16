@@ -43,6 +43,7 @@ Only these sources may be used as a basis. Agencies and official sources take pr
 Rules:
 - An important fact (figures, deaths, accusations, decisions) must appear in an agency, an official source or **two media outlets** on the list. If only one outlet reports it, attribute it explicitly: "according to The Guardian".
 - Cite 1 to 4 sources per story, always with their exact URL.
+- **Original source.** If the story is based on an official or scientific document (INE release, BOE, Bank of Spain report, journal study), also list it in `fuentes` when it is an open web page, alongside the agency that reports it. The server reporter adds it automatically when a source links to it in its text.
 - If sources disagree, report the discrepancy attributing each version, or leave the figure out.
 - Every fact in the text must be in one of the sources listed in `fuentes`. If it cannot be linked, it is not published.
 - Sources in Spanish are fine. When you quote a statement made in Spanish, translate it faithfully and make clear it is a translation the first time ("said in Spanish", "told Cadena SER").

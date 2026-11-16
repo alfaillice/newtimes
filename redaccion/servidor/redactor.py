@@ -165,12 +165,17 @@ class _Parrafos(HTMLParser):
     def __init__(self):
         super().__init__()
         self.dentro, self.salto, self.parrafos, self.actual = 0, 0, [], []
+        self.enlaces = []   # enlaces dentro de los párrafos del texto (no menús ni pies)
 
     def handle_starttag(self, tag, attrs):
         if tag in ("script", "style", "aside", "nav", "footer", "figure"):
             self.salto += 1
         elif tag == "p":
             self.dentro += 1
+        elif tag == "a" and self.dentro and not self.salto:
+            href = dict(attrs).get("href") or ""
+            if href.startswith("http"):
+                self.enlaces.append(href.strip())
 
     def handle_endtag(self, tag):
         if tag in ("script", "style", "aside", "nav", "footer", "figure"):
@@ -230,6 +235,67 @@ def texto_pagina(url: str) -> str:
 
 
 MIN_LEGIBLE = 600   # caracteres de texto propio que debe dar una página para poder usarla como fuente
+
+
+# ------------------------------------------------------------------ fuente original
+
+AGENCIAS = {"efe.com", "europapress.es", "reuters.com", "afp.com", "apnews.com"}
+NOMBRES_OFICIALES = {
+    "ine.es": ("INE", "Spain's National Statistics Institute (INE)"), "boe.es": ("BOE", "Spain's Official State Gazette (BOE)"),
+    "bde.es": ("Banco de España", "Bank of Spain"), "cnmv.es": ("CNMV", "CNMV"), "aemet.es": ("AEMET", "AEMET"),
+    "dgt.es": ("DGT", "DGT"), "congreso.es": ("Congreso de los Diputados", "Congress of Deputies"),
+    "senado.es": ("Senado", "Spanish Senate"), "poderjudicial.es": ("Poder Judicial", "Spanish judiciary (CGPJ)"),
+    "gob.es": ("Gobierno de España", "Spanish Government"), "europa.eu": ("Unión Europea", "European Union"),
+    "un.org": ("ONU", "United Nations"), "who.int": ("OMS", "World Health Organization"),
+    "unhcr.org": ("ACNUR", "UNHCR"), "nato.int": ("OTAN", "NATO"), "imf.org": ("FMI", "IMF"),
+    "oecd.org": ("OCDE", "OECD"), "worldbank.org": ("Banco Mundial", "World Bank"), "csic.es": ("CSIC", "CSIC"),
+    "agenciasinc.es": ("Agencia SINC", "SINC"), "nature.com": ("Nature", "Nature"), "science.org": ("Science", "Science"),
+    "thelancet.com": ("The Lancet", "The Lancet"), "nejm.org": ("NEJM", "NEJM"), "pnas.org": ("PNAS", "PNAS"),
+}
+
+
+@functools.lru_cache(maxsize=1024)
+def enlaces_texto(url: str) -> tuple:
+    try:
+        p = _Parrafos()
+        p.feed(html_pagina(url))
+        return tuple(p.enlaces)
+    except Exception:  # noqa: BLE001
+        return ()
+
+
+def _titulo_html(url: str) -> str:
+    try:
+        m = re.search(r"<title[^>]*>(.*?)</title>", html_pagina(url), re.S | re.I)
+    except Exception:  # noqa: BLE001
+        return ""
+    return " ".join(html.unescape(m.group(1)).split())[:200] if m else ""
+
+
+def fuente_original(fuentes: list[dict], intentos: int = 3) -> dict | None:
+    """Documento oficial o científico que las fuentes enlazan en su texto (nota del INE, BOE, estudio...).
+
+    Google News y los lectores valoran el enlace a la fuente primaria. Solo se usa si es una página
+    concreta (no una portada), de un dominio oficial o científico de config/fuentes_admitidas.yaml,
+    distinto de las agencias, y con texto legible suficiente. No usa la API."""
+    ya = {f["url"] for f in fuentes}
+    probados = 0
+    for f in fuentes:
+        for href in enlaces_texto(f["url"]):
+            partes = urllib.parse.urlsplit(href)
+            if href in ya or len(partes.path.strip("/")) < 4 or partes.path.lower().endswith(".pdf"):
+                continue
+            c = clasificar(href)
+            if not c or c[0] != "fuerte" or c[1] in AGENCIAS:
+                continue
+            probados += 1
+            if len(texto_pagina(href)) >= MIN_LEGIBLE:
+                nombre = NOMBRES_OFICIALES.get(c[1], (c[1], c[1]))[1 if EDICION == "en" else 0]
+                return {"medio": nombre, "titulo": _titulo_html(href) or nombre, "url": href,
+                        "texto": texto_pagina(href), "original_de": f["medio"]}
+            if probados >= intentos:
+                return None
+    return None
 
 
 def solo_legibles(items: list[dict], hilos: int = 8) -> list[dict]:
@@ -455,7 +521,19 @@ def redactar(tema, agente, guia) -> str | None:
     if solidez(fuentes) == "no":
         descartar(f"ninguna fuente admitida: {tema['tema']}")
         return None
-    bloque = "\n\n".join(f"### FUENTE {n}: {f['medio']} — {f['titulo']}\nURL: {f['url']}\n{f['texto']}"
+    orig = fuente_original(fuentes)
+    if orig:
+        log(f"  fuente original enlazada por {orig['original_de']}: {orig['url']}")
+        fuentes.append(orig)
+
+    def cabecera(f):
+        if not f.get("original_de"):
+            return f"{f['medio']} — {f['titulo']}"
+        return (f"{f['medio']} — {f['titulo']} (original document linked by {f['original_de']}: use it to check and "
+                f"complete facts about this same event only)" if EDICION == "en" else
+                f"{f['medio']} — {f['titulo']} (documento original que enlaza {f['original_de']}: úsalo para "
+                f"comprobar y completar datos de este mismo hecho, no de otros asuntos)")
+    bloque = "\n\n".join(f"### FUENTE {n}: {cabecera(f)}\nURL: {f['url']}\n{f['texto']}"
                          for n, f in enumerate(fuentes, 1))
     tema["videos"] = videos_fuentes(fuentes)
     if tema["videos"]:

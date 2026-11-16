@@ -38,12 +38,26 @@ def cargar(ed):
     return sorted(arts, key=lambda m: m["_f"])
 
 
+AGENCIAS = {"efe.com", "europapress.es", "reuters.com", "afp.com", "apnews.com"}
+
+
+def es_primaria(url):
+    """Enlace a una fuente oficial o científica de config/fuentes_admitidas.yaml (no a una agencia)."""
+    host = (urllib.parse.urlsplit(url).hostname or "").lower()
+    if not hasattr(es_primaria, "dominios"):
+        cfg = yaml.safe_load((RAIZ / "config/fuentes_admitidas.yaml").read_text(encoding="utf-8"))
+        es_primaria.dominios = [d for d in cfg.get("fuertes", []) if d not in AGENCIAS]
+    return any(host == d or host.endswith("." + d) for d in es_primaria.dominios)
+
+
 def mayor_hueco(arts, desde, hasta):
     """Mayor intervalo sin publicar entre las 7 y las 23 h (en horas)."""
     horas = [m["_f"] for m in arts if desde <= m["_f"] <= hasta and 7 <= m["_f"].hour < 23]
     if len(horas) < 2:
         return None
-    return max((b - a).total_seconds() / 3600 for a, b in zip(horas, horas[1:]))
+    # Solo pares del mismo día: el salto de las 23 h a las 7 h del día siguiente es la noche, no un hueco
+    pares = [(b - a).total_seconds() / 3600 for a, b in zip(horas, horas[1:]) if a.date() == b.date()]
+    return max(pares) if pares else None
 
 
 def informe(dias):
@@ -72,14 +86,16 @@ def informe(dias):
         if largos:
             out.append(f"- ⚠ {len(largos)} titulares de las últimas 24 h pasan de 110 caracteres.")
         dominios = Counter()
-        una = 0
+        una = primaria = 0
         for m in dn:
             fs = m.get("fuentes") or []
             una += len(fs) == 1
+            primaria += any(es_primaria(str(f.get("url", ""))) for f in fs)
             for f in fs:
                 dominios[(urllib.parse.urlsplit(str(f.get("url", ""))).hostname or "?").removeprefix("www.")] += 1
         if dominios:
-            out.append("- Fuentes más citadas: " + ", ".join(f"{d} {n}" for d, n in dominios.most_common(6)) + f". Noticias con una sola fuente: {una} de {len(dn)}.")
+            out.append("- Fuentes más citadas: " + ", ".join(f"{d} {n}" for d, n in dominios.most_common(6)) + f". Noticias con una sola fuente: {una} de {len(dn)}."
+                       + f" Con documento original (oficial o científico): {primaria} de {len(dn)}.")
         out.append("")
     # Producción
     out += ["## Producción", ""]
