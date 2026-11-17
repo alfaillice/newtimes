@@ -1,25 +1,24 @@
-# Salud editorial y SEO · 16/11/2026 23:30
+# Salud editorial y SEO · 17/11/2026 23:30
 
 ## Edición ES
 
-- Últimas 24 h: **33** noticias (objetivo ≥ 14). Últimos 7 días: 262.
-- Última publicación: 16/11 22:20
-- Mayor hueco entre 7 y 23 h en las últimas 24 h: 2.8 h
-- Por sección (7 d): internacional 54, espana 41, deportes 41, sociedad 38, economia 26, ciencia-salud 23, cultura 21, tecnologia 18
-- Titulares: mediana 78 caracteres; 222 de 262 pasan de 70 (Google corta hacia los 60).
-- Fuentes más citadas: europapress.es 188, bbc.co.uk 53, theguardian.com 41, elpais.com 34, marca.com 2, cincodias.elpais.com 1. Noticias con una sola fuente: 211 de 262. Con documento original (oficial o científico): 0 de 262.
+- Últimas 24 h: **29** noticias (objetivo ≥ 14). Últimos 7 días: 249.
+- Última publicación: 17/11 18:20
+- Mayor hueco entre 7 y 23 h en las últimas 24 h: 1.0 h
+- Por sección (7 d): internacional 53, deportes 41, espana 37, sociedad 35, economia 25, ciencia-salud 21, cultura 20, tecnologia 17
+- Titulares: mediana 79 caracteres; 214 de 249 pasan de 70 (Google corta hacia los 60).
+- Fuentes más citadas: europapress.es 183, bbc.co.uk 48, theguardian.com 38, elpais.com 31, cincodias.elpais.com 1. Noticias con una sola fuente: 203 de 249. Con documento original (oficial o científico): 0 de 249.
 
 ## Edición EN
 
-- Últimas 24 h: **24** noticias (objetivo ≥ 8). Últimos 7 días: 133.
-- Última publicación: 16/11 20:35
-- Mayor hueco entre 7 y 23 h en las últimas 24 h: 2.0 h
-- Por sección (7 d): world 39, sport 20, science-health 15, spain 15, business 14, culture 13, society 10, technology 7
-- ⚠ Secciones por debajo de la mitad de la media: technology
-- Titulares: mediana 72 caracteres; 72 de 133 pasan de 70 (Google corta hacia los 60).
-- Fuentes más citadas: bbc.co.uk 61, theguardian.com 51, aljazeera.com 32, europapress.es 23, nature.com 1. Noticias con una sola fuente: 105 de 133. Con documento original (oficial o científico): 1 de 133.
+- Últimas 24 h: **12** noticias (objetivo ≥ 8). Últimos 7 días: 129.
+- Última publicación: 17/11 17:36
+- Mayor hueco entre 7 y 23 h en las últimas 24 h: 3.0 h
+- Por sección (7 d): world 36, sport 19, spain 16, business 14, culture 13, science-health 13, technology 9, society 9
+- Titulares: mediana 72 caracteres; 72 de 129 pasan de 70 (Google corta hacia los 60).
+- Fuentes más citadas: theguardian.com 54, bbc.co.uk 54, aljazeera.com 32, europapress.es 23, nature.com 1. Noticias con una sola fuente: 102 de 129. Con documento original (oficial o científico): 1 de 129.
 
 ## Producción
 
-- /sitemap-noticias.xml: HTTP 200, 72 URLs; última 16/11 22:20
-- /en/sitemap-noticias.xml: HTTP 200, 42 URLs; última 16/11 20:35
+- /sitemap-noticias.xml: HTTP 200, 62 URLs; última 17/11 18:20
+- /en/sitemap-noticias.xml: HTTP 200, 36 URLs; última 17/11 17:36
