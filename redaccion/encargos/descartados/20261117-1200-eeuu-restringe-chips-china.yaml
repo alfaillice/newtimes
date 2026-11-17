@@ -1,0 +1,12 @@
+seccion: tecnologia
+tema: EEUU restringe el suministro de chips y servidores de IA a empresas chinas, incluido el acceso a su capacidad de cómputo desde terceros países del sudeste asiático, en medio de la investigación por el presunto caso de espionaje ligado a Nvidia. Inteligencia artificial.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: EEUU decide restringir el acceso de China a sus chips de IA en medio del caso de supuesto espionaje en Nvidia
+  url: https://www.europapress.es/internacional/noticia-eeuu-decide-restringir-acceso-china-chips-ia-medio-caso-supuesto-espionaje-nvidia-20261117072601.html
+- medio: BBC
+  titulo: How new US chip restrictions on South East Asia will hit China
+  url: https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo
+motivo: 'la verificación encontró datos sin sostén: "Megaspeed International ... ha sido señalada en EEUU como posible espía china": las fuentes señalan como posible espía a Alice Huang, no a la empresa. Europa Press la describe como exejecutiva señalada, y la BBC dice que Alice Huang es sospechosa de ser espía china. Atribuir la sospecha a la empresa no está respaldado.; "Los analistas consultados por la BBC coinciden en que los países más expuestos son Malasia y Tailandia": en la BBC solo el experto Naoise McDonagh dice que Malasia y Tailandia podrían ser los más afectados. Hablar de consenso entre analistas no está sostenido por la fuente.'
+descartado: '2026-11-17T12:11:25+01:00'
