@@ -6,3 +6,5 @@ fuentes:
   titulo: Cientos de miles personas salen a la calle en Francia durante la huelga general convocada por los funcionarios
   url: https://www.europapress.es/internacional/noticia-cientos-miles-personas-salen-calle-francia-huelga-general-convocada-funcionarios-20261117190845.html
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-17T21:20:02+01:00'

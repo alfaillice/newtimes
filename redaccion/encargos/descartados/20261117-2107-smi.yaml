@@ -9,3 +9,5 @@ fuentes:
   titulo: El Gobierno aprueba subir el salario mínimo un 5,3% y el sueldo de los funcionarios un 4,5%
   url: https://elpais.com/economia/2026-11-17/el-gobierno-aprueba-subir-el-salario-minimo-un-53-y-el-sueldo-de-los-funcionarios-un-45.html
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-17T21:20:04+01:00'
