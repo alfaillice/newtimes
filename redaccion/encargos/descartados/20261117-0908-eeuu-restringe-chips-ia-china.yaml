@@ -1,0 +1,9 @@
+seccion: tecnologia
+tema: EEUU decide restringir el acceso de China a sus chips de inteligencia artificial en medio del caso de supuesto espionaje en Nvidia. Cuenta en qué consiste la restricción y el contexto del caso.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: EEUU decide restringir el acceso de China a sus chips de IA en medio del caso de supuesto espionaje en Nvidia
+  url: https://www.europapress.es/internacional/noticia-eeuu-decide-restringir-acceso-china-chips-ia-medio-caso-supuesto-espionaje-nvidia-20261117072601.html
+motivo: 'la verificación encontró datos sin sostén: "obliga a los operadores de centros de datos ... a obtener una licencia del Gobierno estadounidense antes de recibir chips avanzados de IA": la fuente dice que la licencia es necesaria antes de exportar chips a clientes en esos países, no antes de recibirlos. Cambia el sentido de la norma.; Entradilla: "el caso de supuesto espionaje que afecta a Nvidia": la fuente dice que el presunto espionaje afecta a Jensen Huang, no a la empresa Nvidia.; "Los chips de IA son procesadores especializados en acelerar el entrenamiento y el uso de modelos de inteligencia artificial": la definición no aparece en'
+descartado: '2026-11-17T09:11:09+01:00'
