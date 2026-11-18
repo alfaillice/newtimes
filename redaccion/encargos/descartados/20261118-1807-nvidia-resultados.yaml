@@ -12,3 +12,5 @@ fuentes:
   titulo: Nvidia says it won't reinstate Huang as it reports soaring sales
   url: https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-18T18:25:02+01:00'
