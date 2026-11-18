@@ -71,9 +71,22 @@
     if (total < 2) return;
     var teclado = false;
     var reloj = null;
+    var pausado = false;
+    var bPausa = c.querySelector("[data-pausa]");
+    if (bPausa) bPausa.addEventListener("click", function () {
+      pausado = !pausado;
+      bPausa.setAttribute("aria-pressed", pausado ? "true" : "false");
+      bPausa.setAttribute("aria-label", bPausa.dataset[pausado ? "textoReanudar" : "textoPausa"]);
+      bPausa.querySelector(".i-pausa").hidden = pausado;
+      bPausa.querySelector(".i-play").hidden = !pausado;
+      pausado ? parar() : arrancar();
+    });
+    /* El ratón encima del carrusel también lo detiene (WCAG 2.2.2) */
+    c.addEventListener("mouseenter", function () { parar(); });
+    c.addEventListener("mouseleave", function () { arrancar(); });
     function arrancar() {
       parar();
-      if (teclado || document.hidden) return;
+      if (teclado || pausado || document.hidden) return;
       reloj = setInterval(function () { ir(indice() + 1); }, 7000);
     }
     function parar() { if (reloj) { clearInterval(reloj); reloj = null; } }

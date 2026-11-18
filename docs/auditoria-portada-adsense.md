@@ -53,7 +53,7 @@ Lo que revisan en la práctica es la **calidad del contenido** y la política de
 | Hecha | Sin anuncio en `/directo/` | Claude |
 | Alta | Verificar Search Console, solicitar Google News, aprobar AdSense | JM |
 | Alta | Más fuentes por noticia y documento original (encargos y redactor) | Claude |
-| Media | Carrusel sin autoavance o con pausa; «Última hora» solo si <2 h | Claude |
+| Hecha (18/11) | Carrusel con botón de pausa y parada con el ratón; «Última hora» solo si <2 h; «Hora a hora» con ventana de 12 h | Claude |
 | Media | Rejilla de 4 secundarias visibles y bloque «Sigue este tema» | Claude |
 | Media | Medición de frescura de portada en `seo_salud.py` | Claude |
 | Media | Boletín/RSS visible, perfiles sociales | JM + Claude |

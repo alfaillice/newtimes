@@ -757,7 +757,8 @@ class Constructor:
         r = ed["rutas"]
         self.env.filters.update(FILTROS_FECHA.get(codigo, FILTROS_FECHA["es"]))
         base_ctx = dict(ed=ed, codigo=codigo, pre=pre, secciones=ed["secciones"], r=r)
-        base_ctx["ultima_hora"] = articulos[0] if articulos else None
+        # «Última hora» solo si de verdad lo es: menos de 2 h; si no, la franja no aparece
+        base_ctx["ultima_hora"] = articulos[0] if articulos and articulos[0].fecha >= self.ahora - timedelta(hours=2) else None
         cache_og = RAIZ / ".cache" / "og"
         for a in articulos:
             preparar_foto(a, self.salida, RAIZ / ".cache" / "img", self.avisos)
@@ -771,9 +772,11 @@ class Constructor:
         resto = [a for a in articulos if a not in destacados]
         hoy = self.ahora.date()
         de_hoy = [a for a in articulos if a.fecha.date() == hoy]
+        # «Hora a hora»: ventana móvil de 12 h (a las 00:30 «de hoy» quedaba casi vacío)
+        ventana = [a for a in articulos if self.ahora - timedelta(hours=12) <= a.fecha <= self.ahora + timedelta(minutes=5)]
         horas = {}
-        for a in sorted(de_hoy, key=lambda x: x.fecha):
-            horas.setdefault(a.fecha.hour, []).append(a)
+        for a in sorted(ventana, key=lambda x: x.fecha):
+            horas.setdefault((a.fecha.date(), a.fecha.hour), []).append(a)
         bloques = []
         for s in ed["secciones"]:
             lista = [a for a in por_seccion[s["slug"]] if a not in destacados][:4]

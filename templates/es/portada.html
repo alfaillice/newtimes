@@ -37,6 +37,10 @@
     <button type="button" class="carrusel__boton" data-dir="-1" aria-label="Noticia anterior">
       <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 18-6-6 6-6"/></svg>
     </button>
+    <button type="button" class="carrusel__boton carrusel__pausa" data-pausa aria-pressed="false" aria-label="Pausar el avance automático" data-texto-pausa="Pausar el avance automático" data-texto-reanudar="Reanudar el avance automático">
+      <svg class="i-pausa" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+      <svg class="i-play" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" hidden><path d="M8 5v14l11-7z"/></svg>
+    </button>
     <p class="carrusel__contador" aria-live="polite"><span data-actual>1</span> de {{ destacados|length }}</p>
     <button type="button" class="carrusel__boton" data-dir="1" aria-label="Noticia siguiente">
       <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg>
@@ -62,10 +66,10 @@
 {% if horas %}
 <section class="reloj" aria-labelledby="reloj-titulo">
   <div class="envoltura">
-    <h2 id="reloj-titulo" class="titulo-bloque">Hoy, hora a hora</h2>
+    <h2 id="reloj-titulo" class="titulo-bloque">Últimas 12 horas, hora a hora</h2>
   </div>
   <div class="reloj__pista envoltura" tabindex="0" aria-label="Noticias de hoy agrupadas por hora">
-    {% for h, lista in horas.items()|reverse %}
+    {% for (dia, h), lista in horas.items()|reverse %}
     <div class="reloj__hora">
       <p class="reloj__marca">{{ '%02d'|format(h) }}:00</p>
       <ul role="list">
