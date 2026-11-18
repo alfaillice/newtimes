@@ -2,9 +2,10 @@ seccion: internacional
 tema: Irán reivindica un ataque con drones contra una base militar usada por EEUU en Kuwait, el primero de este tipo en cerca de tres meses; las fuerzas kuwaitíes aseguran que sus defensas antiaéreas hicieron frente a la oleada.
 destacado: true
 fuentes:
-  - medio: Europa Press
-    titulo: Irán reivindica un ataque con drones contra una base militar usada por EEUU en Kuwait
-    url: https://www.europapress.es/internacional/noticia-defensas-aereas-kuwait-repelen-nueva-oleada-drones-hostiles-pais-20261118003437.html
-  - medio: Europa Press
-    titulo: Las autoridades de Bahréin alertan momentáneamente de una nueva amenaza y piden "cautela" a su población
-    url: https://www.europapress.es/internacional/noticia-autoridades-bahrein-alertan-momentaneamente-nueva-amenaza-piden-cautela-poblacion-20261118014935.html
+- medio: Europa Press
+  titulo: Irán reivindica un ataque con drones contra una base militar usada por EEUU en Kuwait
+  url: https://www.europapress.es/internacional/noticia-defensas-aereas-kuwait-repelen-nueva-oleada-drones-hostiles-pais-20261118003437.html
+- medio: Europa Press
+  titulo: Las autoridades de Bahréin alertan momentáneamente de una nueva amenaza y piden "cautela" a su población
+  url: https://www.europapress.es/internacional/noticia-autoridades-bahrein-alertan-momentaneamente-nueva-amenaza-piden-cautela-poblacion-20261118014935.html
+intentos: 1

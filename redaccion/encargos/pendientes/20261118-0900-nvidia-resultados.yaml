@@ -2,9 +2,10 @@ seccion: tecnologia
 tema: Nvidia supera las expectativas en su tercer trimestre fiscal, con beneficio de 59.335 millones de dólares (un 105 % más) y ventas que se duplican, mientras su junta descarta reincorporar a Jensen Huang como consejero delegado.
 destacado: false
 fuentes:
-  - medio: Europa Press
-    titulo: Nvidia supera expectativas y gana 59.335 millones en su tercer trimestre, un 105% más
-    url: https://www.europapress.es/economia/noticia-nvidia-supera-expectativas-gana-59335-millones-tercer-trimestre-105-mas-20261117223237.html
-  - medio: The Guardian
-    titulo: Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang
-    url: https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang
+- medio: Europa Press
+  titulo: Nvidia supera expectativas y gana 59.335 millones en su tercer trimestre, un 105% más
+  url: https://www.europapress.es/economia/noticia-nvidia-supera-expectativas-gana-59335-millones-tercer-trimestre-105-mas-20261117223237.html
+- medio: The Guardian
+  titulo: Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang
+  url: https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang
+intentos: 1
