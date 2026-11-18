@@ -6,3 +6,5 @@ fuentes:
   titulo: US loses measles elimination status amid worst outbreak since 1991
   url: https://www.theguardian.com/us-news/2026/nov/17/us-measles-outbreak-elimination-status
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-18T09:25:03+01:00'

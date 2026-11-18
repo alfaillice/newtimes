@@ -9,3 +9,5 @@ fuentes:
   titulo: Las autoridades de Bahréin alertan momentáneamente de una nueva amenaza y piden "cautela" a su población
   url: https://www.europapress.es/internacional/noticia-autoridades-bahrein-alertan-momentaneamente-nueva-amenaza-piden-cautela-poblacion-20261118014935.html
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-18T09:25:02+01:00'
