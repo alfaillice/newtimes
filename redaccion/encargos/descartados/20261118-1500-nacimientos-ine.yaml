@@ -9,3 +9,5 @@ fuentes:
   titulo: Uno de cada cuatro bebés nacidos en 2025 en España tiene una madre de nacionalidad extranjera
   url: https://elpais.com/sociedad/2026-11-18/uno-de-cada-cuatro-bebes-nacidos-en-2025-en-espana-tiene-una-madre-de-nacionalidad-extranjera.html
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-18T15:25:04+01:00'

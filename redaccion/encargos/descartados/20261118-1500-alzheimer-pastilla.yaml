@@ -6,3 +6,5 @@ fuentes:
   titulo: Pill that mimics Viagra can slow Alzheimer's progression, study suggests
   url: https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-18T15:25:02+01:00'
