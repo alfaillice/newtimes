@@ -1,7 +1,8 @@
 seccion: ciencia-salud
-tema: "Un estudio sugiere que una pastilla que imita a la viagra puede frenar la progresión del alzhéimer; atribuir los datos a The Guardian."
+tema: Un estudio sugiere que una pastilla que imita a la viagra puede frenar la progresión del alzhéimer; atribuir los datos a The Guardian.
 destacado: false
 fuentes:
-  - medio: The Guardian
-    titulo: Pill that mimics Viagra can slow Alzheimer's progression, study suggests
-    url: https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study
+- medio: The Guardian
+  titulo: Pill that mimics Viagra can slow Alzheimer's progression, study suggests
+  url: https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study
+intentos: 1
