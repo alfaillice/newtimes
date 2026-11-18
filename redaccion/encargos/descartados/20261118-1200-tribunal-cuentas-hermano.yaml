@@ -6,3 +6,5 @@ fuentes:
   titulo: El Tribunal de Cuentas se abre a investigar el sueldo del hermano de Pedro Sánchez en la Diputación de Badajoz
   url: https://www.europapress.es/nacional/noticia-tribunal-cuentas-abre-investigar-sueldo-hermano-pedro-sanchez-diputacion-badajoz-20261118112242.html
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-18T12:25:04+01:00'

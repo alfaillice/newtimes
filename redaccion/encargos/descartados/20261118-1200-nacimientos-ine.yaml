@@ -6,3 +6,5 @@ fuentes:
   titulo: España registró 241.647 nacimientos hasta septiembre, casi 67.000 menos que hace 10 años
   url: https://www.europapress.es/epsocial/infancia/noticia-espana-registro-241647-nacimientos-septiembre-casi-67000-menos-hace-10-anos-20261118113425.html
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-18T12:25:03+01:00'
