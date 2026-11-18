@@ -2,12 +2,13 @@ seccion: tecnologia
 tema: Nvidia gana 59.335 millones en su tercer trimestre, un 105 % más, y su junta dice que no reincorporará a Jensen Huang como consejero delegado.
 destacado: false
 fuentes:
-  - medio: Europa Press
-    titulo: Nvidia supera expectativas y gana 59.335 millones en su tercer trimestre, un 105% más
-    url: https://www.europapress.es/economia/noticia-nvidia-supera-expectativas-gana-59335-millones-tercer-trimestre-105-mas-20261117223237.html
-  - medio: The Guardian
-    titulo: Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang
-    url: https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang
-  - medio: BBC
-    titulo: Nvidia says it won't reinstate Huang as it reports soaring sales
-    url: https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss
+- medio: Europa Press
+  titulo: Nvidia supera expectativas y gana 59.335 millones en su tercer trimestre, un 105% más
+  url: https://www.europapress.es/economia/noticia-nvidia-supera-expectativas-gana-59335-millones-tercer-trimestre-105-mas-20261117223237.html
+- medio: The Guardian
+  titulo: Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang
+  url: https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang
+- medio: BBC
+  titulo: Nvidia says it won't reinstate Huang as it reports soaring sales
+  url: https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss
+intentos: 1
