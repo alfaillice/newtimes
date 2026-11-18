@@ -9,3 +9,5 @@ fuentes:
   titulo: '''Zero'' evidence that recent cascade of tech outages are linked, says Rubio'
   url: https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-18T21:20:07+01:00'

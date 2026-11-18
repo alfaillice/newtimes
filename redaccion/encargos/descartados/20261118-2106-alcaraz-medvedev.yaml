@@ -9,3 +9,5 @@ fuentes:
   titulo: Alcaraz continues winning run despite injury concern
   url: https://www.bbc.co.uk/sport/tennis/articles/cmdx1erlpqkxo?at_medium=RSS&at_campaign=rss
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-18T21:20:06+01:00'
