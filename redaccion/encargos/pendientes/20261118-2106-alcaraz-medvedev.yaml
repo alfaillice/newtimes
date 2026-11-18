@@ -1,10 +1,11 @@
 seccion: deportes
-tema: "Alcaraz vence a Medvedev y continúa su racha, con un susto en la pierna."
+tema: Alcaraz vence a Medvedev y continúa su racha, con un susto en la pierna.
 destacado: false
 fuentes:
-  - medio: El País
-    titulo: Alcaraz, más y mejor contra Medvedev... con susto incluido en la pierna
-    url: https://elpais.com/deportes/tenis/2026-11-18/alcaraz-mas-y-mejor-contra-medvedev-con-susto-incluido-en-la-pierna.html
-  - medio: BBC Sport
-    titulo: Alcaraz continues winning run despite injury concern
-    url: https://www.bbc.co.uk/sport/tennis/articles/cmdx1erlpqkxo?at_medium=RSS&at_campaign=rss
+- medio: El País
+  titulo: Alcaraz, más y mejor contra Medvedev... con susto incluido en la pierna
+  url: https://elpais.com/deportes/tenis/2026-11-18/alcaraz-mas-y-mejor-contra-medvedev-con-susto-incluido-en-la-pierna.html
+- medio: BBC Sport
+  titulo: Alcaraz continues winning run despite injury concern
+  url: https://www.bbc.co.uk/sport/tennis/articles/cmdx1erlpqkxo?at_medium=RSS&at_campaign=rss
+intentos: 1
