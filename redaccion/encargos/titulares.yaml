@@ -1,15 +1,25 @@
-generado: '2026-11-18T17:50:00+01:00'
+generado: '2026-11-18T20:50:00+01:00'
 titulares:
 - seccion: espana
-  medio: Europa Press
-  titulo: 'Frente Amplio se erige como voto clave en 17 provincias: arrebataría escaños a la derecha sin perjudicar al PSOE'
-  url: https://www.europapress.es/nacional/noticia-frente-amplio-erige-voto-clave-17-provincias-arrebataria-escanos-derecha-perjudicar-psoe-20261118173737.html
-  resumen: La candidatura se rebela contra el voto útil a los socialistas porque en diversas circunscripciones menoscaba al bloque progresista
+  medio: El País
+  titulo: El Congreso aprueba siete decretos sociales con un amplísimo respaldo pero entre críticas de campaña
+  url: https://elpais.com/espana/2026-11-18/el-congreso-aprueba-siete-decretos-sociales-con-un-amplisimo-respaldo-pero-entre-criticas-de-campana.html
+  resumen: La Diputación Permanente convalida medidas para Ceuta, las danas, los accidentes ferroviarios, las familias monomarentales y más dependencia
 - seccion: espana
   medio: El País
   titulo: 'Cómo será el cara a cara entre Sánchez y Feijóo: sin dispositivos electrónicos y con árbitros de baloncesto midiendo el tiempo'
   url: https://elpais.com/espana/elecciones-generales/2026-11-18/como-sera-el-cara-a-cara-entre-sanchez-y-feijoo-sin-dispositivos-electronicos-y-con-arbitros-de-baloncesto-midiendo-el-tiempo.html
   resumen: Todo ha tenido que sortearse en la preparación del único debate entre los candidatos más favorecidos por las encuestas
+- seccion: espana
+  medio: El País
+  titulo: Frente Amplio centra en siete provincias la pelea por el escaño con el PP y Vox
+  url: https://elpais.com/espana/elecciones-generales/2026-11-18/frente-amplio-centra-en-siete-provincias-la-pelea-por-el-escano-con-el-pp-y-vox.html
+  resumen: La coalición de izquierdas se marca como objetivo crecer hasta el 10% para lograr representación en 17 circunscripciones
+- seccion: espana
+  medio: El País
+  titulo: Estados Unidos admite errores “sustanciales” en la traducción de la documentación para reclamar al millonario propalestino Chambers
+  url: https://elpais.com/espana/2026-11-18/estados-unidos-admite-errores-sustanciales-en-la-traduccion-de-la-documentacion-para-reclamar-al-millonario-propalestino-chambers.html
+  resumen: La defensa denuncia que Washington introdujo términos para acusar de violencia al activista
 - seccion: espana
   medio: El País
   titulo: El Supremo confirma cinco años de prisión al expresidente de la Diputación de Valencia Alfonso Rus por contrataciones irregulares
@@ -22,19 +32,34 @@ titulares:
   resumen: La candidata popular convierte un acto junto a la opositora venezolana María Corina Machado en un alegato contra el Gobierno español
 - seccion: espana
   medio: El País
-  titulo: 'CC OO acudirá a los tribunales por la actuación policial en la huelga general: “Buena parte de las personas golpeadas son de nuestro sindicato”'
-  url: https://elpais.com/espana/2026-11-18/cc-oo-acudira-a-los-tribunales-por-la-actuacion-policial-en-la-huelga-general-buena-parte-de-las-personas-golpeadas-son-de-nuestro-sindicato.html
-  resumen: “Pedimos responsabilidades, cabezas o dimisiones”, ha reclamado el secretario general Unai Sordo
-- seccion: espana
-  medio: El País
   titulo: Irene Montero y Vito Quiles o cómo una misma escena se convierte en dos vídeos antagónicos con millones de visitas
   url: https://elpais.com/espana/elecciones-generales/2026-11-18/irene-montero-y-vito-quiles-o-como-una-misma-escena-se-convierte-en-dos-videos-antagonicos-con-millones-de-visitas.html
   resumen: El agitador ultra publica unas imágenes en redes que contrastan con las mismas que publica la candidata. “Él manda a un tipo a vigilarnos para saber siempre dónde estamos”, cuentan fuentes de Podemos
+- seccion: espana
+  medio: El País
+  titulo: Núcleo Nacional anuncia la muerte de su dirigente Enrique Lemus
+  url: https://elpais.com/espana/2026-11-18/nucleo-nacional-anuncia-la-muerte-de-su-fundador-enrique-lemus.html
+  resumen: El líder del grupo neonazi fallece a los 63 años tras sufrir un infarto hace cinco días
 - seccion: internacional
   medio: El País
-  titulo: De Yalta a Shenzhen
-  url: https://elpais.com/internacional/2026-11-18/de-yalta-a-shenzhen.html
-  resumen: Xi ejerce de anfitrión de una cumbre que pidió Putin para dividir Europa y que Trump aceptó con la vista puesta en el Nobel de la Paz
+  titulo: Verificación | El ataque de Ucrania destruyó más de 200 metros del sector central y más icónico del puente de Crimea
+  url: https://elpais.com/internacional/2026-11-18/verificacion-el-ataque-de-ucrania-destruyo-mas-de-200-metros-del-sector-central-y-mas-iconico-del-puente-de-crimea.html
+  resumen: Nuevas imágenes grabadas desde la vía férrea de la infraestructura permiten constatar que el misil ucranio ha inutilizado la carretera destinada a vehículos
+- seccion: internacional
+  medio: El País
+  titulo: Con Alaska, los demócratas firman una reconquista del Senado inédita en casi 70 años
+  url: https://elpais.com/us/2026-11-18/con-alaska-los-democratas-firman-una-reconquista-del-senado-inedita-en-casi-70-anos.html
+  resumen: 'El triunfo de Mary Peltola cierra la cuenta de la Cámara alta: una mayoría de 56 escaños que abre la puerta a que el control del partido en el Capitolio vaya más allá de 2028'
+- seccion: internacional
+  medio: El País
+  titulo: Xi recibe a Trump con un saludo al pie de la escalerilla en un gesto inédito
+  url: https://elpais.com/internacional/2026-11-18/trump-y-putin-vuelven-a-verse-en-una-cumbre-historica-organizada-por-xi.html
+  resumen: El presidente estadounidense llega a la cumbre del APEC dos semanas después de perder el control del Congreso y con la guerra de Irán todavía abierta
+- seccion: internacional
+  medio: El País
+  titulo: Putin exhibe su maletín nuclear y sus bombarderos antes de su encuentro con Xi Jinping y Trump
+  url: https://elpais.com/internacional/2026-11-18/putin-exhibe-su-maletin-nuclear-y-sus-bombarderos-antes-de-su-encuentro-con-xi-jinping-y-trump.html
+  resumen: Un asistente muestra a las cámaras el maletín negro del presidente ruso y dos Tu-95MS cruzan Asia horas después de la destrucción parcial del puente de Crimea
 - seccion: internacional
   medio: El País
   titulo: Italia aprueba una ley que abre la posibilidad de considerar antisemitismo las críticas a Israel
@@ -57,9 +82,19 @@ titulares:
   resumen: Los partidos árabes vuelven a aportar la mayoría necesaria para dar el cargo a Matan Kahana, superando a la coalición del primer ministro
 - seccion: internacional
   medio: El País
-  titulo: Mary Peltola gana en Alaska y sella una mayoría demócrata de 56 escaños en el Senado
-  url: https://elpais.com/us/2026-11-18/mary-peltola-gana-en-alaska-y-sella-una-mayoria-democrata-de-56-escanos-en-el-senado.html
-  resumen: La exrepresentante ha superado a su rival republicano, Dan S. Sullivan, por más de 12.000 votos, al capitalizar el enojo por los altos precios y enfocarse en temas locales
+  titulo: Los demócratas lanzan su cruzada para investigar a Trump y su entorno
+  url: https://elpais.com/us/2026-11-18/los-democratas-lanzan-su-cruzada-para-investigar-a-trump-y-su-entorno.html
+  resumen: El congresista Robert Garcia, al frente de la campaña para exigir responsabilidades a la Administración, envía una decena de cartas a familiares y aliados del presidente
+- seccion: internacional
+  medio: El País
+  titulo: Los demócratas proponen a Hakeem Jeffries como primer presidente negro de la Cámara de Representantes en el nuevo Congreso
+  url: https://elpais.com/us/2026-11-18/los-democratas-proponen-a-hakeem-jefferies-como-primer-presidente-negro-de-la-camara-de-representantes-en-el-nuevo-congreso.html
+  resumen: El nombramiento del congresista neoyorquino, que se daba por sentado desde hace semanas, fue objeto de críticas del ala progresista del partido al considerarlo demasiado moderado
+- seccion: internacional
+  medio: El País
+  titulo: Sheinbaum busca estrechar lazos con Xi en medio del déficit comercial récord de México con China
+  url: https://elpais.com/mexico/economia/2026-11-18/sheinbaum-busca-estrechar-lazos-con-xi-en-medio-del-deficit-comercial-record-de-mexico-con-china.html
+  resumen: La mandataria, que participa en la cumbre APEC, pretende afianzar proyectos con el gigante asiático en energías renovables, salud, movilidad e infraestructura férrea
 - seccion: economia
   medio: El País
   titulo: Los sindicatos UGT, CC OO y el ferroviario SCF firman la paz con Transportes en favor de reforzar la seguridad en las vías
@@ -67,9 +102,14 @@ titulares:
   resumen: Semaf, que ha convocado huelga de maquinistas el lunes, no se suma al acuerdo. Adif se compromete poner más personal propio en el mantenimiento y revisar el gasto
 - seccion: economia
   medio: El País
-  titulo: La Seguridad Social rectifica y reconoce una incapacidad permanente absoluta sin llegar a juicio
-  url: https://elpais.com/economia/mis-derechos/2026-11-18/la-seguridad-social-rectifica-y-reconoce-una-incapacidad-permanente-absoluta-sin-llegar-a-juicio.html
-  resumen: El INSS elevó el grado de incapacidad permanente total a absoluta después de estimar una reclamación previa respaldada por nuevos informes médicos
+  titulo: Hacienda obliga a los empleadores a recalcular las nóminas para dejar sin retención de IRPF al salario mínimo
+  url: https://elpais.com/economia/2026-11-18/hacienda-obliga-a-los-empleadores-a-recalcular-las-nominas-para-dejar-sin-retencion-de-irpf-al-salario-minimo.html
+  resumen: Con el cambio en el reglamento del impuesto, los trabajadores recibirán la subida retributiva desde el mes de enero
+- seccion: economia
+  medio: El País
+  titulo: 'Cristine H. Legare, psicóloga: “Los niños aprenden observando e imitando mucho antes de que alguien les explique las cosas”'
+  url: https://elpais.com/economia/formacion/2026-11-18/cristine-h-legare-psicologa-los-ninos-aprenden-observando-e-imitando-mucho-antes-de-que-alguien-les-explique-las-cosas.html
+  resumen: La profesora de la Universidad de Texas, participante en el Global Education Forum 2026, defiende una educación que dé más espacio a la curiosidad, la experiencia y el aprendizaje compartido dentro y fuera del aula
 - seccion: economia
   medio: BBC
   titulo: Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again
@@ -87,11 +127,6 @@ titulares:
   resumen: The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.
 - seccion: economia
   medio: BBC
-  titulo: How important are Nvidia and Jensen Huang to the US economy?
-  url: https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss
-  resumen: The former Nvidia chief executive has been at the centre of the artificial intelligence boom.
-- seccion: economia
-  medio: BBC
   titulo: Security flaw found in Java, world's third-largest programming language
   url: https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss
   resumen: The same tech start-up that discovered a PHP flaw used AI to uncover a critical software bug in one of the world's most popular computer language programs.
@@ -105,36 +140,16 @@ titulares:
   titulo: MP urges council to speed up heating oil payments
   url: https://www.bbc.co.uk/news/articles/cm792dqz4qvyo?at_medium=RSS&at_campaign=rss
   resumen: About 23,000 households use heating oil in Northumberland and face increasing bills this winter.
-- seccion: economia
-  medio: BBC
-  titulo: States to debate social security contributions cut
-  url: https://www.bbc.co.uk/news/articles/cqgm39mwjgjpo?at_medium=RSS&at_campaign=rss
-  resumen: The amendment is being brought forward by deputies Gavin St Pier and Tom Rylatt.
-- seccion: sociedad
-  medio: El País
-  titulo: Uno de cada tres bebés nacidos en 2025 en España tiene una madre de origen extranjero
-  url: https://elpais.com/sociedad/2026-11-18/uno-de-cada-cuatro-bebes-nacidos-en-2025-en-espana-tiene-una-madre-de-nacionalidad-extranjera.html
-  resumen: El leve incremento de nacimientos del año pasado, el primero desde 2014, apunta a que la caída de la natalidad se frena
 - seccion: sociedad
   medio: El País
   titulo: Una reflexión a raíz del artículo ‘La muerte digna de mi madre’, de Miguel del Arco
   url: https://elpais.com/sociedad/2026-11-18/una-reflexion-a-raiz-del-articulo-la-muerte-digna-de-mi-madre-de-miguel-del-arco.html
   resumen: El derecho a morir con dignidad implica dar una respuesta integral a las necesidades de la persona en el final de la vida
-- seccion: sociedad
-  medio: El País
-  titulo: Trinidad y Tobago despenaliza las relaciones gais por orden de un tribunal del Reino Unido
-  url: https://elpais.com/sociedad/lgtb/2026-11-18/trinidad-y-tobago-despenaliza-las-relaciones-gais-por-orden-de-un-tribunal-del-reino-unido.html
-  resumen: La norma que castigaba el sexo entre hombres en el país caribeño, introducida durante la época colonial, ha sido declarada inconsitucional por el Comité Judicial del Consejo Privado de Reino Unido, última instancia para los países de la Commonwealth que han mantenido el derecho de apelación
 - seccion: ciencia-salud
   medio: El País
   titulo: 'La humanidad cruza una nueva frontera: la ‘Voyager 1’ ya está a un día luz de la Tierra'
   url: https://elpais.com/ciencia/2026-11-18/la-voyager-1-ya-esta-a-un-dia-luz-asi-se-mantiene-vivo-el-contacto-interestelar-de-la-humanidad.html
   resumen: La sonda de la NASA supera este mediodía un hito nunca logrado por una nave humana. El desfase de más de 24 horas en las comunicaciones complica mantener el seguimiento tras 49 años de misión
-- seccion: ciencia-salud
-  medio: El País
-  titulo: 'Menos antibióticos, pero más superbacterias: la paradoja mortal que golpea especialmente a España'
-  url: https://elpais.com/salud-y-bienestar/2026-11-18/menos-antibioticos-pero-mas-superbacterias-la-paradoja-mortal-que-golpea-especialmente-a-espana.html
-  resumen: Un informe europeo avisa de aumentos superiores al 70% en las infecciones con ‘Klebsiella pneumoniae’ y ‘E.coli’
 - seccion: ciencia-salud
   medio: BBC
   titulo: Stormont department failing to protect wild birds, investigation finds
@@ -147,19 +162,14 @@ titulares:
   resumen: Steve Williams died of lung cancer 14 years after falling in to a lagoon at a toxic waste dump fire.
 - seccion: ciencia-salud
   medio: BBC
-  titulo: What's gone wrong at Britain's worst bathing site?
-  url: https://www.bbc.co.uk/news/articles/cm752w35lkz3o?at_medium=RSS&at_campaign=rss
-  resumen: The BBC looks at why in a dry summer with few sewage spills, one bathing site failed so many water quality tests.
-- seccion: ciencia-salud
-  medio: BBC
   titulo: People asked for views on blue brook pollution
   url: https://www.bbc.co.uk/news/articles/cqpv9mjm78m3o?at_medium=RSS&at_campaign=rss
   resumen: The Environment Agency wants to know how the incident affected visitors, residents and businesses.
 - seccion: ciencia-salud
   medio: BBC
-  titulo: Conservationists searching for large river eels
-  url: https://www.bbc.co.uk/news/articles/ck3rgl783xqro?at_medium=RSS&at_campaign=rss
-  resumen: The Tees Rivers Trust has been searching for eels to tag and track as they migrate out to sea.
+  titulo: Regulator mistakenly sent complaints about doctors to newspaper
+  url: https://www.bbc.co.uk/news/articles/c8wy5erexq0ko?at_medium=RSS&at_campaign=rss
+  resumen: Information sent to the Times newspaper by the General Medical Council included summaries of complaints alleging antisemitism and Islamophobia against doctors.
 - seccion: ciencia-salud
   medio: BBC
   titulo: '''Best night'' of Dáithí''s life all thanks to organ donation'
@@ -167,19 +177,9 @@ titulares:
   resumen: Dáithí Mac Gabhann walked out with Republic of Ireland's Troy Parrott as Ireland won 3-0 over Kosovo in the Nations League.
 - seccion: ciencia-salud
   medio: The Guardian
-  titulo: After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? |
+  titulo: After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? | Kim Heacox
   url: https://www.theguardian.com/commentisfree/2026/nov/18/nasa-voyager-1-pale-blue-dot
   resumen: Since the spacecraft’s 1977 launch, our wonderful and terrible species has done great damage to our planet. Voyager has offered us a clear view of ourselves Imagine traveling nonstop for 49 years, alone in the dark with no destination in sight, powered by curiosity and engineering. Further imagine m
-- seccion: ciencia-salud
-  medio: The Guardian
-  titulo: Pill that mimics Viagra can slow Alzheimer’s progression, study suggests
-  url: https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study
-  resumen: Experts call trial results of medication that slowed cognitive decline by almost a third ‘very promising’ A pill that mimics Viagra by relaxing blood vessels and increasing blood flow to the brain can slow cognitive decline in people with Alzheimer’s disease by almost a third, a global study suggest
-- seccion: ciencia-salud
-  medio: The Guardian
-  titulo: ‘Human’ wins Cambridge dictionary’s word of the year
-  url: https://www.theguardian.com/science/2026/nov/18/cambridge-word-of-the-year-human
-  resumen: 'Meaning and use of word has become more important in age of AI chatbot, says dictionary In a world where the line between people and machines is more blurred than ever, Cambridge dictionary has sided with natural intelligence for its word of the year: human. Breakthroughs in artificial intelligence '
 - seccion: ciencia-salud
   medio: The Guardian
   titulo: Body found in Derry bog decapitated more than 2,000 years ago, coroner finds
@@ -187,9 +187,14 @@ titulares:
   resumen: Inquest-style inquiry concludes iron age remains are of 15- to 22-year-old female who may have been ritually sacrificed A coroner’s investigation into Northern Ireland ’s most venerable cold case has concluded that the victim was decapitated more than 2,000 years ago. The inquest-style inquiry deter
 - seccion: ciencia-salud
   medio: The Guardian
-  titulo: £10m ‘once-in-a-generation’ study to explore effects of children’s social media ban
-  url: https://www.theguardian.com/uk-news/2026/nov/18/social-media-ban-once-in-a-generation-study
-  resumen: Research to look at whether ban can make meaningful change in mental health and wellbeing for under-16s Countries around the world are considering social media bans for children, but whether this would work in practice has been hotly debated. Now researchers are seeking answers through a major scien
+  titulo: Bacterial toxin produced by E coli leading suspect in rise in bowel cancer among under-50s
+  url: https://www.theguardian.com/science/2026/nov/18/bacterial-toxin-e-coli-bowel-cancer-under-50s
+  resumen: Scientists tell Commons exposure to colibactin in early life is potential driver of early-onset colorectal cancer Exposure to a bacterial toxin in early life has emerged as a leading suspect in the rise of bowel cancer among those under 50, MPs have heard. Cases of early-onset bowel cancer have doub
+- seccion: ciencia-salud
+  medio: The Guardian
+  titulo: Senate committee rejects Trump nominee to lead National Science Foundation
+  url: https://www.theguardian.com/us-news/2026/nov/18/trump-national-science-foundation-nominee
+  resumen: Committee chair Bill Cassidy, a Republican, said Jim O’Neill ‘did not do enough to stand up for science’ in previous posts Jim O’Neill will not undergo a confirmation hearing on Wednesday to head he National Science Foundation (NSF) because he “did not do enough to stand up for science” in his previ
 - seccion: tecnologia
   medio: BBC
   titulo: Grand Theft Auto 6 is a masterpiece, say critics
@@ -206,15 +211,15 @@ titulares:
   url: https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss
   resumen: Tyler Buchanan, from Dundee, was a member of the notorious Scattered Spider group and began hacking when he was a teenager.
 - seccion: tecnologia
-  medio: BBC
-  titulo: 'Watch: Marco Rubio says recent tech outages are ''completely unrelated'' to one another'
-  url: https://www.bbc.co.uk/news/videos/cx1l0vm87yl9o?at_medium=RSS&at_campaign=rss
-  resumen: Microsoft, major US banks, Apple and Air Traffic authorities have been hit over recent days by tech glitches.
-- seccion: tecnologia
   medio: The Guardian
   titulo: US senators urge White House AI chief to fix vulnerabilities after mass outages
   url: https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure
   resumen: As Democrats flag AI bank breaches and cyber-attacks in Japan, Jay Clayton says system failures happen US politics live – latest updates A bipartisan pair of US senators are calling on Jay Clayton, the director of national intelligence and AI czar, to identify and fix vulnerabilities in the US’s inf
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: ‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio
+  url: https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio
+  resumen: US secretary of state’s comments come as vulnerability in programming language Java highlighted There is “zero evidence” that a wave of IT outages – which have grounded flights, cut off work access, limited bank access, affected Apple and disrupted classified communications – are related to each oth
 - seccion: tecnologia
   medio: The Guardian
   titulo: Elton John backs Australian artists in fight against AI in surprise Aria awards appearance
@@ -222,19 +227,29 @@ titulares:
   resumen: 'British musician backs Not AI’s To Take campaign, saying Albanese government has ‘a duty to protect Australian artists and their work’ Aria awards 2026 red carpet: Tame Impala, Baker Boy, G Flip and more – in pictures Elton John has made a surprise appearance at the 2026 Aria awards to draw attentio'
 - seccion: tecnologia
   medio: The Guardian
+  titulo: The best TVs in the UK for every home and screen size, tested
+  url: https://www.theguardian.com/thefilter/2026/nov/18/best-tvs-tested-uk
+  resumen: Not sure which TV is right for you? Whether you want an affordable mini LED or a feature-packed OLED, here’s what our square-eyed expert recommends • Do you really need to buy a new TV? How to upgrade your setup If your TV looks like an off-cut from Stonehenge, isn’t quite as smart as your microwave
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: 'Annoying Trump and dodging Flock: inside MapQuest’s contrarian comeback'
+  url: https://www.theguardian.com/us-news/2026/nov/18/mapquest-google-apple-navigation-app-flock
+  resumen: 'After refusing to obey the president’s Lake Ontario order, MapQuest briefly rose to No 1 in navigation apps. It’s now a tool in the US anti-surveillance movement I am among the legion of former PC desk occupants with warm memories of MapQuest, the Y2K-era travel website that kept millennial drivers '
+- seccion: tecnologia
+  medio: The Guardian
   titulo: '‘My family would kill me if they saw it’: the ‘harmless’ images that can be deadly for women in Pakistan'
   url: https://www.theguardian.com/global-development/2026/nov/18/dangerous-intimate-images-algorithms-selfie-platforms
   resumen: Tech companies urged to adapt moderation of photos online that can trigger violence against women in some countries It was just a photo of a smiling girl in jeans and a vest top, the kind of outfit any young woman might wear in any country. But for Maniza*, a teenager from a conservative town in Pak
 - seccion: tecnologia
   medio: The Guardian
-  titulo: Does GTA VI live up to the hype? Our games editor has played it – ask her anything – live
-  url: https://www.theguardian.com/games/live/2026/nov/18/does-gta-vi-live-up-to-the-hype-our-games-editor-has-played-it-ask-her-anything
-  resumen: 'Grand Theft Auto VI, the biggest games release of the decade, is nearly here. Our games editor Keza MacDonald is online now to answer all your questions Ask a question: log in or sign up here Pazoozoo asks: Are the controls improved from V and RDR2? How are the driving/shooting mechanics? How ground'
+  titulo: 'Tell us: are you playing Grand Theft Auto VI?'
+  url: https://www.theguardian.com/games/2026/nov/18/tell-us-are-you-playing-grand-theft-auto-vi
+  resumen: Grand Theft Auto VI has finally arrived. We’d like to hear your initial thoughts It’s been 13 years in the making, and may be the most highly anticipated video game of all time . Grand Theft Auto VI has finally arrived. The new instalment of the epic crime saga is said to have cost more than $1bn to
 - seccion: tecnologia
   medio: The Guardian
   titulo: Players say goodbye to Grand Theft Auto V with one last drive
   url: https://www.theguardian.com/games/2026/nov/18/players-say-goodbye-to-grand-theft-auto-v-with-one-last-drive
-  resumen: For more than a decade, GTA Online and its virtual California has hosted the criminal capers of millions of players. As many of them prepare to move on to GTA VI, they are marking the end of an era The virtual streets of Grand Theft Auto Online’s Los Santos will be spared from their usual explosions
+  resumen: 'For more than a decade, GTA Online and its virtual California has hosted the criminal capers of millions of players. As many of them prepare to move on to GTA VI, they are marking the end of an era Tell us: are you playing Grand Theft Auto VI? The virtual streets of Grand Theft Auto Online’s Los San'
 - seccion: tecnologia
   medio: The Guardian
   titulo: Twenty years ago, the Wii and PS3 predicted the future of gaming – did they get it right?
@@ -244,7 +259,12 @@ titulares:
   medio: The Guardian
   titulo: Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story
   url: https://www.theguardian.com/games/2026/nov/18/grand-theft-auto-vi-gta-6-review-playstation-rockstar
-  resumen: With realism that defies belief, this vast game easily accommodates its trademark foulmouthed, OTT chaos – as well as new empathy for the fugitive couple at its centre In GTA VI, Rockstar has created the most extraordinarily, indulgently detailed virtual world that we have yet seen. Reviewing it fee
+  resumen: 'With realism that defies belief, this vast game easily accommodates its trademark foulmouthed, OTT chaos – as well as new empathy for the fugitive couple at its centre Tell us: are you playing Grand Theft Auto VI? In GTA VI, Rockstar has created the most extraordinarily, indulgently detailed virtual'
+- seccion: cultura
+  medio: El País
+  titulo: 'Jeff Bezos explica cómo Amazon eligió a Robert Pattinson para el nuevo James Bond: “Tuve una implicación muy fuerte”'
+  url: https://elpais.com/cultura/cine/2026-11-18/jeff-bezos-explica-como-amazon-eligio-a-robert-pattinson-para-el-nuevo-james-bond-tuve-una-implicacion-muy-fuerte.html
+  resumen: El milmillonario, fundador y presidente de un gigante tecnológico (como muchos malos de Bond) ha contado en una conferencia que participó en la selección del próximo agente 007
 - seccion: cultura
   medio: El País
   titulo: Así se pensó, diseñó y construyó uno de los museos más sostenibles del mundo
@@ -267,6 +287,11 @@ titulares:
   resumen: Page spoke of the comments during Tuesday's episode of I'm a Celebrity... Get Me Out Of Here!
 - seccion: cultura
   medio: BBC
+  titulo: Julio Iglesias facing court investigation over alleged sexual offences
+  url: https://www.bbc.co.uk/news/articles/c6x284pnn4e2o?at_medium=RSS&at_campaign=rss
+  resumen: The 83-year-old singer is accused of abusing two former employees at Caribbean residences in 2021.
+- seccion: cultura
+  medio: BBC
   titulo: Emma Barnett pays tribute to 'decent journalism' in final Today episode
   url: https://www.bbc.co.uk/news/videos/c6wy0j1xeypqo?at_medium=RSS&at_campaign=rss
   resumen: Radio presenter Emma Barnett has paid tribute to "decent journalism" in her final moments hosting the Today programme.
@@ -276,25 +301,15 @@ titulares:
   url: https://www.bbc.co.uk/news/articles/cw62pelje06do?at_medium=RSS&at_campaign=rss
   resumen: Danika Priim is on trial at Leeds Crown Court after being charged with sexual assault.
 - seccion: cultura
-  medio: BBC
-  titulo: '''Human'' is Cambridge Dictionary Word of the Year'
-  url: https://www.bbc.co.uk/news/articles/c6x2ev38k4yno?at_medium=RSS&at_campaign=rss
-  resumen: The growth of AI means we need to say when something is made by humans, says the book's editor.
-- seccion: cultura
-  medio: BBC
-  titulo: BBC drama Shetland to return for 12th series
-  url: https://www.bbc.co.uk/news/articles/cv62p3y89z13o?at_medium=RSS&at_campaign=rss
-  resumen: The new series will be made up of six episodes filmed in locations on the Shetland Isles and across Scotland .
-- seccion: cultura
-  medio: BBC
-  titulo: '''Real life'' family ghost story inspires ''nightmarish'' new TV drama'
-  url: https://www.bbc.co.uk/news/articles/c6y4j73319dmo?at_medium=RSS&at_campaign=rss
-  resumen: The "real-life ghost story" was filmed in Wales and stars Black Doves actress Gabrielle Creevy.
-- seccion: cultura
   medio: The Guardian
   titulo: ‘I hope paramedics are on standby for the sex scenes!’ The wet and wild TV experience leaving fans dizzy
   url: https://www.theguardian.com/tv-and-radio/2026/nov/18/i-hope-paramedics-are-on-standby-for-the-sex-scenes-the-wet-and-wild-tv-experience-leaving-fans-dizzy-heated-rivalry
   resumen: 'From icy squirts to bed-bouncing vibrations, erotic hockey drama Heated Rivalry just got even raunchier in ‘extreme sensory’ 4DX cinema screenings. But one scene proved too much – even for the super fans I’m in the cinema foyer when I first spot them: hockey jerseys. Lots of them. “I’ve no idea what'
+- seccion: cultura
+  medio: The Guardian
+  titulo: Kelly Gough is simply astounding as Desire Under the Elms reaches the heights of Greek tragedy
+  url: https://www.theguardian.com/stage/2026/nov/18/desire-under-the-elms-review-almeida-theatre-london
+  resumen: 'Almeida theatre, London Part-Phaedra and part-Medea, Gough is mesmerising in Ebenezer Bamgboye’s stylised staging of Eugene O’Neill’s family drama You would not know that Eugene O’Neill’s play was originally set on a mid 19th-century farm. This version by director Ebenezer Bamgboye brings modernity '
 - seccion: cultura
   medio: The Guardian
   titulo: 'A TikTok superstar bares all: Siorna Ashby’s best shot'
@@ -317,11 +332,6 @@ titulares:
   resumen: Bradford Arts Centre Ian McMillan’s south Yorkshire language version of The Marriage of Figaro sets the opera in 1970s Bradford. Indian classical instruments join to the reworked score in this high-energy, low-budget and hugely enjoyable take ‘This will be better than Barnsley FC,” I overheard the p
 - seccion: cultura
   medio: The Guardian
-  titulo: '‘The aesthetics in my family were so high, I felt ugly’: Charlotte Gainsbourg on extremism, abortion and her mother, Jane Birkin'
-  url: https://www.theguardian.com/culture/2026/nov/18/charlotte-gainsbourg-aesthetics-family-high-i-felt-ugly-extremism-abortion-jane-birkin
-  resumen: In her new film, the actor plays a lawyer taking on the French state over reproductive rights. She talks about being criticised for her support of Israel and pushed to the limit by Lars von Trier While she was making the film Women on Trial , about the real-life trial of a child prosecuted for havin
-- seccion: cultura
-  medio: The Guardian
   titulo: Joanna Page says ‘inappropriate’ male actor whispered ‘awful stuff’ to her
   url: https://www.theguardian.com/tv-and-radio/2026/nov/18/joanna-page-says-inappropriate-male-actor-whispered-awful-stuff-to-her-im-a-celebrity
   resumen: 'The Gavin and Stacey actor, who made the comments while talking with female campmates on I’m a Celebrity, said: ‘You just can’t speak’ Joanna Page has spoken about an “awful” male actor who was “inappropriate” while they were working together. She explained that he would “whisper things in your ear”'
@@ -342,24 +352,29 @@ titulares:
   resumen: Cher will take the legends slot at next year’s festival, which will also see debuts from Kraftwerk and Angine de Poitrine • Read the lineup so far in full below After fervent speculation about its headliners, the first batch of 2027 Glastonbury performers has been announced, and with it the youngest
 - seccion: cultura
   medio: The Guardian
-  titulo: 'TV tonight: the terrifying and tragic case of a New Year’s Day arson attack'
-  url: https://www.theguardian.com/tv-and-radio/2026/nov/18/tv-tonight-the-terrifying-and-tragic-case-of-a-new-years-day-arson-attack
-  resumen: 'This two-parter follows the police investigation in the aftermath of the 2017 fire. Plus, father and son go on a double date in First Dates. Here’s what to watch this evening 9pm, BBC Two “I awoke and the whole room had exploded,” recalls Bex Williams of New Year’s Day 2017, when she was the victim '
-- seccion: cultura
-  medio: The Guardian
-  titulo: The Man Who Broke Reality by Philip Ball review – the inspirational genius of Niels Bohr
-  url: https://www.theguardian.com/books/2026/nov/18/the-man-who-broke-reality-by-philip-ball-review-the-inspirational-genius-of-niels-bohr
-  resumen: Scientific discoveries are explained effortlessly in this portrait of a man whose research was driven by pure passion Niels Bohr shares with Albert Einstein pride of place in the pantheon of 20th-century science. The two had much in common. They were not expert mathematicians; they prized physical i
-- seccion: cultura
-  medio: The Guardian
   titulo: Gjak by Dimosthenis Papamarkos review – sensational tales of wartime Greek struggle
   url: https://www.theguardian.com/books/2026/nov/18/gjak-by-dimosthenis-papamarkos-review-sensational-tales-of-wartime-greek-struggle
   resumen: Translated into English in thrilling style, these interlinked stories of ambushes and vendettas vividly evoke the bitter conflict of the 1919-22 Greco-Turkish war Nine interconnected tales about the violence of the 1919-22 Greco-Turkish war, and the struggles of its broken soldiers to reassimilate i
 - seccion: cultura
   medio: The Guardian
-  titulo: Your Mother Your Mother Your Mother review – Mahershala Ali’s religious hitman on the hunt for baby milk
-  url: https://www.theguardian.com/film/2026/nov/18/your-mother-your-mother-your-mother-review-mahershala-ali
-  resumen: 'The Oscar-winner plays a Muslim contract killer in a boisterous, blackly comic thriller with shades of John Woo and Tarantino There are shades of John Woo and Tarantino here in a black-comic thriller from Pakistani-American director Bassam Tariq. There are shades also of Blade, the Marvel character '
+  titulo: 'From Dumb Starbucks to dada documentary: everything you need to know about Nathan Fielder'
+  url: https://www.theguardian.com/film/2026/nov/18/nathan-fielder-you-can-see-everything
+  resumen: 'With the UK release of You Can See Everything looming, now’s an ideal time to get up to speed on the bizarre, puckish and very meta comedic oeuvre of its star “There are three sides to every story: your side, my side, and the truth. And no one is lying. Memories shared serve each differently.” Those'
+- seccion: cultura
+  medio: The Guardian
+  titulo: Josephine review – Channing Tatum and Gemma Chan ballast knotty drama about a child witness to a rape
+  url: https://www.theguardian.com/film/2026/nov/18/josephine-review-mason-reeves
+  resumen: Mason Reeves steals the show as an eight year old who stumbles across a sex assault but, despite strong performances, parts of the film feel contrived Beth de Araújo’s new movie takes a very big swing, and it has won prizes and acclaim since its premiere at Sundance. I was unsure about some of the f
+- seccion: cultura
+  medio: The Guardian
+  titulo: Valerie Solanas’s obscenely funny Scum Manifesto is an unignorable burst of female outrage | Emily Woof
+  url: https://www.theguardian.com/stage/2026/nov/18/valerie-solanas-scum-manifesto-andy-warhol-emily-woof
+  resumen: Before an assassination attempt on Andy Warhol in 1968, Solanas used her fierce writing to confront male supremacy. What can her work teach us about expressing raw anger? It is exhausting to always express anger constructively and reasonably – especially when what you are angry about is violence, ex
+- seccion: cultura
+  medio: The Guardian
+  titulo: Sublime and ridiculous, but I love the wild experiments of Huddersfield’s contemporary music festival
+  url: https://www.theguardian.com/music/2026/nov/18/huddersfield-contemporary-music-festival-glass-osborne
+  resumen: The 49th edition of the new music festival begins this weekend. Where else can you indulge in a world of pure imagination, see the future – and chat over a curry with some of contemporary music’s biggest names? The Huddersfield contemporary music festival – or hcmf , with contemporary-cool lower-cas
 - seccion: deportes
   medio: El País
   titulo: Alcaraz, más y mejor contra Medvedev... con susto incluido en la pierna
@@ -367,9 +382,9 @@ titulares:
   resumen: El murciano logra su segunda victoria en la liguilla (6-2 y 6-4) y, tras sufrir un percance muscular, aguarda al Tiafoe-Cobolli para sellar el pase a semifinales
 - seccion: deportes
   medio: El País
-  titulo: Arda Güler amplía su contrato con el Real Madrid hasta 2032
-  url: https://elpais.com/deportes/futbol/2026-11-18/arda-guler-amplia-su-contrato-con-el-real-madrid-hasta-2032.html
-  resumen: El turco, que tenía firmado hasta 2029, recibe el refrendo del club en su mejor momento en el equipo blanco
+  titulo: Un Madrid irreconocible se diluye en Estambul contra el Besiktas
+  url: https://elpais.com/deportes/baloncesto/2026-11-18/un-madrid-irreconocible-se-diluye-en-estambul-contra-el-besiktas.html
+  resumen: El conjunto blanco pierde su quinto partido en la Euroliga (83-79) en un duelo en que nunca se encontró cómodo
 - seccion: deportes
   medio: El País
   titulo: 'Juan Mata se retira: “A veces amar es dejar ir... Gracias fútbol”'
@@ -387,9 +402,9 @@ titulares:
   resumen: The Premier League resumes on Saturday with Crystal Palace, Sunderland and Man Utd in the relegation zone. But is it too early to be worried?
 - seccion: deportes
   medio: BBC Sport
-  titulo: Divide and conquer - how maverick Springboks coach Erasmus split the rugby world
+  titulo: Divide and conquer - now maverick Erasmus plans online watchalong
   url: https://www.bbc.co.uk/sport/rugby-union/articles/cmvg28v20xy0o?at_medium=RSS&at_campaign=rss
-  resumen: Rassie Erasmus is a serial offender when it comes to criticising officials, but he retains huge support in South Africa.
+  resumen: Rassie Erasmus is a serial offender when it comes to criticising officials, but he retains huge support in South Africa - and has unique plans for following his team's game against Ireland.
 - seccion: deportes
   medio: BBC Sport
   titulo: Joint-record six referee errors in last Premier League weekend
@@ -397,19 +412,14 @@ titulares:
   resumen: The Premier League's Key Match Incidents Panel rules there were six on-field errors in the last round of games - the joint-highest in one weekend.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Duckett ton & impressive bowlers give England series win
-  url: https://www.bbc.co.uk/sport/cricket/articles/c6vg28end00xo?at_medium=RSS&at_campaign=rss
-  resumen: England confidently sweep aside Australia in the third one-day international in Hobart to seal a statement series win.
-- seccion: deportes
-  medio: BBC Sport
   titulo: Alcaraz continues winning run despite injury concern
   url: https://www.bbc.co.uk/sport/tennis/articles/cmdx1erlpqkxo?at_medium=RSS&at_campaign=rss
   resumen: Carlos Alcaraz continues his sensational late-season form as he outclasses world number five Daniil Medvedev to all but confirm his progress at the ATP Finals.
 - seccion: deportes
   medio: BBC Sport
-  titulo: 'The 3pm football blackout: Outdated or still relevant in 2026?'
-  url: https://www.bbc.co.uk/sport/football/articles/cwvg2mxkd4x8o?at_medium=RSS&at_campaign=rss
-  resumen: After 60 years, is time finally running out on the 3pm blackout in football?
+  titulo: Duckett ton & impressive bowlers give England series win
+  url: https://www.bbc.co.uk/sport/cricket/articles/c6vg28end00xo?at_medium=RSS&at_campaign=rss
+  resumen: England confidently sweep aside Australia in the third one-day international in Hobart to seal a statement series win.
 - seccion: deportes
   medio: BBC Sport
   titulo: Zverev to defend himself against fresh lawsuit
@@ -417,24 +427,9 @@ titulares:
   resumen: Lawyers for world number one Alexander Zverev say he will defend himself against a lawsuit which alleges he misrepresented the outcome of a domestic abuse trial.
 - seccion: deportes
   medio: BBC Sport
-  titulo: From one of Ajax's future stars to quitting football for music
-  url: https://www.bbc.co.uk/sport/football/articles/cmly053x643ro?at_medium=RSS&at_campaign=rss
-  resumen: Former Ajax academy player Elikia Mbinga tells BBC Sport how he swapped football for music after playing with some Premier League stars.
-- seccion: deportes
-  medio: BBC Sport
   titulo: Explosive Bancroft sandpaper claims heap pressure on Cummins
   url: https://www.bbc.co.uk/sport/cricket/articles/cmqlqdevgl9ro?at_medium=RSS&at_campaign=rss
   resumen: Cameron Bancroft claims the whole Australia team knew about the 2018 sandpaper plot in explosive revelations that will heap pressure on current captain Pat Cummins.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: 'Josh Kerr: The making of the man behind the shades'
-  url: https://www.bbc.co.uk/sport/athletics/articles/cwe8506v754yo?at_medium=RSS&at_campaign=rss
-  resumen: People know Josh Kerr the athlete. But are there two Josh Kerrs? The mile world record holder talks about disguising alcohol-free cider, entering races under a false name and his granny keeping him humble.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Price fighting to be Wales' first undisputed world champion
-  url: https://www.bbc.co.uk/sport/boxing/articles/c6pw4xyr84yyo?at_medium=RSS&at_campaign=rss
-  resumen: Lauren Price gets chance to become Wales' first undisputed world champion in her fight with Michaela Kotaskova in Cardiff.
 - seccion: deportes
   medio: BBC Sport
   titulo: Cowboy boots, cocktails and casinos - how do three US grands prix compare?
@@ -442,9 +437,24 @@ titulares:
   resumen: F1 struggled to establish itself in the United States, but now hosts three grands prix. We compare the merits of Austin, Miami and Las Vegas.
 - seccion: deportes
   medio: BBC Sport
+  titulo: All Blacks nightmare was making of me - Van Poortvliet
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cm930lv7kgx2o?at_medium=RSS&at_campaign=rss
+  resumen: Jack van Poortvliet was picked off and subbed off when he last met the All Blacks. Four years on, he says the experience made him a better player.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Price fighting to be Wales' first undisputed world champion
+  url: https://www.bbc.co.uk/sport/boxing/articles/c6pw4xyr84yyo?at_medium=RSS&at_campaign=rss
+  resumen: Lauren Price gets chance to become Wales' first undisputed world champion in her fight with Michaela Kotaskova in Cardiff.
+- seccion: deportes
+  medio: BBC Sport
   titulo: Manchester won't always be blue - Pochettino
   url: https://www.bbc.co.uk/sport/football/articles/cm782wnwzvq3o?at_medium=RSS&at_campaign=rss
   resumen: New Manchester United boss Mauricio Pochettino says he will restore Manchester United to being the most successful footballing side in the city.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Prem opens registration for expansion to 12 teams
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cje39nwzryw3o?at_medium=RSS&at_campaign=rss
+  resumen: Prem Rugby opens a registration process for teams to apply with the aim of expanding the league to 12 clubs for the 2029-30 season.
 - seccion: deportes
   medio: BBC Sport
   titulo: Former Spain midfielder Mata retires aged 38
@@ -457,9 +467,24 @@ titulares:
   resumen: Sign up now! Sign up now! Sign up now? Sign up now! With his team mired in the relegation zone and a massive match at Liverpool this weekend, Mauricio Pochettino has been understandably busy since being appointed head coach of Manchester United. Unfortunately for Old Trafford regulars, the small pri
 - seccion: deportes
   medio: The Guardian
+  titulo: 'Chelsea v Paris Saint-Germain: Women’s Champions League – live'
+  url: https://www.theguardian.com/football/live/2026/nov/18/chelsea-v-paris-saint-germain-psg-womens-champions-league-live-score-updates
+  resumen: 'Champions League updates from the 8pm GMT kick-off Live scores | Read Moving the Goalposts | Email Sarah This is the penultimate round of Women’s Champions League league stage matches with just one more game each after this. Chelsea’s final game is against OH Leuven and PSG will take on Juventus. A '
+- seccion: deportes
+  medio: The Guardian
   titulo: Netflix, Fox and the $2bn bid for the 2030 World Cup that could reshape live sports
   url: https://www.theguardian.com/football/2026/nov/18/netflix-fox-2030-world-cup-television-rights
   resumen: The battle for the US TV rights to the tournament will pit the traditional broadcaster and the ‘whatever-it-takes’ streamer. It could be a tipping point in the industry The awarding of broadcast rights in the United States for this year’s World Cup was a cut-price deal to avoid legal action from the
+- seccion: deportes
+  medio: The Guardian
+  titulo: Leicester part ways with BC Game after sponsor’s partnership with porn actor
+  url: https://www.theguardian.com/football/2026/nov/18/leicester-city-bc-game-porn-star-eva-elfie-sponsorship
+  resumen: Cryptocurrency casino made Eva Elfie a brand ambassador Club end deal early citing ‘differing commercial priorities’ Leicester City have ditched their front-of-shirt sponsor, BC Game, after the cryptocurrency casino’s partnership with a porn actor sparked a fan backlash. BC Game, an offshore company
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier'
+  url: https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier
+  resumen: Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US wome
 - seccion: deportes
   medio: The Guardian
   titulo: '‘When I walked for Burberry I met Kanye West’: the two lives of Bromley footballer Omar Sowunmi'
@@ -467,14 +492,14 @@ titulares:
   resumen: 'Full-time defender and part-time model, the 31-year-old is happy to shine a light on both sides of his dual career “I was walking down the street one day and someone came up to me and said: ‘I think you should be a model,’” the Bromley defender Omar Sowunmi says. He was already living out many peopl'
 - seccion: deportes
   medio: The Guardian
+  titulo: Fifa’s World Cup TV rights documents indicate hydration breaks to stay in 2030
+  url: https://www.theguardian.com/football/2026/nov/18/fifa-hydration-breaks-2030-world-cup-tv-right-documents
+  resumen: Controversial breaks were financial boon for broadcasters Fifa flags possible benefits but says no decision made Fifa’s tender documents for TV rights for the 2030 World Cup include a provision for broadcasters to sell adverts during hydration breaks in a strong indication the controversial ­stoppag
+- seccion: deportes
+  medio: The Guardian
   titulo: Overlap, underlap or sit back? How Premier League teams use their full-backs
   url: https://www.theguardian.com/football/2026/nov/18/premier-league-teams-full-backs-opta-analyst
   resumen: The role of full-back has changed massively in recent years. We analyse how all 20 sides are approaching the position By Opta Analyst Overlapping. Underlapping. Inverted. Traditional. The role of full-back has evolved dramatically. Once a defensive-first position that provided some auxiliary attacki
-- seccion: deportes
-  medio: The Guardian
-  titulo: Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge
-  url: https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge
-  resumen: 'Plus: clubs with roads on their team badges, most and fewest managers per league title, and more Mail us with all of your questions and answers “The Scotland men’s team’s highest Fifa ranking was 13th (in 2007) and the worst was 88th place (in 2005) – a difference of 75 positions,” writes Bogdan Kot'
 - seccion: deportes
   medio: The Guardian
   titulo: Jack Grealish recalls a golden age of mavericks – but football has moved on
@@ -482,11 +507,16 @@ titulares:
   resumen: Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was give
 - seccion: deportes
   medio: The Guardian
-  titulo: Fifa’s World Cup TV rights documents indicate hydration breaks to stay in 2030
-  url: https://www.theguardian.com/football/2026/nov/18/fifa-hydration-breaks-2030-world-cup-tv-right-documents
-  resumen: Controversial breaks were financial boon for broadcasters Fifa flags possible benefits but says no decision made Fifa’s tender documents for TV rights for the 2030 World Cup includes a provision for broadcasters to sell adverts during hydration breaks in a strong indication the controversial stoppag
+  titulo: Mauricio Pochettino’s USMNT time will be remembered fondly, but it wasn’t transformational
+  url: https://www.theguardian.com/football/2026/nov/18/pochettino-usmnt-manchester-united
+  resumen: The incoming Manchester United manager improved the US team’s culture and competitiveness, but could not bring about sea change in two years In a theater high up in a midtown Manhattan skyscraper built from lots of glass, a highlight reel played to deafening music. And then, on “a monumental day for
 - seccion: deportes
   medio: The Guardian
-  titulo: 'USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier'
-  url: https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier
-  resumen: Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US wome
+  titulo: Emma Hayes to assist in US Soccer hiring process for next USMNT coach
+  url: https://www.theguardian.com/football/2026/nov/18/emma-hayes-usmnt-head-coach-hiring-process
+  resumen: 'US women’s head coach won Olympics in 2024 Hayes enjoyed trophy-laden tenure at Chelsea The US women’s national team head coach, Emma Hayes, said she was “confident in the group that is being put together” to select her next counterpart for the men’s team – a group that includes her. Speaking after '
+- seccion: deportes
+  medio: The Guardian
+  titulo: Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge
+  url: https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge
+  resumen: 'Plus: clubs with roads on their team badges, most and fewest managers per league title, and more Mail us with all of your questions and answers “The Scotland men’s team’s highest Fifa ranking was 13th (in 2007) and the worst was 88th place (in 2005) – a difference of 75 positions,” writes Bogdan Kot'
