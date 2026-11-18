@@ -648,6 +648,44 @@ def generar_og(art: Articulo, salida: Path, cache: Path) -> str:
 
 # ---------------------------------------------------------------- construcción
 
+# Portada: actualidad, no archivo. Ventana de 24 h (36 h si hay pocas noticias),
+# nunca más: una noticia de hace días no puede abrir la portada aunque esté marcada.
+PORTADA_VENTANA_H = (24, 36)
+PORTADA_MINIMO = 3
+PORTADA_MAX = 5
+PORTADA_MAX_POR_SECCION = 2
+PORTADA_BONUS_DESTACADO_H = 6  # una marcada «destacado» equivale a 6 h más reciente
+
+
+def elegir_portada(articulos: list, ahora: datetime) -> list:
+    """Noticias del carrusel: las más recientes y relevantes, nunca de días anteriores.
+
+    Orden: fecha de publicación (la hora manda) con un bonus de 6 h para las marcadas
+    como destacado, de modo que la más importante de las últimas horas abre la portada,
+    pero una marcada de hace 20 h no desplaza a una noticia de hace 1 h.
+    """
+    candidatas: list = []
+    for horas in PORTADA_VENTANA_H:
+        limite = ahora - timedelta(hours=horas)
+        candidatas = [a for a in articulos if limite <= a.fecha <= ahora + timedelta(minutes=5)]
+        if len(candidatas) >= PORTADA_MINIMO:
+            break
+    if not candidatas:  # redacción parada: mejor lo último que una portada vacía
+        candidatas = list(articulos[:PORTADA_MINIMO])
+    bonus = timedelta(hours=PORTADA_BONUS_DESTACADO_H)
+    orden = sorted(candidatas, key=lambda a: a.fecha + (bonus if a.destacado else timedelta(0)), reverse=True)
+    elegidas: list = []
+    cuenta: Counter = Counter()
+    for a in orden:
+        if len(elegidas) >= PORTADA_MAX:
+            break
+        if cuenta[a.seccion["slug"]] >= PORTADA_MAX_POR_SECCION:
+            continue
+        elegidas.append(a)
+        cuenta[a.seccion["slug"]] += 1
+    return elegidas
+
+
 class Constructor:
     def __init__(self, cfg: dict, salida: Path):
         self.cfg = cfg
@@ -729,14 +767,7 @@ class Constructor:
         por_seccion = {s["slug"]: [a for a in articulos if a.seccion["slug"] == s["slug"]] for s in ed["secciones"]}
 
         # Portada
-        hace_48h = self.ahora - timedelta(hours=48)
-        recientes = [a for a in articulos if a.fecha >= hace_48h] or articulos[:12]
-        destacados = [a for a in recientes if a.destacado][:5]
-        for a in recientes:
-            if len(destacados) >= 5:
-                break
-            if a not in destacados:
-                destacados.append(a)
+        destacados = elegir_portada(articulos, self.ahora)
         resto = [a for a in articulos if a not in destacados]
         hoy = self.ahora.date()
         de_hoy = [a for a in articulos if a.fecha.date() == hoy]

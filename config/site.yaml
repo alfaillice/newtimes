@@ -38,7 +38,7 @@ publicidad:
     articulo: "5085417706"         # dentro del texto, tras el tercer párrafo
     articulo_final: "5085417706"   # al final de la noticia, tras las fuentes
     seccion: "5085417706"          # entre las noticias de cada sección
-    directo: "5085417706"          # en el minuto a minuto, bajo el vídeo
+    directo: ""                    # sin anuncios junto al vídeo de un tercero (política de AdSense)
 
 # Imágenes: solo se descargan de estos servidores (bancos con licencias
 # libres y fuentes oficiales que permiten la reutilización). Cualquier otra
