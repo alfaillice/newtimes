@@ -2,9 +2,10 @@ seccion: economia
 tema: Anthropic fija en 83 dólares por acción el precio de su salida a Bolsa, la mayor OPI de la historia, con una valoración cercana a 1,5 billones de dólares según la BBC.
 destacado: false
 fuentes:
-  - medio: Europa Press
-    titulo: Anthropic fija en 83 dólares el precio de su salida a Bolsa en la mayor OPI de la historia
-    url: https://www.europapress.es/economia/finanzas-00340/noticia-anthropic-fija-83-dolares-precio-salida-bolsa-mayor-opi-historia-20261119014905.html
-  - medio: BBC
-    titulo: AI giant Anthropic valued at $1.5 trillion ahead of stock market debut
-    url: https://www.bbc.co.uk/news/articles/c6742m39xgzxo
+- medio: Europa Press
+  titulo: Anthropic fija en 83 dólares el precio de su salida a Bolsa en la mayor OPI de la historia
+  url: https://www.europapress.es/economia/finanzas-00340/noticia-anthropic-fija-83-dolares-precio-salida-bolsa-mayor-opi-historia-20261119014905.html
+- medio: BBC
+  titulo: AI giant Anthropic valued at $1.5 trillion ahead of stock market debut
+  url: https://www.bbc.co.uk/news/articles/c6742m39xgzxo
+intentos: 1
