@@ -6,3 +6,5 @@ fuentes:
   titulo: Tchouaméni amplía su contrato con el Real Madrid hasta 2032
   url: https://www.europapress.es/deportes/futbol-00162/noticia-tchouameni-amplia-contrato-real-madrid-2032-20261119131827.html
 intentos: 2
+motivo: 'la API falló 3 veces: API: HTTP Error 400: Bad Request'
+descartado: '2026-11-19T15:20:06+01:00'
