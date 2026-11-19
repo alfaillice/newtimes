@@ -537,7 +537,15 @@ def redactar(tema, agente, guia) -> str | None:
         if not clasificar(it["url"]):
             log(f"  fuente no admitida, se ignora: {it['url']}")
             continue
-        texto = texto_pagina(it["url"]) or it["resumen"]
+        texto = texto_pagina(it["url"])
+        if len(texto) < MIN_LEGIBLE:
+            # La pieza era legible al hacer la lista de titulares: si ahora no, suele ser un bloqueo
+            # pasajero del medio (límite de peticiones). Se reintenta una vez, sin caché, tras una pausa.
+            time.sleep(20)
+            html_pagina.cache_clear()
+            texto = texto_pagina.__wrapped__(it["url"])
+            log(f"  reintento de lectura: {len(texto)} caracteres en {it['url']}")
+        texto = texto or it["resumen"]
         if len(texto) > 200:
             fuentes.append({**it, "texto": texto})
     if sum(len(f["texto"]) for f in fuentes) < 800:
