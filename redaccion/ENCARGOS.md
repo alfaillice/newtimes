@@ -24,11 +24,11 @@ Archivo `redaccion/encargos/pendientes/AAAAMMDD-HHMM-slug.yaml`:
 
 ```yaml
 seccion: economia
-tema: Una o dos frases con el hecho concreto que debe contar la noticia.
+tema: "Una o dos frases con el hecho concreto que debe contar la noticia."
 destacado: false
 fuentes:
   - medio: Europa Press
-    titulo: Titular de la pieza
+    titulo: "Titular de la pieza"
     url: https://www.europapress.es/economia/...
   - medio: INE
     titulo: Nota de prensa
@@ -38,6 +38,7 @@ fuentes:
 - Entre 1 y 4 fuentes, con su URL `https` exacta y dominio en `config/fuentes_admitidas.yaml`. Deben ser páginas abiertas: el agente solo sabe lo que hay en ellas.
 - Hace falta una agencia o fuente oficial, o dos medios distintos. Con un solo medio, la noticia atribuye los datos a ese medio.
 - `destacado: true` en una como mucho.
+- Pon `tema` y `titulo` siempre **entre comillas dobles** (y escapa con `\"` las comillas interiores): un «: » sin comillas rompe el YAML. Antes del commit, comprueba los archivos con `python3 -c "import yaml,sys; [yaml.safe_load(open(f)) for f in sys.argv[1:]]" redaccion/encargos/pendientes/*.yaml`.
 - El `tema` solo orienta: no incluyas datos que no estén en las fuentes, porque el verificador descartará la noticia.
 
 ## Criterios de crecimiento (revisión SEO 6, 16/11/2026)

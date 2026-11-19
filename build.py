@@ -655,6 +655,13 @@ PORTADA_MINIMO = 3
 PORTADA_MAX = 5
 PORTADA_MAX_POR_SECCION = 2
 PORTADA_BONUS_DESTACADO_H = 6  # una marcada «destacado» equivale a 6 h más reciente
+PORTADA_APERTURA_H = 12        # la noticia que abre la portada debe tener menos de 12 h si existe alguna
+
+
+def vigencia(a, tope: datetime | None = None) -> datetime:
+    """Hora que cuenta para la portada: la de la última actualización si la hay (una futura no cuenta)."""
+    act = getattr(a, "actualizado", None)
+    return act if act and act > a.fecha and (tope is None or act <= tope) else a.fecha
 
 
 def elegir_portada(articulos: list, ahora: datetime) -> list:
@@ -664,16 +671,22 @@ def elegir_portada(articulos: list, ahora: datetime) -> list:
     como destacado, de modo que la más importante de las últimas horas abre la portada,
     pero una marcada de hace 20 h no desplaza a una noticia de hace 1 h.
     """
+    tope = ahora + timedelta(minutes=5)
     candidatas: list = []
     for horas in PORTADA_VENTANA_H:
         limite = ahora - timedelta(hours=horas)
-        candidatas = [a for a in articulos if limite <= a.fecha <= ahora + timedelta(minutes=5)]
+        candidatas = [a for a in articulos if limite <= vigencia(a, tope) and a.fecha <= tope]
         if len(candidatas) >= PORTADA_MINIMO:
             break
     if not candidatas:  # redacción parada: mejor lo último que una portada vacía
-        candidatas = list(articulos[:PORTADA_MINIMO])
+        candidatas = sorted([a for a in articulos if a.fecha <= tope], key=lambda a: vigencia(a, tope), reverse=True)[:PORTADA_MINIMO]
     bonus = timedelta(hours=PORTADA_BONUS_DESTACADO_H)
-    orden = sorted(candidatas, key=lambda a: a.fecha + (bonus if a.destacado else timedelta(0)), reverse=True)
+    orden = sorted(candidatas, key=lambda a: vigencia(a, tope) + (bonus if a.destacado else timedelta(0)), reverse=True)
+    # Apertura: si hay alguna noticia de menos de 12 h, abre una de ellas (una destacada vieja no abre)
+    frescas = [a for a in orden if vigencia(a, tope) >= ahora - timedelta(hours=PORTADA_APERTURA_H)]
+    if frescas and orden[0] not in frescas:
+        orden.remove(frescas[0])
+        orden.insert(0, frescas[0])
     elegidas: list = []
     cuenta: Counter = Counter()
     for a in orden:
@@ -760,7 +773,11 @@ class Constructor:
         # «Última hora» solo si de verdad lo es: menos de 2 h; si no, la franja no aparece
         base_ctx["ultima_hora"] = articulos[0] if articulos and articulos[0].fecha >= self.ahora - timedelta(hours=2) else None
         cache_og = RAIZ / ".cache" / "og"
+        hoy_local = self.ahora.date()
         for a in articulos:
+            # En portada y listas, la hora sola solo vale para lo de hoy; lo anterior lleva la fecha
+            a.de_hoy = a.fecha.date() == hoy_local
+            a.actualizada = bool(a.actualizado and a.actualizado > a.fecha + timedelta(minutes=10))
             preparar_foto(a, self.salida, RAIZ / ".cache" / "img", self.avisos)
             a.og = generar_og(a, self.salida, cache_og)
 

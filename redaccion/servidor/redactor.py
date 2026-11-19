@@ -39,6 +39,7 @@ import subprocess
 import sys
 import unicodedata
 import urllib.parse
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
@@ -64,6 +65,22 @@ MOTIVO = ""   # por qué se descartó la última noticia
 
 class Reintentar(Exception):
     """Fallo pasajero de la API: el encargo se puede volver a intentar."""
+    permanente = False
+
+
+class ErrorAPI(Reintentar):
+    """La API rechaza la petición (clave, saldo, modelo o petición no válida): reintentar no sirve."""
+    permanente = True
+
+
+def _detalle_http(e: urllib.error.HTTPError) -> str:
+    """Mensaje de error de la API (p. ej. «credit balance is too low»), no solo «Bad Request»."""
+    try:
+        cuerpo = e.read().decode("utf-8", "replace")
+        err = json.loads(cuerpo).get("error", {})
+        return f"HTTP {e.code} {err.get('type', '')}: {err.get('message', '')}".strip()
+    except Exception:  # noqa: BLE001
+        return f"HTTP {e.code}: {e.reason}"
 
 
 def log(*a):
@@ -94,6 +111,12 @@ def claude(sistema: str, usuario: str, max_tokens: int = 8000) -> str:
     try:
         with urllib.request.urlopen(pet, timeout=180) as r:
             resp = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        detalle = _detalle_http(e)
+        log(f"ERROR de la API: {detalle}")
+        if 400 <= e.code < 500 and e.code not in (408, 409, 429):
+            raise ErrorAPI(f"API: {detalle}") from e
+        raise Reintentar(f"API: {detalle}") from e
     except OSError as e:
         raise Reintentar(f"API: {e}") from e
     uso = resp.get("usage", {})
@@ -787,6 +810,22 @@ def escribir_lanzamiento(agentes, guia) -> str | None:
 
 # ------------------------------------------------------------------ encargos
 
+_CLAVE_SIMPLE = re.compile(r"^(\s*(?:- )?[a-z_]+): (?!['\"|>])(.*: .*)$")
+
+
+def cargar_encargo(texto: str):
+    """Lee un encargo; si el YAML falla solo porque un valor lleva «: » sin comillas, lo entrecomilla."""
+    try:
+        return yaml.safe_load(texto)
+    except yaml.YAMLError:
+        reparado = "\n".join(
+            (m.group(1) + ": " + json.dumps(m.group(2).strip(), ensure_ascii=False)) if (m := _CLAVE_SIMPLE.match(l)) else l
+            for l in texto.splitlines())
+        datos = yaml.safe_load(reparado)  # si sigue fallando, se propaga el error
+        log("  aviso: YAML del encargo reparado (valor con «: » sin comillas)")
+        return datos
+
+
 def _validar_encargo(e, secciones) -> str:
     if not isinstance(e, dict) or e.get("seccion") not in secciones:
         return "sección ausente o no válida"
@@ -837,10 +876,11 @@ def procesar_encargos(secciones, agentes, guia, prueba: bool) -> None:
     log(f"{len(pendientes)} encargos pendientes (se procesan hasta {tope})")
     hechas, cambios = [], 0
     for ruta in pendientes[:tope]:
+        texto = ruta.read_text(encoding="utf-8")
         try:
-            encargo = yaml.safe_load(ruta.read_text(encoding="utf-8"))
+            encargo = cargar_encargo(texto)
         except yaml.YAMLError as e:
-            encargo, error, especial = None, f"YAML no válido: {e}", False
+            encargo, error, especial = texto, f"YAML no válido: {e}", False
         else:
             especial = isinstance(encargo, dict) and encargo.get("tipo") == "lanzamiento-youtube"
             error = "" if especial else _validar_encargo(encargo, secciones)
@@ -861,11 +901,13 @@ def procesar_encargos(secciones, agentes, guia, prueba: bool) -> None:
         try:
             hecha = escribir_lanzamiento(agentes, guia) if especial else redactar(tema, agentes[tema["seccion"]], guia)
         except Reintentar as e:
-            intentos = int(encargo.get("intentos", 0)) + 1
+            intentos = MAX_INTENTOS if e.permanente else int(encargo.get("intentos", 0)) + 1
             log(f"  fallo de la API (intento {intentos} de {MAX_INTENTOS}): {e}")
             if prueba:
                 continue
-            if intentos >= MAX_INTENTOS:
+            if e.permanente:
+                _archivar(ruta, encargo, f"la API rechaza la petición (revisar clave, saldo o modelo en /etc/newtimes/redactor.env): {e}")
+            elif intentos >= MAX_INTENTOS:
                 _archivar(ruta, encargo, f"la API falló {intentos} veces: {e}")
             else:
                 ruta.write_text(yaml.safe_dump({**encargo, "intentos": intentos}, allow_unicode=True, sort_keys=False, width=1000), encoding="utf-8")

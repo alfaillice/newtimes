@@ -1,5 +1,10 @@
 {% macro hora(a) -%}
 <time datetime="{{ a.fecha_iso }}" data-rel>{{ a.fecha.strftime('%H:%M') }}, {{ a.fecha|fecha_corta }}</time>
+{%- if a.actualizada %} <span class="hora-actualizada">· actualizado <time datetime="{{ a.actualizado.isoformat() }}">{{ a.actualizado.strftime('%H:%M') }}{% if a.actualizado.date() != a.fecha.date() %}, {{ a.actualizado|fecha_corta }}{% endif %}</time></span>{% endif %}
+{%- endmacro %}
+
+{% macro hora_breve(a) -%}
+{%- if a.de_hoy is defined and not a.de_hoy %}{{ a.fecha|fecha_corta }}{% else %}{{ a.fecha.strftime('%H:%M') }}{% endif -%}
 {%- endmacro %}
 
 {% macro cubierta(a, grande=false) -%}
@@ -10,7 +15,7 @@
 {% else %}
 <div class="cubierta{% if grande %} cubierta--grande{% endif %}" style="--c: {{ a.seccion.color }}" aria-hidden="true">
   <span class="cubierta__seccion">{{ a.seccion.nombre }}</span>
-  <span class="cubierta__hora">{{ a.fecha.strftime('%H:%M') }}</span>
+  <span class="cubierta__hora">{{ hora_breve(a) }}</span>
 </div>
 {% endif %}
 {%- endmacro %}
@@ -36,7 +41,7 @@
 <ol class="lista-simple" role="list">
   {% for a in lista %}
   <li>
-    <span class="lista-simple__hora">{{ a.fecha.strftime('%H:%M') }}</span>
+    <span class="lista-simple__hora">{{ hora_breve(a) }}</span>
     <div>
       <a href="{{ a.url }}">{{ a.titulo }}</a>
       <span class="lista-simple__seccion" style="--c: {{ a.seccion.color }}">{{ a.seccion.nombre }}</span>
