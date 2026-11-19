@@ -1,0 +1,9 @@
+seccion: deportes
+tema: Aurélien Tchouaméni amplía su contrato con el Real Madrid hasta 2032.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: Tchouaméni amplía su contrato con el Real Madrid hasta 2032
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-tchouameni-amplia-contrato-real-madrid-2032-20261119131827.html
+motivo: 'la API rechaza la petición (revisar clave, saldo o modelo en /etc/newtimes/redactor.env): API: HTTP 400 invalid_request_error: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'
+descartado: '2026-11-19T21:10:04+01:00'

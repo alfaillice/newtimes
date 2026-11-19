@@ -1,0 +1,9 @@
+seccion: espana
+tema: 'Ampliación del plazo para solicitar el voto por correo hasta el 26 de noviembre de cara a las elecciones generales del 29N: qué cambia y qué deben hacer los electores.'
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: Ampliado el plazo de voto por correo hasta el 26 de noviembre
+  url: https://www.europapress.es/nacional/noticia-ampliado-plazo-voto-correo-26-noviembre-20261119192454.html
+motivo: 'la API rechaza la petición (revisar clave, saldo o modelo en /etc/newtimes/redactor.env): API: HTTP 400 invalid_request_error: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'
+descartado: '2026-11-19T21:10:04+01:00'
