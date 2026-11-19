@@ -1,0 +1,12 @@
+seccion: deportes
+tema: Marc Márquez y Jorge Martín valoran la lucha por el título de MotoGP, con 24 puntos de diferencia entre ambos.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: Marc Márquez - Parece que el título está cerrado y puede pasar cualquier cosa
+  url: https://www.europapress.es/deportes/motociclismo-00311/noticia-marc-marquez-parece-titulo-cerrado-puede-pasar-cualquier-cosa-20261119175250.html
+- medio: Europa Press
+  titulo: Jorge Martín - Es imposible recuperarle 24 puntos a Marc Márquez
+  url: https://www.europapress.es/deportes/motociclismo-00311/noticia-jorge-martin-imposible-recuperarle-24-puntos-marc-marquez-20261119174845.html
+motivo: 'el agente descarta el tema: La única fuente aportada (Europa Press) recoge las declaraciones de Marc Márquez, pero no menciona a Jorge Martín, no valora la lucha por el título entre ambos ni contiene la diferencia de 24 puntos entre los dos pilotos. Sin esos datos no puede redactarse la noticia solicitada con rigor.'
+descartado: '2026-11-19T21:55:08+01:00'

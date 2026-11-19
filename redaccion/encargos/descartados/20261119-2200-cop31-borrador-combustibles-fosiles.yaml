@@ -1,0 +1,9 @@
+seccion: sociedad
+tema: El nuevo borrador de la COP31 retira la petición expresa de abandonar los combustibles fósiles.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: El nuevo borrador de la COP31 retira la petición expresa de abandonar los combustibles fósiles
+  url: https://www.europapress.es/sociedad/noticia-nuevo-borrador-cop31-retira-peticion-expresa-abandonar-combustibles-fosiles-20261119140843.html
+motivo: 'la API rechaza la petición (revisar clave, saldo o modelo en /etc/newtimes/redactor.env): API: HTTP 400 invalid_request_error: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'
+descartado: '2026-11-19T21:55:02+01:00'
