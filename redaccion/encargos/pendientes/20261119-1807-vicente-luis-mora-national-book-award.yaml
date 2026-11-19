@@ -1,7 +1,8 @@
 seccion: cultura
-tema: 'El escritor cordobés Vicente Luis Mora gana el National Book Award de EE UU por ''Centroeuropa'', en la categoría de obra traducida.'
+tema: El escritor cordobés Vicente Luis Mora gana el National Book Award de EE UU por 'Centroeuropa', en la categoría de obra traducida.
 destacado: false
 fuentes:
-  - medio: El País
-    titulo: 'El español Vicente Luis Mora gana el National Book Award'
-    url: https://elpais.com/cultura/2026-11-19/el-escritor-espanol-vicente-luis-mora-gana-el-national-book-award-el-premio-mas-prestigioso-de-las-letras-en-ee-uu.html
+- medio: El País
+  titulo: El español Vicente Luis Mora gana el National Book Award
+  url: https://elpais.com/cultura/2026-11-19/el-escritor-espanol-vicente-luis-mora-gana-el-national-book-award-el-premio-mas-prestigioso-de-las-letras-en-ee-uu.html
+intentos: 1
