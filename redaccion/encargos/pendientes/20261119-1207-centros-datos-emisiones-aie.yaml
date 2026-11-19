@@ -1,0 +1,7 @@
+seccion: tecnologia
+tema: Un informe de la Agencia Internacional de la Energía prevé que los centros de datos generarán un 70 % más de emisiones de carbono de aquí a 2030 porque EEUU y China recurren a combustibles fósiles para alimentar el crecimiento de la IA, según The Guardian.
+destacado: false
+fuentes:
+  - medio: The Guardian
+    titulo: Datacentres to create 70% more carbon emissions by 2030, IEA report warns
+    url: https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns
