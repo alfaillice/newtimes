@@ -1,0 +1,14 @@
+[Unit]
+Description=NewTimes.news: comprueba cada hora que la API de Anthropic responde (alerta en GitHub si falla)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=newtimes
+Group=newtimes
+EnvironmentFile=/etc/newtimes/redactor.env
+WorkingDirectory=/srv/newtimes/redactor
+ExecStart=/usr/bin/flock -w 240 /srv/newtimes/.redactor.lock /usr/bin/python3 /srv/newtimes/redactor/redaccion/servidor/redactor.py --salud-api
+TimeoutStartSec=420
+Nice=10

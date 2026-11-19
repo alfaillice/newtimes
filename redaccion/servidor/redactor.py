@@ -22,7 +22,8 @@ Variables de entorno (en /etc/newtimes/redactor.env):
   NEWTIMES_MAX        noticias máximas por ejecución (por defecto 3)
   NEWTIMES_MAX_ENCARGOS  encargos máximos por ejecución (por defecto 6)
 
-Uso:  python3 redaccion/servidor/redactor.py [--prueba] [--max N] [--edicion es|en] [--encargos] [--titulares]
+Uso:  python3 redaccion/servidor/redactor.py [--prueba] [--max N] [--edicion es|en] [--encargos] [--titulares] [--salud-api]
+      --salud-api  llamada mínima a la API; si falla, lo deja en docs/estado-api.md (alerta en GitHub)
       --prueba   escribe los archivos pero no hace commit ni push
       --edicion  es (por defecto; RSS de config/fuentes_rss.yaml, guía GUIA.md) o
                  en (RSS de config/fuentes_rss_en.yaml, guía GUIDE.md, escribe en content/en/)
@@ -37,6 +38,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import unicodedata
 import urllib.parse
 import urllib.error
@@ -906,6 +908,7 @@ def procesar_encargos(secciones, agentes, guia, prueba: bool) -> None:
             if prueba:
                 continue
             if e.permanente:
+                _estado_api(False, str(e))   # el aviso sale en este mismo commit, sin esperar al chequeo horario
                 _archivar(ruta, encargo, f"la API rechaza la petición (revisar clave, saldo o modelo en /etc/newtimes/redactor.env): {e}")
             elif intentos >= MAX_INTENTOS:
                 _archivar(ruta, encargo, f"la API falló {intentos} veces: {e}")
@@ -917,6 +920,7 @@ def procesar_encargos(secciones, agentes, guia, prueba: bool) -> None:
             hechas.append((agentes[tema["seccion"]]["slug"], hecha))
             if not prueba:
                 ruta.unlink()
+                _estado_api(True, "")
         elif not prueba:
             _archivar(ruta, encargo, MOTIVO)
             cambios += 1
@@ -924,7 +928,7 @@ def procesar_encargos(secciones, agentes, guia, prueba: bool) -> None:
     if prueba:
         log(f"{len(hechas)} noticias escritas (modo prueba, sin commit ni cambios en los encargos)")
     elif hechas or cambios:
-        _publicar(hechas, ["redaccion/encargos"], f"Encargos: {cambios} sin publicar")
+        _publicar(hechas, ["redaccion/encargos", *(["docs/estado-api.md"] if ESTADO_API.exists() else [])], f"Encargos: {cambios} sin publicar")
         log(f"Publicadas {len(hechas)} noticias; {cambios} encargos sin publicar")
 
 
@@ -938,6 +942,74 @@ def publicar_titulares(horas: int) -> None:
     ruta.write_text(yaml.safe_dump(datos, allow_unicode=True, sort_keys=False, width=1000), encoding="utf-8")
     log(f"{len(items)} titulares guardados")
     _publicar([], [str(ruta.relative_to(RAIZ))], f"Titulares {ahora:%Y-%m-%d %H:%M}")
+
+
+ESTADO_API = RAIZ / "docs/estado-api.md"
+
+
+def _estado_api(ok: bool, detalle: str) -> bool:
+    """Deja en docs/estado-api.md si la API responde. Devuelve True si el estado ha cambiado.
+
+    Solo se reescribe cuando cambia el estado o el error, para no hacer un commit cada hora.
+    El workflow «Alerta API» de GitHub lee este archivo y abre (o cierra) una incidencia.
+    """
+    estado = "ok" if ok else "caida"
+    anterior = {}
+    if ESTADO_API.exists():
+        m = re.match(r"---\n(.*?)\n---", ESTADO_API.read_text(encoding="utf-8"), re.S)
+        anterior = (yaml.safe_load(m.group(1)) if m else None) or {}
+    if anterior.get("estado") == estado and (ok or anterior.get("detalle") == detalle):
+        return False
+    ahora = datetime.now(TZ).replace(microsecond=0).isoformat()
+    if anterior.get("estado") == estado and anterior.get("desde"):
+        ahora = str(anterior["desde"])   # sigue caída con otro error: se conserva desde cuándo
+    datos = {"estado": estado, "desde": ahora, "detalle": detalle,
+             "modelo": os.environ.get("NEWTIMES_MODELO", "claude-haiku-5-5")}
+    if ok:
+        texto = "La API de Anthropic responde con normalidad al redactor del servidor."
+    else:
+        texto = ("**La API de Anthropic rechaza las peticiones del redactor del servidor: no se publican noticias.**\n\n"
+                 f"Error: `{detalle}`\n\n"
+                 "Qué revisar, según el error:\n"
+                 "- `credit balance is too low` o `usage limits`: recargar saldo o subir el límite de gasto en "
+                 "console.anthropic.com (Billing / Limits). Conviene activar la recarga automática.\n"
+                 "- `authentication_error` (401) o `permission_error` (403): la clave de /etc/newtimes/redactor.env "
+                 "está revocada o es de otro espacio de trabajo.\n"
+                 "- `not_found_error` (404) sobre el modelo: el modelo de NEWTIMES_MODELO no existe o se ha retirado.\n"
+                 "- `rate_limit_error` (429) u `overloaded_error` (529): suele pasar solo; si dura horas, revisar el nivel de uso.\n\n"
+                 "Registro: `sudo journalctl -u newtimes-salud-api -n 20` y `sudo journalctl -u newtimes-encargos -n 30`.")
+    ESTADO_API.parent.mkdir(parents=True, exist_ok=True)
+    ESTADO_API.write_text("---\n" + yaml.safe_dump(datos, allow_unicode=True, sort_keys=False, width=1000) +
+                          "---\n\n# Estado de la API (redactor del servidor)\n\n" + texto + "\n", encoding="utf-8")
+    return True
+
+
+def salud_api(prueba: bool) -> None:
+    """Llamada mínima a la API (unos céntimos al mes) para detectar a tiempo saldo agotado, clave o modelo."""
+    try:
+        claude("Responde solo «ok».", "ok", max_tokens=64)
+        ok, detalle = True, ""
+    except ValueError:
+        ok, detalle = True, ""   # respuesta cortada por max_tokens: la API ha aceptado la petición
+    except ErrorAPI as e:
+        ok, detalle = False, str(e)
+    except Reintentar as e:
+        # Fallo pasajero (red, 429, 5xx): una segunda prueba antes de dar la alarma
+        time.sleep(60)
+        try:
+            claude("Responde solo «ok».", "ok", max_tokens=64)
+            ok, detalle = True, ""
+        except ValueError:
+            ok, detalle = True, ""
+        except Reintentar as e2:
+            ok, detalle = False, f"{e2} (reintentado tras {e})"
+    log(f"API: {'responde' if ok else 'CAÍDA: ' + detalle}")
+    if _estado_api(ok, detalle) and not prueba:
+        git("add", str(ESTADO_API.relative_to(RAIZ)))
+        git("commit", "-q", "-m", f"Estado API: {'restablecida' if ok else 'CAÍDA'} [servidor]")
+        if git("push", "-q", "origin", "HEAD:main", ok=True).returncode:
+            git("pull", "-q", "--rebase", "origin", "main")
+            git("push", "-q", "origin", "HEAD:main")
 
 
 def informar_gasto() -> None:
@@ -955,6 +1027,7 @@ def main():
     ap.add_argument("--encargos", action="store_true", help="escribe los encargos pendientes en vez de elegir temas")
     ap.add_argument("--feeds", action="store_true", help="comprueba cada RSS configurado y sale")
     ap.add_argument("--titulares", action="store_true", help="guarda los titulares de los RSS para el jefe de redacción")
+    ap.add_argument("--salud-api", action="store_true", help="comprueba que la API responde y deja el estado en docs/estado-api.md")
     a = ap.parse_args()
     global EDICION
     EDICION = a.edicion
@@ -966,6 +1039,9 @@ def main():
 
     if not a.prueba:
         git("pull", "-q", "--rebase", "origin", "main")
+    if a.salud_api:
+        salud_api(a.prueba)
+        return
     cfg = yaml.safe_load((RAIZ / "config/site.yaml").read_text(encoding="utf-8"))
     secciones = [s["slug"] for s in cfg["ediciones"][EDICION]["secciones"]]
     agentes = {x["seccion"]: x for x in yaml.safe_load((RAIZ / "config/agentes.yaml").read_text(encoding="utf-8"))[EDICION]}

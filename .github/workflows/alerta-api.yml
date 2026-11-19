@@ -1,0 +1,50 @@
+name: Alerta API
+# El VPS deja en docs/estado-api.md si la API de Anthropic responde (chequeo horario y
+# cada vez que un encargo falla por la API). Si está caída, este workflow abre una
+# incidencia que avisa a JM por correo y en la app de GitHub; si se restablece, la cierra.
+on:
+  push:
+    branches: [main]
+    paths: [docs/estado-api.md]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  alerta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Abrir o cerrar la incidencia
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          f=docs/estado-api.md
+          [ -f "$f" ] || { echo "Sin $f"; exit 0; }
+          estado=$(sed -n 's/^estado: *//p' "$f" | head -1)
+          desde=$(sed -n "s/^desde: *//p" "$f" | head -1 | tr -d "'\"")
+          etiqueta=alerta-api
+          gh label create "$etiqueta" --color B60205 --description "La API de Anthropic no responde al redactor" 2>/dev/null || true
+          abierta=$(gh issue list --label "$etiqueta" --state open --json number --jq '.[0].number // empty')
+          if [ "$estado" = "caida" ]; then
+            cuerpo="@alfaillice El redactor del servidor no puede usar la API de Anthropic desde $desde: no se están publicando noticias.
+
+          $(awk 'c>=2{print} /^---$/{c++}' "$f")
+
+          Esta incidencia se cierra sola cuando el chequeo horario del VPS vuelva a ver la API funcionando."
+            if [ -n "$abierta" ]; then
+              gh issue comment "$abierta" --body "$cuerpo"
+            else
+              gh issue create --title "Redactor caído: la API de Anthropic rechaza las peticiones" --label "$etiqueta" --body "$cuerpo"
+            fi
+            echo "API CAÍDA desde $desde" >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          if [ -n "$abierta" ]; then
+            gh issue close "$abierta" --comment "La API vuelve a responder (desde $desde). El redactor del servidor retoma la publicación."
+          fi
+          echo "API OK desde $desde" >> "$GITHUB_STEP_SUMMARY"

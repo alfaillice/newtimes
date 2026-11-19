@@ -1,0 +1,10 @@
+[Unit]
+Description=NewTimes.news: chequeo horario de la API de Anthropic
+
+[Timer]
+# A las :02, antes de los encargos (:10) y del redactor autónomo (:20)
+OnCalendar=*-*-* *:02:00 Europe/Madrid
+Persistent=false
+
+[Install]
+WantedBy=timers.target
