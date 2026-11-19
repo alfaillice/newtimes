@@ -2,9 +2,10 @@ seccion: espana
 tema: Puigdemont presume en una entrevista de los logros de Junts en la legislatura y dice que se aprovecharon de la ambición de Sánchez; Bolaños la califica de bastante irrelevante, a horas del cara a cara Sánchez-Feijóo y a diez días de las elecciones del 29N.
 destacado: false
 fuentes:
-  - medio: Europa Press
-    titulo: 'Puigdemont: "Nos hemos aprovechado de la ambición de Sánchez para derrotar a España"'
-    url: https://www.europapress.es/catalunya/noticia-puigdemont-nos-hemos-aprovechado-ambicion-sanchez-derrotar-espana-20261119012445.html
-  - medio: Europa Press
-    titulo: Bolaños ve "bastante irrelevante" la entrevista de Puigdemont y defiende que España tiene "más cohesión que nunca"
-    url: https://www.europapress.es/nacional/noticia-bolanos-ve-bastante-irrelevante-entrevista-puigdemont-defiende-espana-tiene-mas-cohesion-nunca-20261119104138.html
+- medio: Europa Press
+  titulo: 'Puigdemont: "Nos hemos aprovechado de la ambición de Sánchez para derrotar a España"'
+  url: https://www.europapress.es/catalunya/noticia-puigdemont-nos-hemos-aprovechado-ambicion-sanchez-derrotar-espana-20261119012445.html
+- medio: Europa Press
+  titulo: Bolaños ve "bastante irrelevante" la entrevista de Puigdemont y defiende que España tiene "más cohesión que nunca"
+  url: https://www.europapress.es/nacional/noticia-bolanos-ve-bastante-irrelevante-entrevista-puigdemont-defiende-espana-tiene-mas-cohesion-nunca-20261119104138.html
+intentos: 1
