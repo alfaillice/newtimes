@@ -2,9 +2,10 @@ seccion: tecnologia
 tema: Anthropic debuta en bolsa tras la mayor salida a bolsa de la historia, con una recaudación de 81.000 millones de dólares y una valoración de 1,5 billones.
 destacado: false
 fuentes:
-  - medio: BBC
-    titulo: Anthropic raises $81bn in record-breaking stock market debut
-    url: https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss
-  - medio: The Guardian
-    titulo: Anthropic to begin public trading at $1.5tn valuation after largest ever IPO
-    url: https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo
+- medio: BBC
+  titulo: Anthropic raises $81bn in record-breaking stock market debut
+  url: https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss
+- medio: The Guardian
+  titulo: Anthropic to begin public trading at $1.5tn valuation after largest ever IPO
+  url: https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo
+intentos: 1
