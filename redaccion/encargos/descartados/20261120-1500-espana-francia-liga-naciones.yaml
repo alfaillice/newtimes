@@ -1,0 +1,9 @@
+seccion: deportes
+tema: El sorteo de la Liga de Naciones deja a España frente a Francia en los cuartos de final.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: España se enfrentará a Francia en los cuartos de final de la Liga de Naciones
+  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-espana-enfrentara-francia-cuartos-final-liga-naciones-20261120123251.html
+motivo: 'la verificación encontró datos sin sostén: "hora peninsular" (20.45): las fuentes indican la hora 20.45 sin especificar zona horaria. La precisión "peninsular" no aparece en las fuentes.'
+descartado: '2026-11-20T15:11:18+01:00'
