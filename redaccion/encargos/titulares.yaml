@@ -1,10 +1,25 @@
-generado: '2026-11-20T14:50:00+01:00'
+generado: '2026-11-20T17:50:00+01:00'
 titulares:
+- seccion: espana
+  medio: Europa Press
+  titulo: El Supremo exige a la JEC garantizar que 163.355 nacionalizados por la 'ley de nietos' no voten en las elecciones
+  url: https://www.europapress.es/nacional/noticia-supremo-exige-jec-garantizar-163355-nacionalizados-ley-nietos-no-voten-elecciones-20261120145732.html
+  resumen: Recalca que se trata de los que estén en el censo exterior o que vivan en España, salvo las 901 personas con acreditación consular
 - seccion: espana
   medio: Europa Press
   titulo: 'Elecciones generales 2026, en directo: resumen del debate ayer entre Sánchez y Feijóo y reacciones al cara a cara'
   url: https://www.europapress.es/nacional/noticia-elecciones-generales-2026-directo-resumen-debate-sanchez-feijoo-reacciones-ultima-hora-campana-20261120083023.html
   resumen: 'El PP ha celebrado este viernes la victoria que, a su juicio, logró el líder del partido, Alberto Núñez Feijóo, frente al presidente del Gobierno, Pedro Sánchez, en el ''cara a cara'' electoral celebrado este jueves, aunque ha asegurado que no dan por hecho un resultado positivo en las elecciones del '
+- seccion: espana
+  medio: Europa Press
+  titulo: Moncloa asume las críticas por el debate, pero sostiene que Sánchez convenció a moderados con un tono presidencial
+  url: https://www.europapress.es/nacional/noticia-moncloa-asume-criticas-debate-sostiene-sanchez-convencio-moderados-tono-presidencial-20261120155023.html
+  resumen: En el Gobierno aceptan las críticas recibidas tras el debate 'cara a cara' entre el presidente, Pedro Sánchez y el líder del PP, Alberto Núñez Feijóo, pero se muestran convencidos de que el socialista fue eficaz en su estrategia y convenció a muchos votantes moderados e indecisos, situados en el cen
+- seccion: espana
+  medio: Europa Press
+  titulo: Feijóo promete en El Hierro un mando único en inmigración y reformas legales para devolver a menores migrantes
+  url: https://www.europapress.es/nacional/noticia-feijoo-promete-hierro-mando-unico-inmigracion-reformas-legales-devolver-menores-migrantes-20261120152243.html
+  resumen: Dice que si gobierna acabará con el "efecto llamada" provocado por Sánchez y reformará el Código Penal para perseguir a las mafias
 - seccion: espana
   medio: Europa Press
   titulo: El PSOE justifica el tono de Sánchez en el 'cara a cara' y alega que los españoles están "hartos de la crispación"
@@ -17,14 +32,39 @@ titulares:
   resumen: Dice que el líder del PP se comporta "como el presidente que en muchas ocasiones no ha tenido España", tanto en Ceuta como en El Hierro
 - seccion: espana
   medio: Europa Press
-  titulo: 'Los ''barones'' del PP erigen a Feijóo como "vencedor" del ''cara a cara'' con Sánchez: "Es la sensación general"'
+  titulo: 'Los ''barones'' del PP erigen a Feijóo como "vencedor" del debate con Sánchez: "Es la sensación general"'
   url: https://www.europapress.es/nacional/noticia-barones-pp-erigen-feijoo-vencedor-cara-cara-sanchez-sensacion-general-20261120133858.html
   resumen: Diversos presidentes autonómicos del PP han dado por "vencedor" al líder 'popular', Alberto Núñez Feijóo, en el debate que mantuvo este jueves con el jefe del Ejecutivo, Pedro Sánchez, mostrándose convencidos de que "es la sensación general" y alineándose con las "propuestas" del candidato del PP.
 - seccion: espana
   medio: Europa Press
-  titulo: 'Bustinduy, sobre la táctica de Sánchez en el ''cara a cara'': "Cuando la tienes que explicar, es que no salió bien"'
-  url: https://www.europapress.es/nacional/noticia-bustinduy-tactica-sanchez-cara-cara-cuando-tienes-explicar-no-salio-bien-20261120143427.html
-  resumen: El ministro de Derechos Sociales y portavoz de campaña de Frente Amplio a las elecciones generales del 29N, Pablo Bustinduy, ha afirmado que la estrategia del presidente del Gobierno, Pedro Sánchez, no salió bien en el debate 'cara a cara' con el líder del PP, Alberto Núñez Feijóo, y que la prueba d
+  titulo: 'Abascal se mofa de las menciones de Sánchez en el ''cara a cara'': "Le gusta debatir conmigo cuando no estoy"'
+  url: https://www.europapress.es/nacional/noticia-abascal-mofa-menciones-sanchez-cara-cara-le-gusta-debatir-conmigo-cuando-no-estoy-20261120131927.html
+  resumen: El líder de Vox, Santiago Abascal, se ha burlado este viernes de las menciones a su persona que el presidente, Pedro Sánchez, introdujo en sus argumentaciones durante el 'cara a cara' con el presidente 'popular', Alberto Núñez Feijóo. "Le gusta debatir conmigo cuando no estoy", ha señalado.
+- seccion: espana
+  medio: El País
+  titulo: La distancia entre el PP y el PSOE se estrecha al mínimo pese a la victoria de Feijóo en el debate
+  url: https://elpais.com/espana/elecciones-generales/2026-11-20/la-distancia-entre-el-pp-y-el-psoe-se-estrecha-al-minimo-pese-a-la-victoria-de-feijoo-en-el-debate.html
+  resumen: El noveno ‘tracking’ de 40dB. para EL PAÍS y la Cadena SER registra una caída de Vox de medio punto
+- seccion: espana
+  medio: El País
+  titulo: El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España
+  url: https://elpais.com/espana/elecciones-generales/2026-11-20/el-supremo-mantiene-suspendido-el-voto-a-163000-nacionalizados-por-la-ley-de-nietos-aunque-ahora-vivan-en-espana.html
+  resumen: Los jueces exigen a la Junta Electoral que garantice que los afectados no figuren en el censo
+- seccion: espana
+  medio: El País
+  titulo: Las obras del espigón de El Tarajal continúan tras una comprobación de las autoridades marroquíes
+  url: https://elpais.com/espana/2026-11-20/las-obras-del-espigon-de-el-tarajal-continuan-tras-una-comprobacion-de-las-autoridades-marroquies.html
+  resumen: Varias zódiacs marroquíes se acercaron a la zona para advertir de que la maquinaria no podía entrar en sus aguas territoriales. Los trabajos siguen con normalidad en Ceuta, según el Gobierno español
+- seccion: espana
+  medio: El País
+  titulo: 'Los obispos se remiten al discurso del Papa para orientar el voto y niegan tensiones: “Son rumores que quieren distorsionar”'
+  url: https://elpais.com/espana/elecciones-generales/2026-11-20/los-obispos-se-remiten-al-discurso-del-papa-en-el-congreso-para-orientar-el-voto-de-sus-fieles-la-iglesia-no-tiene-partido-politico.html
+  resumen: Cuatro cargos hablan con EL PAÍS y señalan como “un problema de oportunidad, pero no de divergencia” la no aprobación del texto que ayude a los fieles el 29N
+- seccion: espana
+  medio: El País
+  titulo: El Rey pide en Bilbao “no olvidar” el “sufrimiento” que causó el “terrorismo de ETA, las amenazas y la falta de libertad”
+  url: https://elpais.com/espana/2026-11-20/el-rey-pide-en-bilbao-no-olvidar-el-sufrimiento-que-causo-el-terrorismo-de-eta-las-amenazas-y-la-falta-de-libertad.html
+  resumen: Felipe VI celebra el 50º aniversario del Círculo de Empresarios Vascos con un premio a José Domingo de Ampuero y Osma, presidente de Viscofan
 - seccion: internacional
   medio: Europa Press
   titulo: Mueren ocho personas en un "ataque masivo" de Rusia contra Kiev y una estación de tren en Leópolis
@@ -47,9 +87,19 @@ titulares:
   resumen: El secretario general de la OTAN, Mark Rutte, ha condenado "los ataques de Rusia" tras el incidente "claramente peligroso" acontecido este viernes en Polonia, en el que un objeto volador no identificado ha caído en la localidad polaca de Nowy Lipowiec, tras una presunta incursión en el espacio aéreo
 - seccion: internacional
   medio: Europa Press
-  titulo: Rusia matiza que no hay previsto un diálogo próximamente sobre armas nucleares pese a lo hablado en la APEC
-  url: https://www.europapress.es/internacional/noticia-rusia-matiza-no-hay-previsto-dialogo-proximamente-armas-nucleares-pese-hablado-asean-20261120140601.html
-  resumen: Las autoridades rusas han matizado este viernes que no hay previsto ningún diálogo próximamente sobre el control a la proliferación de armas nucleares a pesar de los compromisos planteados esta semana en la reunión a tres que mantuvieron los presidentes de Rusia, Estados Unidos y China en los márgen
+  titulo: Países europeos condenan la incursión rusa en el espacio aéreo polaco y alertan de una "grave amenaza" en el continente
+  url: https://www.europapress.es/internacional/noticia-paises-europeos-condenan-incursion-rusa-espacio-aereo-polaco-alertan-grave-amenaza-continente-20261120155126.html
+  resumen: Gobiernos y dirigentes de varios países europeos han expresado su rechazo a la incursión rusa en el espacio aéreo de Polonia, donde este viernes se han registrado tres incidentes distintos en los que se ha identificado al menos un misil de crucero J-101, en un episodio que las autoridades polacas ha
+- seccion: internacional
+  medio: Europa Press
+  titulo: Una mujer muere y un hombre resulta herido en una serie de ataques con drones en la región rusa de Bélgorod
+  url: https://www.europapress.es/internacional/noticia-mujer-muere-hombre-resulta-herido-serie-ataques-drones-region-rusa-belgorod-20261120150542.html
+  resumen: Una mujer ha fallecido y un hombre ha resultado herido este viernes en una serie de ataques con drones atribuidos a las Fuerzas Armadas de Ucrania contra tres municipios de la región rusa de Bélgorod, según han comunicado las autoridades regionales, expresando sus condolencias a los familiares y all
+- seccion: internacional
+  medio: Europa Press
+  titulo: Rusia tilda de "inaceptable" cualquier vía "creativa" que implique a Ucrania como "cuasi miembro" de la OTAN
+  url: https://www.europapress.es/internacional/noticia-rusia-tilda-inaceptable-cualquier-via-creativa-implique-ucrania-cuasi-miembro-otan-20261120120136.html
+  resumen: Moscú subraya que "no ve una diferencia significativa entre la OTAN y la UE" a causa de los posicionamientos internacionales del bloque europeo
 - seccion: internacional
   medio: Europa Press
   titulo: Estonia confirma el cierre por seis meses de su frontera terrestre con Rusia
@@ -57,64 +107,34 @@ titulares:
   resumen: El Gobierno de Estonia ha confirmado este viernes la clausura de sus pasos fronterizos terrestres con Rusia durante seis meses a partir de 1 de diciembre ante la continuidad de la acciones hostiles atribuidas a Moscú, entre ellas actos de sabotaje y operaciones híbridas que afectan al país báltico y
 - seccion: internacional
   medio: Europa Press
-  titulo: Hungría despeja el camino a Ucrania para abrir los dos últimos bloques de negociación para su adhesión a la UE
-  url: https://www.europapress.es/internacional/noticia-hungria-despeja-camino-ucrania-abrir-dos-ultimos-bloques-negociacion-adhesion-ue-20261120131932.html
-  resumen: Ucrania podrá abrir los dos bloques de capítulos que le quedaban por iniciar a negociar antes de que acabe el año, después de que Hungría haya levantado el veto que venía manteniendo desde hace meses en medio del acercamiento entre Budapest y Kiev, que se reflejó el mes pasado en un acuerdo para sen
-- seccion: internacional
-  medio: Europa Press
-  titulo: Rubio nombra a una nueva directora nacional de Ciberseguridad de EEUU tras la cadena de fallos técnicos
-  url: https://www.europapress.es/internacional/noticia-rubio-nombra-nueva-directora-nacional-ciberseguridad-eeuu-cadena-fallos-tecnicos-20261120040739.html
-  resumen: 'El secretario de Estado de Estados Unidos, Marco Rubio, ha anunciado este viernes el nombramiento de Kirsten Davies como nueva directora nacional de Ciberseguridad del país, un relevo al frente de la oficina encargada de proteger las infraestructuras digitales estadounidenses que se produce tras la '
-- seccion: internacional
-  medio: Europa Press
-  titulo: La UE y Reino Unido estrechan lazos en movilidad juvenil, energía y comercio pese a mantener flancos abiertos
+  titulo: La UE y Reino Unido estrechan lazos en movilidad juvenil, energía y comercio pese a los flancos abiertos
   url: https://www.europapress.es/internacional/noticia-ue-reino-unido-estrechan-lazos-movilidad-juvenil-energia-comercio-pese-mantener-flancos-abiertos-20261120142050.html
   resumen: Londres acepta la entrada cada año de 100.000 jóvenes europeos para estudiar o trabajar y la UE mantiene presión para reducir tasas universitarias
 - seccion: internacional
-  medio: Europa Press
-  titulo: Malasia anuncia el traslado de otros 10.000 refugiados rohingyas a Turquía
-  url: https://www.europapress.es/internacional/noticia-malasia-anuncia-traslado-otros-10000-refugiados-rohingyas-turquia-20261120121606.html
-  resumen: Las autoridades de Malasia han anunciado este viernes el traslado de unos 10.000 refugiados rohingyas a Turquía en el marco de uno de los mayores programas de este tipo puestos en marcha por el país asiático y que llega tan solo un día después de que la Corte Internacional de Justicia (CIJ) haya con
+  medio: El País
+  titulo: Dominique de Villepin anuncia su candidatura a las elecciones presidenciales en Francia
+  url: https://elpais.com/internacional/2026-11-20/dominique-de-villepin-anuncia-su-candidatura-a-las-elecciones-presidenciales-en-francia.html
+  resumen: El ex primer ministro oficializa su carrera al Elíseo por “la situación de degradación” del país. Se presenta como alternativa para hacer frente a los extremos
 - seccion: internacional
   medio: El País
-  titulo: Malasia anuncia un acuerdo para reubicar en Turquía a 10.000 rohinyás exiliados
+  titulo: 'Vídeo | Violencia sexual en el ejército: ¿Un problema sistémico?'
+  url: https://elpais.com/internacional/2026-11-20/video-violencia-sexual-en-el-ejercito-un-problema-sistemico.html
+  resumen: Las altas cifras de acoso sexual en el Ejército alemán ponen de nuevo a los ejércitos de la UE en el foco
+- seccion: internacional
+  medio: El País
+  titulo: Malasia retira el comunicado en el que anunciaba el traslado de 10.000 rohinyás a Turquía
   url: https://elpais.com/internacional/2026-11-20/turquia-acogera-a-10000-rohinyas-reubicados-desde-malasia.html
-  resumen: El comunicado de Kuala Lumpur llega un día después de la condena a Myanmar por el genocidio contra la minoría musulmana. El Gobierno turco aún no se ha pronunciado
-- seccion: internacional
-  medio: El País
-  titulo: El director nacional de Ciberseguridad de la Casa Blanca deja el cargo tras una semana de fallos tecnológicos en Estados Unidos
-  url: https://elpais.com/us/2026-11-20/el-director-nacional-de-ciberseguridad-de-la-casa-blanca-deja-el-cargo-tras-una-semana-de-fallos-tecnologicos-en-estados-unidos.html
-  resumen: Kirsten Davies, responsable de tecnología del Departamento de Defensa, asumirá temporalmente sus funciones
-- seccion: internacional
-  medio: El País
-  titulo: Kabila, al frente de la rebelión, maniobra para impedir un tercer mandato de Tshisekedi en Congo
-  url: https://elpais.com/internacional/2026-11-20/kabila-al-frente-de-la-rebelion-maniobra-para-impedir-un-tercer-mandato-de-tshisekedi-en-congo.html
-  resumen: El expresidente congolés, condenado a muerte en su país, combate al Gobierno con las armas y busca alianzas con la oposición
+  resumen: Kuala Lumpur había dado por hecho el acuerdo un día después de la condena a Myanmar por el genocidio contra la minoría musulmana, pero el Gobierno turco no lo ha confirmado
 - seccion: economia
-  medio: El País
-  titulo: Mi comunidad de propietarios se niega a asumir el coste de reparación de unas vigas centenarias. ¿Qué puedo hacer?
-  url: https://elpais.com/economia/vivienda/consultorio/2026-11-20/mi-comunidad-de-propietarios-se-niega-a-asumir-el-coste-de-reparacion-de-unas-vigas-centenarias-que-puedo-hacer.html
-  resumen: Los lectores envían sus preguntas al consultorio de vivienda de EL PAÍS en colaboración con Legálitas
+  medio: BBC
+  titulo: Anthropic shares fall a day after blockbuster opening
+  url: https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss
+  resumen: Other tech companies have also taken a hit as share markets broadly slump.
 - seccion: economia
-  medio: El País
-  titulo: El problema de la despoblación, escondido por los grandes partidos
-  url: https://cincodias.elpais.com/opinion/2026-11-20/el-problema-de-la-despoblacion-escondido-por-los-grandes-partidos.html
-  resumen: La plataforma La España Vaciada avanza desunida y sin expectativas de que Soria Ya y Teruel Existe consigan diputado
-- seccion: economia
-  medio: El País
-  titulo: ¿Por qué el transporte público se la juega en estas elecciones?
-  url: https://cincodias.elpais.com/opinion/2026-11-20/por-que-el-transporte-publico-se-la-juega-en-estas-elecciones.html
-  resumen: El aumento de usuarios y la electrificación de las flotas obligan a movilizar recursos sin precedentes para el sector
-- seccion: economia
-  medio: El País
-  titulo: finReg360, el despacho que desafía a las ‘big four’ con la superespecialización en regulación financiera
-  url: https://elpais.com/economia/negocios/2026-11-20/finreg360-el-despacho-que-desafia-a-las-big-four-con-la-superespecializacion-en-regulacion-financiera.html
-  resumen: El bufete suma en diez años 80 profesionales y 1.300 clientes. La previsión es facturar este año 15 millones de euros
-- seccion: economia
-  medio: El País
-  titulo: La operación de Unicredit y Commerzbank abre la puerta al gran sueño del BCE de grandes bancos europeos
-  url: https://cincodias.elpais.com/companias/2026-11-20/la-operacion-de-unicredit-y-commerzbank-abre-la-puerta-al-gran-sueno-del-bce-de-grandes-bancos-europeos.html
-  resumen: La compra del banco alemán reactiva el debate sobre las fusiones transfronterizas en Europa, un objetivo que el supervisor bancario y la Comisión Europea impulsan desde hace años
+  medio: BBC
+  titulo: 'Faisal Islam: This cost-cutting UK-EU deal doesn''t mean lower prices will follow'
+  url: https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss
+  resumen: The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.
 - seccion: economia
   medio: BBC
   titulo: Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch
@@ -122,14 +142,14 @@ titulares:
   resumen: People stocking up on long-life food drove retail sales higher October, according to official data.
 - seccion: economia
   medio: BBC
-  titulo: Airbnb's divisive new house rules come into force
-  url: https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss
-  resumen: New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.
-- seccion: economia
-  medio: BBC
   titulo: Should AI be judging our credit worthiness?
   url: https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss
   resumen: Would AI be a good judge of whether you should get a mortgage, car loan or mobile phone contract?
+- seccion: economia
+  medio: BBC
+  titulo: Airbnb's divisive new house rules come into force
+  url: https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss
+  resumen: New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.
 - seccion: economia
   medio: BBC
   titulo: GTA 6 drives spike in download demand, as estimated sales top $2.3bn
@@ -157,11 +177,6 @@ titulares:
   resumen: El 'cara a cara' entre los candidatos a la Presidencia del Gobierno del PSOE y el PP, Pedro Sánchez y Alberto Núñez Feijóo, respectivamente, congregó este jueves a una media de 10.152.000 espectadores y registró un 70,8% de cuota de pantalla en el conjunto de las 20 cadenas que lo emitieron de forma
 - seccion: sociedad
   medio: Europa Press
-  titulo: El Gobierno crea una red de centros de investigación para reforzar la soberanía científica y tecnológica de españa
-  url: https://www.europapress.es/ciencia/noticia-gobierno-crea-red-centros-investigacion-reforzar-soberania-cientifica-tecnologica-espana-20261120130048.html
-  resumen: El Consejo de Ministros ha aprobado este viernes un real decreto-ley para reforzar la soberanía científica y tecnológica de España, de forma que los centros de investigación españoles puedan competir internacionalmente y desarrollar tecnologías esenciales.
-- seccion: sociedad
-  medio: Europa Press
   titulo: La COP31 encara su recta final sin mención al abandono de fósiles en el borrador y con Aagesen en Madrid
   url: https://www.europapress.es/sociedad/noticia-cop31-encara-recta-final-mencion-abandono-fosiles-borrador-aagesen-madrid-20261120115913.html
   resumen: La Cumbre del Clima (COP31) de Antalya (Turquía) encara su recta final sin mención al abandono de combustibles fósiles en el borrador de decisión general y con la vicepresidenta tercera y ministra para la Transición Ecológica y el Reto Demográfico, Sara Aagesen, en Madrid, donde comparecerá en la ru
@@ -187,14 +202,9 @@ titulares:
   resumen: Los presentadores Ion Aramendi y María Lamela serán los encargados de despedir 2026 y dar la bienvenida a 2027 en las Campanadas de Fin de Año de Mediaset España desde la Plaza del Obradoiro de Santiago de Compostela, frente a la fachada principal de su catedral.
 - seccion: sociedad
   medio: Europa Press
-  titulo: Los obispos españoles animan a "votar en conciencia" pensando en "la dignidad de la persona" y el "bien común"
-  url: https://www.europapress.es/sociedad/noticia-obispos-espanoles-animan-votar-conciencia-pensando-dignidad-persona-bien-comun-20261120132039.html
-  resumen: Los obispos españoles han animado a "votar en conciencia" desde "el reconocimiento de la dignidad inviolable de la persona y la promoción del bien común" y han invitado a releer el discurso pronunciado por el Papa León XIV en el Congreso de los Diputados el pasado 8 de junio, durante su viaje a Espa
-- seccion: sociedad
-  medio: El País
-  titulo: 'Turquía: ¿potencia emergente del reciclaje o vertedero de Europa?'
-  url: https://elpais.com/clima-y-medio-ambiente/2026-11-20/turquia-potencia-emergente-del-reciclaje-o-vertedero-de-europa.html
-  resumen: El país organizador de la COP31 se ha convertido en el principal importador de residuos europeos, con graves costes ambientales
+  titulo: Interior y UNICEF firman un acuerdo para fortalecer la protección de los niños en emergencias y catástrofes
+  url: https://www.europapress.es/epsocial/infancia/noticia-interior-unicef-firman-acuerdo-fortalecer-proteccion-ninos-emergencias-catastrofes-20261120114720.html
+  resumen: El ministro del Interior, Fernando Grande-Marlaska, y la presidenta de UNICEF España, María Ángeles Espinosa, han suscrito este viernes un protocolo general de actuación con el objetivo de "fortalecer la protección de niñas, niños y adolescentes ante situaciones de riesgo, emergencia o catástrofe" m
 - seccion: ciencia-salud
   medio: BBC
   titulo: What are heat pumps and how much do they cost?
@@ -217,14 +227,14 @@ titulares:
   resumen: The project aims to create and restore habitats for amphibians and lizards at sites in Yorkshire.
 - seccion: ciencia-salud
   medio: BBC
+  titulo: Man who nearly died during liver surgery at Aberdeen hospital says mistakes were made
+  url: https://www.bbc.co.uk/news/articles/cr894yq07v23o?at_medium=RSS&at_campaign=rss
+  resumen: It comes after a leaked review identified 19 avoidable deaths following liver and pancreatic surgery at the hospital.
+- seccion: ciencia-salud
+  medio: BBC
   titulo: Striking doctors warn staff will leave NI for better pay
   url: https://www.bbc.co.uk/news/articles/cm3vgwxyxgk5o?at_medium=RSS&at_campaign=rss
   resumen: A full 24-hour strike began at 07:00 GMT - the second such action taken by doctors this year.
-- seccion: ciencia-salud
-  medio: BBC
-  titulo: Patient safety chief concerned about NHS Grampian
-  url: https://www.bbc.co.uk/news/articles/cr894yq07v23o?at_medium=RSS&at_campaign=rss
-  resumen: Karen Titchener said she is seeking "independent assurance" that change is being implemented at NHS Grampian.
 - seccion: ciencia-salud
   medio: BBC
   titulo: '''Better results for patients'' since SWAH surgery suspended, says health chief'
@@ -267,9 +277,9 @@ titulares:
   resumen: Frontier models can exploit software flaws faster than the world can fix them. And the risks extend far beyond the cyber realm You’re not crazy to feel the world is coming apart at the seams. Within the last week, outages took down core services at Microsoft , United Airlines and JPMorgan Chase . On
 - seccion: tecnologia
   medio: The Guardian
-  titulo: NextDC vows to keep future datacentres away from homes after community backlash in Melbourne
-  url: https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne
-  resumen: Public expectations around datacentres have changed in the age of AI, chief executive Craig Scroggie says Get our breaking news email , free app or daily news podcast Community backlash to a datacentre expansion in inner Melbourne that resulted in NextDC’s share price dropping 40% will change the wa
+  titulo: '‘Light therapy without remortgaging the house’: the best LED face masks – tested'
+  url: https://www.theguardian.com/thefilter/2025/sep/19/best-led-red-light-therapy-face-masks
+  resumen: 'They claim to reduce fine lines, blemishes and redness – but which stand up to scrutiny? After consulting dermatologists and putting them to the test, we have crowned a brand new number one • The best anti-ageing creams, serums and treatments LED face masks are booming in popularity – despite being '
 - seccion: tecnologia
   medio: The Guardian
   titulo: I’m a tech expert and new mum. Here’s what I learned testing 17 baby monitors
@@ -280,21 +290,6 @@ titulares:
   titulo: AI is imposing a hidden ‘cognitive tax’ on the lowest-paid workers
   url: https://www.theguardian.com/technology/2026/nov/20/ai-low-paid-workers-cognitive-tax
   resumen: It’s time to rethink welfare as AI reshapes the economy and wears down the brains of some of the most vulnerable workers AI is adding to the cognitive load of workers already stretched thin by unpredictable pay, insecure housing and mounting debt – and the lowest paid feel it most. We need to rethin
-- seccion: tecnologia
-  medio: The Guardian
-  titulo: Big tech is already building datacentres in Australia. Why is Labor so desperate to give them loopholes?
-  url: https://www.theguardian.com/technology/commentisfree/2026/nov/20/big-tech-is-already-building-datacentres-in-australia-why-is-labor-desperate-to-give-them-loopholes
-  resumen: If the government bends to AI companies, artists, creatives and journalists will be the sacrificial lamb – and Australia will become a global pariah Get our breaking news email , free app or daily news podcast Right now, the prime minister faces a choice. Does he stand with Jimmy Barnes and the Work
-- seccion: cultura
-  medio: El País
-  titulo: '‘El mal padre’: otra de tensiones entre un padre y sus hijos. Y está bien'
-  url: https://elpais.com/cultura/cine/2026-11-20/el-mal-padre-otra-de-tensiones-entre-un-padre-y-sus-hijos-y-esta-bien.html
-  resumen: Estoy interesado de principio a fin. Es una película con reconocible clima, bien escrita, interpretada y dirigida. Mi problema es que me siento lejos de ellos
-- seccion: cultura
-  medio: El País
-  titulo: '‘Adolescencia, sexo y muerte en Campamento Miasma’: un orgasmo de cine'
-  url: https://elpais.com/cultura/cine/2026-11-20/adolescencia-sexo-y-muerte-en-campamento-miasma-un-orgasmo-de-cine.html
-  resumen: Una obra que renueva el cine de terror desde la nostalgia de esa edad que va desde la pubertad a la primera juventud, y reconduce los códigos del terror de los años ochenta a partir de una cinefilia relacionada con lo ‘queer’
 - seccion: cultura
   medio: BBC
   titulo: Babydoll singer Jamie Miller covers Christmas classic
@@ -307,19 +302,39 @@ titulares:
   resumen: Percy Jackson's lead Walker Scobell admits there are ups and downs to fame as the series returns.
 - seccion: cultura
   medio: BBC
-  titulo: Actor Owen Cooper stars in new Beatles music video
-  url: https://www.bbc.co.uk/news/articles/ckx280084z2go?at_medium=RSS&at_campaign=rss
-  resumen: The film follows a family's love of music across generations and features Liverpool landmarks.
+  titulo: How Blackpool gets ready for Strictly Come Dancing
+  url: https://www.bbc.co.uk/news/articles/cvp86l5j7l93o?at_medium=RSS&at_campaign=rss
+  resumen: We go behind the scenes at the Blackpool Tower Ballroom as Strictly Come Dancing comes to town.
 - seccion: cultura
   medio: BBC
   titulo: Remember Monday 'still feel nerves' after Eurovision
   url: https://www.bbc.co.uk/news/articles/cke89vdd77p3o?at_medium=RSS&at_campaign=rss
   resumen: Life is an adrenaline rush for the trio after their rise to fame through the 2025 Eurovision final.
 - seccion: cultura
+  medio: BBC
+  titulo: Actor Owen Cooper stars in new Beatles music video
+  url: https://www.bbc.co.uk/news/articles/ckx280084z2go?at_medium=RSS&at_campaign=rss
+  resumen: The film follows a family's love of music across generations and features Liverpool landmarks.
+- seccion: cultura
+  medio: The Guardian
+  titulo: 'Melania: the series review – so bad it robbed me of my capacity to discern time and space'
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/20/melania-review-tv-documentary-prime
+  resumen: 'The first lady’s two-part TV documentary is a dead-eyed advert that barely manages to masquerade as entertainment. Calling it thin gruel would be an insult to the gruel industry Previously on Melania: earlier this year – either because it found her a compelling subject, or because it wanted to flatt'
+- seccion: cultura
   medio: The Guardian
   titulo: 'Pink Rabbit: the provocative bedroom drama about a Muslim OnlyFans star interrupted by her mum'
   url: https://www.theguardian.com/stage/2026/nov/20/pink-rabbit-provocative-bedroom-drama-muslim-onlyfans-star-farah-ashraf
   resumen: In Farah Ashraf’s solo show an obedient daughter secretly does online sex work as ‘PersianBaby’. The actor and writer explains how two worlds collide in her darkly funny play At home, Amna is the modest and dutiful Muslim daughter of her parents’ dreams. Online, armed with a webcam and an OnlyFans a
+- seccion: cultura
+  medio: The Guardian
+  titulo: The Body is a hit – and every lesbian I know is obsessed. Why aren’t there more sapphic stories on screen?
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/21/every-lesbian-i-know-is-obsessed-with-the-body-on-netflix
+  resumen: The queer female characters in Netflix’s Catholic school girl horror series are messy and relatable – and unreasonably rare I haven’t been able to get away from Netflix’s The Body. Since the show’s release this month, it’s taken over my conversations and social feeds, and seems to be consuming the c
+- seccion: cultura
+  medio: The Guardian
+  titulo: Ben Whishaw and Kathryn Hunter are a dynamite duo on the road to nowhere in Eurotrash
+  url: https://www.theguardian.com/stage/2026/nov/20/ben-whishaw-kathryn-hunter-eurotrash-review-young-vic
+  resumen: Young Vic, London Adaptation of Christian Kracht’s novel is full of heartwarming comedy as a mother and son take a trip to distribute ‘dirty money’ to good causes You would be hard-pushed to find a more charismatic double act than Kathryn Hunter and Ben Whishaw. She dazzles as a dowager, bringing fl
 - seccion: cultura
   medio: The Guardian
   titulo: Now get out of that! How can the new James Bond film get around 007’s death in No Time to Die?
@@ -337,21 +352,6 @@ titulares:
   resumen: 'Bridgewater Hall, Manchester Thomas Adès, the Hallé and soloist Pekka Kuusisto gave the world premiere of Gabriella Smith’s violin concerto How to Be a Bird, plus a thrilling and fresh take on Stravinsky’s Firebird Suite When did you last attend an orchestral concert in which the composers’ average '
 - seccion: cultura
   medio: The Guardian
-  titulo: ‘If they play dirty, we’ll be total and utter filth!’ Gasp-inducing sex-and-scandal drama War is here to stay
-  url: https://www.theguardian.com/tv-and-radio/2026/nov/20/war-final-episode-dominic-west-sienna-miller-hbo-max-sky-atlantic-now
-  resumen: 'Dominic West and Sienna Miller’s divorce battle has made for a rollicking potboiler in prestige drama clothing. As it approaches its explosive finale, expect the show to become a TV fixture A tech titan is brought down by the oldest trick in the book: a honeytrap. In the week that Nvidia’s Jensen Hu'
-- seccion: cultura
-  medio: The Guardian
-  titulo: '‘My body started consuming itself. I was a millimetre from death’: Andrey Zvyagintsev on Covid, Putin and life in exile'
-  url: https://www.theguardian.com/film/2026/nov/20/andrey-zvyagintsev-covid-putin-russia-life-in-exile
-  resumen: The Russian film-maker spent 40 days in a coma and suffered 92% lung damage during the pandemic. He describes how making new movie Minotaur helped his rehabilitation Andrey Zvyagintsev tells the tale of a knight who is riding through a dark forest and sees a stone sign at a fork in the road. The sig
-- seccion: cultura
-  medio: The Guardian
-  titulo: 'Jodi Picoult: ‘Reading Ta-Nehisi Coates made me rethink racism’'
-  url: https://www.theguardian.com/books/2026/nov/20/jodi-picoult-reading-ta-nehisi-coates-made-me-rethink-racism
-  resumen: 'The American novelist on the wild side of Maurice Sendak, re-evaluating Gone With the Wind, and the magical comforts of Alice Hoffman My favourite book growing up I loved Maurice Sendak’s Where the Wild Things Are. Max’s visit to the land of monsters is escapist, of course, but there’s darkness and '
-- seccion: cultura
-  medio: The Guardian
   titulo: British Library to outsource security and ‘repurpose’ reading rooms as business spaces
   url: https://www.theguardian.com/books/2026/nov/20/british-library-outsource-security-reading-rooms-business-spaces
   resumen: 'Exclusive: Guards told their jobs will be transferred to a private contractor that has rejected union recognition The British Library has sparked outrage over plans to outsource its security workforce and hand over to a private company three of its public reading rooms, to be “repurposed” as busines'
@@ -365,6 +365,16 @@ titulares:
   titulo: Steps review – Netflix’s Disney-lite Cinderella rework has enough pep in its step
   url: https://www.theguardian.com/film/2026/nov/20/steps-netflix-movie-review
   resumen: The plot might be a little overstuffed and the animation style could be a little more distinctive, but this is better than the streamer’s average animated offering Stop me if you’ve heard this one before, but that age-old story you think you know, well, you might not know it at all. It’s a tale as o
+- seccion: cultura
+  medio: The Guardian
+  titulo: You shall go to the panto! Northern Ballet’s Cinderella spices the fairytale with festive fun – and a sweet twist
+  url: https://www.theguardian.com/stage/2026/nov/20/northern-ballet-cinderella-review-norwich-theatre
+  resumen: Norwich Theatre Royal Magic is sprinkled over Michael Pink’s elegant show, with the spirited score played by the Northern Ballet Sinfonia It wouldn’t be the first time an ugly sister has stolen the show. Andrew Tomlinson is a hoot in Northern Ballet’s new Cinderella as a klutzy, vainglorious stepsis
+- seccion: cultura
+  medio: The Guardian
+  titulo: Can depression really become dazzling dance? The biggest ever BalletBoyz show is a huge feat
+  url: https://www.theguardian.com/stage/2026/nov/20/depression-dance-balletboyz-six-lethargies-sadlers-wells-london
+  resumen: Sadler’s Wells, London In Six Lethargies, Iván Pérez and Seirian Griffiths have devised a mammoth production of aching, ethereal sadness ‘If I write what I feel, will you feel it, too?” That was the question behind singer-songwriter turned composer Keaton Henson’s Six Lethargies. Perhaps that is eve
 - seccion: cultura
   medio: The Guardian
   titulo: 'The week’s best new tracks and the act you need to know: the rangy folk-prog songwriting of Threshold'
@@ -381,25 +391,15 @@ titulares:
   url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-espana-enfrentara-francia-cuartos-final-liga-naciones-20261120123251.html
   resumen: La selección española se enfrentará a Francia en los cuartos de final de la Liga de Naciones, que se disputarán entre el 25 y el 30 de marzo de 2027, una eliminatoria en la que España ejercerá de local en la ida, que se jugará en el estadio de Mestalla, y que supone la cuarta competición consecutiva
 - seccion: deportes
-  medio: Europa Press
-  titulo: 'Mourinho: "Necesitamos a Vinícius, pero aquí nadie juega por decreto"'
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-mourinho-necesitamos-vinicius-aqui-nadie-juega-decreto-20261120105327.html
-  resumen: 'El entrenador del Real Madrid, José Mourinho, ha asegurado que necesitan a Vinícius, pero ha advertido de que ningún futbolista juega "por decreto" y que "no hay privilegios" en el equipo, además de instar a "empezar bien esta semana con tres partidos", que iniciarán este sábado ante el RC Celta en '
+  medio: El País
+  titulo: 'Un poquito de Alcaraz, excesivo para el abatido Cobolli: prueba superada'
+  url: https://elpais.com/deportes/tenis/2026-11-20/un-poquito-de-alcaraz-excesivo-para-el-abatido-cobolli-prueba-superada.html
+  resumen: 'El murciano, limitado por el muslo, supera al italiano con una propuesta práctica y directa: 6-4 y 6-1, tras 1h 05m. El sábado disputará las semifinales contra Shelton'
 - seccion: deportes
-  medio: Europa Press
-  titulo: Sonia Bermúdez introduce mucha juventud en la lista para los amistosos ante Chile y Venezuela
-  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-sonia-bermudez-introduce-mucha-juventud-lista-amistosos-chile-venezuela-20261120114638.html
-  resumen: La seleccionadora nacional femenina de fútbol, Sonia Bermúdez, facilitó este martes la lista de 25 convocadas para el doble amistoso de finales de este mes de noviembre ante Chile y Venezuela, con muchas novedades con la entrada de futbolistas jóvenes, regresos esperados y descansos a jugadoras como
-- seccion: deportes
-  medio: Europa Press
-  titulo: Courtois amplía su contrato con el Real Madrid hasta 2028
-  url: https://www.europapress.es/deportes/futbol-00162/noticia-courtois-amplia-contrato-real-madrid-2028-20261120130723.html
-  resumen: El portero belga Thibaut Courtois seguirá defendiendo la portería del Real Madrid después de acordar con el club su ampliación de contrato por una temporadas más, hasta el 30 de junio de 2028, cuando cumpliría su novena temporada en la entidad blanca.
-- seccion: deportes
-  medio: Europa Press
-  titulo: 'Sonia Bermúdez: "Lo que restemos ahora, multiplicará para Brasil"'
-  url: https://www.europapress.es/deportes/futbol/mundial-00639/noticia-sonia-bermudez-restemos-ahora-multiplicara-brasil-20261120131502.html
-  resumen: 'La seleccionadora nacional femenina de fútbol, Sonia Bermúdez, insistió este viernes "una competitividad muy alta" y un "abanico amplio" de jugadoras para confeccionar sus listas de convocadas y dejó claro que han preferido gestionar "cargas" de algunas jugadoras porque cree que todo este ahorro de '
+  medio: El País
+  titulo: El Real Madrid amplía el contrato de Thibaut Courtois hasta 2028
+  url: https://elpais.com/deportes/futbol/2026-11-20/el-real-madrid-amplia-el-contrato-de-thibaut-courtois-hasta-2028.html
+  resumen: El acuerdo anterior del portero belga, de 34 años, vencía al final de esta temporada
 - seccion: deportes
   medio: Marca
   titulo: La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid
@@ -477,9 +477,39 @@ titulares:
   resumen: 'Adnane Ghailan, que compartió partidillos en Rocafonda con el crack del Barça, una sensación en Segunda: "Sentía que podía encajar en el Córdoba"'
 - seccion: deportes
   medio: BBC Sport
+  titulo: Man Utd fan criticism has gone too far at times - Berrada
+  url: https://www.bbc.co.uk/sport/football/articles/cwz0k32j9kr9o?at_medium=RSS&at_campaign=rss
+  resumen: Manchester United chief executive Omar Berrada says some of the recent criticism of the club's hierarchy has "crossed a line".
+- seccion: deportes
+  medio: BBC Sport
   titulo: Cummins retains Cricket Australia support as captain
   url: https://www.bbc.co.uk/sport/cricket/articles/c6808y17r0l0o?at_medium=RSS&at_campaign=rss
   resumen: Pat Cummins will retain backing from Cricket Australia to remain as Test captain despite ongoing and explosive allegations about the sandpaper controversy.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Filming training by drones should be illegal - Iraola
+  url: https://www.bbc.co.uk/sport/football/articles/cqdr1xmekmg5o?at_medium=RSS&at_campaign=rss
+  resumen: Liverpool head coach Andoni Iraola says filming with drones around training grounds should be illegal.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: '''No-one is going to break us'' - defiant Boks face Ireland without Erasmus'
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cm930nj435dvo?at_medium=RSS&at_campaign=rss
+  resumen: South Africa prepare to face Ireland in a much-anticipated Nations Championship Test in Dublin without banned head coach Rassie Erasmus.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Alcaraz puts aside injury concerns to take apart Cobolli
+  url: https://www.bbc.co.uk/sport/tennis/articles/cqrkgn17emr2o?at_medium=RSS&at_campaign=rss
+  resumen: A ruthless Carlos Alcaraz puts aside his injury concerns to dismantle Flavio Cobolli and ensure a perfect record in the ATP Finals group stages.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Why injured Joao Pedro may be Chelsea's most important player
+  url: https://www.bbc.co.uk/sport/football/articles/cr62p7x23vg3o?at_medium=RSS&at_campaign=rss
+  resumen: With Joao Pedro missing again for Chelsea on Saturday, BBC Sport looks at the importance of the Brazilian to the Blues.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Arteta warns Arsenal players over FPL team news leak
+  url: https://www.bbc.co.uk/sport/football/articles/ck62pz5r16pro?at_medium=RSS&at_campaign=rss
+  resumen: Mikel Arteta says his Arsenal players have been warned against inadvertently leaking team news via Fantasy Premier League.
 - seccion: deportes
   medio: BBC Sport
   titulo: GB's Davis Cup-winning captain ends 17-year stint
@@ -487,34 +517,9 @@ titulares:
   resumen: Leon Smith says helping Britain end a 79-year wait to win the Davis Cup is "one of the proudest moments" of his career.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Southampton give head coach Eckert new deal
-  url: https://www.bbc.co.uk/sport/football/articles/cwm25yx3kj5lo?at_medium=RSS&at_campaign=rss
-  resumen: Southampton head coach Tonda Eckert signs a new contract at the club through until 2029.
-- seccion: deportes
-  medio: BBC Sport
   titulo: Rams star Nacua suspended after assault lawsuit
   url: https://www.bbc.co.uk/sport/american-football/articles/c6vg21xdgpqgo?at_medium=RSS&at_campaign=rss
   resumen: Puka Nacua is given a three-game suspension for violating the NFL's personal conduct policy, although the Los Angeles Rams wide receiver was already out injured.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Moore eyes Kane shirt as Spurs' past and future stars meet
-  url: https://www.bbc.co.uk/sport/football/articles/cq0k65pyp4jvo?at_medium=RSS&at_campaign=rss
-  resumen: Cologne loanee Mikey Moore says he hopes to exchange shirts with former Spurs team-mate Harry Kane when they face Bayern Munich on Friday.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: McDowall goes from farm hand to Scotland captain as Darge injured
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/c5n4ey83wk9ko?at_medium=RSS&at_campaign=rss
-  resumen: Stafford McDowall was working on his dad's farm when he got the call to play for Scotland against Australia on Sunday - and six days later will be captain against Japan after Rory Darge suffered a late injury blow.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: ATP increases player compensation to $350m & delays doubles cuts decision
-  url: https://www.bbc.co.uk/sport/tennis/articles/cqd01n33x0geo?at_medium=RSS&at_campaign=rss
-  resumen: The men's ATP Tour promises players rewards of at least $350m in 2028 - but delays a decision on hotly-disputed changes to doubles until next month.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Russell fastest in Las Vegas practice after rain
-  url: https://www.bbc.co.uk/sport/formula1/articles/c9gklmdmnzydo?at_medium=RSS&at_campaign=rss
-  resumen: Mercedes' George Russell topped a second practice session at the Las Vegas Grand Prix run on a wet but slowly drying track.
 - seccion: deportes
   medio: BBC Sport
   titulo: History, hunger and headline bills - why Price is box office
@@ -522,34 +527,39 @@ titulares:
   resumen: As Lauren Price bids to become Wales' first undisputed world champion, the former footballer already has her sights set on stadium fights.
 - seccion: deportes
   medio: BBC Sport
+  titulo: Russell fastest in Las Vegas practice after rain
+  url: https://www.bbc.co.uk/sport/formula1/articles/c9gklmdmnzydo?at_medium=RSS&at_campaign=rss
+  resumen: Mercedes' George Russell topped a second practice session at the Las Vegas Grand Prix run on a wet but slowly drying track.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: McDowall goes from farm hand to Scotland captain as Darge injured
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/c5n4ey83wk9ko?at_medium=RSS&at_campaign=rss
+  resumen: Stafford McDowall was working on his dad's farm when he got the call to play for Scotland against Australia on Sunday - and six days later will be captain against Japan after Rory Darge suffered a late injury blow.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Moore eyes Kane shirt as Spurs' past and future stars meet
+  url: https://www.bbc.co.uk/sport/football/articles/cq0k65pyp4jvo?at_medium=RSS&at_campaign=rss
+  resumen: Cologne loanee Mikey Moore says he hopes to exchange shirts with former Spurs team-mate Harry Kane when they face Bayern Munich on Friday.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Southampton give head coach Eckert new deal
+  url: https://www.bbc.co.uk/sport/football/articles/cwm25yx3kj5lo?at_medium=RSS&at_campaign=rss
+  resumen: Southampton head coach Tonda Eckert signs a new contract at the club through until 2029.
+- seccion: deportes
+  medio: BBC Sport
   titulo: Inside the rise of 'humble' Nyoni and why Iraola trusts him
   url: https://www.bbc.co.uk/sport/football/articles/ck24enjqvlyeo?at_medium=RSS&at_campaign=rss
   resumen: Teenage midfielder Trey Nyoni backed himself in the summer to play regular football for Liverpool. He is doing exactly that and thriving under Andoni Iraola.
 - seccion: deportes
-  medio: BBC Sport
-  titulo: UFC title contender Fiorot banned for three months
-  url: https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6808yxx71e0o?at_medium=RSS&at_campaign=rss
-  resumen: Highly ranked UFC flyweight Manon Fiorot is banned for three months for violating the promotion's anti-doping policy.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: F1 bosses close to V8 engines deal from 2030
-  url: https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo?at_medium=RSS&at_campaign=rss
-  resumen: Formula 1 bosses are close to a deal that will see V8 turbo hybrid engines replace the current controversial engines in 2030.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Stoke and Birmingham proving you shouldn't judge a book by its cover
-  url: https://www.bbc.co.uk/sport/football/articles/cmy8670vjlx0o?at_medium=RSS&at_campaign=rss
-  resumen: Stoke host Birmingham in a Championship game of two teams both bang in form going into the latest international break. How will they re-emerge?
-- seccion: deportes
-  medio: BBC Sport
-  titulo: The art of protection - inside an F1 helmet factory
-  url: https://www.bbc.co.uk/sport/formula1/articles/cm20vpq8z6n4o?at_medium=RSS&at_campaign=rss
-  resumen: Inside the extraordinary world of Formula 1 helmets, where precision engineering, personal expression and life-saving technology join forces.
+  medio: The Guardian
+  titulo: Pochettino demands say on big United decisions; Arteta takes fantasy football action; Nations League draw – live
+  url: https://www.theguardian.com/football/live/2026/nov/20/weekend-football-countdown-live-news-updates
+  resumen: ⚽ All the latest football news going into the weekend ⚽ Fixtures | Tables | Ten things to look out for | Mail Michael A Liverpool fan accused of racially abusing Antoine Semenyo has been found not guilty after the Manchester City forward withdrew his support for the prosecution, reports the Press As
 - seccion: deportes
   medio: The Guardian
-  titulo: Pochettino session leaked on drone footage; Arteta takes fantasy football action; Nations League draw – live
-  url: https://www.theguardian.com/football/live/2026/nov/20/weekend-football-countdown-live-news-updates
-  resumen: ⚽ All the latest football news going into the weekend ⚽ Fixtures | Tables | Ten things to look out for | Mail Tom A Liverpool fan accused of racially abusing Antoine Semenyo has been found not guilty after the Manchester City forward withdrew his support for the prosecution, reports the Press Associ
+  titulo: Tom Brady in talks over buying Chelsea stake after Birmingham City exit
+  url: https://www.theguardian.com/football/2026/nov/20/tom-brady-chelsea-talks-stake-birmingham-city
+  resumen: NFL legend was Chelsea guest at Club World Cup Brady has good relationship with Behdad Eghbali Tom Brady is in discussions about buying a small stake in Chelsea. The NFL legend sold a minority share in Birmingham City after three years this month, a move sources have told the Guardian was to pave th
 - seccion: deportes
   medio: The Guardian
   titulo: 'Arsenal’s Lisa Baum: ‘I believe in us. I think it’s all about the small margins’'
