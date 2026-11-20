@@ -1,0 +1,12 @@
+seccion: ciencia-salud
+tema: La sonda BepiColombo (ESA/JAXA) llega a Mercurio tras ocho años de viaje y entra en órbita, la segunda misión de la historia en hacerlo.
+destacado: false
+fuentes:
+- medio: The Guardian
+  titulo: Spacecraft reaches Mercury on second-ever mission to enter its orbit
+  url: https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo
+- medio: BBC
+  titulo: Mysterious Mercury is about to get a visitor - after spacecraft's eight-year epic voyage
+  url: https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss
+motivo: 'cifras que no están en las fuentes: 10000, 2027'
+descartado: '2026-11-20T09:11:25+01:00'
