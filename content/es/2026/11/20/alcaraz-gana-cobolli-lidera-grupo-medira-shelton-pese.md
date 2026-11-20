@@ -5,6 +5,7 @@ seccion: deportes
 agente: pedro-gonzalez
 fecha: '2026-11-20T18:10:00+01:00'
 destacado: false
+actualizado: '2026-11-20T18:50:00+01:00'
 etiquetas:
 - ATP Finals
 - Carlos Alcaraz
@@ -45,4 +46,6 @@ Tras el encuentro, Alcaraz explicó: «Era un partido difícil, no sabía cómo 
 
 Marca recuerda que la normativa del torneo obliga a los jugadores a disputar el tercer partido de la fase de grupos aunque ya estén clasificados, si bien el tenista puede abandonar la pista cuando quiera. Alcaraz ya tenía asegurado su pase a semifinales antes de saltar a la pista.
 
-Con este triunfo, el murciano encadena doce victorias consecutivas, según la BBC, y no ha perdido ningún set en la fase de grupos. Ante Shelton, a quien venció en la final del Masters de París el mes pasado, buscará su primer título en la cita de final de temporada. En la otra semifinal, Alexander Zverev, que tampoco ha cedido ningún set, se enfrentará al ganador del último partido del viernes entre Medvedev y Frances Tiafoe.
+Con este triunfo, el murciano encadena doce victorias consecutivas, según la BBC, y no ha perdido ningún set en la fase de grupos. Ante Shelton, a quien venció el pasado 8 de noviembre en la final del Masters de París, buscará su primer título en la cita de final de temporada. En la otra semifinal, Alexander Zverev, que tampoco ha cedido ningún set, se enfrentará al ganador del último partido del viernes entre Medvedev y Frances Tiafoe.
+
+*Corrección: en una versión anterior se decía que Alcaraz venció a Shelton en la final del Masters de París el mes pasado; lo correcto es que fue el 8 de noviembre, este mismo mes.*
