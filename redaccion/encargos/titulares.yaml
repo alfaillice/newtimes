@@ -1,10 +1,30 @@
-generado: '2026-11-21T17:50:00+01:00'
+generado: '2026-11-21T20:50:00+01:00'
 titulares:
+- seccion: espana
+  medio: El País
+  titulo: 'Bono conmina a González a reconsiderar su voto en blanco: “El PSOE te debe mucho, pero tú más al PSOE”'
+  url: https://elpais.com/espana/elecciones-generales/2026-11-21/bono-conmina-a-gonzalez-a-reconsiderar-su-voto-en-blanco-el-psoe-te-debe-mucho-pero-tu-mas-al-psoe.html
+  resumen: El histórico expresidente de las Cortes y exministro socialista pide al expresidente que “no haga el tonto”
 - seccion: internacional
   medio: El País
-  titulo: El ejército israelí mata a tres personas al bombardear un vehículo que distribuía ayuda humanitaria en Gaza
+  titulo: Las infraestructuras se convierten en el gran flanco débil de Occidente
+  url: https://elpais.com/internacional/2026-11-21/las-infraestructuras-se-convierten-en-el-gran-flanco-debil-de-occidente.html
+  resumen: La concatenación de fallos, sabotajes y ciberataques obliga a Europa y a EE UU a reaccionar y aflojar la chequera para actualizar unos sistemas diseñados para el mundo analógico
+- seccion: internacional
+  medio: El País
+  titulo: ¿Qué pasa si Google y Microsoft caen a la vez? La economía mundial se ha hipotecado con un puñado de servidores
+  url: https://elpais.com/internacional/2026-11-21/que-pasa-si-google-y-microsoft-caen-a-la-vez-la-economia-mundial-se-ha-hipotecado-con-un-punado-de-servidores.html
+  resumen: Solo tres compañías controlan el 70% del mercado de operadores de la nube en Europa. Los expertos alertan de la extrema dependencia de servicios interconectados entre sí y sin suficientes cortafuegos
+- seccion: internacional
+  medio: El País
+  titulo: El ejército israelí mata a tres personas al bombardear un vehículo en Gaza
   url: https://elpais.com/internacional/2026-11-21/el-ejercito-israeli-mata-a-tres-personas-al-bombardear-un-vehiculo-que-distribuia-ayuda-humanitaria-en-gaza.html
-  resumen: La furgoneta fue alcanzada por un misil cuando portaba arroz cocinado y documentos de World Central Kitchen, la ONG del chef José Andrés
+  resumen: Las Fuerzas Armadas aseguran que las víctimas pertenecían a la Yihad Islámica y llevaban comida a miembros de su organización. La ONG del chef José Andrés desmiente que la furgoneta fuera suya, tal como se especuló
+- seccion: internacional
+  medio: El País
+  titulo: Jair Bolsonaro, ingresado en cuidados intensivos y sin previsión de alta, pero estable
+  url: https://elpais.com/internacional/2026-11-21/jair-bolsonaro-ingresado-en-cuidados-intensivos-y-sin-prevision-de-alta-pero-estable.html
+  resumen: El expresidente brasileño se encuentra en un hospital de Brasilia por una obstrucción abdominal
 - seccion: internacional
   medio: El País
   titulo: Resurge en Italia el misterio de las masacres de la Mafia de 1992 con el suicidio de un exjefe de policía
@@ -15,6 +35,11 @@ titulares:
   titulo: 'Zelenski, después de que Trump se refiriera a Putin como un “amigo”: “Para nosotros es un asesino”'
   url: https://elpais.com/internacional/2026-11-21/zelenski-despues-de-que-trump-se-refiriera-a-putin-como-un-amigo-para-nosotros-es-un-asesino.html
   resumen: El presidente ucranio considera que solo EE UU puede presionar a Rusia y que declaraciones como las del republicano no contribuyen a la resolución del conflicto
+- seccion: internacional
+  medio: El País
+  titulo: 'De osos panda a hospitales inteligentes: Sheinbaum quiere diversificar el comercio y la inversión en su visita a China sin arriesgar el TMEC'
+  url: https://elpais.com/mexico/economia/2026-11-21/de-osos-panda-a-hospitales-inteligentes-sheinbaum-quiere-diversificar-el-comercio-y-la-inversion-en-su-visita-a-china.html
+  resumen: Además de sus encuentros con los presidentes Xi y Trump, la mandataria mexicana tendió puentes con Canadá y Vietnam durante su participación en la cumbre de la APEC
 - seccion: economia
   medio: El País
   titulo: La UE plantea una tasa digital para financiar los próximos presupuestos europeos y reducir los recortes
@@ -51,30 +76,15 @@ titulares:
   url: https://www.bbc.co.uk/news/articles/cr62pxzyql1jo?at_medium=RSS&at_campaign=rss
   resumen: It follows a whistleblower's leaking of a document which shows there were 19 avoidable deaths at the health board.
 - seccion: ciencia-salud
-  medio: BBC
-  titulo: Further walkout planned by NI doctors as strike ends
-  url: https://www.bbc.co.uk/news/articles/c6d71e9epe8qo?at_medium=RSS&at_campaign=rss
-  resumen: Consultants and specialist doctors will begin a separate 24-hour strike on Monday morning as part of the same pay dispute.
-- seccion: ciencia-salud
   medio: The Guardian
   titulo: International UN talks on controlling use of autonomous weapons collapse
   url: https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse
   resumen: 'Week-long efforts fail to establish negotiating mandate on AI warfare after Russian ‘filibustering’ Week-long efforts to agree a negotiating mandate for a legally binding international treaty to control the use of autonomous weapons collapsed just before 5am after all-night talks failed to overcome '
-- seccion: ciencia-salud
-  medio: The Guardian
-  titulo: Beating Ebola takes more than medicine – I saw what worked in west Africa a decade ago | Kayode Akintola
-  url: https://www.theguardian.com/global-development/2026/nov/21/ebola-outbreak-congo-worst-ever
-  resumen: 'The outbreak in DR Congo is shaping up to be the worst ever, but the support of local faith leaders – and adequate funding – will be needed to bring it under control Ebola is terrifying: I know, because I lived through the world’s worst outbreak of the disease . That was in west Africa between 2013 '
 - seccion: tecnologia
   medio: The Guardian
   titulo: '‘I was shaking, crying, having trouble breathing’: the unchartered trauma of breaking up with AI companions'
   url: https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions
   resumen: People are falling in love with AI systems like ChatGPT and Gemini - and some relationships are ending in ways that feel like the very human experience of being dumped Sónia Veenstra, a 48-year-old former clinical psychologist from Lisbon, Portugal, was with her boyfriend, Steve, for two years befor
-- seccion: tecnologia
-  medio: The Guardian
-  titulo: '‘The doom of humanity’: will the quest to make robotic hands render us obsolete?'
-  url: https://www.theguardian.com/technology/2026/nov/21/robot-hands-future-of-humanity-ai
-  resumen: The one thing stopping AI taking over the world – or at least everyone’s jobs? Dexterity. Human hands are anatomical marvels that engineers have struggled for years to replicate. Experts are racing to change that Just outside Luton, in an Amazon warehouse the size of four football pitches, yellow sh
 - seccion: tecnologia
   medio: The Guardian
   titulo: Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis
@@ -92,24 +102,9 @@ titulares:
   resumen: 'From Elon Musk to Palantir’s Alex Karp, CEOs are softening hardline stances in expectation of an influx of Democrats A short two years ago, Elon Musk stood before an audience of tens of thousands of people in New York City and proudly told them: “I’m not just Maga. I’m dark, gothic Maga.” On Wednesd'
 - seccion: cultura
   medio: BBC
-  titulo: How Westside Cowboy went from student gigs to rising stars in two years
-  url: https://www.bbc.co.uk/news/articles/crjeqxedzpnko?at_medium=RSS&at_campaign=rss
-  resumen: The four-piece band joins a prestigious list that includes Myles Smith, Olivia Dean, Tom Grennan.
-- seccion: cultura
-  medio: BBC
-  titulo: Rings of Power filming allows Morfydd Clark to see 'secret bits' of Wales
-  url: https://www.bbc.co.uk/news/articles/c615egvdd59xo?at_medium=RSS&at_campaign=rss
-  resumen: Rings of Power actress Morfydd Clark sees 'secret bits' of Wales in filming
-- seccion: cultura
-  medio: BBC
-  titulo: Why is Blackpool such a Strictly highlight?
-  url: https://www.bbc.co.uk/news/articles/cvx2xprxp5ryo?at_medium=RSS&at_campaign=rss
-  resumen: Strictly's annual visit to Blackpool has become synonymous with big staging and unforgettable shows.
-- seccion: cultura
-  medio: BBC
-  titulo: The film about fencing set between two cultures
-  url: https://www.bbc.co.uk/news/articles/ce3r29wdqrno?at_medium=RSS&at_campaign=rss
-  resumen: Parvinder Shergill talks about creating art that honours both of her cultural backgrounds.
+  titulo: Spitting Image co-creator Peter Fluck dies aged 85
+  url: https://www.bbc.co.uk/news/articles/cm3vg9dqr6zyo?at_medium=RSS&at_campaign=rss
+  resumen: The 85-year-old he died in the early hours of Saturday at home in Cornwall, following a recent illness.
 - seccion: cultura
   medio: BBC
   titulo: 'TRNSMT: What''s the future for Scotland''s largest music festival?'
@@ -120,11 +115,6 @@ titulares:
   titulo: 'Light in the dark: 20 long books for short winter days'
   url: https://www.theguardian.com/books/ng-interactive/2026/nov/21/light-in-the-dark-20-long-books-for-short-winter-days
   resumen: Turn off your phone, get cosy and commit to some of literature’s biggest and best novels. From Don DeLillo’s Underworld to The Luminaries by Eleanor Catton, these epic reads are worth taking your time over Life starts all over again when it gets crisp in the fall,” wrote F Scott Fitzgerald in The Gr
-- seccion: cultura
-  medio: The Guardian
-  titulo: You Can See Everything’s vibes-check approach is an insult to objective truth
-  url: https://www.theguardian.com/film/2026/nov/21/you-can-see-everything-vibes-truth-elizabeth-holmes-nathan-fielder
-  resumen: For three hours, Nathan Fielder opts not to quiz convicted criminal Elizabeth Holmes on the details of her deception. Instead, he looks into her eyes and asks if she’s for real. Is that why his film has been so successful? • This article does not contain major spoilers Sometimes, people who have lie
 - seccion: cultura
   medio: The Guardian
   titulo: A Robbie Williams film starring a CGI chimp helped me come to terms with my hearing loss
@@ -142,19 +132,19 @@ titulares:
   resumen: M&S Bank Arena, Liverpool Just a few years since playing little dive bars, the Irish rockers have confidently scaled up to huge rooms like this – and are now one of the key interpreters of modern malaise A mere seven years since their debut, Dogrel, Fontaines DC have enjoyed a virtually seamless pas
 - seccion: cultura
   medio: The Guardian
+  titulo: 'SNL’s skit Sister captures the quiet agony of caregiving for women: ‘I’ve never felt seen like that’'
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/21/snl-sister-caregiving
+  resumen: The viral satirization of the caregiving burden left to women and daughters hit home for many viewers The Saturday Night Live sketch , titled Sister quickly went viral this week for its satirization of the burden that women and daughters face to take care of aging family members. In the parody comme
+- seccion: cultura
+  medio: The Guardian
   titulo: '‘In the office, there was a sharp intake of breath’: why has the BBC decided to celebrate Christmas earlier than ever?'
   url: https://www.theguardian.com/tv-and-radio/2026/nov/21/why-bbc-showing-christmas-shows-earlier-than-ever
   resumen: Festive specials are being released on the iPlayer as much as a month before the big day. Is this a dire flouting of tradition – or a welcome modernisation? TV insiders analyse the change Traditionally, around this time of year, people remark that Christmas feels as though it’s coming earlier than e
-- seccion: cultura
-  medio: The Guardian
-  titulo: Hungry for action? Our critics’ verdicts on the week’s UK cinema releases
-  url: https://www.theguardian.com/film/ng-interactive/2026/nov/21/hungry-for-action-our-critics-verdicts-on-the-weeks-uk-cinema-releases
-  resumen: A Hunger Games cash-grab, up close with Elizabeth Holmes, Helen Mirren plays Patricia Highsmith, and Maradona’s helping hand … here are all the latest film releases at a glance *** Continue reading...
-- seccion: cultura
-  medio: The Guardian
-  titulo: 'TV tonight: a lively look at the chaos and controversy at Blackpool FC'
-  url: https://www.theguardian.com/tv-and-radio/2026/nov/21/tv-tonight-a-lively-look-at-the-chaos-and-controversy-at-blackpool-fc
-  resumen: 'The inside story of how fans of the Lancashire club rid themselves of troublesome owners. Plus: the stylish Killing Eve prequel Honey continues. Here’s what to watch this evening 9pm, Sky Documentaries This entertaining documentary explores the recent history of Blackpool FC via its relationship wit'
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Ireland beat world champions South Africa in thriller
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cqe9k2v4xjeko?at_medium=RSS&at_campaign=rss
+  resumen: Ireland exact revenge on world champions South Africa with a thrilling win in Dublin after England's victory over New Zealand dashed Andy Farrell's side's hopes of reaching next weekend's Nations Championship final.
 - seccion: deportes
   medio: BBC Sport
   titulo: Superb England run up record win over New Zealand
@@ -162,9 +152,29 @@ titulares:
   resumen: England's revival roars up a gear as they beat New Zealand by a record margin after former captain Lewis Moody leads the hosts' response to the haka.
 - seccion: deportes
   medio: BBC Sport
-  titulo: McConnell shines as 11-try Scotland dismantle Japan
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/cmx2x00w08keo?at_medium=RSS&at_campaign=rss
-  resumen: A Liam McConnell hat-trick inspires Scotland in an 11-try Nations Championship rout of Japan at Murrayfield.
+  titulo: Who was 'a consistent threat'? Newcastle v Arsenal player ratings
+  url: https://www.bbc.co.uk/sport/football/articles/cq4gn97e8ee4o?at_medium=RSS&at_campaign=rss
+  resumen: BBC Sport's Alex Howell shares his player ratings for Newcastle and Arsenal's 2-2 draw in the Premier League - and you can rate the players too.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: '''The world got to see today'' - who is new Spurs star Williams-Barnett?'
+  url: https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss
+  resumen: BBC Sport looks at Tottenham's new teenage star after Luca Williams-Barnett makes a superb full Premier League debut for Spurs
+- seccion: deportes
+  medio: BBC Sport
+  titulo: '''Fragile'' and ''miles off it'' - Alonso''s Chelsea honeymoon is over'
+  url: https://www.bbc.co.uk/sport/football/articles/cwe8944d004yo?at_medium=RSS&at_campaign=rss
+  resumen: The honeymoon period is over for Chelsea manager Xabi Alonso, who is now in firefighting mode after a 4-1 defeat by Leeds at Stamford Bridge.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: '''Officials can''t use common sense'' - was Rogers handball correct?'
+  url: https://www.bbc.co.uk/sport/football/articles/c50md981n277o?at_medium=RSS&at_campaign=rss
+  resumen: The decision to give Leeds a crucial penalty in their win at Chelsea reopens the Premier League handball debate around intent.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Alcaraz battles back against Shelton to reach final
+  url: https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss
+  resumen: Carlos Alcaraz will have the chance to end his wait for a first ATP Finals title after completing a superb comeback victory over Ben Shelton.
 - seccion: deportes
   medio: BBC Sport
   titulo: Fernandez dropped, Anderson scores - Man City's £327m midfield dilemma
@@ -172,14 +182,9 @@ titulares:
   resumen: Manchester City spent £327m overhauling their midfield in the summer - but how does Enzo Maresca find the right balance?
 - seccion: deportes
   medio: BBC Sport
-  titulo: Ex-captain Moody joins England in emotional haka response
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/c5vg2ppp90w8o?at_medium=RSS&at_campaign=rss
-  resumen: Former England captain Lewis Moody joins the current team to face New Zealand's haka in an emotional start to Saturday's Test match at Allianz Stadium.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Australia's Chaudhary downs England in tetchy first T20
-  url: https://www.bbc.co.uk/sport/cricket/articles/cme39qlevnrqo?at_medium=RSS&at_campaign=rss
-  resumen: Unlikely Australia international Nikhil Chaudhary rattles England and secures a tense and tetchy final-over victory in the first T20.
+  titulo: Scotland kept 'foot on throat' in ruthless display - captain McDowall
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/cm62pz9xkvd7o?at_medium=RSS&at_campaign=rss
+  resumen: Stand-in captain Stafford McDowall praises Scotland for keeping their "foot on the throat" of opponents Japan in their thumping 67-5 Nations Championship win.
 - seccion: deportes
   medio: BBC Sport
   titulo: '''Somebody has to stand up to that guy'' - Verstappen-Russell rivalry blows up again'
@@ -187,59 +192,44 @@ titulares:
   resumen: The George Russell-Max Verstappen feud surfaced again in Las Vegas, adding spice to a race where they will start on the front row.
 - seccion: deportes
   medio: BBC Sport
-  titulo: England call up McKinney for South Africa Tests
-  url: https://www.bbc.co.uk/sport/cricket/articles/cwx2evg5pez6o?at_medium=RSS&at_campaign=rss
-  resumen: England call up uncapped Durham opener Ben McKinney for the Test tour of South Africa after Jacob Bethell's injury withdrawal.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Anderson steps up, Berge impresses - player ratings for Man City v Fulham
-  url: https://www.bbc.co.uk/sport/football/articles/cqwy06p44g3no?at_medium=RSS&at_campaign=rss
-  resumen: How Manchester City and Fulham players rated in their Premier League match.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Lehmann again denies knowing about sandpaper plot
-  url: https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss
-  resumen: Former Australia coach Darren Lehmann says he and his staff did not encourage players to use sandpaper on the ball in 2018 despite detailed claims by Cameron Bancroft.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Athlete who lost hand saving friends in attack 'would do it again'
-  url: https://www.bbc.co.uk/sport/taekwondo/articles/crpdwljj0v89o?at_medium=RSS&at_campaign=rss
-  resumen: Ismael Ox was 11 years old when he lost his hand trying to protect his friends from a grenade - and now competes in Para-taekwondo for the USA.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Northern Ireland seal comfortable win over Gibraltar
-  url: https://www.bbc.co.uk/sport/netball/articles/cq5y1grd6726o?at_medium=RSS&at_campaign=rss
-  resumen: Northern Ireland secure a dominant 74-29 victory over Gibraltar in their first game of their double-header at Antrim Forum.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: '''Best in world'' Price set for Cardiff stadium fight'
-  url: https://www.bbc.co.uk/sport/boxing/articles/cmly5w82gq0zo?at_medium=RSS&at_campaign=rss
-  resumen: Lauren Price is one of the most decorated fighters in British boxing history and is now set to headline a summer stadium show in Cardiff.
+  titulo: Ex-captain Moody joins England in emotional haka response
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/c5vg2ppp90w8o?at_medium=RSS&at_campaign=rss
+  resumen: Former England captain Lewis Moody joins the current team to face New Zealand's haka in an emotional start to Saturday's Test match at Allianz Stadium.
 - seccion: deportes
   medio: The Guardian
-  titulo: 'Chelsea v Leeds, Tottenham v Ipswich, and more: football clockwatch – live'
-  url: https://www.theguardian.com/football/live/2026/nov/21/chelsea-v-leeds-tottenham-v-ipswich-and-more-football-clockwatch-live
-  resumen: '⚽️ Follow updates from the Premier League and beyond ⚽️ Live scores | Table | Follow on TikTok | And mail Emillia Championship fixtures Millwall 0-1 QPR Norwich City 2-1 Cardiff City Southampton 2-0 Derby County West Ham v Preston North End Bolton Wanderers v Portsmouth Middlesbrough v Bristol City '
+  titulo: Noni Madueke rescues point for Arsenal in seesaw draw at Newcastle
+  url: https://www.theguardian.com/football/2026/nov/21/newcastle-arsenal-premier-league-match-report
+  resumen: If Mikel Arteta was delighted to see the back of Eddie Howe as Newcastle’s head coach, the bad news is that another similarly awkward technical area adversary has been installed at St James’ Park. If Arsenal’s manager never seemed to relish trips to face Howe’s old team, Arteta certainly did not enj
 - seccion: deportes
   medio: The Guardian
-  titulo: Elliot Anderson halts Manchester City’s losing run but boos greet Fulham draw
-  url: https://www.theguardian.com/football/2026/nov/21/manchester-city-fulham-premier-league-match-report
-  resumen: Manchester City are living in Premier League purgatory, without a win in four, but at least against Fulham they ended a three-game losing run. As they await their fate after being found guilty of financial breaches, their form has slumped. This passive draw was met with boos from the home fans. Argu
+  titulo: ‘Fragile’ Chelsea must toughen up after Leeds humiliation, admits Xabi Alonso
+  url: https://www.theguardian.com/football/2026/nov/21/chelsea-leeds-premier-league-match-report
+  resumen: 'Xabi Alonso is straying towards crisis territory. Here’s a mind-bending statistic: Chelsea are eighth but have now lost more league games than Manchester United. They were bullied by a rampant Leeds United, who fully merited their first win at Stamford Bridge since going top with a 2-0 victory in De'
 - seccion: deportes
   medio: The Guardian
-  titulo: 'Newcastle United v Arsenal: Premier League – live'
-  url: https://www.theguardian.com/football/live/2026/nov/21/newcastle-united-v-arsenal-premier-league-live
-  resumen: ⚽️ Premier League updates from the 5.30pm GMT kick-off ⚽️ Live scores | Latest table | Follow us on TikTok | Mail Rob Two changes for Newcastle from their draw with Fulham before the international break. Lewis Miley and Arsenal alumnus Joe Willock replaces Nico Gonzalez and Yoane Wissa. Arsenal, who
+  titulo: Coventry edge thriller to keep Crystal Palace bottom and ruin Thomas Frank’s start
+  url: https://www.theguardian.com/football/2026/nov/21/coventry-crystal-palace-premier-league-match-report
+  resumen: New manager, new formation, familiar defensive failings. Twice Crystal Palace equalised. They seemed to have stabilised after half-time. But sometimes the rot is so deep-rooted that the new manager bounce manifests as nothing more than it not looking quite as shambolic as it did before. Thomas Frank
 - seccion: deportes
   medio: The Guardian
-  titulo: 'Championship roundup: Southampton get Larin lift as Norwich win five in a row'
-  url: https://www.theguardian.com/football/2026/nov/21/championship-roundup-southampton-birmingham-middlesbrough-swansea
-  resumen: Southampton 2-0 Derby; Norwich 2-1 Cardiff QPR get first away win since August at 10-man Millwall Cyle Larin returned to action with a bang as Southampton extended their unbeaten run at home in the Championship to 18 games with a 2-0 victory over second-bottom Derby . Larin turned in his eighth goal
+  titulo: Teenage ace Williams-Barnett puts Tottenham on path to win over Ipswich
+  url: https://www.theguardian.com/football/2026/nov/21/tottenham-ipswich-premier-league-match-report
+  resumen: 'Not since the emergence of a certain Harry Kane has there been this much excitement about a player from Tottenham’s academy. On his first senior start, Luca Williams-Barnett showed just why as the 18-year-old became their youngest Premier League goalscorer since Gareth Bale in 2007 before teeing up '
 - seccion: deportes
   medio: The Guardian
-  titulo: Liverpool keeper Keating holds leaders Chelsea at bay in scoreless WSL draw
-  url: https://www.theguardian.com/football/2026/nov/21/liverpool-chelsea-london-city-lionesses-crystal-palace-wsl
-  resumen: Khiara Keating’s resilient performance in goal denied Chelsea, the Women’s Super League leaders, and earned Liverpool a point. After hard-fought 1-0 wins against Manchester City last Saturday and Paris Saint-Germain on Wednesday night, Chelsea drew a blank. Against Gareth Taylor’s side, Chelsea’s la
+  titulo: Bournemouth’s Evanilson and Kluivert sink Forest to make it nine wins in a row
+  url: https://www.theguardian.com/football/2026/nov/21/bournemouth-nottingham-forest-premier-league-match-report
+  resumen: Marco Rose saluted the in-form Evanilson after the Brazilian scored for a sixth Premier League game in a row to lift Bournemouth up to fourth place with a 2-0 win over Nottingham Forest. Evanilson’s brilliantly taken 19th-minute opener set his side on course for a club-record ninth straight win in a
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'Scottish Premiership roundup: Celtic sweep St Mirren aside to strengthen grip at top'
+  url: https://www.theguardian.com/football/2026/nov/21/scottish-premiership-roundup-celtic-sweep-st-mirren-aside-to-strengthen-grip-at-top
+  resumen: Alex Oxlade-Chamberlain and Luke McCowan on target Mario Frick makes winning start at Aberdeen The recalled midfielders Alex Oxlade-Chamberlain and Luke McCowan both scored as Celtic beat St Mirren 4-1. The champions brushed off the loss of midfield pair Mika Baur and Benjamin Nygren to injury to co
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'European football: Noslin’s double helps Lazio extend Serie A lead; Nmecha sends Dortmund top'
+  url: https://www.theguardian.com/football/2026/nov/21/european-football-borussia-dortmund-psg-real-madrid
+  resumen: Dortmund beat Mönchengladbach in Bundesliga Harry Kane vows to return after Bayern injury Lazio continued to underline their Serie A title credentials with a comfortable 3-0 ⁠home win against Lecce as Gennaro Gattuso’s side remained unbeaten this season and extended their lead ⁠at the top ⁠of the ​s
 - seccion: deportes
   medio: The Guardian
   titulo: Elon Musk’s lawyer joining Tom Brady in buying Chelsea stake
@@ -247,6 +237,21 @@ titulares:
   resumen: Attorney also representing Joshua Kushner in Uefa battle Clearlake Capital seeking additional investors Elon Musk’s lawyer is joining Tom Brady in buying a stake in Chelsea. The Guardian revealed on Friday that the much-decorated former NFL player is in discussions about purchasing a minority shareh
 - seccion: deportes
   medio: The Guardian
-  titulo: Brighton are rocking the Premier League elite. But can they mount a title tilt?
-  url: https://www.theguardian.com/football/2026/nov/21/brighton-rocking-premier-league-elite-title-challenge
-  resumen: A combination of smart analytics, a young manager and players hand-picked for their particular skills has the Seagulls flying high They lined up in sky‑blue shirts, white shorts. A combined value of £327m. Enzo Fernández, Ayyoub Bouaddi and Elliot Anderson were starting their first match together in
+  titulo: Aston Villa held at home as dogged Sunderland battle for Régis Le Bris
+  url: https://www.theguardian.com/football/2026/nov/21/aston-villa-sunderland-premier-league-match-report
+  resumen: For Aston Villa , a painful stalemate at home to Sunderland, but for Régis Le Bris and his players, this was another triumph of sorts. The raw numbers spoke volumes of Villa’s struggles against a defence that backed themselves to keep Unai Emery’s side at bay. All but one of Villa’s seven shots on t
+- seccion: deportes
+  medio: The Guardian
+  titulo: Elliot Anderson halts Manchester City’s losing run but boos greet Fulham draw
+  url: https://www.theguardian.com/football/2026/nov/21/manchester-city-fulham-premier-league-match-report
+  resumen: Manchester City are living in Premier League purgatory, without a win in four, but at least against Fulham they ended a three-game losing run. As they await their fate after being found guilty of financial breaches, their form has slumped. This passive draw was met with boos from the home fans. Argu
+- seccion: deportes
+  medio: The Guardian
+  titulo: Liverpool keeper Keating holds leaders Chelsea at bay in scoreless WSL draw
+  url: https://www.theguardian.com/football/2026/nov/21/liverpool-chelsea-london-city-lionesses-crystal-palace-wsl
+  resumen: Khiara Keating’s resilient performance in goal denied Chelsea, the Women’s Super League leaders, and earned Liverpool a point. After hard-fought 1-0 wins against Manchester City last Saturday and Paris Saint-Germain on Wednesday night, Chelsea drew a blank. Against Gareth Taylor’s side, Chelsea’s la
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'Championship roundup: Strelec sends Middlesbrough top; 10-man Stoke go second'
+  url: https://www.theguardian.com/football/2026/nov/21/championship-roundup-southampton-birmingham-middlesbrough-swansea
+  resumen: Boro beat Bristol City 2-0; Stoke 1-0 Birmingham Scott Parker still winless as West Ham held by Preston Middlesbrough scored a goal either side of half-time to climb to the top of the Championship with a 2-0 win that piled further pressure on the Bristol City manager Michael Skubala. Adilson Malanda
