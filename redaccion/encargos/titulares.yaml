@@ -1,55 +1,10 @@
-generado: '2026-11-21T11:50:00+01:00'
+generado: '2026-11-21T14:50:00+01:00'
 titulares:
-- seccion: espana
-  medio: El País
-  titulo: Sánchez vuelve al ataque para dejar atrás el debate mientras Feijóo intenta explotarlo al máximo
-  url: https://elpais.com/espana/elecciones-generales/2026-11-21/sanchez-vuelve-al-ataque-para-dejar-atras-el-debate-mientras-feijoo-intenta-explotarlo-al-maximo.html
-  resumen: 'El Frente Amplio se reivindica: “El PSOE solo no llega”. El líder del PP promete “desplegar las Fuerzas Armadas” frente a la inmigración y Abascal compite: “No puede entrar nadie más”'
-- seccion: espana
-  medio: El País
-  titulo: '400 folios y preguntas por sorpresa para entrenar los reflejos: así se preparó Feijóo para el cara a cara con Sánchez'
-  url: https://elpais.com/espana/elecciones-generales/2026-11-21/400-folios-y-preguntas-por-sorpresa-para-entrenar-los-reflejos-asi-se-preparo-feijoo-para-el-cara-a-cara-con-sanchez.html
-  resumen: Durmió una siesta y bromeó en el chat de WhatsApp con su mote de “Anotop At” antes de un debate cuyo resultado exhibe Génova con triunfalismo
-- seccion: espana
-  medio: El País
-  titulo: 'Una tibieza “incoherente” ante un votante enojado: por qué el plan de Sánchez tenía difícil salir bien'
-  url: https://elpais.com/espana/elecciones-generales/2026-11-21/una-tibieza-incoherente-ante-un-votante-enojado-por-que-el-plan-de-sanchez-tenia-dificil-salir-bien.html
-  resumen: La actitud modosa del candidato socialista en el cara a cara con Feijóo chirría con su carácter aguerrido y su campaña desenfadada. La expansión del cabreo como ánimo dominante en la sociedad cuestiona la eficacia de una rebaja del tono a 10 días de los comicios
-- seccion: espana
-  medio: El País
-  titulo: El árbitro no gana partidos
-  url: https://elpais.com/espana/elecciones-generales/2026-11-21/el-arbitro-no-gana-partidos.html
-  resumen: En el debate a cuatro, Sánchez deberá replantearse su papel porque, con Colau y Abascal en el plató, todavía tendrá menos espacio
-- seccion: espana
-  medio: El País
-  titulo: 'Miles de millones para el ferrocarril: garantizar la seguridad en la alta velocidad decanta votos'
-  url: https://elpais.com/espana/elecciones-generales/2026-11-21/miles-de-millones-para-el-ferrocarril-garantizar-la-seguridad-en-la-alta-velocidad-decanta-votos.html
-  resumen: El PP sitúa al tren en el centro de un plan de infraestructuras con participación privada, mientras el PSOE se enfoca en reforzar el mantenimiento de las vías
 - seccion: internacional
   medio: El País
-  titulo: Los expertos vaticinan que los jueces tumbarán el pacto europeo para deportar migrantes a Ruanda
-  url: https://elpais.com/internacional/2026-11-21/los-expertos-vaticinan-que-los-jueces-tumbaran-el-pacto-europeo-para-deportar-migrantes-a-ruanda.html
-  resumen: Medio centenar de ONG instan a retirar el acuerdo de Alemania, Austria, Dinamarca, Países Bajos y Grecia con el país africano
-- seccion: economia
-  medio: El País
-  titulo: Guía práctica para sobrevivir a un fallo tecnológico
-  url: https://cincodias.elpais.com/opinion/2026-11-21/guia-practica-para-sobrevivir-a-un-fallo-tecnologico.html
-  resumen: Las caídas de servicios se acumulan y van a ir a más. Estas son las claves para que el negocio siga a flote
-- seccion: economia
-  medio: El País
-  titulo: La gente quiere volver a hablar de impuestos
-  url: https://elpais.com/economia/2026-11-21/la-gente-quiere-volver-a-hablar-de-impuestos.html
-  resumen: En un mundo en el que la concentración de la riqueza alcanza niveles extraordinarios, es cada vez más difícil ignorar el debate sobre cómo se reparte la riqueza y quién la acumula
-- seccion: economia
-  medio: El País
-  titulo: Anthropic y las tecnológicas como signo de los tiempos
-  url: https://cincodias.elpais.com/opinion/2026-11-21/anthropic-y-las-tecnologicas-como-signo-de-los-tiempos.html
-  resumen: El fervor por la OPV convive con las dudas sobre la rentabilidad de la IA y refleja la extrema volatilidad de la Bolsa
-- seccion: economia
-  medio: El País
-  titulo: El mercado no quita ojo al ‘efecto Mélenchon’ en Francia, una economía que sufre “una crisis a cámara lenta”
-  url: https://elpais.com/economia/negocios/2026-11-21/el-mercado-no-quita-ojo-al-efecto-melenchon-en-francia-una-economia-que-sufre-una-crisis-a-camara-lenta.html
-  resumen: El candidato de extrema izquierda gana opciones para enfrentarse a su némesis de extrema derecha, Marine Le Pen, en la segunda vuelta de las presidenciales francesas
+  titulo: 'Periodistas, activistas y abogados rusos intentan resistir a la persecución: “La represión no cesa, es cada vez más severa”'
+  url: https://elpais.com/internacional/2026-11-21/periodistas-activistas-y-abogados-rusos-intentan-resistir-a-la-persecucion-la-represion-no-cesa-es-cada-vez-mas-severa.html
+  resumen: Profesionales y ONG intentan continuar su trabajo en la sombra para evitar la prisión y las sanciones del Gobierno de Putin. En las cárceles hay más de 2.300 presos políticos
 - seccion: economia
   medio: El País
   titulo: Bulgaria quiere que el ahorro de las pensiones vaya a carreteras
@@ -57,9 +12,9 @@ titulares:
   resumen: El Gobierno plantea utilizar el dinero de los futuros jubilados para paliar el déficit de infraestructuras que sufre el país
 - seccion: economia
   medio: BBC
-  titulo: GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history
-  url: https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss
-  resumen: The mammoth figure surpasses every video game launch and single-day film box office record.
+  titulo: Sessions offer advice on rising energy costs
+  url: https://www.bbc.co.uk/news/articles/cmy49l3x893jo?at_medium=RSS&at_campaign=rss
+  resumen: A council is urging people to seek support with rising energy costs on heating this winter.
 - seccion: ciencia-salud
   medio: BBC
   titulo: Fight over fossil fuels leaves COP31 climate talks in deadlock
@@ -67,14 +22,9 @@ titulares:
   resumen: Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.
 - seccion: ciencia-salud
   medio: BBC
-  titulo: Birds killed in blaze at one of the largest foie gras farms in the US
-  url: https://www.bbc.co.uk/news/articles/cq4gn0dg9194o?at_medium=RSS&at_campaign=rss
-  resumen: Hundreds of young birds were also rescued from the fire, which comes as foie gras is under renewed scrutiny over animal welfare concerns.
-- seccion: ciencia-salud
-  medio: BBC
-  titulo: Sales of baby sleeping bag halted by Next after new mum raises alarm
-  url: https://www.bbc.co.uk/news/articles/cw9874p114dro?at_medium=RSS&at_campaign=rss
-  resumen: The sleeping bag’s neck hole was far too big, meaning Emma's baby daughter could wriggle down and it could cover her face.
+  titulo: How red squirrels made island their home
+  url: https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss
+  resumen: Conservationists say that, with red squirrels dwindling in the UK, Jersey is an "important refuge".
 - seccion: ciencia-salud
   medio: BBC
   titulo: Further walkout planned by NI doctors as strike ends
@@ -82,24 +32,14 @@ titulares:
   resumen: Consultants and specialist doctors will begin a separate 24-hour strike on Monday morning as part of the same pay dispute.
 - seccion: ciencia-salud
   medio: The Guardian
+  titulo: International talks on controlling use of autonomous weapons collapse
+  url: https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse
+  resumen: Week-long efforts fail to establish negotiating mandate on AI warfare after Russian ‘filibustering’ Week-long efforts to agree a negotiating mandate for a legally binding international treaty to control on the use of autonomous weapons collapsed just before 5am on Saturday morning, after all night t
+- seccion: ciencia-salud
+  medio: The Guardian
   titulo: Beating Ebola takes more than medicine – I saw what worked in west Africa a decade ago | Kayode Akintola
   url: https://www.theguardian.com/global-development/2026/nov/21/ebola-outbreak-congo-worst-ever
   resumen: 'The outbreak in DR Congo is shaping up to be the worst ever, but the support of local faith leaders – and adequate funding – will be needed to bring it under control Ebola is terrifying: I know, because I lived through the world’s worst outbreak of the disease . That was in west Africa between 2013 '
-- seccion: tecnologia
-  medio: El País
-  titulo: 'Jian Tang, fabricante de robots: “Lo primero que harán será recoger cosas y poner lavadoras”'
-  url: https://elpais.com/tecnologia/2026-11-21/jian-tang-fabricante-de-robots-lo-primero-que-haran-sera-recoger-cosas-y-poner-lavadoras.html
-  resumen: El director tecnológico de la empresa china X-Humanoid cree que, en el futuro, los humanoides serán un miembro más de la familia
-- seccion: tecnologia
-  medio: BBC
-  titulo: Can AI really help spot Black Friday deals? We put it to the test
-  url: https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss
-  resumen: We put four AI models to the test to see if they could save us money on a new TV.
-- seccion: tecnologia
-  medio: BBC
-  titulo: In a year of AI solving maths problems, Anthropic may have just solved the biggest
-  url: https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss
-  resumen: A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.
 - seccion: tecnologia
   medio: The Guardian
   titulo: '‘The doom of humanity’: will the quest to make robotic hands render us obsolete?'
@@ -107,24 +47,19 @@ titulares:
   resumen: The one thing stopping AI taking over the world – or at least everyone’s jobs? Dexterity. Human hands are anatomical marvels that engineers have struggled for years to replicate. Experts are racing to change that Just outside Luton, in an Amazon warehouse the size of four football pitches, yellow sh
 - seccion: tecnologia
   medio: The Guardian
+  titulo: '‘Little room for error’: what a debt-laden cloud computing company says about the AI boom'
+  url: https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom
+  resumen: ‘Poster child of AI bubble’ CoreWeave symbolises increasingly risky business model of datacentre buildout The Egyptians had pyramids. The Roman empire had roads. The early 21st-century tech bros have massive buildings full of expensive glass and metal blocks providing the substratum for a powerful i
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: 'Fair-weather Silicon Valley pivots away from the right after blue wave: ‘I’m not Maga’'
+  url: https://www.theguardian.com/us-news/2026/nov/21/silicon-valley-pivot-us-midterms
+  resumen: 'From Elon Musk to Palantir’s Alex Karp, CEOs are softening hardline stances in expectation of an influx of Democrats A short two years ago, Elon Musk stood before an audience of tens of thousands of people in New York City and proudly told them: “I’m not just Maga. I’m dark, gothic Maga.” On Wednesd'
+- seccion: tecnologia
+  medio: The Guardian
   titulo: '‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn on first day of release, developer says'
   url: https://www.theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says
   resumen: The announcement from Rockstar Games would mean GTA VI has already earned more than the entire box office run of the highest-grossing film of all time Grand Theft Auto VI generated $3.79bn in retail sales on its first day , publisher Rockstar Games has announced, calling it the biggest launch for an
-- seccion: cultura
-  medio: El País
-  titulo: Un centro de arte contemporáneo de Segovia denuncia que el PP y Vox quieren cambiarlo por uno de cultura tradicional
-  url: https://elpais.com/cultura/2026-11-21/un-centro-de-arte-contemporaneo-de-segovia-denuncia-que-el-pp-y-vox-quieren-cambiarlo-por-uno-de-cultura-tradicional.html
-  resumen: La Junta de Castilla y León y la Diputación no aclaran el futuro del espacio, que programa exposiciones, talleres, ciclos de cine y charlas desde hace 15 años
-- seccion: cultura
-  medio: El País
-  titulo: Cervantes y el Quijote reviven en Madrid en un mundo de realidad virtual interactiva
-  url: https://elpais.com/cultura/2026-11-21/cervantes-y-el-quijote-reviven-en-madrid-en-un-mundo-de-realidad-virtual-interactiva.html
-  resumen: La nueva sede de la Fundación Mutua Madrileña presenta ‘Cervantes. La gran exposición inmersiva’
-- seccion: cultura
-  medio: BBC
-  titulo: Who will be Robert Pattinson's 'Bond girl' - and does the role need to change?
-  url: https://www.bbc.co.uk/news/articles/cr4g1l7x52jno?at_medium=RSS&at_campaign=rss
-  resumen: Pattinson’s announcement as 007 has completely upped the game, and commentators say his leading lady will need a "very strong identity".
 - seccion: cultura
   medio: BBC
   titulo: How Westside Cowboy went from student gigs to rising stars in two years
@@ -157,19 +92,24 @@ titulares:
   resumen: Turn off your phone, get cosy and commit to some of literature’s biggest and best novels. From Don DeLillo’s Underworld to The Luminaries by Eleanor Catton, these epic reads are worth taking your time over Life starts all over again when it gets crisp in the fall,” wrote F Scott Fitzgerald in The Gr
 - seccion: cultura
   medio: The Guardian
-  titulo: '‘In the office, there was a sharp intake of breath’: why has the BBC decided to celebrate Christmas earlier than ever?'
-  url: https://www.theguardian.com/tv-and-radio/2026/nov/21/why-bbc-showing-christmas-shows-earlier-than-ever
-  resumen: Festive specials are being released on the iPlayer as much as a month before the big day. Is this a dire flouting of tradition – or a welcome modernisation? TV insiders analyse the change Traditionally, around this time of year, people remark that Christmas feels as though it’s coming earlier than e
-- seccion: cultura
-  medio: The Guardian
   titulo: You Can See Everything’s vibes-check approach is an insult to objective truth
   url: https://www.theguardian.com/film/2026/nov/21/you-can-see-everything-vibes-truth-elizabeth-holmes-nathan-fielder
   resumen: For three hours, Nathan Fielder opts not to quiz convicted criminal Elizabeth Holmes on the details of her deception. Instead, he looks into her eyes and asks if she’s for real. Is that why his film has been so successful? • This article does not contain major spoilers Sometimes, people who have lie
 - seccion: cultura
   medio: The Guardian
-  titulo: In a Sydney gallery, Philippe Parreno’s art is powered by a desert 17,000km away
-  url: https://www.theguardian.com/artanddesign/2026/nov/21/in-a-sydney-gallery-philippe-parrenos-art-is-powered-by-a-desert-17000km-away
-  resumen: 'In the Museum of Contemporary Art, the French artist’s first major Australian show is truly unpredictable – influenced by real-time data coming from a Spanish farm I’m standing in a massive white-cube space, staring at a perplexing assortment of objects. There are several expensive looking lamps; a '
+  titulo: '‘Shakespearean tale of ego, greed and ambition’: the scandalous story of televangelism'
+  url: https://www.theguardian.com/film/2026/nov/21/primetime-preachers-documentary-televangelism
+  resumen: Netflix documentary Primetime Preacher$ travels back to a time when evangelism found a dominant place on US television – and the shocking tabloid stories that followed For three decades, film-maker Joe Berlinger has gripped true-crime buffs with his deep dives into small-town murders and infamous se
+- seccion: cultura
+  medio: The Guardian
+  titulo: Fontaines DC review – thrilling gothic grandeur from a band vaulting into greatness
+  url: https://www.theguardian.com/music/2026/nov/21/fontaines-dc-review-liverpool-arena-uk-tour
+  resumen: M&S Bank Arena, Liverpool Just a few years since playing little dive bars, the Irish rockers have confidently scaled up to huge rooms like this – and are now one of the key interpreters of modern malaise A mere seven years since their debut, Dogrel, Fontaines DC have enjoyed a virtually seamless pas
+- seccion: cultura
+  medio: The Guardian
+  titulo: '‘In the office, there was a sharp intake of breath’: why has the BBC decided to celebrate Christmas earlier than ever?'
+  url: https://www.theguardian.com/tv-and-radio/2026/nov/21/why-bbc-showing-christmas-shows-earlier-than-ever
+  resumen: Festive specials are being released on the iPlayer as much as a month before the big day. Is this a dire flouting of tradition – or a welcome modernisation? TV insiders analyse the change Traditionally, around this time of year, people remark that Christmas feels as though it’s coming earlier than e
 - seccion: cultura
   medio: The Guardian
   titulo: Hungry for action? Our critics’ verdicts on the week’s UK cinema releases
@@ -182,24 +122,29 @@ titulares:
   resumen: If you’re a cyberpunk who loves ennui and watching actors you can’t see speak words you can’t hear, get stuck in! The rest of us will just be baffled and bored Why is James Bond not a TV series by now? Harry Potter, Lord of the Rings, Alien, Star Wars – all given the TV treatment. Franchise-mining i
 - seccion: cultura
   medio: The Guardian
-  titulo: 'From I Am Helen to You Can See Everything: the week in rave reviews'
-  url: https://www.theguardian.com/culture/2026/nov/21/from-i-am-helen-to-you-can-see-everything-the-week-in-rave-reviews
-  resumen: Nicola Coughlan shines in Dominic Savage’s stark tale, while Nathan Fielder peeks into the fascinating world of fraudster Elizabeth Holmes. Here’s the pick of the week’s culture, taken from the Guardian’s best-rated reviews Continue reading...
-- seccion: cultura
-  medio: The Guardian
   titulo: 'TV tonight: a lively look at the chaos and controversy at Blackpool FC'
   url: https://www.theguardian.com/tv-and-radio/2026/nov/21/tv-tonight-a-lively-look-at-the-chaos-and-controversy-at-blackpool-fc
   resumen: 'The inside story of how fans of the Lancashire club rid themselves of troublesome owners. Plus: the stylish Killing Eve prequel Honey continues. Here’s what to watch this evening 9pm, Sky Documentaries This entertaining documentary explores the recent history of Blackpool FC via its relationship wit'
 - seccion: deportes
   medio: El País
-  titulo: La Fórmula 1 vuelve a calentar motores con la idea de recuperar los V8 en el horizonte de 2030
-  url: https://elpais.com/deportes/formula-1/2026-11-21/la-formula-1-vuelve-a-calentar-motores-con-la-idea-de-recuperar-los-v8-en-el-horizonte-de-2030.html
-  resumen: El Mundial, decidido desde hace semanas, desembarca en Las Vegas con la intención de sellar la hoja de ruta que devuelva la pureza a las carreras disminuyendo drásticamente la influencia de la parte eléctrica
+  titulo: 'La impotencia de Fernando Alonso al ser superado por velocidad punta en la cronometrada: “¡Ridículo! ¡Es ridículo!”'
+  url: https://elpais.com/deportes/formula-1/2026-11-21/la-impotencia-de-fernando-alonso-al-ser-superado-por-velocidad-punta-en-la-cronometrada-ridiculo-es-ridiculo.html
+  resumen: Las rectas de Las Vegas acentúan la flojera del motor Honda de Aston Martin, que se queda a un mundo de la pole de Antonelli
 - seccion: deportes
   medio: BBC Sport
-  titulo: '''Somebody has to stand up to that guy'' - and Russell has his chance in Vegas'
+  titulo: Australia's Chaudhary downs England in tetchy first T20
+  url: https://www.bbc.co.uk/sport/cricket/articles/cme39qlevnrqo?at_medium=RSS&at_campaign=rss
+  resumen: Unlikely Australia international Nikhil Chaudhary rattles England and secures a tense and tetchy final-over victory in the first T20.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: '''Somebody has to stand up to that guy'' - Verstappen-Russell rivalry blows up again'
   url: https://www.bbc.co.uk/sport/formula1/articles/c34gnrvl9zvro?at_medium=RSS&at_campaign=rss
   resumen: The George Russell-Max Verstappen feud surfaced again in Las Vegas, adding spice to a race where they will start on the front row.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: England call up McKinney for South Africa Tests
+  url: https://www.bbc.co.uk/sport/cricket/articles/cwx2evg5pez6o?at_medium=RSS&at_campaign=rss
+  resumen: England call up uncapped Durham opener Ben McKinney for the Test tour of South Africa after Jacob Bethell's injury withdrawal.
 - seccion: deportes
   medio: BBC Sport
   titulo: Harden passes Bryant for 50-point games
@@ -212,14 +157,9 @@ titulares:
   resumen: Ismael Ox was 11 years old when he lost his hand trying to protect his friends from a grenade - and now competes in Para-taekwondo for the USA.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Price beats Kotaskova to become undisputed champion
-  url: https://www.bbc.co.uk/sport/boxing/articles/cw808y2lrkzxo?at_medium=RSS&at_campaign=rss
-  resumen: Lauren Price dominates Michaela Kotaskova to seal her place in history by becoming undisputed world welterweight champion.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Cummins' integrity not compromised - Cricket Australia
-  url: https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss
-  resumen: Cricket Australia has "unequivocally rejected" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.
+  titulo: Lehmann again denies knowing about sandpaper plot
+  url: https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss
+  resumen: Former Australia coach Darren Lehmann says he and his staff did not encourage players to use sandpaper on the ball in 2018 despite detailed claims by Cameron Bancroft.
 - seccion: deportes
   medio: BBC Sport
   titulo: Jeers, injuries and doubters - White's journey back to the top
@@ -227,19 +167,14 @@ titulares:
   resumen: When Ben White wheeled away after scoring England's third goal against world champions Spain, it was more than just a strike which ended up being the winner in a special win.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Wales hungry to show they are not one-hit wonders
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/c6n83rj3v9zmo?at_medium=RSS&at_campaign=rss
-  resumen: Wales must kick on when they host Australia in the Nations Championship on Saturday, fresh from making history against New Zealand.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Cost of Man Utd hiring and firing managers nears £100m
-  url: https://www.bbc.co.uk/sport/football/articles/cwd01n9z23x5o?at_medium=RSS&at_campaign=rss
-  resumen: Manchester United borrowed £10m three days after confirming Mauricio Pochettino would be their new head coach, which will cost them £7.5m in compensation to US Soccer.
-- seccion: deportes
-  medio: BBC Sport
   titulo: Antonelli fastest but penalty leaves Verstappen on pole
   url: https://www.bbc.co.uk/sport/formula1/articles/cqlyj4yg366wo?at_medium=RSS&at_campaign=rss
   resumen: Mercedes' Kimi Antonelli is fastest in qualifying for the Las Vegas Grand Prix but a grid penalty hands pole position to Red Bull's Max Verstappen.
+- seccion: deportes
+  medio: BBC Sport
+  titulo: Wales hungry to show they are not one-hit wonders
+  url: https://www.bbc.co.uk/sport/rugby-union/articles/c6n83rj3v9zmo?at_medium=RSS&at_campaign=rss
+  resumen: Wales must kick on when they host Australia in the Nations Championship on Saturday, fresh from making history against New Zealand.
 - seccion: deportes
   medio: BBC Sport
   titulo: The story of how golf balls got their dimples
@@ -247,24 +182,19 @@ titulares:
   resumen: Engineer William Taylor took up golf as a hobby to relax - then changed the sport, experts say.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Drivers limited to 27 laps for tyres in Qatar
-  url: https://www.bbc.co.uk/sport/formula1/articles/cwg7l0l313rno?at_medium=RSS&at_campaign=rss
-  resumen: Formula 1 drivers will be limited to a maximum of 27 laps on a set of tyres at next weekend's Qatar Grand Prix.
+  titulo: Hickman breaks 16-year-old lap record in Macau win
+  url: https://www.bbc.co.uk/sport/motorsport/articles/ckr5gd36d669o?at_medium=RSS&at_campaign=rss
+  resumen: Peter Hickman breaks the 16-year-old lap record for the Guia circuit in taking a fifth career win at the Macau motorcycle grand prix on Saturday.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Kim moves clear at LPGA finale after hole-in-one
-  url: https://www.bbc.co.uk/sport/golf/articles/ck62pzd7vjr0o?at_medium=RSS&at_campaign=rss
-  resumen: South Korea's A-Lim Kim aces the par-three 16th on her way to claiming a three-shot lead after the second round of CME Group Tour Championship.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: First defeat and first red for Ferguson as Glens falter
-  url: https://www.bbc.co.uk/sport/articles/c3zxvnz5x7g1o?at_medium=RSS&at_campaign=rss
-  resumen: BBC Sport Northern Ireland looks at Duncan Ferguson's first red card and defeat as Glentoran manager as they are edged out 3-2 by Cliftonville on Friday.
+  titulo: Cummins' integrity not compromised - Cricket Australia
+  url: https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss
+  resumen: Cricket Australia has "unequivocally rejected" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.
 - seccion: deportes
   medio: The Guardian
-  titulo: 'Premier League resumes, Kane facing spell on sidelines: football news – matchday live'
-  url: https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live
-  resumen: 'All the latest match news and buildup for today’s games Today’s games | Tables | Kane injury news | And mail us An email has hit my inbox ‘re the lack of fancy Dan wingers'', from Patrick Morgan: I don’t think you’re talking nonsense, but I’d say it’s tactical rather than a lack of talent. Look at Ar'
+  titulo: 'Manchester City v Fulham: Premier League – live'
+  url: https://www.theguardian.com/football/live/2026/nov/21/manchester-city-v-fulham-premier-league-live
+  resumen: '⚽️ Premier League updates from the 12.30pm GMT kick-off ⚽️ Live scores | Table | Follow on TikTok | And email Barry Elsewhere in Manchester: Maine Road FC,who play in English football’s tenth tier, aim to become a new home for any Manchester City supporters disillusioned by the possible consequences'
 - seccion: deportes
   medio: The Guardian
   titulo: Brighton are rocking the Premier League elite. But can they mount a title tilt?
