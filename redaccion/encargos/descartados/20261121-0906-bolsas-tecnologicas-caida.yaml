@@ -1,0 +1,12 @@
+seccion: economia
+tema: 'Las ventas en las tecnológicas arrastran a las bolsas de EE UU: S&P 500 y Dow Jones entran en corrección y el Nasdaq borra sus ganancias de 2026, con Anthropic cayendo en su segunda sesión.'
+destacado: false
+fuentes:
+- medio: BBC
+  titulo: Tech stock sell-off drags markets down as Anthropic shares slide
+  url: https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss
+- medio: The Guardian
+  titulo: Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic's second day of trading
+  url: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off
+motivo: 'la verificación encontró datos sin sostén: Se atribuye a «ambas fuentes» (BBC y The Guardian) que los tres índices seguían por encima de su nivel de hace un año. Solo la BBC dice eso; The Guardian no lo menciona.'
+descartado: '2026-11-21T09:10:33+01:00'

@@ -1,0 +1,9 @@
+seccion: deportes
+tema: 'Clasificación del Gran Premio de Las Vegas de F1: Antonelli (Mercedes) el más rápido, pero una sanción de parrilla deja la pole a Verstappen (Red Bull).'
+destacado: false
+fuentes:
+- medio: BBC Sport
+  titulo: Antonelli fastest but penalty leaves Verstappen on pole
+  url: https://www.bbc.co.uk/sport/formula1/articles/cqlyj4yg366wo?at_medium=RSS&at_campaign=rss
+motivo: 'la verificación encontró datos sin sostén: "llevaba semanas con problemas extraños en el coche": la fuente dice que Verstappen estaba teniendo "some weird issues" con el coche, similares a los de Brasil, pero no menciona que durara "semanas". La duración es un dato añadido que no aparece en la fuente.'
+descartado: '2026-11-21T09:10:57+01:00'
