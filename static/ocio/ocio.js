@@ -61,7 +61,57 @@ const lines=[
  ['Si tienes mucho por hacer, elige qué puede esperar.','Una pausa antes de responder puede aclararte lo que quieres decir.','Vuelve a una idea que dejaste a medias y dale veinte minutos.','Fíjate en lo que te da energía y reserva un rato para ello.','Haz una pregunta concreta antes de sacar conclusiones.','Cambia de ambiente para mirar con otros ojos lo que te preocupa.','Un pequeño gesto de atención vale más que una promesa grande.'],
  ['Deja un hueco en la agenda para conversar sin prisas.','Escribe la primera idea antes de exigirle que sea perfecta.','Un paseo corto puede separar el trabajo del resto del día.','Pon en orden una cosa que te ahorre tiempo mañana.','Si necesitas ayuda, pide algo específico.','Agradece un gesto que se te había pasado por alto.','Prueba una forma más sencilla de hacer una tarea habitual.']];
 function horoscope(root,key){const r=rng(day(key)*79),list=el('div');list.className='tarjetas';signs.forEach(s=>{const a=el('article');a.append(el('h2',s),el('p',lines.map(l=>l[Math.floor(r()*l.length)]).join(' ')));list.append(a)});root.append(list)}
+// Trivial: banco de preguntas propias. Cada día salen cinco, según la fecha; la respuesta correcta
+// es el índice de la lista de opciones y la explicación aparece tras contestar.
+const trivias=[
+ ['¿Cuántos planetas reconoce hoy la Unión Astronómica Internacional en el Sistema Solar?',['7','8','9','10'],1,'Desde 2006 Plutón se clasifica como planeta enano, así que quedan ocho planetas.'],
+ ['¿Qué metal es el más abundante en la corteza terrestre?',['Hierro','Cobre','Aluminio','Oro'],2,'El aluminio es el metal más abundante de la corteza, aunque casi siempre aparece combinado con otros elementos.'],
+ ['¿En qué año cayó el muro de Berlín?',['1961','1979','1989','1991'],2,'Cayó en noviembre de 1989; la reunificación alemana llegó en octubre de 1990.'],
+ ['¿Qué gas es el más abundante en el aire que respiramos?',['Oxígeno','Dióxido de carbono','Nitrógeno','Argón'],2,'El nitrógeno supone algo más del 78 % de la atmósfera; el oxígeno, cerca del 21 %.'],
+ ['¿Cuántos huesos tiene un adulto?',['186','206','226','256'],1,'Un recién nacido tiene más, y muchos se fusionan al crecer.'],
+ ['¿Quién escribió «Cien años de soledad»?',['Mario Vargas Llosa','Julio Cortázar','Gabriel García Márquez','Jorge Luis Borges'],2,'La novela se publicó en 1967.'],
+ ['¿Qué océano ocupa casi la mitad de la superficie oceánica del planeta?',['Atlántico','Índico','Ártico','Pacífico'],3,'Es el más extenso y el más profundo de los océanos.'],
+ ['¿En qué año llegó Cristóbal Colón a América?',['1488','1492','1498','1502'],1,'Su primer viaje llegó a las islas Bahamas en octubre de 1492.'],
+ ['¿Cuántos jugadores de cada equipo hay en pista en un partido de baloncesto?',['4','5','6','7'],1,'Son cinco en pista, sin contar los suplentes.'],
+ ['¿Qué país ganó el Mundial de fútbol de 2010?',['Países Bajos','Alemania','España','Brasil'],2,'España lo ganó en Sudáfrica con el gol de Iniesta en la prórroga.'],
+ ['¿Qué científico formuló la teoría de la relatividad general?',['Isaac Newton','Niels Bohr','Albert Einstein','Max Planck'],2,'Einstein la publicó en 1915.'],
+ ['¿Cuál es la moneda oficial de Japón?',['Won','Yuan','Yen','Ringgit'],2,'El won es la moneda de Corea del Sur y el yuan, la de China.'],
+ ['¿Qué pintor firmó «La noche estrellada»?',['Claude Monet','Vincent van Gogh','Pablo Picasso','Salvador Dalí'],1,'La pintó en 1889 durante su estancia en el manicomio de Saint-Rémy-de-Provence.'],
+ ['¿Qué vitamina produce la piel cuando recibe luz solar?',['Vitamina A','Vitamina C','Vitamina D','Vitamina K'],2,'Se forma por la acción de los rayos UVB sobre una sustancia de la piel.'],
+ ['¿Qué instrumento mide la presión atmosférica?',['Termómetro','Barómetro','Higrómetro','Anemómetro'],1,'El higrómetro mide la humedad y el anemómetro, la velocidad del viento.'],
+ ['¿Qué país tiene la mayor superficie del mundo?',['Canadá','China','Estados Unidos','Rusia'],3,'Rusia ocupa más de 17 millones de kilómetros cuadrados.'],
+ ['¿Cuál es la capital de Australia?',['Sídney','Melbourne','Canberra','Brisbane'],2,'Sídney es la ciudad más poblada, pero no la capital.'],
+ ['¿En qué año se fundó la Organización de las Naciones Unidas?',['1919','1939','1945','1955'],2,'La carta se firmó en San Francisco en junio de 1945.'],
+ ['¿Cuántos minutos dura un partido de fútbol sin prórroga?',['60','80','90','120'],2,'Son dos tiempos de 45 minutos, sin contar el tiempo añadido.'],
+ ['¿Qué idioma tiene más hablantes nativos en el mundo?',['Inglés','Español','Hindi','Chino mandarín'],3,'El chino mandarín supera en hablantes nativos al inglés y al español.'],
+ ['¿Qué planeta es el más cercano al Sol?',['Venus','Marte','Mercurio','La Tierra'],2,'Da una vuelta completa al Sol en unos 88 días.'],
+ ['¿Qué idioma es oficial en Brasil?',['Español','Portugués','Francés','Italiano'],1,'Brasil es el único país de América del Sur donde el portugués es lengua oficial.'],
+ ['¿Quién fue el primer ser humano en viajar al espacio?',['Neil Armstrong','Yuri Gagarin','John Glenn','Valentina Tereshkova'],1,'Lo hizo el 12 de abril de 1961 a bordo de la Vostok 1.'],
+ ['¿Cuál es el hueso más largo del cuerpo humano?',['Húmero','Fémur','Tibia','Radio'],1,'El fémur, en el muslo, es el hueso más largo y fuerte del cuerpo.'],
+ ['¿Qué elemento químico tiene el símbolo Au?',['Plata','Oro','Argón','Aluminio'],1,'Su nombre viene del latín «aurum».']
+];
+function trivia(root,key){
+ const qs=shuffle(trivias,rng(day(key)*13+5)).slice(0,5), k='nt-ocio:v1:trivial:'+key, st=read(k)||{i:0,hits:0}, box=el('div');
+ root.append(box);
+ const show=()=>{
+  box.replaceChildren();
+  if(st.i>=qs.length){box.append(el('h2','Resultado'),el('p',`Has acertado ${st.hits} de ${qs.length}. Mañana tendrás cinco preguntas nuevas.`));return}
+  const [q,o,a,e]=qs[st.i], opts=el('div'), exp=el('p'), next=button(st.i+1<qs.length?'Siguiente':'Ver resultado',show);
+  opts.className='opciones';exp.className='explicacion';exp.hidden=true;next.hidden=true;
+  let contestada=false;
+  box.append(el('h2',`Pregunta ${st.i+1} de ${qs.length}`),el('p',q));
+  o.forEach((t,n)=>opts.append(button(t,()=>{
+   if(contestada)return;contestada=true;
+   if(n===a)st.hits++;
+   st.i++;save(k,st);
+   [...opts.children].forEach((b,j)=>{b.disabled=true;if(j===a)b.classList.add('ok');else if(j===n)b.classList.add('ko')});
+   exp.textContent=(n===a?'Correcto. ':'No es esta. ')+e;exp.hidden=false;next.hidden=false;
+  })));
+  box.append(opts,exp,next);
+ };
+ show();
+}
 const status=v=>{$('#estado').textContent=v};
 if(mode!=='juegos'){const date=$('#fecha');date.max=today();date.min='2026-11-10';date.value=date.max;
- const paint=()=>{const k=date.value;if(!/^\d{4}-\d\d-\d\d$/.test(k)||k>date.max||k<date.min){status('Elige una fecha del calendario disponible.');return}const root=$('#tablero');root.replaceChildren();status('');({sudoku:showSudoku,'sopa-de-letras':showSoup,conexiones:showSets,horoscopo:horoscope})[mode](root,k)};
+ const paint=()=>{const k=date.value;if(!/^\d{4}-\d\d-\d\d$/.test(k)||k>date.max||k<date.min){status('Elige una fecha del calendario disponible.');return}const root=$('#tablero');root.replaceChildren();status('');({sudoku:showSudoku,'sopa-de-letras':showSoup,conexiones:showSets,horoscopo:horoscope,trivial:trivia})[mode](root,k)};
  date.onchange=paint;$('#hoy').onclick=()=>{date.max=today();date.value=date.max;paint()};paint()}

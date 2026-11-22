@@ -28,6 +28,7 @@ from urllib.parse import urlparse
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from email.utils import format_datetime
+from functools import lru_cache
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -51,6 +52,10 @@ CAMPOS_OBLIGATORIOS = ["titulo", "entradilla", "seccion", "fecha", "fuentes"]
 # (noindex, fuera de los sitemaps) y no lleva anuncios. Criterio de la política de
 # AdSense sobre contenido de poco valor. Mismo umbral que el de la validación de noticias.
 PALABRAS_MINIMAS_INDEXAR = 300
+# Y al menos dos medios distintos admitidos (misma regla que el redactor): una noticia de una sola
+# fuente no se indexa ni lleva anuncios, aunque sea larga. Son las noticias antiguas que aún no
+# tenían segunda fuente.
+FUENTES_MINIMAS_INDEXAR = 2
 # Webs que reproducen teletipos de agencias. No están en la lista de redaccion/GUIA.md:
 # hay que enlazar la nota original (efe.com, europapress.es, fuente oficial...). Solo avisa.
 REPRODUCCIONES = ("infobae.com", "yahoo.com", "msn.com", "unitel.bo", "diariosigloxxi.com")
@@ -229,6 +234,30 @@ class Articulo:
     @property
     def fecha_iso(self) -> str:
         return self.fecha.isoformat()
+
+
+def fuentes_distintas(fuentes: list) -> int:
+    """Número de medios distintos y admitidos de una noticia. Un subdominio cuenta como su dominio
+    (cincodias.elpais.com -> elpais.com), igual que en redaccion/servidor/redactor.py."""
+    admitidos = _dominios_admitidos()
+    grupos = set()
+    for f in fuentes:
+        host = (urlparse(str(f.get("url", ""))).hostname or "").removeprefix("www.")
+        cand = [d for d in admitidos if host == d or host.endswith("." + d)]
+        if cand:
+            grupos.add(min(cand, key=len))
+    return len(grupos)
+
+
+def es_indexable(a) -> bool:
+    """Una noticia se indexa y lleva anuncios solo si tiene texto propio suficiente y al menos dos medios."""
+    return a.palabras >= PALABRAS_MINIMAS_INDEXAR and fuentes_distintas(a.fuentes) >= FUENTES_MINIMAS_INDEXAR
+
+
+@lru_cache(maxsize=1)
+def _dominios_admitidos() -> tuple:
+    datos = yaml.safe_load((RAIZ / "config/fuentes_admitidas.yaml").read_text(encoding="utf-8")) or {}
+    return tuple(d for seccion in ("fuertes", "medios") for d in (datos.get(seccion) or []))
 
 
 def cargar_config() -> dict:
@@ -765,7 +794,11 @@ class Constructor:
         return salida
 
     def render(self, plantilla: str, **ctx) -> str:
-        return self.env.get_template(plantilla).render(cfg=self.cfg, ahora=self.ahora, v=self.version, **ctx)
+        cfg = self.cfg
+        # Sin anuncios en la edición inglesa mientras no esté aprobada la publicidad (config/site.yaml)
+        if plantilla.startswith("en/") and not cfg["publicidad"].get("edicion_en", True):
+            cfg = {**cfg, "publicidad": {**cfg["publicidad"], "activa": False}}
+        return self.env.get_template(plantilla).render(cfg=cfg, ahora=self.ahora, v=self.version, **ctx)
 
     def edicion(self, codigo: str, articulos: list[Articulo]):
         ed = self.cfg["ediciones"][codigo]
@@ -828,7 +861,7 @@ class Constructor:
         veces_etiqueta = Counter(e.lower() for a in articulos for e in set(a.etiquetas))
         for a in articulos:
             relacionados = relacionados_de(a, articulos, por_seccion[a.seccion["slug"]], veces_etiqueta)
-            suficiente = a.palabras >= PALABRAS_MINIMAS_INDEXAR
+            suficiente = es_indexable(a)
             self.escribir(a.url, self.render(f"{t}/articulo.html", **base_ctx, a=a, relacionados=relacionados,
                                              temas=self.temas, extension_suficiente=suficiente),
                           sitemap=suficiente, prioridad="0.8", lastmod=a.actualizado or a.fecha)
@@ -853,12 +886,14 @@ class Constructor:
         meses: dict = {}
         for d in sorted(dias, reverse=True):
             meses.setdefault((d.year, d.month), []).append((d, len(dias[d])))
+        # La hemeroteca son listas de titulares: fuera del buscador y del sitemap (noindex en la plantilla)
         self.escribir(f"{pre}/{r['hemeroteca']}/", self.render(f"{t}/hemeroteca.html", **base_ctx, meses=meses,
-                                                                MESES=MONTHS if codigo == "en" else MESES))
+                                                                MESES=MONTHS if codigo == "en" else MESES),
+                      sitemap=False)
         for d, lista in dias.items():
             self.escribir(f"{pre}/{r['hemeroteca']}/{d:%Y/%m/%d}/",
                           self.render(f"{t}/dia.html", **base_ctx, dia=d, lista=sorted(lista, key=lambda x: x.fecha)),
-                          prioridad="0.3")
+                          sitemap=False)
 
         # Búsqueda (índice de los últimos 3000 artículos)
         indice = [{"t": a.titulo, "e": a.entradilla, "s": a.seccion["nombre"], "u": a.url,
@@ -911,7 +946,7 @@ class Constructor:
         self.escribir(f"{pre}/sitemap-noticias.xml",
                       self.render("sitemap-noticias.xml", ed=ed,
                                   lista=[a for a in articulos if a.fecha >= self.ahora - timedelta(hours=48)
-                                         and a.palabras >= PALABRAS_MINIMAS_INDEXAR]),
+                                         and es_indexable(a)]),
                       sitemap=False)
 
     def rss(self, ed: dict, pre: str, lista: list, seccion: dict | None = None) -> str:

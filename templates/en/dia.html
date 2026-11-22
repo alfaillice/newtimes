@@ -1,4 +1,5 @@
 {% extends "en/base.html" %}
+{% block robots %}noindex, follow{% endblock %}
 {% from "en/_macros.html" import lista_simple %}
 {% block titulo %}News from {{ dia|fecha_dia }} | NewTimes.news{% endblock %}
 {% block descripcion %}Stories published in the NewTimes.news English edition on {{ dia|fecha_dia }}.{% endblock %}

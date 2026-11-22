@@ -10,5 +10,7 @@ for(let d=20767;d<20800;d++){const q=soup(d);
  q.words.forEach((w,i)=>assert.equal(q.paths[i].map(j=>q.letters[j]).join(''),w));
 }
 sets.forEach(gs=>{assert.equal(gs.length,4);assert.equal(new Set(gs.flatMap(g=>g.slice(1))).size,16)});
+trivias.forEach(([q,o,a,e])=>{assert.equal(o.length,4);assert.ok(a>=0&&a<4);assert.ok(q.endsWith('?'));assert.ok(e.length>10)});
+for(let d=20767;d<20800;d++){const pick=shuffle(trivias,rng(d*13+5)).slice(0,5);assert.equal(new Set(pick.map(x=>x[0])).size,5)}
 `,{document:{querySelector:()=>scope},assert});
-console.log('OK: 99 sudokus con solución única; 33 sopas completas; 7 conjuntos sin palabras duplicadas');
+console.log('OK: 99 sudokus con solución única; 33 sopas completas; 7 conjuntos sin palabras duplicadas; trivial con 4 opciones y respuesta válida');

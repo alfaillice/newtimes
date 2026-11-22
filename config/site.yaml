@@ -32,6 +32,9 @@ directo:
 # identificador ("data-ad-slot", 10 cifras) creado en el panel de AdSense.
 publicidad:
   activa: true
+  # Edición inglesa sin anuncios hasta la aprobación de AdSense (su contenido es reelaboración de otros medios
+  # y la política exige contenido propio). Cambiar a true para volver a mostrarlos.
+  edicion_en: false
   cliente: ca-pub-8207026302114375
   bloques:              # bloque adaptable «encabezado» (5085417706), reutilizado
     portada: "5085417706"          # banda horizontal entre secciones de la portada

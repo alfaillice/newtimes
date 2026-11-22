@@ -27,3 +27,8 @@
   #nt-ocio{--ocio-seleccion:#264c63;--ocio-pista:#25334b;--ocio-resuelto:#23463c}
   #nt-ocio .grid input.err{color:#ffd6cd;background:#682d2d}
 }
+#nt-ocio .opciones{display:grid;gap:.5rem;margin:1rem 0}
+#nt-ocio .opciones button{text-align:left;padding:.6rem .8rem}
+#nt-ocio .opciones button.ok{outline:2px solid #2E6B3A}
+#nt-ocio .opciones button.ko{outline:2px solid #b3261e}
+#nt-ocio .explicacion{margin:.5rem 0}

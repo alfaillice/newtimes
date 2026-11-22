@@ -19,7 +19,7 @@ class OcioTests(unittest.TestCase):
                 if ed.get("activa"):
                     c.edicion(code, [])
             c.finalizar()
-            for route in ("juegos", "juegos/sudoku", "juegos/sopa-de-letras", "juegos/conexiones"):
+            for route in ("juegos", "juegos/sudoku", "juegos/sopa-de-letras", "juegos/conexiones", "juegos/trivial"):
                 page = (Path(tmp) / route / "index.html").read_text()
                 self.assertIn('class="cabecera"', page)
                 self.assertIn('class="pie"', page)
@@ -31,7 +31,9 @@ class OcioTests(unittest.TestCase):
             en = (Path(tmp) / "en/index.html").read_text()
             self.assertNotIn('href="/juegos/"', en)
             sitemap = (Path(tmp) / "sitemap.xml").read_text()
-            self.assertIn(cfg["url"] + "/juegos/sudoku/", sitemap)
+            # Los juegos son interactivos y sin texto propio: fuera del buscador y del sitemap (no se indexan)
+            self.assertNotIn(cfg["url"] + "/juegos/sudoku/", sitemap)
+            self.assertIn('content="noindex', (Path(tmp) / "juegos/sudoku/index.html").read_text())
             self.assertFalse((Path(tmp) / "horoscopo" / "index.html").exists())
             self.assertNotIn("horoscopo", en)
             self.assertNotIn("/horoscopo/", (Path(tmp) / "index.html").read_text())

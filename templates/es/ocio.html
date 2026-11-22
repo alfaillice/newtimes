@@ -1,4 +1,5 @@
 {% extends "es/base.html" %}
+{% block robots %}noindex, follow{% endblock %}
 {% block titulo %}{{ titulo }} | NewTimes.news{% endblock %}
 {% block descripcion %}{{ descripcion }}{% endblock %}
 {% block canonica %}/{{ ocio_ruta }}/{% endblock %}
@@ -14,6 +15,7 @@
     <li><a href="/juegos/sudoku/">Sudoku</a><p>Tres dificultades, solución única y progreso guardado.</p></li>
     <li><a href="/juegos/sopa-de-letras/">Sopa de letras</a><p>Busca palabras de un tema y marca sus extremos.</p></li>
     <li><a href="/juegos/conexiones/">Conexiones</a><p>Dieciséis palabras, cuatro nexos. ¿Encuentras los grupos?</p></li>
+    <li><a href="/juegos/trivial/">Trivial del día</a><p>Cinco preguntas de cultura general cada día, con la explicación de cada respuesta.</p></li>
   </ul>
   <p>Los retos se seleccionan por fecha, según la hora de Madrid. Puedes volver a los días anteriores en cada juego.</p>
   {% else %}
@@ -22,6 +24,7 @@
   {% if modo in ["conexiones", "sopa-de-letras"] %}
   <p>Banco inicial de siete temas: se reutilizan cada semana.{% if modo == "sopa-de-letras" %} La disposición del tablero cambia cada día.{% endif %}</p>
   {% endif %}
+  {% if modo == "trivial" %}<p>Las preguntas salen según la fecha: cada día son cinco distintas. Tu marcador se guarda solo en este navegador.</p>{% endif %}
   {% if modo == "sudoku" %}<p>La dificultad es orientativa según el número de pistas.</p>{% endif %}
   {% if modo == "horoscopo" %}<p>Textos recreativos seleccionados de un banco de reflexiones. No son predicciones ni consejos médicos, económicos o personales.</p>{% endif %}
   <div id="tablero"></div>

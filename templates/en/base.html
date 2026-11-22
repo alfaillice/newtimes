@@ -7,7 +7,7 @@
 <title>{% block titulo %}NewTimes.news: news from Spain and the world in English{% endblock %}</title>
 <meta name="description" content="{% block descripcion %}{{ ed.lema }}{% endblock %}">
 <link rel="canonical" href="{{ cfg.url }}{% block canonica %}{{ pre }}/{% endblock %}">
-<meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="robots" content="{% block robots %}max-image-preview:large, max-snippet:-1, max-video-preview:-1{% endblock %}">
 <meta name="theme-color" content="#14284B">
 <meta property="og:site_name" content="NewTimes.news">
 <meta property="og:locale" content="en_GB">
@@ -98,6 +98,7 @@
       <h2 class="pie__titulo">About us</h2>
       <ul role="list">
         <li><a href="{{ pre }}/how-we-work/">How we work</a></li>
+        <li><a href="{{ pre }}/about/">About us</a></li>
         <li><a href="{{ pre }}/team/">Team</a></li>
         <li><a href="{{ pre }}/contact/">Contact</a></li>
         <li><a href="{{ pre }}/archive/">Archive</a></li>
