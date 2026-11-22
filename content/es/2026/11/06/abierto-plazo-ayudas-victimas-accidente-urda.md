@@ -48,6 +48,6 @@ El decreto incluye otras medidas que no requieren solicitud. Las bajas laborales
 
 ## Estado de los heridos
 
-Según publica elDiario.es con datos del Servicio de Salud de Castilla-La Mancha (Sescam), quince personas seguían ingresadas este viernes en hospitales de la región: nueve en el Hospital Universitario de Toledo, cuatro en el de Ciudad Real, una en el Mancha Centro de Alcázar de San Juan y una en el de Albacete. Las dos que permanecen en la UCI están en Toledo; un tercer paciente salió de cuidados intensivos y pasó a planta.
+Según datos del Servicio de Salud de Castilla-La Mancha (Sescam), quince personas seguían ingresadas este viernes en hospitales de la región: nueve en el Hospital Universitario de Toledo, cuatro en el de Ciudad Real, una en el Mancha Centro de Alcázar de San Juan y una en el de Albacete. Las dos que permanecen en la UCI están en Toledo; un tercer paciente salió de cuidados intensivos y pasó a planta.
 
 La cifra baja en cinco respecto al día anterior por el traslado de otros tantos pacientes a hospitales de Madrid, para que estén más cerca de sus familiares. De los 110 viajeros que llegaron a estar ingresados en seis hospitales del Sescam, 95 ya han recibido el alta.

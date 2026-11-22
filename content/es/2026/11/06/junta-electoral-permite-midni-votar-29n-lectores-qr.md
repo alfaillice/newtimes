@@ -40,6 +40,6 @@ El DNI digital se suma a los documentos que ya servían: el DNI físico, el pasa
 
 ## Una autorización con idas y venidas
 
-La JEC había admitido MiDNI y MiDGT como medios de identificación en su acuerdo 56/2025, del 18 de septiembre de 2025. El 5 de marzo de 2026, a raíz de una petición del PP, la Junta concluyó que bastaba con enseñar en la mesa el documento con foto que genera la aplicación, sin necesidad de leer el QR. Tres semanas después, el 26 de marzo, suspendió el uso de ambas aplicaciones, por motivos de seguridad según elDiario.es, una suspensión que ahora levanta solo para MiDNI.
+La JEC había admitido MiDNI y MiDGT como medios de identificación en su acuerdo 56/2025, del 18 de septiembre de 2025. El 5 de marzo de 2026, a raíz de una petición del PP, la Junta concluyó que bastaba con enseñar en la mesa el documento con foto que genera la aplicación, sin necesidad de leer el QR. Tres semanas después, el 26 de marzo, suspendió el uso de ambas aplicaciones, por motivos de seguridad, una suspensión que ahora levanta solo para MiDNI.
 
 Interior asegura que casi dos millones de personas se han registrado en MiDNI y que más de 1.755.000 han activado el DNI digital. El ministerio añade que el sistema usa certificados y firma digital y que su seguridad ha sido evaluada y certificada por el Centro Criptológico Nacional. La JEC trasladará su decisión a las juntas electorales provinciales para que la comuniquen a las de zona.

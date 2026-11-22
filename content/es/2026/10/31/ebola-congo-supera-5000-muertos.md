@@ -25,17 +25,17 @@ fuentes:
     url: https://news.un.org/en/story/2026/10/1168689
 ---
 
-El brote de ébola que golpea la República Democrática del Congo (RDC) desde mayo ha causado ya 5.026 muertes entre 10.351 infecciones confirmadas, según el último informe del Instituto Nacional de Salud Pública congoleño, con datos cerrados el 29 de octubre y difundidos este sábado por las agencias EFE y AP. Es la primera vez que la epidemia rebasa el umbral de los 5.000 fallecidos.
+El brote de ébola que golpea la República Democrática del Congo (RDC) desde mayo ha causado ya 5.026 muertes entre 10.351 infecciones confirmadas, según el último informe del Instituto Nacional de Salud Pública congoleño, con datos cerrados el 29 de octubre y difundidos este sábado. Es la primera vez que la epidemia rebasa el umbral de los 5.000 fallecidos.
 
-Las cifras implican que cerca de la mitad de las personas infectadas han muerto. El brote se declaró oficialmente el 15 de mayo en el este del país y desde entonces se ha extendido a ocho de las 26 provincias, de acuerdo con Al Jazeera, que se basa en datos del Gobierno congoleño y en información de Reuters.
+Las cifras implican que cerca de la mitad de las personas infectadas han muerto. El brote se declaró oficialmente el 15 de mayo en el este del país y desde entonces se ha extendido a ocho de las 26 provincias, según datos del Gobierno congoleño y otras informaciones.
 
 ## Una cepa sin vacuna aprobada
 
-La epidemia la causa el virus Bundibugyo, una cepa distinta de la Zaire, contra la que sí existe vacuna. Para Bundibugyo no existe ninguna vacuna ni tratamiento aprobados, un factor que, junto con la detección tardía, los conflictos armados en el este del país y unos servicios sanitarios debilitados, ha favorecido su expansión, según recoge Al Jazeera.
+La epidemia la causa el virus Bundibugyo, una cepa distinta de la Zaire, contra la que sí existe vacuna. Para Bundibugyo no existe ninguna vacuna ni tratamiento aprobados, un factor que, junto con la detección tardía, los conflictos armados en el este del país y unos servicios sanitarios debilitados, ha favorecido su expansión.
 
 Con estas cifras, el brote es el más grave registrado en la RDC, que ha sufrido 17 epidemias de ébola, y el segundo más letal de la historia mundial, solo por detrás del que asoló África occidental entre 2014 y 2016, con unos 11.000 muertos en Guinea, Liberia y Sierra Leona.
 
-La enfermedad también ha cruzado fronteras. Kenia ha confirmado nueve casos y dos fallecimientos, todos vinculados a un hombre keniano que trabajaba en la RDC, viajó a Nairobi a través de Uganda el 3 de octubre y murió dos días después, según Noticias ONU. Uganda y Nigeria también han notificado casos, y Arabia Saudí suspendió este viernes los viajes desde Kenia, informa Al Jazeera.
+La enfermedad también ha cruzado fronteras. Kenia ha confirmado nueve casos y dos fallecimientos, todos vinculados a un hombre keniano que trabajaba en la RDC, viajó a Nairobi a través de Uganda el 3 de octubre y murió dos días después, según la ONU. Uganda y Nigeria también han notificado casos, y Arabia Saudí suspendió este viernes los viajes desde Kenia.
 
 ## Ensayos en marcha
 
