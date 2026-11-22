@@ -10,6 +10,11 @@ world:
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/world/rss"}
   - {medio: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml"}
+  - {medio: New York Times, url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"}
+  - {medio: Washington Post, url: "https://feeds.washingtonpost.com/rss/world"}
+  - {medio: Politico Europe, url: "https://www.politico.eu/feed/"}
+  - {medio: Euronews, url: "https://www.euronews.com/rss"}
+  - {medio: Financial Times, url: "https://www.ft.com/world?format=rss"}
 business:
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/business/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/business/rss"}

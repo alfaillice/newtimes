@@ -41,3 +41,7 @@ deportes:
 # Portada general de Europa Press: el redactor la reparte por sección según el tema.
 general:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=94"}
+  - {medio: El Mundo, url: "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml"}
+  - {medio: ABC, url: "https://www.abc.es/rss/feeds/abc_ultima.xml"}
+  - {medio: elDiario.es, url: "https://www.eldiario.es/rss/"}
+  - {medio: El Confidencial, url: "https://rss.elconfidencial.com/espana/"}
