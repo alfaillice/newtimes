@@ -87,3 +87,6 @@ medios:
   - bloomberg.com
   - sky.com
   - euronews.com
+  # Añadidos 22/11: servicios públicos de referencia (EE. UU. y Alemania)
+  - npr.org
+  - dw.com
