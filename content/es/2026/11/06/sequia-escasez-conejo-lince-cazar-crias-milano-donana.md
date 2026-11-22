@@ -26,7 +26,7 @@ fuentes:
     url: https://www.eldiario.es/1_cf95b1
 ---
 
-El lince ibérico ha empezado a asaltar los nidos del milano negro en Doñana cuando la sequía y la escasez de conejos lo dejan sin alternativas. Así lo concluye un trabajo de la Estación Biológica de Doñana (EBD-CSIC) publicado en la revista *Nature*, que ha analizado 1.624 nidos de esta rapaz entre 1993 y 2023 en un sector de 10 kilómetros cuadrados del Parque Nacional, según informaron el CSIC y la agencia EFE.
+El lince ibérico ha empezado a asaltar los nidos del milano negro en Doñana cuando la sequía y la escasez de conejos lo dejan sin alternativas. Así lo concluye un trabajo de la Estación Biológica de Doñana (EBD-CSIC) publicado en la revista *Nature*, que ha analizado 1.624 nidos de esta rapaz entre 1993 y 2023 en un sector de 10 kilómetros cuadrados del Parque Nacional, según informó el CSIC.
 
 Los investigadores describen un nivel de depredación sin precedentes en las tres décadas de seguimiento. En un solo año, los linces llegaron a eliminar casi la mitad de los pollos volanderos de milano de toda la población estudiada, según el primer autor del estudio, Fabrizio Sergio, investigador de la EBD-CSIC. Para alcanzar los nidos, los felinos llegaron a trepar unos 12 metros por los árboles.
 

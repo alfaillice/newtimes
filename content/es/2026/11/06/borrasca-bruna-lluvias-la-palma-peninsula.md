@@ -26,7 +26,7 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/11/05/la-borrasca-bruna-traera-fuertes-lluvias-a-la-peninsula-y-canarias-a-partir-del-sabado/
 ---
 
-La borrasca Bruna empieza a notarse este viernes en las islas occidentales de Canarias, sobre todo en La Palma, donde la Agencia Estatal de Meteorología (AEMET) mantiene un aviso amarillo por lluvias y el Gobierno canario ha declarado la prealerta. Durante el fin de semana las precipitaciones avanzarán hacia la península, y la AEMET prevé que domingo, lunes y martes sean los días más lluviosos, con riesgo de inundaciones locales en zonas bajas y crecidas de ríos, según recoge EFE.
+La borrasca Bruna empieza a notarse este viernes en las islas occidentales de Canarias, sobre todo en La Palma, donde la Agencia Estatal de Meteorología (AEMET) mantiene un aviso amarillo por lluvias y el Gobierno canario ha declarado la prealerta. Durante el fin de semana las precipitaciones avanzarán hacia la península, y la AEMET prevé que domingo, lunes y martes sean los días más lluviosos, con riesgo de inundaciones locales en zonas bajas y crecidas de ríos.
 
 El nombre de la borrasca lo ha puesto el servicio meteorológico portugués, el IPMA, según informó la AEMET.
 
@@ -34,11 +34,11 @@ En La Palma, el aviso amarillo (peligro bajo) está activo desde las 04.00 hasta
 
 La prealerta del Gobierno de Canarias, en vigor desde las 00.00 del viernes, se activa dentro del Plan Específico de Emergencias de Canarias por Riesgos de Fenómenos Meteorológicos Adversos (PEFMA). Según el Ejecutivo autonómico, las lluvias podrán superar los 15 milímetros por hora y caerán sobre todo en la mitad sur de La Palma, en especial en las vertientes que miran al sur y al oeste. El Gobierno pide a la población que siga los consejos de autoprotección de la Dirección General de Emergencias.
 
-Las otras islas occidentales también pueden recibir agua. La previsión de la AEMET que recoge EFE considera probables las lluvias moderadas en El Hierro durante la primera mitad del día, y no las descarta en La Gomera. En Tenerife podría llover débilmente, sobre todo en el nordeste hacia mediodía. En Lanzarote y Fuerteventura solo se esperan nubes altas, con cielos despejados o poco nubosos por la tarde.
+Las otras islas occidentales también pueden recibir agua. La previsión de la AEMET considera probables las lluvias moderadas en El Hierro durante la primera mitad del día, y no las descarta en La Gomera. En Tenerife podría llover débilmente, sobre todo en el nordeste hacia mediodía. En Lanzarote y Fuerteventura solo se esperan nubes altas, con cielos despejados o poco nubosos por la tarde.
 
 ## Qué se espera en los próximos días
 
-La lluvia del viernes en las islas occidentales es solo el comienzo. Según el aviso de la AEMET que recoge EFE, a última hora de este viernes las precipitaciones alcanzarán el oeste de Galicia y la cordillera Cantábrica. La borrasca se irá acercando al noroeste peninsular, y entre el domingo y el martes llegarán varios frentes seguidos. Se esperan chubascos fuertes o muy fuertes, persistentes y con tormenta, además de rachas de viento muy fuertes y temporal marítimo en el oeste peninsular.
+La lluvia del viernes en las islas occidentales es solo el comienzo. Según el aviso de la AEMET, a última hora de este viernes las precipitaciones alcanzarán el oeste de Galicia y la cordillera Cantábrica. La borrasca se irá acercando al noroeste peninsular, y entre el domingo y el martes llegarán varios frentes seguidos. Se esperan chubascos fuertes o muy fuertes, persistentes y con tormenta, además de rachas de viento muy fuertes y temporal marítimo en el oeste peninsular.
 
 Donde más agua se acumulará será en las zonas expuestas a los vientos ábregos, del suroeste: el suroeste de Andalucía, Extremadura, Gredos y la vertiente atlántica de Galicia. La AEMET pide prestar atención a las zonas afectadas por los grandes incendios del verano pasado, donde la lluvia será persistente.
 

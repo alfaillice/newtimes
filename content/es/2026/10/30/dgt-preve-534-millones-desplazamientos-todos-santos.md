@@ -38,7 +38,7 @@ El domingo, además de las visitas a los cementerios, empezará la vuelta desde 
 
 ## Andalucía y la A-1, los puntos a vigilar
 
-La DGT seguirá de cerca los ejes con origen o destino en Andalucía, porque la suspensión del servicio ferroviario tras el accidente de Urda (Toledo) puede trasladar viajeros del tren al coche, como recoge también EFE. En la A-1, las obras de reparación de tres viaductos entre los kilómetros 51 y 59, a la altura de Venturada y Cabanillas de la Sierra, mantienen cortado un carril en dirección a Madrid; Tráfico prevé retenciones importantes el lunes y habilitará un carril adicional de entrada desde el kilómetro 74 si el tiempo y la seguridad lo permiten.
+La DGT seguirá de cerca los ejes con origen o destino en Andalucía, porque la suspensión del servicio ferroviario tras el accidente de Urda (Toledo) puede trasladar viajeros del tren al coche, como se recoge también. En la A-1, las obras de reparación de tres viaductos entre los kilómetros 51 y 59, a la altura de Venturada y Cabanillas de la Sierra, mantienen cortado un carril en dirección a Madrid; Tráfico prevé retenciones importantes el lunes y habilitará un carril adicional de entrada desde el kilómetro 74 si el tiempo y la seguridad lo permiten.
 
 Durante el puente se paralizan las obras que afecten a la circulación, se limitan las pruebas deportivas en la calzada y se restringe el paso de camiones en determinados tramos y horarios. Habrá carriles adicionales y reversibles, radares fijos y móviles, helicópteros, drones y cámaras para detectar el uso del móvil y la falta de cinturón.
 
@@ -46,6 +46,6 @@ Durante el puente se paralizan las obras que afecten a la circulación, se limit
 
 La DGT recuerda que el carril de emergencia es obligatorio desde el 1 de octubre en autovías y autopistas cuando el tráfico se detiene o avanza a paso de peatón. Con dos carriles por sentido, el hueco se abre en el centro: los coches del izquierdo se apartan a la izquierda y los del derecho, a la derecha. Con tres carriles, el pasillo queda entre el izquierdo y el central. Ante una avería o un accidente, la señal obligatoria es la baliza V-16.
 
-Tráfico aconseja planificar el viaje, revisar el coche, tener en cuenta que anochece antes y consultar la previsión de la Aemet. En Canarias, la agencia ha activado un aviso amarillo por lluvias en La Palma para el domingo, según publica elDiario.es.
+Tráfico aconseja planificar el viaje, revisar el coche, tener en cuenta que anochece antes y consultar la previsión de la Aemet. En Canarias, la agencia ha activado un aviso amarillo por lluvias en La Palma para el domingo.
 
 **Información útil:** estado de las carreteras en el 011, en dgt.es y en la cuenta @DGTes de X. Atención a víctimas de siniestros de tráfico: 018 (gratuito).

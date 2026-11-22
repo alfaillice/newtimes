@@ -32,7 +32,7 @@ Desde el pasado jueves por la tarde, Microsoft 365 sufre una caída que todavía
 
 La magnitud exacta no se conoce. El servicio de seguimiento Downdetector recibió el jueves por la noche unos 140.000 avisos sobre Outlook procedentes de 74 países. Sin embargo, ese recuento depende de que los usuarios informen por su cuenta, por lo que el número real de afectados probablemente sea mucho mayor.
 
-La duración también varía según la fuente. La BBC habla de más de 20 horas, mientras que The Guardian, en su seguimiento en directo, situaba la interrupción en torno a las 18 horas.
+La duración también varía según la fuente. Se habla de más de 20 horas, mientras que otro seguimiento en directo situaba la interrupción en torno a las 18 horas.
 
 Microsoft descarta un ciberataque y atribuye el fallo a una «carga elevada» en su infraestructura. Una parte considerable de sus servidores dejó de estar disponible de forma inesperada, y el tráfico que recibían pasó a los que seguían funcionando, que se saturaron. James Ferryman, de la Universidad de Reading, explica que el componente que establece las conexiones seguras se ha colapsado y que, cuando cae un servidor, su trabajo pasa al siguiente. Mientras tanto, millones de teléfonos y ordenadores insisten en reconectarse, por lo que la vuelta a la normalidad debe hacerse poco a poco.
 
