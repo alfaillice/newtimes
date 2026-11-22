@@ -34,9 +34,9 @@ Only these sources may be used as a basis. Agencies and official sources take pr
 
 **Official, international:** European Commission, European Parliament, Council of the EU, ECB, Eurostat, UN and its agencies (WHO, UNHCR…), NATO, IMF, OECD, World Bank, governments' official sites.
 
-**Reference media (English):** BBC, The Guardian, Financial Times, The New York Times, The Washington Post, The Economist, Politico Europe, Bloomberg, Sky News, Al Jazeera (attributed), Euronews.
+**Reference media (English):** BBC, The Guardian, Financial Times, The New York Times, The Washington Post, The Economist, Politico Europe, Bloomberg, Sky News, Al Jazeera (attributed), Euronews, NPR, Le Monde, DW.
 
-**Reference media (Spain):** RTVE, El País, El Mundo, La Vanguardia, ABC, elDiario.es, El Confidencial, Cadena SER, Expansión, Cinco Días, Marca and AS (sport), Agencia SINC (science).
+**Reference media (Spain):** RTVE, El País, El Mundo, La Vanguardia, ABC, elDiario.es, El Confidencial, OKDiario, Cadena SER, Expansión, Cinco Días, Marca and AS (sport), Agencia SINC (science).
 
 **Science:** peer-reviewed journals (Nature, Science, The Lancet, NEJM, PNAS…) and press releases from universities and research councils.
 
