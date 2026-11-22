@@ -34,17 +34,18 @@ Only these sources may be used as a basis. Agencies and official sources take pr
 
 **Official, international:** European Commission, European Parliament, Council of the EU, ECB, Eurostat, UN and its agencies (WHO, UNHCR…), NATO, IMF, OECD, World Bank, governments' official sites.
 
-**Reference media (English):** BBC, The Guardian, Financial Times, The New York Times, The Washington Post, The Economist, Politico Europe, Bloomberg, Sky News, Al Jazeera (attributed), Euronews, NPR, Le Monde, DW.
+**Reference media (English):** BBC, The Guardian, Financial Times, The New York Times, The Washington Post, The Economist, Politico Europe, Bloomberg, Sky News, Al Jazeera, Euronews, NPR, Le Monde, DW.
 
 **Reference media (Spain):** RTVE, El País, El Mundo, La Vanguardia, ABC, elDiario.es, El Confidencial, OKDiario, Cadena SER, Expansión, Cinco Días, Marca and AS (sport), Agencia SINC (science).
 
 **Science:** peer-reviewed journals (Nature, Science, The Lancet, NEJM, PNAS…) and press releases from universities and research councils.
 
 Rules:
-- An important fact (figures, deaths, accusations, decisions) must appear in an agency, an official source or **two media outlets** on the list. If only one outlet reports it, attribute it explicitly: "according to The Guardian".
+- An important fact (figures, deaths, accusations, decisions) must appear in an agency, an official source or **two media outlets** on the list. If only one outlet reports it, it is not published.
+- **Media outlets are never named in the text.** No "according to The Guardian", "reported by the BBC" or "told the Times". Sources appear only in the "Sources for this story" block at the end, as a detail of the story.
 - Cite 1 to 4 sources per story, always with their exact URL.
 - **Original source.** If the story is based on an official or scientific document (INE release, BOE, Bank of Spain report, journal study), also list it in `fuentes` when it is an open web page, alongside the agency that reports it. The server reporter adds it automatically when a source links to it in its text.
-- If sources disagree, report the discrepancy attributing each version, or leave the figure out.
+- If sources disagree, report the discrepancy attributing each version to the person or body behind it, never to a media outlet, or leave the figure out.
 - Every fact in the text must be in one of the sources listed in `fuentes`. If it cannot be linked, it is not published.
 - Sources in Spanish are fine. When you quote a statement made in Spanish, translate it faithfully and make clear it is a translation the first time ("said in Spanish", "told Cadena SER").
 

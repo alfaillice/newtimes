@@ -659,7 +659,8 @@ Follow this editorial guide strictly (it overrides your style):
 Use ONLY the facts in these sources. Do not add any fact, figure, name or quote that is not in them.
 Write in your own words and structure: do not copy, translate or paraphrase sentence by sentence. Direct quotes: at most
 two, short, only if they are in the source (translate faithfully if the source is in Spanish). If sources disagree,
-attribute each version. Explain Spanish institutions and parties briefly for international readers.
+attribute each version to the person or body behind it. Explain Spanish institutions and parties briefly for international readers.
+NEVER name a media outlet in the text (no "according to X", "X reports", "X told"): the sources are listed separately at the end.
 
 {bloque}
 
@@ -689,7 +690,8 @@ Sigue estrictamente esta guía editorial (manda sobre tu estilo):
 
 Usa ÚNICAMENTE los hechos de estas fuentes. No añadas ningún dato, cifra, nombre ni cita que no aparezca en ellas.
 Escribe con tus palabras y tu propia estructura: no copies ni parafrasees frase a frase. Citas literales: máximo dos,
-cortas, solo si están en la fuente. Si las fuentes discrepan, atribuye cada versión.
+cortas, solo si están en la fuente. Si las fuentes discrepan, atribuye cada versión a la persona u organismo que la sostiene.
+NUNCA nombres un medio de comunicación en el texto (nada de «según X», «X informa», «X publica»): las fuentes se listan aparte, al final.
 
 {bloque}
 

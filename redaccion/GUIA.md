@@ -34,15 +34,16 @@ Solo estas fuentes sirven de base. Las agencias y fuentes oficiales tienen prior
 
 **Medios de referencia (España):** RTVE, El País, El Mundo, La Vanguardia, ABC, elDiario.es, El Confidencial, Cadena SER, Cope, OKDiario, 20minutos, El Periódico, La Razón, Expansión, Cinco Días, El Economista, Marca y AS (deportes), Agencia SINC (ciencia).
 
-**Medios de referencia (internacional):** BBC, The Guardian, Financial Times, The New York Times, The Washington Post, Le Monde, AP News, Al Jazeera (atribuyendo).
+**Medios de referencia (internacional):** BBC, The Guardian, Financial Times, The New York Times, The Washington Post, Le Monde, AP News, Al Jazeera.
 
 **Ciencia:** revistas con revisión por pares (Nature, Science, The Lancet, NEJM, PNAS…) y notas de prensa de universidades y del CSIC.
 
 Reglas:
-- Un dato importante (cifras, muertos, acusaciones, decisiones) debe estar en una agencia, una fuente oficial o **dos medios** de la lista. Si solo lo publica un medio, se atribuye expresamente: «según publica El País».
+- Un dato importante (cifras, muertos, acusaciones, decisiones) debe estar en una agencia, una fuente oficial o **dos medios** de la lista. Si solo lo publica un medio, no se publica.
+- **Los medios no se nombran en el texto.** Nada de «según El País», «informa El Mundo» ni «publica ABC». Las fuentes van solo en el bloque «Fuentes de esta noticia», al final, como detalle de la noticia.
 - Cita entre 1 y 4 fuentes por noticia, siempre con su URL exacta.
 - **Fuente original.** Si la noticia se basa en un documento oficial o científico (nota del INE, BOE, informe del Banco de España, estudio en una revista), enlázalo también en `fuentes` cuando sea una página abierta, además de la agencia que lo cuenta. El redactor del servidor lo añade solo si la fuente lo enlaza en su texto.
-- Si las fuentes discrepan, se cuenta la discrepancia atribuyendo cada versión, o no se da la cifra.
+- Si las fuentes discrepan, se cuenta la discrepancia atribuyendo cada versión a la persona u organismo que la sostiene, nunca a un medio, o no se da la cifra.
 - Todo dato del texto debe estar en alguna de las fuentes listadas en `fuentes`. Lo que no se puede enlazar, no se publica.
 
 ## 3. Cómo se escribe
