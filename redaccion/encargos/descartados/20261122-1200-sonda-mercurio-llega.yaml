@@ -1,0 +1,9 @@
+seccion: ciencia-salud
+tema: La sonda espacial llega a Mercurio tras un viaje de ocho años; atribuir los datos a la BBC.
+destacado: false
+fuentes:
+- medio: BBC
+  titulo: Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage
+  url: https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss
+motivo: 'cifras que no están en las fuentes: 10000'
+descartado: '2026-11-22T12:11:30+01:00'

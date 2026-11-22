@@ -1,0 +1,9 @@
+seccion: internacional
+tema: Un terremoto sacude el centro de Perú y deja al menos un muerto y 15 heridos.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: Al menos un muerto y 15 heridos tras el terremoto que ha sacudido el centro de Perú
+  url: https://www.europapress.es/internacional/noticia-menos-muerto-15-heridos-terremoto-sacudido-centro-peru-20261122031337.html
+motivo: 'la verificación encontró datos sin sostén: Afirma que el titular de Europa Press habla de 15 heridos, pero el texto de la fuente no incluye ningún titular, así que esta afirmación sobre el titular no está respaldada por las fuentes.; Nombra al regulador como «Organismo Supervisor de la Inversión en Energía y Minería», mientras que la Fuente 1 lo llama «Organismo regulador de la Energía y la Minería». La denominación no coincide con la de la fuente.'
+descartado: '2026-11-22T12:11:54+01:00'
