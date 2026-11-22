@@ -5,6 +5,7 @@ seccion: ciencia-salud
 agente: carmen-pardo
 fecha: '2026-11-22T18:20:00+01:00'
 destacado: false
+actualizado: '2026-11-22T18:50:00+01:00'
 etiquetas:
 - COP31
 - cambio climático
@@ -45,6 +46,8 @@ El australiano Chris Bowen, que dirige las negociaciones, defiende que la cumbre
 
 La postura de Bruselas ha generado versiones distintas. Una de ellas sostiene que el ministro irlandés de Energía y Cambio Climático, Darragh O'Brien, anunció en el plenario final el rechazo de la UE, al considerar que el texto «no responde a la ciencia». Otra indica que la Unión Europea aún no había reaccionado oficialmente al último borrador, aunque el comisario de Clima, Wopke Hoekstra, había advertido el sábado de que, si el bloque no logra «lo que se necesita» en acción climática, «no hay acuerdo».
 
-La financiación es otro de los puntos muertos. Los países africanos reclaman más dinero para adaptarse al cambio climático, y el mecanismo de transición justa también está estancado. El negociador de Ghana y presidente del Grupo Africano, Zanetor Agyeman Rawlings, ha dicho: «No vinimos a mendigar». Mohamed Adow, de Power Shift Africa, ha calificado la cumbre de «la peor COP de la historia».
+La financiación es otro de los puntos muertos. Los países africanos reclaman más dinero para adaptarse al cambio climático, y el mecanismo de transición justa también está estancado. La negociadora de Ghana y presidenta del Grupo Africano, Zanetor Agyeman-Rawlings, ha dicho: «No vinimos a mendigar». Mohamed Adow, de Power Shift Africa, ha calificado la cumbre de «la peor COP de la historia».
 
 Si no se logra consenso, algo que exige el proceso de la ONU, las negociaciones podrían suspenderse hasta el año que viene. Solo ha ocurrido una vez desde que se celebran estas cumbres, en 1995. La siguiente cita, la COP32, está prevista en Etiopía en 2027, con el foco puesto en África.
+
+*Corrección: en una versión anterior se hablaba en masculino de Zanetor Agyeman-Rawlings («el negociador», «presidente»); lo correcto es «la negociadora» y «presidenta».*
