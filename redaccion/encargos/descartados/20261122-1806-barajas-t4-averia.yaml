@@ -1,0 +1,12 @@
+seccion: espana
+tema: Una avería del tren satélite de la Terminal 4 de Barajas provoca largas colas de viajeros y obliga a ajustar vuelos este domingo.
+destacado: false
+fuentes:
+- medio: El Mundo
+  titulo: 'Caos en Barajas: una avería del tren satélite en la Terminal 4 provoca largas colas de viajeros'
+  url: https://www.elmundo.es/economia/macroeconomia/2026/11/22/6b02e79c21efa01e3e8b4575.html
+- medio: El Confidencial
+  titulo: 'El tren de Barajas tampoco funciona: una avería desata el caos en la T4 y obliga a ajustar los vuelos'
+  url: https://www.elconfidencial.com/espana/2026-11-22/averia-tren-t4-aeropuerto-barajas-1hms_4470166/
+motivo: 'la verificación encontró datos sin sostén: «hora peninsular» (en «a Los Ángeles a las 12.55, hora peninsular»): las fuentes dan la hora del vuelo como «12.55 horas» sin especificar zona horaria. La precisión es un añadido no respaldado por las fuentes.'
+descartado: '2026-11-22T18:10:44+01:00'
