@@ -27,7 +27,7 @@ fuentes:
 
 El brote de ébola que golpea la República Democrática del Congo (RDC) desde mayo ha causado ya 5.026 muertes entre 10.351 infecciones confirmadas, según el último informe del Instituto Nacional de Salud Pública congoleño, con datos cerrados el 29 de octubre y difundidos este sábado. Es la primera vez que la epidemia rebasa el umbral de los 5.000 fallecidos.
 
-Las cifras implican que cerca de la mitad de las personas infectadas han muerto. El brote se declaró oficialmente el 15 de mayo en el este del país y desde entonces se ha extendido a ocho de las 26 provincias, que se basa en datos del Gobierno congoleño y en otras informaciones.
+Las cifras implican que cerca de la mitad de las personas infectadas han muerto. El brote se declaró oficialmente el 15 de mayo en el este del país y desde entonces se ha extendido a ocho de las 26 provincias, según datos del Gobierno congoleño y otras informaciones.
 
 ## Una cepa sin vacuna aprobada
 
