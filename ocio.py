@@ -5,8 +5,9 @@ def construir(c, base_ctx):
         ("juegos/sudoku", "sudoku", "Sudoku", "Completa la cuadrícula sin repetir números en filas, columnas ni bloques."),
         ("juegos/sopa-de-letras", "sopa-de-letras", "Sopa de letras", "Encuentra las palabras: marca su primera y última letra en línea recta."),
         ("juegos/conexiones", "conexiones", "Conexiones", "Elige cuatro palabras que tengan algo en común y encuentra los cuatro grupos."),
-        ("horoscopo", "horoscopo", "Horóscopo diario", "Doce lecturas breves para el día, solo como entretenimiento."),
     ]
+    # El horóscopo se ha retirado: la guía editorial no publica horóscopos y
+    # sus textos eran relleno sin información (rechazo de AdSense por contenido de poco valor).
     for ruta, modo, titulo, descripcion in paginas:
         c.escribir("/" + ruta + "/", c.render("es/ocio.html", **base_ctx,
                    ocio_ruta=ruta, modo=modo, titulo=titulo, descripcion=descripcion),

@@ -804,7 +804,9 @@ class Constructor:
                                                ultimo=ultimo, total_hoy=len(de_hoy)), prioridad="1.0", lastmod=ultimo)
 
         # Temas (etiquetas): páginas que agrupan la cobertura de un asunto.
-        # Con menos de 3 noticias se publican pero con noindex, para no crear páginas pobres.
+        # Son solo una lista de titulares sin texto propio: se enlazan para navegar,
+        # pero no se indexan ni van al sitemap (AdSense: contenido de poco valor).
+        # Para indexarlas de nuevo hará falta una introducción propia por tema.
         temas: dict = {}
         for a in articulos:
             for e in a.etiquetas:
@@ -815,8 +817,8 @@ class Constructor:
         for clave, tema in temas.items():
             self.escribir(f"{pre}/{r['tema']}/{clave}/", self.render(f"{t}/tema.html", **base_ctx, clave=clave,
                                                               tema=tema["nombre"], lista=tema["lista"][:60],
-                                                              indexable=len(tema["lista"]) >= 3),
-                          sitemap=len(tema["lista"]) >= 3, prioridad="0.6", lastmod=tema["lista"][0].fecha)
+                                                              indexable=False),
+                          sitemap=False, prioridad="0.6", lastmod=tema["lista"][0].fecha)
 
         # Artículos
         veces_etiqueta = Counter(e.lower() for a in articulos for e in set(a.etiquetas))
