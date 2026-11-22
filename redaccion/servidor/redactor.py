@@ -62,6 +62,12 @@ GUIAS = {"es": "redaccion/GUIA.md", "en": "redaccion/GUIDE.md"}
 PENDIENTES = RAIZ / "redaccion/encargos/pendientes"
 DESCARTADOS = RAIZ / "redaccion/encargos/descartados"
 MAX_INTENTOS = 3
+# Una noticia necesita este número de medios distintos y admitidos (ES y EN). Si el tema trae menos,
+# el redactor busca la segunda pieza del mismo hecho entre los titulares leídos; si no la encuentra,
+# descarta ese tema y pasa al siguiente. Así no se para la publicación.
+FUENTES_MINIMAS = int(os.environ.get("NEWTIMES_FUENTES_MIN", 2))
+MAX_CANDIDATAS = 4   # piezas de otros medios que se prueban para completar un tema
+VENTANA_FUENTES_H = 24   # horas de titulares en los que buscar la segunda fuente de un hecho
 MOTIVO = ""   # por qué se descartó la última noticia
 
 
@@ -420,12 +426,61 @@ def clasificar(url: str) -> tuple[str, str] | None:
     return None
 
 
+def dominio(url: str) -> str | None:
+    """Grupo editorial de la fuente: el dominio admitido más corto que la contiene.
+    cincodias.elpais.com y elpais.com son el mismo grupo: no cuentan como dos medios."""
+    if not clasificar(url):
+        return None
+    host = (urllib.parse.urlsplit(url).hostname or "").lower()
+    cfg = _admitidas()
+    coincidencias = [d for clave in ("medios", "fuertes") for d in cfg[clave]
+                     if host == d or host.endswith("." + d)]
+    return min(coincidencias, key=len)
+
+
+def medios(fuentes: list[dict]) -> set[str]:
+    """Dominios distintos y admitidos de un conjunto de fuentes."""
+    return {d for d in (dominio(f["url"]) for f in fuentes) if d}
+
+
 def solidez(fuentes: list[dict]) -> str:
-    """ok: agencia, fuente oficial o dos medios. atribuir: un solo medio. no: ninguna admitida."""
-    clases = [c for c in (clasificar(f["url"]) for f in fuentes) if c]
-    if any(c == "fuerte" for c, _ in clases) or len({d for _, d in clases}) >= 2:
+    """ok: al menos FUENTES_MINIMAS medios distintos y admitidos. atribuir: solo uno. no: ninguno."""
+    doms = medios(fuentes)
+    if len(doms) >= FUENTES_MINIMAS:
         return "ok"
-    return "atribuir" if clases else "no"
+    return "atribuir" if doms else "no"
+
+
+_VACIAS = {"para", "como", "pero", "sobre", "entre", "tras", "desde", "hasta", "este", "esta", "estos", "estas",
+           "donde", "cuando", "ayer", "hoy", "también", "sino", "tiene", "tienen", "hacia", "según",
+           "that", "this", "with", "from", "have", "were", "their", "they", "will", "after", "about", "into",
+           "over", "says", "said", "more", "than", "also", "been", "which", "while", "where", "when", "amid"}
+
+
+def palabras_clave(texto: str) -> set[str]:
+    return {w for w in re.findall(r"\w+", texto.lower()) if len(w) > 3 and w not in _VACIAS and not w.isdigit()}
+
+
+def candidatas_mismo_hecho(tema: dict, pool: list[dict]) -> list[dict]:
+    """Piezas de otros medios que cuentan el mismo hecho que el tema, de más a menos parecidas.
+
+    Se usan para completar una noticia de un solo medio sin frenar la redacción: si el tema no alcanza
+    FUENTES_MINIMAS medios distintos, se buscan aquí las demás piezas del mismo hecho entre los titulares
+    ya leídos. Dos piezas cuentan como el mismo hecho si comparten al menos dos palabras clave y al menos
+    una cuarta parte de las de la pieza candidata.
+    """
+    base = palabras_clave(" ".join([tema.get("tema", "")] + [f"{i['titulo']} {i['resumen']}" for i in tema["items"]]))
+    usados = {i["url"] for i in tema["items"]}
+    doms = {dominio(i["url"]) for i in tema["items"]}
+    puntuadas = []
+    for it in pool:
+        if it["url"] in usados or dominio(it["url"]) in doms:
+            continue
+        clave = palabras_clave(f"{it['titulo']} {it['resumen']}")
+        comunes = len(clave & base)
+        if comunes >= 2 and comunes / max(len(clave), 1) >= 0.25:
+            puntuadas.append((comunes / len(clave), it))
+    return [it for _, it in sorted(puntuadas, key=lambda x: -x[0])]
 
 
 def _numeros(texto: str) -> set[str]:
@@ -492,7 +547,7 @@ Choose between 0 and {maximo} new stories of general interest for English-speaki
 Europe and the world: concrete, confirmed facts, at most 2 per section, priority to sections with little coverage and
 to Spain-related news. No opinion, rumours, horoscopes, offers, morbid crime stories or live blogs without facts.
 If nothing deserves it, return an empty list.
-For each story give the ids of 1 to 3 headlines about that same event (ideally from different outlets).
+For each story give the ids of 2 or 3 headlines about that same event, from DIFFERENT outlets (required: every story must be covered by at least two outlets).
 Valid sections: {", ".join(secciones)}. Mark destacado=true on at most one, only if it is clearly the most important.
 
 Answer only with: {{"temas": [{{"seccion": "...", "ids": [n, ...], "destacado": false, "tema": "one sentence"}}]}}""")
@@ -508,7 +563,7 @@ Noticias por sección en las últimas 12 h: {json.dumps(cobertura)}
 Elige entre 0 y {maximo} temas nuevos de interés general para lectores en España: hechos concretos y confirmados,
 máximo 2 por sección, prioridad a secciones con poca cobertura. Nada de opinión, rumores, horóscopos, ofertas,
 sucesos morbosos ni directos sin hechos. Si no hay nada que lo merezca, devuelve una lista vacía.
-Para cada tema da los ids de 1 a 3 titulares que traten ese mismo hecho (mejor de medios distintos).
+Para cada tema da los ids de 2 o 3 titulares que traten ese mismo hecho, de medios distintos (obligatorio: cada tema debe estar cubierto por al menos dos medios).
 Secciones válidas: {", ".join(secciones)}. Marca destacado=true en como mucho uno, solo si es claramente lo más importante.
 
 Responde solo con: {{"temas": [{{"seccion": "...", "ids": [n, ...], "destacado": false, "tema": "una frase"}}]}}"""
@@ -531,23 +586,40 @@ def _elegir(items, por_id_lista, ya, cobertura, secciones, maximo, sistema, usua
     return temas
 
 
+def _fuente(it: dict) -> dict | None:
+    """Texto de una pieza de origen, o None si no se puede leer."""
+    texto = texto_pagina(it["url"])
+    if len(texto) < MIN_LEGIBLE:
+        # La pieza era legible al hacer la lista de titulares: si ahora no, suele ser un bloqueo
+        # pasajero del medio (límite de peticiones). Se reintenta una vez, sin caché, tras una pausa.
+        time.sleep(20)
+        html_pagina.cache_clear()
+        texto = texto_pagina.__wrapped__(it["url"])
+        log(f"  reintento de lectura: {len(texto)} caracteres en {it['url']}")
+    texto = texto or it["resumen"]
+    return {**it, "texto": texto} if len(texto) > 200 else None
+
+
 def redactar(tema, agente, guia) -> str | None:
     fuentes = []
     for it in tema["items"]:
         if not clasificar(it["url"]):
             log(f"  fuente no admitida, se ignora: {it['url']}")
             continue
-        texto = texto_pagina(it["url"])
-        if len(texto) < MIN_LEGIBLE:
-            # La pieza era legible al hacer la lista de titulares: si ahora no, suele ser un bloqueo
-            # pasajero del medio (límite de peticiones). Se reintenta una vez, sin caché, tras una pausa.
-            time.sleep(20)
-            html_pagina.cache_clear()
-            texto = texto_pagina.__wrapped__(it["url"])
-            log(f"  reintento de lectura: {len(texto)} caracteres en {it['url']}")
-        texto = texto or it["resumen"]
-        if len(texto) > 200:
-            fuentes.append({**it, "texto": texto})
+        f = _fuente(it)
+        if f:
+            fuentes.append(f)
+    # Hacen falta FUENTES_MINIMAS medios distintos. Si el tema tiene menos, se completa con otra pieza
+    # del mismo hecho que ya esté en la lista de titulares, sin descartar la noticia ni parar la redacción.
+    for it in candidatas_mismo_hecho(tema, tema.get("pool", []))[:MAX_CANDIDATAS]:
+        if len(medios(fuentes)) >= FUENTES_MINIMAS:
+            break
+        if dominio(it["url"]) in medios(fuentes):
+            continue
+        f = _fuente(it)
+        if f:
+            log(f"  segunda fuente ({f['medio']}): {f['url']}")
+            fuentes.append(f)
     if sum(len(f["texto"]) for f in fuentes) < 800:
         descartar(f"sin texto suficiente en las fuentes: {tema['tema']}")
         return None
@@ -558,6 +630,9 @@ def redactar(tema, agente, guia) -> str | None:
     if orig:
         log(f"  fuente original enlazada por {orig['original_de']}: {orig['url']}")
         fuentes.append(orig)
+    if solidez(fuentes) != "ok":
+        descartar(f"menos de {FUENTES_MINIMAS} medios distintos: {tema['tema']}")
+        return None
 
     def cabecera(f):
         if not f.get("original_de"):
@@ -601,11 +676,6 @@ If the sources are not enough for a rigorous story, answer {{"descartar": "reaso
         usuario = usuario.replace("### FUENTE", "### SOURCE")
     else:
         sistema, usuario = _prompts_es(agente, tema, guia, ahora, bloque)
-    if solidez(fuentes) == "atribuir":
-        medio = fuentes[0]["medio"]
-        usuario += (f"\n\nAll the facts come from a single outlet: attribute them explicitly in the text to {medio}."
-                    if EDICION == "en" else
-                    f"\n\nTodos los datos proceden de un solo medio: atribúyelos expresamente en el texto a {medio} (por ejemplo, «según publica {medio}»).")
     return _escribir(tema, agente, fuentes, sistema, usuario, ahora)
 
 
@@ -653,9 +723,6 @@ def _escribir(tema, agente, fuentes, sistema, usuario, ahora, extra=None):
         descartar("texto demasiado corto o sin titular")
         return None
     articulo = f"{d['titulo']}\n{d.get('entradilla', '')}\n{cuerpo}"
-    if solidez(fuentes) == "atribuir" and fuentes[0]["medio"].lower() not in articulo.lower():
-        descartar(f"dato de un solo medio sin atribuir a {fuentes[0]['medio']}")
-        return None
     if EDICION == "es":
         sueltas = cifras_sin_fuente(articulo, fuentes, ahora)
         if sueltas:
@@ -1062,7 +1129,8 @@ def main():
         return
     log(f"Edición: {EDICION}")
 
-    items = leer_feeds(a.horas)
+    # Ventana amplia para encontrar la segunda fuente del mismo hecho (ver FUENTES_MINIMAS).
+    items = leer_feeds(max(a.horas, VENTANA_FUENTES_H))
     log(f"{len(items)} titulares en los RSS")
     items = solo_legibles([i for i in items if clasificar(i["url"])])
     for n, i in enumerate(items):
@@ -1080,6 +1148,7 @@ def main():
 
     hechas = []
     for t in temas:
+        t["pool"] = items   # por si la noticia necesita una segunda fuente (ver redactar)
         if len(hechas) >= a.max:
             break
         log(f"Redactando [{t['seccion']}] {t['tema']}")
