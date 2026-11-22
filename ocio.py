@@ -6,6 +6,7 @@ def construir(c, base_ctx):
         ("juegos/sopa-de-letras", "sopa-de-letras", "Sopa de letras", "Encuentra las palabras: marca su primera y última letra en línea recta."),
         ("juegos/conexiones", "conexiones", "Conexiones", "Elige cuatro palabras que tengan algo en común y encuentra los cuatro grupos."),
         ("juegos/trivial", "trivial", "Trivial del día", "Cinco preguntas de cultura general cada día, con la explicación de cada respuesta."),
+        ("juegos/2048", "2048", "2048", "Combina fichas con el mismo número hasta llegar a 2048. Desliza con las flechas o con el dedo."),
     ]
     # El horóscopo se ha retirado: la guía editorial no publica horóscopos y
     # sus textos eran relleno sin información (rechazo de AdSense por contenido de poco valor).

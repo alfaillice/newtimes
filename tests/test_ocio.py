@@ -19,7 +19,7 @@ class OcioTests(unittest.TestCase):
                 if ed.get("activa"):
                     c.edicion(code, [])
             c.finalizar()
-            for route in ("juegos", "juegos/sudoku", "juegos/sopa-de-letras", "juegos/conexiones", "juegos/trivial"):
+            for route in ("juegos", "juegos/sudoku", "juegos/sopa-de-letras", "juegos/conexiones", "juegos/trivial", "juegos/2048"):
                 page = (Path(tmp) / route / "index.html").read_text()
                 self.assertIn('class="cabecera"', page)
                 self.assertIn('class="pie"', page)
@@ -28,6 +28,8 @@ class OcioTests(unittest.TestCase):
             for route in ("index.html", "en/index.html", "directo/index.html", "buscar/index.html", "hemeroteca/index.html"):
                 self.assertTrue((Path(tmp) / route).exists(), route)
             self.assertTrue((Path(tmp) / "ocio/ocio.js").exists())
+            self.assertTrue((Path(tmp) / "juego-2048/index.html").exists())
+            self.assertIn('src="/juego-2048/index.html"', (Path(tmp) / "juegos/2048/index.html").read_text())
             en = (Path(tmp) / "en/index.html").read_text()
             self.assertNotIn('href="/juegos/"', en)
             sitemap = (Path(tmp) / "sitemap.xml").read_text()

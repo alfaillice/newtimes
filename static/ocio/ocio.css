@@ -32,3 +32,5 @@
 #nt-ocio .opciones button.ok{outline:2px solid #2E6B3A}
 #nt-ocio .opciones button.ko{outline:2px solid #b3261e}
 #nt-ocio .explicacion{margin:.5rem 0}
+#nt-ocio .juego-marco{display:block;width:100%;max-width:520px;height:640px;border:0;margin:1rem auto}
+#nt-ocio .atribucion{font-size:.85rem;max-width:520px;margin:0 auto}
