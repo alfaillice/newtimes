@@ -17,6 +17,7 @@
 {% endfor %}
 {% endblock %}
 {% block cabeza %}
+{% if not extension_suficiente %}<meta name="robots" content="noindex, follow">{% endif %}
 <script type="application/ld+json">
 {{ {
   "@context": "https://schema.org",
@@ -88,7 +89,7 @@
     <figcaption>{% if v.titulo %}{{ v.titulo }}. {% endif %}<span class="credito">Vídeo: {% if v.autor %}{{ v.autor }} / {% endif %}YouTube, <a href="https://www.youtube.com/watch?v={{ v.id }}" rel="nofollow noopener" target="_blank">Ver en YouTube</a></span></figcaption>
   </figure>{% endmacro %}
   {% set medios = [] %}{% if a.video and not a.video_arriba %}{% set _ = medios.append(figura_video(a.video)) %}{% endif %}{% for f in a.fotos_extra %}{% set _ = medios.append(figura(f)) %}{% endfor %}
-    {{ a.cuerpo_html|con_medios(medios)|tras_parrafo(anuncio(cfg, 'articulo'), 3)|safe }}
+    {% if extension_suficiente %}{{ a.cuerpo_html|con_medios(medios)|tras_parrafo(anuncio(cfg, 'articulo'), 3)|safe }}{% else %}{{ a.cuerpo_html|con_medios(medios)|safe }}{% endif %}
   </div>
 
   <aside class="fuentes" aria-labelledby="fuentes-titulo">
@@ -121,7 +122,7 @@
   </div>
 </article>
 
-<div class="envoltura">{{ anuncio(cfg, 'articulo_final') }}</div>
+{% if extension_suficiente %}<div class="envoltura">{{ anuncio(cfg, 'articulo_final') }}</div>{% endif %}
 
 {% if relacionados %}
 <section class="bloque envoltura" style="--c: {{ a.seccion.color }}" aria-labelledby="mas-seccion">

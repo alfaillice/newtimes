@@ -69,7 +69,7 @@
   {% if ultima_hora and seccion_actual != 'directo' %}
   <div class="ultima-hora">
     <div class="envoltura ultima-hora__fila">
-      <p class="ultima-hora__etiqueta">Breaking</p>
+      <p class="ultima-hora__etiqueta">Last hour</p>
       <p class="ultima-hora__titular"><time datetime="{{ ultima_hora.fecha_iso }}">{{ ultima_hora.fecha.strftime('%H:%M') }}</time> <a href="{{ ultima_hora.url }}">{{ ultima_hora.titulo }}</a></p>
       <a class="ultima-hora__directo" href="{{ pre }}/live/">Follow live</a>
     </div>

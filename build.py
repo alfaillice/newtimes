@@ -47,6 +47,10 @@ DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sun
 RUTAS_POR_DEFECTO = {"seccion": "seccion", "tema": "tema", "hemeroteca": "hemeroteca", "buscar": "buscar",
                      "directo": "directo", "equipo": "equipo"}
 CAMPOS_OBLIGATORIOS = ["titulo", "entradilla", "seccion", "fecha", "fuentes"]
+# Calidad para indexación y publicidad: una noticia con menos palabras que esto no se indexa
+# (noindex, fuera de los sitemaps) y no lleva anuncios. Criterio de la política de
+# AdSense sobre contenido de poco valor. Mismo umbral que el de la validación de noticias.
+PALABRAS_MINIMAS_INDEXAR = 300
 # Webs que reproducen teletipos de agencias. No están en la lista de redaccion/GUIA.md:
 # hay que enlazar la nota original (efe.com, europapress.es, fuente oficial...). Solo avisa.
 REPRODUCCIONES = ("infobae.com", "yahoo.com", "msn.com", "unitel.bo", "diariosigloxxi.com")
@@ -824,9 +828,10 @@ class Constructor:
         veces_etiqueta = Counter(e.lower() for a in articulos for e in set(a.etiquetas))
         for a in articulos:
             relacionados = relacionados_de(a, articulos, por_seccion[a.seccion["slug"]], veces_etiqueta)
+            suficiente = a.palabras >= PALABRAS_MINIMAS_INDEXAR
             self.escribir(a.url, self.render(f"{t}/articulo.html", **base_ctx, a=a, relacionados=relacionados,
-                                             temas=self.temas),
-                          prioridad="0.8", lastmod=a.actualizado or a.fecha)
+                                             temas=self.temas, extension_suficiente=suficiente),
+                          sitemap=suficiente, prioridad="0.8", lastmod=a.actualizado or a.fecha)
 
         # Secciones con paginación
         n = ed.get("por_pagina", 20)
@@ -905,7 +910,8 @@ class Constructor:
         self.escribir(f"{pre}/rss.xml", self.rss(ed, pre, articulos[:50]), sitemap=False)
         self.escribir(f"{pre}/sitemap-noticias.xml",
                       self.render("sitemap-noticias.xml", ed=ed,
-                                  lista=[a for a in articulos if a.fecha >= self.ahora - timedelta(hours=48)]),
+                                  lista=[a for a in articulos if a.fecha >= self.ahora - timedelta(hours=48)
+                                         and a.palabras >= PALABRAS_MINIMAS_INDEXAR]),
                       sitemap=False)
 
     def rss(self, ed: dict, pre: str, lista: list, seccion: dict | None = None) -> str:
