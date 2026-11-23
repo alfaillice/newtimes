@@ -66,6 +66,15 @@ MAX_INTENTOS = 3
 # el redactor busca la segunda pieza del mismo hecho entre los titulares leídos; si no la encuentra,
 # descarta ese tema y pasa al siguiente. Así no se para la publicación.
 FUENTES_MINIMAS = int(os.environ.get("NEWTIMES_FUENTES_MIN", 2))
+# Nombres de medios que una noticia no puede citar en el cuerpo (la fuente va solo al final, en «fuentes»).
+# Se comprueba en código: si el texto nombra alguno, el tema se descarta y no se publica.
+MEDIOS_NOMBRADOS = re.compile(
+    r"(?<![\w-])(BBC|The Guardian|Guardian|Al Jazeera|AFP|Associated Press|AP(?![\w-])|Reuters|Europa Press|"
+    r"Financial Times|Bloomberg|New York Times|Washington Post|Le Monde|Politico|Euronews|Sky News|NPR|"
+    r"Deutsche Welle|El País|El Mundo|ABC|La Vanguardia|elDiario\.es|El Confidencial|OKDiario|20minutos|"
+    r"El Periódico|La Razón|Expansión|Cinco Días|El Economista|Cadena SER|COPE|RTVE|EFE|Noticias ONU)(?![\w])"
+)
+
 MAX_CANDIDATAS = 4   # piezas de otros medios que se prueban para completar un tema
 VENTANA_FUENTES_H = 24   # horas de titulares en los que buscar la segunda fuente de un hecho
 MOTIVO = ""   # por qué se descartó la última noticia
@@ -730,6 +739,10 @@ def _escribir(tema, agente, fuentes, sistema, usuario, ahora, extra=None):
         if sueltas:
             descartar(f"cifras que no están en las fuentes: {', '.join(sueltas)}")
             return None
+    nombrados = sorted(set(m.group(1) for m in MEDIOS_NOMBRADOS.finditer(articulo)))
+    if nombrados:
+        descartar(f"nombra medios en el texto (solo van en fuentes): {', '.join(nombrados)}")
+        return None
     try:
         problemas = verificar(d, fuentes)
     except Reintentar:
