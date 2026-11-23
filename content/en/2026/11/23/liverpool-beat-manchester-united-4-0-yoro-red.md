@@ -47,8 +47,3 @@ Pochettino said after the match that the dismissal was wrong and that United sho
 The team selection drew attention before kick-off. Pochettino chose Matthijs de Ligt, who was making his first Premier League start in 12 months after a back injury, and Yoro ahead of Harry Maguire. One match report said De Ligt was at fault for three of the goals. Maguire came on, and United switched to a five-man defence.
 
 United have now conceded 30 goals in 15 games this season, and their defensive record is the worst in Europe's top flight, according to one analysis. Their last defeat at Anfield was a 7-0 loss. Pochettino has time to work on the side, but United are expected to show improvement soon. Yoro is available for the Champions League match at Sporting Lisbon on Wednesday, where Pochettino must decide whether to pick De Ligt and Yoro together again. United's next league game is against Brentford at Old Trafford next Saturday.
-
-Sources for this story:
-- Al Jazeera, 'Liverpool 4-0 Manchester United: Five key takeaways for Pochettino': https://www.aljazeera.com/sports/2026/11/22/liverpool-4-0-manchester-united-the-key-takeaways-for-pochettino?traffic_source=rss
-- The Guardian, 'Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red': https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report
-- BBC Sport, 'The red card that changed Liverpool-Man Utd: correct call?': https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo?at_medium=RSS&at_campaign=rss

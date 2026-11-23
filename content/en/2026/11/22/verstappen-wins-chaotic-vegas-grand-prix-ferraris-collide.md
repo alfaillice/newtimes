@@ -35,7 +35,7 @@ imagenes:
 
 Red Bull’s Max Verstappen won the Las Vegas Grand Prix, his third win in the race in four years, after a chaotic contest in which the two Ferrari drivers collided and both were given penalties. Verstappen finished 0.639 seconds ahead of McLaren’s Lando Norris, with his teammate Oscar Piastri third.
 
-The race was defined by close, almost constant contact between the leading cars. The drivers ran nose to tail under the floodlights on the Strip, and the lead changed hands again and again. Al Jazeera counted 35 lead changes over 50 laps, while the BBC put the figure at 34. Both outlets described a race more like American oval racing than a typical Formula One grand prix, shaped by the circuit and by the energy limits on this year’s hybrid engines.
+The race was defined by close, almost constant contact between the leading cars. The drivers ran nose to tail under the floodlights on the Strip, and the lead changed hands again and again. Timing reports counted 35 lead changes over 50 laps, while another tally put the figure at 34. Both described a race more like American oval racing than a typical Formula One grand prix, shaped by the circuit and by the energy limits on this year’s hybrid engines.
 
 Ferrari’s Lewis Hamilton and Charles Leclerc collided again. Hamilton received a 10-second penalty for passing Norris off the track during a battle that also involved Leclerc. Leclerc was given a 10-second penalty for tipping Hamilton into a spin. Hamilton finished seventh and Leclerc 10th.
 

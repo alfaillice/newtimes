@@ -35,17 +35,17 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/10/28/el-boe-publica-la-declaracion-de-luto-oficial-de-tres-dias-por-el-accidente-de-urda/
 ---
 
-Spain closed three days of official mourning on Saturday for the 69 people killed when two high-speed trains collided near Urda, in the central province of Toledo, on Wednesday morning. The Archdiocese of Toledo scheduled a funeral mass at noon in the village's parish church of San Juan Bautista, presided over by the archbishop, Francisco Cerro. Thirty-four injured passengers remain in four hospitals in the Castilla-La Mancha region, 15 of them in intensive care, according to figures reported by elDiario.es; 110 were admitted in total and 76 have been discharged.
+Spain closed three days of official mourning on Saturday for the 69 people killed when two high-speed trains collided near Urda, in the central province of Toledo, on Wednesday morning. The Archdiocese of Toledo scheduled a funeral mass at noon in the village's parish church of San Juan Bautista, presided over by the archbishop, Francisco Cerro. Thirty-four injured passengers remain in four hospitals in the Castilla-La Mancha region, 15 of them in intensive care, according to figures reported in the press; 110 were admitted in total and 76 have been discharged.
 
 The mourning period, decreed by the government in the Official State Gazette (BOE), ran from Thursday to the end of Saturday, with flags at half-mast on public buildings. It is the country's second high-speed rail disaster this year, after 46 people died in a collision near Adamuz, in Córdoba province, in January.
 
 ## What investigators are examining
 
-On the Madrid–Seville line, a Renfe AVE, the high-speed service of Spain's state rail operator, ran into the back of a stationary train belonging to the operator Iryo. According to a reconstruction published by Euronews, a computer fault at about 08.30 knocked out LZB, the system that monitors trains' speed and the distance between them, along some 63km of track. Six trains stopped or slowed down.
+On the Madrid–Seville line, a Renfe AVE, the high-speed service of Spain's state rail operator, ran into the back of a stationary train belonging to the operator Iryo. According to a reconstruction published by a European broadcaster, a computer fault at about 08.30 knocked out LZB, the system that monitors trains' speed and the distance between them, along some 63km of track. Six trains stopped or slowed down.
 
 At 08.36 the control centre run by Adif, the state rail infrastructure manager, at Madrid's Atocha station allowed the AVE to resume at normal running speed under lineside signals, rather than the 40km/h "on sight" mode in which a driver must be able to stop before any obstacle. The Iryo driver reported at 08.48 that her train was still stuck; the AVE hit it at 08.53. The transport minister, Óscar Puente, has called the control room's decision "inexplicable".
 
-The Adif controller whose order is at the centre of the inquiry declined on Friday to answer questions from Guardia Civil officers working for the CIAF, the independent rail accident investigation commission. Sources cited by Europa Press said he was following the protocol that applies after an accident. A court in Orgaz is running a separate criminal investigation, which is under judicial secrecy.
+The Adif controller whose order is at the centre of the inquiry declined on Friday to answer questions from Guardia Civil officers working for the CIAF, the independent rail accident investigation commission. Sources cited in the press said he was following the protocol that applies after an accident. A court in Orgaz is running a separate criminal investigation, which is under judicial secrecy.
 
 ## Pressure on the minister
 
@@ -53,4 +53,4 @@ Puente has ruled out resigning and will appear on Tuesday before the standing co
 
 Semaf, the train drivers' union, has asked the state rail safety agency to change the rules so that trains cannot resume normal speed when LZB or its European successor, ERTMS, fails and more than one train may be in the same section of track.
 
-Renfe and Iryo have begun paying advances on compensation. Under EU rules, relatives of each passenger who died must receive at least €21,000 within 15 days; Iryo said it would pay €35,000 per victim, while Renfe said it would apply the scale of Spain's compulsory travellers' insurance, according to Europa Press. The advances do not imply any admission of liability.
+Renfe and Iryo have begun paying advances on compensation. Under EU rules, relatives of each passenger who died must receive at least €21,000 within 15 days; Iryo said it would pay €35,000 per victim, while Renfe said it would apply the scale of Spain's compulsory travellers' insurance, according to press reports. The advances do not imply any admission of liability.
