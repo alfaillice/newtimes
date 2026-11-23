@@ -249,8 +249,17 @@ def fuentes_distintas(fuentes: list) -> int:
     return len(grupos)
 
 
+@lru_cache(maxsize=1)
+def _noindex_temporal() -> frozenset:
+    datos = yaml.safe_load((RAIZ / "config/noindex_temporal.yaml").read_text(encoding="utf-8")) or {}
+    return frozenset(datos.get("noindex_temporal") or [])
+
+
 def es_indexable(a) -> bool:
-    """Una noticia se indexa y lleva anuncios solo si tiene texto propio suficiente y al menos dos medios."""
+    """Una noticia se indexa y lleva anuncios solo si tiene texto propio suficiente y al menos dos medios,
+    y no está en la lista temporal de noindex (config/noindex_temporal.yaml)."""
+    if f"{a.edicion}/{a.slug}" in _noindex_temporal():
+        return False
     return a.palabras >= PALABRAS_MINIMAS_INDEXAR and fuentes_distintas(a.fuentes) >= FUENTES_MINIMAS_INDEXAR
 
 
