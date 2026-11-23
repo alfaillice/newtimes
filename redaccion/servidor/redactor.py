@@ -71,7 +71,7 @@ FUENTES_MINIMAS = int(os.environ.get("NEWTIMES_FUENTES_MIN", 2))
 MEDIOS_NOMBRADOS = re.compile(
     r"(?<![\w-])(BBC|The Guardian|Guardian|Al Jazeera|AFP|Associated Press|AP(?![\w-])|Reuters|Europa Press|"
     r"Financial Times|Bloomberg|New York Times|Washington Post|Le Monde|Politico|Euronews|Sky News|NPR|"
-    r"Deutsche Welle|El País|El Mundo|ABC|La Vanguardia|elDiario\.es|El Confidencial|OKDiario|20minutos|"
+    r"Deutsche Welle|CBS|Fox News|CNN|NBC|Axios|Wall Street Journal|Kyiv Independent|S4C|ERR|Kompas|The Times|The Telegraph|El País|El Mundo|ABC|La Vanguardia|elDiario\.es|El Confidencial|OKDiario|20minutos|"
     r"El Periódico|La Razón|Expansión|Cinco Días|El Economista|Cadena SER|COPE|RTVE|EFE|Noticias ONU)(?![\w])"
 )
 
