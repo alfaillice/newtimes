@@ -36,7 +36,8 @@ fuentes:
 ```
 
 - Entre 1 y 4 fuentes, con su URL `https` exacta y dominio en `config/fuentes_admitidas.yaml`. Deben ser páginas abiertas: el agente solo sabe lo que hay en ellas.
-- Hace falta una agencia o fuente oficial, o dos medios distintos. Con un solo medio, la noticia atribuye los datos a ese medio.
+- **Siempre dos dominios distintos** de `config/fuentes_admitidas.yaml` que cuenten el mismo hecho (una agencia y un medio, dos medios, o una agencia y el documento oficial; `cincodias.elpais.com` y `elpais.com` cuentan como uno). Desde el 22/11 el servidor descarta el encargo si, tras buscar en los titulares, no reúne dos (en la semana del 16 al 22/11, 4 descartes por este motivo), y una noticia con un solo medio no se indexa. Busca la segunda pieza en `titulares.yaml` o, si falta, en la web; si no existe, elige otro tema.
+- Las noticias no nombran medios en el texto (las fuentes van al final): no pidas en `tema` que se atribuya algo a un medio.
 - `destacado: true` en una como mucho.
 - Pon `tema` y `titulo` siempre **entre comillas dobles** (y escapa con `\"` las comillas interiores): un «: » sin comillas rompe el YAML. Antes del commit, comprueba los archivos con `python3 -c "import yaml,sys; [yaml.safe_load(open(f)) for f in sys.argv[1:]]" redaccion/encargos/pendientes/*.yaml`.
 - El `tema` solo orienta: no incluyas datos que no estén en las fuentes, porque el verificador descartará la noticia.
@@ -45,10 +46,10 @@ fuentes:
 
 Al elegir entre temas de igual interés, el jefe de redacción prefiere, por este orden:
 
-1. **Fuente original.** Si la pieza de agencia se basa en un documento oficial o científico abierto (nota del INE, BOE, Banco de España, AEMET, DGT, estudio en una revista), ponlo también en `fuentes`. Hoy 0 de 372 noticias de la semana enlazan un documento original.
-2. **Tecnolog-IA**, la sección más floja en las dos ediciones (16 noticias ES y 6 EN en 7 días, frente a 52 y 37 de Internacional): un tema de tecnología por turno si `titulares.yaml` trae alguno con hechos nuevos.
+1. **Fuente original.** Si la pieza de agencia se basa en un documento oficial o científico abierto (nota del INE, BOE, Banco de España, AEMET, DGT, estudio en una revista), ponlo también en `fuentes`. Del 16 al 22/11 solo 1 de 157 noticias ES y 2 de 97 EN lo enlazaban; además cuenta como segunda fuente.
+2. **Secciones flojas**: Tecnolog-IA (13 noticias ES en 7 días, frente a 28 de Deportes) y, en la edición inglesa, Spain (5 frente a 29 de World): un tema de tecnología por turno si `titulares.yaml` trae alguno con hechos nuevos. (Datos de la revisión SEO 7, 23/11.)
 3. **Temas de servicio que la gente busca**, siempre con hechos de fuentes admitidas y sin especular: avisos naranja o rojo de la AEMET (zonas, horas), huelgas con fechas y servicios mínimos, operaciones especiales de tráfico de la DGT, plazos y calendarios oficiales (campaña de la renta, festivos, cambio de hora), resultados de los grandes partidos con datos del encuentro. El titular dice qué, dónde y cuándo.
-4. **Seguimiento de los temas con página propia** (`/tema/...` con más noticias: huelga general, elecciones generales, vivienda, Adif, AEMET, inteligencia artificial): cuando haya un hecho nuevo, nombra el asunto en el campo `tema` con esas mismas palabras para que el agente use la etiqueta existente y la página de tema crezca.
+4. **Seguimiento de los grandes asuntos** (elecciones generales del 29N, huelga educativa de Madrid, COP31, vivienda, Ucrania, inteligencia artificial): cuando haya un hecho nuevo, nombra el asunto en el campo `tema` con esas mismas palabras para que el agente use la etiqueta existente y la cobertura quede enlazada. Las páginas `/tema/` ya no se indexan (22/11); el valor está en noticias completas y con dos fuentes.
 
 ## Encargo mensual de Cultura: lanzamientos musicales
 

@@ -29,6 +29,7 @@ def cargar(ed):
     for ruta in (RAIZ / "content" / ed).glob("[0-9]*/[0-9]*/[0-9]*/*.md"):
         try:
             meta = yaml.safe_load(ruta.read_text(encoding="utf-8").split("\n---", 1)[0][3:]) or {}
+            meta["_ruta"] = ruta
             f = meta["fecha"]
             f = datetime.fromisoformat(f) if isinstance(f, str) else f
             meta["_f"] = (f if f.tzinfo else f.replace(tzinfo=TZ)).astimezone(TZ)
@@ -48,6 +49,20 @@ def es_primaria(url):
         cfg = yaml.safe_load((RAIZ / "config/fuentes_admitidas.yaml").read_text(encoding="utf-8"))
         es_primaria.dominios = [d for d in cfg.get("fuertes", []) if d not in AGENCIAS]
     return any(host == d or host.endswith("." + d) for d in es_primaria.dominios)
+
+
+def indexable(meta):
+    """Mismo criterio que build.es_indexable (300+ palabras y 2 medios admitidos distintos): solo esas
+    noticias van al sitemap de noticias y pueden aparecer en Google. None si build.py no se puede importar."""
+    try:
+        import sys
+        sys.path.insert(0, str(RAIZ))
+        import build
+        _, cuerpo = build.leer_markdown(meta["_ruta"])
+    except Exception:  # noqa: BLE001
+        return None
+    palabras = len(build.texto_plano(build.md_a_html(cuerpo)).split())
+    return palabras >= build.PALABRAS_MINIMAS_INDEXAR and build.fuentes_distintas(meta.get("fuentes") or []) >= build.FUENTES_MINIMAS_INDEXAR
 
 
 def mayor_hueco(arts, desde, hasta):
@@ -70,6 +85,11 @@ def informe(dias):
         out += [f"## Edición {ed.upper()}", "",
                 f"- Últimas 24 h: **{len(d1)}** noticias (objetivo ≥ {objetivo}). Últimos {dias} días: {len(dn)}.",
                 f"- Última publicación: {arts[-1]['_f']:%d/%m %H:%M}" if arts else "- Sin noticias."]
+        idx1 = [indexable(m) for m in d1]
+        if None not in idx1:
+            idxn = sum(indexable(m) for m in dn)
+            out.append(f"- Indexables (300+ palabras y 2 medios; las únicas que van al sitemap): **{sum(idx1)}** en 24 h"
+                       + f" y {idxn} de {len(dn)} en {dias} d" + (" ⚠ (por debajo del objetivo)" if sum(idx1) < objetivo else "") + ".")
         hueco = mayor_hueco(arts, ahora - timedelta(hours=24), ahora)
         if hueco is not None:
             out.append(f"- Mayor hueco entre 7 y 23 h en las últimas 24 h: {hueco:.1f} h" + (" ⚠ (más de 3 h)" if hueco > 3 else ""))
