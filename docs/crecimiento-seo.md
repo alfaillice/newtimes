@@ -7,19 +7,19 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 
 | # | Acción | Impacto | Urgencia | Esfuerzo | Responsable | Estado |
 |---|---|---|---|---|---|---|
-| 1 | Verificar newtimes.news en Google Search Console (registro TXT en Cloudflare) y enviar sitemap.xml, sitemap-noticias.xml y /en/sitemap-noticias.xml. Sin esto no hay ninguna medición de tráfico ni de indexación | Muy alto | Inmediata | 15 min | JM | ⛔ |
-| 2 | Google News: alta en Publisher Center (ES y EN por separado) con logo, secciones y RSS. El ritmo ya lo justifica (30-45 noticias/día ES, 14-21 EN) | Alto | Alta | 30 min | JM | ⛔ |
-| 3 | Fuente original: 0 de 372 noticias de la semana enlazan el documento oficial o científico en que se basan; 198 de 247 ES y 100 de 125 EN tienen una sola fuente. El redactor ya añade el documento si la fuente lo enlaza (6137899) y el jefe tiene el criterio (afe44bf). Medir en `docs/salud-seo.md` («Con documento original») | Alto (E-E-A-T, Google News) | Alta | Bajo | Claude | 🛠 |
-| 4 | Eficiencia del jefe de redacción: 59 de unos 114 encargos (10-16/11) acabaron en descartados (33 por la verificación, 17 por cifras). Revisar si el jefe deja datos en `tema` que no están en las fuentes o elige piezas pobres; valorar menos turnos si el autónomo ya cubre el objetivo | Medio (costes) | Media | Bajo | Claude + JM | 📋 |
-| 5 | Equilibrar Tecnolog-IA: 16 ES y 6 EN en 7 días (Internacional 52 y 37). Criterio añadido para el jefe (afe44bf); añadir RSS de tecnología en inglés si no sube | Alto | Media | Bajo | Claude | 🛠 |
-| 6 | Perfiles de marca (X, Bluesky, Telegram, canal de WhatsApp) y añadirlos a `perfiles` en config/site.yaml (hoy `sameAs` vacío). Textos listos abajo | Medio | Media | 1 h | JM + Claude | ⛔ |
-| 7 | Alta en Bing Webmaster Tools (importar desde Search Console) | Medio | Media | 10 min | JM | ⛔ |
-| 8 | AdSense: mensaje RGPD publicado, sitio aprobado, anuncios automáticos desactivados | Alto (ingresos) | Alta | 20 min | JM | ⛔ |
-| 9 | Páginas de tema "pilares": 141 de 1075 temas indexables; los mayores (Estados Unidos, Rusia, Reino Unido, Ucrania, IA, elecciones generales, huelga general, Adif, vivienda, AEMET) merecen una entradilla propia de contexto | Medio | Media | Medio | Claude | 📋 |
-| 10 | Segunda imagen genérica: la norma de dos imágenes produce fotos de relleno (p. ej. «avenida de Madrid» en la noticia del INE sobre móviles de menores). Que el redactor omita la segunda si no muestra algo del hecho | Medio (calidad, Discover) | Media | Bajo | Claude | 📋 |
-| 11 | Meta description de noticias de 161-178 caracteres (Google corta hacia 155-160): recortar en la plantilla por palabra completa | Bajo | Baja | Bajo | Claude | 📋 |
-| 12 | Duplicados por retiradas tardías: check reforzado; vigilar | Medio | Media | Bajo | Claude | 🛠 |
-| — | Hechos y verificados en producción el 16/11 (auditoría de GitHub Actions): redactor del VPS publicando (✅), instalador reejecutado: 301/410 heredados, CSP, HSTS, nosniff y gzip (✅), WebFetch sustituido por la auditoría de producción (✅), Infobae fuera de las fuentes más citadas (✅), titulares ES con mediana 79 caracteres (antes 100) (✅), edición EN por encima del objetivo (✅) · h1 en portada (🛠) | | | | | |
+| 1 | Verificar newtimes.news en Google Search Console (registro TXT en Cloudflare) y enviar sitemap.xml, sitemap-noticias.xml y /en/sitemap-noticias.xml. Sin esto no hay medición de tráfico ni de indexación, y AdSense no tendrá historial para la revisión | Muy alto | Inmediata | 15 min | JM | ⛔ (4.ª semana) |
+| 2 | **Volumen indexable**: desde el 22/11 solo se indexan noticias con 300+ palabras y 2 medios distintos. Hoy 67 de 538 ES (12 %) y 53 de 229 EN (23 %); sitemap.xml pasó de 778 a 201 URLs. Objetivo: ≥ 14 indexables/día ES y ≥ 8 EN. Encargos con dos medios obligatorios (7be4f31); medir a diario en `docs/salud-seo.md` («Indexables») | Muy alto | Alta | Bajo | Claude | 🛠 |
+| 3 | Google News: alta en Publisher Center (ES y EN por separado). Esperar a una semana con el objetivo de indexables cumplido | Alto | Media | 30 min | JM | ⛔ |
+| 4 | Análisis originales con datos oficiales (piloto BOE del 22/11): uno por semana como mínimo, ligados a los grandes asuntos (29N, vivienda, huelga educativa). Es lo que más pesa para E-E-A-T, Google News y AdSense | Alto | Alta | Medio | Claude | 📋 |
+| 5 | Fuente original: 1 de 157 noticias ES y 2 de 97 EN enlazan el documento oficial o científico. Ahora además cuenta como segunda fuente | Alto | Media | Bajo | Claude | 🛠 |
+| 6 | Encargos descartados: 102 del 16 al 22/11 (≈60 por la caída de la API del 17-19/11; el resto por cifras, «sin texto suficiente», verificación y, desde el 22/11, «menos de 2 medios») | Medio (costes) | Media | Bajo | Claude | 🛠 |
+| 7 | Edición EN: Spain 5 noticias en 7 días (World 29); 52 % de titulares EN por encima de 70 caracteres | Medio | Media | Bajo | Claude | 📋 |
+| 8 | Recarga automática y aviso de gasto en la API de Anthropic: la caída del 17-19/11 dejó ES en 2 y 8 noticias y EN en 0 y 4 | Alto | Alta | 5 min | JM | ⛔ (verificar) |
+| 9 | Perfiles de marca (X, Bluesky, Telegram, canal de WhatsApp) y añadirlos a `perfiles` en config/site.yaml (hoy `sameAs` vacío). Textos listos abajo | Medio | Media | 1 h | JM + Claude | ⛔ |
+| 10 | Alta en Bing Webmaster Tools (importar desde Search Console) | Medio | Baja | 10 min | JM | ⛔ |
+| 11 | Pilares: las páginas `/tema/` ya no se indexan (decisión AdSense, 22/11). Los pilares deben ser páginas editoriales propias (explicador + enlaces), no listas de titulares | Medio | Baja | Medio | Claude | 📋 |
+| 12 | Segunda imagen genérica de relleno: que el redactor la omita si no muestra el hecho | Medio | Baja | Bajo | Claude | 📋 |
+| — | Verificado en producción el 23/11 (auditoría 45135175115): robots con 3 sitemaps, ads.txt, h1 en portadas ✅ (pendiente desde la revisión 6), canonical, hreflang, NewsArticle con autor y 3 imágenes, HSTS/CSP/gzip, 301/410 heredados. Descartado: recortar meta description en plantilla (Google reescribe el fragmento; impacto mínimo) | | | | | |
 
 ### Textos para abrir perfiles (JM crea la cuenta; Claude añade la URL a `perfiles`)
 - Nombre: NewTimes.news. Usuario: `newtimesnews` (o el más parecido disponible).
@@ -29,6 +29,31 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 - Automatización posible con el RSS (`/rss.xml`, `/en/rss.xml`) cuando existan las cuentas.
 
 ## Registro de revisiones
+
+### Revisión 7 · 23/11/2026 09:15 (semanal, programada)
+**Contexto**: el 22/11 se aplicaron los cambios por el rechazo de AdSense (noindex en noticias con menos de 300 palabras o un solo medio, en `/tema/`, hemeroteca y juegos; redactor con dos medios obligatorios; sin nombres de medios en el texto). El historial de git se reescribió ese día: `main` empieza en 9001ba4 (22/11 09:36 UTC), así que el git log no cubre del 16 al 21/11.
+
+**Datos verificados**
+- Ritmo (seo_salud.py --dias 7): ES 28 en 24 h y 157 en 7 días; EN 18 y 97 (objetivos 14 y 8). Por día (build.py) ES 15-23/11: 35, 33, 29, **2, 8**, 37, 19, 30, 3; EN: 14, 22, 12, **0, 4**, 21, 20, 21, 3. El bache del 18-19/11 es la caída del saldo de la API (incidencia documentada en el proyecto); `docs/estado-api.md` da «ok» desde el 20/11 09:11.
+- Indexables (300+ palabras y 2 medios): ES 67 de 538 (12 %), EN 53 de 229 (23 %). En 24 h: ES 16, EN 14. Del 22/11 en adelante ES 16 de 33 y EN 15 de 24; el 23/11, 6 de 6.
+- Secciones 7 d ES: deportes 28, internacional 25, España 24, sociedad 20, economía 18, cultura 15, ciencia-salud 14, tecnología 13 (más equilibrado que la semana anterior). EN: world 29, sport 15, business 12, culture 10, science-health 10, technology 8, society 8, spain 5 ⚠.
+- Titulares: mediana ES 80 y EN 72 caracteres (objetivo 60-90 cumplido). Fuentes: europapress.es 82, elpais.com 36, bbc.co.uk 35; infobae.com 2. Documento original: ES 1 de 157, EN 2 de 97.
+- Encargos descartados 16-22/11: 102 (8, 14, 20, 24, 6, 15, 15); el 21-22/11, 4 por «menos de 2 medios», 6 por cifras, 9 por «sin texto suficiente».
+- Producción (workflow «Auditoría producción», ejecución 45135175115, 08:00 UTC, lanzada a mano: la programada de las 6:20 no corrió): robots.txt con 3 sitemaps; ads.txt 200; sitemap.xml 201 URLs (85 /en/, 0 /tema/, 14 sin lastmod); sitemap-noticias ES 16 URLs (última hace 1,7 h) y EN 16 (hace 0,4 h); portadas ES y EN 200 con h1 (✅ verificado), canonical, hreflang y JSON-LD; 3 noticias con NewsArticle (autor, fechas, 3 imágenes) y BreadcrumbList, descriptions de 132-156 caracteres; 301/410 heredados. Críticos: ninguno.
+- Vigilancia portada: falla de madrugada (22/11 02:02 y 23/11 02:28 UTC) por falta de noticia de menos de 3 h; de día, correcta.
+- `build.py --check`: 767 artículos válidos, 0 errores. Tareas: jefe de redacción y vigilante SUCCEEDED (22/11 21:06 y 21:42 Madrid).
+- `site:newtimes.news` y "NewTimes.news" (buscador de la herramienta, no Google): ningún resultado propio.
+- No disponible: WebFetch (no está en las herramientas de esta ejecución; sustituido por el workflow), el sitemap desde este entorno (proxy 403), Search Console, analítica.
+
+**Cambios** (7be4f31) 🛠
+- `redaccion/ENCARGOS.md`: el jefe da siempre dos dominios admitidos distintos (antes bastaba una agencia, lo que ya no publica ni indexa) y no pide atribuciones a medios; criterios de crecimiento con datos de esta semana.
+- `redaccion/seo_salud.py`: línea «Indexables» por edición, con el mismo criterio que `build.es_indexable` (probado: ES 16 en 24 h y 28 en 7 d; EN 14 y 31). Se verá en `docs/salud-seo.md` esta noche.
+
+**Problemas**
+- El SEO ha pasado de volumen a calidad: 88 % del archivo ES fuera del índice. Es coherente con la política de AdSense, pero el crecimiento orgánico depende ahora de producir cada día suficientes noticias indexables y de análisis originales.
+- Una semana más sin Search Console: no hay ningún dato de impresiones ni de indexación real.
+- Los textos no nombran medios en el cuerpo: las fuentes siguen enlazadas al final, pero conviene vigilar que las citas y discrepancias se atribuyan a personas u organismos concretos para no perder transparencia (requisito de Google News).
+- La auditoría programada del lunes no se ejecutó (posible efecto de la reescritura del historial); vigilar el próximo lunes.
 
 ### Revisión 6 · 16/11/2026 09:15 (semanal, programada)
 **Datos verificados**
@@ -172,4 +197,6 @@ Leyenda: ✅ hecho y verificado · 🛠 hecho, pendiente de verificar en producc
 - Qué parte de las noticias publicadas viene de encargos del jefe y cuál del redactor autónomo (los commits no lo distinguen).
 - Licencias de las imágenes en producción (Commons no responde desde el entorno de revisión).
 - Enlaces entrantes (no hay herramienta de backlinks disponible).
+- Impresiones y clics de las noticias indexables frente a las noindex (solo con Search Console).
+- Por qué no corrió la auditoría programada del lunes 23/11 a las 6:20 UTC.
 - Ya resuelto: producción se verifica con el workflow «Auditoría producción» (no hace falta WebFetch).
