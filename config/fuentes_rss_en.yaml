@@ -19,6 +19,7 @@ world:
   - {medio: Le Monde (English), url: "https://www.lemonde.fr/en/rss/une.xml"}
   - {medio: DW, url: "https://rss.dw.com/rdf/rss-en-world"}
   - {medio: Sky News, url: "https://feeds.skynews.com/feeds/rss/uk.xml"}
+  - {medio: OKDiario, url: "https://okdiario.com/feed/"}   # fuente en español: la noticia internacional se escribe en inglés
 business:
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/business/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/business/rss"}
