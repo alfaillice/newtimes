@@ -1,0 +1,12 @@
+seccion: internacional
+tema: Ucrania ha hundido un buque de guerra ruso frente a la costa de Libia con drones navales, un ataque que extiende la guerra al Mediterráneo.
+destacado: false
+fuentes:
+- medio: El Mundo
+  titulo: Ucrania hunde una corbeta rusa en Libia y la guerra cruza el Mediterráneo
+  url: https://www.elmundo.es/internacional/2026/11/23/6b03ddfde9cf4a5f188b4574.html
+- medio: elDiario.es
+  titulo: Ucrania hunde un buque de guerra ruso en la costa de Libia en un ataque con drones navales
+  url: https://www.eldiario.es/internacional/ucrania-hunde-buque-guerra-ruso-costa-libia-ataque-drones-navales_1_13685008.html
+motivo: 'la verificación encontró datos sin sostén: "Misión de Apoyo de la ONU en Libia": las fuentes solo citan la misión como "misión de la ONU en Libia (UNSMIL)" y no dan su nombre completo en español. La denominación es correcta, pero no aparece en las fuentes.'
+descartado: '2026-11-23T12:11:57+01:00'
