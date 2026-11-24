@@ -5,7 +5,7 @@ seccion: tecnologia
 agente: jaime-ia
 fecha: '2026-11-24T15:10:00+01:00'
 destacado: false
-actualizado: '2026-11-24T15:55:00+01:00'
+actualizado: '2026-11-24T15:44:00+01:00'
 etiquetas:
 - Nvidia
 - Jensen Huang
