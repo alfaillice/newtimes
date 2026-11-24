@@ -5,6 +5,7 @@ seccion: tecnologia
 agente: jaime-ia
 fecha: '2026-11-24T15:10:00+01:00'
 destacado: false
+actualizado: '2026-11-24T15:55:00+01:00'
 etiquetas:
 - Nvidia
 - Jensen Huang
@@ -42,8 +43,10 @@ Nvidia ofrece otra explicación. Harvey Jones, presidente de su consejo, dijo qu
 
 Las críticas llegaron desde ambos partidos. Chris Van Hollen, senador demócrata por Maryland, habló de corrupción política en la política tecnológica de la Casa Blanca y anunció que preguntará a Huang por sus esfuerzos para aumentar la exportación de chips de alta gama a China. El republicano John Curtis, senador por Utah, quiso saber qué cambió para que el consejo diera marcha atrás en apenas una semana. Tom Cotton, presidente republicano de la comisión de inteligencia del Senado, dijo que el caso Nvidia-Megaspeed es «solo la punta del iceberg».
 
-Matt Pearl, director del Centro de Estudios Estratégicos e Internacionales (CSIS), considera que el consejo se apoyó en las declaraciones de altos cargos, entre ellos el propio Trump, en lugar de en una investigación propia, que normalmente duraría al menos un año.
+Matt Pearl, director del Programa de Tecnologías Estratégicas del Centro de Estudios Estratégicos e Internacionales (CSIS), considera que el consejo se apoyó en las declaraciones de altos cargos, entre ellos el propio Trump, en lugar de en una investigación propia, que normalmente duraría al menos un año.
 
 El calendario parlamentario es el siguiente. El 1 de diciembre, Huang comparecerá a puerta cerrada ante tres comisiones de la Cámara de Representantes. El 3 de diciembre, lo hará ante la comisión de banca del Senado.
 
 Las declaraciones financieras oficiales de Trump muestran compras de acciones de Nvidia por valor de entre 23 y 86 millones de dólares en los dos últimos años. La Casa Blanca recuerda que sus negocios están en un fideicomiso gestionado por sus hijos, y Trump asegura que no toma decisiones relacionadas con sus cuentas de inversión.
+
+*Corrección: en una versión anterior se decía que Matt Pearl es director del CSIS; lo correcto es que dirige su Programa de Tecnologías Estratégicas.*
