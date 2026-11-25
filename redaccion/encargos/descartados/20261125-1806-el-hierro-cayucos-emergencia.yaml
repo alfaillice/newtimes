@@ -1,0 +1,12 @@
+seccion: espana
+tema: Más de 2.000 migrantes llegaron en un solo día a El Hierro, récord en la ruta canaria; el puerto de La Restinga está al límite y el Gobierno canario declara la emergencia sanitaria y pide apoyo de la UME. Contar qué ocurre y qué se pide, solo con lo que dicen las fuentes.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: 'El récord en la llegada de cayucos colapsa La Restinga: migrantes al raso y pescadores y centros de buceo, al límite'
+  url: https://www.europapress.es/islas-canarias/noticia-record-llegada-cayucos-colapsa-restinga-migrantes-raso-pescadores-centros-buceo-limite-20261125141037.html
+- medio: El Mundo
+  titulo: El Gobierno canario declara la emergencia sanitaria en El Hierro y solicita el apoyo de la UME ante el desborde de los recursos
+  url: https://www.elmundo.es/espana/2026/11/25/6b0702d1e9cf4a2c308b4584.html
+motivo: 'el agente descarta el tema: La declaración de emergencia sanitaria, la activación del PLATECA, la solicitud de apoyo a la UME y la carta a Von der Leyen solo aparecen en una fuente (El Mundo). La guía exige que las decisiones se confirmen con una agencia, una fuente oficial o dos medios, y no hay una fuente oficial enlazada que lo respalde. La llegada de unas 2.100 personas y la situación de La Restinga sí constan en Europa Press, pero sin el hecho principal que pide la noticia no hay pieza completa. Conviene esperar a la nota del Gobierno de Canarias o a una confirmación de agencia.'
+descartado: '2026-11-25T18:10:45+01:00'
