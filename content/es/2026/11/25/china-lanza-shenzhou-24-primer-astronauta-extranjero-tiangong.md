@@ -4,6 +4,7 @@ entradilla: Muhammad Zeeshan Ali, piloto de la fuerza aérea de Pakistán, es el
 seccion: ciencia-salud
 agente: carmen-pardo
 fecha: '2026-11-25T18:20:00+01:00'
+actualizado: '2026-11-25T18:55:00+01:00'
 destacado: false
 etiquetas:
 - China
@@ -35,7 +36,7 @@ imagenes:
 
 China lanzó este miércoles la nave Shenzhou-24 desde el centro de lanzamiento de Jiuquan, en el desierto de Gobi, a las 08.18, hora de Pekín (00.18 GMT). A bordo viaja Muhammad Zeeshan Ali, el primer paquistaní que llega a la órbita y el primer extranjero que se incorpora a una misión tripulada china. La nave se acopló a la estación espacial Tiangong unas tres horas y media después del despegue.
 
-Pekín sostiene que la misión reforzará sus lazos con Islamabad, y ambos países celebran este año 75 años de cooperación en el espacio. El presidente chino, Xi Jinping, transmitió a su homólogo paquistaní que China está dispuesta a trabajar con todos los países en favor del uso pacífico del espacio exterior. Poco después del despegue, el lanzamiento se dio por completado con éxito.
+Pekín sostiene que la misión reforzará sus lazos con Islamabad, y ambos países celebran este año el 75.º aniversario de sus relaciones diplomáticas. El presidente chino, Xi Jinping, transmitió a su homólogo paquistaní que China está dispuesta a trabajar con todos los países en favor del uso pacífico del espacio exterior. Poco después del despegue, el lanzamiento se dio por completado con éxito.
 
 Ali, de 40 años, es piloto de la fuerza aérea paquistaní y especialista de carga útil. Ante la prensa, dijo que llevaba sobre sus hombros el nombre de Pakistán y las esperanzas de 250 millones de paquistaníes. Pakistán no dispone de nave propia para enviar astronautas al espacio, por lo que la invitación tiene un peso especial. Para prepararse, Ali pasó siete meses en Pekín, con clases intensivas de chino, que describió como uno de sus mayores retos.
 
@@ -46,3 +47,5 @@ Ali no completará la estancia habitual de seis meses. Regresará a la Tierra tr
 Tiangong, terminada en 2022, es el gran proyecto espacial de China, en el que el Gobierno ha invertido miles de millones de dólares. Pekín quiere presentarla como una plataforma internacional de investigación y no solo como una instalación china. La Estación Espacial Internacional, liderada por Estados Unidos, dejará de funcionar en 2030, según la NASA. Estados Unidos excluye a China de ese proyecto desde 2011, y China compite con el programa lunar Artemis para llevar astronautas a la Luna antes de 2030.
 
 Blaine Curcio, director gerente de la consultora Orbital Gateway Consulting, considera que Pakistán confía mucho en Pekín al enviar a su astronauta en un cohete construido por China, y que la misión permite a China prepararse para repetirla. Curcio espera que, cuando la Estación Espacial Internacional se retire, países como Brasil o Egipto busquen plazas en misiones chinas, y que también lo hagan algunos socios europeos o Rusia si no hay un sustituto occidental.
+
+*Corrección: en una versión anterior se decía que China y Pakistán celebran este año 75 años de cooperación en el espacio; lo correcto es que celebran el 75.º aniversario de sus relaciones diplomáticas.*
