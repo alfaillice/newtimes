@@ -1,0 +1,12 @@
+seccion: deportes
+tema: El FC Barcelona gana 1-4 al Sabah en el Estadio Olímpico de Bakú en la quinta jornada de la Fase Liga de la Champions, suma doce puntos y se afianza en la zona alta, en el viaje más largo de su historia en competiciones europeas.
+destacado: false
+fuentes:
+- medio: Europa Press
+  titulo: El Barça apaga el fuego azerí
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-barca-apaga-fuego-azeri-20261125204035.html
+- medio: OKDiario
+  titulo: El Barcelona se pasea en Bakú
+  url: https://okdiario.com/deportes/barcelona-pasea-baku-21272269
+motivo: 'la verificación encontró datos sin sostén: Entradilla: «tras una primera parte discreta» suaviza lo que las fuentes describen como «pésima» (OKDiario) y «flojo» (Europa Press). La calificación no coincide con las fuentes.; Cuerpo, minuto 9: «Joan Garcia sacó una acción peligrosa» atribuye la jugada peligrosa al portero del Barça. Según Europa Press, la acción peligrosa fue del Sabah (un disparo que Joan Garcia atajó).'
+descartado: '2026-11-25T21:10:28+01:00'
