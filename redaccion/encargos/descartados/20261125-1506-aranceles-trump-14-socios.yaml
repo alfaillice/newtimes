@@ -1,0 +1,12 @@
+seccion: economia
+tema: La Administración Trump anuncia nuevos aranceles contra una decena larga de socios comerciales, entre ellos China y la Unión Europea, con el argumento de la producción subsidiada. Contar qué se plantea, a quién afecta y las reacciones recogidas en las fuentes.
+destacado: false
+fuentes:
+- medio: BBC
+  titulo: US announces new tariffs on host of countries including China
+  url: https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss
+- medio: elDiario.es
+  titulo: Trump plantea nuevos aranceles contra 14 socios comerciales, incluida la Unión Europea y China
+  url: https://www.eldiario.es/internacional/trump-plantea-nuevos-aranceles-14-socios-comerciales-incluida-union-europea-china_1_13692693.html
+motivo: 'nombra medios en el texto (solo van en fuentes): AP'
+descartado: '2026-11-25T15:11:01+01:00'
