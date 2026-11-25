@@ -5,6 +5,7 @@ seccion: espana
 agente: alvaro-luna
 fecha: '2026-11-25T06:21:00+01:00'
 destacado: false
+actualizado: '2026-11-25T09:50:00+01:00'
 etiquetas:
 - Pedro Sánchez
 - Ley de Defensa Nacional
@@ -32,7 +33,7 @@ imagenes:
   pie: Imagen de archivo del presidente del Gobierno, Pedro Sánchez.
 ---
 
-El presidente del Gobierno, Pedro Sánchez, se ha comprometido a reformar la Ley de Defensa Nacional si gana las elecciones generales del 29 de noviembre, para impedir que España participe en guerras que considera ilegales. Lo anunció el pasado martes en un mitin de campaña en Barcelona, ante unos 10.000 asistentes, entre los que accedieron al recinto y los que tuvieron que quedarse fuera.
+El presidente del Gobierno, Pedro Sánchez, se ha comprometido a reformar la Ley de Defensa Nacional si gana las elecciones generales del 29 de noviembre, para impedir que España participe en guerras que considera ilegales. Lo anunció este martes, 24 de noviembre, en un mitin de campaña en Barcelona, ante unos 10.000 asistentes, entre los que accedieron al recinto y los que tuvieron que quedarse fuera.
 
 Sánchez puso como ejemplo la guerra de Irak de 2003 y, según sus palabras, el conflicto que se vive «hoy en Irán». Dijo que en la próxima legislatura se modificará la norma «para que España nunca participe en una guerra ilegal».
 
@@ -53,3 +54,5 @@ El anuncio se produjo en un acto dirigido a movilizar a las bases socialistas ci
 El presidente de la Generalitat, Salvador Illa, también intervino en el mitin. Illa defendió que Cataluña sabrá qué votar el 29 de noviembre y advirtió de que, a su juicio, con Feijóo y Abascal no le iría bien a la comunidad. En el acto participaron además la actriz Loles León y, mediante un vídeo, el cantante Joan Manuel Serrat, que llamaron a la participación de los votantes progresistas.
 
 Las fuentes consultadas no recogen reacciones del PP ni de Vox al anuncio sobre la Ley de Defensa Nacional.
+
+*Corrección: en una versión anterior se decía que el mitin se celebró «el pasado martes»; lo correcto es que fue este martes 24 de noviembre, el día anterior a la publicación.*
