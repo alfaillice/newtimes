@@ -1,0 +1,12 @@
+seccion: ciencia-salud
+tema: China lanza la Shenzhou-24 con el primer astronauta de Pakistán, primer extranjero que visita la estación espacial Tiangong.
+destacado: false
+fuentes:
+- medio: BBC
+  titulo: China's Shenzhou-24 carries Pakistan's first astronaut into space
+  url: https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o
+- medio: Al Jazeera
+  titulo: Pakistani astronaut to join China's next space station mission
+  url: https://aljazeera.com/news/2026/11/7/pakistani-astronaut-to-join-chinas-next-space-station-mission
+motivo: 'nombra medios en el texto (solo van en fuentes): BBC'
+descartado: '2026-11-25T09:11:28+01:00'
