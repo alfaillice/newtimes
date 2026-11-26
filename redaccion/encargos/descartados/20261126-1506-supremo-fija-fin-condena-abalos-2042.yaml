@@ -1,0 +1,12 @@
+seccion: espana
+tema: El Tribunal Supremo liquida la condena del exministro José Luis Ábalos por el caso Mascarillas y fija en 2042 el fin de su pena de prisión; la de su exasesor Koldo García terminaría en 2040.
+destacado: false
+fuentes:
+- medio: ABC
+  titulo: El Supremo fija el fin de la condena de prisión de Ábalos en 2042
+  url: https://www.abc.es/espana/supremo-fija-fin-condena-prision-abalos-2042-20261126143247-nt.html
+- medio: OKDiario
+  titulo: Ábalos tendrá que estar en prisión hasta 2042 según el cálculo del Tribunal Supremo
+  url: https://okdiario.com/espana/abalos-tendra-que-estar-prision-hasta-2042-segun-calculo-del-supremo-21278950
+motivo: 'la verificación encontró datos sin sostén: "La diferencia de dos años entre las dos fechas responde a la distinta duración de las penas impuestas": las fuentes dan las dos fechas (2042 y 2040) y las dos penas (24 años y 3 meses; 19 años y 8 meses), pero ninguna establece que la diferencia de fechas se deba a la diferencia de penas. OKDiario indica además un "máximo de cumplimiento" de 15 años y 18 meses para Ábalos y de 15 años para Koldo, que no reproduce una diferencia de dos años, así que la causa atribuida no está respaldada por las fuentes.'
+descartado: '2026-11-26T15:12:16+01:00'
