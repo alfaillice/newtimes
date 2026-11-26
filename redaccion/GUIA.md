@@ -122,6 +122,13 @@ Qué foto elegir, por orden de preferencia:
 2. El lugar o la institución: el edificio del organismo, la ciudad, la infraestructura (una estación, un puerto, un estadio).
 3. Un objeto o escena genérica que represente el tema (billetes de euro, un tren AVE, un hospital, monedas de bitcoin, un bosque quemado).
 
+En noticias de hardware y productos con nombre (procesadores, tarjetas gráficas, placas base, memorias, servidores, portátiles), la foto genérica de un chip o de una placa no sirve: parecería la del modelo de la noticia. Por orden:
+1. El producto concreto: la foto de Commons del modelo nombrado, si existe.
+2. Un gráfico propio con los datos de las fuentes (precio, fecha de lanzamiento, especificaciones). Va como archivo en  con , y el pie cita la fecha de los datos y las fuentes.
+Solo si no hay ni una cosa ni otra, una escena genérica con el pie «Imagen de archivo».
+
+En las fotos de Wikimedia Commons el servidor pone el autor y la licencia; no hace falta añadirlos en el pie.
+
 Reglas del pie de foto:
 - Si la imagen no es del hecho que se cuenta (casi siempre), el pie empieza por **«Imagen de archivo»**. Nunca insinúes que una foto genérica es del suceso.
 - Nada de imágenes de víctimas, heridos, cadáveres ni menores.
