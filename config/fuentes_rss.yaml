@@ -27,6 +27,8 @@ tecnologia:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada"}
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/technology/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/technology/rss"}
+  - {medio: Xataka, url: "https://www.xataka.com/index.xml"}
+  - {medio: HardZone, url: "https://hardzone.es/feed/"}
 cultura:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=71"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada"}

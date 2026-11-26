@@ -33,6 +33,8 @@ science-health:
 technology:
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/technology/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/technology/rss"}
+  - {medio: TechCrunch, url: "https://techcrunch.com/feed/"}
+  - {medio: The Verge, url: "https://www.theverge.com/rss/index.xml"}
 culture:
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/culture/rss"}
