@@ -1,0 +1,12 @@
+seccion: tecnologia
+tema: La Comisión Federal de Comunicaciones de Estados Unidos autoriza a SpaceX a lanzar la constelación Starmind, de hasta un millón de satélites concebidos como centros de datos en órbita para la demanda de computación de la inteligencia artificial.
+destacado: false
+fuentes:
+- medio: elDiario.es
+  titulo: Estados Unidos autoriza a SpaceX a lanzar un millón de satélites para crear centros de datos espaciales
+  url: https://www.eldiario.es/sociedad/estados-unidos-autoriza-spacex-lanzar-millon-satelites-crear-centros-datos-espaciales_1_13694692.html
+- medio: BBC
+  titulo: Musk's plan to send a million SpaceX data satellites into space approved
+  url: https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss
+motivo: 'la verificación encontró datos sin sostén: "el organismo que regula las telecomunicaciones en el país": las fuentes no describen a la FCC con esa función.; "según explicó la propia FCC" (energía solar de los satélites): la fuente 1 atribuye esa afirmación a Brendan Carr, no a un comunicado de la FCC.; "Sir Martin Sweeting, pionero de los satélites británicos": las fuentes solo le identifican como fundador y presidente ejecutivo de Surrey Satellite Technology Ltd; "pionero de los satélites británicos" no aparece.; "consideró la idea técnicamente viable, aunque dudó de que tenga sentido a gran escala": la fuente dice que si tiene sentido'
+descartado: '2026-11-26T12:11:27+01:00'
