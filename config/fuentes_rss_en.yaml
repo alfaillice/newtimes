@@ -35,6 +35,7 @@ technology:
   - {medio: The Guardian, url: "https://www.theguardian.com/technology/rss"}
   - {medio: TechCrunch, url: "https://techcrunch.com/feed/"}
   - {medio: The Verge, url: "https://www.theverge.com/rss/index.xml"}
+  - {medio: Tom's Hardware, url: "https://www.tomshardware.com/feeds/all"}
 culture:
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/culture/rss"}
