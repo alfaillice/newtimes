@@ -1,0 +1,12 @@
+seccion: deportes
+tema: El Liverpool de Andoni Iraola gana en el campo del Club Brujas en la quinta jornada de la Liga de Campeones, con goles de Isak y Wirtz, y se acerca a la clasificación directa.
+destacado: false
+fuentes:
+- medio: The Guardian
+  titulo: Isak and Wirtz on target as resurgent Liverpool sweep aside Club Brugge
+  url: https://www.theguardian.com/football/2026/nov/25/club-brugge-liverpool-champions-league-match-report
+- medio: BBC Sport
+  titulo: '''All coming together'' - Isak repaying Liverpool faith'
+  url: https://www.bbc.co.uk/sport/football/articles/cqm2l0gelkzxo?at_medium=RSS&at_campaign=rss
+motivo: 'la verificación encontró datos sin sostén: "en la quinta jornada de la Liga de Campeones": las fuentes no indican el número de jornada del grupo; solo dicen que el Liverpool se acerca a la clasificación directa.'
+descartado: '2026-11-26T09:11:30+01:00'
