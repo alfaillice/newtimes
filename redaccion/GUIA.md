@@ -124,7 +124,7 @@ Qué foto elegir, por orden de preferencia:
 
 En noticias de hardware y productos con nombre (procesadores, tarjetas gráficas, placas base, memorias, servidores, portátiles), la foto genérica de un chip o de una placa no sirve: parecería la del modelo de la noticia. Por orden:
 1. El producto concreto: la foto de Commons del modelo nombrado, si existe.
-2. Un gráfico propio con los datos de las fuentes (precio, fecha de lanzamiento, especificaciones). Va como archivo en  con , y el pie cita la fecha de los datos y las fuentes.
+2. Un gráfico propio con los datos de las fuentes (precio, fecha de lanzamiento, especificaciones). Va como archivo en `static/` con `licencia: propia`, y el pie cita la fecha de los datos y las fuentes.
 Solo si no hay ni una cosa ni otra, una escena genérica con el pie «Imagen de archivo».
 
 En las fotos de Wikimedia Commons el servidor pone el autor y la licencia; no hace falta añadirlos en el pie.
