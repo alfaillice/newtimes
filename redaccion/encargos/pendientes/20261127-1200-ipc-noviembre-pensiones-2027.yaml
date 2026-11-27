@@ -1,0 +1,13 @@
+seccion: economia
+tema: "La inflación se desacelera al 4,1 % en noviembre según el dato adelantado del IPC del INE, por la caída de los precios de la gasolina y el diésel. Con este dato, las pensiones subirán un 3,5 % en 2027."
+destacado: false
+fuentes:
+  - medio: INE
+    titulo: "Indicador adelantado del IPC. Noviembre 2026"
+    url: https://www.ine.es/dyngs/Prensa/adIPC1126.htm
+  - medio: elDiario.es
+    titulo: "La caída de los precios de la gasolina y el diésel frena la escalada de la inflación: se desacelera al 4,1% en noviembre"
+    url: https://www.eldiario.es/economia/caida-precios-gasolina-diesel-frena-escalada-inflacion-desacelera-4-1-noviembre_1_13697884.html
+  - medio: elDiario.es
+    titulo: "Las pensiones subirán un 3,5% en 2027"
+    url: https://www.eldiario.es/economia/pensiones-subiran-3-5-2027_1_13697886.html
