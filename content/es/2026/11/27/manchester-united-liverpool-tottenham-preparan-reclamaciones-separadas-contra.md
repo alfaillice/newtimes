@@ -1,9 +1,10 @@
 ---
 titulo: Manchester United, Liverpool y Tottenham preparan reclamaciones separadas contra el City
-entradilla: Ejecutivos de tres clubes de primera división, sin identificarse, creen que los propietarios del City deberían ser obligados a vender; el regulador aún no ha fijado la sanción.
+entradilla: Ejecutivos de tres clubes de primera división, sin identificarse, creen que los propietarios del City deberían ser obligados a vender; la comisión independiente de la Premier League aún no ha fijado la sanción.
 seccion: deportes
 agente: pedro-gonzalez
 fecha: '2026-11-27T08:20:00+01:00'
+actualizado: '2026-11-27T09:50:00+01:00'
 destacado: false
 etiquetas:
 - Manchester City
@@ -46,3 +47,5 @@ En paralelo, ejecutivos de tres clubes de primera división han trasladado de fo
 El regulador independiente, que dirige David Kogan, puede obligar a un propietario a desprenderse de un club si no cumple los criterios de idoneidad previstos en la Ley de Gobernanza del Fútbol. Esta semana, Kogan explicó ante una comisión parlamentaria que el organismo actuará según las circunstancias y el resultado del recurso, sin dejarse influir por presiones políticas. El regulador no ha querido hacer comentarios. En septiembre, el primer ministro Andy Burnham dijo que le preocuparía mucho que la sanción llevara a la venta del club, y destacó el papel de los propietarios en la transformación de Mánchester.
 
 Por último, las dos empresas con sede en Emiratos Árabes Unidos que patrocinan al City, Etihad y Etisalat, estudian acciones legales contra la Premier League. La semana pasada, los clubes de la liga votaron cubrir los gastos legales de sus cinco consejeros si los patrocinadores del City los demandan.
+
+*Corrección: en una versión anterior de la entradilla se decía que el regulador aún no había fijado la sanción; quien debe fijarla es la comisión independiente de la Premier League, no el regulador independiente del fútbol.*
