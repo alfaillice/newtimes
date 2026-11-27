@@ -1,0 +1,12 @@
+seccion: sociedad
+tema: Muere en el hospital de Cruces la mujer de 34 años apuñalada el jueves en Bilbao por su expareja, que tenía una orden de alejamiento; caso de violencia machista. Sin detalles morbosos ni datos identificativos de la víctima ni de los menores.
+destacado: false
+fuentes:
+- medio: elDiario.es
+  titulo: Asesinada una mujer de 34 años en Bilbao a manos de su expareja, un hombre de 47 años
+  url: https://www.eldiario.es/euskadi/asesinada-mujer-34-anos-bilbao-manos-expareja-hombre-47-anos_1_13697819.html
+- medio: El Mundo
+  titulo: Muere en el hospital la mujer de 34 años a la que su pareja, con una orden de alejamiento, acuchilló ayer en Bilbao
+  url: https://www.elmundo.es/pais-vasco/2026/11/27/6b09266c21efa06d268b4592.html
+motivo: 'la verificación encontró datos sin sostén: Atribución: el artículo dice que la orden de alejamiento en vigor la informaron «la Policía Nacional y el Departamento vasco de Seguridad». En las fuentes, la orden de alejamiento se atribuye solo a fuentes de la Policía Nacional (y a EFE citando «las mismas fuentes»). El Departamento vasco de Seguridad aparece confirmando la muerte y los antecedentes, pero no la orden de alejamiento.'
+descartado: '2026-11-27T15:10:39+01:00'
