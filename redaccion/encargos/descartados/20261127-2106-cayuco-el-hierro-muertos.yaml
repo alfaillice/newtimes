@@ -1,0 +1,15 @@
+seccion: sociedad
+tema: 'Varios migrantes muertos y seis heridos, evacuados en helicóptero, en un cayuco rescatado este viernes a la deriva frente a El Hierro y remolcado por la Guardia Civil hacia la isla. Da la cifra de fallecidos más alta que recojan al menos dos fuentes y, si una fuente trae una cifra mayor, atribúyela a la autoridad que la ofrece o no la des. No nombres ningún medio en el texto: las fuentes van solo al final.'
+destacado: true
+fuentes:
+- medio: El País
+  titulo: Al menos 13 muertos en el rescate de un cayuco en El Hierro
+  url: https://elpais.com/espana/2026-11-27/varios-muertos-en-el-rescate-de-un-cayuco-en-el-hierro.html
+- medio: Europa Press
+  titulo: Al menos ocho muertos y seis heridos en el rescate de un cayuco en aguas de El Hierro
+  url: https://www.europapress.es/islas-canarias/noticia-evacuados-helicoptero-seis-migrantes-cayuco-interceptado-viernes-proximo-hierro-20261127125112.html
+- medio: El Mundo
+  titulo: Salvamento Marítimo halla varios fallecidos en un cayuco rescatado a 62 kilómetros de El Hierro
+  url: https://www.elmundo.es/espana/2026/11/27/6b097b4ae85ece933c8b45bb.html
+motivo: 'cifras que no están en las fuentes: 60'
+descartado: '2026-11-27T21:10:26+01:00'
