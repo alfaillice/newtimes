@@ -8,15 +8,19 @@
 espana:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=66"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada"}
+  - {medio: El Confidencial, url: "https://rss.elconfidencial.com/espana/"}
 internacional:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=69"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada"}
 economia:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada"}
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/business/rss.xml"}
+  - {medio: Expansión, url: "https://e00-expansion.uecdn.es/rss/economia.xml"}
+  - {medio: El Mundo, url: "https://e00-elmundo.uecdn.es/elmundo/rss/economia.xml"}
 sociedad:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=73"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/sociedad/portada"}
+  - {medio: elDiario.es, url: "https://www.eldiario.es/rss/sociedad/"}
 ciencia-salud:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada"}
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"}
@@ -34,6 +38,10 @@ cultura:
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada"}
   - {medio: BBC, url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"}
   - {medio: The Guardian, url: "https://www.theguardian.com/culture/rss"}
+  - {medio: El Mundo, url: "https://e00-elmundo.uecdn.es/elmundo/rss/cultura.xml"}
+  - {medio: ABC, url: "https://www.abc.es/rss/feeds/abc_cultura.xml"}
+  - {medio: La Vanguardia, url: "https://www.lavanguardia.com/rss/cultura.xml"}
+  - {medio: El Confidencial, url: "https://rss.elconfidencial.com/cultura/"}
 deportes:
   - {medio: Europa Press, url: "https://www.europapress.es/rss/rss.aspx?ch=67"}
   - {medio: El País, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada"}
@@ -48,3 +56,7 @@ general:
   - {medio: elDiario.es, url: "https://www.eldiario.es/rss/"}
   - {medio: El Confidencial, url: "https://rss.elconfidencial.com/espana/"}
   - {medio: OKDiario, url: "https://okdiario.com/feed/"}
+  - {medio: RTVE, url: "https://www.rtve.es/rss/temas_noticias.xml"}
+  - {medio: La Vanguardia, url: "https://www.lavanguardia.com/rss/home.xml"}
+  - {medio: Expansión, url: "https://e00-expansion.uecdn.es/rss/portada.xml"}
+  - {medio: Cinco Días, url: "https://cincodias.elpais.com/rss/cincodias/portada.xml"}

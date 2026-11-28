@@ -91,3 +91,9 @@ medios:
   - npr.org
   - dw.com
   - okdiario.com
+  # Añadidos 28/11: medios de tecnología de consumo (gadgets, hardware)
+  - xataka.com
+  - hardzone.es
+  - theverge.com
+  - techcrunch.com
+  - tomshardware.com

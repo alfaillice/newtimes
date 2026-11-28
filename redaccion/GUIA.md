@@ -33,7 +33,7 @@ Solo estas fuentes sirven de base. Las agencias y fuentes oficiales tienen prior
 
 **Oficiales internacionales:** Comisión Europea, Parlamento Europeo, BCE, Eurostat, ONU y agencias (OMS, ACNUR…), OTAN, FMI, OCDE.
 
-**Medios de referencia (España):** RTVE, El País, El Mundo, La Vanguardia, ABC, elDiario.es, El Confidencial, Cadena SER, Cope, OKDiario, 20minutos, El Periódico, La Razón, Expansión, Cinco Días, El Economista, Marca y AS (deportes), Agencia SINC (ciencia).
+**Medios de referencia (España):** RTVE, El País, El Mundo, La Vanguardia, ABC, elDiario.es, El Confidencial, Cadena SER, Cope, OKDiario, 20minutos, El Periódico, La Razón, Expansión, Cinco Días, El Economista, Marca y AS (deportes), Agencia SINC (ciencia). Tecnología de consumo: Xataka, HardZone.
 
 **Medios de referencia (internacional):** BBC, The Guardian, Financial Times, The New York Times, The Washington Post, Le Monde, AP News, Al Jazeera.
 
