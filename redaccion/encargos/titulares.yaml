@@ -1,5 +1,15 @@
-generado: '2026-11-28T11:50:00+01:00'
+generado: '2026-11-28T14:50:00+01:00'
 titulares:
+- seccion: espana
+  medio: Europa Press
+  titulo: El Gobierno garantiza "normalidad, seguridad y plenas garantías" para las elecciones y refuerza la ciberseguridad
+  url: https://www.europapress.es/nacional/noticia-gobierno-garantiza-normalidad-seguridad-plenas-garantias-elecciones-refuerza-ciberseguridad-20261128134953.html
+  resumen: El Gobierno ha informado este sábado que el dispositivo para las elecciones generales de este 29 de noviembre está preparado para que los comicios se desarrollen "con total normalidad, seguridad y con plenas garantías" y se han incluido medidas específicas de ciberseguridad y protección de infraestr
+- seccion: espana
+  medio: Europa Press
+  titulo: Amor, bailes, 'Lecturas' y vídeos al estilo Lula, la campaña de Sánchez para frenar a PP y Vox
+  url: https://www.europapress.es/nacional/noticia-amor-bailes-lecturas-videos-estilo-lula-campana-sanchez-frenar-pp-vox-20261128113830.html
+  resumen: El presidente del Gobierno y candidato del PSOE a las elecciones generales, Pedro Sánchez, culminó este viernes su campaña electoral 'del amor' en la que ha tratado de insuflar optimismo a su bases y trasladar una imagen cercana, con protagonismo creciente de su mujer, Begoña Gómez, y apariciones en
 - seccion: espana
   medio: Europa Press
   titulo: Feijóo busca conquistar Moncloa tras una campaña apelando al "cambio" y al voto "prestado" socialista
@@ -12,9 +22,9 @@ titulares:
   resumen: Irene Montero, candidata de Podemos a las elecciones generales de este domingo, 29 de noviembre, ha salido esta mañana a pasear al campo junto a su perra Rumba durante la jornada de reflexión, según informan fuentes del partido este sábado.
 - seccion: espana
   medio: Europa Press
-  titulo: Frente Amplio busca ser la sorpresa en la izquierda bajo el liderazgo de Colau y revertir las encuestas
-  url: https://www.europapress.es/nacional/noticia-frente-amplio-busca-ser-sorpresa-izquierda-liderazgo-colau-revertir-encuestas-20261128111550.html
-  resumen: Frente Amplio alcanza la jornada de reflexión de los comicios del 29N convencido de revertir las encuestas y convertirse en el factor sorpresa para la remontada electoral de la izquierda, como pasó en 2023 con Sumar, gracias al buen papel de su candidata, Ada Colau, en el debate a 'cuatro'.
+  titulo: Ada Colau pasa la jornada de reflexión en familia en Barcelona, donde votará mañana
+  url: https://www.europapress.es/nacional/noticia-ada-colau-pasa-jornada-reflexion-familia-barcelona-donde-votara-manana-20261128130629.html
+  resumen: La candidata de Frente Amplio a las elecciones generales, Ada Colau, pasa la jornada de reflexión de este sábado en Barcelona, donde este domingo 29 de noviembre ejercerá su derecho al voto, según han informado fuentes del partido.
 - seccion: espana
   medio: Europa Press
   titulo: Sánchez, Feijóo y Abascal ejercerán su derecho al voto en Madrid y Colau lo hará en Barcelona
@@ -36,25 +46,75 @@ titulares:
   url: https://www.europapress.es/nacional/noticia-bloques-izquierda-derecha-pugnan-209-escanos-senado-buscaran-mayoria-suficiente-ser-decisivos-tc-20261128074950.html
   resumen: Los electores elegirán este domingo a 209 de los 267 senadores que componen la Cámara Alta, con la novedad de que los bloques de izquierda y derecha concurren a estos comicios bajo diferentes coaliciones con el objetivo de alcanzar una mayoría suficiente para ser decisivos en la renovación de varios
 - seccion: espana
-  medio: Europa Press
-  titulo: ¿Qué pasará con las papeletas electorales de los nacionalizados con la 'ley de nietos'?
-  url: https://www.europapress.es/nacional/noticia-pasara-papeletas-electorales-nacionalizados-ley-nietos-20261128091153.html
-  resumen: Esos sobres no se meterán en la urna, llevarán la firma de al menos dos miembros de la mesa y se añadirán a la documentación electoral
+  medio: El Confidencial
+  titulo: Registrado un ligero terremoto de magnitud 3.8 en la provincia de Granada
+  url: https://www.elconfidencial.com/espana/2026-11-28/registrado-un-ligero-terremoto-de-magnitud-3-6-en-la-provincia-de-granada_4474752/
+  resumen: El epicentro del temblor se ha situado cerca de Santa Cruz del Comercio y apenas se ha sentido en Vélez-Málaga, Almuñécar y Armilla
 - seccion: espana
-  medio: El País
-  titulo: Blindaje frente a la desestabilización rusa y el riesgo de ciberataques ante el 29-N
-  url: https://elpais.com/espana/elecciones-generales/2026-11-28/blindaje-frente-a-la-desestabilizacion-rusa-y-el-riesgo-de-ciberataques-ante-el-29-n.html
-  resumen: Interior lidera un grupo de expertos que monitoriza posibles injerencias extranjeras y garantiza la seguridad en la red del proceso electoral
+  medio: El Confidencial
+  titulo: 'Las medidas clave del PP: una "renta de activación" ligará el cobro del IMV y otros subsidios a la búsqueda de empleo'
+  url: https://www.elconfidencial.com/espana/2026-11-28/medidas-clave-pp-renta-de-activacion-cobro-imv-empleo_4462240/
+  resumen: Feijóo propone el fin de los 'pinganillos' en el Congreso; la ley del "concebido no nacido" de Ayuso; prohibir las regularizaciones masivas por "arraigo" o crear centros de retorno de inmigrantes en terceros países
 - seccion: espana
-  medio: El País
-  titulo: ¿Qué no se puede hacer en una jornada de reflexión? Ni actos, ni propaganda, ni entrevistas
-  url: https://elpais.com/espana/elecciones-generales/2026-11-28/que-no-se-puede-hacer-en-una-jornada-de-reflexion-ni-actos-ni-propaganda-ni-entrevistas.html
-  resumen: La JEC ha establecido a lo largo de los años una larga doctrina de movimientos y propaganda electorales en el día previo a las elecciones
+  medio: El Confidencial
+  titulo: En qué colegio electoral votan Sánchez, Feijóo, Abascal, Colau y el resto de candidatos en las elecciones del 29-N
+  url: https://www.elconfidencial.com/espana/2026-11-28/donde-hora-votan-sanchez-feijoo-abascal-resto-candidatos_4474751/
+  resumen: Cada uno de los líderes políticos acudirá a su colegio electoral correspondiente para ejercer su derecho a voto como un ciudadano más
 - seccion: espana
-  medio: El País
-  titulo: ¿Cuándo abren los colegios electorales? ¿Cómo se realiza el recuento? Claves sobre la jornada electoral
-  url: https://elpais.com/espana/elecciones-generales/2026-11-28/cuando-abren-los-colegios-electorales-como-se-realiza-el-recuento-claves-sobre-la-jornada-electoral.html
-  resumen: La votación comienza a las 9.00 y acaba a las 20.00, momento en el que comienza el recuento provisional
+  medio: El Confidencial
+  titulo: 'Quién fue el ganador de las elecciones generales de 2023 y 2019: estos fueron los resultados'
+  url: https://www.elconfidencial.com/espana/2026-11-28/quien-fue-ganador-elecciones-generales-fueron-resultados_4474744/
+  resumen: El mapa electoral actual muestra cambios significativos con respecto a la llamada a las urnas de años anteriores
+- seccion: espana
+  medio: El Confidencial
+  titulo: 'Cómo votar y qué hace nulo tu voto en las elecciones del 29N: los errores más comunes en la papeleta y el sobre'
+  url: https://www.elconfidencial.com/espana/2026-11-28/que-hace-voto-nulo-errores-comunes-papeletas-sobre_4474706/
+  resumen: Un descuido o imperfección en la documentación a introducir en las urnas puede anular nuestra elección de cara al recuento final
+- seccion: espana
+  medio: El Confidencial
+  titulo: Dos heridos al caer su coche al río para esquivar una manada de jabalíes en Erro
+  url: https://www.elconfidencial.com/espana/2026-11-28/accidente-coche-rio-elorz-jabalies-1tna-1tps_4474737/
+  resumen: El operativo movilizó a bomberos, una ambulancia y la Guardia Civil; cuatro ocupantes fueron rescatados y varios trasladados al hospital
+- seccion: espana
+  medio: El Confidencial
+  titulo: Feijóo se desplaza a Ceuta en plena jornada de reflexión para mostrar su "apoyo y solidaridad"
+  url: https://www.elconfidencial.com/espana/2026-11-28/feijoo-ceuta-jornada-reflexion-elecciones_4474701/
+  resumen: El líder del PP acompaña al presidente Vivas en la víspera de las generales del 29-N. Sin agenda pública ni mítines, Feijóo dedica la mañana de este sábado a la ciudad autónoma
+- seccion: espana
+  medio: El Confidencial
+  titulo: 'Horario votación: a qué hora abren y cierran los colegios electorales en las elecciones del 29N'
+  url: https://www.elconfidencial.com/espana/2026-11-28/elecciones-generales-espana-hora-abren-cierran-colegios-electorales_4474691/
+  resumen: Durante la jornada del próximo domingo, dichos centros presentarán un horario de apertura para que los ciudadanos puedan ejercer su derecho a voto
+- seccion: espana
+  medio: El Confidencial
+  titulo: Murcia pedirá a la Justicia que se revoque el traslado del buque Med Emre a Cartagena, ya en camino
+  url: https://www.elconfidencial.com/espana/2026-11-28/murcia-rechaza-remolque-buque-cartagena_4474673/
+  resumen: No obstante, el barco ya navega, remolcado, rumbo a Cartagena, donde se prevé que arrive el lunes. La ruta que tendrán que completar hasta llegar a su destino, la dársena de Escombreras de Cartagena, es de cerca de 140 millas náuticas
+- seccion: espana
+  medio: El Confidencial
+  titulo: 'Qué pasa si nadie consigue mayoría tras el 29-N: plazos de investidura y repetición electoral'
+  url: https://www.elconfidencial.com/espana/2026-11-28/que-pasa-nadie-consigue-mayoria-29-elecciones-1qrt_4474536/
+  resumen: La noche electoral dibujará el mapa de los pactos posibles, pero la primera fecha institucional ya está fijada
+- seccion: espana
+  medio: El Confidencial
+  titulo: Vuelca un camión portacoches en la N-121-A, en Baztan
+  url: https://www.elconfidencial.com/espana/2026-11-28/camion-portacoches-accidente-baztan-1tna-1tps_4474668/
+  resumen: El siniestro ocurrió en Baztan y obligó a movilizar a bomberos, sanitarios y agentes; el transportista fue evacuado con pronóstico leve
+- seccion: espana
+  medio: El Confidencial
+  titulo: La Policía detiene a dos personas por tráfico de drogas en Pamplona
+  url: https://www.elconfidencial.com/espana/2026-11-28/detenidos-trafico-drogas-pamplona-1tna-1tps_4474669/
+  resumen: Las quejas de residentes activaron pesquisas que llevaron a un domicilio con cocaína, heroína, hachís, dinero y material para su distribución
+- seccion: espana
+  medio: El Confidencial
+  titulo: La Policía Foral interviene numerosas armas en una inspección administrativa en un local de Villatuerta
+  url: https://www.elconfidencial.com/espana/2026-11-28/taller-clandestino-armas-policia-foral-1tna-1tps_4474660/
+  resumen: Una inspección en un negocio de Villatuerta destapa reparaciones de vehículos no autorizadas, armas de varias clases e indicios de consumo de estupefacientes
+- seccion: espana
+  medio: El Confidencial
+  titulo: 'El refugio de Pedro Sánchez en el Pirineo aragonés: el pueblo de 1.540 metros de altitud donde esquía en Navidad con Begoña Gómez'
+  url: https://www.elconfidencial.com/espana/2026-11-28/refugio-pedro-sanchez-pirineo-aragones-pueblo-esquia-navarra-1qrt_4450696/
+  resumen: Este rincón pertenece al municipio de Benasque y está considerado el pueblo más alto del Pirineo aragonés
 - seccion: internacional
   medio: Europa Press
   titulo: Albanese abandona aeropuerto de Costa Rica tras más de 50 horas retenida pese a orden judicial de salida
@@ -65,6 +125,21 @@ titulares:
   titulo: Al menos siete muertos y más de 90 heridos por una explosión registrada cerca de una escuela en el este de Afganistán
   url: https://www.europapress.es/internacional/noticia-menos-siete-muertos-mas-90-heridos-explosion-registrada-cerca-escuela-afganistan-20261128112750.html
   resumen: Al menos siete personas han fallecido y otras 97 han resultado heridas este sábado tras una explosión registrada en un almacén de material explosivo de empresas mineras situado junto a una escuela de secundaria en Asadabad, capital de la provincia afgana de Kunar, en el este del país.
+- seccion: internacional
+  medio: Europa Press
+  titulo: Un dron obliga a suspender temporalmente los vuelos en el aeropuerto alemán de Colonia-Bonn
+  url: https://www.europapress.es/internacional/noticia-dron-obliga-suspender-temporalmente-vuelos-aeropuerto-aleman-colonia-bonn-20261128121404.html
+  resumen: El aeropuerto alemán de Colonia-Bonn ha interrumpido sus operaciones durante aproximadamente dos horas y media durante la noche del viernes al sábado, tras detectar un dron en el espacio aéreo de sus instalaciones, lo que obligó a paralizar todos los despegues y aterrizajes.
+- seccion: internacional
+  medio: Europa Press
+  titulo: Autoridades gazatíes confirman 18 muertos en ataques israelíes en las últimas 48 horas pese al alto el fuego
+  url: https://www.europapress.es/internacional/noticia-autoridades-gazaties-confirman-18-muertos-ataques-israelies-ultimas-48-horas-pese-alto-fuego-20261128124851.html
+  resumen: Al menos 18 personas han sido incluidas en las últimas 48 horas en la relación de fallecidos como consecuencia de los ataques israelíes que elabora el Ministerio de Sanidad del Gobierno gazatí, controlado por el Movimiento de Resistencia Islámica.
+- seccion: internacional
+  medio: Europa Press
+  titulo: Mueren dos trabajadores sanitarios en un ataque con dron contra un vehículo hospitalario en Zaporiyia (Ucrania)
+  url: https://www.europapress.es/internacional/noticia-mueren-dos-trabajadores-sanitarios-ataque-dron-contra-vehiculo-hospitalario-zaporiyia-ucrania-20261128114221.html
+  resumen: Una enfermera y el conductor de un vehículo sanitario en la localidad ucraniana de Zaporiyia, han fallecido este sábado tras el impacto de un dron, que ha dejado además a otras dos personas heridas, según ha informado el Ministerio de Salud regional.
 - seccion: internacional
   medio: Europa Press
   titulo: Una nueva ofensiva entre hutíes y la coalición saudí deja al menos tres civiles muertos en el suroeste de Yemen
@@ -90,11 +165,6 @@ titulares:
   titulo: La Guardia Costera libia anuncia el rescate de ocho embarcaciones con 240 migrantes a bordo en el este del país
   url: https://www.europapress.es/internacional/noticia-guardia-costera-libia-anuncia-rescate-ocho-embarcaciones-240-migrantes-bordo-pais-20261128052935.html
   resumen: Las autoridades del este de Libia han anunciado este viernes que se han rescatado ocho embarcaciones en las que navegaban 240 migrantes de diversas nacionalidades y que posiblemente buscaban llegar a territorio europeo, según ha informado la Guardia Costera y la Agencia de Seguridad Portuaria del pa
-- seccion: internacional
-  medio: Europa Press
-  titulo: Dos aviones de American Airlines rozan sus alas en tierra en un aeropuerto de Washington sin causar heridos
-  url: https://www.europapress.es/internacional/noticia-dos-aviones-american-airlines-rozan-alas-tierra-aeropuerto-washington-causar-heridos-20261128031056.html
-  resumen: Dos aviones de la aerolínea American Airlines han rozado sus alas este viernes mientras rodaban por pista antes del despegue en el Aeropuerto Nacional Ronald Reagan de Washington, un incidente que se ha saldado sin heridos, según ha informado la Administración Federal de Aviación (FAA) estadounidens
 - seccion: economia
   medio: El País
   titulo: '‘Egypt’ contra ‘Masr’: los dos mundos que habitan Egipto'
@@ -105,6 +175,26 @@ titulares:
   titulo: Butcher blames costs for closure after 127 years
   url: https://www.bbc.co.uk/news/articles/cqe9k3m9mvexo?at_medium=RSS&at_campaign=rss
   resumen: Bennett Butchers in Spalding says rises in National Insurance and energy have made it "unviable".
+- seccion: economia
+  medio: El Mundo
+  titulo: Renfe fue advertida hace un año del desgaste de las ruedas de sus trenes
+  url: https://www.elmundo.es/economia/2026/11/28/6b09cebbe9cf4a055a8b457a.html
+  resumen: Las empresas mantenedoras de trenes de Cercanías alertaron de que la pérdida de grosor de las pestañas de las ruedas estaba al límite. El refuerzo de las medidas preventivas en un año negro para la seguridad ferroviaria ha llevado al operador a reajustar servicios para mejorar el mantenimiento. Leer
+- seccion: economia
+  medio: El Mundo
+  titulo: 'Trump resucita la guerra comercial contra China: una ofensiva de aranceles y chips que golpea también a sus aliados asiáticos'
+  url: https://www.elmundo.es/economia/macroeconomia/2026/11/28/6b080af9fc6c833c0c8b45a9.html
+  resumen: 'Washington amenaza a Pekín con nuevos aranceles y estrecha el cerco sobre los chips de IA. El gigante asiático, que amenaza con duras represalias, guarda en la recámara su arma más eficaz: las tierras raras Leer'
+- seccion: sociedad
+  medio: Europa Press
+  titulo: El Gobierno asegura que no hay contaminación en el traslado del Med Emre a Cartagena, que se realiza a baja velocidad
+  url: https://www.europapress.es/sociedad/noticia-gobierno-asegura-no-hay-contaminacion-traslado-med-emre-cartagena-realiza-baja-velocidad-20261128125235.html
+  resumen: El Gobierno ha informado de que no se ha detectado contaminación a lo largo de la ruta de remolque del buque Med Emre, que naufragó a unas 20 millas de Ibiza, y se está monitorizando una mancha de combustible ya envejecido en la zona de zozobra, de unas 5 x 0,5 millas y de baja intensidad.
+- seccion: sociedad
+  medio: Europa Press
+  titulo: Ingenieros de Montes critican la falta de compromiso presupuestario de las medidas de protección civil para el 29N
+  url: https://www.europapress.es/sociedad/noticia-ingenieros-montes-critican-falta-compromiso-presupuestario-medidas-proteccion-civil-29n-20261128114449.html
+  resumen: El decano del Colegio Oficial de Ingenieros de Montes (COIM), Eduardo Tolosana, ha apuntado que todos los partidos que concurren a las elecciones generales de este domingo presentan "algunas propuestas positivas" con respecto a la lucha contra los incendios en España. Sin embargo, ha criticado la fa
 - seccion: sociedad
   medio: Europa Press
   titulo: La Economía Social gana peso en los programas electorales de los comicios de este 29N
@@ -115,6 +205,11 @@ titulares:
   titulo: Guía para el voto accesible en las elecciones del 29N
   url: https://www.europapress.es/epsocial/igualdad/noticia-guia-voto-accesible-elecciones-29n-20261128113251.html
   resumen: El Ministerio del Interior ha puesto en marcha distintas actuaciones para garantizar la participación de personas con discapacidad en las elecciones generales de este domingo 29 de noviembre, de manera que puedan ejercer su derecho de sufragio "activo, consciente, libre y voluntariamente", en cumpli
+- seccion: sociedad
+  medio: Europa Press
+  titulo: 'Marian, Marina y Lucía, tres mujeres con discapacidad y un mismo reto: votar sin barreras'
+  url: https://www.europapress.es/epsocial/igualdad/noticia-marian-marina-lucia-tres-mujeres-discapacidad-mismo-reto-votar-barreras-20261128123249.html
+  resumen: 'Marian Andrés, de 40 años y con parálisis cerebral; Marina Rojas Sepúlveda, ciega, y Lucía Espejo, sorda, se enfrentan de cara al domingo electoral a obstáculos muy distintos, pero con una misma complejidad: las dificultades para ejercer su derecho al voto en igualdad de condiciones.'
 - seccion: ciencia-salud
   medio: BBC
   titulo: Hundreds of thousands still without power a day after US slammed with Thanksgiving storms
@@ -137,11 +232,6 @@ titulares:
   resumen: If a medicine is out of stock, staff can offer the same drug in a different strength or form, like a capsule instead of a pill.
 - seccion: ciencia-salud
   medio: BBC
-  titulo: Should I get a flu vaccine now?
-  url: https://www.bbc.co.uk/news/articles/cq8e018jyjngo?at_medium=RSS&at_campaign=rss
-  resumen: Amid a surge in influenza, health officials are urging people to get a vaccine - but what if you're young and healthy?
-- seccion: ciencia-salud
-  medio: BBC
   titulo: New project to provide free mental health courses
   url: https://www.bbc.co.uk/news/articles/c8vg2ndz0d1zo?at_medium=RSS&at_campaign=rss
   resumen: There will be free courses on mental health, wellbeing, recovery, personal growth and creativity.
@@ -152,9 +242,9 @@ titulares:
   resumen: The UK's former chief technology officer says the Department for Work and Pensions may have been hit by hackers, but the government has not confirmed that.
 - seccion: tecnologia
   medio: BBC
-  titulo: How gamers are using AI and leaked files to clone Grand Theft Auto 6
-  url: https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss
-  resumen: With an official PC version potentially still months away, fans are getting impatient.
+  titulo: OpenAI counter-sues Apple over alleged theft of trade secrets
+  url: https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss
+  resumen: The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee.
 - seccion: tecnologia
   medio: The Guardian
   titulo: AI labs sitting on ‘bombshell’ revelations that could cause global chaos, experts warn
@@ -162,14 +252,109 @@ titulares:
   resumen: 'Exclusive: AI may have cracked decades-old maths problems that underpin encryption at banks and government agencies AI companies are sitting on “bombshell” revelations that could disrupt a cornerstone of security for banks and governments in as soon as a few months, leading experts believe. Scott Aa'
 - seccion: tecnologia
   medio: The Guardian
+  titulo: DWP cyber incident ‘probably an attack’, says former UK chief technology officer
+  url: https://www.theguardian.com/technology/2026/nov/28/dwp-cyber-incident-probably-attack-former-uk-chief-technology-officer-david-knott
+  resumen: Government took down pensions and benefits portal on Thursday but said regular payments will not be affected A serious cyber incident that forced ministers to take down online benefits and pension services was “probably an attack”, the UK’s former chief technology officer has said. The Department fo
+- seccion: tecnologia
+  medio: The Guardian
+  titulo: Woman ‘traumatised’ by Sainsbury’s shoplifting ban after staff facial recognition error
+  url: https://www.theguardian.com/technology/2026/nov/28/woman-traumatised-sainsburys-shoplifting-ban-after-staff-facial-recognition-error
+  resumen: 'Monia Indge, 58, who has terminal cancer, escorted from supermarket after staff using FaceWatch technology misidentified her A woman with terminal cancer has been left “traumatised and violated” after being falsely accused of shoplifting and banned from Sainsbury’s by staff using facial recognition '
+- seccion: tecnologia
+  medio: The Guardian
   titulo: '‘I told it to never call me again’: AI bots wreak havoc with UK restaurant bookings'
   url: https://www.theguardian.com/business/2026/nov/28/ai-bots-wreak-havoc-uk-restaurant-bookings-meta-muse
   resumen: Meta claims its Muse assistant will make users’ lives easier, but business owners say AI is driving them to go analogue Restaurant owners are battling a horde of AI bots and returning to using the telephone instead of online booking as new virtual assistants launch in the UK – but sometimes even tha
 - seccion: tecnologia
-  medio: The Guardian
-  titulo: OpenAI countersues Apple for allegedly stealing trade secrets
-  url: https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets
-  resumen: Lawsuit also alleging pressure on hardware suppliers comes after Apple sued OpenAI for allegedly poaching employees OpenAI sued Apple on Friday, accusing the company of ⁠stealing its trade secrets ​and discouraging hardware suppliers from working on future OpenAI devices. The suit, filed in northern
+  medio: Xataka
+  titulo: Muchos de los proyectos solares en España se quedan en un cajón y no llegan a ver la luz
+  url: https://www.xataka.com/energia/muchos-proyectos-solares-espana-se-quedan-cajon-no-llegan-a-ver-luz
+  resumen: 'La solar vive uno de sus mejores momentos, pero también una paradoja: aunque cada vez hay más cartera sobre la mesa y las previsiones a futuro son realmente positivas, muchos de esos proyectos se quedan por el camino y no llegan nunca a construirse. Es lo que expone el informe de la empresa lituana '
+- seccion: tecnologia
+  medio: Xataka
+  titulo: Amancio Ortega acaba de colarse en un 'Top 10' de grandes inversiones mundiales. Y para sorpresa de nadie incluye un rascacielos
+  url: https://www.xataka.com/empresas-y-economia/amancio-ortega-acaba-colarse-top-10-grandes-inversiones-mundiales-para-sorpresa-nadie-incluye-rascacielos
+  resumen: 'Amancio Ortega cimentó su fortuna sobre el negocio de la moda, pero desde hace tiempo parte de su atención (y sus millones) se dirigen a otro sector: el del ladrillo . Las ganancias obtenidas a través de Inditex han permitido al gallego adquirir decenas y decenas de propiedades que suman un patrimon'
+- seccion: tecnologia
+  medio: Xataka
+  titulo: 'En 2019 España prohibió su venta, pero ya era tarde: el cerdo vietnamita solo ha necesitado una década para cambiar el monte'
+  url: https://www.xataka.com/ecologia-y-naturaleza/2019-espana-prohibio-su-venta-era-tarde-cerdo-vietnamita-solo-ha-necesitado-decada-para-cambiar-monte
+  resumen: Que las especies invasoras suelen ser un problema no es un secreto, pero es que los híbridos resultantes también. Y aquí es cuando enseña la pezuñita el cerdolí, el nombre popular con el que se conoce a la mezcla entre jabalí y el cerdo doméstico, más concretamente (y habitualmente), el cerdo vietna
+- seccion: tecnologia
+  medio: Xataka
+  titulo: 'Dos meses de fútbol por 2 euros o un año a mitad de precio: se terminan las promos de Black Friday de Movistar Plus y DAZN'
+  url: https://www.xataka.com/seleccion/dos-meses-futbol-2-euros-ano-a-mitad-precio-se-terminan-promos-black-friday-movistar-plus-dazn
+  resumen: El Black Friday ya ha pasado, pero todavía quedan algunas ofertas disponibles que podemos aprovechar. Donde hay más es en el terreno de las plataformas de streaming y ahí, si te gusta el fútbol, tienes dos vías para elegir muy diferentes. Tanto Movistar Plus como DAZN tienen activas promos muy difer
+- seccion: tecnologia
+  medio: Xataka
+  titulo: Todos querrán vivir en Madrid, nadie querrá vivir en Madrid
+  url: https://www.xataka.com/opinion/todos-querran-vivir-madrid-nadie-querra-vivir-madrid
+  resumen: 'Madrid es invivible. Hemos tratado el tema en reiteradas ocasiones en Xataka . Dejando a un lado que la ciudad se ha convertido en una suerte de megaestadio para cobijar megaconciertos, megafestivales, megacarreras de Fórmula 1 y megaencendidos de luces navideños, Madrid es hoy por hoy invivible en '
+- seccion: tecnologia
+  medio: Xataka
+  titulo: Juanjilandia, el 'Cortylandia' de Getafe que un padre y un hijo organizan con fines benéficos, ya reúne a cientos de visitantes
+  url: https://www.xataka.com/magnet/juanjilandia-cortylandia-getafe-que-padre-hijo-organizan-fines-beneficos-reune-a-cientos-visitantes
+  resumen: '¿Y si se pudiera “plantar cara” a la maquinaria de Cortylandia? Son muchos años, vale la pena intentar lo que han logrado un padre y un hijo: que la música a la Navidad de Madrid la pongan ellos, no un patrocinio millonario. Juanjilandia es el curioso nombre que han elegido y una casa de El Bercial,'
+- seccion: tecnologia
+  medio: Xataka
+  titulo: 'La norma Euro 7 entra en vigor el 29 de noviembre: qué cambia en los coches nuevos y qué pasa con tu vehículo actual'
+  url: https://www.xataka.com/movilidad/norma-euro-7-entra-vigor-29-noviembre-que-cambia-coches-nuevos-que-pasa-tu-vehiculo-actual
+  resumen: Desde mañana empieza a aplicarse la Euro 7 , la nueva referencia europea de emisiones que tiene como base el Reglamento de la UE 2024/1257 del Parlamento Europeo y del Consejo y tenemos malas y buenas noticias. La mala es que las visitas al taller van a ser más exigentes, frecuentes y seguramente má
+- seccion: tecnologia
+  medio: Xataka
+  titulo: China ya fabrica casi una de cada once memorias DRAM del mundo y la IA le está pagando la fábrica
+  url: https://www.xataka.com/componentes/china-fabrica-casi-cada-once-memorias-dram-mundo-ia-le-esta-pagando-fabrica
+  resumen: Es la época dorada para las memorias... para fabricarlas, quiero decir. Si te dedicas a la manufactura de componentes, gracias a la IA vas a vender todo lo que produzcas y más. Las gráficas de beneficios operativos de los fabricantes tienen forma de ascenso empinado a una montaña y a modo de ejemplo
+- seccion: tecnologia
+  medio: Xataka
+  titulo: A Europa no le faltan 50.000 millones para competir con EEUU. Le falta alguien que compre lo que fabrica
+  url: https://www.xataka.com/empresas-y-economia/a-europa-no-le-faltan-50-000-millones-para-competir-eeuu-le-falta-alguien-que-compre-que-fabrica
+  resumen: 'La Comisión Europea ha propuesto un fondo de 50.000 millones de euros para entrar en el capital de sus tecnológicas y evitar que acaben en manos estadounidenses o chinas. Su diagnóstico es que a Europa le falta dinero para crecer. Pero Europa tiene otra palanca, mucho más grande, y casi no la usa: l'
+- seccion: tecnologia
+  medio: Xataka
+  titulo: 'Hay una iglesia en Alemania donde lleva sonando la misma pieza desde 2001: no terminará hasta 2640'
+  url: https://www.xataka.com/magnet/hay-iglesia-alemania-donde-lleva-sonando-pieza-2001-no-terminara-2640
+  resumen: Si las canciones de rock sinfónico de los 70 te parecían eternas, la pieza que lleva tocándose 25 años en una parroquia de Alemania te romperá todos los esquemas. La pieza de Se llama ' ORGAN²/ASLSP ', y es la versión para órgano de una obra que John Cage escribió originalmente para piano en 1985. E
+- seccion: tecnologia
+  medio: Xataka
+  titulo: 'Tras arrasar en matemáticas y ciberseguridad, la IA tiene nuevo objetivo: liberar las funciones capadas de tu cámara de fotos'
+  url: https://www.xataka.com/robotica-e-ia/arrasar-matematicas-ciberseguridad-ia-tiene-nuevo-objetivo-liberar-funciones-capadas-tu-camara-fotos
+  resumen: El firmware es el software interno que decide lo que puedes y no puedes hacer con tu dispositivo. Es algo que los fabricantes siempre han controlado con celo, pero la inteligencia artificial está facilitando destriparlo. Ocurre en muchos terrenos, como el de la ciberseguridad donde se están encontra
+- seccion: tecnologia
+  medio: Xataka
+  titulo: Liquidación en el outlet online de El Corte Inglés después del Black Friday con chollos en iPad, móviles Samsung y más
+  url: https://www.xataka.com/seleccion/liquidacion-outlet-online-corte-ingles-despues-black-friday-chollos-ipad-moviles-samsung
+  resumen: El Black Friday ha terminado, pero todavía podemos encontrar buenos precios en tiendas como El Corte Inglés. En su outlet online hay una gran variedad de descuentos en dispositivo como iPad, televisores de Sony o móviles de Samsung , por lo que vamos a hacer un repaso de los mejores chollos que hemo
+- seccion: tecnologia
+  medio: Xataka
+  titulo: 'A cuántos grados calienta Europa su casa: el mapa que explica por qué más calor no siempre es derroche'
+  url: https://www.xataka.com/energia/a-cuantos-grados-calienta-europa-su-casa-mapa-que-explica-que-calor-no-siempre-derroche
+  resumen: 'Oficialmente no es invierno, pero a juzgar por el rasca que hace cuando sales a la calle, quién lo diría: estamos ante la primera masa de aire polar de la temporada y, si habías demorado la puesta en marcha de tu calefacción, estos días te costará resistirse. Y con el encendido de la calefacción vue'
+- seccion: tecnologia
+  medio: Xataka
+  titulo: 'Ciberataque a SAP, la mayor empresa de software de Europa: el verdadero peligro está en el código'
+  url: https://www.xataka.com/seguridad/ciberataque-a-sap-mayor-empresa-software-europa-verdadero-peligro-esta-codigo
+  resumen: 'El software de SAP no es tan conocido ni tan utilizado como Outlook, pero sus aplicaciones mueven la contabilidad de media Europa. Pues bien, la empresa alemana ha confirmado que "había detectado actividad sospechosa", tal y como adelantaba Der Spiegel el jueves. Al parecer, el riesgo no está en lo '
+- seccion: tecnologia
+  medio: Xataka
+  titulo: 'Ni el aceite de oliva, ni Ceuta, ni Melilla: Marruecos está levantando 115.000 razones para meterle su gol más histórico a España'
+  url: https://www.xataka.com/magnet/aceite-oliva-ceuta-melilla-marruecos-esta-levantando-115-000-razones-para-meterle-su-gol-historico-a-espana
+  resumen: Cuando España consiguió organizar el Mundial de fútbol de 2030 junto a Portugal y Marruecos, pocos dudaban de dónde se disputaría el partido más importante del torneo. Sin embargo, lo que parecía una cuestión de trámite ha terminado convirtiéndose en una batalla deportiva, económica y diplomática qu
+- seccion: tecnologia
+  medio: HardZone
+  titulo: '240 Hz vs 360 Hz vs 480 Hz vs 500 Hz: dónde está el límite útil'
+  url: https://hardzone.es/noticias/perifericos/240-hz-360-hz-480-hz-500-hz-donde-esta-limite-util/
+  resumen: Tanto si tenemos un monitor, como si estamos pensando en comprar uno, una de las características que todos miramos, es el número de hercios, importantes para la fluidez de la pantalla, pero, ¿realmente hay un límite donde ya no se aprecia y es innecesario? En el día de hoy veremos la diferencia entr
+- seccion: tecnologia
+  medio: HardZone
+  titulo: 'PCI Express explicado desde cero: carriles, generaciones y compatibilidad'
+  url: https://hardzone.es/noticias/componentes/pci-express-explicado-carriles-generaciones-compatibilidad/
+  resumen: Es posible que, si estás montando un ordenador, o mirando equipos completos, hayas visto la palabra PCI Express , y es que es un palabra muy importante dentro de cualquier PC, pues es el encargado de conectar el resto de piezas de alta velocidad, como la tarjeta gráfica o los SSD. Es por ello que, e
+- seccion: tecnologia
+  medio: HardZone
+  titulo: Todos los GOTY de The Game Awards ordenados del peor al mejor
+  url: https://hardzone.es/noticias/juegos/premios-goty-the-game-awards-ordenados-peor-mejor/
+  resumen: Desde su creación en 2014, The Game Awards se ha convertido en uno de los eventos más importantes de la industria de los videojuegos aunque el más esperado y prestigioso es el de Juego del Año (GOTY). A lo largo de sus ediciones, este galardón ha recaído en propuestas muy diferentes, desde grandes p
 - seccion: cultura
   medio: BBC
   titulo: Carly Rae Jepsen's viral hit proves what fans knew all along
@@ -177,14 +362,34 @@ titulares:
   resumen: The Call Me Maybe star returns to the UK Top 40 as her single Run Away With Me gets a GTA VI boost.
 - seccion: cultura
   medio: BBC
+  titulo: Jake Bugg reflects on 'vulnerable' new album he almost didn't release
+  url: https://www.bbc.co.uk/news/articles/cqlymzvgvzyro?at_medium=RSS&at_campaign=rss
+  resumen: The singer, who had a number one with his first album, says his latest reflects tough years since.
+- seccion: cultura
+  medio: BBC
   titulo: Actor and comedian PJ Gallagher dies aged 51
   url: https://www.bbc.co.uk/news/articles/cwp83j2k31g3o?at_medium=RSS&at_campaign=rss
   resumen: PJ Gallagher appeared on Irish television for more than two decades with shows including Naked Camera and The Young Offenders.
+- seccion: cultura
+  medio: BBC
+  titulo: Take That say 10th number one album feels as special as first
+  url: https://www.bbc.co.uk/news/articles/cvlyj7wy7j5go?at_medium=RSS&at_campaign=rss
+  resumen: The Manchester group has topped the UK album chart with Dreamers.
+- seccion: cultura
+  medio: BBC
+  titulo: Babydoll singer lands longest-running UK number one by Welsh artist in 56 years
+  url: https://www.bbc.co.uk/news/articles/c920x6071g10o?at_medium=RSS&at_campaign=rss
+  resumen: Jamie Miller, originally from Cardiff, claims the top spot in the UK singles chart for the sixth week.
 - seccion: cultura
   medio: The Guardian
   titulo: '‘Who asked that? You should be ashamed of yourself!’: Judi Dench answers questions from Ian McKellen, Lorraine Kelly, David Hare and more'
   url: https://www.theguardian.com/culture/2026/nov/28/judi-dench-actor-interview-answers-questions-ian-mckellen-celia-imrie-lethal-bizzle
   resumen: 'Fans and famous friends put their nosiest questions to the 91-year-old actor It’s mid-afternoon and Judi Dench and I are sitting in the “den” of her country house in Surrey. It’s one of the smallest rooms in her Elizabethan home: timber beams, terracotta-painted walls, her father’s consulting-room d'
+- seccion: cultura
+  medio: The Guardian
+  titulo: A riot grrrl song inspired me to leave a controlling relationship
+  url: https://www.theguardian.com/music/2026/nov/28/my-cultural-awakening-sleater-kinney-inspired-me-leave-controlling-relationship
+  resumen: My jealous guitarist boyfriend stopped me from pursuing my own musical dreams, but then a powerful anthem by Sleater-Kinney gave my situation a soundtrack One winter afternoon in Maine in the mid-1990s, a stranger slipped a love note into my messenger bag. I was in my first year of high school. I pl
 - seccion: cultura
   medio: The Guardian
   titulo: The radical clarity of NAZA makes You Can See Everything seem irrelevant | Charlotte Higgins
@@ -195,11 +400,6 @@ titulares:
   titulo: 'Sly, subversive and surprisingly modern: why Agatha Christie is still making a killing'
   url: https://www.theguardian.com/books/2026/nov/28/sly-subversive-and-surprisingly-modern-why-agatha-christie-is-still-making-a-killing
   resumen: 'A century after her mysterious 11-day disappearance, the Queen of Crime is everywhere. With an exhibition at the British Library, a new Miss Marple novel and a hot young Poirot hitting the screen, how did the novelist become such big business? On the evening of 4 December 1926, Teresa Neele checked '
-- seccion: cultura
-  medio: The Guardian
-  titulo: 'The Guide #271: The strange success of You Can See Everything gives me hope for the future of risk-taking creatives'
-  url: https://www.theguardian.com/culture/2026/nov/27/the-strange-success-of-you-can-see-everything-gives-me-hope-for-the-future-of-risk-taking-creatives
-  resumen: 'In this week’s newsletter: Former magician Nathan Fielder pulls some stunning tricks in this docu-drama, proving audiences love a world of weirdness Warning: while this article is spoiler-free for You Can See Everything, it contains spoilers for The Curse I don’t think we knew what to do with You Ca'
 - seccion: cultura
   medio: The Guardian
   titulo: 'From The Slightest Touch to Bob Dylan: the week in rave reviews'
@@ -230,14 +430,129 @@ titulares:
   titulo: Watching Wild Horse Nine in Santiago brings Pinochet’s tyranny back to dreadful life
   url: https://www.theguardian.com/film/2026/nov/28/watching-wild-horse-nine-in-santiago-brings-pinochets-tyranny-back-to-dreadful-life
   resumen: 'Having lived through the real life horror it was chilling to see Martin McDonagh’s film so close to its historical site. Would its audience hear the urgent message? It was chilling for me, as a survivor of the 1973 coup that installed a bloody 17-year dictatorship in Chile, to watch Wild Horse Nine '
+- seccion: cultura
+  medio: The Guardian
+  titulo: 'The Guide #271: The strange success of You Can See Everything gives me hope for the future of risk-taking creatives'
+  url: https://www.theguardian.com/culture/2026/nov/27/the-strange-success-of-you-can-see-everything-gives-me-hope-for-the-future-of-risk-taking-creatives
+  resumen: 'In this week’s newsletter: Former magician Nathan Fielder pulls some stunning tricks in this docu-drama, proving audiences love a world of weirdness Warning: while this article is spoiler-free for You Can See Everything, it contains spoilers for The Curse I don’t think we knew what to do with You Ca'
+- seccion: cultura
+  medio: ABC
+  titulo: 'Espartaco, sobre su vida como ganadero: «Paso más miedo curando un novillo que delante de un toro»'
+  url: https://www.abc.es/cultura/toros/sevilla/espartaco-sobre-vida-ganadero-paso-miedo-curando-20261128112556-nts.html
+  resumen: 'A José Antonio Ruiz «Espartaco» la afición lo recuerda siempre firme delante del toro en la plaza, pero en su finca la historia cambia bastante. Allí, en mitad del campo y sin burladeros cerca, el que fuera figura del toreo reconoce que hay situaciones que imponen mucho más respeto que una tarde en '
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Maria Jaume (★★★✩✩), festeros 'forever'
+  url: https://www.lavanguardia.com/cultura/20261128/11695775/maria-jaume-festeros-forever.html
+  resumen: Se ha sacado de la chistera 'Sant Domingo forever', su cuarto álbum, con el que convocó a una numerosa audiencia en el Paral·lel
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: '''Castigo divino'', de Sergio Ramírez'
+  url: https://www.lavanguardia.com/cultura/20261128/11694784/castigo-divino-sergio-ramirez.html
+  resumen: Una trama detectivesca centroamericana narrada por la voz de Óscar Castillo
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Los huelguistas ocupan “de forma simbólica” ocho bibliotecas de Barcelona
+  url: https://www.lavanguardia.com/cultura/20261128/11695578/huelguistas-ocupan-forma-simbolica-ocho-bibliotecas-barcelona.html
+  resumen: la jornada reivindicativa, convocada por la CGT, también buscó el respaldo de la ciudadanía con actividades en las bibliotecas, como una sobremesa poética, una comida popular o un bingo musical
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: 'Cocapitalidad, cuotas de creación humana, IVA: la cultura después de las elecciones'
+  url: https://www.lavanguardia.com/cultura/20261128/11695363/cultura-elecciones-teatro-cine-m-musica-danza-iva-ia-cocapitalidad.html
+  resumen: Los diferentes sectores definen sus prioridades tras el decisivo voto de mañana
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Barcelona no se acaba nunca
+  url: https://www.lavanguardia.com/cultura/20261128/11695316/olga-merino-barcelona-acaba-nunca-vila-matas-garriga-vela-muntaner-laforet-gracian-julieta-matematicas.html
+  resumen: ''
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: 'Laetitia Colombani: “Las mujeres tienen un inmenso poder pero no lo saben”'
+  url: https://www.lavanguardia.com/cultura/20261128/11695240/mujeres-huelga-laetitia-colombani-trenza.html
+  resumen: La autora de la aclamada 'La trenza' publica 'Un día sin mujeres', en la que imagina una huelga femenina planetaria
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Sant Andreu Jazz Band, cómo convertir la enseñanza en arte
+  url: https://www.lavanguardia.com/cultura/20261128/11695189/sant-andreu-jazz-band-como-convertir-ensenanza-arte.html
+  resumen: El Retrato de Artista homenajea a la formación dirigida por Joan Chamorro en su vigésimo aniversario
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Atención al tsunami
+  url: https://www.lavanguardia.com/cultura/culturas/20261128/11694919/tara-menon-christian-clot.html
+  resumen: La novelista Tara Menon novela la tragedia tailandesa de 2004, y Christian Clot enseña a prepararse para las crisis climáticas en incremento
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Vi, bruixes i flors
+  url: https://www.lavanguardia.com/cultura/culturas/20261128/11694299/vi-bruixes-i-flors.html
+  resumen: Torna Martí Gironell, el rei del best-seller històric en català, amb una història d’amor impossible amb el rerefons del castell, els jardins i els vins de Perelada
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Vino, brujas y flores
+  url: https://www.lavanguardia.com/cultura/culturas/20261128/11694298/vino-brujas-flores.html
+  resumen: Vuelve Martí Gironell, rey del best seller histórico en catalán, con una historia de amor imposible con el trasfondo del castillo, los jardines y los vinos de Perelada
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Literatura que se lee a través de la pintura
+  url: https://www.lavanguardia.com/cultura/culturas/20261128/11693871/literatura-lee-traves-pintura.html
+  resumen: El Premio Almuzara de Pintura reivindica en su quinta edición el diálogo entre el libro y el lienzo
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Anhelo de integridad
+  url: https://www.lavanguardia.com/cultura/culturas/20261128/11691930/anhelo-integridad.html
+  resumen: Una jornada de reflexión como la de hoy es buen momento para pensar nuestra ética en la toma de decisiones. Pero ¿en qué consiste la virtud de la integridad? Ahora que parece estar en crisis, el autor propone concebirla de forma más humana, desde la decencia y conscientes de sus límites
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Ya nadie escribe cartas
+  url: https://www.lavanguardia.com/cultura/culturas/20261128/11691476/nadie-escribe-cartas.html
+  resumen: Que dos autores nacidos en los setenta, y que viven cerca, dediquen su tiempo a escribirse veinte cartas para hablar de lo divino y lo humano resulta una bendita extravagancia
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: Las apasionadas e imprevisibles hermanas Mitford
+  url: https://www.lavanguardia.com/cultura/culturas/20261128/11691403/apasionadas-e-imprevisibles-hermanas-mitford.html
+  resumen: Carmen Posadas da voz a una de ellas para contarnos sus trayectorias, vinculadas a los episodios que marcaron el siglo XX
+- seccion: cultura
+  medio: La Vanguardia
+  titulo: ‘Romería’ con taquilla inversa
+  url: https://www.lavanguardia.com/cultura/culturas/20261128/11691283/romeria-taquilla-inversa.html
+  resumen: La actualidad cultural deja detalles que nunca se contagiarán en las redes, compartirlos mejora la conversación
+- seccion: cultura
+  medio: El Confidencial
+  titulo: La RAE celebra elecciones el 3 de diciembre sin garantía de continuidad para Santiago Muñoz Machado
+  url: https://www.elconfidencial.com/cultura/2026-11-28/rae-munoz-machado-tercer-mandato-1tps_4474675/
+  resumen: El pleno secreto del 3 de diciembre exigirá dos tercios de apoyo y, si fracasa, abrirá nuevas rondas para escoger al próximo responsable de la institución lingüística
+- seccion: cultura
+  medio: El Confidencial
+  titulo: 'Javier Gurruchaga, el transgresor que escandalizó en Nochevieja con unas flatulencias: "Ahora estamos más acostumbrados a los pedos"'
+  url: https://www.elconfidencial.com/cultura/2026-11-28/javier-gurruchaga-cbtrntrv_4470857/
+  resumen: Llega al aniversario con un par de conciertos los días 30 de noviembre y 1 de diciembre en el Teatro La Latina de Madrid, ciudad donde vive desde hace más de 40 años. Este es un recorrido por esa trayectoria y por todo lo que ya no existe (en este país)
+- seccion: cultura
+  medio: El Confidencial
+  titulo: La historiadora Carmen Iglesias carga contra la clase política actual ("es la peor") y reivindica a los Reyes como freno "al precipicio"
+  url: https://www.elconfidencial.com/cultura/2026-11-28/la-historiadora-carmen-iglesias-bra_4474137/
+  resumen: En los encuentros culturales entre ElConfidencial y Arquia Banca, liderados por Rubén Amón, se habló del ambiente guerracivilista actual, la Leyenda Negra, la polarización y otras cuestiones
 - seccion: deportes
   medio: Europa Press
-  titulo: Santi Aldama celebra la victoria de Dallas y Hugo González es titular en la derrota de Boston
-  url: https://www.europapress.es/deportes/baloncesto-00163/noticia-santi-aldama-celebra-victoria-dallas-hugo-gonzalez-titular-derrota-boston-20261128104111.html
-  resumen: El ala-pívot español Santi Aldama ha participado en el triunfo de Dallas Mavericks frente a Phoenix Suns (109-113), que ha permitido a su equipo alcanzar los cuartos de final de la NBA Cup, en una jornada en la que el alero Hugo González volvió a ser titular pero cayó con Boston Celtics ante Atlanta
+  titulo: Jódar atrapa el primer punto ante Gran Bretaña y acerca a España a la final de la Copa Davis
+  url: https://www.europapress.es/deportes/tenis-00166/noticia-jodar-atrapa-primer-punto-gran-bretana-acerca-espana-final-copa-davis-20261128140610.html
+  resumen: El madrileño Rafa Jódar ha dado a España el primer punto ante Gran Bretaña (1-0) en la eliminatoria de semifinales de la Final 8 de la Copa Davis, que se disputa en Bolonia en condiciones 'indoor', después de superar este sábado en dos sets a Cameron Norrie (6-2, 7-5), y Carlos Alcaraz tratará de se
+- seccion: deportes
+  medio: Europa Press
+  titulo: 'Flick: "Rodri y Lamine Yamal viajarán y podrán jugar"'
+  url: https://www.europapress.es/deportes/futbol-00162/noticia-flick-rodri-lamine-yamal-viajaran-podran-jugar-20261128134143.html
+  resumen: 'El entrenador del FC Barcelona, Hansi Flick, ha asegurado que Lamine Yamal, Andreas Christensen y Rodri Hernández viajarán a A Coruña y "podrán jugar" ante el RC Deportivo este domingo, desvelando también las bajas de Marc Bernal y Alejandro Balde, además de recalcar que tienen "una enorme calidad" '
+- seccion: deportes
+  medio: Europa Press
+  titulo: Dani Pedrosa deja de ser piloto probador de KTM
+  url: https://www.europapress.es/deportes/motociclismo-00311/noticia-dani-pedrosa-deja-ser-piloto-probador-ktm-20261128114835.html
+  resumen: El piloto español Dani Pedrosa dejará de ser piloto probador oficial de KTM a partir de 2027, después de ocho temporadas de trabajo conjunto, ha anunciado el equipo, que confirmó que seguirá contando para esa función con el también español Pol Espargaró.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Ten years on - how Chapecoense recovered from plane crash tragedy
+  titulo: Will 2024 version of Palmer ever re-emerge for Chelsea?
+  url: https://www.bbc.co.uk/sport/football/articles/cwzd9yj44190o?at_medium=RSS&at_campaign=rss
+  resumen: Cole Palmer's dip in form mirrors Chelsea's recent slump and his frustration was evident after his side's recent defeat against Leeds - but will he ever get back to his best?
+- seccion: deportes
+  medio: BBC Sport
+  titulo: How a football team rebuilt after 19 players died in plane crash
   url: https://www.bbc.co.uk/sport/football/articles/ck0ev91zlwgpo?at_medium=RSS&at_campaign=rss
   resumen: How a Brazilian football team rose again after a plane crash that killed most of their players and staff on the way to what should have been the biggest match of their lives.
 - seccion: deportes
@@ -252,9 +567,9 @@ titulares:
   resumen: Freddie Steward says he has previously been distracted by comparisons with different sorts of players on previous England starts.
 - seccion: deportes
   medio: BBC Sport
-  titulo: '''It doesn''t come from me'' - Eckert irked by Southampton jibes at Boro'
-  url: https://www.bbc.co.uk/sport/football/articles/cq8e0xrk2gwno?at_medium=RSS&at_campaign=rss
-  resumen: Southampton head coach Tonda Eckert stresses that taunts from the club aimed at Championship opponents Middlesbrough do not come from him.
+  titulo: Work in progress but Liverpool find belief again with Iraola
+  url: https://www.bbc.co.uk/sport/football/articles/cmn4k7vdqx4vo?at_medium=RSS&at_campaign=rss
+  resumen: With the attack finally firing and Liverpool looking more solid at the back, Andoni Iraola has got the fans believing again. Just in time for derby day.
 - seccion: deportes
   medio: BBC Sport
   titulo: Ranking the Premier League's ultimate free-kick specialists
@@ -262,9 +577,9 @@ titulares:
   resumen: Who are the greatest free-kick specialists in Premier League history? BBC Sport delves into the stats and ranks the top 10.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Wilshere v Ramsey - Arsenal legends treading similar managerial paths
-  url: https://www.bbc.co.uk/sport/football/articles/cm1dvn9w1px4o?at_medium=RSS&at_campaign=rss
-  resumen: Eighteen years after making their Premier League debuts two minutes apart, Jack Wilshere and Aaron Ramsey meet as managers.
+  titulo: '''It doesn''t come from me'' - Eckert irked by Southampton jibes at Boro'
+  url: https://www.bbc.co.uk/sport/football/articles/cq8e0xrk2gwno?at_medium=RSS&at_campaign=rss
+  resumen: Southampton head coach Tonda Eckert stresses that taunts from the club aimed at Championship opponents Middlesbrough do not come from him.
 - seccion: deportes
   medio: BBC Sport
   titulo: How dad's embarrassment was making of Gross at Brighton
@@ -272,34 +587,29 @@ titulares:
   resumen: Pascal Gross says his dad 'embarrassment' at him looking for free-kicks played an important part in him becoming the player he is today at Brighton.
 - seccion: deportes
   medio: BBC Sport
-  titulo: Farrell senses 'shift' as Ireland end year strongly with Wallabies win
-  url: https://www.bbc.co.uk/sport/rugby-union/articles/c6879ezd5r5qo?at_medium=RSS&at_campaign=rss
-  resumen: Ireland head coach Andy Farrell offers an upbeat assessment on his side's progress as they close out 2026 with a fourth straight win.
-- seccion: deportes
-  medio: BBC Sport
   titulo: Man Utd trigger Fernandes' one-year contract extension
   url: https://www.bbc.co.uk/sport/football/articles/c6d91j5geepqo?at_medium=RSS&at_campaign=rss
   resumen: Manchester United activate an option on captain Bruno Fernandes' contract, extending it until 2028.
 - seccion: deportes
   medio: BBC Sport
-  titulo: How Cardiff are changing Swansea derby narrative
-  url: https://www.bbc.co.uk/sport/football/articles/c6174nyvq2evo?at_medium=RSS&at_campaign=rss
-  resumen: Cardiff City used to be the dysfunctional poor relations in south Wales derbies, but they are changing the narrative with their rivals Swansea City.
-- seccion: deportes
-  medio: BBC Sport
-  titulo: Australia drop Lyon for New Zealand Tests
-  url: https://www.bbc.co.uk/sport/cricket/articles/ckjre1p5g4l7o?at_medium=RSS&at_campaign=rss
-  resumen: Australia have dropped off-spinner Nathan Lyon for the Test series against New Zealand, starting on 9 December.
+  titulo: Does another derby moment beckon for Swansea stand-in Williams?
+  url: https://www.bbc.co.uk/sport/football/articles/c61wr845l1e0o?at_medium=RSS&at_campaign=rss
+  resumen: Having swapped the TV studio for the technical area, Swansea City's Ashley Williams is eyeing a memorable return to the south Wales derby.
 - seccion: deportes
   medio: The Guardian
-  titulo: Manchester United v Brentford buildup, Premier League news and more – matchday live
-  url: https://www.theguardian.com/football/live/2026/nov/28/manchester-united-v-brentford-buildup-premier-league-news-and-more-matchday-live
-  resumen: 'Latest team news, Premier League buildup and more Get in touch: email the matchday live team Wesley Fofana was booed by Chelsea’s fans yesterday, and substituted early in the second half, after his decision to give an unauthorised interview to a French YouTuber, in which he joked about the club’s Ca'
+  titulo: 'Manchester United v Brentford, Leeds v Coventry and more: Saturday football clockwatch – live'
+  url: https://www.theguardian.com/football/live/2026/nov/28/manchester-united-v-brentford-leeds-v-coventry-and-more-saturday-football-clockwatch-live
+  resumen: '️⚽️ U️pdates from 3pm (GMT) kick-offs around the grounds ⚽️ Get in touch: follow us over on BlueSky Half-time scores There are three 12.30pm games in the Championship, and not a goal between the useless buggers. Blackburn 0-0 Charlton Lincoln 0-0 Wolves Preston 0-0 Norwich Leeds v Coventry Man Utd v'
 - seccion: deportes
   medio: The Guardian
   titulo: 'Basque to the future: Andoni Iraola fired up for first Merseyside derby'
   url: https://www.theguardian.com/football/2026/nov/28/andoni-iraola-first-merseyside-derby-liverpool-everton-premier-league
   resumen: Liverpool head coach sees parallels with Athletic v Sociedad derby as he comes up against his old foe David Moyes “I haven’t lived this derby,” Andoni Iraola acknowledged, and yet he already feels it. A former Athletic Bilbao captain coming up against an ex-Real Sociedad head coach needs no instruct
+- seccion: deportes
+  medio: The Guardian
+  titulo: 'Jørgen Strand Larsen: ‘Dad and I have been best mates since I was a kid – that’s not going to change’'
+  url: https://www.theguardian.com/football/2026/nov/28/jorgen-strand-larsen-cancer-crystal-place-father-norway
+  resumen: Striker determined to raise prostate cancer awareness after father, who scored goals for fun at amateur level in Norway, received terminal diagnosis It is a fresh Friday afternoon at Selhurst Park and, after posing for a couple of pictures in front of the red and blue Holmesdale End, Jørgen Strand L
 - seccion: deportes
   medio: The Guardian
   titulo: The Renéessance is over but Arsenal’s chaotic cycle will go on without further change | Suzanne Wrack
@@ -312,84 +622,44 @@ titulares:
   resumen: Santiago Rodríguez strikes in stoppage time to seal win Inter Miami fail to defend 2025 MLS Cup title. Messi retired internationally earlier this year Inter Miami’s quest to defend their MLS Cup title is over. The South Florida side had two gilt-edged chances to take the lead in Game 2 of their best
 - seccion: deportes
   medio: The Guardian
+  titulo: Steph Catley celebrates milestone as Matildas battle past Colombia in feisty Canberra friendly
+  url: https://www.theguardian.com/football/2026/nov/28/steph-catley-celebrates-milestone-as-matildas-battle-past-colombia-in-feisty-canberra-friendly
+  resumen: 'Catley wore the armband for Australia in her 150th cap Goals to Alanna Kennedy and Caitlin Foord capped off a 3-1 win Steph Catley has celebrated her 150th appearance for Australia in style, playing a key role in the Matildas’ go-ahead goal as they kicked away in the second half to secure a 3-1 win '
+- seccion: deportes
+  medio: The Guardian
   titulo: USWNT seal Women’s World Cup qualification with 8-0 win over El Salvador
   url: https://www.theguardian.com/football/2026/nov/27/uswnt-el-salvador-womens-world-cup-qualifier
   resumen: US goes up 7-0 over El Salvador by half-time Win secures spot at 2027 World Cup and 2028 Olympics The United States’ place at a Women’s World Cup is treated as a foregone conclusion, but Friday’s all-or-nothing qualifier against El Salvador gave some reason for nerves. This was the first competitive
 - seccion: general
   medio: Europa Press
-  titulo: Amor, bailes, 'Lecturas' y vídeos al estilo Lula, la campaña de Sánchez para frenar a PP y Vox
-  url: https://www.europapress.es/nacional/noticia-amor-bailes-lecturas-videos-estilo-lula-campana-sanchez-frenar-pp-vox-20261128113830.html
-  resumen: El presidente del Gobierno y candidato del PSOE a las elecciones generales, Pedro Sánchez, culminó este viernes su campaña electoral 'del amor' en la que ha tratado de insuflar optimismo a su bases y trasladar una imagen cercana, con protagonismo creciente de su mujer, Begoña Gómez, y apariciones en
-- seccion: general
-  medio: Europa Press
-  titulo: 'La campaña de Vox: el protagonismo para Abascal, 35 provincias visitadas y pacto de no agresión con el PP'
-  url: https://www.europapress.es/nacional/noticia-campana-vox-protagonismo-abascal-35-provincias-visitadas-pacto-no-agresion-pp-20261128104446.html
-  resumen: La campaña electoral de Vox para las elecciones del 29 de noviembre se ha caracterizado por volcar todo el protagonismo sobre el líder de la formación, Santiago Abascal, que ha recorrido 35 provincias españolas trasladando las bases de su proyecto para España y en el que ha exhibido un pacto de no a
-- seccion: general
-  medio: Europa Press
-  titulo: 'Propuestas económicas 29N: qué propone cada partido sobre vivienda, impuestos, pensiones, empleo, energía y turismo'
-  url: https://www.europapress.es/economia/macroeconomia-00338/noticia-propuestas-economicas-29n-propone-cada-partido-vivienda-impuestos-pensiones-empleo-energia-turismo-20261128085954.html
-  resumen: Los programas electorales de PSOE, PP, Vox y Frente Amplio para las elecciones generales del próximo 29 de noviembre plantean medidas distintas en vivienda, impuestos, pensiones, empleo, energía y turismo.
-- seccion: general
-  medio: Europa Press
-  titulo: 'Cómo votar con el DNI digital en las elecciones generales del 29N: qué necesitas para usar MiDNI'
-  url: https://www.europapress.es/nacional/noticia-votar-dni-digital-elecciones-generales-29n-necesitas-usar-midni-20261128102951.html
-  resumen: Los ciudadanos podrán utilizar el DNI digital en el teléfono móvil para identificarse y votar en las elecciones generales de este domingo 29 de noviembre, sin necesidad de presentar el documento físico. Para ello, deberán tener instalada y activada la aplicación oficial MiDNI de la Policía Nacional.
-- seccion: general
-  medio: Europa Press
-  titulo: Las elecciones generales del 29 de noviembre, en cifras
-  url: https://www.europapress.es/nacional/noticia-elecciones-generales-29-noviembre-cifras-20261128072953.html
-  resumen: Un total de 38,61 millones de españoles están llamados a votar este domingo en las que serán las decimoséptimas elecciones generales que se celebran en España en la reciente etapa democrática. Con su papeleta, los electores designarán los 350 escaños del Congreso y a los 209 del Senado entre las 895
+  titulo: ¿Qué pasará con las papeletas electorales de los nacionalizados con la 'ley de nietos'?
+  url: https://www.europapress.es/nacional/noticia-pasara-papeletas-electorales-nacionalizados-ley-nietos-20261128091153.html
+  resumen: Esos sobres no se meterán en la urna, llevarán la firma de al menos dos miembros de la mesa y se añadirán a la documentación electoral
 - seccion: general
   medio: El Mundo
-  titulo: 'El PP se juega 14 escaños clave frente a una izquierda movilizada: "Ya pasó en 2023"'
-  url: https://www.elmundo.es/elecciones/elecciones-generales/2026/11/28/6b09d1c8e85eceb5238b459f.html
-  resumen: El candidato 'popular' pide el voto 'prestado' a quienes nunca antes han apoyado a su partido Leer
+  titulo: Alberto Núñez Feijóo visita Ceuta en la jornada de reflexión del 29-N como muestra de "apoyo y solidaridad"
+  url: https://www.elmundo.es/elecciones/elecciones-generales/2026/11/28/6b0abb9921efa09a3f8b459a.html
+  resumen: El líder del PP cumple un compromiso personal con Juan Jesús Vivas sin agenda pública ni actos políticos antes de pasar la tarde con su familia Leer
 - seccion: general
   medio: El Mundo
-  titulo: 'Sánchez se aferra al voto de las mujeres como en 2023 en busca de su suma mágica: 136 + 41, sin Junts'
-  url: https://www.elmundo.es/elecciones/elecciones-generales/2026/11/28/6b09d22fe85ece541a8b45b6.html
-  resumen: Los socialistas ven claves una docena de provincias, mientras ya estudian posibles pactos Leer
+  titulo: Detenida una joven de 22 años en Jaca (Huesca) por dar un puñetazo a una concejala de Vox
+  url: https://www.elmundo.es/aragon/2026/11/28/6b0ad255e9cf4ac4118b4570.html
+  resumen: Vox emplaza al resto de fuerzas políticas a condenar la agresión Leer
 - seccion: general
   medio: El Mundo
-  titulo: La salud mental de todo un país
-  url: https://www.elmundo.es/espana/2026/11/28/6b09e33021efa08e3e8b456e.html
-  resumen: El domingo podemos salir del nido del cuco o seguir en 'Shutter Island' Leer
+  titulo: 'El Senado: clave e histórico por primera vez gracias a la unión de fuerzas políticas del mismo espacio en busca del su control'
+  url: https://www.elmundo.es/elecciones/elecciones-generales/2026/11/28/6b09a3fe21efa07e3e8b4588.html
+  resumen: El desconocimiento de los ciudadanos se mezcla con la importancia estratégica y fundamental de la Cámara Alta para los políticos que buscan la mayoría a través de los pactos Leer
 - seccion: general
   medio: El Mundo
-  titulo: Colau activa la "remontada" del Frente Amplio 'in extremis' con la esperanza de llegar a tiempo
-  url: https://www.elmundo.es/elecciones/elecciones-generales/2026/11/28/6b09f046fdddff6a6a8b45ab.html
-  resumen: Su buen debate cambia el estado ánimo y apela ahora a la épica para salir de la crisis Leer
+  titulo: Jódar se desata ante Norrie y acerca a España a la final de la Copa Davis
+  url: https://www.elmundo.es/deportes/tenis/copa-davis/2026/11/28/6b0ac861e85ece933a8b45aa.html
+  resumen: Recupera su mejor tenis al calor del equipo español y deja en manos de Alcaraz la clasificación para la final ante Italia de este domingo. Leer
 - seccion: general
   medio: El Mundo
-  titulo: Sánchez deja en un mes una mochila de más 6.000 millones en gasto en Defensa para la próxima legislatura y deja sin margen al Ministerio
-  url: https://www.elmundo.es/economia/empresas/2026/11/28/6b09a17ce9cf4a3f3c8b45b0.html
-  resumen: Compromete créditos por ese importe y una ejecución presupuestaria incluso mayor como parte de un plan de casi 20.000 millones Leer
-- seccion: general
-  medio: El Mundo
-  titulo: Lo que el fracaso de Antalya esconde
-  url: https://www.elmundo.es/internacional/2026/11/28/6b085c87e9cf4a3f3c8b4573.html
-  resumen: La distinción entre adición y transición dista de ser semántica; el realismo dota de credibilidad a la ambición climática Leer
-- seccion: general
-  medio: El Mundo
-  titulo: Renfe fue advertida hace un año del desgaste de las ruedas de sus trenes
-  url: https://www.elmundo.es/economia/2026/11/28/6b09cebbe9cf4a055a8b457a.html
-  resumen: Las empresas mantenedoras de trenes de Cercanías alertaron de que la pérdida de grosor de las pestañas de las ruedas estaba al límite. El refuerzo de las medidas preventivas en un año negro para la seguridad ferroviaria ha llevado al operador a reajustar servicios para mejorar el mantenimiento. Leer
-- seccion: general
-  medio: El Mundo
-  titulo: 'El capitán que lideró el rescate del buque naufragado frente a Ibiza: "Sacamos del agua al patrón y a cinco marineros con fuerte viento y olas de dos metros y medio"'
-  url: https://www.elmundo.es/baleares/2026/11/28/6b099c47fc6c8333218b4597.html
-  resumen: 'El responsable del primer barco que llegó al lugar del naufragio del ''Med Emre'' reconstruye el complejo y agónico rescate de los supervivientes. Alessandro Ubaldini no se considera un héroe: "Era mi deber" Leer'
-- seccion: general
-  medio: El Mundo
-  titulo: 'Gregorio Luri y Victoria Camps, una reflexión sobre España: "La democracia está llena de gente tramposa; precisamente por ello, hay que participar"'
-  url: https://www.elmundo.es/papel/historias/2026/11/27/6b09736be4d4d8bf688b45b4.html
-  resumen: 'EL MUNDO reúne a los dos filósofos en la jornada de reflexión electoral. Gregorio Luri y Victoria Camps hablan de política, enseñanza, esperanza y ética pública. Alertan: "Estamos educando a los jóvenes en el miedo al futuro" Leer'
-- seccion: general
-  medio: El Mundo
-  titulo: La hábil puesta en escena que ayuda a Jensen Huang a salir siempre vencedor
-  url: https://www.elmundo.es/economia/2026/11/28/6b09c787fc6c8304258b457d.html
-  resumen: 'Como resume un viejo amigo del consejero delegado de Nvidia: "Jensen siempre logra sacarse un conejo de la chistera" Leer'
+  titulo: Murcia reclamará al Tribunal Superior de Justicia de Madrid que suspenda el traslado del Med Emre a Cartagena
+  url: https://www.elmundo.es/murcia/2026/11/28/6b0ac0bbe4d4d89e768b45a0.html
+  resumen: El presidente regional, Fernando López Miras, tacha la decisión de "precipitada" y "prematura" y exige ver un informe de impacto de medioambiental que garantice la operación Leer
 - seccion: general
   medio: El Mundo
   titulo: 'Torres lamenta los 14 fallecidos del cayuco de El Hierro: "No suben a una patera por diversión, sino por desesperación"'
@@ -397,14 +667,9 @@ titulares:
   resumen: '"No suben por diversión a una patera o cayuco: lo hacen por desesperación", ha trasladado el ministro en un mensaje publicado en X Leer'
 - seccion: general
   medio: El Mundo
-  titulo: 'La odisea migratoria de Rafael: de Honduras al muro mexicano de Trump'
-  url: https://www.elmundo.es/internacional/2026/11/28/6b0821d6fdddff29568b4589.html
-  resumen: Un indígena lenca huye de la violencia en el país centroamericano y relata el calvario de las caravanas migrantes, mientras el Gobierno de Claudia Sheinbaum desmantela los éxodos para aplacar las amenazas arancelarias de Estados Unidos Leer
-- seccion: general
-  medio: El Mundo
-  titulo: 'Trump resucita la guerra comercial contra China: una ofensiva de aranceles y chips que golpea también a sus aliados asiáticos'
-  url: https://www.elmundo.es/economia/macroeconomia/2026/11/28/6b080af9fc6c833c0c8b45a9.html
-  resumen: 'Washington amenaza a Pekín con nuevos aranceles y estrecha el cerco sobre los chips de IA. El gigante asiático, que amenaza con duras represalias, guarda en la recámara su arma más eficaz: las tierras raras Leer'
+  titulo: El Tribunal del Derecho del Mar rechaza las medidas cautelares pedidas por Argentina contra las perforaciones petroleras al norte de las Malvinas
+  url: https://www.elmundo.es/internacional/2026/11/28/6b0ac4c021efa09a3f8b45a2.html
+  resumen: Las empresas autorizadas recibieron licencias británicas para perforar a unos 220 kilómetros al norte de las islas, cuya soberanía reclama Argentina Leer
 - seccion: general
   medio: El Mundo
   titulo: 'Revisamos a fondo las ofertas de Black Friday en Amazon: estas son las 100 mejores'
@@ -412,84 +677,84 @@ titulares:
   resumen: Comienza la recta final del Black Friday en Amazon. Estos son los mejores chollos que puedes encontrar este fin de semana Leer
 - seccion: general
   medio: El Mundo
-  titulo: ¿Quieres envejecer mejor? Los 8 ejercicios fáciles que puedes hacer en casa a partir de los 50
-  url: https://www.elmundo.es/yodona/vida-saludable/2026/11/28/6afea1b5e85ece240e8b4573.html
-  resumen: Cumplir años no significa renunciar a mantenerse activa . Si superas los 50 , puedes practicar en casa una serie de ejercicios fáciles que te ayudarán a envejecer mejor . Leer
+  titulo: 'Vandalismo en Vallecas: unos encapuchados destrozan a mazazos las lunas de 30 coches durante la madrugada'
+  url: https://www.elmundo.es/madrid/2026/11/28/6b0ab69fe4d4d8093f8b458d.html
+  resumen: Los autores han llegado en un coche y han llegado a romper hasta dos cristales en algún coche Leer
+- seccion: general
+  medio: El Mundo
+  titulo: 'Gregorio Luri y Victoria Camps, una reflexión sobre España: "La democracia está llena de gente tramposa; precisamente por ello, hay que participar"'
+  url: https://www.elmundo.es/papel/historias/2026/11/27/6b09736be4d4d8bf688b45b4.html
+  resumen: 'EL MUNDO reúne a los dos filósofos en la jornada de reflexión electoral. Gregorio Luri y Victoria Camps hablan de política, enseñanza, esperanza y ética pública. Alertan: "Estamos educando a los jóvenes en el miedo al futuro" Leer'
 - seccion: general
   medio: ABC
-  titulo: La caja negra del Iryo descarta fallos previos anteriores al descarrilamiento en el accidente de Adamuz
-  url: https://www.abc.es/espana/andalucia/cordoba/caja-negra-iryo-descarta-fallos-previos-anteriores-20261128111612-nts.html
-  resumen: Los registros JRU (lo que se conoce como caja negra) analizados del tren Iryo del siniestro ferroviario de Adamuz , en el que el domingo 18 de enero murieron 46 personas y hubo más de 150 heridos, son «consistentes con un escenario en el que el descarrilamiento constituye el evento inicial desencade
+  titulo: El 'sí, quiero' en la jornada de reflexión
+  url: https://www.abc.es/espana/castilla-leon/quiero-jornada-reflexion-20261126103957-nt.html
+  resumen: «El que tiene que estar nervioso eres tú», contestaba este jueves Alberto Núñez Feijóo al número dos en la lista del PP al Congreso por Valladolid, Eduardo Carazo, cuando el vallisoletano le preguntaba por su estado anímico ante el último debate. Porque a la condición de candidato, Carazo suma la de
 - seccion: general
   medio: ABC
-  titulo: A qué hora y dónde votan los líderes políticos andaluces en generales del 29N
-  url: https://www.abc.es/sevilla/economia/hora-votan-lideres-politicos-andaluces-generales-29n-20261128113234-nts.html
-  resumen: Los líderes andaluces volverán a ejercer su derecho al voto este domingo en las elecciones generales, seis meses después de los comicios autonómicos. Todos ellos repetirán colegio electoral, María Jesús Montero y Antonio Maíllo desde Sevilla, Manuel Gavira y José Ignacio García en la provincia de Cá
+  titulo: Revalorizar las pensiones en 2027 costará más que el gasto en vivienda, la inversión ferroviaria o toda la educación catalana
+  url: https://www.abc.es/economia/revalorizar-pensiones-2027-costara-gasto-vivienda-inversion-20261128143359-nt.html
+  resumen: La Seguridad Social anunció este viernes que las pensiones contributivas subirán un 3,5% en 2027, unos 676 euros más al año para quienes cobran la pensión media del sistema. Este porcentaje, sin embargo, tiene algo de trampa, pues las prestaciones mínimas y las no contributivas subirán entre un 8,8%
 - seccion: general
   medio: ABC
-  titulo: 'Llega a Netflix la nueva película de Paco León: una comedia española protagonizada junto a Miren Ibarguren'
-  url: https://www.abc.es/play/cine/noticias/llega-netflix-nueva-pelicula-paco-leon-comedia-20261128113000-nt.html
-  resumen: Netflix sigue ampliando su apuesta por el cine español y cada vez incorpora más producciones nacionales a su catálogo. En los últimos meses, la plataforma ha sumado nuevos títulos con historias muy variadas y para todo tipo de espectadores. El suspense , el drama o la comedia han encontrado su espac
+  titulo: Alcaraz - Fery | Sigue en directo el segundo partido de la semifinal entre España y Gran Bretaña
+  url: https://www.abc.es/deportes/tenis/alcaraz-fery-sigue-directo-segundo-partido-semifinal-20261128142815-di.html
+  resumen: ''
 - seccion: general
   medio: ABC
-  titulo: 'Espartaco, sobre su vida como ganadero: «Paso más miedo curando un novillo que delante de un toro»'
-  url: https://www.abc.es/cultura/toros/sevilla/espartaco-sobre-vida-ganadero-paso-miedo-curando-20261128112556-nts.html
-  resumen: 'A José Antonio Ruiz «Espartaco» la afición lo recuerda siempre firme delante del toro en la plaza, pero en su finca la historia cambia bastante. Allí, en mitad del campo y sin burladeros cerca, el que fuera figura del toreo reconoce que hay situaciones que imponen mucho más respeto que una tarde en '
+  titulo: Amancio Ortega cerrará 2026 con más de 2.400 millones en compras inmobiliarias
+  url: https://www.abc.es/economia/amancio-ortega-cerrara-2026-2000-millones-invertidos-20261128142559-nt.html
+  resumen: 'Amancio Ortega se ha convertido en uno de los grandes inversores inmobiliarios a nivel mundial. Una cifra que supera los 2.000 millones de euros en compras en lo que va de año, a los que habría que añadir otros 1.000 millones en operaciones relacionadas con el ámbito de la logística. Y 2026 todavía '
 - seccion: general
   medio: ABC
-  titulo: Herido tras caer de una plataforma de siete metros en un centro de residuos de Valladolid
-  url: https://www.abc.es/espana/castilla-leon/herido-tras-caer-plataforma-siete-metros-centro-20261128112131-nt.html
-  resumen: Un varón de unos 20 años ha resultado herido tras caer desde una plataforma situada a una altura de unos seis o siete metros en un centro de tratamiento de residuos de la carretera N-601, en Valladolid, según ha informado el Centro de Emergencias 112 de Castilla y León. El suceso ha tenido lugar sob
+  titulo: Viaje a la historia de Andalucía a través de pergaminos ilustrados
+  url: https://www.abc.es/sevilla/cultura/viaje-historia-andalucia-traves-pergaminos-ilustrados-20261128165754-nts.html
+  resumen: Hay empresas editoriales que trascienden la mera publicación de un libro para convertirse en el empeño de toda una vida. Así sucede con 'Historia de Andalucía' , el ambicioso proyecto que ha dirigido el editor sevillano Pedro Tabernero y en el que ha invertido treinta años de trabajo. Concebida en t
 - seccion: general
   medio: ABC
-  titulo: La 'Esperanza de María' sonó en directo en el mitin de cierre de campaña de Feijóo en Sevilla
-  url: https://www.abc.es/sevilla/ciudad/esperanza-maria-sono-directo-mitin-cierre-campana-20261128111852-nts.html
-  resumen: Fue una tarde de mucha actividad electoralista la del viernes 27 de noviembre en Sevilla. Alberto Núñez Feijóo, candidato a la presidencia del Gobierno de España por el Partido Popular escogió la capital hispalense para el cierre de su campaña, y estando en Sevilla no podía escoger otra interpretaci
+  titulo: Detenido por golpear a un agente con un patinete mientras huía de una actuación policial contra el menudeo de droga
+  url: https://www.abc.es/espana/castilla-leon/detenido-golpear-agente-patinete-huia-actuacion-policial-20261128141656-nt.html
+  resumen: La Policía Nacional han detenido en Valladolid a un joven por intentar golpear a un agente mientras huía de una actuación contra el menudeo de estupefacientes. Los hechos ocurrieron cuando una dotación de agentes, a bordo de un vehículo, que estaba patrullando en el barrio 29 de octubre, vieron a un
 - seccion: general
   medio: ABC
-  titulo: León, en vanguardia
-  url: https://www.abc.es/espana/castilla-leon/leon-vanguardia-20261125111405-nt.html
-  resumen: Fue hace un año cuando, con unos refrescos de cola por medio, Luis Artigue me brindó una teoría tan brillante como discutible, o al menos matizable, sobre la ficción y la realidad en la literatura leonesa y castellana contemporáneas; y empleo este orden porque él destacaba que en los territorios del
+  titulo: Sierra Nevada abre sus puertas con actividades de ocio a la espera de las primeras nieves
+  url: https://www.abc.es/espana/andalucia/granada/sierra-nevada-abre-puertas-actividades-ocio-espera-20261128140639-nts.html
+  resumen: Sierra Nevada inaugura ha inaugurado este sábado la temporada deportiva con la apertura de sus primeras zonas recreativas y servicios. Mientras la estación trabaja en el acondicionamiento de pistas y el sector empresarial reclama ya un mayor foco de visitantes y aficionados a los deportes de inviern
 - seccion: general
   medio: ABC
-  titulo: 'Alcaraz da un paso al frente: juega individual ante Gran Bretaña'
-  url: https://www.abc.es/deportes/tenis/alcaraz-paso-frente-juega-individual-20261128111342-nt.html
-  resumen: 'Lo decía Dani Mérida al ganar su partido ante Schwaerzler: «Estaba un poco nervioso porque sabía que, si hacíamos un buen papel hoy, él podría jugar el sábado. Ese era mi objetivo». Y cumplió la misión. Venció en su encuentro ante el austriaco y dio dos días más de descanso y recuperación a Carlos A'
+  titulo: Diego Umbría presenta en Toledo un libro sobre las guerras no declaradas entre España y Marruecos
+  url: https://www.abc.es/espana/castilla-la-mancha/toledo/diego-umbria-presenta-toledo-libro-sobre-guerras-20261128140620-nt.html
+  resumen: El teniente coronel Diego Umbría Quiñones repasa en su nuevo libro, «Nuestro enemigo está al Sur, las guerras no declaradas entre España y Marruecos», los principales enfrentamientos militares entre ambos países a lo largo de la historia. La publicación, de 141 páginas, se presentará el próximo mart
 - seccion: general
   medio: ABC
-  titulo: Detenido un menor por apuñalar a un joven con tres ladrones más que robaron ropa y patinetes
-  url: https://www.abc.es/espana/comunidad-valenciana/detenido-menor-apunalar-joven-tres-ladrones-robaron-20261128110706-nt.html
-  resumen: 'Agentes de la Policía Nacional han detenido en Valencia a un menor de edad de 16 años que apuñaló con un machete de grandes dimensiones a un joven en un atraco por el que hay otros tres arrestados, en el que robaron ropa y patinetes a varios desconocidos en parque. Los otros investigados tienen 14, '
+  titulo: 'Feijóo, sobre la relación de España con Marruecos: «No podemos considerarlo un aliado. Si no nos respeta, aplicaría la Constitución para desplegar el Ejército en la frontera»'
+  url: https://www.abc.es/espana/feijoo-sobre-relacion-espana-marruecos-podemos-considerarlo-20261128140000-nt.html
+  resumen: Quedan menos de 24 horas para que llegue el esperado 29 de noviembre. Es el día que decenas de millones de españoles esperan con ansia para elegir lo que será su presente y su fututo para, al menos, los próximos cuatro años. Después de semanas de campaña electoral que parecían no tener fin, las elec
 - seccion: general
   medio: ABC
-  titulo: 'Santiago Abascal, sobre el trato de España con Marruecos: «Lo deseable es tener buena relación, pero es imposible cuando entran 100.000 personas en tu país impulsadas por tus vecinos»'
-  url: https://www.abc.es/play/television/noticias/santiago-abascal-sobre-trato-espana-marruecos-20261128110000-nt.html
-  resumen: '''La Revuelta'' alcanzó su récord histórico de audiencia el pasado lunes 9 de noviembre. Contra todo pronóstico, no fue la entrevista a Pedro Sánchez la que llevó al programa de David Broncano a marcar este hito, sino la visita de Santiago Abascal . El líder de Vox y candidato a las elecciones general'
+  titulo: 'Del «yo sí te voy a votar» al «Anotop at»: la guerra viral de los partidos en la batalla electoral del 29N'
+  url: https://www.abc.es/espana/votar-anotop-guerra-viral-partidos-batalla-electoral-20261128135938-nt.html
+  resumen: La campaña electoral de cara al 29 de noviembre ha sido una de las más televisivas de los últimos años. Los candidatos han recorrido platós, programas de entretenimiento, podcasts y todo tipo de plataformas digitales para alcanzar al mayor número posible de votantes, en una estrategia que ha convert
 - seccion: general
   medio: ABC
-  titulo: La Fiscalía pide 18 años de cárcel para un acusado de agresión sexual, maltrato y amenazas a su pareja
-  url: https://www.abc.es/espana/castilla-la-mancha/toledo/pueblos/fiscalia-pide-anos-carcel-acusado-agresion-sexual-20261128105821-nt.html
-  resumen: La Audiencia provincial de Toledo acoge el 1 de diciembre un juicio a un acusado de agresión sexual, maltrato, lesiones en el ámbito de la violencia de género y amenazas a su pareja en el municipio de Orgaz , por cuyos delitos la Fiscalía pide un total de 18 años de cárcel. En su escrito de califica
+  titulo: Marsodeto celebra el 1 de diciembre su XXVII Pleno en las Cortes de Castilla-La Mancha
+  url: https://www.abc.es/espana/castilla-la-mancha/toledo/marsodeto-celebra-diciembre-xxvii-pleno-cortes-castillala-20261128135657-nt.html
+  resumen: La Federación Provincial de Personas con Discapacidad Intelectual de Toledo, Marsodeto, celebrará el próximo martes 1 de diciembre su XXVII Pleno en las Cortes de Castilla-La Mancha , una cita tradicional con motivo del Día Internacional de las Personas con Discapacidad en la que sus protagonistas o
 - seccion: general
   medio: ABC
-  titulo: 'Enrique Andrés: «Lo que importa en la literatura es el latido de la vida»'
-  url: https://www.abc.es/espana/castilla-leon/enrique-andres-importa-literatura-latido-vida-20261125105727-nt.html
-  resumen: Ángel del Río (Soria, 1901-Nueva York, 1962) fue «un insigne profesor español de la Universidad de Columbia y figura clave en el desarrollo del hispanismo», reza el texto de la contracubierta de 'Mister Ángel del Río. Novela de los nombres' (Periférica). Para su autor, el también soriano Enrique And
+  titulo: 'Jódar cumple a lo grande: primer punto contundente para España'
+  url: https://www.abc.es/deportes/tenis/jodar-20261128113032-nt.html
+  resumen: Venía España con la etiqueta de favorita. Demostró ante Austria que todos, incluso los escuderos, estaban listos para cualquier rival. En esta semifinal, con su alineación titular, multiplica el conjunto nacional las esperanzas de levantar la Copa Davis. Porque Rafa Jódar salió dubitativo ante Austr
 - seccion: general
   medio: ABC
-  titulo: Tres detenidos en Camariñas por falsificar documentos vinculados a la pesca furtiva
-  url: https://www.abc.es/espana/galicia/tres-detenidos-camarinas-falsificar-documentos-vinculados-pesca-20261128105534-nt.html
-  resumen: Efectivos de la Unidad de Protección de la Naturaleza (UPRONA) de la Guardia Civil de La Coruña, junto con componentes del Servicio de Protección de la Naturaleza (SEPRONA) de Corcubión, han procedido a la detención de tres personas, todas ellas vecinas de Camariñas, como presuntas autoras de varios
+  titulo: El Gobierno niega contaminación en el remolque del Med Emre, pero vigila una mancha de fuel en la zona del naufragio
+  url: https://www.abc.es/sociedad/gobierno-niega-contaminacion-remolque-med-emre-vigila-20261128134957-nt.html
+  resumen: El Gobierno ha informado de que no se ha detectado contaminación a lo largo de la ruta de remolque del buque Med Emre , que naufragó a unas 20 millas de Ibiza, y se está monitorizando una mancha de combustible ya envejecido en la zona de zozobra, de unas 5 x 0,5 millas y de baja intensidad. En la ta
 - seccion: general
   medio: ABC
-  titulo: En defensa del legado de Piedad Isla
-  url: https://www.abc.es/espana/castilla-leon/defensa-legado-piedad-isla-20261125105042-nt.html
-  resumen: Para que Piedad Isla ocupe el lugar que merece en la historia de la fotografía española «falta una gran exposición y un gran libro» sobre ella. Lo dice en el documental 'Isla indómita' el historiador de la fotografía Publio López Mondéjar, uno de los expertos que reivindican desde hace tiempo la fig
-- seccion: general
-  medio: ABC
-  titulo: 'Encendido luces de Navidad de Toledo: horario, calles iluminadas, dónde están los árboles y los belenes'
-  url: https://www.abc.es/espana/castilla-la-mancha/toledo/encendido-luces-navidad-toledo-horario-calles-iluminadas-20261128050000-nt.html
-  resumen: Toledo dará la bienvenida a la Navidad este sábado, 28 de noviembre, con el encendido de la iluminación navideña en la plaza de Zocodover, previsto para las 18.00 horas. Vecinos, familias y visitantes podrán disfrutar desde ese momento de la decoración que vestirá las calles de la ciudad durante las
+  titulo: Horario y dónde ver por televisión el Cádiz - Córdoba CF
+  url: https://www.abc.es/espana/andalucia/cordoba/cordoba-cf/horario-ver-television-cadiz-cordoba-20261128134903-nts.html
+  resumen: El Córdoba CF emprende un nuevo viaje lejos de El Arcángel con el objetivo de seguir sumando resultados positivos en su particular escalada en la clasificación. Ya son seis partidos en los que el conjunto blanquiverde ha logrado sumar puntos para firmar catorce puntos de los últimos dieciocho posibl
 - seccion: general
   medio: elDiario.es
   titulo: Contra el pronóstico de las encuestas
@@ -502,9 +767,9 @@ titulares:
   resumen: 'No tendrá agenda pública ni participará en actos políticos y pasará allí parte del sábado Feijóo apela al votante de izquierdas en el cierre de la campaña: “No les voy a engañar, voy a ser el presidente de todos” El presidente del Partido Popular, Alberto Núñez Feijóo, visitará Ceuta durante la maña'
 - seccion: general
   medio: elDiario.es
-  titulo: Israel mata a dos trabajadores de Médicos Sin Fronteras en un ataque en Gaza
-  url: https://www.eldiario.es/internacional/israel-mata-trabajadores-medicos-fronteras-ataque-gaza_1_13700911.html
-  resumen: 'Ambos eran vigilantes de seguridad de una de sus clínicas. La ONG denuncia que sus instalaciones estaban claramente señalizadas con sus logotipos y que su ubicación había sido comunicada al Ejército israelí: "Exigimos que se rindan cuentas" El hombre detrás del movimiento de boicot que más odia Isra'
+  titulo: El Gobierno de Murcia intenta que la Justicia frene el traslado del buque naufragado a Cartagena, el único puerto viable
+  url: https://www.eldiario.es/murcia/gobierno-murcia-pedira-justicia-medidas-cautelarisimas-impedir-buque-naufragado-llegue-cartagena_1_13701200.html
+  resumen: Presentará ante Tribunal Superior de Justicia de Madrid un recurso para pedir medidas cautelarísimas que impidan la llegada del carguero. Se trata de una decisión técnica ya que el Puerto de Cartagena es el único que reúne las condiciones necesarias para acoger el barco Murcia rechaza que el buque '
 - seccion: general
   medio: elDiario.es
   titulo: Costa Rica autoriza "por fin" la entrada de Albanese para "descansar" en un hotel tras retenerla día y medio en el aeropuerto
@@ -512,9 +777,39 @@ titulares:
   resumen: 'La Sala Constitucional ordenó a las autoridades de migración que permitiera su traslado después de que se le impidiera entrar al país por supuestos “vínculos con actos terroristas”. La relatora tiene prevista su salida del país este sábado hacia México Costa Rica veta la entrada a la relatora de la '
 - seccion: general
   medio: elDiario.es
+  titulo: La principal plataforma en la nube de las Fuerzas Aéreas de EEUU sufre un hackeo
+  url: https://www.eldiario.es/internacional/principal-plataforma-nube-fuerzas-aereas-eeuu-sufre-hackeo_1_13701177.html
+  resumen: 'Este ciberataque, que se descubrió hace aproximadamente un mes, podría haber comprometido una gran cantidad de datos tácticos, aplicaciones militares e información personal confidencial Ciberataques, IA y teorías de la conspiración: ¿qué está causando los colapsos informáticos? La Fuerza Aérea de EE'
+- seccion: general
+  medio: elDiario.es
+  titulo: Israel mata a dos trabajadores de Médicos Sin Fronteras en un ataque en Gaza
+  url: https://www.eldiario.es/internacional/israel-mata-trabajadores-medicos-fronteras-ataque-gaza_1_13700911.html
+  resumen: 'Ambos eran vigilantes de seguridad de una de sus clínicas. La ONG denuncia que sus instalaciones estaban claramente señalizadas con sus logotipos y que su ubicación había sido comunicada al Ejército israelí: "Exigimos que se rindan cuentas" El hombre detrás del movimiento de boicot que más odia Isra'
+- seccion: general
+  medio: elDiario.es
+  titulo: Una de las personas ingresadas en El Hierro tras el rescate de un cayuco a la deriva será trasladada a Tenerife
+  url: https://www.eldiario.es/canariasahora/migraciones/personas-migrantes-ingresadas-hospital-el-hierro-rescate-cayuco_1_13701307.html
+  resumen: Una veintena de migrantes fueron atentidos tras ser auxiliados por Salvamento Marítimo este viernes, que permanecen estables, salvo uno, que se encuentra estable dentro de la gravedad y que será tratado en el Hospital Universitario Nuestra Señora de Candelaria ''El mismo día, una niña nació en el At
+- seccion: general
+  medio: elDiario.es
   titulo: 'Cóctel sonoro de elDiario.es (V): una selección de podcasts sobre violencia de género'
   url: https://www.eldiario.es/dale-al-play/coctel-sonoro-eldiario-v-seleccion-podcasts-violencia-genero_132_13698307.html
   resumen: Series, documentales y reportajes que ayudan a desgranar y comprender la violencia de género, así como a tomar conciencia de lo que hemos avanzado y lo que falta por hacer Suscríbete - Recibe en tu correo electrónico nuestro boletín de podcasts un domingo cada 15 días No suelo escoger de qué temas h
+- seccion: general
+  medio: elDiario.es
+  titulo: Muere Rita Moraga, la primera mujer que dirigió el PSOE de Albacete e impulsora del liderazgo femenino
+  url: https://www.eldiario.es/castilla-la-mancha/provincias/albacete/muere-rita-moraga-primera-mujer-dirigio-psoe-albacete-e-impulsora-liderazgo-femenino_1_13701127.html
+  resumen: La Agrupación Socialista de la ciudad destaca que, también como trabajadora social y directora general del Gobierno regional, dedicó su trayectoria a "la defensa de la justicia social y la igualdad" Muere Daniel Almansa, histórico alcalde de Bolaños de Calatrava durante siete legislaturas La Agrupac
+- seccion: general
+  medio: elDiario.es
+  titulo: Galicia pone a prueba la resistencia de la marca Feijóo con un BNG al alza
+  url: https://www.eldiario.es/galicia/galicia-pone-prueba-resistencia-marca-feijoo-bng-alza_1_13696927.html
+  resumen: 'La ultraderecha se enfrenta al territorio que le es más hostil electoralmente sin que las encuestas les auguren resultados El BNG aspira a unificar el voto de izquierdas para un resultado histórico Los sondeos coinciden en el trazo general. El BNG sube, los socialistas aguantan el tipo, el PP sufre '
+- seccion: general
+  medio: elDiario.es
+  titulo: Felipe el Hermoso, Javier Milei y John Wayne, con Vox en la plaza de toros de València
+  url: https://www.eldiario.es/comunitat-valenciana/politica/felipe-hermoso-javier-milei-john-wayne-vox-plaza-toros-valencia_130_13701317.html
+  resumen: Vox iguala al PP y llena la plaza de toros de València en un cierre de campaña entre mensajes de apoyo de nueve dirigentes ultras internacionales y constantes muestras de admiración hacia Santiago Abascal Abascal amenaza con “tumbar la Comisión Europea” después de que Bruselas cargue contra la “prio
 - seccion: general
   medio: elDiario.es
   titulo: 'El tiempo en España este fin de semana: máximas de 10ºC y precipitaciones en el norte para despedir noviembre'
@@ -527,166 +822,156 @@ titulares:
   resumen: 'La AEMET prevé brumas y posibles bancos de niebla en zonas bajas, además de heladas débiles en las cumbres de la Sierra De la investigación a posibles embargos: las claves del cerco del Tribunal de Cuentas al ático del Gobierno de Ayuso El fin de semana en la Comunidad de Madrid con tiempo estable y'
 - seccion: general
   medio: elDiario.es
-  titulo: 'El pueblo de Huesca que duda entre el Ohio aragonés y el recuerdo de un fuego devastador: "Fueron días feos y tristes"'
-  url: https://www.eldiario.es/aragon/politica/pueblo-huesca-duda-ohio-aragones-recuerdo-fuego-devastador-dias-feos-tristes_1_13694946.html
-  resumen: Aragón reúne la mitad de los ayuntamientos donde el partido ganador en todas las elecciones generales coincide con el que vence a nivel nacional. Uno de ellos es Ayerbe, donde la criticada gestión del incendio de Riglos de este verano puede condicionar el resultado En las elecciones generales en dem
+  titulo: Descubren 361 grabados de hace 20.000 años en el Palmeral de Elche gracias a un hallazgo durante un descanso entre exámenes
+  url: https://www.eldiario.es/spin/descubren-361-grabados-20-000-anos-palmeral-elche-gracias-hallazgo-durante-descanso-examenes-pm_1_13701259.html
+  resumen: Investigadores de la UNED han identificado cientos de figuras sobre once pequeñas piedras y estudian si bajo el Palmeral se conserva un yacimiento del Paleolítico Los antiguos griegos tenían todo un país para pelearse, pero Esparta, Tebas y Atenas acababan luchando en el mismo valle durante más de 2
 - seccion: general
   medio: elDiario.es
-  titulo: Galicia pone a prueba la resistencia de la marca Feijóo con un BNG al alza
-  url: https://www.eldiario.es/galicia/galicia-pone-prueba-resistencia-marca-feijoo-bng-alza_1_13696927.html
-  resumen: 'La ultraderecha se enfrenta al territorio que le es más hostil electoralmente sin que las encuestas les auguren resultados El BNG aspira a unificar el voto de izquierdas para un resultado histórico Los sondeos coinciden en el trazo general. El BNG sube, los socialistas aguantan el tipo, el PP sufre '
-- seccion: general
-  medio: elDiario.es
-  titulo: ¿Qué transportaban los barcos de época islámica por Mallorca? Un naufragio recién descubierto guarda un cargamento poco habitual
-  url: https://www.eldiario.es/spin/transportaban-barcos-epoca-islamica-mallorca-naufragio-recien-descubierto-guarda-cargamento-habitual-pm_1_13693571.html
-  resumen: 'Arqueologia marina - Un cargamento de astas de ciervo recuperado frente a Mallorca podría ayudar a reconstruir los intercambios comerciales de la isla durante el dominio islámico Los romanos ampliaron el catálogo de animales de Mallorca con un inquilino que la naturaleza nunca había instalado en la '
-- seccion: general
-  medio: elDiario.es
-  titulo: Una fábrica de robots que construyen más robots, que a su vez fabrican más robots podría acelerar su expansión hasta superar la población humana en 2083
-  url: https://www.eldiario.es/spin/fabrica-robots-construyen-robots-acelerar-expansion-superar-poblacion-humana-2083-pm_1_13693580.html
-  resumen: ¿Fin del mundo? - Un modelo matemático sitúa en 2083 la posible equiparación entre ambas poblaciones si los robots empiezan a participar en su propia fabricación y aumentan la capacidad industrial Los fallos de programación podrían propagarse entre generaciones de máquinas si todas heredasen las mis
-- seccion: general
-  medio: elDiario.es
-  titulo: Cloelia era una rehén del enemigo, pero escapó cruzando el Tíber y acabó convertida en heroína romana
-  url: https://www.eldiario.es/spin/cloelia-rehen-enemigo-escapo-cruzando-tiber-acabo-convertida-heroina-romana-pm_1_13691010.html
-  resumen: Leyendas romanas - Una joven romana escapó a nado de sus captores etruscos y consiguió que el mismo monarca que había exigido su devolución le concediera la libertad de otros prisioneros El Tíber ya era un obstáculo considerable para una fugitiva, pero a Cloelia le tocó atravesarlo a nado mientras l
-- seccion: general
-  medio: elDiario.es
-  titulo: Un zapato recuperado del fondo del mar podría conectar un barco hundido con la historia de un gobernador asesinado por los propios esclavos
-  url: https://www.eldiario.es/spin/zapato-recuperado-fondo-mar-conectar-barco-hundido-historia-gobernador-asesinado-pm_1_13687845.html
-  resumen: 'Esclavitud colonial - Un gobernador danés murió durante un motín en 1683 y los restos del barco en el que viajaba conservan objetos relacionados con el lujo y los esclavos El naufragio del buque ''Général Chanzy'' que sorprende todavía a los expertos: “El hundimiento fue veloz y mortífero” El regreso '
-- seccion: general
-  medio: elDiario.es
-  titulo: Esta ruta, paralela a unas célebres minas de mercurio, acaba en los claustros de uno de los grandes centros sanitarios de la Baja Edad Media
-  url: https://www.eldiario.es/viajes/ruta-paralela-celebres-minas-mercurio-acaba-claustros-grandes-centros-sanitarios-baja-edad-media-pm_1_13700862.html
-  resumen: El trayecto de El Camino de los Mineros a Guadalupe discurre por Almadén, Chillón, Garlitos, Siruela, Talarrubias, Casas de Don Pedro, Puebla de Alcocer, Cañamero, Alía y la propia villa de Guadalupe De impresionantes vistas, se llama Camino de Nietzsche ya que el filósofo recorría habitualmente est
-- seccion: general
-  medio: elDiario.es
-  titulo: La fiesta que une a vecinos, villancicos y flamenco desde el siglo XIX ya ha arrancado en esta localidad andaluza
-  url: https://www.eldiario.es/viajes/fiesta-une-vecinos-villancicos-flamenco-siglo-xix-arrancado-localidad-andaluza-pm_1_13700854.html
-  resumen: En torno a una hoguera para combatir el frío, en las zambombas de Jerez se adaptan cada Navidad los villancicos tradicionales al ritmo de bulerías, tangos y seguiriyas 'El Principito', protagonista de este espectáculo de luces que puede verse en un antiguo hospital modernista de Barcelona El castill
-- seccion: general
-  medio: El Confidencial
-  titulo: 'Qué hace nulo tu voto el 29-N: los errores más comunes en la papeleta y el sobre'
-  url: https://www.elconfidencial.com/espana/2026-11-28/que-hace-voto-nulo-errores-comunes-papeletas-sobre_4474706/
-  resumen: Un descuido o imperfección en la documentación a introducir en las urnas puede anular nuestra elección de cara al recuento final
-- seccion: general
-  medio: El Confidencial
-  titulo: Feijóo se desplaza a Ceuta en plena jornada de reflexión para mostrar su "apoyo y solidaridad"
-  url: https://www.elconfidencial.com/espana/2026-11-28/feijoo-ceuta-jornada-reflexion-elecciones_4474701/
-  resumen: El líder del PP acompaña al presidente Vivas en la víspera de las generales del 29-N. Sin agenda pública ni mítines, Feijóo dedica la mañana de este sábado a la ciudad autónoma
-- seccion: general
-  medio: El Confidencial
-  titulo: 'Elecciones generales en España: a qué hora abren y cierran los colegios electorales'
-  url: https://www.elconfidencial.com/espana/2026-11-28/elecciones-generales-espana-hora-abren-cierran-colegios-electorales_4474691/
-  resumen: Durante la jornada del próximo domingo, dichos centros presentarán un horario de apertura para que los ciudadanos puedan ejercer su derecho a voto
-- seccion: general
-  medio: El Confidencial
-  titulo: El buque naufragado 'Med Emre' navega remolcado hacia Cartagena, pese a la negativa del Ejecutivo murciano
-  url: https://www.elconfidencial.com/espana/2026-11-28/murcia-rechaza-remolque-buque-cartagena_4474673/
-  resumen: No obstante, el barco ya navega, remolcado, rumbo a Cartagena, donde se prevé que arrive el lunes. La ruta que tendrán que completar hasta llegar a su destino, la dársena de Escombreras de Cartagena, es de cerca de 140 millas náuticas
-- seccion: general
-  medio: El Confidencial
-  titulo: 'Qué pasa si nadie consigue mayoría tras el 29-N: plazos de investidura y repetición electoral'
-  url: https://www.elconfidencial.com/espana/2026-11-28/que-pasa-nadie-consigue-mayoria-29-elecciones-1qrt_4474536/
-  resumen: La noche electoral dibujará el mapa de los pactos posibles, pero la primera fecha institucional ya está fijada
-- seccion: general
-  medio: El Confidencial
-  titulo: Vuelca un camión portacoches en la N-121-A, en Baztan
-  url: https://www.elconfidencial.com/espana/2026-11-28/camion-portacoches-accidente-baztan-1tna-1tps_4474668/
-  resumen: El siniestro ocurrió en Baztan y obligó a movilizar a bomberos, sanitarios y agentes; el transportista fue evacuado con pronóstico leve
-- seccion: general
-  medio: El Confidencial
-  titulo: La Policía detiene a dos personas por tráfico de drogas en Pamplona
-  url: https://www.elconfidencial.com/espana/2026-11-28/detenidos-trafico-drogas-pamplona-1tna-1tps_4474669/
-  resumen: Las quejas de residentes activaron pesquisas que llevaron a un domicilio con cocaína, heroína, hachís, dinero y material para su distribución
-- seccion: general
-  medio: El Confidencial
-  titulo: La Policía Foral interviene numerosas armas en una inspección administrativa en un local de Villatuerta
-  url: https://www.elconfidencial.com/espana/2026-11-28/taller-clandestino-armas-policia-foral-1tna-1tps_4474660/
-  resumen: Una inspección en un negocio de Villatuerta destapa reparaciones de vehículos no autorizadas, armas de varias clases e indicios de consumo de estupefacientes
-- seccion: general
-  medio: El Confidencial
-  titulo: 'El refugio de Pedro Sánchez en el Pirineo aragonés: el pueblo de 1.540 metros de altitud donde esquía en Navidad con Begoña Gómez'
-  url: https://www.elconfidencial.com/espana/2026-11-28/refugio-pedro-sanchez-pirineo-aragones-pueblo-esquia-navarra-1qrt_4450696/
-  resumen: Este rincón pertenece al municipio de Benasque y está considerado el pueblo más alto del Pirineo aragonés
-- seccion: general
-  medio: El Confidencial
-  titulo: 'Dos millones para la cafetería de Moncloa y el ''office'' de Sánchez: un café y cinco churros por 2,1 euros'
-  url: https://www.elconfidencial.com/espana/2026-11-28/gastos-gobierno-sanchez-dos-millones-cafeteria_4472560/
-  resumen: El menú del palacio presidencial se fija en 7,59 euros y contará con primero, segundo y postre. La caña, a 1,15 euros. Presidencia ha adquirido 30.000 litros de gasóleo para calentarse el próximo año
+  titulo: 'España se juega este fin de semana el título de SailGP: así es la competición de vela conocida como la Fórmula 1 del mar'
+  url: https://www.eldiario.es/spin/deportes/espana-juega-semana-titulo-sailgp-competicion-vela-conocida-formula-1-mar-pm_1_13701039.html
+  resumen: 'El equipo español, liderado por Diego Botín, tiene asegurada su presencia en la gran final de Abu Dabi, donde competirá por su segundo título y un premio de dos millones de dólares Marc Márquez anuncia por sorpresa su retirada de MotoGP a los 33 años: “Hemos hecho historia” Después de una temporada '
 - seccion: general
   medio: OKDiario
-  titulo: 'Miguel Ángel Rojas, técnico y experto en climatización: “Poner el aire acondicionado a temperatura mínima es como poner un coche a la máxima velocidad”'
-  url: https://okdiario.com/curiosidades/miguel-angel-rojas-tecnico-experto-climatizacion-poner-aire-acondicionado-temperatura-minima-como-poner-coche-maxima-velocidad-21293543
-  resumen: Con la llegada del otoño y el descenso progresivo de las temperaturas en España, el uso del aire acondicionado empieza a quedar en un segundo plano en muchas casas. Sin embargo, este es un buen momento para revisar cómo se ha utilizado el aparato y qué hábitos conviene corregir para aprovechar mejor
+  titulo: Izan Guevara le gana la primera batalla a Manu González en la lucha por el título de Moto2
+  url: https://okdiario.com/deportes/izan-guevara-gana-primera-batalla-manu-gonzalez-lucha-titulo-moto2-21294308
+  resumen: Senna Agius se ha llevado la pole en Cheste en la categoría de Moto2 en el GP de la Comunidad Valenciana (1:31.389). Mientras que en la lucha por el título de la categoría, Izan Guevara le ha ganado la partida a Manu González. El madrileño llega a esta carrera con 4,5 puntos de ventaja sobre … Conti
 - seccion: general
   medio: OKDiario
-  titulo: Puig alcanza un acuerdo para adquirir el 75% de Marly e Initio por 1.200 millones
-  url: https://okdiario.com/economia/puig-alcanza-acuerdo-adquirir-75-marly-initio-1-200-millones-21293548
-  resumen: Puig da otro avance en sus planes de expansión. La firma ha alcanzado un acuerdo con intención de adquirir por 1.200 millones el 75% en Artessence Group, la sociedad matriz de Parfums de Marly e Initio Parfums Privés, una operación que aportará un «crecimiento atractivo» y tendrá un impacto signific
+  titulo: 'GP Valencia de MotoGP en directo: sigue la Carrera al sprint y la última hora en vivo hoy'
+  url: https://okdiario.com/deportes/directo-motogp-21293384
+  resumen: El mundo de MotoGP afronta este sábado el comienzo de la despedida de Marc Márquez. El piloto catalán anunció este viernes su retirada tras ganar su décimo Mundial para poner fin a una etapa repleta de éxitos para grabar su nombre en la historia del motociclismo. Aunque el título ya está decidido, s
 - seccion: general
   medio: OKDiario
-  titulo: 'España – Gran Bretaña en directo: sigue las semifinales de la Copa Davis 2026 hoy en vivo'
-  url: https://okdiario.com/deportes/espana-gran-bretana-directo-sigue-semifinales-copa-davis-2026-hoy-vivo-21293343
-  resumen: ¡Buenos días! Bienvenidos a las semifinales de la Copa Davis entre España e Inglaterra que arrancan a las 12:00 hora peninsular. Los nuestros buscan un pase a la final tras vencer cómodamente a Austria (2-0). En la pelea por el título en Bolonia espera a Italia, que ganó en la otra semifinal a la Re
+  titulo: 'La preciosa reflexión de Sócrates, filósofo, sobre el amor: «Si consigues una buena pareja serás feliz. Si consigues una mala, te convertirás en filósofo»'
+  url: https://okdiario.com/curiosidades/preciosa-reflexion-socrates-filosofo-sobre-amor-si-consigues-buena-pareja-seras-feliz-si-consigues-mala-te-convertiras-filosofo-21273393
+  resumen: 'El amor puede convertirse en una de las mayores fuentes de felicidad, pero también en una experiencia que obliga a replantearse muchas cosas. Esta es precisamente la idea que transmite una de las reflexiones más populares de Sócrates, el filósofo de la Antigua Grecia: «Si consigues una buena pareja '
 - seccion: general
   medio: OKDiario
-  titulo: 'GP Valencia de MotoGP 2026: a qué hora es y dónde ver la carrera en directo por TV gratis y en vivo online'
-  url: https://okdiario.com/deportes/gp-valencia-del-mundial-motogp-2026-cuando-horario-todas-pruebas-como-ver-carrera-directo-tv-gratis-vivo-online-21267829
-  resumen: Este fin de semana se celebra el GP de Valencia de MotoGP, al que llega Marc Márquez después de lograr su décimo título mundial en Portimao. El ocho veces campeón del mundo en la categoría reina recibirá un merecido homenaje ante la afición española en el Circuito Ricardo Tormo de Cheste, que se lle
+  titulo: 'Multa y nueva obligación para los conductores: deberán ceder el paso a los peatones en las calles de plataforma única aunque no haya señalización'
+  url: https://okdiario.com/motor/multa-nueva-obligacion-conductores-deberan-ceder-paso-peatones-calles-plataforma-unica-aunque-no-haya-senalizacion-21294421
+  resumen: 'Muchos conductores todavía no lo saben, pero desde el pasado 1 de octubre hay calles en las que ya no basta con frenar en el paso de cebra. La reforma del Reglamento General de Circulación obliga a ceder el paso a los peatones en cualquier punto de las calles de plataforma única, aunque no exista … '
 - seccion: general
   medio: OKDiario
-  titulo: 'Jonathan Swift, escritor irlandés del siglo XVIII: «Nadie hace caso de un consejo, pero todo el mundo coge dinero; por tanto, el dinero vale más que el consejo»'
-  url: https://okdiario.com/curiosidades/jonathan-swift-escritor-irlandes-del-siglo-xviii-nadie-hace-caso-consejo-pero-todo-mundo-coge-dinero-tanto-dinero-vale-mas-que-consejo-21002376
-  resumen: Los consejos tienen fama de salir gratis y de servir de poco, y el refranero español se burla de ellos con consejos vendo y para mí no tengo. Sin embargo, Jonathan Swift, el escritor irlandés autor de Los viajes de Gulliver, fue más lejos y comparó el valor de un consejo con el del dinero. … Continu
+  titulo: 'En 1859 el tren llegó a Manresa perforando la montaña: ahora Adif licita por 1,29 millones la reparación de un túnel de esa línea, el 15 de Gravet'
+  url: https://okdiario.com/techy/adif-licita-reparacion-tunel-15-gravet-linea-manresa-barcelona-1859-boe-21293825
+  resumen: Adif ha sacado a concurso la reparación del túnel n.º 15 de Gravet, en la línea que el anuncio llama «Lleida-Pirineus-bifurcación Vilanova». El contrato tiene un valor estimado de 1.293.093,65 euros y un plazo de ejecución de 128 días. El anuncio salió el jueves en el Boletín Oficial del Estado, y s
 - seccion: general
   medio: OKDiario
-  titulo: La caja negra de Iryo descarta fallos previos en el tren que sean «precursores del accidente» de Adamuz
-  url: https://okdiario.com/economia/caja-negra-iryo-descarta-fallos-previos-tren-que-sean-precursores-del-accidente-adamuz-21293489
-  resumen: Los registros de la caja negra analizados del tren Iryo del siniestro ferroviario de Adamuz (Córdoba), en el que el domingo 18 de enero murieron 46 personas y hubo más de 150 heridos, son «consistentes con un escenario en el que el descarrilamiento constituye el evento inicial desencadenante, mientr
+  titulo: 'Pocholo Martínez-Bordiú, pillado en plena calle vendiendo sus bolsos de lujo: «El más barato vale 500 euros»'
+  url: https://okdiario.com/cool/famosos/pocholo-martinez-bordiu-pillado-plena-calle-vendiendo-sus-bolsos-lujo-mas-barato-vale-500-euros-21294054
+  resumen: Pocholo Martínez-Bordiú ha vuelto a convertirse en protagonista de una escena de lo más llamativa. A sus 64 años, el aristócrata ha demostrado que sigue teniendo facilidad para acaparar miradas, esta vez por una faceta empresarial que no resulta tan conocida para el gran público. El sobrino de Crist
 - seccion: general
   medio: OKDiario
-  titulo: 'Ni en una cesta abierta ni en el frigorífico: según los expertos, los plátanos se conservan mejor y tardan menos en oxidarse en esta parte de la cocina'
-  url: https://okdiario.com/curiosidades/ni-cesta-abierta-ni-frigorifico-segun-expertos-platanos-conservan-mejor-tardan-menos-oxidarse-esta-parte-cocina-21287815
-  resumen: 'Los plátanos son una de las frutas más habituales en los hogares españoles gracias a su sabor dulce, su amplio abanico de beneficios para la salud y sus propiedades nutricionales. Sin embargo, tienen un inconveniente que muchas personas conocen bien: en dos o tres días pierden firmeza y empiezan a a'
+  titulo: Una pareja busca voluntarios para vivir con ellos en su eco-granja de cítricos en el sur de Valencia a cambio de ayuda con la siembra, el riego y la poda de los árboles
+  url: https://okdiario.com/curiosidades/pareja-busca-voluntarios-vivir-ellos-eco-granja-citricos-sur-valencia-cambio-ayuda-siembra-riego-poda-arboles-21234973
+  resumen: Al sur de Valencia, el paisaje se ordena en hileras de naranjos que cada primavera se cubren de azahar. Entre esos campos, una pareja convirtió su finca en una eco-granja donde la agricultura comparte espacio con la cocina, la música y talleres creativos. Hace poco, sumaron un nuevo voluntariado a l
 - seccion: general
   medio: OKDiario
-  titulo: Cómo liberar espacio en Google sin pagar y sin caer en la trampa de las copias de WhatsApp
-  url: https://okdiario.com/tecnologia/como-liberar-espacio-google-sin-pagar-sin-caer-trampa-copias-whatsapp-21293388
-  resumen: El aviso siempre llega en el peor momento, justo cuando estrenas móvil y la copia de seguridad se queda a medias, o cuando un correo con adjunto generoso no termina de entrar. Tu almacenamiento de Google está lleno y los 15 GB gratuitos que trae cualquier cuenta se han evaporado sin que sepas muy bi
+  titulo: El Consejo Europeo propone dar una patada adelante a la deuda de los fondos Next y aplazar el pago de 10.000 millones
+  url: https://okdiario.com/economia/consejo-europeo-propone-dar-patada-adelante-deuda-fondos-next-aplazar-pago-10-000-millones-21293693
+  resumen: Una vez terminado el plazo para que los Estados miembro presentaran ante la Comisión Europea la última solicitud de pago de fondos del Plan de Recuperación -España ha recibido unos 80.000 millones de euros desde la pandemia-, el debate en Bruselas ha pasado de la gestión de esos recursos a su devolu
 - seccion: general
   medio: OKDiario
-  titulo: 'La psicología dice que las personas que colocan los productos en su lugar en el supermercado no sólo son ordenadas: más bien tienen cierto sentido de la responsabilidad'
-  url: https://okdiario.com/salud/psicologia-dice-que-personas-que-colocan-productos-lugar-supermercado-no-solo-son-ordenadas-mas-bien-tienen-cierto-sentido-responsabilidad-21293379
-  resumen: Hay personas que, cuando hacen la compra, no se limitan a introducir los productos en el carrito según los van cogiendo de las estanterías. Al contrario, dedican unos segundos a colocar cada producto cuidadosamente, agrupan los alimentos por categorías y procuran que nada quede fuera de su sitio. In
+  titulo: Mourinho no quiere cuesta de enero
+  url: https://okdiario.com/diariomadridista/mourinho-no-quiere-cuesta-enero-21287656
+  resumen: José Mourinho no quiere ni oír hablar del playoff de la Champions. El técnico blanco ha dejado muy claro ante los medios su deseo de esquivar una eliminatoria que cargaría febrero con dos partidos extra. Tras firmarlo todo con victorias en las cinco primeras jornadas, los madridistas no sólo rozan e
 - seccion: general
   medio: OKDiario
-  titulo: 'Isa Pantoja se sincera sobre su relación con Kiko Rivera tras su encuentro privado: «No se puede solucionar en menos de dos horas»'
-  url: https://okdiario.com/cool/television/isa-pantoja-sincera-sobre-relacion-kiko-rivera-encuentro-privado-no-puede-solucionar-menos-dos-horas-21293346
-  resumen: El acercamiento entre Isa Pantoja y Kiko Rivera continúa dando mucho que hablar. Después de años marcados por el distanciamiento y la falta de comunicación, los hermanos han protagonizado un inesperado acercamiento que podría marcar el comienzo de una nueva etapa en su relación. Un reencuentro que c
+  titulo: ¿Qué tiempo hará en España el domingo 29 de noviembre, día de las elecciones generales? La AEMET anuncia lluvias, nieblas y frío en varias comunidades
+  url: https://okdiario.com/sociedad/que-tiempo-hara-espana-domingo-29-noviembre-dia-elecciones-generales-aemet-anuncia-lluvias-nieblas-frio-varias-comunidades-21293211
+  resumen: 'España se prepara para una nueva jornada electoral este domingo 29 de noviembre. Millones de ciudadanos acudirán a los colegios electorales para depositar su voto en las elecciones generales, pero hay otra cuestión que también preocupa a muchos: qué tiempo hará durante el día. La Agencia Estatal de '
 - seccion: general
   medio: OKDiario
-  titulo: 'Alcaraz entra en escena: España recupera a su número uno en la Davis'
-  url: https://okdiario.com/deportes/alcaraz-entra-escena-espana-recupera-numero-uno-davis-21292910
-  resumen: Y al segundo día de competición de España, volvió Carlos Alcaraz. El murciano se ejercitó este sábado junto a Marcel Granollers para preparar su regreso a la competición en individual. Será el número uno de España en la eliminatoria contra Gran Bretaña y se enfrentará a Fery, mejor raqueta británica
+  titulo: 'Joao Félix despedaza al Atlético por ser el fichaje más caro de su historia: «Debí haber elegido mejor»'
+  url: https://okdiario.com/deportes/joao-felix-despedaza-atletico-ser-fichaje-mas-caro-historia-debi-haber-elegido-mejor-21294186
+  resumen: Joao Félix no olvida su discreto paso por el Atlético. Mientras el delantero brilla en Arabia Saudí con el Al Nassr de Cristiano Ronaldo, el luso ha recordado cómo vivió ser el fichaje más caro de la historia del club rojiblanco y el error que siente después de haber tomado una decisión que, según s
 - seccion: general
   medio: OKDiario
-  titulo: 'Doncic regala su manguito de codo y se forma una trifulca tremenda: hasta le empuja un aficionado'
-  url: https://okdiario.com/deportes/doncic-regala-manguito-codo-forma-trifulca-tremenda-hasta-empuja-aficionado-21293250
-  resumen: Luka Doncic es uno de los jugadores más aclamados del mundo. Pero hay ocasiones en las que, en lugar de recibir el cariño de los aficionados, en otras ocurren cosas surrealistas como las que vivió anoche en el partido contra los Spurs. Frustrado por la derrota de los Lakers (99-96), el esloveno se v
+  titulo: Arranca a baja velocidad para proteger su estructura sumergida el remolque a Cartagena con la quilla al sol del buque siniestrado en aguas de Ibiza
+  url: https://okdiario.com/baleares/arranca-baja-velocidad-proteger-estructura-sumergida-remolque-cartagena-quilla-sol-del-buque-siniestrado-aguas-ibiza-21293704
+  resumen: Arranca a baja velocidad para proteger su estructura sumergida el remolque a Cartagena con la quilla al sol del buque siniestrado en aguas de Ibiza que prevé llegar a puerto el próximo lunes. El buque de salvamento Clara Campoamor se encarga del remolque acompañado de otro remolcador para auxiliarlo
 - seccion: general
   medio: OKDiario
-  titulo: David Jiménez, abogado y economista, explica que los mayores de 65 años pueden vender su segunda vivienda sin pagar IRPF, pero sólo bajo una condición
-  url: https://okdiario.com/economia/david-jimenez-abogado-economista-explica-que-mayores-65-anos-pueden-vender-segunda-vivienda-sin-pagar-irpf-pero-solo-bajo-condicion-21258938
-  resumen: Los mayores de 65 años que venden su vivienda habitual no pagan IRPF por lo que ganan con la operación, una ventaja fiscal bastante conocida entre los jubilados. Quien vende una casa en la playa o un piso heredado, por el contrario, suele tener que pagar a Hacienda por ese beneficio. Sin embargo, la
+  titulo: Jódar se desata y deja a España a un paso de la final de la Davis
+  url: https://okdiario.com/deportes/jodar-desata-deja-espana-paso-final-davis-21294004
+  resumen: Jódar no tiene que rumiar el partido, simplemente engullir a un Norrie cuyo amenaza se redujo a su hoja de servicios. Infundía más respeto por lo hecho a lo largo de su carrera que por lo hecho este sábado, entregado (6-2, 7-5) a la derecha cruzada y al revés paralelo de Rafa Jódar, que deja … Conti
 - seccion: general
   medio: OKDiario
-  titulo: Construyen una mansión de lujo con cuatro plantas bajo el agua y una estructura preparada para resistirlo todo
-  url: https://okdiario.com/curiosidades/construyen-mansion-lujo-cuatro-plantas-bajo-agua-estructura-preparada-resistirlo-todo-21292830
-  resumen: 'En mitad de las aguas del lago Man Sagar, en la ciudad de Jaipur, en el estado de Rajastán (la India), se encuentra una de las construcciones más llamativas del mundo: el Jal Mahal, conocido también como el Palacio del Agua. Rodeado de un paisaje natural que cambia con las estaciones, este edificio '
+  titulo: 'Le piden a Flick que hable en castellano en las ruedas de prensa con una pregunta delirante: «No bebo cerveza…»'
+  url: https://okdiario.com/deportes/piden-flick-que-hable-castellano-ruedas-prensa-pregunta-delirante-no-bebo-cerveza-21294178
+  resumen: La rueda de prensa de Hansi Flick de este sábado previa al partido de Liga contra el Deportivo en Riazor terminó con una pregunta surrealista que obligó al entrenador del Barcelona a decir que no bebe cerveza. La cuestión estuvo relacionada con la petición de que el técnico germano comience a hablar
 - seccion: general
   medio: OKDiario
-  titulo: 'GTA 6 no funciona igual de bien en todas las consolas: una versión lleva ventaja a las demás'
-  url: https://okdiario.com/tecnologia/gta-6-no-funciona-igual-bien-todas-consolas-version-lleva-ventaja-demas-21293189
-  resumen: Según los datos publicados por DE-CIX, el estreno de Grand Theft Auto VI ha tenido un impacto tan importante que ha conseguido elevar el tráfico mundial de Internet hasta alcanzar un nuevo récord histórico. Durante el lanzamiento del videojuego, se registró un pico de 33,03 terabits por segundo. Par
+  titulo: 'Mahoma nos regaló una reflexión sobre la riqueza: «La verdadera riqueza de un hombre es el bien que hace en este mundo»'
+  url: https://okdiario.com/curiosidades/mahoma-dejo-reflexion-sobre-riqueza-verdadera-riqueza-hombre-bien-que-hace-este-mundo-20249421
+  resumen: 'El dinero puede comprar bienes, proporcionar comodidades y ofrecer seguridad, pero existe una riqueza que no aparece en ninguna cuenta bancaria. Mahoma dejó una reflexión que invita precisamente a mirar más allá de las posesiones materiales. «La verdadera riqueza de un hombre es el bien que hace en '
+- seccion: general
+  medio: La Vanguardia
+  titulo: Los mítines finales anticipan una alta movilización este domingo
+  url: https://www.lavanguardia.com/politica/20261128/11695390/participacion-mitines-finales-anticipa-alta-movilizacion-domingo.html
+  resumen: Acaba la campaña electoral más singular con aires de cambio y pocas certidumbres
+- seccion: general
+  medio: La Vanguardia
+  titulo: Feijóo pide un apoyo “fuerte” para gobernar tras las elecciones del 29-N
+  url: https://www.lavanguardia.com/politica/20261128/11695705/feijoo-pide-apoyo-fuerte-gobernar-elecciones-29-n.html
+  resumen: El líder del PP cierra su campaña en Barcelona y Sevilla, dos feudos socialistas
+- seccion: general
+  medio: La Vanguardia
+  titulo: Sánchez cierra su campaña en Madrid con la mayor movilización socialista desde 1982
+  url: https://www.lavanguardia.com/politica/20261127/11695394/sanchez-cierra-campana-madrid-mayor-movilizacion-socialista-1982.html
+  resumen: Más de 13.000 militantes y simpatizantes del PSOE asisten a la fiesta final de la carrera electoral del presidente del Gobierno en la Caja Mágica, con Almodóvar y Los Planetas como estrellas invitadas
+- seccion: general
+  medio: La Vanguardia
+  titulo: Vox espera tener un rol fundamental en la gobernabilidad de España
+  url: https://www.lavanguardia.com/politica/20261127/11695382/vox-espera-rol-fundamental-gobernabilidad-espana.html
+  resumen: 'Una campaña con pocos mensajes y claros: la prioridad nacional es echar a Sánchez'
+- seccion: general
+  medio: La Vanguardia
+  titulo: Frente Amplio exprime el éxito en el debate a cuatro para recuperar impulso
+  url: https://www.lavanguardia.com/politica/20261127/11695396/frente-amplio-exprime-exito-debate-colau-recuperar-impulso-calladita.html
+  resumen: El impacto del careo televisivo ha cambiado el paso a una campaña que arrancó a medio gas
+- seccion: general
+  medio: La Vanguardia
+  titulo: Esquerra llama a evitar el voto al PSC “como mal menor”
+  url: https://www.lavanguardia.com/politica/20261128/11695392/esquerra-llama-evitar-voto-psc-mal-menor.html
+  resumen: Rufián dice que los socialistas “no merecen” el apoyo de los suyos
+- seccion: general
+  medio: La Vanguardia
+  titulo: Junts confía en dar la vuelta a los sondeos para que Catalunya sea clave en Madrid
+  url: https://www.lavanguardia.com/politica/20261127/11695391/junts-confia-dar-vuelta-sondeos-catalunya-sea-clave-madrid.html
+  resumen: “Queremos representar a toda aquella gente que tiene a Catalunya en la cabeza y en el corazón”, resalta Nogueras
+- seccion: general
+  medio: La Vanguardia
+  titulo: Elecciones limpias, elecciones de época
+  url: https://www.lavanguardia.com/politica/20261128/11695640/elecciones-limpias-elecciones-epoca.html
+  resumen: España acude mañana al voto en una encrucijada histórica para toda la Unión Europea
+- seccion: general
+  medio: La Vanguardia
+  titulo: 'Ceuta, paseos por el campo y música electrónica: así pasan los candidatos la jornada de reflexión'
+  url: https://www.lavanguardia.com/politica/20261128/11695688/ceuta-paseos-campo-musica-electronica-asi-pasan-candidatos-jornada-reflexion.html
+  resumen: Tras quince días de campaña y miles de kilómetros, Sánchez, Feijóo, Colau, Abascal, Rufián y Nogueras aparcan la política y se reservan tiempo para la familia
+- seccion: general
+  medio: La Vanguardia
+  titulo: ¡Eso es todo, amigos!
+  url: https://www.lavanguardia.com/politica/20261128/11695345/amigos.html
+  resumen: ''
+- seccion: general
+  medio: La Vanguardia
+  titulo: Una carambola en Catalunya
+  url: https://www.lavanguardia.com/politica/20261128/11695233/carambola-catalunya-rufian-puigdemont-colau.html
+  resumen: ''
+- seccion: general
+  medio: La Vanguardia
+  titulo: Votad, votad, malditos
+  url: https://www.lavanguardia.com/cultura/20261127/11695032/david-ucles-votad-votad-malditos-elecciones.html
+  resumen: ''
+- seccion: general
+  medio: La Vanguardia
+  titulo: 'Las tribus políticas ante el 29-N: el voto se derechiza; los valores, no'
+  url: https://www.lavanguardia.com/politica/20261128/11695270/29-n-tribu-politica-valores-voto-derecha.html
+  resumen: ''
+- seccion: general
+  medio: La Vanguardia
+  titulo: Calladita... y el dedito
+  url: https://www.lavanguardia.com/opinion/20261128/11695397/calladita-dedito.html
+  resumen: ''
