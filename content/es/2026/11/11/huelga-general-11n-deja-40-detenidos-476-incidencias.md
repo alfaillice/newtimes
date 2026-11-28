@@ -26,8 +26,6 @@ fuentes:
   url: https://www.europapress.es/nacional/noticia-gobierno-vacia-agenda-institucional-excepcion-albares-planas-jornada-huelga-general-20261111081226.html
 ---
 
-Los sindicatos convocaron este miércoles una huelga general a favor del derecho a la vivienda, la mejora de los salarios y la defensa de los servicios públicos. Según el recuento de Europa Press, con datos del Ministerio del Interior y de policías autonómicas, la jornada ha dejado hasta media mañana 40 detenidos y 476 incidencias relacionadas con la movilización.
-
 El Ministerio del Interior cifra esas 476 incidencias entre las 22.00 horas del martes y las 11.00 horas de este miércoles. En ese periodo, la Policía Nacional y la Guardia Civil han practicado 26 detenciones: ocho en Madrid, once en Andalucía (cuatro en Málaga, cuatro en Almería y tres en Granada), dos en Zamora y una en Navarra, Valladolid, La Rioja, Alicante y Valencia. Las cifras de Interior no incluyen las detenciones practicadas en Cataluña ni en el País Vasco.
 
 En el País Vasco, la Ertzaintza ha informado de 13 detenidos hasta las 10.00 horas. Los Mossos d'Esquadra han comunicado un arresto en Barcelona por quemar contenedores la noche anterior a la huelga. Sumadas las tres cifras, se obtienen los 40 detenidos del balance.

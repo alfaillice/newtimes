@@ -24,8 +24,6 @@ fuentes:
 lugar: Oviedo
 ---
 
-Un policía nacional ha muerto y otro agente de la unidad TEDAX ha resultado herido de gravedad tras la explosión de un artefacto en el barrio de Otero, en Oviedo. La información procede del sindicato policial JUPOL, recogida por Europa Press.
-
 Según esa versión, el fallecido era subinspector de Guías Caninos. Los agentes habían acudido a una vivienda tras un aviso relacionado con una joven que habría recibido disparos, mientras su padre intentaba llevarla al hospital. Al llegar al inmueble, los policías localizaron en el portal una mochila con un artefacto explosivo, que acabó detonando.
 
 El segundo agente, perteneciente a los TEDAX, continúa en estado muy grave y ha tenido que serle amputada una pierna, de acuerdo con JUPOL.

@@ -30,13 +30,7 @@ El equipo azulgrana abrió una pequeña distancia en el último cuarto (81-76 en
 
 La acción definitiva llegó desde la línea de tiros libres: Brizuela metió el primero y falló el segundo, pero Evbuomwan palmeó el rebote hacia el jugador guipuzcoano, que anotó para fijar el 98-94.
 
-Además de Robinson, en el Barça destacaron Parra, a quien la crónica de Europa Press atribuye 19 puntos y la ficha técnica de EFE 21, y Brizuela, con 15. En el Valencia, por detrás de Brooks, anotaron Rivero (12), Shorts (11) y Taylor (10).
-
 ## Bajas y contexto
-
-Ambos equipos llegaron con ausencias. Según EFE, el Barça no contó con Gibson ni con Núñez, y el Valencia jugó sin Mirotic ni Reuvers. Europa Press añade que el azulgrana Olek Balcerowski no jugó la segunda parte por una posible lesión en el hombro derecho.
-
-El encuentro reunió a 6.004 espectadores, según la ficha de EFE, y antes del salto inicial se guardó un minuto de silencio por las víctimas del accidente ferroviario de Toledo. Europa Press recuerda que el Valencia Basket sigue sin ganar en el Palau en la Euroliga.
 
 ## Clasificación
 

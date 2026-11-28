@@ -31,8 +31,4 @@ Según el comunicado de la compañía, la investigación responde a «informacio
 
 En ese mismo comunicado, la empresa subraya que el consejo «da prioridad a la seguridad nacional y económica», algo que considera fundamental para sus intereses y los de sus accionistas. Añade que no tiene motivos para creer que la seguridad nacional ni los secretos de Nvidia hayan estado en peligro.
 
-Las publicaciones a las que alude la compañía proceden, según Europa Press, del Financial Times y del New York Times. Ambos medios informan de que Alice Huang es ciudadana china, aunque vive en Singapur, y de que su empresa compraba a Nvidia chips avanzados, es decir, procesadores de alto rendimiento.
-
-Esos dos medios sostienen que la empresaria habría estado bajo vigilancia de los servicios secretos estadounidenses porque habría sido captada por China. Europa Press no recoge una confirmación oficial de esa captación por parte de las autoridades.
-
 La información disponible no precisa los plazos de la investigación ni si sus conclusiones se harán públicas.

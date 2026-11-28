@@ -31,8 +31,6 @@ imagenes:
   pie: Imagen de archivo de Vitali Klitschko, alcalde de Kiev.
 ---
 
-Al menos tres personas han muerto y unas 15 han resultado heridas este viernes en Kiev, según recoge Europa Press, a raíz de un ataque con misiles balísticos lanzado por el Ejército ruso contra la capital ucraniana. Los impactos alcanzaron una instalación de infraestructura crítica, dañaron tres puentes sobre el río Dniéper y provocaron cortes en el suministro eléctrico.
-
 Según el alcalde de Kiev, Vitali Klitschko, los servicios de emergencia han trasladado a siete de los heridos a hospitales de la capital, mientras que el resto recibe atención médica en los lugares de los impactos. La Administración Militar de la Ciudad de Kiev ha trasladado sus condolencias a los allegados de los fallecidos y ha pedido a la población que permanezca en los refugios hasta que termine la alerta aérea.
 
 En cuanto a las infraestructuras, Klitschko ha confirmado daños estructurales en el paso elevado del puente Podilsko-Voskresenski, así como en el puente Darnitski y en el puente Sur, que volvió a ser alcanzado. Este último mantiene restringida la circulación de vehículos de hasta diez toneladas y del transporte público de hasta 18 toneladas.
@@ -42,5 +40,3 @@ Ante las dificultades de movilidad entre ambas orillas, el alcalde y las autorid
 El bombardeo dejó sin suministro eléctrico a parte de los residentes de los distritos de Pechersk, Solomianski, Holosivski, Dniprovski y Darnitski. En otras zonas de la capital se aplican cortes de emergencia por daños en los equipos y sobrecarga de la red, y los técnicos trabajan para estabilizar el servicio.
 
 Por su parte, el Ministerio de Defensa de Rusia confirmó un ataque durante la noche con armamento de precisión lanzado desde tierra, mar y aire, además de vehículos aéreos no tripulados. Según su parte, la ofensiva causó daños en empresas del complejo militar-industrial ucraniano y en terminales de almacenamiento vinculadas a la producción y depósito de misiles de crucero y drones. Moscú asegura también que alcanzó instalaciones energéticas y de transporte en Kiev y en otras regiones, así como infraestructuras portuarias en la región de Odesa y embarcaciones de las Fuerzas Armadas ucranianas.
-
-Europa Press describe el ataque como un bombardeo con misiles balísticos, mientras que el parte del Ministerio ruso menciona armamento de precisión y vehículos aéreos no tripulados. Las fuentes consultadas no permiten contrastar de forma independiente los daños que atribuye Moscú a sus objetivos.

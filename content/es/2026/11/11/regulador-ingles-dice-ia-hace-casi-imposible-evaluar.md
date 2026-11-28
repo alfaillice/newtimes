@@ -22,10 +22,6 @@ fuentes:
   url: https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator
 ---
 
-El regulador de la educación superior de Inglaterra, la Office for Students (OfS), considera que la inteligencia artificial ha dificultado tanto la evaluación de los trabajos universitarios que recomienda a las instituciones volver a los exámenes tradicionales y a las presentaciones presenciales. Así lo recoge The Guardian, según publica el diario, que informa de las conclusiones de una investigación del organismo.
-
-Según el informe, elaborado junto con la organización benéfica Advance HE, varios docentes se quejan de que la IA ha hecho muy difícil valorar ensayos, tesis y exámenes de libro abierto. Los estudiantes, siempre según The Guardian, cuentan que sus compañeros presumen de haber usado IA sin que el profesorado lo detecte.
-
 El regulador advierte de que la credibilidad de los títulos de las universidades inglesas está amenazada. Las instituciones que no diseñen medidas válidas y fiables para comprobar los conocimientos y las competencias de sus alumnos podrían incumplir las condiciones de registro y enfrentarse a sanciones.
 
 Josh Fleming, director de estrategia y ejecución de la OfS, considera que el uso de la IA en la enseñanza superior supone un riesgo generacional para el sistema tal como está. Pide un esfuerzo mucho mayor para afrontarlo, con un uso mucho más amplio de evaluaciones sin IA.

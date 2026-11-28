@@ -22,8 +22,6 @@ fuentes:
   url: https://www.europapress.es/epsocial/migracion/noticia-29n-sanchez-dice-llegada-mas-6600-migrantes-canarias-bastante-habitual-momento-ano-20261109224243.html
 ---
 
-El presidente del Gobierno, Pedro Sánchez, ha afirmado que la llegada de más de 6.665 migrantes a las Islas Canarias durante los nueve primeros días de noviembre «es bastante habitual en este momento del año por la calma en el Atlántico». Lo dijo el pasado lunes en una entrevista en La Séptima, recogida por Europa Press.
-
 Según el jefe del Ejecutivo, el repunte contrasta con la evolución de los flujos irregulares hacia el archipiélago en el último año. Sánchez habló de una caída del 70 % en ese periodo, con la excepción del pico actual.
 
 Sobre la respuesta, Sánchez explicó que ha hablado con el presidente canario, Fernando Clavijo, y que ambos gobiernos están «coordinados». Anunció además que convocará la Comisión Interministerial para Asuntos Migratorios.

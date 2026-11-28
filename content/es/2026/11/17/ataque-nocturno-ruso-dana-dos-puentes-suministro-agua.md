@@ -30,8 +30,6 @@ imagenes:
   pie: Imagen de archivo de una estación del metro de Kiev.
 ---
 
-Un ataque nocturno con misiles y drones lanzado por las fuerzas de Rusia contra Kiev, capital de Ucrania, ha causado este martes daños en infraestructuras críticas, cortes de agua y calefacción y desperfectos en los puentes Norte y Sur, que han quedado cerrados al tráfico en ambos sentidos. Así lo ha informado la Administración Estatal de la Ciudad de Kiev, según recoge Europa Press.
-
 La ofensiva se desarrolló en varias oleadas desde última hora del lunes. Los impactos y la caída de restos de proyectiles interceptados provocaron incendios y daños materiales en los distritos de Holosivski, Desnianski, Dniprovski y Obolonski.
 
 Según el balance preliminar de las autoridades municipales, los daños en los sistemas de infraestructura crítica han interrumpido el abastecimiento de agua potable y la calefacción en varias zonas de la ciudad. Los servicios de emergencia trabajan sobre el terreno para evaluar el alcance total de los desperfectos y determinar si ha habido víctimas. La información disponible no incluye, por ahora, un recuento de heridos o fallecidos.

@@ -32,15 +32,7 @@ imagenes:
   pie: File image of a government building in Tallinn, Estonia's capital.
 ---
 
-Estonia will close all of its border crossings with Russia from 1 December after a suspected sabotage attack on a drone manufacturer over the weekend, according to The Guardian. The newspaper reported that the authorities said the operation was ordered by Russia's GRU, the country's military intelligence service.
-
-On Saturday morning, eight people were detained during an attempted attack on Threod Systems, a defence company that makes long-range attack and reconnaissance drones. The Guardian reported that no injuries or damage were recorded after the company's security team responded to the incident.
-
-Estonia's internal security service, Kapo, said on Sunday that the attack was meant to cause an explosion and set the building on fire. According to Estonia's public broadcaster ERR, as cited by The Guardian, authorities have asked a court to keep five of those detained in custody.
-
 The Estonian prime minister, Kristen Michal, said the closure was needed to reduce the risk of further attacks and to make clear that attacks on the country's defence industry and capabilities were unacceptable. He linked the attacks to Estonia's continued support for Ukraine. Michal argued that Russia wanted to frighten Estonia and weaken that support, and said Estonia would respond by strengthening its security, working more closely with businesses and allies, and increasing pressure on Russia.
-
-The foreign minister, Margus Tsahkna, backed the warning. "Russia must understand that hostile actions against Estonia come with consequences," he said, according to The Guardian.
 
 Estonia has three crossings with Russia: Narva in the north, and Koidula and Luhamaa in the south. The authorities did not say how long the closure would last.
 

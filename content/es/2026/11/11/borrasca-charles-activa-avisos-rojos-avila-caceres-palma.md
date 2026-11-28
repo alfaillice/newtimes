@@ -23,8 +23,6 @@ fuentes:
   url: https://www.europapress.es/sociedad/noticia-tiempo-hoy-espana-11-noviembre-2026-20261111083021.html
 ---
 
-La Agencia Estatal de Meteorología (AEMET) mantiene este miércoles avisos por lluvias, viento y oleaje en 14 comunidades autónomas y en Ceuta, por el paso de la borrasca Charles, según informa Europa Press. El nivel rojo se aplica por lluvias en Ávila y Cáceres y por viento en La Palma.
-
 Andalucía es una de las comunidades más afectadas. Cádiz y Huelva están en aviso naranja por lluvia, viento, tormentas y oleaje. Granada, Málaga y Sevilla tienen avisos por lluvia y viento, mientras que Jaén y Córdoba los tienen por viento, y Córdoba también por lluvia en nivel amarillo. Almería se encuentra en amarillo por lluvia y viento.
 
 En Canarias, La Palma combina su aviso rojo por viento con naranja por lluvias y oleaje. Gran Canaria y Tenerife están en naranja por viento y oleaje, y en amarillo por lluvia. El resto de islas, Lanzarote, Fuerteventura, La Gomera y El Hierro, tienen avisos naranja por viento y amarillo por oleaje y lluvia.

@@ -31,17 +31,9 @@ imagenes:
   pie: File image of freight lorries at a port, the kind of trade affected by customs and food checks.
 ---
 
-The United Kingdom will have a 'voice in the room' but no vote on European Union food policy under a planned 'Brexit reset' aimed at cutting red tape, EU relations minister Hamish Falconer told the BBC. According to the broadcaster, Prime Minister Andy Burnham hopes to agree the deal at a summit on Friday. Burnham has said he believes there is a 'win-win' arrangement to be had with the EU.
-
-Critics, the BBC reports, say the reset would leave the UK as a 'rule taker' rather than a rule maker. Falconer answered that Britain would take part in the process of shaping the rules, and argued that the deal could help bring prices down for shoppers.
-
-The reset would involve no upfront payments, Falconer said, but he left open the possibility of an 'exit clause' that would apply if a future UK government reversed the closer alignment. The BBC understands that the clause reflects EU concerns about the cost of rebuilding border food safety checks that were put in place after Brexit. Falconer said it was 'reasonable' to consider what a future Conservative or Reform government might do. According to the BBC, both parties have said they would undo the reset if they were in power.
-
 In September, the Conservative Party warned that British consumers and businesses would be 'dangerously exposed', with no input on how regulations are made and no power to reject them.
 
 Speaking at a Marks & Spencer food court in central London, Falconer said the deal would lower costs for firms importing food. 'This will mean less cost for supermarkets, and I hope that less cost then turns into cheaper produce on the shelves,' he said.
-
-He described the current paperwork as 'pages and pages' of form-filling, which he said had led some suppliers to stop exporting to the EU. Some products, such as Lincolnshire sausages, are almost impossible to export at all. According to the BBC, some M&S lorries need more than 300 pages of documents for food exports, and some consignments are rejected over the colour of ink on forms or an inaccurate Latin name for cooked meats. Cox apples from Kent must wait a day before entering the EU.
 
 Falconer said the reset could also remove checks on goods moving from Great Britain to Northern Ireland, as well as separate 'Not for EU' labelling. He put the additional value of the food part of the deal at £5bn. The whole agreement, due to be signed on Friday, is calculated to add 0.4% to UK GDP. It also includes aligning emissions trading rules and a youth mobility scheme.
 

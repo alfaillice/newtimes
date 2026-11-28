@@ -26,22 +26,12 @@ fuentes:
     url: https://www.aol.com/articles/european-shares-set-fall-global-072116000.html
 ---
 
-El Kospi de Seúl cerró este viernes con una caída del 6,02 %, hasta los 5.059,69 puntos, y el Nikkei de Tokio perdió un 5,96 %, hasta los 57.434,77, en una sesión dominada por la venta de valores ligados a la inteligencia artificial. El castigo se extendió a Europa: el Ibex 35 abrió con un retroceso del 1,16 %, hasta los 19.256,1 puntos, según EFE.
-
-La jornada fue especialmente dura en Corea del Sur. El Kospi abrió con pérdidas de más del 8 % y llegó a situarse por debajo de los 5.000 puntos, lo que activó a las 9.03, hora local, el mecanismo que suspende la negociación durante 20 minutos. Después recortó parte del descenso, pero se dejó 324,11 puntos. El índice había superado los 9.000 puntos en junio y vuelve así a niveles de comienzos de año, cuando el 27 de enero rebasó por primera vez la cota de los 5.000, recuerda EFE. El Kosdaq, el mercado de las tecnológicas de menor tamaño, bajó un 5,03 %.
-
 Los fabricantes de memorias, proveedores clave de los centros de datos, cargaron con el peso de la caída. SK Hynix se hundió un 10,44 % y su matriz, SK Square, un 10,51 %; Samsung Electronics terminó con un descenso del 6,35 %. Entre las pocas excepciones figuró Naver, que subió un 2,87 % respaldada por la inversión de 1.000 millones de dólares de Nvidia, que la convertirá en su tercer mayor accionista. El Gobierno surcoreano anunció que, desde el lunes y durante tres meses, dejará de exigir la garantía del 140 % en las compras de acciones a crédito, para evitar ventas forzosas.
 
 En Tokio, el Nikkei perdió 3.643,13 puntos y cayó por debajo de los 60.000 por primera vez en más de cinco meses. El Topix, el índice más amplio de la Bolsa japonesa, retrocedió un 5,9 %, hasta los 3.707,99 puntos.
 
 ## Por qué se vende
 
-El origen está en Wall Street, donde el Nasdaq se dejó el jueves un 5,52 %. Según EFE, los inversores temen que el control de las dos cámaras del Congreso de Estados Unidos por el Partido Demócrata, tras las elecciones de esta semana, se traduzca en más límites al desarrollo de la IA y en un freno a la inversión en centros de datos.
-
 ## El efecto en Europa
-
-En las bolsas europeas el golpe es menor. El Stoxx 600, que agrupa a las principales cotizadas del continente, bajaba un 1,6 % a las 9.10, hora peninsular, hasta los 644,72 puntos, y la mayoría de las plazas cedían más de un 1 %, según Reuters. La agencia sitúa entre los sectores más castigados a los medios de comunicación, la sanidad y la distribución, con caídas superiores al 2 %. Entre los valores ligados a los semiconductores, Siltronic bajaba un 2 % y ASM International, un 1,3 %.
-
-En Madrid, el tropiezo inicial reduce la ganancia acumulada del Ibex en 2026 al 11,26 %. Al mismo tiempo, el barril de Brent, de referencia en Europa, subía un 1,49 %, hasta los 99,73 dólares, según EFE.
 
 Las cifras europeas corresponden a los primeros compases de la sesión y pueden variar hasta el cierre; las asiáticas son ya definitivas.

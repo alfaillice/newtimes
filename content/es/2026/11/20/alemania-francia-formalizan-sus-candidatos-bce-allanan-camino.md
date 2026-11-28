@@ -29,8 +29,6 @@ imagenes:
   pie: Imagen de archivo de Christine Lagarde, presidenta del Banco Central Europeo.
 ---
 
-Francia y Alemania han formalizado este viernes las candidaturas de Laurence Boone y Markus Brunnermeier para ocupar dos puestos del Comité Ejecutivo del Banco Central Europeo que quedarán vacantes en los próximos meses. El movimiento consolida el entendimiento entre París y Berlín sobre la renovación de la cúpula de la institución y favorece las aspiraciones del exgobernador del Banco de España Pablo Hernández de Cos a suceder a Christine Lagarde en la presidencia, según informa Europa Press.
-
 El presidente del Eurogrupo, Kyriakos Pierrakakis, lo ha confirmado en un comunicado en el que señala que solo ha recibido estas dos candidaturas antes del cierre del plazo fijado para este viernes, 20 de noviembre. Ya ha trasladado los nombres al presidente del Consejo Europeo, António Costa, para que continúe el procedimiento de nombramiento.
 
 Boone es directora de Santander en Francia, antigua economista jefe de la Organización para la Cooperación y el Desarrollo Económicos (OCDE) y exsecretaria de Estado francesa de Asuntos Europeos. Aspira a sustituir a la alemana Isabel Schnabel al frente de las operaciones de mercado del BCE. Brunnermeier, economista alemán y profesor de la Universidad de Princeton, se perfila como sucesor del irlandés Philip Lane al frente del área económica.

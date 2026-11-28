@@ -28,8 +28,6 @@ El Gobierno del Reino Unido ha anunciado este martes un programa de drones, sens
 
 El anuncio lo ha hecho Luke Pollard, secretario de Estado para Adquisiciones de Defensa, que señaló que la inversión permite a la Marina Real detectar amenazas con más antelación y proteger la infraestructura crítica. Según explicó, la iniciativa también respalda a empresas e industria británicas, con hasta 200 puestos de trabajo asociados.
 
-El proyecto se enmarca en el programa Atlantic Bastion. Según recoge Europa Press, la tecnología que lo sustenta, conocida como Atlantic Net, servirá a la Marina para perseguir submarinos rusos, proteger la disuasión nuclear y salvaguardar la infraestructura submarina crítica.
-
 A largo plazo, el objetivo es crear una fuerza naval híbrida que combine buques tripulados y no tripulados. Pollard resumió así el planteamiento del Gobierno: «Las amenazas que acechan en el Atlántico Norte están cambiando, y nosotros cambiamos con ellas». El secretario de Estado confía en que el programa refuerce tanto la capacidad británica de disuasión submarina como la de carácter nuclear.
 
 La información disponible no detalla el calendario de entrega de los sistemas ni los plazos previstos para su despliegue en el Atlántico Norte. Tampoco precisa cómo se repartirán los puestos de trabajo entre las empresas que participen en el proyecto.

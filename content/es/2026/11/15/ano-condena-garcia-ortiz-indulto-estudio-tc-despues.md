@@ -23,8 +23,6 @@ fuentes:
   url: https://www.europapress.es/nacional/noticia-ano-condena-garcia-ortiz-indulto-mesa-gobierno-tc-estudiara-amparo-despues-29n-20261115115951.html
 ---
 
-El Gobierno tiene sobre la mesa la posibilidad de indultar a Álvaro García Ortiz, condenado por el Tribunal Supremo por revelación de secretos contra el empresario Alberto González Amador. El Tribunal Constitucional, por su parte, no resolverá el recurso de amparo del exfiscal general hasta después de las elecciones generales del 29 de noviembre, según fuentes jurídicas consultadas por Europa Press.
-
 El fallo se conoció el 20 de noviembre de 2025 y impuso a García Ortiz dos años de inhabilitación para el cargo, una multa de 7.200 euros y una indemnización de 10.000 euros para el empresario. La sentencia completa no se publicó hasta el 9 de diciembre. Las magistradas Ana Ferrer y Susana Polo formularon un voto particular discrepante. García Ortiz dimitió tras conocerse el fallo, en el cargo que ocupaba desde agosto de 2022.
 
 García Ortiz acató la condena, aunque en su carta de renuncia habló de su «profundo respeto» a las resoluciones judiciales. Como el Gobierno y el ala progresista del Parlamento, sostiene su inocencia. La Abogacía del Estado presentó en abril un recurso de amparo ante el Constitucional para que se anule la sentencia, y acusa al Supremo de valorar de forma arbitraria los indicios y de omitir pruebas de descargo. La Fiscalía, que durante el juicio había pedido absolverle, también pidió al Constitucional que anule el fallo, por considerar vulnerados sus derechos a un proceso con todas las garantías y a la legalidad penal.

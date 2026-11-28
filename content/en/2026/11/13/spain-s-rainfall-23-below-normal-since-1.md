@@ -23,8 +23,6 @@ fuentes:
   url: https://www.europapress.es/sociedad/noticia-espana-registra-79-m2-lluvias-acumuladas-octubre-23-menos-normal-20261113103838.html
 ---
 
-Spain has recorded 79 litres per square metre (l/m²) of rain since 1 October, the start of the hydrological year. That is 23 per cent below the normal figure for the period, which stands at 102 l/m², according to data from Spain's State Meteorological Agency (AEMET), as reported by the news agency Europa Press.
-
 The picture varies widely from region to region. Catalonia and parts of the Mediterranean coast, especially the Levante coastline in the east, are above normal, and in some places the totals are more than three times the normal value. In the west of the peninsula, rain over the past week has reduced the deficits, and some areas of western Castile and León and northern Extremadura now exceed normal levels.
 
 Deficits remain larger in Galicia, in the far north-west, and in western Andalusia, in the south. Wide stretches of the interior of the peninsula are also still below normal.

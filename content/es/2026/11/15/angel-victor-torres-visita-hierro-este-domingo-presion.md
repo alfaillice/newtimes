@@ -23,8 +23,6 @@ fuentes:
   url: https://www.europapress.es/islas-canarias/noticia-ministro-angel-victor-torres-desplaza-domingo-hierro-repunte-migratorio-padece-isla-20261115110904.html
 ---
 
-El ministro de Política Territorial, Ángel Víctor Torres, viaja este domingo a El Hierro para conocer la elevada presión migratoria que soporta la isla. Según informa Europa Press, a partir de las 13.00 horas visitará el puerto de La Restinga, principal punto de llegada de quienes alcanzan las islas.
-
 La visita se produce en un momento de alta presión en El Hierro y en el conjunto de Canarias. Solo el sábado, el centro de Salvamento Marítimo de Tenerife atendió a 1.324 personas migrantes, repartidas en hasta catorce embarcaciones irregulares interceptadas cerca de las islas.
 
 La situación también ha tenido consecuencias en la vida de la zona. Días antes de la visita, vecinos de La Restinga protestaron por los efectos sociales y económicos que, según recoge la agencia, ya sufren por el repunte migratorio.

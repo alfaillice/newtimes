@@ -30,8 +30,6 @@ imagenes:
   pie: Imagen de archivo de Beate Meinl-Reisinger, ministra austriaca de Asuntos Exteriores.
 ---
 
-Los Gobiernos de Países Bajos y Austria han denunciado este jueves daños en sus embajadas en Kiev tras el impacto de un proyectil en sus inmediaciones. Según recoge Europa Press, ninguna de las dos misiones registra heridos, y Ucrania atribuye los incidentes a Rusia.
-
 El ministro neerlandés de Asuntos Exteriores, Tom Berendsen, explicó que el proyectil cayó detrás de la embajada de su país, que sufrió daños leves en el edificio, mientras que su personal resultó ileso. Las autoridades investigan lo ocurrido. Después, en declaraciones a la cadena NOS, calificó lo sucedido de «inaceptable» y anunció que convocarán al embajador ruso en La Haya.
 
 Desde Austria, la ministra de Asuntos Exteriores, Beate Meinl-Reisinger, informó de que el proyectil impactó justo delante de su embajada, situada en el centro de la capital ucraniana y a unos tres kilómetros de la sede neerlandesa. Según su relato, el edificio resultó afectado, sin heridos, y ha ordenado adoptar medidas adicionales para proteger al personal diplomático y a los trabajadores de la misión.

@@ -26,15 +26,11 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/10/28/el-boe-publica-la-declaracion-de-luto-oficial-de-tres-dias-por-el-accidente-de-urda/
 ---
 
-Los heridos y las familias de los fallecidos en el choque de trenes de alta velocidad del pasado miércoles en Urda (Toledo) ya pueden pedir el primer adelanto de sus indemnizaciones. Renfe e Iryo, las dos operadoras cuyos convoyes colisionaron, han puesto en marcha este viernes los pagos anticipados junto a sus aseguradoras, según informó Europa Press a partir de fuentes de las compañías. La ley europea obliga a abonar al menos 21.000 euros por cada viajero fallecido; Iryo ha anunciado que pagará 35.000.
-
 ## Qué dice la norma
 
 Estos anticipos están previstos en el Reglamento (UE) 2021/782, sobre los derechos de los viajeros de ferrocarril. La empresa debe transferir el dinero en un plazo máximo de 15 días desde que se identifica a la persona con derecho a cobrarlo, y la cantidad mínima en caso de muerte es de 21.000 euros por pasajero. Se trata de un pago a cuenta para cubrir las necesidades económicas más urgentes: no supone que la operadora asuma la responsabilidad del accidente y se descontará de la indemnización definitiva.
 
 ## Cómo se solicita
-
-**Viajeros del tren de Iryo.** La compañía abonará 35.000 euros a los familiares de cada pasajero fallecido y un anticipo proporcional al daño sufrido a cada herido. Los pagos se tramitan a medida que llegan las peticiones, que se envían al correo buzonafectados6076@iryo.eu. Para las prestaciones del Seguro Obligatorio de Viajeros (asistencia sanitaria, indemnizaciones por muerte o incapacidad, repatriación y sepelio), Iryo atiende a víctimas y familiares en el teléfono gratuito 900 001 403 y en el formulario de la web iryo-sov.com, según detalló EFE.
 
 Iryo también devuelve el viaje de ida y vuelta al lugar del accidente, el alojamiento y la manutención de los familiares de fallecidos y heridos graves, con límites de tiempo. Para pedirlo hay que mandar al mismo buzón los datos bancarios, un documento que acredite el parentesco y las facturas.
 

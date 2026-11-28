@@ -24,8 +24,6 @@ fuentes:
 lugar: Washington
 ---
 
-El presidente de Estados Unidos, Donald Trump, afirmó este lunes que existen avances para poner fin a la guerra que su país lanzó contra Irán, según informa Europa Press. En una rueda de prensa desde la Casa Blanca, Trump sostuvo que el conflicto "va a terminar bastante pronto".
-
 Trump matizó que la acción militar no parece necesaria en este momento, pero dijo que las fuerzas estadounidenses están preparadas por si hay motivo para usarlas. Según explicó, Estados Unidos ha enviado un tercer portaaviones a la región como medida de precaución.
 
 El mandatario defendió también mantener el bloqueo naval impuesto a Irán en el estrecho de Ormuz. En un mensaje publicado en redes sociales, afirmó que los aliados árabes de Washington —citó a Qatar, Arabia Saudí, Emiratos Árabes Unidos, Bahréin y Kuwait— prefieren que se mantenga la situación actual, incluida la operación que denominó Puerta de Hierro.

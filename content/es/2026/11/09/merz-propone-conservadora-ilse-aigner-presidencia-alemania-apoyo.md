@@ -31,5 +31,3 @@ Merz tomó la decisión después de obtener el visto bueno de los socialdemócra
 La Presidencia alemana es un cargo sobre todo representativo. La elige la Asamblea Federal, formada por todos los miembros del Bundestag (la Cámara Baja del Parlamento) y por un número igual de representantes designados por los parlamentos de los 16 estados federados. La votación se celebrará el 30 de enero y elegirá al sucesor del actual presidente, Frank-Walter Steinmeier. Los partidos de la coalición de Gobierno, CDU/CSU y SPD, cuentan con una mayoría de unos 50 votos en la Asamblea.
 
 La CSU lleva tiempo respaldando a Aigner, y la presidencia del SPD también ha apoyado la candidatura. El partido ha argumentado que «es una política con experiencia y con los pies en la tierra». Por su parte, los Verdes han manifestado también su apoyo.
-
-Europa Press considera muy probable que la votación salga adelante en la primera vuelta. La decisión final corresponderá a la Asamblea Federal el 30 de enero.

@@ -38,6 +38,4 @@ En las demás secciones, *9 Temples to Heaven*, de Sompot Chidgasornpongse, gan�
 
 ## Una clausura sin gala
 
-La Seminci decidió el jueves suspender la gala de clausura, que iba a celebrarse este sábado por la tarde en el Teatro Calderón, en señal de respeto y solidaridad con las víctimas del accidente ferroviario de Toledo y sus familias, informó EFE. El acto en el que se leyó el palmarés, presentado por los codirectores del festival, Javier H. Estrada y Mariona Viader, comenzó con un recuerdo a los fallecidos y a José Luis Cienfuegos, último director del certamen, que murió en diciembre de 2025.
-
 El festival cierra esta edición con el estreno en España de *Hombre al agua*, de Gael García Bernal. Según un balance provisional de la organización, la 71.ª Seminci ha alcanzado los 100.000 espectadores en las salas de Valladolid y ha celebrado más de 120 coloquios.

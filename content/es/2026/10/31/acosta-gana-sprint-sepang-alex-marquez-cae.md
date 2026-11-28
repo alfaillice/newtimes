@@ -26,8 +26,6 @@ fuentes:
     url: https://es.motorsport.com/motogp/live-text/directo-vivo-carrera-sprint-sepang-malasia-motogp-2026-timing/1128174/
 ---
 
-Pedro Acosta (KTM) ganó este sábado la carrera al sprint del Gran Premio de Malasia de MotoGP, en el circuito de Sepang, por delante de Marc Márquez (Ducati) y Marco Bezzecchi (Aprilia), según EFE. El murciano completó las diez vueltas en 20:04.098 y cruzó la meta con 578 milésimas de ventaja sobre el líder del Mundial, de acuerdo con la clasificación que publica Autosport. Es su segunda victoria en una carrera al sprint.
-
 La prueba perdió pronto a su favorito. Àlex Márquez (Gresini-Ducati), que partía desde la pole, se cayó cuando iba en cabeza y quedó fuera tras completar dos vueltas. Crash.net señala que no está claro si la caída tuvo relación con la bandera blanca que se mostró al principio por la amenaza de lluvia.
 
 Con el menor de los Márquez fuera, el japonés Ai Ogura (Aprilia) heredó el primer puesto y lo mantuvo hasta que Acosta lo adelantó a tres vueltas del final, según el relato de Crash.net. Marc Márquez siguió al piloto de KTM y también superó a Ogura, que en la última vuelta cedió además la tercera plaza ante Bezzecchi, de acuerdo con la retransmisión escrita de Motorsport.com. Ogura acabó cuarto, a 1,793 segundos del ganador.

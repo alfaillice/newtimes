@@ -24,13 +24,7 @@ Marc Márquez (Ducati) fue el más rápido este viernes en el Gran Premio de Mal
 
 El líder del campeonato ya había marcado el mejor tiempo en los libres de la mañana (FP1) y confirmó su ritmo por la tarde, en la sesión que reparte las plazas directas para la segunda fase de la clasificación (Q2). Por detrás de los dos hermanos se situaron el japonés Ai Ogura (Aprilia), a 167 milésimas; Pedro Acosta (KTM), a 380; Fabio Di Giannantonio (Ducati), a 442, y Marco Bezzecchi (Aprilia), a 475.
 
-Completaron el grupo de los diez primeros Enea Bastianini, Maverick Viñales —ambos con KTM—, Franco Morbidelli (Ducati) y Joan Mir (Honda), décimo a 618 milésimas. Según EFE, Viñales se clasifica por primera vez esta temporada directamente para la Q2, y Mir lo consigue en su regreso al campeonato.
-
 Fuera de ese corte quedaron Johann Zarco (Honda) y Francesco Bagnaia (Ducati), undécimo y duodécimo después de sufrir sendas caídas, y Diogo Moreira (Honda), decimotercero tras haber liderado momentáneamente con 1:57.913. Los pilotos clasificados a partir de la undécima posición tendrán que disputar la Q1 para pelear por las dos últimas plazas de la Q2.
-
-Jorge Martín llegó a Sepang con el visto bueno médico, aunque, según Europa Press, físicamente mermado por la caída que sufrió en Australia. Su mejor vuelta fue de 1:59.670, la vigesimoprimera y última de la sesión. Las agencias difieren en cuántas vueltas completó: Europa Press habla de dos y EFE, de tres.
-
-EFE detalla que el madrileño se llevó un susto en la curva 12 en su tercer giro, regresó al garaje y, tras hablar con el director médico y con su equipo, optó por no volver a la pista para descansar de cara al sábado. Europa Press añade que el piloto de Aprilia afronta el fin de semana con el objetivo de sumar puntos en la lucha por el campeonato.
 
 En Moto2, el líder del Mundial, Manuel González, marcó el mejor tiempo (2:03.737), por delante de Alonso López y Daniel Holgado. En Moto3 mandó David Almansa (2:11.427), seguido del finlandés Rico Salmela y del indonesio Veda Pratama.
 

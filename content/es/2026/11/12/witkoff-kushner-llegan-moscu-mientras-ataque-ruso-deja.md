@@ -29,8 +29,6 @@ fuentes:
 lugar: Moscú
 ---
 
-Los enviados especiales de Estados Unidos Steve Witkoff y Jared Kushner llegaron este jueves por la mañana a Moscú para reunirse con el presidente ruso, Vladímir Putin, con el objetivo de explorar posibles vías para poner fin a la guerra en Ucrania. Según Europa Press, la delegación aterrizó en el aeropuerto de Vnukovo, donde la recibió Kirill Dimitriev, representante especial de Putin para la inversión y la cooperación económica internacional. Después se trasladó al hotel Four Seasons, cerca del Kremlin, según informó la agencia rusa Tass.
-
 La visita sigue a la reanudación de las conversaciones trilaterales entre Rusia, Ucrania y Estados Unidos, celebradas en Abu Dabi el martes y el miércoles. Según la misma fuente, era la primera vez en nueve meses que las delegaciones de Ucrania y Rusia retomaban los contactos con la mediación estadounidense, y el resultado principal fue un intercambio de prisioneros a gran escala.
 
 El asesor presidencial ruso Yuri Ushakov confirmó que el encuentro con Putin tendría lugar por la mañana y dijo que se desarrollaría «como de costumbre», en términos protocolarios. Añadió que se abordarían cuestiones relacionadas con el fin de las hostilidades. Kushner avanzó que él y Witkoff trasladarían al presidente ruso los asuntos tratados en Abu Dabi.

@@ -23,19 +23,13 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/10/26/un-443-de-la-poblacion-tenia-en-espana-seguro-de-decesos-al-acabar-2025-segun-unespa/
 ---
 
-Despedir a un familiar en España cuesta entre unos 3.000 euros y algo más de 5.600, en función de la capital de provincia donde se celebre el sepelio. Así lo recoge un estudio del comparador de tarifas Selectra, difundido por la agencia EFE este sábado, en vísperas de Todos los Santos. La capital más cara es Segovia, con 5.664 euros, y la más barata, Santa Cruz de Tenerife, con 3.021 euros. Entre ambos extremos hay una diferencia de más de 2.600 euros, casi el doble.
-
 El cálculo suma dos bloques de gasto. Por un lado, los servicios de la funeraria: el féretro, la tanatoestética, el coche fúnebre, la sala de velatorio y la organización del servicio. Por otro, los del cementerio: la inhumación o la incineración y la concesión de la sepultura.
 
 ## En qué se va el dinero
 
-La asociación de consumidores Asescon ofrece un desglose orientativo con precios medios por concepto, según recoge EFE. El ataúd es la partida más cara, con unos 1.200 euros, seguido del cementerio, el nicho y la inhumación, con unos 800 euros. El tanatorio ronda los 600 euros; el traslado y el coche fúnebre, unos 400; la preparación del cuerpo, unos 300; los trámites administrativos, unos 250; las flores y coronas, unos 200, y la ceremonia, alrededor de 100 euros.
-
 Para cubrir ese gasto, las aseguradoras toman como referencia un capital medio de unos 4.000 euros, según el mismo estudio de Selectra.
 
 ## Un seguro con casi 22 millones de asegurados
-
-El seguro de decesos es uno de los más extendidos en España. Al cierre de 2025 lo tenían 21,8 millones de personas, el 44,3 % de la población, según los datos que la patronal del seguro, Unespa, publicó el pasado lunes y que recogió EFE. Las aseguradoras gestionaron ese año casi 294.000 inhumaciones, lo que supone que el 65,4 % de las defunciones registradas en el país estaban cubiertas por una póliza.
 
 La implantación es muy desigual por territorios. Cádiz encabeza la lista, con un 75,6 % de habitantes asegurados, por delante de Ávila (72,6 %), Ciudad Real (72 %) y Badajoz (70,2 %). En el extremo contrario están Teruel (20 %), Soria (20,3 %) y Baleares (21 %). La cobertura también crece con la edad: entre los menores de 35 años se sitúa entre el 30 % y el 40 %.
 

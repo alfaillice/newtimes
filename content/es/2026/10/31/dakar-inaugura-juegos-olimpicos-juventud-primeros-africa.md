@@ -25,13 +25,7 @@ fuentes:
 
 Dakar inaugura este sábado los IV Juegos Olímpicos de la Juventud, la primera cita olímpica que organiza un país africano, con una ceremonia en el estadio Abdoulaye Wade de Diamniadio, a las afueras de la capital senegalesa. El acto contará con la presencia de la presidenta del Comité Olímpico Internacional (COI), la zimbabuense Kirsty Coventry.
 
-Hasta el 13 de noviembre, unos 2.700 deportistas de entre 14 y 17 años, con paridad entre chicos y chicas, disputarán 153 pruebas de 25 deportes: 73 masculinas, 73 femeninas y 7 mixtas. El wushu y el béisbol 5 se estrenan en el programa, que se completa con diez deportes de exhibición sin medallas, entre ellos el surf, la escalada y el golf. Las primeras medallas se repartirán el domingo 1 de noviembre, en natación y judo, según EFE.
-
 La competición se reparte entre ocho sedes en tres zonas: Dakar; Diamniadio, unos 30 kilómetros al este, donde se aloja la villa olímpica en el campus universitario Amadou Mahtar Mbow; y la localidad costera de Saly, a unos 80 kilómetros al sur. La organización ha puesto a la venta más de 960.000 entradas.
-
-Los Juegos llegan con cuatro años de retraso. Estaban previstos para 2022, pero se aplazaron a 2026 por el impacto de la pandemia de covid-19. «Es la hora de África, es la hora de Senegal», dijo Coventry, según recoge EFE.
-
-En esta edición participa por primera vez un equipo de refugiados, formado por seis deportistas (tres chicos y tres chicas) procedentes de Kenia y Uganda. EFE señala además que el estreno coincide con protestas por una ley aprobada este año en Senegal que endurece las penas contra las relaciones homosexuales.
 
 ## La delegación española
 

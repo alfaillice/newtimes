@@ -29,14 +29,6 @@ imagenes:
   pie: Imagen de archivo de estudiantes en Corea del Sur.
 ---
 
-Un candidato que obtuvo la mejor puntuación en el examen nacional para aspirantes a contable fiscal de Corea del Sur ha reconocido que copió con ayuda de inteligencia artificial, según publica The Guardian. El hombre, identificado por su apellido, Han, pidió perdón este domingo en un vídeo publicado en el canal de YouTube del abogado Lee Don-ho. Según el diario británico, también presentó por escrito su confesión ante la policía de Seúl, a través de su abogado.
-
-Según The Guardian, Han quedó primero en las dos convocatorias del examen, celebradas en abril y julio. En la primera obtuvo 397,5 puntos sobre 400, con una sola respuesta incorrecta de 160 preguntas. Esos resultados llevaban meses despertando sospechas, y ya se le habían acusado de usar unas gafas inteligentes, algo que al principio negó.
-
-El diario explica que el candidato describió su método: fotografiar las preguntas con una microcámara, enviarlas a una herramienta de IA y consultar las respuestas en un teléfono móvil. Según The Guardian, la confesión incluye la declaración de que «hice trampa con dispositivos electrónicos e inteligencia artificial generativa», y añade que su aprobado no fue fruto de un esfuerzo justo.
-
 El caso ha sacudido a un país en el que los exámenes estandarizados determinan en buena medida la movilidad social y la trayectoria profesional. Llega además a pocos días del examen nacional de acceso a la universidad, que se celebra el próximo jueves y para el que muchos estudiantes llevan años preparándose.
 
 La Oficina Presidencial considera el asunto muy grave, según recoge el diario, y su jefe de gabinete para políticas convocará esta tarde una reunión de urgencia. La policía de Seúl confirmó que ha recibido la confesión escrita y que el caso se ha asignado a investigadores. Por su parte, el primer ministro, Han Seong-sook, reconoció el viernes la preocupación pública por el fraude asistido por IA, y su oficina aseguró que el Gobierno preparará el proceso con antelación y lo supervisará hasta el final para que el examen universitario sea justo y estable.
-
-Por ahora, la investigación corre a cargo de la policía. The Guardian no detalla qué medidas concretas adoptará el Gobierno para el examen del jueves más allá de las declaraciones citadas.

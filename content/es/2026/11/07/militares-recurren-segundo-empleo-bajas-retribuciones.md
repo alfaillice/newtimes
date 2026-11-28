@@ -23,8 +23,6 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/02/22/el-observatorio-de-la-vida-militar-lleva-al-congreso-un-informe-que-constata-el-deficit-cronico-de-militares-en-espana/
 ---
 
-Un número creciente de militares españoles compagina su destino en las Fuerzas Armadas con un segundo trabajo para llegar a fin de mes. Así lo recoge el informe correspondiente a 2025 del Observatorio de la Vida Militar, el órgano adscrito a las Cortes Generales que vigila las condiciones de los profesionales de los Ejércitos, según ha informado EFE este sábado. El documento advierte de que ese pluriempleo puede afectar a la disponibilidad de los militares para el servicio.
-
 Pese a las subidas salariales de 2025, el Observatorio señala que el sueldo sigue figurando entre las principales quejas del personal y califica las retribuciones de «insuficientes».
 
 ## Dietas, vivienda y traslados
@@ -44,5 +42,3 @@ En conciliación, 28.828 militares se acogieron a alguna medida, algo menos que 
 Para frenar esta tendencia, el Observatorio propone elevar la plantilla de las Fuerzas Armadas hasta los 140.000 efectivos.
 
 ## Un déficit que viene de atrás
-
-La propuesta enlaza con el diagnóstico del informe anterior que el mismo organismo llevó al Congreso en febrero para exponerlo ante la Comisión de Defensa. Entonces, según recogió Europa Press, el Observatorio cifró el déficit «crónico» de personal entre 13.000 y 23.000 militares, según la referencia que se tome, porque a comienzos de 2025 había 116.739 efectivos en activo, por debajo de la horquilla de 130.000 a 140.000 que marca la Ley de la Carrera Militar. Entre 2010 y 2025, las Fuerzas Armadas perdieron 13.300 militares profesionales, según ese documento.

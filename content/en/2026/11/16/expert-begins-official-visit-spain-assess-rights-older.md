@@ -29,8 +29,6 @@ imagenes:
   pie: File image of central Madrid, one of the regions on the expert's itinerary.
 ---
 
-Zvezdan Pirtosek, the United Nations Independent Expert on the enjoyment of all human rights by older persons, begins an official visit to Spain on Monday 16 November. The visit is scheduled to run until 27 November 2026, according to a report by the Spanish news agency Europa Press.
-
 The purpose of the visit is to assess how national and international human rights standards are being applied to guarantee older people the full enjoyment of their rights in Spain. Pirtosek will identify good practice and areas where improvement is needed, and he will then make recommendations on how to tackle the existing challenges, in line with international human rights law and relevant international standards.
 
 He will travel to five regions: Madrid, the Basque Country, Catalonia, the Valencian Community and Galicia. In each of them he plans to meet government authorities, representatives of civil society, care and support networks, and older people themselves, in order to gather a range of perspectives and lived experience.

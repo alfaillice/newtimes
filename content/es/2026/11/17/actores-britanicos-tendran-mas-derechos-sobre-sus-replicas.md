@@ -29,11 +29,7 @@ imagenes:
   pie: Imagen de archivo de los estudios Pinewood, en Reino Unido.
 ---
 
-Los actores del Reino Unido tendrán más derechos sobre sus «réplicas digitales», es decir, versiones generadas por ordenador de su imagen o de su cuerpo que pueden sustituir su presencia física en pantalla. Así lo recoge The Guardian, que informa de un nuevo acuerdo sobre protecciones frente a la inteligencia artificial (IA) logrado por el sindicato de actores Equity con los productores de cine y televisión.
-
 Según el diario, el pacto de tres años reconoce a los intérpretes el derecho a cobrar cuando se use su réplica digital y a decidir si se utiliza o no. Si se emplea un doble digital o una alteración digital para hacer «cambios sustanciales» en escenas con desnudos o actividad sexual simulada previamente pactadas, será necesaria la aprobación del actor. El acuerdo también establece que los productores no podrán usar una réplica durante una huelga cuando para ese uso se requiera consentimiento. Además, los contratos deberán dejar claro que la autorización se concede para un proyecto concreto y no como un consentimiento general.
-
-El texto se negoció durante años con la patronal Producers Alliance for Cinema and Television (Pact). El Guardian recuerda que el pasado diciembre, en una consulta indicativa, el 99 % de los afiliados de Equity votó a favor de emprender acciones de protesta y de negarse a ser escaneados en el rodaje sin nuevas garantías frente a la IA. La preocupación en los platós ha crecido: muchos actores temen que los datos de esos escaneos sirvan para entrenar modelos de IA con su imagen o sus poses, lo que podría acabar restándoles trabajo. La actriz Olivia Williams declaró al diario el año pasado que los intérpretes deberían tener sobre los datos de sus escaneos corporales el mismo control que sobre las escenas con desnudos.
 
 El acuerdo también incluye mejoras económicas: las tarifas suben un 24 % en las grandes películas y un 9 % en los proyectos de televisión. Asimismo, contempla espacios seguros para los castings y las audiciones, formación e informes sobre acoso sexual, y la obligación de ofrecer a los artistas de todas las etnias y culturas servicios adecuados de peluquería y maquillaje.
 

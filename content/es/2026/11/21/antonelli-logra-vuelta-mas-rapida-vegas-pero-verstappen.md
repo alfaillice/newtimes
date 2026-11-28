@@ -29,15 +29,9 @@ imagenes:
   pie: Imagen de archivo de Kimi Antonelli, piloto de Mercedes.
 ---
 
-Según publica BBC Sport, Kimi Antonelli (Mercedes) firmó el mejor tiempo de la clasificación del Gran Premio de Las Vegas, con 1:33.893, pero una sanción en parrilla le hará salir sexto y dejará la pole a Max Verstappen (Red Bull). El italiano batió al neerlandés por 0,258 segundos. La penalización, de cinco puestos, se debe a que utilizó más componentes de motor de los permitidos.
-
 La vuelta de Antonelli tuvo una preparación poco convencional. Según la misma fuente, rodó al final del pelotón y aprovechó al máximo el rebufo de los coches que tenía delante. Su última tanda empezó mal, porque se enredó con los Alpine y los Racing Bulls mientras buscaban la mejor posición en pista para aprovechar la estela. Terminó como último piloto en salir a rodar y cruzó la línea de meta con apenas un segundo de margen antes de la bandera a cuadros, por detrás de Arvid Lindblad.
 
-BBC Sport explica que, en el circuito de Las Vegas, ir tan pegado al coche de delante, algo que normalmente supone un inconveniente, amplificó el efecto del rebufo. Antonelli, al saber que estaba en la pole, atribuyó el resultado a esa estela, y explicó que al inicio de la vuelta llegó a pensar que todo estaba perdido.
-
 Verstappen, que según la fuente ha ganado dos de las tres ediciones disputadas del Gran Premio de Las Vegas, reconoció que ha tenido problemas extraños con el coche, similares a los que sufrió en Brasil. Valoró que su clasificación fue sólida y que tener la primera fila es positivo para su equipo. Destacó, además, lo mucho que se gana en las rectas gracias a la estela, aunque en las curvas sufrió por el aire sucio.
-
-George Russell, compañero de Antonelli en Mercedes, quedó a 0,073 segundos de Verstappen y saldrá junto al neerlandés en la primera fila. Según BBC Sport, Russell llegó a estar en la lucha por la pole, pero se mostró satisfecho con su rendimiento y con la jornada en general. Lando Norris, cuarto en la clasificación, saldrá tercero, por delante de Isack Hadjar (Red Bull). Por detrás, Liam Lawson partirá séptimo, Pierre Gasly octavo y Franco Colapinto noveno.
 
 Los Ferrari quedaron eliminados en la segunda fase de la clasificación y se situaron undécimo y duodécimo. Charles Leclerc terminó por delante de Lewis Hamilton, con una diferencia de 0,056 segundos, pero ambos explicaron problemas distintos. Leclerc habló de una clasificación muy mala, con una pérdida de un segundo en las rectas, y atribuyó su error en la segunda fase a sí mismo. Hamilton describió una jornada complicada, con poco agarre, daños en el suelo del coche y un problema con el despliegue de energía que, según dijo, le hizo perder 0,6 segundos.
 

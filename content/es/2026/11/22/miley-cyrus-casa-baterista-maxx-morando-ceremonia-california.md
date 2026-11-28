@@ -40,6 +40,4 @@ Cyrus, de 33 años, ya estuvo casada con el actor australiano Liam Hemsworth. Se
 
 El compromiso con Morando, de 28 años, lo confirmó la cantante el año pasado en una entrevista con el programa estadounidense Good Morning America. Cyrus explicó que Morando le pidió matrimonio durante un viaje a Asia y que la sorprendió por completo. Morando, por su parte, contó en una entrevista con la publicación Wonderland que tuvo que ser muy sigiloso para guardar el secreto: primero viajaron a Tokio durante un par de días y después a Kyoto, y dejó la propuesta para el último momento del último día, para despistarla todo lo posible.
 
-En 2023, Cyrus explicó a British Vogue que ambos se conocieron tras una cita a ciegas. Morando es el baterista de Liily, una banda de rock alternativo con sede en Los Ángeles y vinculada a Atlantic Records, según la web del grupo. En 2022, Liily participó en la fiesta de Nochevieja que NBC emitió con Cyrus como anfitriona, junto a músicos como David Byrne y Dolly Parton, madrina de la cantante, fallecida tiempo después.
-
 Morando y Cyrus interpretaron juntos el mes pasado «Let's Get Married» en el Hollywood Bowl. La canción aparece en Bass Persuades, el último álbum de estudio de la cantante, que también es autora de éxitos como «Flowers» y «Party in the U.S.A».

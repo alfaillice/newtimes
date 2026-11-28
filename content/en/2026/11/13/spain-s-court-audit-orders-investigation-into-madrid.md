@@ -25,8 +25,6 @@ fuentes:
 lugar: Madrid
 ---
 
-Spain's Court of Audit, the body that oversees how public money is spent, has ordered an investigation into the purchase of a penthouse in Madrid by a public company of the Community of Madrid, the regional government. The court found signs that the €6.3m deal could have caused a real loss to public funds, according to a ruling seen by Europa Press.
-
 The property, a penthouse on the top floor of number 35 General Martínez Campos street, was bought on 14 April by Planifica Madrid, a public company that depends on the regional government. The flat covers about 485 square metres, of which around 199 are terrace. The complaints behind the case argue that the purchase lacked adequate justification, that no prior needs assessment existed, and that the price was above market value.
 
 According to the ruling, the deal went ahead without a formal request from the regional government or a justifying report setting out why the building was needed. That report was drawn up on 2 July, almost three months after the sale. The regional government later said the flat would be used as an institutional space, with work areas, rest rooms and occasional accommodation for authorities. The court questions whether that purpose fits Planifica's articles of association, which link property purchases to the work of regional departments and agencies.
@@ -44,5 +42,3 @@ The court points out that the first sale tender was declared void for lack of bi
 The court has sent the file to its Sección de Enjuiciamiento, the section that handles proceedings on accounting liability, so that it proposes an investigating officer. That officer will establish whether the purchase had a legally justified public purpose and whether it caused financial harm. Spain's public prosecutor's office, the Ministerio Fiscal, supported continuing the case and asked twice for an investigating officer to be appointed.
 
 The regional government and Planifica had asked for the case to be dismissed. They argued that the purchase fell within the company's activity, that its chief executive had sufficient powers to complete it, and that public funds had not suffered real damage. The court rejected that request. In its ruling, it states that the decision "does not prejudge" the existence of irregularities or accounting liability, which the investigation must determine.
-
-The case was brought by several complainants. The Más Madrid parliamentary group in the regional assembly, the Madrid parliament, and its spokesperson have joined it, as have two other public actors, including the lawyer Javier Flores. Flores told Europa Press, in remarks translated from Spanish, that "the Community of Madrid wanted to bury this without anyone looking at the papers." The reporting does not say how long the investigation will take.

@@ -24,8 +24,6 @@ fuentes:
   url: https://www.europapress.es/internacional/noticia-brote-ebola-cumple-seis-meses-mas-mortal-rdc-medio-problemas-contenerlo-20261114083148.html
 ---
 
-El brote de ébola declarado en la República Democrática del Congo (RDC) el 15 de mayo cumple seis meses convertido en el más mortal de la historia del país. Según el Instituto Nacional de Salud Pública (INSP), citado por Europa Press, la epidemia ha confirmado en torno a 11.200 casos y unos 5.500 muertos. Es, además, el segundo brote más letal registrado en el mundo, por detrás del de África occidental de 2014-2016.
-
 La autoridad sanitaria declaró el brote en Ituri, en el noreste del país, y lo atribuyó a la cepa Bundibugyo, para la que no existe vacuna ni tratamiento aprobado. Desde entonces se ha extendido a otras siete provincias y se han registrado casos vinculados en Uganda, Kenia y Nigeria. La Organización Mundial de la Salud (OMS) lo declaró Emergencia de Salud Pública de Importancia Internacional dos días después de su declaración.
 
 La velocidad de la expansión preocupa a los organismos internacionales. La barrera de los mil contagios se superó en los primeros 40 días, frente a los más de 230 que hicieron falta en el brote de 2018-2020, que dejó 3.470 casos y 2.280 muertos. Según las proyecciones recogidas por la agencia, esta epidemia podría superar el balance de 2014-2016 en Guinea, Liberia y Sierra Leona, que sumó 28.616 casos y 11.325 fallecidos. La cepa es menos mortífera que la Zaire, cuya mortalidad ronda el 40 %.

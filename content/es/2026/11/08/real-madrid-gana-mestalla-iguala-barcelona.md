@@ -32,8 +32,6 @@ Valverde abrió el marcador en el minuto 28: una falta frontal de Mbappé golpe�
 
 El Valencia dispuso de su ocasión más clara en torno al minuto 19, en una volea de Mayol que detuvo Courtois, y vio cómo se anulaba por fuera de juego un gol de Guido. Tras el descanso, Javier Aguirre dio entrada a Luis Rioja y cambió el sistema, sin que su equipo ganara presencia arriba. En el minuto 79, Gayà fue expulsado por derribar a Mbappé cuando el francés salía a la contra. El encuentro, dirigido por Francisco José Hernández, reunió a 47.914 espectadores.
 
-Salvo que la Copa del Rey vuelva a emparejarlos, fue el último Valencia-Real Madrid en el actual Mestalla, antes del traslado al Nou Mestalla previsto para el verano de 2027, según EFE. El conjunto de Aguirre aún no ha ganado en su estadio en esta Liga.
-
 Mourinho dijo tras el partido que, desde su experiencia, «este equipo huele bien», y calificó el parón de selecciones que llega ahora como su «única preocupación», por el riesgo de que sus futbolistas se incorporen a sus combinados con fatiga acumulada.
 
 Tras los partidos del sábado, según la clasificación que publica el Real Madrid en su web, el Barcelona figura primero con 30 puntos en 11 partidos. El conjunto blanco es segundo con los mismos puntos y un encuentro más. El Atlético es tercero con 28 puntos en 11 partidos. El Betis, cuarto, tiene 23. En la parte baja, el Valencia es penúltimo con 9 puntos y solo el Málaga, con 5, tiene menos.

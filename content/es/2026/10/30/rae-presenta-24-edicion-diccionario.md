@@ -36,6 +36,4 @@ El diccionario cambia además su forma de ordenar los significados: las acepcion
 
 El director de la RAE, Santiago Muñoz Machado, describió esta edición como la primera nacida en digital: la versión impresa se ha elaborado a partir de la electrónica, y no al revés. Como palabra común a todas las academias se eligió *tolerancia*.
 
-En una entrevista con EFE, Muñoz Machado defendió el papel descriptivo de la obra: «El diccionario no prohíbe a la gente hablar como quiera».
-
 La edición impresa, publicada por Espasa, ocupa dos volúmenes con 3.606 páginas. La versión en línea añade apartados de sinónimos y antónimos.

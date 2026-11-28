@@ -29,8 +29,6 @@ imagenes:
   pie: Imagen de archivo del ministro del Interior, Fernando Grande-Marlaska.
 ---
 
-El Ministerio del Interior y la Fundación UNICEF Comité Español han firmado este viernes un protocolo general de actuación para reforzar la protección de la infancia en situaciones de riesgo, emergencia o catástrofe. El documento lo suscribieron el ministro del Interior, Fernando Grande-Marlaska, y la presidenta de UNICEF España, María Ángeles Espinosa, según informa Europa Press.
-
 El acuerdo crea un marco de colaboración institucional que pasa por la Secretaría General de Protección Civil y Emergencias. Su objetivo es que el enfoque de infancia y adolescencia esté presente en las políticas y actuaciones de protección civil y de gestión de emergencias. Ambas partes se comprometen a intercambiar conocimiento especializado, a asesorarse mutuamente y a impulsar iniciativas conjuntas.
 
 Entre las líneas previstas figura la inclusión de contenidos sobre derechos de la infancia y la adolescencia en los programas de formación del personal que integra el Sistema Nacional de Protección Civil. También se contempla mejorar los instrumentos jurídicos y operativos para que ese enfoque se incorpore a los procedimientos ante emergencias.

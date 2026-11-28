@@ -41,11 +41,7 @@ fuentes:
   url: https://www.jpl.nasa.gov/images/pia26147-six-deep-space-network-antennas-in-madrid-arrayed-for-the-first-time
 ---
 
-La antena DSS-63, la mayor del complejo de la NASA en Robledo de Chavela (Madrid), con 70 metros de diámetro, mantenía este jueves 19 de noviembre, pasadas las 11.16 (hora peninsular), una conexión de bajada activa con la Voyager 1 y estaba descargando sus datos, según publica El País. El diario localizó la recepción en los registros que difunde la propia NASA. Las ondas de radio captadas en Madrid habían salido de la sonda unas 24 horas antes, justo cuando la nave había alcanzado una distancia de un día luz de la Tierra, algo que ningún otro objeto fabricado por el ser humano ha logrado.
-
 Un día luz es el trecho que recorre la luz en 24 horas. Según los datos de la NASA, la Voyager 1 llegó a ese punto el miércoles 18 de noviembre a las 2.16.07, hora del Pacífico (las 11.16.07 en la España peninsular), cuando se encontraba a unos 25.902 millones de kilómetros de la Tierra.
-
-El País añade que, según las estimaciones de la agencia espacial, la señal emitida en ese momento debía llegar a Robledo a las 11.16.09 de este jueves, y que la conexión registrada se produjo un par de segundos más tarde. El periódico atribuye esa pequeña diferencia a que la Tierra, que también se mueve, se alejó de la nave mientras la señal viajaba hacia ella. El diario no detalla qué información concreta transmitió la sonda en esa sesión.
 
 ## Una de las tres puertas de la NASA al espacio profundo
 

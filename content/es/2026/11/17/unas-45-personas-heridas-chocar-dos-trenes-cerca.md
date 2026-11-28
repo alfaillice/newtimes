@@ -30,8 +30,6 @@ imagenes:
   pie: Imagen de archivo de un tren de Ferrocarriles Checos.
 ---
 
-Alrededor de 45 personas han resultado heridas este martes al colisionar dos trenes en los alrededores de la Estación Central de Praga, en República Checa, según informa Europa Press. El accidente se produjo en torno a las 7.00 horas en un puente de la capital, situado a escasos metros de la principal estación ferroviaria.
-
 La colisión ha provocado la suspensión del tráfico en la capital checa. Por ahora no se conocen las causas del choque.
 
 Según la misma agencia, citando a la emisora checa Radio Praga, el portavoz de los servicios de emergencia, Karel Kirs, indicó que varios de los heridos se encuentran en estado grave, algunos con riesgo para sus funciones vitales. Por ello, la información no descarta que haya fallecidos. La cifra de heridos se ofrece como aproximada, y el balance de los casos graves y de posibles víctimas mortales sigue pendiente de confirmarse.

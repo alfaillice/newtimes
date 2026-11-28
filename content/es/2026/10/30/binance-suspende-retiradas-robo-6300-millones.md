@@ -23,8 +23,6 @@ fuentes:
 
 Binance, la mayor plataforma de intercambio de criptomonedas del mundo, ha suspendido temporalmente todos los depósitos y retiradas después de sufrir un ataque informático con un impacto estimado de unos 6.300 millones de dólares, unos 5.500 millones de euros. La compañía lo confirmó en la madrugada de este viernes.
 
-La mayor parte del robo se produjo en unos 20 minutos a última hora del jueves, según la información recogida por Reuters. Binance afirma haber localizado ya alrededor de 3.000 millones de dólares y trabaja con otras empresas para congelarlos. Tether ha bloqueado unos 1.600 millones vinculados al ataque, y Circle, más de 800 millones en su moneda estable USDC.
-
 Si se confirman las cifras, sería el mayor robo de criptomonedas registrado, más de cuatro veces superior al sufrido por la plataforma Bybit en febrero de 2025, de unos 1.500 millones de dólares.
 
 ## Cómo entraron

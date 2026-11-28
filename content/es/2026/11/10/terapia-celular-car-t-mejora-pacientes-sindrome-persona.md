@@ -23,13 +23,9 @@ fuentes:
   url: https://www.theguardian.com/science/2026/nov/09/medical-breakthrough-offers-hope-to-people-with-same-stiff-person-syndrome-as-celine-dion
 ---
 
-Según publica The Guardian, un equipo de neurólogos de Estados Unidos que prueba una inmunoterapia experimental ha informado de mejoras notables en pacientes con síndrome de la persona rígida, una enfermedad rara y autoinmune que ataca el sistema nervioso central. Los resultados se han publicado en la revista JAMA Neurology.
-
 El síndrome de la persona rígida (SPS, por sus siglas en inglés) provoca una rigidez incapacitante en todo el cuerpo y espasmos musculares dolorosos. Pese a décadas de investigación, no tiene cura.
 
 El tratamiento, llamado CAR-T, ya se emplea contra algunos cánceres y consiste en reprogramar las células inmunitarias del paciente para que combatan la enfermedad. En el estudio, según el diario británico, se extrajeron los linfocitos T de los propios pacientes y se modificaron para eliminar las células que causan el trastorno.
-
-Sean Pittock, jefe del departamento de neurología de Mayo Clinic, señaló que esta terapia ya ha transformado el tratamiento de algunos cánceres y que ahora empieza a verse su potencial en enfermedades neurológicas autoinmunes. The Guardian recoge también que Pittock considera que estos resultados podrían ser útiles para otros pacientes con afecciones neurológicas mediadas por el sistema inmunitario.
 
 Entre los participantes está Jonathan Walden, que llegó a necesitar ayuda de su familia para caminar y para tareas básicas. Según su testimonio, tras la terapia ha vuelto al trabajo, ha retomado sus aficiones y no ha tenido ningún episodio desde el tratamiento. Shari St Germain, que sufría calambres intensos, dificultad para andar, rigidez y caídas, describió una mejoría progresiva; contó que, poco después del tratamiento, caminó siete minutos en una cinta.
 

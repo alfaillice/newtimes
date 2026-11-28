@@ -28,8 +28,6 @@ imagenes:
   pie: Imagen de archivo de Madrid.
 ---
 
-El 68 % de los menores de entre 10 y 15 años dispone de teléfono móvil en España, según la Encuesta sobre Equipamiento y Uso de Tecnologías de la Información y Comunicación (TIC) en los Hogares de 2026, publicada esta semana por el Instituto Nacional de Estadística (INE). El porcentaje crece con la edad hasta llegar al 95,6 % entre los adolescentes de 15 años, según recoge Europa Press.
-
 La progresión por edades es clara. Hasta los 6 años, solo el 1,8 % de los menores tiene móvil. La cifra sube al 8,4 % a los 8 años y al 20,0 % a los 10. A los 12 años ya alcanza el 65,2 %, a los 14 el 93,1 % y a los 15 el 95,6 %.
 
 En el tramo de 10 a 15 años, el dato de 2026 (68,0 %) apenas varía respecto a años anteriores. Fue del 67,9 % en 2025 y del 69,6 % en 2024. La cifra más alta de la serie corresponde a 2023, con el 70,6 %, y la más baja a 2019, con el 66,0 %. Entre los de 15 años se registró el mayor aumento respecto al año anterior, de 1,7 puntos porcentuales. Los de 12 años fueron el único grupo que retrocedió, con una caída de 1,1 puntos.
@@ -37,5 +35,3 @@ En el tramo de 10 a 15 años, el dato de 2026 (68,0 %) apenas varía respecto a 
 La encuesta también recoge datos sobre los hogares. El 99,4 % contaba con teléfono móvil, el mismo porcentaje que en 2025. En cambio, el teléfono fijo está presente en el 44,4 % de los hogares, 5,0 puntos menos que un año antes. Además, el 84,5 % disponía de algún tipo de ordenador, de sobremesa, portátil, tableta u otros dispositivos similares, lo que supone un aumento de 0,7 puntos respecto a 2025.
 
 En cuanto al uso por parte de los menores de entre seis y 15 años, el 88,9 % utilizó ordenador y el 89,6 % accedió a Internet en 2026.
-
-El texto de Europa Press menciona también un 45,9 % de menores con teléfono móvil, sin precisar a qué tramo de edad se refiere. Como no hemos podido determinar su alcance, no lo incluimos en esta información.

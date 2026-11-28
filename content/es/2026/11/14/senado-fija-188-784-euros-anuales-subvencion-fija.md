@@ -22,8 +22,6 @@ fuentes:
   url: https://www.europapress.es/nacional/noticia-senado-dara-mas-188000-euros-ano-cada-grupo-parlamentario-otros-23600-cada-integrante-20261114101950.html
 ---
 
-El Senado tiene fijadas las cantidades que recibirán los grupos parlamentarios con cargo al presupuesto de la Cámara, un reparto que se aplicará en la próxima legislatura. Según informa Europa Press, cada grupo percibirá una cuantía fija de 188.784 euros al año, equivalentes a 15.732 euros al mes, más una parte variable de 23.598 euros anuales por cada senador que lo integre, lo que supone 1.966,50 euros al mes por integrante.
-
 El criterio figura en el artículo 27 del Reglamento del Senado, que regula el funcionamiento de los grupos y la aportación económica que reciben con cargo al presupuesto de la institución. La fórmula procede de un acuerdo de la Mesa que presidía el popular Pío García Escudero en 2018, orientado a racionalizar estas subvenciones, y que se mantiene en la actualidad.
 
 El pago se realiza cada mes. Para recibirlo, cada grupo debe comunicar a la Cámara su número de identificación fiscal y una cuenta corriente propia, en la que solo se registrarán los movimientos de su actividad económica y financiera.

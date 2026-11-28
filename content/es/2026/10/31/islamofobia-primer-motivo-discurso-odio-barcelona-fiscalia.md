@@ -20,13 +20,7 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/10/31/fiscalia-alerta-de-un-incremento-de-delitos-de-incitacion-al-odio-por-islamofobia-en-barcelona/
 ---
 
-La islamofobia ha pasado a ser el primer motivo de las investigaciones por discurso de odio que abre la Fiscalía Provincial de Barcelona. Hasta ahora ese puesto lo ocupaba la LGTBIfobia. Así lo recoge la memoria de la sección especializada en delitos de odio y discriminación, con los datos de 2025, según explicó la fiscal delegada del área, Marta Gloria López Catalá, en declaraciones que difundieron este sábado EFE y Europa Press. Los datos provisionales de 2026 apuntan a que la tendencia sigue al alza.
-
-La magnitud del aumento se ha contado de dos maneras distintas. Según EFE, la islamofobia está detrás de alrededor del 80 % de las investigaciones por discurso de odio en Barcelona. En la versión de Europa Press, la fiscal habla de un incremento del 80 % y aclara que esa cifra sale de su «experiencia personal», no de una estadística. Ninguna de las dos agencias da el número total de investigaciones por discurso de odio, de modo que el porcentaje no se puede comprobar con los datos publicados.
-
 ## Qué dicen los números
-
-Las cifras absolutas de la memoria, recogidas por Europa Press, son pequeñas. En 2025, la Fiscalía abrió nueve diligencias de investigación por islamofobia en aplicación del artículo 510.1.a del Código Penal, el que castiga la incitación pública al odio. Siete se archivaron, una terminó en denuncia y otra en escrito de acusación. Además, hubo cinco escritos de acusación por humillación o menosprecio de personas musulmanas y una condena.
 
 Si se suman todos los delitos de odio, y no solo el discurso, la orientación sexual sigue siendo el primer motivo, con 61 asuntos entre diligencias, denuncias, archivos, acusaciones y sentencias. Le siguen la nación, con 42, y la islamofobia, con 27.
 

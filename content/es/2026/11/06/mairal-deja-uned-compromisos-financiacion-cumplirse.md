@@ -23,15 +23,9 @@ fuentes:
     url: https://www.uned.es/universidad/dam/inicio/institucional/secretaria-general/comision-electoral-central/elecciones-rector-2026/04---proclamaci%C3%B3n-definitiva-de-candidaturas-_FSG.pdf
 ---
 
-Ricardo Mairal se prepara para dejar el Rectorado de la Universidad Nacional de Educación a Distancia (UNED) con un mensaje claro sobre el dinero que necesita la institución. «La financiación es absolutamente clave y los compromisos hay que cumplirlos», afirmó este viernes en una entrevista con la agencia EFE, a pocas semanas de cerrar un mandato que comenzó en 2018 y que se ha prolongado durante ocho años y medio.
-
 La salida de Mairal, catedrático de Lengua y Lingüística Inglesa, no responde a una dimisión: su mandato llega a su fin y la universidad está ya en pleno proceso para elegir a quien le sustituya.
 
 ## Un plan que considera insuficiente
-
-El rector se refirió al plan plurianual de financiación 2026-2029, con el que la UNED recibirá 60 millones de euros más hasta 2029, según los datos que recoge EFE. Mairal valoró que ese acuerdo aporta estabilidad, pero lo situó como el comienzo de un camino más largo: «Hemos firmado un plan que da estabilidad a la UNED pero es solo un primer paso».
-
-A su juicio, el plan tendría que renovarse al menos durante otros cuatro o cinco años, y la meta es alcanzar una inversión del 1 % del PIB en 2030. EFE presenta ese plan como un compromiso que el próximo Gobierno debería cumplir e incluso renovar. Mairal también expresó su deseo de que la convocatoria de los sexenios de transferencia del conocimiento, un reconocimiento a la actividad del profesorado, se apruebe antes de las elecciones generales.
 
 La demanda de estudios en la UNED ha crecido. La matrícula aumentó un 4,45 %, hasta los 156.500 estudiantes, pero la universidad no puede atender todas las peticiones en algunas titulaciones. El máster de Psicología General Sanitaria ofrece 250 plazas y recibe más de 2.000 solicitudes, y el máster habilitante para el profesorado ofertará 3.000 plazas en dos años frente a una demanda de unos 9.000 estudiantes. El rector calificó esa situación de frustración.
 

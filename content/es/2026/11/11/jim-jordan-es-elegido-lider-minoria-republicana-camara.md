@@ -22,11 +22,7 @@ fuentes:
   url: https://www.europapress.es/internacional/noticia-jim-jordan-elegido-lider-minoria-republicana-camara-representantes-20261111084855.html
 ---
 
-Jim Jordan, representante republicano por Ohio y uno de los políticos más próximos al presidente Donald Trump, liderará la minoría republicana en la Cámara de Representantes a partir del año que viene, cuando entre en funciones el nuevo Congreso, dominado por los demócratas. Así lo recoge Europa Press, que sitúa la decisión en una votación en la que Jordan obtuvo 106 votos a favor y 73 en contra.
-
 El resultado llega después de que los republicanos perdieran el control de la Cámara en las elecciones de mitad de mandato (midterms). Según la agencia, el perfil de Jordan, conocido por un estilo combativo y agresivo, apunta a que el grupo mantendrá un tono beligerante pese a haber dejado la mayoría.
-
-Tras su elección, Jordan afirmó que los republicanos de la Cámara «lucharán por las familias estadounidenses». Añadió: «Cuando los demócratas propongan más intervención del Estado, nosotros propondremos más libertad». Según Europa Press, llevará esa confrontación a las comisiones, al pleno y a la campaña electoral.
 
 La elección tiene un antecedente. En 2023, Jordan intentó presidir la Cámara de Representantes sin conseguirlo, en medio de la división en las filas republicanas sobre su candidatura. Finalmente, el consenso recayó en el actual presidente de la Cámara, Mike Johnson, cuyo mandato expira en enero.
 

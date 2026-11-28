@@ -26,10 +26,6 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/11/03/ugt-y-ccoo-defienden-mantener-la-huelga-del-11n-en-defensa-de-los-servicios-publicos/
 ---
 
-Cuatro jornadas de huelga en ocho días, entre el 10 y el 17 de noviembre, amenazan al ferrocarril español. El Ministerio de Transportes y el sindicato de maquinistas Semaf vuelven a sentarse este viernes, a las 15.30 (hora peninsular), para intentar desactivar las dos primeras: un paro de 24 horas en Renfe el martes 10 de noviembre y paros parciales el jueves 12. Entre ambas fechas cae la huelga general del miércoles 11, y el martes 17 está convocado un paro en Adif y Renfe que CCOO ha extendido a los operadores privados Iryo y Ouigo, según informó EFE.
-
-El encuentro de este viernes es el segundo en dos días. El jueves por la tarde, Carlos Cuerpo, vicepresidente primero y ministro de Economía, que ha asumido de forma transitoria la cartera de Transportes tras la dimisión de Óscar Puente por el accidente de Urda (Toledo), en el que murieron 69 personas, recibió al secretario general de Semaf, Diego Martín. El sindicato lo describió como una «primera toma de contacto» sin avances. Fuentes del ministerio citadas por EFE dijeron que Cuerpo busca una relación «fluida» con los sindicatos.
-
 ## Qué piden los maquinistas
 
 Semaf exige que se cumplan los acuerdos de seguridad que firmó el 9 de febrero con Transportes y con los presidentes de Renfe y Adif tras el accidente de Adamuz (Córdoba), en el que murieron 46 personas. Aquel pacto, que llevó a desconvocar las huelgas del 10 y el 11 de febrero, creaba grupos de trabajo para redactar normas y procedimientos de seguridad. El sindicato sostiene que esos compromisos no se han aplicado y que la comisión de seguimiento no se ha reunido.

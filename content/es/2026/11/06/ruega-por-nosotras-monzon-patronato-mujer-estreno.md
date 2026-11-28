@@ -34,14 +34,4 @@ Monzón firma el guion con Jorge Guerricaechevarría, guionista de *Celda 211*. 
 
 ## De San Sebastián a las salas
 
-El filme tuvo su presentación en la 74.ª edición del Festival de San Sebastián, celebrada del 18 al 26 de septiembre, dentro de la Sección Oficial fuera de concurso, en el ciclo especial dedicado a los 50 años de libertad. Allí Monzón contó a EFE que varios productores le habían elogiado el guion, pero rehusaron financiarlo, y que lo que muestra la película no sale de la imaginación.
-
-En declaraciones recogidas por EFE con motivo del estreno, el director explicó que descubrió la existencia del Patronato en 2020 y que había un centro cerca de su casa cuando era adolescente: «Mientras yo iba al cine a ver Indiana Jones, chicas de mi edad estaban detrás de esos muros sufriendo». Monzón describió el guion como «un retrato coral» de lo ocurrido, sin pretensión de reproducir la realidad tal cual.
-
-El título procede del libro de Consuelo García del Cid, superviviente del Patronato e investigadora, cuyos textos sirvieron de base al guion junto con documentales y pódcast con testimonios. «El personaje de Ana tiene todo de mí», afirmó a EFE. Otras supervivientes, como Loli Benito, consideran que la película no refleja el miedo que pasaron ni que se contara con ellas, algo que Benito calificó de «un error», aunque valoró que sirva para dar visibilidad a la institución.
-
 ## Una institución que sobrevivió al franquismo
-
-El Patronato se creó en 1941 y siguió funcionando bien entrada la democracia: hasta 1984, según la información de EFE sobre el estreno, o hasta 1985, según otras piezas de la misma agencia. Llegó a contar con 538 centros en todo el país, de acuerdo con EFEminista. En ellos se internaba a mujeres consideradas «caídas o en riesgo de caer», como prostitutas, lesbianas, embarazadas fuera del matrimonio o jóvenes rebeldes, a veces a petición de sus propias familias.
-
-El mismo viernes se estrena en La 1 de TVE la serie documental *El Patronato*, que, según las supervivientes consultadas por EFE, puede ayudar junto a la película a mostrar que lo que vivieron «existió de verdad».

@@ -29,7 +29,3 @@ Al menos cuatro personas han muerto y otras dos han resultado heridas en un ataq
 Las autoridades rusas sitúan el episodio en el marco de la guerra iniciada tras la orden de invasión de Ucrania que firmó el presidente ruso, Vladimir Putin, en febrero de 2022. Esta redacción no ha podido contrastar por el momento la versión de Kiev sobre el ataque.
 
 Bocharov señaló también, en un mensaje publicado en redes sociales, que un ataque con drones contra la localidad de Svetli Yar, en la misma región, causó daños materiales en varios edificios residenciales y en un centro juvenil. Según el gobernador, en este caso no se registraron víctimas.
-
-Por otro lado, el Ministerio de Defensa ruso afirmó que sus sistemas de defensa antiaérea derribaron durante la noche cerca de 1.200 drones ucranianos en más de 15 regiones del país, entre ellas la de Moscú, así como sobre el mar Negro y la península de Crimea, anexionada en 2014. Europa Press destaca que se trata de una de las mayores cifras desde el estallido del conflicto. Esta cifra procede del ministerio y no ha podido ser verificada de forma independiente.
-
-La información de este viernes se basa en comunicados de las autoridades rusas y en el despacho de Europa Press. Se actualizará si hay nuevos datos verificables.

@@ -25,8 +25,6 @@ fuentes:
 lugar: Zaporiyia
 ---
 
-El gobernador interino de la provincia ucraniana de Zaporiyia, Mijailo Semikin, ha elevado a 50 el número de heridos por un ataque ruso que impactó contra un edificio residencial del distrito de Kosmichni, en la ciudad de Zaporiyia. Así lo informa Europa Press en el balance publicado este viernes.
-
 El inmueble es un edificio de cinco plantas. Entre los heridos hay ocho menores de edad, según precisó Semikin en un mensaje en redes sociales.
 
 Por otra parte, el presidente ucraniano, Volodimir Zelenski, ha afirmado que las labores de reconstrucción de las zonas afectadas por los bombardeos rusos avanzan a un ritmo insuficiente. «El ritmo de los trabajos de recuperación es demasiado lento», ha escrito en redes sociales.

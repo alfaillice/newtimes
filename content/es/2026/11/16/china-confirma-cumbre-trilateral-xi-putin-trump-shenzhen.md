@@ -33,8 +33,6 @@ imagenes:
 
 El Ministerio de Asuntos Exteriores de China ha confirmado este lunes que el presidente Xi Jinping celebrará el próximo jueves, 19 de noviembre, una cumbre trilateral con sus homólogos de Rusia, Vladimir Putin, y de Estados Unidos, Donald Trump, en la ciudad china de Shenzhen. El anuncio se hizo a través de un breve comunicado emitido por un portavoz de la cartera.
 
-El encuentro tendrá lugar en el marco de la cumbre del Foro de Cooperación Económica Asia-Pacífico (APEC) que acoge esta localidad del sur del país, según informa Europa Press.
-
 Los tres dirigentes encabezan potencias nucleares, y la cita llega después de que expirara en febrero de 2026 el Nuevo START, el último tratado bilateral vigente entre Washington y Moscú. Según anticipó la Casa Blanca el pasado sábado, la reunión se centrará en la no proliferación y la reducción de armas nucleares. Trump ha sugerido que podría alcanzarse un nuevo acuerdo estratégico global, en un momento en que China moderniza su arsenal nuclear.
 
 Fuentes de la Administración estadounidense indicaron que su delegación tratará de impulsar conversaciones sobre la guerra en Irán y la crisis energética derivada del cierre del estrecho de Ormuz. Esas mismas fuentes consideraron previsible que no se aborde el conflicto en Ucrania.

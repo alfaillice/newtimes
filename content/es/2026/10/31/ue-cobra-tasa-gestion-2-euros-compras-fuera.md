@@ -28,19 +28,11 @@ fuentes:
 
 La Unión Europea aplica desde este domingo, 1 de noviembre, una tasa de gestión aduanera de 2 euros a las mercancías compradas por internet que llegan desde fuera de sus fronteras. El nuevo cargo, común a los Veintisiete, se añade al derecho de aduana fijo de 3 euros que se cobra desde el 1 de julio a los envíos de bajo valor, es decir, de hasta 150 euros, y apunta de lleno al comercio electrónico de plataformas como Shein o Temu.
 
-La Comisión Europea fijó el importe en un reglamento delegado adoptado el 21 de septiembre, en desarrollo de la reforma del código aduanero que el Consejo de la UE aprobó definitivamente a principios de ese mes. El texto establece la tasa en 2 euros «por artículo». EFE, en cambio, describe un cargo de 2 euros por cada paquete que entre en la UE, con independencia de su valor. Los documentos oficiales consultados no aclaran cómo se contará en un pedido con varios productos.
-
 ## Quién paga y para qué
 
 Según la Comisión, el dinero debe compensar a las administraciones nacionales por el coste creciente de vigilar las importaciones: revisión de datos, análisis de riesgos y controles documentales y físicos. Una parte de lo recaudado irá al presupuesto comunitario, al tratarse de un recurso propio tradicional.
 
-El Consejo subraya que, con la reforma, las plataformas de fuera de la UE pasan a considerarse importadoras de la mercancía y responden de los trámites y del pago de los derechos, no el consumidor final. EFE añade que plataformas y vendedores en línea son quienes deben abonar la tasa y que el identificador de producto, voluntario desde julio, se vuelve obligatorio este 1 de noviembre. Fuentes comunitarias citadas por la agencia dijeron que la tasa «ha llegado para quedarse», aunque su cuantía podría revisarse.
-
-Para los hogares, el efecto dependerá de si las plataformas trasladan el cargo al precio. La Organización Europea de Consumidores (BEUC) celebró la medida, según EFE, pero condicionó su eficacia a que los Estados destinen de verdad esos ingresos a las aduanas.
-
 ## Por qué ahora
-
-El detonante es el volumen. En 2025 entraron en la UE unos 5.900 millones de artículos de comercio electrónico de bajo valor, cuatro veces más que en 2022, y más del 90 % procedían de China, según la Comisión. EFE recoge que los controles coordinados detectaron que el 60 % de los envíos revisados incumplía la normativa.
 
 Bruselas sostiene que la antigua exención de aranceles para los paquetes de hasta 150 euros se había convertido en un coladero: había importadores que fraccionaban envíos o declaraban un valor inferior al real. Esa franquicia desapareció el 30 de junio y se sustituyó por el derecho provisional de 3 euros por artículo.
 

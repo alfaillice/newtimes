@@ -25,11 +25,7 @@ fuentes:
 lugar: Madrid
 ---
 
-The Spanish government plans to launch a large recruitment exercise in the coming weeks to fill 700 new posts, 500 for judges and 200 for prosecutors. Justice Minister Félix Bolaños announced the plan on Friday, according to Europa Press, after an extraordinary meeting of the Council of Ministers, the cabinet. The posts are to be created for 2027.
-
 Bolaños, whose ministry covers the Presidency, Justice and relations with the Cortes, the Spanish parliament, said at a press conference that the increase would expand the number of judicial posts by 7.8 per cent and prosecutorial posts by 6.6 per cent. The new places come on top of 700 created earlier for 2026. Taken together, the government says, they amount to 1,000 new judge posts and 400 prosecutor posts. Bolaños described the call as "unquestionably the largest in democracy" (translated from Spanish).
-
-The recruitment call will be open to people preparing for the competitive public examinations that give access to the judiciary and the Public Prosecutor's Office, known in Spain as the Fiscalía. It will also be open to what the minister called the fourth route, for experienced legal professionals who want to join the judicial career. Europa Press did not report a date for the call or for when the posts would be filled.
 
 According to Bolaños, the posts were allocated using criteria including workload, the volume of litigation and population. He said the ministry took into account proposals from the General Council of the Judiciary (CGPJ), the self-governing body of Spain's judges, the Fiscalía, the regions that have taken over justice powers, and the high courts of justice, known as the Tribunales Superiores.
 

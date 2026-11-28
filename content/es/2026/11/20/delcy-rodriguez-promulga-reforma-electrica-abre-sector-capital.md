@@ -29,8 +29,6 @@ imagenes:
 
 La presidenta encargada de Venezuela, Delcy Rodríguez, promulgó este jueves la reforma de la Ley Orgánica del Servicio Eléctrico Nacional, una norma aprobada antes por el Parlamento venezolano. El texto abre el sistema energético a la participación de capital privado, tanto nacional como internacional, establece incentivos fiscales y crea un organismo regulador nuevo.
 
-La promulgación se produjo durante un acto en el marco de la Expo Venezuela Energética Capítulo Oriente 2026. Según recoge Europa Press, Rodríguez subrayó que la reforma permitirá que el sector privado intervenga en los procesos de generación de electricidad, con el objetivo de reforzar el suministro ante el aumento de la demanda. Atribuyó ese incremento al crecimiento económico y a las altas temperaturas vinculadas al fenómeno de 'El Niño'.
-
 El nuevo organismo es la Superintendencia Nacional del Sistema Eléctrico, adscrita al Ministerio de Energía Eléctrica. Actuará como regulador e inspector tanto del operador público como de las empresas privadas que operen en el país.
 
 El ministro de Energía Eléctrica, Rolando Alcalá, defendió que la norma es «innovadora» porque habilita la participación privada en toda la cadena: generación, transmisión, distribución y comercialización. Incluye además un capítulo específico que impulsa la autogeneración eléctrica en la industria de los hidrocarburos, con el fin de aliviar la red nacional.

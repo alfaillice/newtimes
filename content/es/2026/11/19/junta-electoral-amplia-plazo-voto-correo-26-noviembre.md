@@ -24,8 +24,6 @@ fuentes:
     url: https://www.correos.com/sala-prensa/asi-es-el-voto-por-correo-en-las-elecciones-generales-del-29-de-noviembre/
 ---
 
-La Junta Electoral Central (JEC) ha autorizado este jueves alargar un día el plazo para depositar el voto por correo de las elecciones generales del 29 de noviembre. Los electores que se encuentren en España podrán entregar su sobre en las oficinas de Correos hasta las 14.00 del jueves 26 de noviembre, según informa Europa Press.
-
 Hasta ahora, el calendario difundido por Correos fijaba el miércoles 25 de noviembre como último día para llevar el voto a una oficina. La decisión de la JEC cuenta con el visto bueno de la Sociedad Estatal Correos y Telégrafos, que tramita tanto las solicitudes como los sobres con el voto.
 
 ## Qué cambia para el elector

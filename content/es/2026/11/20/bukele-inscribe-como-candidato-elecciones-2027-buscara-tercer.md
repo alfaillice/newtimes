@@ -28,12 +28,8 @@ imagenes:
   pie: Imagen de archivo de una institución en El Salvador.
 ---
 
-El presidente de El Salvador, Nayib Bukele, presentó este jueves su inscripción como candidato a la Presidencia ante el Tribunal Supremo Electoral (TSE), en lo que supone el paso formal para optar a un tercer mandato en los comicios previstos para el 28 de febrero de 2027. Según informa Europa Press, la gestión se realizó a última hora de la jornada y el mandatario atendió a los medios a las puertas de la institución.
-
 Bukele está al frente del Ejecutivo salvadoreño desde junio de 2019 y fue reelegido para un segundo periodo en junio de 2024. La posibilidad de una nueva candidatura se apoya en la reforma de la Constitución aprobada en julio de 2025. Esa enmienda suprimió la segunda vuelta electoral, amplió la duración de la Presidencia de cinco a seis años y habilitó la reelección indefinida para quienes ocupan el cargo.
 
 En sus declaraciones, el presidente defendió la necesidad de seguir mejorando el país hasta llegar, según sus palabras, a la última escuela, al último hospital y a la última unidad de salud. Sobre las perspectivas electorales, Bukele afirmó que las encuestas son favorables a su formación y que podría volver a «hacer historia otra vez». No obstante, advirtió de que «nadie gana con las encuestas» y pidió a los salvadoreños que acudan masivamente a las urnas.
 
 La fuente no detalla los trámites que seguirá la candidatura ante el TSE tras la inscripción ni las fechas intermedias del proceso electoral. Tampoco recoge reacciones de otros partidos o de organismos internacionales a la presentación de la candidatura.
-
-La Presidencia salvadoreña se disputará el 28 de febrero de 2027, según el calendario que recoge Europa Press. La inscripción de este jueves marca el inicio formal de la candidatura de Bukele para ese proceso.

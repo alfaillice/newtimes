@@ -25,8 +25,6 @@ fuentes:
     url: https://www.saludcastillayleon.es/HCUValladolid/es/campana-2026-vacunaciones-sistematicas-frente-virus-respira
 ---
 
-Las infecciones respiratorias agudas vuelven a subir en España. Según el último informe del Sistema de Vigilancia de Infección Respiratoria Aguda (SiVIRA), que coordina el Instituto de Salud Carlos III, la tasa se situó en 479,4 casos por cada 100.000 habitantes en la semana del 19 al 25 de octubre, un 17,3 % más que la semana anterior (408,6), tras dos semanas de bajada. Los datos los difundió Europa Press este jueves.
-
 El país está por encima del umbral epidémico desde la última semana de septiembre, aunque con una intensidad que el sistema califica de «baja». El repunte no viene de la covid ni de la gripe: en las muestras de atención primaria, la positividad del SARS-CoV-2 cayó del 18,1 % al 10,8 %, la de la gripe del 4,3 % al 2,9 % y la del virus respiratorio sincitial (VRS) se quedó en el 0,4 %. Donde sí sube con claridad es en la bronquitis y bronquiolitis de menores de cinco años, con 245,5 casos por 100.000, un 17,2 % más.
 
 ## Hospitales: más gripe entre pocos ingresos

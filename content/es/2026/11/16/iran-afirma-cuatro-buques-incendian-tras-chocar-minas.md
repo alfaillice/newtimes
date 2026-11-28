@@ -28,8 +28,6 @@ imagenes:
   pie: Imagen de archivo de un petrolero.
 ---
 
-Las autoridades iraníes han afirmado que cuatro buques han sufrido incendios tras chocar con minas navales en el estrecho de Ormuz, y que dos de ellos son petroleros que se habrían hundido en la zona. Según recoge Europa Press, por ahora no hay informaciones sobre posibles víctimas.
-
 La Armada de Irán atribuye uno de los incidentes a un petrolero que cruzaba la zona oriental de la vía con los sistemas de navegación «apagados» y sin autorización de las fuerzas iraníes. Desde Teherán se advierte de que las consecuencias de navegar al margen de sus instrucciones son «minas e incendios».
 
 Después, la Armada de la Guardia Revolucionaria informó de que otros dos petroleros habrían sufrido explosiones tras colisionar con minas en la ruta sur del estrecho, la que Estados Unidos garantiza como segura, según recogió la cadena pública iraní IRIB. En otra declaración, las autoridades iraníes elevan a seis los buques incendiados y hundidos desde el domingo y sostienen que la contaminación derivada de las explosiones se ha extendido por la costa y las aguas del estrecho. La cifra de cuatro del titular, por tanto, no coincide con la que el mismo bloque de declaraciones atribuye a las autoridades iraníes, y no hay confirmación independiente de ninguna de las dos.

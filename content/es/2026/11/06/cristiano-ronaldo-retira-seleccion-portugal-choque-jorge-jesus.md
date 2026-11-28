@@ -32,12 +32,4 @@ En su mensaje, el capitán explicó que había llegado la hora de dejar la camis
 
 La salida llega tras cinco semanas de distanciamiento con el seleccionador. Jorge Jesus, que sustituyó a Roberto Martínez después del Mundial, alineó a Ronaldo como titular ante Gales, pero en el siguiente encuentro, el 2-1 frente a Noruega, le hizo calentar sin llegar a darle entrada. Después avisó de que tampoco sería titular en el siguiente compromiso. El 30 de septiembre el delantero abandonó la concentración. En un comunicado posterior acusó al técnico de haber incumplido la promesa de darle unos 30 minutos ante Noruega, algo que Jesus negó, igual que la existencia de un enfrentamiento personal entre ambos. Según Sky Sports, no han vuelto a hablar desde entonces.
 
-El Consejo de Disciplina de la Federación Portuguesa de Fútbol le impuso por aquella marcha 30 días de suspensión y una multa de 255 euros, la mínima prevista, según EFE.
-
-Jesus, que ya había dirigido a Ronaldo en el Al Nassr, respondió al anuncio en declaraciones al Canal 11 recogidas por EFE. «La decisión es suya», afirmó el seleccionador, que dijo que tenía que aceptarla y que ambos ya habían hablado del asunto antes de su primera convocatoria, cuando le pidió que continuara. Lo definió como una referencia mundial y un símbolo para la juventud portuguesa.
-
-La Federación expresó en un comunicado su gratitud y admiración al jugador y anunció que prepara un homenaje para que la afición pueda despedirlo, según recoge AP.
-
-En el plano de clubes, Ronaldo, que acumula 985 goles en su carrera y persigue los 1.000, tiene previsto cerrar su etapa como futbolista al final de esta temporada con el Al Nassr, según AP.
-
 Portugal, líder del grupo A4 de la Liga de Naciones con pleno de victorias, recibirá a Dinamarca el sábado 14 de noviembre y visitará a Gales en Cardiff el martes 17, ya sin su máximo goleador histórico.

@@ -33,11 +33,7 @@ fuentes:
 lugar: Madrid
 ---
 
-Spain's Interior Minister, Fernando Grande-Marlaska, has asked the director general of the National Police, Francisco Pardo Piqueras, to open "specific investigations" into police conduct during the general strike on Wednesday 11 November. According to sources at the ministry, the inquiries will run separately from the force's internal inspection, which reviews all police operations against current rules. Marlaska has also ordered that tear gas no longer be used in crowd-control operations, Europa Press reported.
-
 The ministry's provisional count, covering incidents up to 23.00 on Wednesday, records 1,144 incidents linked to the strike and 47 arrests made by the National Police and the Civil Guard. Madrid accounted for 20 of the arrests and Valencia for six. The figures do not yet include data from Catalonia or the Basque Country.
-
-The government has defended the minister. Félix Bolaños, minister of the Presidency, Justice and Relations with the Courts, ruled out Marlaska's dismissal. He acknowledged that some footage of police action had not pleased him, but said police commanders would determine "whether there has been a disproportionate use of force" by any officer. Bolaños described the day as predominantly peaceful, with tens of thousands of people marching for the right to housing and wages that allow a better quality of life. He made the comments in an interview with Radio Nacional de España (RNE), as reported by Europa Press.
 
 Opposition parties and some allies have been more critical. Gabriel Rufián, spokesman for the Catalan pro-independence party Republican Left of Catalonia (ERC) in Congress, called police action "excessive", especially in Barcelona. He said the Socialist-led government, which is the PSOE, bore responsibility as the party in power. Rufián also said ERC had been the first to call for Marlaska's resignation, citing the failed repeal of the so-called 'gag law' and deaths at Spain's southern border. He added that disciplinary files against officers usually end up archived.
 

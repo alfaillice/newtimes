@@ -38,9 +38,3 @@ In written submissions to both bodies, the union said officers still lack clear 
 The SUP sent its filing to the prosecutors' specialised unit for occupational health and safety and to the State Secretariat for Security. It said more than 25 police officers were injured on 11N. It also pointed to other recent violent incidents, including one at the Aluche immigration detention centre in Madrid, where several colleagues were hurt.
 
 Last Friday, the ministry confirmed that it had ordered the National Police's Directorate General to ban the use of personal-defence pepper spray in public order deployments, such as those used at demonstrations during the strike. In those settings, officers may instead fire ATL devices, canisters that release a cloud of tear-gas smoke described as harmless and non-injurious when launched several metres away with a launcher attached to standard shotguns.
-
-The ministry has told the Directorate General to amend the internal protocol that governs the personal spray each officer can carry and use individually. According to Europa Press, the Interior Ministry questioned how the spray was used and opened a reserved investigation.
-
-Europa Press also reported that the protocol authorising personal pepper spray is dated 19 October 2026, less than a month before the strike. It bears the signature of the head of the Subdirectorate General for Logistics and Innovation, with the approval of the police's operational deputy director.
-
-Interior sources said personal spray can still be used in routine citizen-security operations, for example by a patrol officer who needs to immobilise someone before an arrest. The Europa Press report does not include a response from either the prosecutor's office or the Interior Ministry to the union's filings.

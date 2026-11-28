@@ -24,13 +24,9 @@ fuentes:
   url: https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools
 ---
 
-NHS England, el organismo que gestiona el Servicio Nacional de Salud británico (NHS) en Inglaterra, ha eliminado de su página web la afirmación de que 137 hospitales se benefician de la plataforma de datos con inteligencia artificial de la empresa estadounidense Palantir. Según publica The Guardian, la retirada llega después de que el diario revelara que 29 de esos centros no la usaban o apenas la usaban.
-
 El listado original recogía los organismos del NHS que, según la web, estaban «en funcionamiento» con la llamada plataforma federada de datos (FDP, por sus siglas en inglés), un sistema concebido para mejorar los resultados de los pacientes, optimizar el uso de los quirófanos y agilizar las altas hospitalarias. Veintinueve hospitales respondieron que el sistema no estaba activo o que no utilizaban ninguna de sus aplicaciones, y la lista original parece haber sido retirada. En su lugar, la página recoge ahora una versión más breve que habla de menos carga administrativa, circuitos de pacientes más rápidos y más tiempo para la atención, según el diario.
 
 ## Un contrato en revisión
-
-La retirada coincide con las deliberaciones del Gobierno sobre si ampliar el contrato con Palantir, valorado en 330 millones de libras, hasta 2029. The Guardian recoge que el regulador británico de estadísticas, la Office for Statistics Regulation (OSR), examina las cifras del NHS sobre el alcance del sistema, y que ya advirtió a NHS England de que no tenía pruebas que respaldaran la afirmación de que la tecnología había permitido realizar más de 100.000 operaciones adicionales.
 
 Los críticos de Palantir también objetan que la empresa, fundada por el multimillonario Peter Thiel, trabaje para el ejército israelí y para las operaciones migratorias del ICE en Estados Unidos.
 

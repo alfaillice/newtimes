@@ -34,5 +34,3 @@ El presidente del Gobierno, Pedro Sánchez, ha pedido perdón este jueves a las 
 Feijóo reprochó a Sánchez que no hubiera mencionado los 115 muertos de los dos siniestros. También le criticó que, dos días después del funeral por los fallecidos en Urda, al que no acudió, se fuera a un mitin del PSOE. Le preguntó si podría bailar a las 48 horas si un familiar directo suyo hubiera muerto en esos accidentes, y repitió la pregunta tras las disculpas del presidente.
 
 Sánchez pidió que le dejaran terminar. Dijo que sí pide perdón y que se hace cargo, y añadió que un Gobierno debe decir la verdad, algo que, a su juicio, el PP no ha hecho cuando ha gestionado crisis. Citó el accidente del Metro de Valencia y el Yak 42. También mencionó a la presidenta madrileña, Isabel Díaz Ayuso, por lo ocurrido con los mayores en las residencias durante la pandemia de la Covid-19, y cerró su intervención con una frase sobre las lecciones que, según él, puede dar el PP.
-
-La información procede de un único despacho de Europa Press, que recoge el intercambio en el bloque sobre servicios públicos. El texto no incluye otras versiones de lo ocurrido en el debate.

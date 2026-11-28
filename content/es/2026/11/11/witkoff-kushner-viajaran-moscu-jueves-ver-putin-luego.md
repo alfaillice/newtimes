@@ -26,8 +26,6 @@ fuentes:
   url: https://www.europapress.es/internacional/noticia-ucrania-rusia-concluyen-conversaciones-trilaterales-abu-dabi-acuerdo-canjear-prisioneros-20261111125149.html
 ---
 
-Los enviados especiales de Estados Unidos Steve Witkoff y Jared Kushner viajarán este jueves a Moscú para reunirse con el presidente ruso, Vladimir Putin. Después se desplazarán a Dublín, capital de Irlanda, para ver al presidente ucraniano, Volodimir Zelenski, según informa Europa Press. El viaje llega al término de las conversaciones trilaterales celebradas en Emiratos Árabes Unidos, donde las delegaciones de Ucrania y Rusia, con la mediación de Estados Unidos, acordaron un intercambio de prisioneros a gran escala.
-
 Se trata de las primeras conversaciones en nueve meses dedicadas a los «parámetros para medidas humanitarias» de cara a una eventual tregua y a un posterior acuerdo de paz entre Kiev y Moscú. Según la misma agencia, las rondas de contactos en Abu Dabi se celebraron el martes y el miércoles.
 
 El jefe de la delegación rusa, Vladimir Medinski, informó a la agencia rusa TASS de que las partes habían alcanzado un acuerdo fundamental para otro intercambio de prisioneros, y afirmó que los detalles se darían a conocer en breve. El jefe de los servicios de Inteligencia Exterior de Ucrania, Rustem Umerov, confirmó el acuerdo y explicó que ambas partes trabajan ahora en ultimar los detalles de su aplicación práctica.

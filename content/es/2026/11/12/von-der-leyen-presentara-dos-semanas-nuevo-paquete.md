@@ -27,8 +27,6 @@ fuentes:
 lugar: Dublín
 ---
 
-La presidenta de la Comisión Europea, Ursula von der Leyen, anunció este jueves desde Dublín que su equipo presentará en un plazo de dos semanas un nuevo paquete de sanciones contra Rusia, el número 22, así como una propuesta para responder a las necesidades financieras de Ucrania. Según Europa Press, ambas iniciativas se presentarán antes del Consejo Europeo de los días 26 y 27 de noviembre en Bruselas.
-
 El anuncio se produjo al margen de la cumbre de la Comunidad Política Europea, a la que asisten cerca de medio centenar de mandatarios, entre ellos el presidente ucraniano, Volodimir Zelenski. Von der Leyen valoró de forma positiva las conversaciones de paz celebradas en Abu Dabi entre Ucrania y Rusia, con presencia europea, y afirmó que la UE seguirá participando en ese formato.
 
 Junto con el presidente del Consejo Europeo, António Costa, la responsable comunitaria se reunió con Zelenski y emitió una declaración conjunta. En ella, ambos reiteraron el apoyo de la Unión a Ucrania, defendieron que Kiev debe negociar desde una posición de fuerza y pidieron que Rusia se siente a la mesa con voluntad real de paz. Los firmantes indicaron además que la Comisión despliega apoyo inmediato sobre el terreno ante la proximidad de otro invierno de guerra.
@@ -42,5 +40,3 @@ Estas posiciones contrastan con las de otros dirigentes. La primera ministra ita
 El primer ministro de Luxemburgo, Luc Frieden, considera que el presidente del Consejo Europeo es el cargo «natural» para representar a los 27. El primer ministro polaco, Donald Tusk, advirtió del riesgo de una «carrera de presidentes y primeros ministros» y aseguró que Varsovia no aspira a ese papel. La alta representante, Kaja Kallas, reivindicó que los Tratados atribuyen esa función a ella y al presidente del Consejo Europeo. Por su parte, la primera ministra danesa, Mette Frederiksen, rechazó que Moscú sea hoy un interlocutor creíble, al no haber dado, a su juicio, «ninguna señal» de querer poner fin a la guerra.
 
 ## Próximos pasos
-
-Los jefes de Estado y de Gobierno de la UE abordarán el asunto el viernes en una cumbre informal a nivel de los 27, también en Dublín. Según Europa Press, Zelenski tiene previsto reunirse en esa ciudad con los enviados estadounidenses Steve Witkoff y Jared Kushner, tras su paso por Moscú.

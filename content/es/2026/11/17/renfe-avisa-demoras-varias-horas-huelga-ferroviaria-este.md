@@ -29,11 +29,7 @@ imagenes:
   pie: Imagen de archivo de una sede vinculada al transporte ferroviario en España.
 ---
 
-Renfe ha advertido de que la huelga convocada en el sector ferroviario está provocando demoras de varias horas este martes. Así lo ha comunicado la compañía en su cuenta de X, según informa Europa Press, que añade que la disponibilidad de plazas para reubicar a los viajeros es muy limitada. Por ello, la empresa pide evitar los desplazamientos que no sean imprescindibles y buscar medios de transporte alternativos. Eso sí, los cambios y anulaciones de billetes se pueden hacer sin coste.
-
 La huelga afecta a todo el Grupo Renfe durante la jornada completa, de 0.00 a 23.59 horas. La han convocado el Comité General del Grupo Renfe, Semaf, CCOO, UGT, SFF-CGT, el Sindicato Ferroviario Intersindical y Alternativa Ferroviaria (Alferro). Reclaman mejoras en la seguridad del sistema ferroviario español y refuerzos en las plantillas de Adif y Renfe, entre otras peticiones.
-
-La jornada llega una semana después de otro paro convocado por la situación de la seguridad ferroviaria y el incumplimiento de compromisos previos por parte de Semaf. Los maquinistas de ese sindicato han anunciado además paros propios este martes y el día 23, en ocho operadoras: Renfe, Iryo, Ouigo, Transfesa, Continental Rail, Tracción Rail, Captrain y Medway. Según Europa Press, unos 7.000 maquinistas están llamados a secundar la movilización.
 
 El contexto es el accidente ferroviario de Urda (Toledo), que ha dejado al menos 69 muertos. Desde entonces, el Gobierno ha aprobado medidas como un decreto que permite a los maquinistas parar o no reiniciar el tren ante un «riesgo grave», un plan para mejorar la seguridad de la alta velocidad o la creación del Defensor de Víctimas de Accidentes de Transporte Colectivo. Semaf, junto a CCOO y UGT, se ha reunido con el Ministerio de Transportes, Adif, Renfe y la Agencia Estatal de Seguridad Ferroviaria sin lograr desconvocar la huelga. El secretario general de Semaf, Diego Martín, habló de una «parálisis injustificable» y sostuvo que los primeros pasos reales solo llegaron tras los paros de los días 29 de octubre y 10 de noviembre. Los maquinistas reconocen «avances técnicos», pero advierten de que faltan cuestiones esenciales y mantendrán las movilizaciones hasta que las soluciones estén aprobadas y publicadas.
 

@@ -27,11 +27,7 @@ imagenes:
   pie: Imagen de archivo de un vehículo del Rally Dakar.
 ---
 
-Fernando Alonso volverá a competir en el Rally Dakar y lo hará con Aston Martin, que se estrenará en la prueba, según publica El País. La confirmación llegó este martes a través de una serie de publicaciones de la marca en sus perfiles de redes sociales, después de que el propio piloto hubiera desmentido en primer lugar la noticia.
-
 El diario recuerda que los rumores empezaron a crecer pocos días después de la renovación de Alonso con la escudería para el Mundial de Fórmula 1 del año que viene. En aquel momento, el asturiano había avanzado que podría haber más sorpresas relacionadas con su futuro en la marca.
-
-Alonso será de nuevo copilotado por Marc Coma, el navegador catalán que le acompañó en su debut en el Dakar en 2020, cuando ambos terminaron en la 13.ª posición de la clasificación general a bordo de un Toyota. Ese año, su mejor etapa fue la octava, en la que acabó segundo. Según El País, el equipo correrá con el Dreadnought, el todoterreno de Aston Martin desarrollado por Prodrive, y tendrá como compañeros a Sébastien Loeb y a Lucas Moraes, campeón del mundo de rally-raid en 2025.
 
 En el comunicado oficial, Alonso explicó que quería «un desafío completo», el de competir el mismo año en la F1 y en el Dakar. El piloto añadió que la prioridad sigue siendo la Fórmula 1: «La F1 sigue siendo mi prioridad. Pero soy piloto de carreras, y retos como este son la razón por la que me encanta competir».
 

@@ -23,8 +23,6 @@ fuentes:
   url: https://cincodias.elpais.com/companias/2026-11-11/avatel-y-los-sindicatos-pactan-el-ere-tras-reducir-los-despidos-forzosos-a-383-personas.html
 ---
 
-Avatel Telecom y los representantes sindicales han cerrado la negociación del expediente de regulación de empleo (ERE) con un acuerdo que reduce a 383 los despidos forzosos, frente a los 444 planteados inicialmente por la compañía, según publica El País. La diferencia de 61 salidas se reparte entre televisión (25), la división técnica (15) y el área de negocio (21).
-
 Según el mismo medio, en la división de televisión 102 trabajadores aceptaron nuevas condiciones de flexibilidad laboral, lo que permitió cubrir las 91 plazas previstas para ese departamento. La cifra de 444 bajas solo se alcanzaría si la diferencia se completa con adhesiones voluntarias.
 
 ## Calendario y condiciones
@@ -36,7 +34,5 @@ Las indemnizaciones se equiparan a las de un despido improcedente: 45 o 33 días
 El texto incluye cláusulas de protección social que excluyen del despido forzoso a víctimas de violencia de género, a personas con hijos a cargo con una discapacidad igual o superior al 65 % y a trabajadores con enfermedades oncológicas. También prohíbe despedir forzosamente a ambos miembros de un matrimonio o de una pareja de hecho registrada.
 
 ## Contexto
-
-Es el tercer ajuste de plantilla de la compañía en dos años, tras las reestructuraciones de 2024 y de enero de 2026, que sumaron la salida de 600 empleados. La dirección lo atribuye al deterioro del resultado económico y a la insuficiencia de los planes anteriores para revertir la caída de rentabilidad. A ello se suma, según El País, la obligación de reembolsar subvenciones públicas del Plan ÚNICO para el despliegue de redes 5G y banda ancha asociadas a proyectos no ejecutados.
 
 La representación del personal vincula el ajuste a la transformación tecnológica y al impacto de la inteligencia artificial en la estructura laboral del sector. Fetico propuso crear una mesa de análisis sectorial junto al Gobierno para impulsar la reconversión profesional de los trabajadores de las telecomunicaciones.

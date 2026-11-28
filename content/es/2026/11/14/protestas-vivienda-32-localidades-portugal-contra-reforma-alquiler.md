@@ -24,13 +24,9 @@ fuentes:
 lugar: Lisboa
 ---
 
-Manifestaciones por la vivienda se han celebrado este sábado en 32 localidades de Portugal, según informa Europa Press. La convocatoria corre a cargo de la plataforma Casa Para Vivir, que pide la retirada de la reforma del Nuevo Régimen de Arrendamiento Urbano que tramita el Parlamento portugués.
-
 La concentración más numerosa tuvo lugar en Lisboa, donde la marcha partió de la Alameda Don Afonso Henriques en dirección a Martim Moniz. Entre los asistentes se vieron banderas del movimiento Vida Justa y de la Confederación General de Trabajadores Portugueses (CGTP). Algunas consignas aludían al primer ministro conservador, Luís Montenegro, y reclamaban salarios que permitan pagar una casa y el derecho a un techo.
 
 Las acampadas de Lisboa y Oporto también se sumaron a la movilización. Según la agencia, ambos colectivos han instalado en las últimas semanas campamentos en el centro de sus ciudades, pese a los desalojos reiterados.
-
-Jorge Filho, miembro del movimiento Puerta a Puerta, explicó al diario *Diário de Notícias* que el coste de la vivienda resulta insoportable y que los salarios no alcanzan para pagar un hogar. Según la información recogida por Europa Press, Filho considera que la población se ha visto obligada a salir a la calle para reclamar sus derechos.
 
 En la marcha de Lisboa también se criticó la respuesta policial a las acampadas y a las protestas, que algunos participantes calificaron de exagerada. La manifestante Raquel Fortuna, que acudió con su hija, defendió que las movilizaciones fueron pacíficas y pidió a la Policía que garantice la seguridad de quienes protestan.
 

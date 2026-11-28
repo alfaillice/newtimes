@@ -30,8 +30,6 @@ imagenes:
   pie: Imagen de archivo de la ciudad de Jartum, capital de Sudán.
 ---
 
-La coordinadora humanitaria de Naciones Unidas en Sudán, Denise Brown, ha denunciado este domingo un ataque con drones registrado durante la madrugada en Jartum, la capital del país. El bombardeo causó daños en un edificio de la ONU en el que había personal de la organización, según recoge Europa Press a partir de una declaración oficial de Brown.
-
 Brown sostuvo que el ataque se produjo en un barrio civil y recordó que «los civiles no son un objetivo legítimo en una guerra». Calificó de inaceptable que los trabajadores humanitarios estén expuestos a este tipo de riesgos y subrayó que permanecen en Sudán para prestar asistencia a la población, independientemente de la zona del país en la que se encuentren.
 
 La responsable recordó que el Derecho Internacional Humanitario garantiza la protección del personal y de los bienes humanitarios. Advirtió además de que los ataques con drones en Sudán causan numerosas bajas entre la población civil.

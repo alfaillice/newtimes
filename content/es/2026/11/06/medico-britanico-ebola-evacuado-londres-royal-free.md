@@ -30,8 +30,6 @@ Un médico británico que dio positivo por ébola mientras participaba en la res
 
 El traslado lo coordinaron los gobiernos británico y congoleño con socios sanitarios internacionales. Según el comunicado oficial, todo el viaje se hizo con los procedimientos establecidos de prevención y control de infecciones, que protegen también a quienes atienden al paciente. La Agencia de Seguridad Sanitaria del Reino Unido (UKHSA) explica en su blog que una evacuación de este tipo es un vuelo especializado durante el cual el enfermo recibe atención médica y que el equipo que lo acompañó llevaba protección completa.
 
-El Royal Free es uno de los centros del sistema público de salud británico (NHS) preparados para enfermedades infecciosas graves y poco frecuentes. Su unidad ya trató a pacientes durante la epidemia de África occidental de 2014 y 2015, recuerda AP. Según la agencia, es el primer paciente británico evacuado en este brote.
-
 ## Riesgo bajo para la población
 
 Renu Bindra, subdirectora de respuesta sanitaria de la UKHSA, afirmó que los protocolos de control de infecciones de la agencia y del NHS limitan el riesgo de transmisión y que el riesgo para el conjunto de la población «sigue siendo bajo». La UKHSA añade que esa valoración no ha cambiado y que la ciudadanía no necesita tomar precauciones adicionales.
@@ -43,5 +41,3 @@ La explicación está en cómo se contagia el virus: no se transmite por el aire
 El brote, declarado el 15 de mayo, lo causa el virus Bundibugyo, una de las especies del ébola. Según el último informe semanal de la UKHSA, que recoge datos del Instituto Nacional de Salud Pública congoleño a 1 de noviembre, suma 10.532 casos confirmados y 5.126 muertes, casi la mitad de los contagiados. Afecta a 67 zonas sanitarias de ocho provincias y es el mayor brote registrado de este virus. La Organización Mundial de la Salud (OMS) lo mantiene como emergencia de salud pública de importancia internacional y califica el riesgo de muy alto en la RDC y bajo a escala mundial.
 
 Frente al Bundibugyo no hay vacunas ni tratamientos autorizados, subraya la UKHSA, lo que deja la contención en manos del aislamiento de los enfermos y del seguimiento de sus contactos. En la RDC, ese seguimiento alcanza al 84 % de los contactos identificados, según el mismo informe.
-
-AP recuerda otros casos de sanitarios que han viajado a Europa: Francia confirmó en junio el contagio de un médico que volvía de una misión humanitaria en el Congo y que ya se ha recuperado. El experto Damien Tully, de la Escuela de Higiene y Medicina Tropical de Londres, calificó de «profundamente preocupante» el contagio, aunque «no del todo inesperado».

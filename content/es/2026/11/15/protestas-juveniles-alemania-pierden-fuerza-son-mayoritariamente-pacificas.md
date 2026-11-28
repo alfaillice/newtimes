@@ -23,11 +23,7 @@ fuentes:
 lugar: Berlín
 ---
 
-La segunda convocatoria de protestas juveniles en Alemania ha registrado una participación muy inferior a la de hace dos semanas y se ha desarrollado, en su mayoría, de forma pacífica, según informa Europa Press citando a la Policía.
-
 En Berlín, unas 700 personas se han concentrado por la tarde en una marcha con dos detenidos por el presunto lanzamiento de artefactos pirotécnicos, según un portavoz policial. Las fuerzas de seguridad han desplegado cerca de 700 agentes para vigilar la protesta. La agencia señala que esa cifra supera en siete personas la registrada por los organizadores y que, por tanto, estaba dentro de lo permitido.
-
-En Bremen, en el norte del país, han participado hasta 670 personas en una protesta en el centro de la ciudad, mientras que las estimaciones apuntaban a unas 2.000. Europa Press no precisa quién hizo esa previsión. En el oeste, la asistencia fue todavía menor: unas 80 personas se manifestaron en Wuppertal y 100 en Düsseldorf.
 
 La iniciativa juvenil «Gen Z regelt» («la Generación Z toma las riendas») convocó esta nueva serie de manifestaciones con reivindicaciones que van desde más financiación para los centros educativos y psicosanitarios hasta medidas frente al aumento del coste de la vida y una mayor justicia social y climática. También se opone a la introducción del servicio militar obligatorio y a la ampliación de la vigilancia estatal.
 

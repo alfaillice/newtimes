@@ -29,8 +29,6 @@ El presidente de Ucrania, Volodimir Zelenski, afirmó este jueves que la delegac
 
 Según la versión de Zelenski, los representantes de Moscú alegaron que no tenían permiso para tratar dos asuntos: una desescalada de los ataques en el mar Negro y un alto el fuego en las infraestructuras energéticas. Según el mandatario ucraniano, la delegación también escuchó que el presidente ruso, Vladimir Putin, tiene la intención clara de continuar la ofensiva. Zelenski resumió el mensaje recibido así: «La respuesta que recibió nuestra delegación fue que el jefe de Rusia está enfadado y quiere seguir atacando».
 
-El encuentro se celebró después de varios meses de estancamiento en el diálogo entre Kiev y Moscú. Europa Press recuerda que las rondas anteriores dejaron algunos acuerdos de carácter humanitario y que, en ellas, también se hicieron visibles las fricciones entre ambas partes.
-
 En la misma intervención, Zelenski confirmó un próximo intercambio de prisioneros. El enviado especial de Estados Unidos, Steve Witkoff, había anticipado que se producirá en los próximos días y que será el más grande desde el inicio del conflicto.
 
 En Dublín, el líder ucraniano volvió a pedir a sus socios europeos más apoyo militar para afrontar los ataques rusos durante el invierno. Entre las necesidades citadas figuran interceptores y misiles para los sistemas Patriot y NASAMS, además de munición y ayuda para sus infraestructuras energéticas. También reclamó sanciones más firmes contra Rusia.

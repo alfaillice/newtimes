@@ -28,12 +28,4 @@ imagenes:
   pie: Imagen de archivo de la catedral de la Almudena, en Madrid.
 ---
 
-La Conferencia Episcopal Española (CEE) presentó el pasado jueves su primer informe sobre los delitos de odio contra católicos en España cometidos en 2025, elaborado por su Oficina de Libertad Religiosa, según publica El País. El estudio, que la oficina empezó a preparar en junio de 2025 y terminó un año después, ha pasado en buena medida desapercibido, según señala el diario.
-
-Entre los dos representantes que la CEE eligió para presentarlo ante los medios figura Ricardo García García, catedrático de Derecho Eclesiástico y asesor externo de la institución en asuntos de libertad religiosa. Según El País, García fue ex alto cargo del Gobierno del expresidente valenciano Carlos Mazón durante la dana de 2024.
-
-El diario recuerda que García está imputado por la jueza de Llíria (Valencia) que investiga la filtración de un audio de aquella conversación entre el 112 y la Aemet, grabación que habría sido presuntamente manipulada. La imputación se produjo en julio, después de que el subsecretario de Emergencias de la Generalitat declarara que García le pidió la grabación y que él se la facilitó. Según el informe de la Guardia Civil citado por El País, García ya era señalado desde enero, y García está citado a declarar el próximo martes.
-
 Pese a esa situación, la CEE ha mantenido a García como asesor y le ha permitido participar en la defensa del informe. Preguntada por ello, la institución respondió: «la situación de Ricardo es de investigado, lo cual no supone un impedimento legal para el desarrollo de su actividad profesional». La CEE sostiene, además, que la relevancia del estudio está en su carácter novedoso y no en su contenido, porque se basa en datos de dominio público, y afirma que respeta los procesos judiciales.
-
-El País no recoge ninguna otra medida anunciada por la CEE en relación con García. La declaración del martes en el juzgado de Llíria será el siguiente paso conocido en la causa.

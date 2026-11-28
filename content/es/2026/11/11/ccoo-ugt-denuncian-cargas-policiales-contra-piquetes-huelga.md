@@ -28,8 +28,6 @@ fuentes:
 lugar: Madrid
 ---
 
-CCOO y UGT han denunciado cargas de la Policía Nacional contra varios piquetes informativos durante las primeras horas de la huelga general de 24 horas convocada este miércoles, 11 de noviembre, para reclamar acceso a la vivienda y mejora de los salarios, según recoge Europa Press.
-
 La secretaria ejecutiva de Salud Laboral de UGT, Patricia Ruiz, ha señalado las dificultades que encontraban los piquetes para informar a los trabajadores en las cocheras de la Empresa Municipal de Transportes (EMT) de Madrid, en la calle Mauricio Legendre, y ha denunciado agresiones de agentes contra ellos. Desde CCOO de Madrid han hablado de momentos de tensión y cargas en el mismo lugar. El secretario general de UGT, Pepe Álvarez, ha afirmado que la Policía Nacional «está impidiendo el derecho constitucional a la huelga» y que está arrinconando al piquete informativo de Mercamadrid.
 
 CCOO sostiene que en los piquetes de Mercamadrid hay al menos 13 personas heridas, algunas de ellas atendidas médicamente, y una persona detenida. El sindicato denuncia golpes en la cabeza de varias compañeras que participaban en el piquete. Por su parte, el Sindicato de Inquilinas e Inquilinos de Madrid afirma que en Carabanchel, en la avenida de los Poblados, se han producido cargas y gas contra integrantes de un piquete, y eleva a al menos ocho el número de heridos.

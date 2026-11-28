@@ -27,8 +27,6 @@ imagenes:
   pie: Imagen de archivo del estadio Riyadh Air Metropolitano.
 ---
 
-Luis de la Fuente ha dejado fuera de la convocatoria a Álvaro Valles, Jacobo Ramón, Jorge de Frutos y Roberto Fernández para el partido de este domingo ante Inglaterra, último encuentro de la fase de grupos de la Liga de Naciones. El duelo se disputará en el Riyadh Air Metropolitano, según informa Europa Press.
-
 El portero del Real Betis Álvaro Valles repite la ausencia que ya sufrió en el partido ante la República Checa. Los delanteros Jorge de Frutos, del Rayo Vallecano, y Roberto Fernández, del RCD Espanyol, pierden su plaza porque el seleccionador ha vuelto a contar con Lamine Yamal y Mikel Oyarzabal, que se incorporaron a la concentración después del encuentro del pasado jueves.
 
 La convocatoria incluye también a Aymeric Laporte, que había quedado fuera del partido anterior. Su regreso impide que Jacobo Ramón pueda vestirse de corto en este encuentro.

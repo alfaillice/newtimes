@@ -25,8 +25,6 @@ fuentes:
 
 El Valencia CF y el Deportivo Alavés se han clasificado para los treintaidosavos de final de la Copa del Rey tras imponerse con claridad en sus partidos de 1/64 de final, disputados el pasado martes. El conjunto valencianista goleó por 0-6 a la UE Tavernes, mientras que el equipo vitoriano ganó por 1-6 al CD Anaitasuna.
 
-En el encuentro del Valencia, Dani Raba marcó antes de que transcurriese el primer minuto. Hugo Duro amplió la ventaja en el 11', Luis Rioja convirtió en gol un córner superado el cuarto de hora y Harvey Elliott anotó de falta directa. Según la crónica de Europa Press, los cuatro goles llegaron en 23 minutos. En la segunda mitad, Aimar Blázquez marcó dos tantos, el 0-5 y el 0-6, rematando sendos pases de Rioja desde el costado izquierdo. La misma fuente señala que el Tavernes, de categoría inferior, dio mucho trabajo al portero Arnau Mainar.
-
 El Alavés también se impuso con holgura. Jonny Otto abrió el marcador con un derechazo desde fuera del área y Mariano Díaz firmó el 0-2 en el 37'. Antes del descanso, Carlos Juaristi acortó distancias para el Anaitasuna, pero tras el paso por vestuarios el equipo alavés se impuso con los goles de Miguel Rodríguez, Mariano Díaz en el 57', Aitor Mañas en el 79' y Carles Aleñá en el 86', que cerró el marcador con la zurda.
 
 En el resto de partidos de la ronda, la SD Eibar ganó 0-3 en su visita al CD Pamplona, con dos goles de Jon Magunazelaia y otro de Javi Martón. El CD Leganés se impuso por 0-1 al CF TrivalValderas, con un gol de Álex Millán en el minuto 48. Además, el CP Mijas Las Lagunas perdió 1-2 frente al Real Jaén y la SD Amorebieta venció por 1-0 a la UD Logroñés.

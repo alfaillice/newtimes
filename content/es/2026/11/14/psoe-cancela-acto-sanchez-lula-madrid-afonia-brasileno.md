@@ -26,13 +26,9 @@ lugar: Madrid
 
 El PSOE ha cancelado el acto de campaña previsto para este lunes 16 de noviembre en Madrid, en el que iban a participar Pedro Sánchez y el presidente de Brasil, Luiz Inácio Lula da Silva. La causa es una afonía del mandatario brasileño. Fuentes de Moncloa han indicado que la visita institucional de Lula a La Moncloa se mantiene para ese mismo día.
 
-Según la información de Europa Press, el Ejecutivo había anticipado el pasado jueves que, además del encuentro institucional, se celebraría otro acto en el que Lula expresaría su respaldo a Sánchez de cara a las elecciones generales del 29 de noviembre. Ese segundo acto es el que ahora queda sin efecto.
-
 La escala en Madrid será la primera visita de Lula a España desde que ganó las elecciones presidenciales brasileñas el pasado 25 de octubre frente a Flávio Bolsonaro. El mandatario llega de regreso de la conferencia del clima COP31, celebrada en Antalya (Turquía), y de la cumbre de la Asean, en Manila (Filipinas).
 
 La reunión bilateral prevista en el Palacio de La Moncloa abordará las relaciones entre ambos países y la coordinación de iniciativas globales como «Democracia Siempre» y la Alianza Global contra el Hambre y la Pobreza.
-
-El problema de voz ya condicionaba la gira. Según el diario brasileño Folha de S.Paulo, citado por Europa Press, Lula podía hablar este sábado, pero no estaba en condiciones de afrontar intervenciones públicas prolongadas. Ese mismo medio recoge que en Filipinas canceló sus declaraciones: no pronunció discursos tras sus reuniones y difundió comunicados escritos.
 
 El contexto es sensible para ambos líderes. Lula no acudió a la XXX Cumbre Iberoamericana, celebrada en Madrid, por el cansancio que le había causado la campaña electoral en su país. Sánchez, por su parte, ha citado el caso de Brasil en sus mítines de precampaña para animar a una victoria socialista, pese a que las encuestas vaticinan un resultado negativo.
 

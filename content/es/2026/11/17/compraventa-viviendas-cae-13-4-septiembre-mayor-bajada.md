@@ -29,8 +29,6 @@ imagenes:
   pie: Imagen de archivo de un edificio institucional en Madrid.
 ---
 
-El número de compraventas de viviendas cayó en septiembre un 13,4 % respecto al mismo mes de 2025, hasta las 54.548 operaciones, según el Instituto Nacional de Estadística (INE), recogido por Europa Press. Es la mayor caída interanual desde mayo de 2024 y rompe el avance del 3,4 % registrado en agosto.
-
 El descenso afecta a los dos segmentos del mercado. Las operaciones sobre viviendas de segunda mano bajaron un 14 %, hasta 42.403, su mayor retroceso desde mayo de 2024. Las de viviendas nuevas se redujeron un 11,6 %, hasta 12.145.
 
 Por tipo de vivienda, las libres sumaron 51.180 operaciones, un 12,8 % menos, mientras que las protegidas se hundieron un 21,6 %, hasta 3.368. Las protegidas representaron el 6,2 % del total.

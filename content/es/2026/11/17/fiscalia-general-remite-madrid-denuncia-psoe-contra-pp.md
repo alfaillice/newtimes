@@ -29,8 +29,6 @@ imagenes:
   pie: Imagen de archivo de la sede del Partido Popular en Madrid.
 ---
 
-La Fiscalía General del Estado (FGE) ha remitido a la Fiscalía Provincial de Madrid la denuncia que el PSOE presentó contra el PP por las acusaciones del exasesor ministerial Koldo García. Según confirmaron a Europa Press fuentes fiscales, el escrito llegó a la FGE el pasado viernes, 13 de noviembre. Tras examinar su contenido, la FGE lo ha trasladado este lunes mediante oficio a la fiscalía territorialmente competente, que en este caso es la de Madrid.
-
 Koldo García, condenado a 19 años de cárcel en el caso mascarillas, aseguró que el abogado del PP Alberto Durán le ofreció costear su defensa y un millón de euros «si aportaba informaciones relevantes contra el presidente del Gobierno y su entorno». La denuncia del PSOE se dirige contra ese abogado y contra una empresa editora, a la que el partido socialista atribuye el pago de la defensa de quien fue asesor del exministro de Transportes José Luis Ábalos.
 
 En el escrito, el PSOE sostiene que hubo una contrapartida en forma de publicidad institucional de administraciones del mismo signo político y que, de forma indiciaria, el destinatario efectivo del beneficio podría haber sido el PP. Para comprobarlo, según el partido, sería necesario examinar las cuentas de la formación, sus relaciones económicas con la editora desde mayo de 2025 hasta la actualidad y las rendiciones de cuentas presentadas ante el Tribunal de Cuentas.

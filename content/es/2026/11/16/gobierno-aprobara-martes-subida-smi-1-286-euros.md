@@ -28,12 +28,8 @@ imagenes:
   pie: Imagen de archivo de billetes de euro.
 ---
 
-La vicepresidenta segunda y ministra de Trabajo y Economía Social, Yolanda Díaz, confirmó este lunes que el Consejo de Ministros aprobará este martes la subida del 5,3 % del Salario Mínimo Interprofesional (SMI) para 2027. Según explicó en el programa *Al Rojo Vivo* de La Sexta, recogido por Europa Press, el salario mínimo quedará en 1.286 euros al mes en catorce pagas, frente a los 1.221 euros mensuales de este año.
-
 Díaz afirmó que la medida supondrá 910 euros más de ingresos anuales y 65 euros más al mes para los sueldos más bajos. Destacó que el incremento estará exento de tributación en el IRPF, lo que, a su juicio, lo convierte en una subida «de carácter integral, es decir, sin pagar impuestos». La ministra la presentó como «la mejor herramienta para reducir la pobreza laboral».
 
 La vicepresidenta indicó que, desde la llegada del Gobierno, el SMI acumula una subida del 75 %. Reconoció que la negociación dentro del Ejecutivo para fijar el último incremento fue intensa, porque, según dijo, había miembros del Gobierno que no querían elevarlo tanto. Recordó que hace unas semanas firmó el decreto que fijaba la subida en el 5,3 %.
-
-El plazo para presentar alegaciones a la propuesta del SMI vence este mismo lunes. Si el Consejo de Ministros la aprueba el martes, el Gobierno cumplirá su objetivo de cerrar la subida antes de que termine la legislatura, que concluirá con las elecciones del 29 de noviembre, según recoge Europa Press.
 
 Díaz también reclamó que el resto de salarios de los convenios colectivos suba a través del Acuerdo para el Empleo y la Negociación Colectiva (AENC).

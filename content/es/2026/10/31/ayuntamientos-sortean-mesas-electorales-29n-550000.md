@@ -17,8 +17,6 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/10/31/los-ayuntamientos-empiezan-a-sortear-desde-este-sabado-las-mesas-electorales-para-convocar-a-casi-550000-personas/
 ---
 
-Los ayuntamientos de toda España pueden celebrar desde este sábado, 31 de octubre, los sorteos que decidirán quién forma las mesas electorales en las elecciones generales del 29 de noviembre. Según los datos recogidos por Europa Press, se prevén 61.033 mesas, alrededor de 700 más que en las generales de julio de 2023, para las que se convocará a 549.297 personas, frente a unas 543.000 en aquellos comicios. La cifra de mesas aún puede variar con los cambios del censo.
-
 Cada mesa tiene un presidente y dos vocales, y para cada uno de esos puestos se designan dos suplentes, de modo que son nueve las personas llamadas por mesa. Todas ellas, también los suplentes, deben presentarse a las 8.00 del día de la votación en su colegio electoral.
 
 ## Plazos y quién puede ser elegido

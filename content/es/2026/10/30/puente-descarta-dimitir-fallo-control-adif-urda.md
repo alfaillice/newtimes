@@ -29,8 +29,6 @@ fuentes:
 
 El ministro de Transportes, Óscar Puente, ha descartado este viernes presentar su dimisión por el accidente ferroviario de Urda (Toledo), en el que un AVE de Renfe y un tren de Iryo chocaron el pasado miércoles. En una comparecencia ante los medios, Puente señaló que los indicios apuntan a un error en el centro de control de mando de Adif en Atocha.
 
-Según la explicación del ministro, un trabajador de ese centro ordenó al tren de Renfe retomar la marcha a velocidad normal cuando, unos kilómetros por delante, el convoy de Iryo estaba detenido en la vía. Un primer informe técnico citado por elDiario.es calcula que el AVE circulaba entonces a entre 160 y 200 kilómetros por hora. El empleado de Adif que dio la orden se ha negado a declarar ante la Guardia Civil, según informa EFE.
-
 Puente defendió que el centro de control no tenía falta de personal y que funcionaba con normalidad. Sobre su continuidad en el cargo, afirmó: «Mi obligación es resolver el problema y ofrecer explicaciones». El ministro comparecerá en el Congreso la próxima semana.
 
 ## Víctimas y desaparecidos

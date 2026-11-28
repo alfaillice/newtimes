@@ -29,8 +29,6 @@ El detenido tiene 41 años. Hasta ahora, las autoridades no han hecho público s
 
 En su comunicado, la Policía indicó que los agentes realizaban registros en dos lugares de Gloucestershire como parte de la investigación. Respecto al país implicado, la institución señaló que «el país al que se refieren las acusaciones es Rusia».
 
-Según la información difundida por la agencia Europa Press, el hombre fue detenido en virtud de la Ley de Seguridad Nacional de 2023 y permanece bajo custodia en una comisaría de Londres. La investigación está a cargo de agentes de la unidad antiterrorista, que mantienen abiertas las pesquisas.
-
 El director del FBI, Kash Patel, celebró la detención. Según la misma información, Patel afirmó que la agencia no tolera a quien incumpla su juramento a Estados Unidos y ponga en peligro la seguridad nacional, tanto de su país como de sus socios.
 
 Por su parte, la subcomisaria adjunta y coordinadora antiterrorista británica, Vicki Evans, calificó la actuación de «importante detención». Evans destacó también la investigación que se ha abierto a raíz del arresto y la vinculó a la estrecha colaboración entre las autoridades de Reino Unido y Estados Unidos.

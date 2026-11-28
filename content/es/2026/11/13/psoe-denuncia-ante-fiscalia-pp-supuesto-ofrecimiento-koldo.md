@@ -26,8 +26,6 @@ fuentes:
 
 El PSOE ha presentado ante la Fiscalía General del Estado una denuncia contra el Partido Popular por las declaraciones de Koldo García, exasesor del exministro José Luis Ábalos. García, condenado por el Tribunal Supremo a 19 años de prisión en el caso mascarillas, asegura que le ofrecieron costear su defensa y un millón de euros si mentía contra el presidente del Gobierno, Pedro Sánchez.
 
-Según la denuncia, a la que ha tenido acceso Europa Press, los socialistas señalan presuntos delitos de obstrucción a la justicia, tráfico de influencias, falsedad en documento mercantil, cohecho, prevaricación y malversación. El escrito se dirige contra Alberto Durán, abogado del PP, y contra una empresa editora, a la que vincula con el pago de la defensa de García.
-
 Siempre según el relato de García recogido por el PSOE, mantuvo dos reuniones con Durán en mayo de 2025 en un despacho de Madrid próximo a la sede del PP, en la calle de Génova. Allí, según esa versión, le ofrecieron 300.000 euros por una entrevista en la que debía señalar al presidente del Gobierno, a su esposa y al expresidente Zapatero, y otros 700.000 euros presentados como derechos de un libro.
 
 El PSOE sostiene además que la negativa de García a mentir habría llevado al PP, como líder de la acusación popular, a adoptar una posición más activa para que ingresara en prisión provisional. Los socialistas afirman que la contrapartida habría sido publicidad institucional de administraciones del mismo signo y apuntan a una presunta financiación ilegal.

@@ -36,8 +36,6 @@ La vicepresidenta ejecutiva para la Soberanía Tecnológica, la Seguridad y la D
 
 En esta fase, la Comisión plantea que TikTok rediseñe el feed para apoyarse más en las preferencias que el usuario declara de forma explícita, que deje de usar el tiempo de visionado como señal para recomendar vídeos, que haga sus controles más accesibles y fáciles de usar, y que someta su algoritmo a pruebas periódicas.
 
-TikTok replicó que la Comisión ha hecho declaraciones «fundamentalmente inexactas» sobre el funcionamiento de la plataforma y su compromiso con la seguridad, según una declaración remitida a Europa Press. «Tenemos una sólida trayectoria en la protección de nuestra comunidad», añadió la empresa, que asegura dar a los usuarios control sobre los contenidos que ven.
-
 ## Próximos pasos
 
 La compañía puede ahora ejercer su derecho de defensa: consultar el expediente de la investigación y responder por escrito a las conclusiones. La Comisión consultará además a la Junta Europea de Servicios Digitales. Ni la Comisión ni las agencias han concretado un plazo para estos trámites. Las conclusiones preliminares no prejuzgan el resultado final.

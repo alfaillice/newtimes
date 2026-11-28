@@ -29,6 +29,4 @@ El sindicato sostiene que el conflicto afecta a más de 126.000 trabajadores y t
 
 Entre las reivindicaciones que el sindicato pone sobre la mesa figuran las mejoras salariales, la reducción de la jornada, los avances en salud laboral, las medidas de conciliación y las mejoras relacionadas con la jubilación parcial. La organización defiende que el desarrollo económico de la industria cárnica se ha logrado gracias al esfuerzo y al compromiso de sus plantillas.
 
-Tras esta primera jornada, UGT FICA ha pedido mantener e intensificar la participación en las siguientes convocatorias y ha advertido de que las movilizaciones continuarán mientras la patronal no muestre disposición a alcanzar un acuerdo. El sindicato afirma que apuesta por la negociación colectiva, aunque, según la información publicada por Europa Press, «no aceptará un convenio que consolide la pérdida de poder adquisitivo».
-
 La información no incluye la valoración de las organizaciones empresariales ni datos de seguimiento procedentes de otras fuentes. Las cifras de participación y de trabajadores afectados proceden exclusivamente del sindicato.

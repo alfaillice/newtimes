@@ -29,8 +29,6 @@ imagenes:
   pie: Imagen de archivo de una rampa de acceso adaptada.
 ---
 
-La Confederación Española de Personas con Discapacidad Física y Orgánica (COCEMFE) ha trasladado a los partidos políticos un documento titulado «Propuestas electorales 2026: 12 prioridades para la próxima legislatura», con 106 propuestas concretas de cara a las elecciones generales del 29 de noviembre, según recoge Europa Press.
-
 La entidad pide a las formaciones que asuman estas prioridades como compromisos de legislatura y que las traduzcan en medidas legislativas, presupuestarias y de gestión pública. Como marco de referencia cita la Convención de la ONU sobre los derechos de las personas con discapacidad y el artículo 49 de la Constitución Española.
 
 Entre las reclamaciones figura la aplicación efectiva de los nuevos derechos en materia de discapacidad y dependencia, la reducción de las listas de espera y la garantía de la asistencia personal y del derecho a una vida independiente. El documento también pide un acceso a una vivienda accesible, asequible e inclusiva, así como una educación inclusiva.

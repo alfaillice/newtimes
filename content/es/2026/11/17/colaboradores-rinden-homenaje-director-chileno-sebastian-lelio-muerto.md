@@ -28,8 +28,6 @@ imagenes:
   pie: Imagen de archivo de Santiago de Chile, ciudad natal del director.
 ---
 
-El director chileno Sebastián Lelio ha muerto a los 52 años, según publica The Guardian, que reúne los testimonios de tres personas que trabajaron con él: la actriz Elaine Cassidy, el compositor Matthew Herbert y la escritora Rebecca Lenkiewicz.
-
 Cassidy recuerda que el primer contacto con el proyecto de *The Wonder* fue una videollamada en la que Lelio ofreció a su hija, Kíla, el papel de Anna O'Donnell. Después le propuso a ella interpretar a Rosaleene, la madre del personaje. Según su relato, el director consultó antes con la joven, algo que la actriz considera un ejemplo de su manera de hacer las cosas. Describe también a un hombre atento con cada miembro del equipo, que admiraba la discreción del operador de claqueta y que invitaba a la familia a mirar cada toma bajo la tela negra junto a él.
 
 Herbert se centra en la música de *The Wonder*, que según explica Lelio quería mantener elevada, alejada de la dureza del material. El compositor describe al director como alguien que atendía a las dificultades cotidianas de sus personajes sin perder de vista lo trascendente. Recuerda también *Gloria* y su remake, *Gloria Bell*, películas en las que Lelio quiso dar protagonismo a personajes secundarios, y menciona *A Fantastic Woman* y *Disobedience*.

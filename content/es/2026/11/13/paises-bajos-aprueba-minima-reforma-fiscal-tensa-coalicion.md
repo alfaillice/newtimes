@@ -22,8 +22,6 @@ fuentes:
   url: https://www.europapress.es/internacional/noticia-parlamento-neerlandes-aprueba-minima-reforma-fiscal-amenaza-romper-coalicion-gobierno-20261113055550.html
 ---
 
-La Cámara de Representantes de Países Bajos ha aprobado por una ajustada mayoría un plan fiscal que incluye una subida de impuestos para las rentas muy altas. Según recoge Europa Press, que cita a la radiotelevisión pública NOS, la votación ha agravado la crisis de una coalición que gobierna en minoría.
-
 El texto aprobado es una enmienda presentada por los partidos PRO y Volt y pactada por Demócratas 66 (D66), al que pertenece el primer ministro, Rob Jetten, y por la Llamada Demócrata Cristiana (CDA). Ambas formaciones son socias del Gobierno, junto al Partido Popular por la Libertad y la Democracia (VVD), que es la segunda fuerza de la coalición por número de escaños.
 
 El VVD votó en contra de la reforma. Su partido afirmó que D66 y CDA habían vulnerado el pacto de coalición y se inclinaba por buscar una mayoría con partidos de extrema derecha que respaldaran el plan fiscal inicial.

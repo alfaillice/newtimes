@@ -36,10 +36,6 @@ Zarco y Bagnaia llegaron a la Q2 desde la Q1, donde el francés hizo el mejor ti
 
 Completan la parrilla, por este orden, Diogo Moreira, Brad Binder, Jack Miller, Álex Rins, Fabio Quartararo, Iker Lecuona y Augusto Fernández. Saldrán 20 motos.
 
-Jorge Martín decidió no seguir en el Gran Premio después de rodar en la segunda sesión de libres, según EFE, por las molestias de la fractura de radio en el brazo derecho que sufrió en la caída de la carrera al sprint de Phillip Island. Motorsport.com detalla que completó ocho vueltas, terminó último en esa sesión y que la decisión se tomó con el director médico del campeonato, Ángel Charte, mientras se disputaba la Q1.
-
 El jefe de equipo de Aprilia, Paolo Bonora, explicó que el piloto se encontraba mejor que el viernes, pero que no tenía fuerza suficiente para frenar en las zonas de frenada más exigentes, y que el plan es que regrese a España cuanto antes para recuperarse, de acuerdo con Motorsport.com.
-
-Martín llegó a Sepang a diez puntos de Marc Márquez, según EFE, de modo que el líder puede ampliar su ventaja este fin de semana.
 
 La carrera al sprint se disputa este sábado a las 15.00, hora local (08.00, hora peninsular), y la carrera larga, el domingo.

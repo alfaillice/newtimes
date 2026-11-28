@@ -26,19 +26,13 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/10/30/transportes-sopesa-cortar-el-servicio-durante-la-remodelacion-de-la-av-madrid-barcelona/
 ---
 
-El trabajador del centro de control de Adif en la estación de Madrid Puerta de Atocha que ordenó al AVE reanudar la circulación en «marcha normal» antes del choque de Urda (Toledo) se ha negado este viernes a responder a las preguntas de la Guardia Civil. Según fuentes de la investigación citadas por Europa Press, el operario, que estaba bajo custodia de la Policía Judicial, actuó así conforme al protocolo que se sigue tras un accidente ferroviario.
-
 Los agentes le preguntaban en el marco de la investigación de la Comisión de Investigación de Accidentes Ferroviarios (CIAF), que es técnica y se desarrolla al margen de la causa penal abierta en un juzgado de la provincia de Toledo. La pieza central de ambas pesquisas es esa orden: el AVE la recibió poco antes de chocar contra un tren de Iryo que estaba detenido en la misma vía. El accidente, ocurrido el pasado miércoles, ha causado 69 muertos.
 
 ## Los sindicatos piden prudencia
 
-Las organizaciones sindicales han salido en defensa de los profesionales del centro de control y reclaman conocer qué información tenía el operario en sus pantallas antes de atribuirle la responsabilidad, según recoge EFE. Vicente Almenar, maquinista de Renfe y afiliado a UGT, advirtió de que «hay mucha presión porque los trenes están llegando tarde» y explicó que se intenta agilizar la circulación para cumplir los horarios. También rechazó la difusión de audios parciales de las comunicaciones entre el centro de control y los maquinistas.
-
 Antonio Tobal, responsable de seguridad de UGT en Adif, lamentó que todo se centre en el error humano y describió a los operadores como la última barrera de seguridad del sistema. CCOO sostuvo que la responsabilidad no es de ningún trabajador y pidió sistemas que prevengan y corrijan los fallos, mientras que el sindicato SFF-CGT reclamó analizar la organización del trabajo, la formación, la plantilla y la gestión de la circulación. El sindicato de maquinistas Semaf ha convocado una nueva huelga en Renfe los días 10 y 12 de noviembre.
 
 ## Último rastreo en la zona cero
-
-La Guardia Civil reanudó a primera hora del viernes los trabajos en el lugar del choque. Cuatro guías con sus perros volvieron a peinar los vagones en busca de personas o restos biológicos, después de que el jueves no encontraran nada, y los equipos de Criminalística y Policía Judicial regresaron para reunir pruebas para la investigación judicial. Su portavoz, Teresa Albacete, explicó a EFE que el objetivo es «cerciorarse de que en la zona del accidente, en los vagones, no queda nadie». Los drones del instituto armado han fotografiado el terreno para una recreación en 3D que se incorporará al atestado. La retirada de los trenes corresponde a Adif y Renfe, y la identificación de las víctimas continuará.
 
 ## Posible corte del Madrid-Barcelona
 

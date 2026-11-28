@@ -26,8 +26,6 @@ lugar: Antalya
 
 Más de 10.000 personas, según los convocantes, marcharon el pasado sábado en Antalya (Turquía) contra el deterioro del clima mundial y en favor de los derechos humanos. La protesta coincidió con la 31.ª Conferencia de las Naciones Unidas sobre el Cambio Climático (COP31), que acoge esta ciudad turca, y se produjo pese a un amplio despliegue policial. El recorrido fue de un kilómetro, desde el parque Aydin Kanza hasta la plaza de la República.
 
-Las autoridades permitieron la concentración en un país donde los vetos a manifestaciones multitudinarias son habituales, aunque los participantes tuvieron que mostrar sus pancartas en controles policiales antes de sumarse a la marcha. Europa Press recuerda que en los últimos meses se han producido redadas contra asociaciones LGTBI y que las manifestaciones quedaron prohibidas durante la cumbre de la OTAN celebrada en Ankara en julio.
-
 La convocatoria partió de numerosas organizaciones turcas y contó con el respaldo de sindicatos, partidos de la oposición y organizaciones internacionales. Un portavoz del comité organizador, Nil Ormanli, declaró a la agencia DPA que hacía mucho tiempo que no se celebraba en Turquía una manifestación con tanta participación.
 
 Entre los asistentes estuvo la secretaria de Estado alemana de Cultura, Claudia Roth, que pidió contención a las fuerzas de seguridad turcas: «No debe haber agresiones ni detenciones». Roth defendió la protesta como una parte esencial de cualquier cumbre del clima. Por su parte, Luisa Neubauer, del movimiento Fridays for Future, explicó que los activistas evitaron mensajes polémicos para no poner en peligro a sus compañeros turcos, y criticó los controles policiales: «Funciona muy bien la maquinaria de represión».

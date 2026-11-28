@@ -28,8 +28,6 @@ imagenes:
   pie: Imagen de archivo de un edificio oficial en Madrid.
 ---
 
-El Gobierno incorpora a los ministros de culto de la Iglesia Ortodoxa Rumana en España al Régimen General de la Seguridad Social, equiparados a trabajadores por cuenta ajena. Así lo recoge el Real Decreto 1005/2026, de 18 de noviembre, publicado este viernes en el Boletín Oficial del Estado (BOE), que entrará en vigor el 1 de enero de 2027. Según informa Europa Press, la norma también permite reconocer como cotizados determinados periodos de actividad anteriores a su entrada en vigor, para que computen en el acceso a prestaciones, sobre todo la pensión de jubilación.
-
 La medida no es nueva en el sistema. Según la misma fuente, ya se había aplicado a otros colectivos religiosos: los ministros de culto de las iglesias evangélicas, los clérigos de la Iglesia Ortodoxa Rusa, los dirigentes religiosos e imames de las comunidades islámicas y los miembros de la Orden religiosa de los Testigos de Jehová.
 
 ## Quién entra en el régimen

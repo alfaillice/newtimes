@@ -33,8 +33,6 @@ La Guardia Revolucionaria Islámica de Irán anunció este martes, en un comunic
 
 Según el comunicado, el aparato aterrizó con seguridad tras una operación de guerra electrónica realizada por especialistas aeroespaciales de la Guardia. El cuerpo atribuyó la acción a sus «jóvenes oficiales de élite» y afirmó que con ella han demostrado que «la supuesta superioridad tecnológica de Estados Unidos no garantiza la invulnerabilidad de su equipamiento militar».
 
-El dron, conocido también como Outlaw G2, tiene 4,9 metros de envergadura y 2,7 de longitud, según la información recogida por Europa Press. Lo fabrica la compañía estadounidense Griffon Aerospace, que lo presenta en su sitio web como un vehículo para objetivos fiable y de bajo coste, y como la plataforma básica de UAS para los contratos militares estadounidenses de objetivos aéreos.
-
 En el mismo comunicado, la Guardia advirtió a Washington de que «cualquier acción hostil recibirá una respuesta contundente» por parte de los defensores del país.
 
 La versión iraní procede de su propio anuncio. Las fuentes consultadas no incluyen una confirmación independiente de la captura ni una respuesta del Ejército estadounidense sobre el episodio. Esta información se actualizará si se conocen nuevos datos verificados.

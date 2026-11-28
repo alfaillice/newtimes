@@ -26,8 +26,6 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/11/03/garamendi-rechaza-la-huelga-y-aboga-por-sentarse-a-trabajar-para-arreglar-los-problemas/
 ---
 
-Un seguimiento generalizado de la huelga general del próximo miércoles, 11 de noviembre, dejaría sin producir bienes y servicios exportables por valor de 1.600 millones de euros, según la estimación que el Club de Exportadores ha hecho pública este viernes en un comunicado recogido por EFE. Es una estimación de la propia asociación, que no ha detallado con qué método ha llegado a esa cifra.
-
 Para su presidente, Antonio Bonet, el coste no se limita a la jornada de paro. A su juicio, la convocatoria «perjudica gravemente la imagen de España como destino inversor», y la sensación de conflictividad e incertidumbre que transmite influye en las decisiones de inversión durante mucho más tiempo que un solo día.
 
 El club apoya su advertencia en los datos del Registro de Inversiones Exteriores: la inversión extranjera directa en España cayó un 21,8 % en 2025, hasta 30.764 millones de euros, el nivel más bajo desde 2021. Bonet sostiene además que las empresas no tienen margen de decisión sobre los motivos que alegan los sindicatos y que el acceso a la vivienda depende de las administraciones públicas.

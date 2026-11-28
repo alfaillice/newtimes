@@ -29,11 +29,7 @@ imagenes:
   pie: Imagen de archivo de Evanilson.
 ---
 
-Según publica The Guardian, el Bournemouth ganó por 2-0 al Nottingham Forest en la Premier League y logró su novena victoria consecutiva en todas las competiciones, un récord del club. Los goles llegaron de Evanilson, en el minuto 19, y de Justin Kluivert, en el último suspiro de la primera parte. Con el triunfo, el equipo de Marco Rose asciende al cuarto puesto de la clasificación.
-
 El brasileño lleva seis partidos consecutivos de Liga marcando. Según el diario británico, el primer tanto nació de un cabezazo de James Hill que dejó el balón en las botas de Evanilson; este controló con un solo toque y disparó con la izquierda a la red. El segundo lo cerró Kluivert tras una gran carrera y un centro de Marcus Tavernier, al que remató de cerca al palo más alejado.
-
-El Forest, que había ganado 3-1 al Manchester City antes de la pausa por los partidos internacionales, empezó mejor y tuvo las primeras ocasiones, con un remate de Neco Williams cerca del poste. Sin embargo, no logró aprovechar su mejor versión. Tras el descanso intentó un juego más directo, pero sus delanteros no acertaron: James McAtee mandó un balón por encima del larguero y el recién entrado Chris Wood falló un cabezazo a balón parado. The Guardian señala que el Forest tuvo 19 disparos, pero solo uno a puerta.
 
 El Bournemouth, por su parte, fue peligroso al contraataque. Kluivert estuvo cerca de firmar el tercero, aunque Matz Sels, portero del Forest, le sacó un remate desde la frontal, y el propio Kluivert cedió a Rayan una ocasión que podía haber rematado.
 

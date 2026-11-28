@@ -26,8 +26,6 @@ fuentes:
     url: https://www.ultimahora.es/noticias/comunidades/2026/11/05/2743675/ayuso-carga-contra-mafia-sindical-ugt-ccoo-promueve-huelga-contra-sentido-comun.html
 ---
 
-La Conselleria de Empresa de la Generalitat ha fijado en el 25 % del servicio habitual en hora punta los mínimos del transporte público en Cataluña para la huelga general del próximo miércoles, 11 de noviembre, según la orden publicada el jueves y recogida por Europa Press. La medida alcanza a Rodalies y Regionales, TMB, FGC, el Tram y los autobuses urbanos e interurbanos. El autobús entre Barcelona y el aeropuerto tendrá un mínimo del 50 %.
-
 La orden garantiza el funcionamiento normal de urgencias y de las unidades especiales —cuidados intensivos, coronarias, hemodiálisis, neonatología, partos, radioterapia y quimioterapia— en centros públicos y privados. La atención primaria queda en el 25 % y el Banc de Sang i de Teixits, en el 50 %. Las residencias de mayores y de personas con discapacidad y la teleasistencia mantendrán el 85 %, y los centros de día, el 50 %. En educación, los mínimos son un profesor por cada seis unidades en infantil y el 50 % de las plantillas en educación especial. Estos porcentajes rigen solo en Cataluña.
 
 ## Quién convoca
@@ -38,11 +36,7 @@ Esa misma orden fija en el 20 % de las instalaciones inscritas, por comarcas, lo
 
 ## Qué reclaman
 
-El secretario general de UGT, Pepe Álvarez, explicó que el paro se convoca por la vivienda y los salarios y en defensa de los servicios públicos, entre ellos el ferroviario, según EFE. El líder de CCOO, Unai Sordo, señaló a los salarios, a la patronal y a las políticas de vivienda. En la Asamblea de Madrid, la portavoz de Más Madrid, Manuela Bergerot, afirmó que la huelga de trabajadores e inquilinos servirá para limitar los precios del alquiler.
-
 ## Posiciones ante el 29N
-
-El presidente del PP, Alberto Núñez Feijóo, pidió el 3 de noviembre, en un desayuno informativo de Europa Press, que los sindicatos reconsideren una huelga que calificó de «manifiestamente inoportuna». Dijo que no cuestiona el derecho de huelga, sino la oportunidad de la convocatoria, y aludió a los muertos del accidente ferroviario de Urda (Toledo). Álvarez respondió que no hay razón alguna para desconvocarla. Sordo preguntó a Feijóo si está dispuesto a gobernar con Vox, partido partidario de bajar impuestos, y con qué recursos reforzaría las infraestructuras públicas.
 
 El presidente de la CEOE, Antonio Garamendi, considera electoral la huelga y pidió, en su lugar, sentarse a trabajar y no crispar para que los españoles decidan a partir del día 29, fecha de las elecciones generales.
 

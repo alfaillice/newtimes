@@ -22,8 +22,6 @@ fuentes:
   url: https://www.europapress.es/nacional/noticia-uco-acude-tribunal-cuentas-informacion-presuntas-irregularidades-donaciones-psoe-20261112125251.html
 ---
 
-Agentes de la UCO, la unidad central operativa de la Guardia Civil, se han presentado este jueves en el Tribunal de Cuentas para pedir datos sobre las donaciones al PSOE que este órgano analiza. La actuación responde a una orden del juez de la Audiencia Nacional Ismael Moreno, instructor del caso Koldo, según han confirmado a Europa Press fuentes de la investigación.
-
 El magistrado acordó a finales del año pasado abrir una pieza separada y secreta para examinar los pagos en metálico que el partido realizó entre 2017 y 2024 con el fin de reintegrar gastos anticipados. Según la información, los datos entregados por el partido afectan a cargos, trabajadores, simpatizantes o voluntarios, por lo que el instructor consideró justificado mantener el secreto mientras se practican las diligencias pendientes.
 
 El PSOE facilitó al juez un 'pendrive' con el listado y los justificantes de todos los pagos en metálico de esos años a dirigentes, empleados y simpatizantes.

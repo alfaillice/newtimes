@@ -23,8 +23,6 @@ fuentes:
 lugar: Madrid
 ---
 
-El Tribunal de Cuentas ha acordado que se investigue la compra de un ático en la calle General Martínez Campos de Madrid por parte de Planifica Madrid, empresa pública dependiente de la Comunidad. El tribunal eleva las actuaciones a la Sección de Enjuiciamiento para que proponga el nombramiento de un delegado instructor, que determinará si las irregularidades denunciadas pueden dar lugar a responsabilidad contable. Así lo recoge una resolución a la que ha tenido acceso Europa Press.
-
 La operación se formalizó el 14 de abril, cuando Planifica adquirió por 6,3 millones de euros el ático de la última planta de un edificio del número 35 de esa calle, con unos 485 metros cuadrados. Según el auto, la compra se hizo sin un encargo formal previo de la Comunidad ni una memoria que justificara la necesidad del inmueble. La memoria que la Administración regional presentó después, con el uso institucional previsto para el ático (espacios de trabajo, descanso y alojamiento ocasional para autoridades), está fechada el 2 de julio, casi tres meses después de la compraventa.
 
 El tribunal cuestiona también que esa finalidad encaje con el objeto social de Planifica, cuyos estatutos vinculan la adquisición de inmuebles a la actividad administrativa de la Comunidad. El arrendamiento firmado el 28 de julio entre Planifica y la Comunidad se resolvió de mutuo acuerdo el 15 de septiembre, después de que la Administración alegara que había desaparecido la necesidad que lo justificaba. El inmueble no llegó a usarse y más tarde se puso a la venta.

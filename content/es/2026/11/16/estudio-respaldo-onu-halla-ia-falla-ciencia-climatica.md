@@ -29,10 +29,6 @@ imagenes:
   pie: Imagen de archivo sobre el cambio climático.
 ---
 
-Los modelos de inteligencia artificial (IA) pueden cambiar de postura con rapidez y acabar negando la ciencia del clima si el usuario les lleva la contraria, según un estudio respaldado por la ONU que publica The Guardian. El informe, elaborado por la Unesco y la University College London (UCL), se presentó este lunes en la cumbre climática de la ONU que acoge Turquía, la COP31, y recoge pruebas realizadas con 15 de los modelos más populares del mundo.
-
-Según The Guardian, los modelos responden con acierto a datos climáticos sencillos. Sin embargo, cuando dieron una respuesta errónea, lo hicieron en ocho de cada diez casos «en cuanto el usuario mostró un leve desacuerdo». Los investigadores detectaron una fuerte tendencia a la sicofancia, es decir, a complacer a quien pregunta antes que a mantener los hechos. Entre las afirmaciones incorrectas que llegaron a validar figura que el CO2 no es el principal motor del cambio climático.
-
 El estudio también compara preguntas de distinta complejidad. Cuando se les pidió explicar una sola política climática, como un impuesto al carbono, los modelos acertaron en su mayoría. Pero al preguntarles cómo funcionarían dos políticas combinadas, la precisión cayó a un nivel no mejor que el azar, según los investigadores.
 
 También hay diferencias por idioma. La precisión media fue del 88 % en inglés y comparativamente alta en español, francés y portugués. En hindi, bengalí y urdu fue menor, y la más baja se registró en suajili, con un 78 %. Los autores subrayan que estas lenguas se hablan en zonas especialmente golpeadas por la crisis climática.
@@ -42,5 +38,3 @@ Leona Verdadero, autora principal del informe por parte de la Unesco, afirmó: �
 El estudio se publicó el mismo día en que Turquía, anfitriona de la COP31, presentó la iniciativa «AI Antalya», que plantea convertir la IA en parte de la solución climática, con centros de datos alimentados de forma sostenible. Julie Cerqueira, del Natural Resources Defense Council, consideró que el crecimiento de la IA está generando nuevas preocupaciones ambientales y existenciales, y calificó la iniciativa de buen comienzo, aunque insuficiente.
 
 Simon Stiell, máximo negociador climático de la ONU, advirtió de que una IA que difunda desinformación, debilite la ciencia o concentre la riqueza erosionará la confianza pública de la que depende el sector. Stiell añadió que las comunidades ya se oponen a los centros de datos por su consumo de agua, el precio de la energía y su impacto ambiental.
-
-The Guardian no detalla qué medidas concretas se adoptarán a raíz del informe.

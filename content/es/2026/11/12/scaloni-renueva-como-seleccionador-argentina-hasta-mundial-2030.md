@@ -27,8 +27,6 @@ La federación hizo el anuncio mediante un comunicado y a través de su presiden
 
 Scaloni, de 48 años, asumió el cargo en 2018, relevando a Jorge Sampaoli. Durante su etapa, la selección ha conquistado cuatro títulos: el Mundial de 2022, las Copas América de 2021 y 2024 y la Finalissima de 2022. Todos ellos llegaron con Lionel Messi como referente del equipo.
 
-El último torneo fue el Mundial de 2026, disputado en Estados Unidos, México y Canadá. Argentina llegó a la final, pero perdió ante España la defensa del título. Tras esa derrota, Scaloni mostró sus dudas sobre seguir, según recoge la información de Europa Press.
-
 Con la retirada de Messi, el nuevo ciclo afronta el reto de mantener el nivel de exigencia y la presencia en las rondas finales de los próximos torneos. El horizonte inmediato es el Mundial de 2030, que se disputará en España, Portugal y Marruecos.
 
 Las fuentes consultadas no detallan las condiciones del nuevo contrato más allá de su duración.

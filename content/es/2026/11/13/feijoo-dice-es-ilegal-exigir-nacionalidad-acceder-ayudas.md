@@ -24,8 +24,6 @@ fuentes:
   url: https://www.europapress.es/epsocial/migracion/noticia-29n-feijoo-reconoce-ilegal-exigir-nacionalidad-acceder-ayudas-sociales-hemos-estudiado-20261113120341.html
 ---
 
-El líder del PP y candidato a la presidencia del Gobierno, Alberto Núñez Feijóo, ha afirmado este viernes que, «en este momento», exigir la nacionalidad como «único requisito» para acceder a una ayuda social es ilegal. Lo ha dicho en una entrevista en The Wild Project, recogida por Europa Press, a preguntas sobre el concepto de «prioridad nacional».
-
 El entrevistador le planteó quién tendría prioridad ante una necesidad económica: un español que nunca ha cotizado o un extranjero que lleva 20 años haciéndolo. Feijóo respondió que «las prioridades tienen que ser objetivas y legales». Según su argumentación, dentro de la Unión Europea y de sus tratados no cabe establecer la nacionalidad como requisito único. «Lo hemos estudiado», ha asegurado.
 
 Como alternativa, Feijóo propone puntuar la antigüedad en el padrón para acceder a una vivienda de protección oficial o a una ayuda social. En su opinión, ese criterio daría a los españoles «muchas más posibilidades», aunque ha subrayado que cualquier medida debe adoptarse «en el marco de la ley».

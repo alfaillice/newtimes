@@ -18,8 +18,6 @@ fuentes:
     url: https://infobae.com/espana/agencias/2026/10/30/temas-del-dia-de-efe-espana-del-viernes-30-de-octubre-de-2026-1400-horas
 ---
 
-La campaña de incendios forestales de 2026, que se da por cerrada el 31 de octubre, deja en España unas 275.200 hectáreas quemadas. Es la segunda cifra más alta en lo que va de siglo, solo superada por las casi 355.000 hectáreas de 2025, según los datos de Protección Civil y del Ministerio para la Transición Ecológica recogidos por EFE.
-
 Entre ambos años ha ardido una superficie de unas 630.000 hectáreas, comparable a la de la provincia de Tarragona. No se encadenaban dos temporadas tan graves desde mediados de los años ochenta. El tercer peor registro del siglo es el de 2022, con algo más de 270.000 hectáreas.
 
 En lo que va de año se han contabilizado 8.122 incendios forestales, un 151 % más que la media de la última década. Veintiuna personas han muerto, quince de ellas en el fuego declarado el 9 de julio en Los Gallardos (Almería).

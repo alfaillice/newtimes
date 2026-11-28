@@ -29,8 +29,6 @@ imagenes:
   pie: Imagen de archivo de la sede del Ministerio del Interior en Madrid.
 ---
 
-Un total de 44.238 personas han entrado de forma irregular en España entre el 1 de enero y el 15 de noviembre de 2026, un 39,4 % más que en el mismo periodo de 2025, cuando llegaron 31.742. Así lo recoge el último balance del Ministerio del Interior, consultado por Europa Press. El cómputo no incluye a los extranjeros que llegaron a Ceuta los días 30 y 31 de julio.
-
 Canarias concentra buena parte del incremento. Desde el 1 de octubre han entrado de forma irregular 19.592 personas, de las que 17.231 llegaron al archipiélago. En total, las islas han recibido por vía marítima a 24.364 personas a bordo de 266 embarcaciones, un 65,9 % más que en el mismo periodo del año anterior, cuando fueron 14.690 personas en 236 pateras.
 
 En conjunto, la vía marítima ha registrado 39.445 llegadas hasta el 15 de noviembre, un 39,1 % más que en 2025, cuando se contabilizaron 28.361. Se han producido en 1.154 embarcaciones, 33 menos que un año antes.

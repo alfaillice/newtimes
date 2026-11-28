@@ -24,8 +24,6 @@ fuentes:
   url: https://www.europapress.es/sociedad/noticia-frente-atlantico-dejara-lluvias-persistentes-galicia-domingo-rachas-muy-fuertes-viento-20261114162943.html
 ---
 
-Persistent rain and very strong wind gusts are forecast for much of Galicia, the north-western region of Spain, on Sunday as an Atlantic weather front crosses the country. According to Europa Press, which relays the forecast of Spain's State Meteorological Agency (Aemet), the western half of the region will see rain that could be heavy and, locally, accompanied by thunderstorms.
-
 Winds from the west and south-west could gust up to 80 kilometres per hour in Galicia, as well as in the Cantabrian mountain range and, at some points, in the interior of Cantabria and the upper Ebro valley. Strong gusts are also expected along the coasts of Galicia and the Cantabrian Sea.
 
 Galicia is the only region with active weather warnings. According to the forecast, a yellow warning for rain, wind and swell will remain in force until 17.00.

@@ -24,8 +24,6 @@ fuentes:
   url: https://www.europapress.es/sociedad/noticia-lluvias-seran-abundantes-fin-semana-temperaturas-propias-epoca-maximas-25c-mediterraneo-20261113120941.html
 ---
 
-Las precipitaciones acumuladas en España desde el 1 de octubre, cuando empieza el año hidrológico, suman 79 litros por metro cuadrado (l/m²). Así lo recoge Europa Press a partir de datos de la Agencia Estatal de Meteorología (AEMET). Es un 23 % menos de lo habitual para estas fechas, cuyo valor normal se sitúa en 102 l/m².
-
 El reparto es desigual. Los acumulados superan la media en buena parte de Cataluña y en sectores del litoral mediterráneo, sobre todo en Levante, donde en algunos puntos se rebasa el triple de lo normal. En el oeste peninsular, las lluvias de la última semana han reducido los déficits, y ya hay zonas del oeste de Castilla y León y del norte de Extremadura por encima de la media. En cambio, Galicia y Andalucía occidental siguen con déficit, al igual que amplias áreas del interior.
 
 En Baleares, Ibiza y buena parte de Mallorca están por encima de lo normal, mientras que Menorca queda por debajo. En Canarias, El Hierro, La Palma y La Gomera superan la media, y Lanzarote y Fuerteventura quedan por debajo, salvo el sur de esta última.

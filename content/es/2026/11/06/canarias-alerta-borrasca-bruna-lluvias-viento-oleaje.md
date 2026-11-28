@@ -45,5 +45,3 @@ El Cabildo de Tenerife ha activado su Plan de Emergencias Insular (PEIN) en aler
 «Estas medidas no son recomendaciones, sino restricciones que deben respetarse», dijo la consejera de Seguridad y Emergencias del Cabildo, Blanca Pérez. El Cabildo pide evitar desplazamientos innecesarios y alejarse de barrancos, cauces, laderas, zonas boscosas y costas expuestas, y recomienda a los ayuntamientos activar sus planes municipales.
 
 Ninguna de las fuentes consultadas recoge por ahora la suspensión de clases en el archipiélago.
-
-En la península, los frentes de Bruna empezarán a llegar al oeste el domingo por la tarde, con chubascos fuertes o muy fuertes y rachas muy fuertes en Galicia y zonas altas, según la AEMET citada por EFE. En Galicia y el oeste del sistema Central podrían superarse los 200 litros por metro cuadrado hasta el miércoles, y en la costa occidental gallega habrá olas de cinco a seis metros desde el domingo.

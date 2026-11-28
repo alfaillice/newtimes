@@ -29,10 +29,6 @@ El secretario de Transporte, Sean Duffy, ha atribuido la situación a un problem
 
 La orden ha afectado a un número muy elevado de operaciones. Según la herramienta de seguimiento de vuelos FlightAware, casi 7.000 vuelos se han retrasado o cancelado.
 
-Poco antes de que la FAA emitiera su alerta, los dos principales aeropuertos de Chicago, O'Hare y Midway, figuraban en un aviso de suspensión de despegues por una avería en los equipos, según recoge la cadena NBC. Esa referencia apunta a un origen técnico, aunque no se ha confirmado su relación con la decisión federal.
-
-Fuentes cercanas a la investigación, citadas por la cadena CNN, han descartado por el momento la posibilidad de un ciberataque.
-
 Esta es la tercera vez que la FAA ordena la suspensión de todos los vuelos a nivel nacional. La primera fue el 11 de septiembre de 2001, tras los atentados de Al Qaeda contra las Torres Gemelas de Nueva York y el Pentágono. La segunda se produjo el 11 de enero de 2023, por un fallo en el sistema de alerta que informa a los pilotos sobre problemas de seguridad.
 
 Las fuentes disponibles no precisan cuándo se levantará la orden ni cuándo se conocerán las conclusiones de la investigación técnica. Los pasajeros que tengan vuelos previstos deben seguir la información que publiquen las aerolíneas y la propia FAA.

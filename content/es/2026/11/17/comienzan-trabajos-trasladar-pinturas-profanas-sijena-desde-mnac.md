@@ -30,8 +30,6 @@ imagenes:
 
 Este martes, 17 de noviembre, el Museo Nacional de Arte de Cataluña (MNAC) empieza a retirar de su sala las pinturas profanas que se custodian en depósito para el monasterio de Santa María de Sijena, en Huesca. El museo prevé que el traslado culmine el 2 de diciembre, fecha en la que las obras deberían llegar al monasterio.
 
-Las pinturas profanas son un conjunto de pintura mural, en concreto un fresco trasladado a tela, formado por ocho plafones. Según la información de Europa Press, decoraban a modo de friso continuo la parte superior de los muros de una sala rectangular situada entre la iglesia y el claustro. Las obras están en el MNAC en depósito de la comunidad de religiosas sanjuanistas.
-
 El consorcio del museo adjudicó en primavera el contrato para la desinstalación, el embalaje, el transporte y el desembalaje a la empresa madrileña SIT, que fue la única en presentarse al concurso. Por su parte, la Comisión Provincial de Patrimonio Cultural de Huesca autorizó el traslado a principios de octubre.
 
 Según explicó el director del MNAC, Pepe Serra, en una atención a los medios la semana pasada, los trabajos consistirán en retirar las pinturas de la sala, realizar algunas intervenciones y aplicar mecanismos técnicos de protección, consolidación y embalaje para el transporte. La sala se cerrará al público y solo accederán técnicos, en una operación que Serra comparó con un quirófano. El director aseguró que las obras llegarán «en el estado exacto en el que están ahora, sin una sola alteración».

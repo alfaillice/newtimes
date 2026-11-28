@@ -42,5 +42,3 @@ En cuanto a las temperaturas, las máximas bajarán de forma generalizada, pero 
 En Baleares, el cielo estará mayormente poco nuboso o despejado. En las montañas del sur peninsular se prevén bancos de niebla matinales.
 
 En Canarias se esperan intervalos nubosos, alisio moderado y calima ligera en altura. Las máximas tenderán a bajar y las mínimas permanecerán con pocos cambios, aunque subirán en las islas orientales.
-
-La previsión, difundida por Europa Press a partir de los datos de la Aemet, apunta por tanto a un domingo ventoso en buena parte del litoral norte y del Mediterráneo, con temperaturas en descenso en la mayor parte del territorio.

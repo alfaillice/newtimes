@@ -22,8 +22,6 @@ fuentes:
   url: https://www.europapress.es/sociedad/noticia-emisiones-co2-combustibles-fosiles-caeran-04-2026-total-aumentara-12-estudio-20261110020049.html
 ---
 
-Las emisiones mundiales de dióxido de carbono procedentes de combustibles fósiles bajarán este año un 0,4 %, hasta los 38.200 millones de toneladas, según el informe Global Carbon Budget 2026, publicado este martes y recogido por Europa Press. Sin embargo, si se suman las emisiones derivadas del cambio de uso de la tierra, el total de CO2 subirá un 1,2 % y alcanzará los 43.300 millones de toneladas, frente a los 42.800 del año pasado.
-
 El estudio atribuye la caída de las emisiones fósiles a la expansión de la energía solar y eólica y a la adopción de vehículos eléctricos, que cubren dos tercios del aumento de la demanda energética mundial. Las previsiones también recogen un descenso del 1,9 % en las emisiones derivadas del petróleo, que los investigadores vinculan a una respuesta a corto plazo a la crisis energética provocada por el conflicto en Irán.
 
 Por países, las emisiones fósiles bajarían en China (0,9 %), Estados Unidos (1,3 %), la Unión Europea (1,5 %), Japón (1 %) y el resto del mundo (0,7 %), mientras que subirían un 4,4 % en India. Por combustibles, el carbón crecería un 0,6 %, pese a la caída del petróleo (1,9 %) y del gas natural (0,3 %). Las emisiones de la aviación y del transporte marítimo internacional bajarían un 1 % cada una.

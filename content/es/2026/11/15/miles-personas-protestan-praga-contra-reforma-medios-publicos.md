@@ -34,8 +34,6 @@ Miles de personas se han concentrado este domingo en la explanada de Letná, en 
 
 Los asistentes temen que el nuevo sistema debilite la independencia de estos medios. La protesta también reunió críticas a la política judicial, cultural, de seguridad, sanitaria y medioambiental del Gobierno. La Policía ha confirmado que el acto transcurrió de forma pacífica.
 
-El primer ministro, Andrej Babis, ha respetado el derecho a discrepar, pero ha rechazado los argumentos de los manifestantes. Según recoge Europa Press, Babis afirmó que el sistema de financiación está cambiando, que «nadie quiere nacionalizarlos» y que el modelo actual está obsoleto, algo que, a su juicio, sigue la mayor parte de Europa.
-
 Entre los convocantes hay estudiantes de formación profesional superior, de institutos y de universidades de todo el país. Jindra Lavrencíková, organizadora de las protestas estudiantiles en Pardubice, señaló que con frecuencia se les dice que son demasiado jóvenes e inexpertos para opinar sobre asuntos públicos, y advirtió de que asumirán las consecuencias de las decisiones que se tomen ahora.
 
 Durante el acto se proyectaron vídeos en los que Babis aparece comparado con el político comunista Miroslav Stepán. Una de las firmantes de la Carta 77, la declaración perseguida por el régimen checoslovaco, Eliska Rothová, situó la protesta en la línea de las movilizaciones de los años ochenta contra el comunismo. En el acto participaron también personalidades de la cultura, la música, el deporte, el mundo empresarial y el ecologismo.

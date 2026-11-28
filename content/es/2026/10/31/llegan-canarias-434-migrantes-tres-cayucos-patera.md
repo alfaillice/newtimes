@@ -26,8 +26,6 @@ fuentes:
     url: https://www.infobae.com/espana/agencias/2026/10/16/se-reducen-las-llegadas-irregulares-de-migrantes-a-espana-sin-contar-la-entrada-a-ceuta/
 ---
 
-Un total de 434 personas migrantes llegaron a Canarias, o tenían previsto hacerlo, entre la tarde del viernes y el mediodía de este sábado a bordo de tres cayucos y una patera. Salvamento Marítimo llevó a cabo cuatro operaciones de rescate en aguas próximas a El Hierro y Gran Canaria, según los datos que el organismo facilitó a EFE. Los tres cayucos, con 365 ocupantes en total, tuvieron como destino el puerto de La Restinga, en el municipio herreño de El Pinar.
-
 La embarcación más numerosa fue la última en llegar a El Hierro: la Salvamar Navia terminó hacia las 5.00 del sábado el desembarco en La Restinga de 244 personas de origen subsahariano, entre ellas nueve mujeres y nueve menores.
 
 Antes, a las 18.12 del viernes, la Salvamar Diphda había rescatado a 91 personas, también subsaharianas, en un cayuco localizado a unos 80 kilómetros de la isla. Viajaban 86 hombres, cuatro mujeres y un menor. Una de ellas necesitó asistencia y fue trasladada al Hospital Insular Nuestra Señora de los Reyes; las fuentes no han detallado su estado. Según relataron los ocupantes, habían zarpado siete días antes desde Kartong, en Gambia, y procedían de Gambia, Senegal, Mali y Guinea-Bisáu.
@@ -36,11 +34,7 @@ La Salvamar Diphda intervino de nuevo esa noche: hacia las 22.45 auxilió a un c
 
 La cuarta embarcación, una patera, fue rescatada a las 6.00 del sábado por la Guardamar Polimnia con 69 ocupantes, cinco de ellos mujeres. La mayoría eran de origen magrebí y algunos, subsaharianos. Su llegada al puerto de Arguineguín, en Gran Canaria, estaba prevista hacia las 12.00.
 
-En conjunto, entre los cuatro grupos viajaban al menos diez menores, según el desglose de Salvamento Marítimo recogido por EFE, que no precisa ese dato para el cayuco de 30 personas. Las horas citadas son las facilitadas por el servicio de rescate.
-
 ## Un octubre de repunte en un año a la baja
-
-Estas llegadas se suman a un mes de octubre con mucho más movimiento que el del año pasado en la ruta atlántica. Según el balance quincenal del Ministerio del Interior difundido por EFE, en los primeros quince días de octubre llegaron a Canarias en cayucos y pateras 1.837 personas, frente a las 643 del mismo periodo de 2025, un 185 % más.
 
 El acumulado del año, sin embargo, sigue por debajo del de 2025. Entre el 1 de enero y el 15 de octubre de 2026 llegaron al archipiélago 8.970 migrantes por vía marítima, un 33,5 % menos que las 13.491 personas contabilizadas en esas mismas fechas del año anterior, de acuerdo con los datos de Interior.
 

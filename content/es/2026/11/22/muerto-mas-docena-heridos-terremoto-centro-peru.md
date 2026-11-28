@@ -29,13 +29,9 @@ imagenes:
   pie: Imagen de archivo de Lima, donde se dejó sentir el temblor.
 ---
 
-El fuerte terremoto que sacudió el pasado viernes la región de Junín, en el centro de Perú, ha dejado un fallecido y más de una docena de heridos, según el último balance de las autoridades peruanas recogido por Europa Press.
-
 El seísmo, de magnitud 6,7 en la escala de Richter, se produjo poco después de las 19.00 hora local, con epicentro en la región andina de Junín y a una profundidad de más de 129 kilómetros, según informó el Centro Sismológico Nacional del Instituto Geofísico de Perú. El temblor se sintió en varias partes del país, incluida la capital, Lima.
 
 El Centro de Operaciones de Emergencia Sectorial (COES) del Ministerio de Salud (Minsa) ha informado de que la persona fallecida murió en un hospital de la provincia de Huánuco, ubicada en el centro del país. De los 16 heridos que contabiliza el organismo, doce permanecen hospitalizados: once en centros médicos de Junín y una en Huánuco. Las otras tres personas han recibido el alta.
-
-Los daños afectan a distintos tipos de edificios. Según el balance, más de 20 centros sanitarios han resultado afectados, además de instituciones educativas y templos religiosos. Las cifras de viviendas, sin embargo, no coinciden dentro del mismo texto de la agencia: por un lado, se mencionan más de 120 viviendas afectadas y otras cuatro destruidas; por otro, 156 viviendas con daños, con un número similar considerado inhabitable. Europa Press no explica la diferencia entre ambos datos.
 
 Para atender a los afectados, el Minsa ha movilizado personal asistencial, brigadistas, equipos técnicos y ambulancias. El COES mantiene el seguimiento de la emergencia y de las necesidades de la población.
 

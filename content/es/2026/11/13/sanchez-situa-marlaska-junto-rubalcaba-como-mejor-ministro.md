@@ -23,8 +23,6 @@ fuentes:
   url: https://www.europapress.es/nacional/noticia-sanchez-respalda-marlaska-mejor-ministro-interior-ojito-izquierdo-derecho-20261113081407.html
 ---
 
-El presidente del Gobierno, Pedro Sánchez, ha defendido a Fernando Grande-Marlaska y lo ha situado, junto al fallecido Alfredo Pérez Rubalcaba, como el mejor ministro del Interior de la democracia española. Lo ha hecho en una entrevista en el programa «El perro andaluz», de RTVE, recogida por Europa Press. Sánchez, que es candidato del PSOE a la reelección, ha dicho que Marlaska es «mi ojito izquierdo o derecho».
-
 El jefe del Ejecutivo respondía a una pregunta sobre las responsabilidades del ministro y sobre las peticiones de dimisión tras las cargas policiales registradas durante la jornada de huelga general del 11 de noviembre.
 
 Sánchez ha subrayado que el Gobierno respeta el derecho de huelga, que calificó de constitucional, y ha reconocido que ese derecho debe conciliarse con la seguridad de los ciudadanos, algo que, según ha dicho, «a veces es difícil». Recordó la investigación abierta por las cargas y afirmó que el Ministerio no dio esa orden.

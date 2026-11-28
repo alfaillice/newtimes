@@ -23,8 +23,6 @@ fuentes:
 lugar: Abuya
 ---
 
-La Unión Europea y Nigeria han firmado un acuerdo de readmisión para agilizar la identificación y la devolución de migrantes en situación irregular que no tengan derecho a permanecer ni en territorio comunitario ni en el país africano. Según informa Europa Press, el pacto busca reforzar la cooperación bilateral en materia migratoria y de seguridad.
-
 El acuerdo se firmó este martes en Abuya por el comisario europeo de Asuntos Internos y Migración, Magnus Brunner, y por la ministra de Asuntos Exteriores de Nigeria, Bianca Odumegwu-Ojukwu. Brunner se encontraba en el país africano en visita oficial, y durante su estancia mantuvo encuentros con representantes del Gobierno nigeriano y con otros actores clave para tratar la gestión de los flujos migratorios.
 
 Según ha informado este miércoles la Comisión Europea, el pacto establecerá procedimientos para identificar y repatriar a las personas que no tengan derecho legal a residir en Nigeria o en cualquiera de los Estados miembros de la Unión. El Ejecutivo comunitario lo enmarca en los esfuerzos para acelerar los procedimientos de retorno de migrantes en situación irregular.

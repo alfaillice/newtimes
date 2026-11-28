@@ -22,8 +22,6 @@ fuentes:
   url: https://www.europapress.es/sociedad/educacion-00468/noticia-gobierno-no-aprobara-antes-elecciones-decreto-creacion-universidades-tumbo-supremo-20261113174012.html
 ---
 
-El Gobierno no aprobará el real decreto que modifica la normativa sobre creación, reconocimiento y autorización de universidades antes de las elecciones generales del 29 de noviembre. Según Europa Press, la norma, anulada por el Tribunal Supremo, tendría que aprobarse, en su caso, con el Gobierno en funciones.
-
 El Ministerio de Ciencia, Innovación y Universidades abrió el pasado jueves el trámite de información pública del texto, que endurece los criterios para crear universidades. El plazo se cerrará después de los comicios. Desde el departamento que dirige Diana Morant indicaron a esta agencia que a partir del 2 de diciembre se verá si la norma puede salir adelante.
 
 ## Una anulación por la urgencia

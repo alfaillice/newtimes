@@ -29,5 +29,3 @@ Dirigiéndose al público, ha afirmado que quería disculparse «antes de nada»
 Broncano ha explicado que se siente triste y muy decepcionado consigo mismo, tanto por las decisiones que tomó de cara a la entrevista como por la forma en que la llevó a cabo. Según su relato, la intención era hacer una entrevista seria, con tono periodístico, pero ha señalado que plantearla sin un dato con el que contrastar las respuestas es peligroso.
 
 El presentador también ha lamentado que Abascal aprovechara la situación: según él, el líder de Vox defendió sus ideas con aplomo aunque, a su juicio, se tambaleaban, y recibió los aplausos del público. «El brete era difícil», ha zanjado.
-
-La entrevista ha generado otras reacciones. El Consejo de Informativos de TVE ha reclamado que alguien asuma responsabilidades por la emisión. Desde RTVE, López ha señalado que el episodio invita a la reflexión y ha mostrado su apoyo a Broncano. Por su parte, Vox ha anunciado que Abascal no volverá a ceder en exclusiva su imagen y su discurso tras los cortes que sufrió la entrevista en 'La Revuelta'.

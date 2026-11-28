@@ -28,11 +28,7 @@ imagenes:
   pie: Imagen de archivo de la Cambridge School of Art, donde estudió Peter Fluck.
 ---
 
-Peter Fluck, cocreador junto a Roger Law del programa satírico de marionetas *Spitting Image*, ha muerto a los 85 años, según publica BBC. La familia explicó que falleció en las primeras horas de este sábado en su casa de Cornualles, tras una enfermedad reciente.
-
 La serie se emitió entre 1984 y 1996 en 18 temporadas y caricaturizaba con marionetas a famosos, políticos y miembros de la realeza, entre ellos la entonces primera ministra Margaret Thatcher y la reina madre Isabel. Según la cadena, el programa fue muy popular y a veces polémico, y llegó a reunir a unos 15 millones de espectadores en su mejor momento. Obtuvo un premio Bafta de televisión y dos Emmy.
-
-Fluck nació en Cambridge en 1941 y conoció a Law, su amigo de la infancia, mientras estudiaba en la Cambridge School of Art. Tras una etapa como ilustradores independientes en Londres, ambos crearon en 1976, de nuevo en Cambridge, la sociedad «Luck and Flaw». BBC recoge que la idea era llevar a la pantalla la caricatura editorial de los periódicos. En una entrevista de 2006, Fluck explicó que el formato se emitía en la franja de las diez de la noche de un domingo, un horario en el que, según sus palabras, los políticos deberían estar ya acostados.
 
 La cadena recuerda que muchos personajes eran parodias del gabinete de Thatcher. Douglas Hurd aparecía con un peinado parecido a un helado de cucurucho y John Major, convertido en una marioneta gris con debilidad por los guisantes. En una entrevista de 2011, Fluck contó que recibían muchas peticiones de políticos que querían tener su propia marioneta, porque no aparecer en el programa significaba, en cierto modo, no haber llegado a ser político.
 

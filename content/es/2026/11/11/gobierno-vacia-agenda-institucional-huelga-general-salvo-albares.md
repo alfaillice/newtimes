@@ -35,6 +35,4 @@ Los ministros del PSOE y de Sumar han mostrado públicamente su apoyo a la movil
 
 Las fuentes ofrecen datos parciales sobre el seguimiento, y las versiones difieren. Según la Dirección General de Tráfico, la protesta provocó cortes en vías de alta capacidad a primera hora, sobre todo en Cataluña. Aena informó de la cancelación de 234 vuelos, el 5,16 % de los programados. Red Eléctrica registró una demanda de 31.482 megavatios a las 10.00 horas, un 6,64 % menos que la del día anterior. Metro de Madrid funcionaba al 93 % en la hora punta.
 
-La patronal CEOE habla de un «bajo seguimiento» en la mayoría de sectores y territorios, y su presidente, Antonio Garamendi, cifra en un 10 % la caída de la demanda eléctrica, frente al 14 % de la última huelga general. Pimec, por su parte, estima un seguimiento del 8,9 % en Cataluña durante la mañana. El secretario general de CCOO, Unai Sordo, sostiene en cambio que el consumo energético se parece más al de un domingo, lo que a su juicio indica un paro relevante. El PP, según recoge Europa Press, ha denunciado que el Gobierno «aliente» una huelga electoral y política a poco más de dos semanas de las elecciones generales.
-
 La convocatoria es de 24 horas. Las fuentes consultadas no informan de nuevas actuaciones institucionales del Gobierno para el resto de la jornada.

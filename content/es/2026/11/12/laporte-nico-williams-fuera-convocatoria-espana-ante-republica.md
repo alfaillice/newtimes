@@ -25,8 +25,6 @@ fuentes:
 
 Aymeric Laporte y Nico Williams no forman parte de la convocatoria de la selección española para el partido de la quinta jornada de la fase de grupos de la Liga de Naciones ante la República Checa, que se disputa este jueves en Praga.
 
-Según informa Europa Press, Laporte no podrá jugar porque sufre un proceso vírico. En el caso de Nico Williams, el extremo no participó en el entrenamiento del lunes, y la agencia no precisa el motivo de su ausencia.
-
 La baja de ambos abre la puerta a dos futbolistas que se estrenan en la lista de la absoluta. Jacobo Ramón, central del Como, hereda el dorsal 14 de Laporte, mientras que Marc Roca, del Betis, lleva ahora el 17 que hasta ahora era de Nico Williams. Ambos podrían debutar con la selección en este encuentro.
 
 Álvaro Vallés tampoco aparece entre los convocados.

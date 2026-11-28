@@ -36,8 +36,6 @@ El delantero belga pudo completar un triplete, pero el portero del Celta, Ionuț
 
 ## Tolisso frena a la Real en Anoeta
 
-En San Sebastián, la Real Sociedad abrió el marcador en el minuto 28 con un cabezazo de Orri Óskarsson a centro de Ander Barrenetxea. Poco después, un disparo lejano de Mikel Oyarzabal se estrelló en el poste, según la crónica de EFE.
-
 El Lyon igualó en el 54: Corentin Tolisso controló con el pecho un balón largo de Tessmann y definió con la izquierda. En el tramo final, a Luka Sucic le anularon un gol por fuera de juego y, ya en el añadido, Unai Marrero desvió por encima del larguero un cabezazo de Tolisso. El partido, arbitrado por el griego Anastasios Papapetrou, reunió a 30.878 espectadores. Con el empate, la Real suma cinco puntos, dos menos que el Lyon, según la UEFA.
 
 ## El Brighton gana en Getafe

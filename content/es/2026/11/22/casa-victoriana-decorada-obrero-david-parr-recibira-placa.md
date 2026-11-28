@@ -31,11 +31,7 @@ imagenes:
   pie: Imagen de archivo de un diseño textil de William Morris, referencia del trabajo de Parr.
 ---
 
-Según publica The Guardian, la casa que el obrero victoriano David Parr decoró durante cuatro décadas en Cambridge recibirá una placa azul, que se descubrirá el 8 de febrero de 2027. El diario británico considera que sería la primera dedicada a un artesano de clase trabajadora de la época victoriana vinculado al movimiento Arts and Crafts.
-
 Durante el día, Parr trabajaba decorando interiores de mansiones particulares y de colegios de Cambridge con diseños de William Morris. Por las noches, según el diario, cubría las paredes y los techos de su modesta casa adosada de Gwydir Street con diseños propios, muchas veces a la luz de las velas. Murió en 1927. Su nieta Elsie conservó la vivienda durante toda su vida, y el interior permaneció oculto tras una puerta corriente más de 80 años.
-
-The Guardian recoge que, aunque Morris y sus papeles pintados se hicieron legendarios, los llamados «art-workmen» que pintaban sus diseños quedaron en gran medida sin reconocimiento. La directora de la organización benéfica David Parr House & Gallery, Annabelle Campbell, explica que estos trabajadores solían ser empleados de empresas decoradoras y rara vez aparecían con su nombre. En los registros de su vida laboral, según Campbell, Parr figuraba solo con iniciales en una lista de salarios, si es que aparecía.
 
 La casa se redescubrió por casualidad en 2009, cuando la historiadora social Tamsin Wimhurst llamó a la puerta de Elsie, entonces con 93 años. Parr trabajó para la empresa de artes decorativas FR Leach & Sons, con sede en Cambridge. La organización benéfica adquirió la vivienda tras la muerte de Elsie y la abrió al público en 2019.
 

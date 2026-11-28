@@ -23,8 +23,6 @@ fuentes:
   url: https://www.europapress.es/internacional/noticia-huties-atacan-misiles-balisticos-ciudad-aden-sede-gobierno-yemeni-20261113190104.html
 ---
 
-Los hutíes han lanzado en las últimas horas un nuevo bombardeo con misiles balísticos contra la ciudad de Adén, donde se encuentra el Gobierno yemení desde que fue desplazado de Saná, la capital, según recoge Europa Press. Por el momento no hay información sobre víctimas.
-
 El portavoz del Ejército yemení, el coronel Mayid al Nuzaili, confirmó los ataques con misiles balísticos y los calificó de «una peligrosa escalada de la cual la milicia es plenamente responsable de sus repercusiones». Según el militar, los hutíes dirigen sus ataques contra civiles, ciudades e instalaciones vitales, en violación del Derecho Internacional Humanitario.
 
 La insurgencia, por su parte, solo ha confirmado un ataque contra un grupo de oficiales saudíes en el campamento de Jabal Hadid, en la gobernación de Adén, sin dar más detalles. Arabia Saudí encabeza la coalición internacional que combate a los hutíes.

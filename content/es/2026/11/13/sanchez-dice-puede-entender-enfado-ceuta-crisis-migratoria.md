@@ -22,8 +22,6 @@ fuentes:
   url: https://www.europapress.es/sociedad/noticia-sanchez-puede-entender-ceuta-enfadada-crisis-migratoria-resolveremos-20261113003307.html
 ---
 
-El presidente del Gobierno y candidato del PSOE a las elecciones generales del 29 de noviembre, Pedro Sánchez, ha afirmado este jueves que puede entender el malestar de Ceuta, porque la ciudad no ha recuperado la normalidad tras la crisis migratoria. Lo ha dicho en una entrevista con Manu Sánchez en el programa de RTVE *El Perro Andaluz*.
-
 Al hablar con los ceutíes, Sánchez ha defendido que ningún Gobierno de la democracia ha transferido más recursos a la ciudad en los últimos ocho años, y que ningún presidente del Gobierno la ha visitado tantas veces. Después ha asegurado que el Ejecutivo resolverá la situación: «vamos a resolver esta crisis como lo estamos haciendo desde el primer minuto».
 
 En la misma conversación, el presidente ha defendido que La Mareta, en Lanzarote, donde pasó sus vacaciones de verano, dispone de conexión y medios para seguir trabajando. Según ha dicho, un presidente del Gobierno trabaja «24-7», con independencia de su lugar de residencia.

@@ -26,17 +26,11 @@ fuentes:
     url: https://www.infobae.com/america/agencias/2026/11/06/viernes-6-de-noviembre-de-2026-0800-gmt/
 ---
 
-El papa León XIV despegó este viernes a las 7.05 del aeropuerto romano de Fiumicino rumbo a Montevideo, primera etapa de un viaje de doce días que le llevará después a Argentina y Perú, según informó EFE desde el avión papal. El vuelo, de unas 13 horas, lleva a bordo a 80 periodistas de medios de todo el mundo. Es la primera vez que un papa visita Uruguay desde 1988, cuando lo hizo Juan Pablo II.
-
 El viaje llega menos de un mes después de que al pontífice, de 71 años, le extirparan parte de un pulmón por un cáncer. El Vaticano ha asegurado que no se han tomado medidas médicas adicionales para la gira y que el papa tiene buena salud, según recoge la agencia. El programa es exigente: 14 vuelos y cerca de 40 discursos.
 
 ## Primera jornada en Montevideo
 
 La llegada al aeropuerto internacional de Carrasco está prevista a las 16.30 hora local (20.30, hora peninsular española), donde le recibirá el presidente uruguayo, Yamandú Orsi. Según el programa de la Santa Sede, a las 17.30 se celebrará la ceremonia de bienvenida en la Plaza Independencia, seguida del primer discurso del viaje ante las autoridades, la sociedad civil y el cuerpo diplomático. La Presidencia uruguaya ha previsto trasladar el acto al complejo cultural Sodre si llueve.
-
-A las 18.15 hora local el papa mantendrá una reunión privada con Orsi en el Edificio José Artigas. La jornada terminará con el rezo de vísperas en la Catedral Metropolitana con obispos, sacerdotes, diáconos, religiosos y seminaristas. La agenda de EFE incluye además la entrega de la llave de la ciudad por parte de la Intendencia de Montevideo.
-
-Uruguay es uno de los países más secularizados de la región: más del 40 % de su población se declara sin religión, según los datos que cita EFE. El secretario de Estado vaticano, el cardenal Pietro Parolin, dijo a medios vaticanos en la víspera que la secularización es «lamentablemente una realidad», aunque «esto no altera la misión de la Iglesia». Parolin añadió que también en América Latina existe «más que nunca» la necesidad de superar las polarizaciones sociales.
 
 ## Argentina y Perú
 

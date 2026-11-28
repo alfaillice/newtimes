@@ -29,5 +29,3 @@ La federación se limitó a un mensaje breve de apoyo: «Le deseamos una rápida
 El último entrenamiento antes del partido se celebró el sábado a las 19.00 y, según la RFEF, duró una hora, con los primeros quince minutos abiertos a los medios y con casi todos los futbolistas. La federación la describió como la última sesión de este 2026, un año que, según su nota, la selección cierra con el último partido de la fase de grupos de la Liga de Naciones.
 
 El rival es Inglaterra, en la jornada 6 de la Liga de Naciones, que se disputa este domingo a las 20.45 en el Riyadh Air Metropolitano. España suma 15 puntos de 15 posibles en el Grupo A3 y, según la RFEF, aspira al pleno de triunfos y a sellar el liderato del grupo.
-
-La nota de la RFEF no precisa el estado de salud del futbolista ni si podrá sumarse a la selección en próximas convocatorias. La información procede del comunicado federativo, difundido también por Europa Press, sin declaraciones de otras partes implicadas.

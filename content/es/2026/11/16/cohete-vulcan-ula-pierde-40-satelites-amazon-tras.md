@@ -32,8 +32,6 @@ imagenes:
 
 Un cohete Vulcan de la compañía estadounidense United Launch Alliance (ULA) sufrió una anomalía a los diez minutos de su despegue y no logró colocar en órbita los 40 satélites de internet de Amazon que transportaba. Es el primer fracaso absoluto de la compañía desde que se formó en 2006 como asociación de Boeing y Lockheed Martin.
 
-El lanzamiento tuvo lugar el pasado domingo desde el Complejo de Lanzamiento Espacial 41. Según informa Europa Press a partir de una actualización de estado de vuelo publicada por la propia ULA, la carga útil de la misión de Amazon se perdió por completo.
-
 La empresa indicó que, por ahora, no dispone de datos específicos que expliquen lo ocurrido, y atribuyó esa falta de información a que el incidente acaba de producirse. Añadió que cada vuelo genera datos y enseña algo. Sobre su propio desempeño, ULA reconoció que no ha cumplido el estándar que se exige a la compañía: «Hoy, no hemos cumplido con ese estándar».
 
 La empresa dijo que trabajará «en estrecha colaboración» con Amazon y con las organizaciones pertinentes para identificar la causa, determinar las medidas correctivas y reanudar los vuelos lo antes posible. También prometió ofrecer más actualizaciones a medida que haya nueva información.

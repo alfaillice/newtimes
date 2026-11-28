@@ -32,8 +32,6 @@ A nivel de ciudad, la formación tendrá mayoría absoluta en dos de las ocho ci
 
 La Alianza Democrática fue la segunda fuerza, con el 24,64 %, y logró mayoría absoluta en Ciudad del Cabo. El partido MK, del expresidente Jacob Zuma, quedó tercero con el 9,76 % y ganó en Durban. Los Luchadores por la Libertad Económica (EFF), de Julius Malema, se situaron cuartos con el 6,22 %.
 
-El secretario general del ANC, Fikile Mbalula, calificó el resultado de «muy catastrófico» para la formación y señaló que el alto coste de la vida y el voto de la clase media han pesado en la derrota. Según Europa Press, el partido dijo que está analizando los datos.
-
 Por su parte, el presidente sudafricano y líder del ANC, Cyril Ramaphosa, afirmó: «Este es su veredicto y lo aceptamos con humildad». Reconoció que la caída es preocupante.
 
 El ANC ya perdió la mayoría absoluta en el Parlamento en 2024 y gobierna desde entonces en coalición con otros partidos, en el denominado Gobierno de Unidad Nacional.

@@ -23,8 +23,6 @@ fuentes:
 lugar: Bilbao
 ---
 
-Un incendio originado en una vivienda del barrio de Uribarri, en Bilbao, obligó a atender a 47 personas, de las que 22 fueron trasladadas a hospitales. Según ha informado Europa Press, citando fuentes municipales, el fuego se inició pasada la medianoche en el número 7 de la calle Monte Izaro, y los bomberos lograron extinguirlo pasadas las cuatro de la mañana de este viernes.
-
 El reparto de los traslados fue el siguiente: seis personas fueron llevadas al hospital de Basurto, ocho al de Cruces, dos al de San Eloy y cinco al de Galdakao. A ellas se suma un bombero, que fue atendido en la Mutua. Las 22 personas trasladadas suman en total 22 ingresos de traslado, sin que la información disponible detalle la evolución de cada una de ellas.
 
 Las 25 personas restantes recibieron el alta en el mismo lugar del incendio. Entre ellas figuran dos agentes de la Ertzaintza afectados por inhalación de humo mientras ayudaban a vecinos a salir de sus viviendas, según ha confirmado el departamento de Seguridad.

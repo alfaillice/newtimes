@@ -24,8 +24,6 @@ fuentes:
 lugar: Abu Dabi
 ---
 
-Las delegaciones de Ucrania y Rusia han acordado este miércoles, en Abu Dabi (Emiratos Árabes Unidos), realizar un intercambio de prisioneros a gran escala. Según informa Europa Press, el acuerdo es el principal resultado de la nueva ronda de contactos entre ambas partes, celebrada con la mediación de Estados Unidos.
-
 El jefe de la delegación rusa, Vladimir Medinski, informó de que la segunda jornada de conversaciones, de unas dos horas de duración, se centró en cuestiones humanitarias. Al término de los encuentros, Medinski afirmó a la agencia rusa TASS que las partes habían alcanzado un acuerdo fundamental sobre otro intercambio de este tipo y que sus detalles se darían a conocer próximamente. El acuerdo se suma a otros similares logrados en los últimos meses.
 
 En las negociaciones participan el enviado especial de Estados Unidos, Steve Witkoff, y Jared Kushner, yerno del presidente Donald Trump. Son las primeras conversaciones en nueve meses, después de un periodo de estancamiento, y se centran en «parámetros para medidas humanitarias» de cara a una eventual tregua y a un posterior acuerdo de paz entre Kiev y Moscú.

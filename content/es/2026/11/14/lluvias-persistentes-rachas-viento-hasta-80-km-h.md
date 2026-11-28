@@ -24,8 +24,6 @@ fuentes:
   url: https://www.europapress.es/sociedad/noticia-frente-atlantico-dejara-lluvias-persistentes-galicia-domingo-rachas-muy-fuertes-viento-20261114162943.html
 ---
 
-Galicia recibirá este domingo el paso de un frente atlántico que dejará lluvias persistentes en la mitad oeste de la comunidad, con posibilidad de tormenta y de que las precipitaciones sean fuertes. Así lo indica la predicción de la Agencia Estatal de Meteorología (Aemet), recogida por Europa Press, que también prevé rachas muy fuertes de viento del oeste y suroeste, de hasta 80 kilómetros por hora.
-
 Galicia es la única comunidad con avisos activos en la predicción. El aviso amarillo por lluvias, viento y oleaje seguirá vigente hasta las 17.00 horas.
 
 Las lluvias asociadas al frente afectarán a la mitad noroeste de la península, aunque también podrían darse en puntos de las Béticas. Los mayores acumulados se esperan en la mitad oeste de Galicia, en los entornos montañosos del tercio norte y en el oeste del Sistema Central. En las montañas por encima de los 2.000 metros nevará.

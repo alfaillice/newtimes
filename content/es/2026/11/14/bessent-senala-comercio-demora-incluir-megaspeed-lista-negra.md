@@ -35,8 +35,6 @@ Megaspeed, con sede en Singapur, ha comprado miles de millones de dólares en ch
 
 Las versiones de Bessent coinciden en lo esencial, aunque cada medio recoge un matiz distinto. El secretario del Tesoro reprochó a Comercio no supervisar bien la exportación de chips de alta gama. Se recoge que Bessent señaló que Estados Unidos no había impuesto restricciones a la exportación de ciertos chips a China. Bessent expresó además su frustración por los retrasos y por las filtraciones de chips de IA hacia China. Cuando se le preguntó por el asunto, remitió al departamento: dijo que Comercio es quien decide y que habría que preguntarle por su proceso interno.
 
-Un portavoz de Lutnick, Kristen Eichamer, indicó a NBC News que el secretario ha aceptado comparecer de forma voluntaria ante la comisión bancaria del Senado. Se sitúa esa comparecencia en diciembre. Según una agencia de noticias, funcionarios de la Casa Blanca debaten si Lutnick debería ser destituido. Huang también ha sido citado a declarar.
-
 En el Congreso, el republicano John Cornyn pidió una investigación a fondo y responsabilidades, y el senador John Curtis cuestionó si el departamento actúa en el interés de los ciudadanos estadounidenses. Los demócratas Chuck Schumer y Hakeem Jeffries reclaman que se aclare el papel de la Administración. Los demócratas Richard Neal y Ron Wyden han iniciado investigaciones sobre la forma en que se autorizó a Nvidia a vender sus chips avanzados a empresas chinas.
 
 Se ha informado además de que Trump llamó a Huang dos días antes de su salida para pedirle que luchara por su puesto. Lutnick y Huang deberán responder ante el Congreso en las próximas semanas.

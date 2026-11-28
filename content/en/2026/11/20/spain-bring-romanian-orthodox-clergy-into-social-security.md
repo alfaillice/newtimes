@@ -32,8 +32,6 @@ imagenes:
   pie: File image of Spain's official gazette, the Boletín Oficial del Estado (BOE).
 ---
 
-Spain's government has approved a royal decree that brings clergy of the Romanian Orthodox Church into the general system of Social Security, the state scheme that covers pensions, sick pay and other benefits. According to Europa Press, the measure was published on Friday 20 November in the Boletín Oficial del Estado (BOE), Spain's official gazette, and takes effect on 1 January 2027.
-
 Royal Decree 1005/2026, dated 18 November, treats the ministers of the Church as employees for Social Security purposes and places them in the Régimen General, the general regime that covers most workers. They are excluded from unemployment protection. Sickness and accidents are treated as common and non-occupational contingencies. There is no obligation to contribute for occupational risks, unemployment, the Fondo de Garantía Salarial (the wage guarantee fund) or vocational training. The contribution base is the total pay received or due each month, within the minimum and maximum of contribution group 3.
 
 Under the decree, a minister is a person who carries out worship or religious assistance on a stable basis, not for free, and within Spanish territory. Applicants must prove this with a certificate issued by the Romanian Orthodox Bishopric of Spain and Portugal.

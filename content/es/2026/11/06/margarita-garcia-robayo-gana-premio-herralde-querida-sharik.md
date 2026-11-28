@@ -23,22 +23,10 @@ fuentes:
     url: https://www.infobae.com/america/agencias/2026/11/05/margarita-garcia-robayo-gana-el-premio-herralde-con-querida-sharik/
 ---
 
-La escritora colombiana Margarita García Robayo (Cartagena de Indias, 1980) ha ganado la 44.ª edición del Premio Herralde de Novela, que concede la editorial Anagrama, con *Querida Sharik*. El fallo se dio a conocer este jueves en Barcelona, según informaron EFE y Europa Press. El galardón está dotado con 25.000 euros.
-
-La novela ganadora se impuso entre los 2.223 manuscritos que concurrieron a esta convocatoria. García Robayo, que reside en Buenos Aires, presentó el texto bajo el seudónimo de Orika Biohó. De acuerdo con EFE, el libro llegará a las librerías el próximo 12 de noviembre.
-
 El jurado estuvo formado por el librero Fernando Pelayo, el editor Gonzalo Pontón Gijón, los escritores Marta Sanz y Juan Pablo Villalobos y la editora de Anagrama Silvia Sesé. Las informaciones de las agencias sobre el fallo no detallan si hubo novelas finalistas.
 
 ## Una carta a una antepasada
 
 *Querida Sharik* es una autoficción construida en forma de cartas que parte de un episodio vivido por la propia autora. La narradora, una mujer de la costa caribeña de Colombia que vive fuera de su país, se somete a una prueba genética de ascendencia que sitúa en Angola el origen de su linaje. De ese resultado deduce que sus antepasados solo pudieron llegar al Caribe colombiano a través de la trata de esclavos.
 
-Según el resumen de Europa Press, la protagonista había planeado unas vacaciones con sus hijas, pero un cambio de planes de su exmarido la lleva a viajar sola. Durante ese viaje empieza a escribir cartas a aquella antepasada, misivas que acaban llegando también a otros destinatarios, entre ellos miembros de su familia, de modo que va aflorando una historia familiar.
-
-EFE destaca que en el libro interviene la inteligencia artificial: la narradora recurre a ella para imaginar el aspecto de su primera antepasada en el Caribe colombiano, le pone nombre y conversa con ella. La novela aborda, además, la vergüenza heredada y el afán por blanquearse y encajar a través de las historias de las mujeres que la precedieron.
-
-La autora se mostró emocionada por el premio y explicó, según EFE, que buscaba retratar la tendencia humana a fabular con los propios recuerdos. «Tenemos la necesidad de construir ficciones para sostenernos en el presente», afirmó. Por parte del jurado, Silvia Sesé elogió la voz narradora de García Robayo y resumió así el libro: «Es una lectura que extraña y fascina».
-
 ## Trayectoria de la autora
-
-García Robayo es autora de las novelas *Hasta que pase un huracán*, *Lo que no aprendí* y *Educación sexual*, reunidas después en el volumen *El sonido de las olas*, según recoge Europa Press. También ha publicado varios libros de cuentos, entre ellos *Cosas peores*, con el que obtuvo el Premio Literario Casa de las Américas en 2014.

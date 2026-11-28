@@ -30,8 +30,6 @@ imagenes:
   pie: Imagen de archivo de Montoro (Córdoba), sede del juzgado que instruye la causa.
 ---
 
-Un exempleado de la empresa que suministra a Adif el balasto de las vías ha presentado un escrito ante la jueza que instruye la causa del accidente ferroviario de Adamuz. En él sostiene que el material instalado en el tramo es defectuoso. Según informa Europa Press, la magistrada, del Tribunal de Instancia de Montoro (Córdoba), ha incorporado el documento al procedimiento.
-
 El siniestro ocurrió el domingo 18 de enero y causó la muerte de 46 personas, además de más de 120 heridos. Ante la jueza, el extrabajador afirma que las indagaciones avanzan por distintas hipótesis sin haber identificado todavía la causa de fondo del deterioro de la infraestructura, y dice que decide hablar por la obligación técnica que siente.
 
 Se presenta como profesional con más de 30 años de experiencia en fabricación, selección y control de calidad de áridos y balasto para infraestructuras ferroviarias. Según su relato, fue despedido después de negarse a fabricar, mezclar y comercializar balasto que, a su juicio, no cumplía los pliegos técnicos. Ese despido está judicializado, y la información publicada no recoge la versión de la empresa.

@@ -29,8 +29,6 @@ imagenes:
   pie: Imagen de archivo de unas instalaciones de Aramco en Arabia Saudí.
 ---
 
-Según publica The Guardian, cinco organizaciones han presentado una queja ante Naciones Unidas para que se revise el estatus de la FIFA como firmante de una iniciativa ambiental clave. Los denunciantes sostienen que el organismo que rige el fútbol mundial tiene un historial de fracaso en materia climática.
-
 Las organizaciones firmantes son New Weather Institute, New Weather Institute Sweden, Fossil Free Football, Scientists for Global Responsibility y FairSquare. La carta va dirigida a responsables de la Convención Marco de las Naciones Unidas sobre el Cambio Climático y llega mientras se celebra en Turquía la cumbre COP31, donde deportistas han explicado a las delegaciones cómo la crisis climática afecta a su disciplina.
 
 La FIFA es firmante del marco Sports for Climate Action de la ONU, que prevé que sus integrantes reduzcan un 50 % sus emisiones de gases de efecto invernadero para 2030. El marco también contempla retirar esa condición si existen dudas sobre la sinceridad de la participación o sobre la capacidad de participar.
@@ -42,5 +40,3 @@ La FIFA lanzó en 2021 una estrategia climática que se propone reducir a la mit
 El segundo argumento se refiere al acuerdo comercial plurianual con Aramco, que figura como socio mundial de la FIFA. Los denunciantes recuerdan que Aramco es la mayor petrolera del mundo y, según la carta, su mayor contaminante corporativo histórico. Añaden que su publicidad será «inescapable» en el Mundial femenino del año que viene, y sostienen que la compañía utiliza el deporte para influir en aficiones y audiencias y frenar la acción climática.
 
 Las organizaciones afirman que apoyan plenamente los objetivos y principios del marco, pero advierten de que estos podrían verse perjudicados si una organización puede presentarse como firmante mientras actúa de forma contraria a sus compromisos.
-
-Según The Guardian, se ha pedido una respuesta a la FIFA y a la Convención Marco de la ONU sobre el Cambio Climático. Aramco ha declinado hacer comentarios. La queja pide a la ONU que estudie el caso, y el diario no recoge plazos ni posibles decisiones.

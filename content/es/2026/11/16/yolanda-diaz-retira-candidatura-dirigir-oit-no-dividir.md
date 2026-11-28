@@ -30,8 +30,6 @@ imagenes:
   pie: Imagen de archivo de la sede de la Organización Internacional del Trabajo.
 ---
 
-La vicepresidenta segunda del Gobierno y ministra de Trabajo y Economía Social, Yolanda Díaz, ha renunciado a su candidatura para dirigir la Organización Internacional del Trabajo (OIT). Lo ha anunciado hacia las 8.00 horas de este lunes en sus redes sociales, unas horas antes de la votación prevista a partir de las 10.00. Según Europa Press, su rival en esa elección, el actual director general, Gilbert F. Houngbo, será reelegido en el cargo tras la retirada de la ministra española.
-
 En una carta publicada en esas mismas redes, Díaz explica que su decisión responde al deseo de no dividir al movimiento sindical y de preservar su unidad. Según su relato, la Confederación Sindical Internacional (CSI) y la portavocía del grupo de Trabajadores de la OIT han optado por sostener la gestión actual, en contra, a su juicio, del sentir de buena parte del sindicalismo mundial, al que habría impedido votar con libertad. La información de la agencia no recoge una respuesta de la CSI ni del grupo de Trabajadores.
 
 La ministra también critica la dirección actual del organismo. Afirma que ha llevado a la OIT a «la peor crisis de su historia» y la acusa de haber ofrecido el segundo puesto de la institución a la administración de Donald Trump, extremo que recoge como una acusación suya. Añade que su candidatura buscaba recuperar el diálogo social dentro de la organización.

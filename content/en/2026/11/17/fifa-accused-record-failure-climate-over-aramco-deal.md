@@ -31,13 +31,9 @@ imagenes:
   pie: File image of a United Nations climate conference, the forum where the complaint was sent.
 ---
 
-Five organisations have asked the United Nations to review whether Fifa, football's global governing body, should keep its status as a signatory to a UN sports climate initiative, according to The Guardian. The complainants argue that Fifa has a "record of failure" on climate action.
-
 The initiative is the UN's Sports for Climate Action Framework, which encourages sporting organisations to work together towards a climate-resilient future. Signatories agree to cut their greenhouse gas emissions by 50% by 2030 and to work with partners on joint climate action. A signatory can have its status removed if its "sincerity in participation or ability to participate" is a cause for concern, the newspaper reports.
 
 In a letter to executives at the United Nations Framework Convention on Climate Change (UNFCCC), the five organisations say Fifa's actions do not match its words. The letter names the New Weather Institute, the New Weather Institute Sweden, Fossil Free Football, Scientists for Global Responsibility and FairSquare as the complainants. They submitted the complaint while the UN climate summit, Cop31, is taking place in Turkey, where athletes have described to delegates the effect of the climate crisis on their sport.
-
-The first part of the complaint concerns tournament size. According to The Guardian, the men's World Cup grew from 64 matches in 2022 to 104 matches in 16 cities across three countries last summer. The complainants call it "the most polluting World Cup ever". The 2030 tournament is due to be held in six countries across three continents, with potentially 64 teams and more matches, although by then Fifa's emissions should have been halved.
 
 The complainants acknowledge that Fifa launched a climate strategy in 2021, committing to halve emissions by 2030 and reach net zero by 2040. However, they argue that the strategy does not explain clearly how those targets will be met. In their view, the evidence shows that Fifa's emissions have risen since then, mainly because it has expanded the footprint of its major tournaments.
 

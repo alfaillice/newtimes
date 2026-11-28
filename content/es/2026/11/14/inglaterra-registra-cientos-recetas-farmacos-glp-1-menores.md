@@ -23,8 +23,6 @@ fuentes:
   url: https://www.theguardian.com/science/2026/nov/14/children-iengland-prescribed-weight-loss-jabs
 ---
 
-Según publica The Guardian, cientos de menores en Inglaterra reciben recetas de medicamentos de la familia GLP-1, como Wegovy o Mounjaro. Estos fármacos se desarrollaron para tratar la diabetes tipo 2 y se han popularizado como ayuda para adelgazar. El diario obtuvo los datos de la NHS Business Services Authority mediante solicitudes de acceso a la información pública.
-
 Según esas cifras, en el ejercicio financiero 2025-26 se emitieron 419 recetas a menores de 18 años, 10 de ellas para niños de menos de 12. Entre abril y julio de este año se registraron 341 recetas para menores, 15 de ellas para menores de 12 años.
 
 El propio diario advierte de que las cifras probablemente se quedan muy por debajo de la realidad, porque no incluyen las recetas privadas ni las dispensadas en prisiones y hospitales. Una clínica privada para niños ha señalado previamente que atiende a más de 200 pacientes con estas inyecciones. Tampoco está claro si todas las recetas responden principalmente a la pérdida de peso.
@@ -32,8 +30,6 @@ El propio diario advierte de que las cifras probablemente se quedan muy por deba
 Los datos llegan en un momento de aumento de la obesidad infantil. Según el Programa Nacional de Medición Infantil citado por el diario, el 10,7 % de los niños de reception (4 y 5 años) tienen obesidad, cifra que sube al 22,8 % en sexto curso (10 y 11 años). La OMS calcula que 400 millones de niños y adolescentes de entre 5 y 19 años tenían sobrepeso en 2024, de ellos 170 millones con obesidad.
 
 Desde 2021, el NHS impulsa las clínicas de Complicaciones por Exceso de Peso (CEW), dirigidas a menores de entre 2 y 16 años con obesidad grave. En mayo, NHS England informó de que casi 6.500 niños habían sido derivados a estas clínicas, más de 400 de ellos menores de cuatro años. Solo algunas pueden financiar los GLP-1, que normalmente se dispensan en farmacias hospitalarias.
-
-La OMS publicó el mes pasado nuevas directrices que desaconsejan dar estos fármacos a menores de 10 años, según recoge el diario. Sin embargo, The Guardian cita también un ensayo con 165 niños de entre 6 y menos de 12 años, promovido por la farmacéutica Novo Nordisk, que sugiere que pueden ayudar a los más pequeños con obesidad.
 
 Julian Hamilton-Shield, catedrático de diabetes y endocrinología metabólica y clínico de una de estas unidades en Bristol, explicó al diario que los niños que reciben semaglutida suelen haber fracasado antes con la dieta, el asesoramiento nutricional y el apoyo psicológico, y que casi siempre tienen otras complicaciones, como diabetes tipo 2 o apnea obstructiva del sueño.
 
