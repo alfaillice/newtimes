@@ -93,17 +93,19 @@
 
 <div class="envoltura">{{ anuncio(cfg, 'portada') }}</div>
 
-{% for s, lista in bloques %}
-<section class="bloque envoltura" aria-labelledby="bloque-{{ s.slug }}" style="--c: {{ s.color }}">
-  <div class="bloque__cabecera">
-    <h2 id="bloque-{{ s.slug }}" class="bloque__titulo"><a href="{{ pre }}/section/{{ s.slug }}/">{{ s.nombre }}</a></h2>
-    <a class="bloque__mas" href="{{ pre }}/section/{{ s.slug }}/">See the whole section</a>
-  </div>
-  <div class="bloque__rejilla">
+{% for s, lista, banner in bloques %}
+<section class="bloque bloque--tienda envoltura" aria-labelledby="bloque-{{ s.slug }}">
+  <a class="bloque__banner"{% if banner %} style="background-image: url('/img/banners/{{ banner }}.jpg')"{% endif %} href="{{ pre }}/section/{{ s.slug }}/">
+    <span class="bloque__velo" aria-hidden="true"></span>
+    <h2 id="bloque-{{ s.slug }}" class="bloque__titulo bloque__banner-titulo">{{ s.nombre }}</h2>
+  </a>
+  {% if banner and creditos.get(banner) %}{% set c = creditos[banner] %}<p class="bloque__credito">Foto: {{ c.autor }} ({{ c.licencia }}), <a href="{{ c.url }}" rel="noopener">Wikimedia Commons</a></p>{% endif %}
+  <div class="rejilla-tienda">
     {% for a in lista %}
-    {{ tarjeta(a, pre, con_cubierta=true, con_entradilla=loop.first, seccion=false, grande=loop.first) }}
+    {{ tarjeta(a, pre, con_cubierta=true, con_entradilla=false, seccion=false, grande=false) }}
     {% endfor %}
   </div>
+  <p class="bloque__pie"><a class="bloque__mas" href="{{ pre }}/section/{{ s.slug }}/">See the whole section</a></p>
 </section>
 {% if loop.index % 3 == 0 and not loop.last %}<div class="envoltura">{{ anuncio(cfg, 'portada') }}</div>{% endif %}
 {% endfor %}

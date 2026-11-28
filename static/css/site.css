@@ -558,3 +558,16 @@ html { scroll-padding-top: 4rem; }
 .insignia--fotos { left: .6rem; top: .6rem; }
 .tarjeta:hover .tarjeta__cubierta .cubierta { transform: scale(1.04); }
 @media (max-width: 700px) { .tarjeta--grande .cubierta { aspect-ratio: 16 / 9; } }
+
+/* Portada de escritorio por secciones: banner fotográfico y rejilla de noticias con imagen (28/11) */
+.bloque--tienda { border-top: 0; padding-top: 0; margin-top: 2.25rem; }
+.bloque__banner { position: relative; display: flex; align-items: flex-end; min-height: 8.5rem; border-radius: 6px; overflow: hidden; background: #2a2a2a center / cover no-repeat; text-decoration: none; }
+.bloque__velo { position: absolute; inset: 0; background: linear-gradient(90deg, rgb(0 0 0 / .72) 0%, rgb(0 0 0 / .25) 70%, rgb(0 0 0 / .1) 100%); }
+.bloque__banner-titulo { position: relative; margin: 0; padding: 1rem 1.25rem; color: #fff; }
+.bloque__credito { margin: .3rem 0 0; font-size: .7rem; text-align: right; }
+.bloque__pie { margin: .9rem 0 0; text-align: right; }
+.rejilla-tienda { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem .9rem; margin-top: 1rem; }
+@media (min-width: 760px) { .rejilla-tienda { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { .rejilla-tienda { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+.rejilla-tienda .tarjeta .cubierta { aspect-ratio: 4 / 3; }
+.rejilla-tienda .tarjeta .cubierta img { width: 100%; height: 100%; object-fit: cover; }

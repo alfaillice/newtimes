@@ -45,6 +45,12 @@ MONTHS = ["January", "February", "March", "April", "May", "June", "July",
 DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 # Rutas de cada edición (las de la española son las de siempre; cada edición puede
 # traducirlas en config/site.yaml > ediciones > <código> > rutas)
+# Banner fotográfico de cada sección de la portada (static/img/banners/<nombre>.jpg, con créditos en creditos.json).
+BANNER_ES = {"espana": "espana", "internacional": "internacional", "economia": "economia", "sociedad": "sociedad",
+             "ciencia-salud": "ciencia-salud", "tecnologia": "tecnologia", "cultura": "cultura", "deportes": "deportes"}
+BANNER_EN = {"spain": "espana", "world": "internacional", "business": "economia", "society": "sociedad",
+             "science-health": "ciencia-salud", "technology": "tecnologia", "culture": "cultura"}
+PORTADA_POR_SECCION = 18  # rejilla de la portada: 6 columnas x 3 filas en escritorio
 RUTAS_POR_DEFECTO = {"seccion": "seccion", "tema": "tema", "hemeroteca": "hemeroteca", "buscar": "buscar",
                      "directo": "directo", "equipo": "equipo"}
 CAMPOS_OBLIGATORIOS = ["titulo", "entradilla", "seccion", "fecha", "fuentes"]
@@ -854,12 +860,16 @@ class Constructor:
         for a in sorted(ventana, key=lambda x: x.fecha):
             horas.setdefault((a.fecha.date(), a.fecha.hour), []).append(a)
         bloques = []
+        mapa_banner = BANNER_EN if codigo == "en" else BANNER_ES
         for s in ed["secciones"]:
-            lista = [a for a in por_seccion[s["slug"]] if a not in destacados][:4]
+            lista = [a for a in por_seccion[s["slug"]] if a not in destacados][:PORTADA_POR_SECCION]
             if lista:
-                bloques.append((s, lista))
+                bloques.append((s, lista, mapa_banner.get(s["slug"])))
+        ruta_creditos = RAIZ / "static/img/banners/creditos.json"
+        creditos_banner = json.loads(ruta_creditos.read_text(encoding="utf-8")) if ruta_creditos.exists() else {}
         self.escribir(f"{pre}/", self.render(f"{t}/portada.html", **base_ctx, destacados=destacados,
                                                ultima=resto[:10], horas=horas, bloques=bloques,
+                                               creditos=creditos_banner,
                                                ultimo=ultimo, total_hoy=len(de_hoy)), prioridad="1.0", lastmod=ultimo)
 
         # Temas (etiquetas): páginas que agrupan la cobertura de un asunto.
