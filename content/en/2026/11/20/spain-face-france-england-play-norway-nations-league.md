@@ -30,4 +30,12 @@ imagenes:
   pie: File image of Ullevaal Stadium in Oslo, Norway's national stadium.
 ---
 
+Spain will face France and England will play Norway in the quarterfinals of the UEFA Nations League, after the draw held on Friday, according to Al Jazeera. The other two ties pair Portugal, the reigning champions, with the Netherlands, and Belgium with Germany.
+
+Al Jazeera reports that Spain, who won the World Cup in the United States in July, finished second in Group A3, while France topped Group A1. The outlet recalls that Spain beat France 2-0 in the World Cup semifinals on their way to the title, and also beat them 5-4 in the Nations League semifinals last year. Spain won the Nations League in 2023, while France beat them in the 2021 final, the report says.
+
+England topped Group A3 on goal difference after beating Spain away in their final group match, Al Jazeera says. Their reward is a two-legged tie with Norway, with the first leg played on Norwegian soil. The outlet adds that England edged Norway in the World Cup quarterfinals this year before losing to Argentina in the semifinals.
+
 According to the report, the quarterfinals will be played over two legs in late March, with Spain hosting the first match because they came second in their group. The winners will advance to the finals stage in June, at a venue yet to be decided.
+
+The semifinals are single-match ties. Al Jazeera explains that the winner of the Spain and France tie would meet either the Netherlands or Portugal, while England would face Belgium or Germany if they get past Norway.

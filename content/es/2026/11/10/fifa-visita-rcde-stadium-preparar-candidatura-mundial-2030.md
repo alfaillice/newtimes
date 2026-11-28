@@ -23,6 +23,8 @@ fuentes:
 lugar: Cornellà de Llobregat
 ---
 
+Una delegación de la FIFA visitó este martes el RCDE Stadium para participar en una jornada de trabajo con el RCD Espanyol, las federaciones española y catalana de fútbol y las administraciones implicadas en la candidatura conjunta para el Mundial 2030. Según informa Europa Press, la sesión técnica comenzó con la bienvenida de Alan Pace, representante del club blanquiazul.
+
 Durante la jornada, los equipos de trabajo presentaron las instalaciones del recinto y abordaron los mecanismos de coordinación con los ayuntamientos de Cornellà de Llobregat y El Prat de Llobregat, ambos en la provincia de Barcelona.
 
 Los técnicos de la FIFA y de la candidatura recorrieron el estadio y sus inmediaciones para evaluar el terreno de juego, los accesos y las dependencias destinadas a los servicios médicos, los medios de comunicación y las zonas VIP.

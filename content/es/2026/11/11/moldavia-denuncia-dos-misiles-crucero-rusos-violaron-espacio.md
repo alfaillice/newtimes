@@ -24,6 +24,8 @@ fuentes:
 
 El Ministerio de Defensa de Moldavia ha denunciado este miércoles que dos misiles de crucero lanzados por Rusia cruzaron su espacio aéreo y entraron en territorio moldavo, en el contexto de los ataques masivos rusos contra Ucrania.
 
+Según la versión del departamento, recogida por Europa Press, el sistema nacional integrado de vigilancia informó de la presencia de dos misiles de crucero del tipo Banderol (S8000). El primero cruzó la frontera estatal a las 06.04 horas, procedente de la región de Odesa, en Ucrania, y abandonó el espacio aéreo nacional a las 06.09 horas, con dirección a otro punto de la misma región. El segundo entró minutos después, a las 06.06 horas, desde la localidad de Limanske con rumbo a Razdelnaia, también en la región de Odesa.
+
 El ministerio indicó que su Centro de Operaciones Aéreas mantiene la vigilancia del espacio aéreo, en coordinación con las autoridades competentes y con sus socios correspondientes.
 
 La fuente consultada no recoge una respuesta de las autoridades rusas a la denuncia.
