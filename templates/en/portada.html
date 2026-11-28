@@ -101,7 +101,7 @@
   </div>
   <div class="bloque__rejilla">
     {% for a in lista %}
-    {{ tarjeta(a, pre, con_cubierta=true, con_entradilla=loop.first, seccion=false) }}
+    {{ tarjeta(a, pre, con_cubierta=true, con_entradilla=loop.first, seccion=false, grande=loop.first) }}
     {% endfor %}
   </div>
 </section>
