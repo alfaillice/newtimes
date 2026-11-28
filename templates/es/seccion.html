@@ -1,4 +1,5 @@
 {% extends "es/base.html" %}
+{% block robots %}noindex, follow{% endblock %}
 {% from "es/_macros.html" import tarjeta, anuncio %}
 {% set seccion_actual = s.slug %}
 {% block titulo %}{{ s.titulo_seo|default(s.nombre) }}{% if pagina > 1 %}, página {{ pagina }}{% endif %} | NewTimes.news{% endblock %}

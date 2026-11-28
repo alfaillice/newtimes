@@ -895,9 +895,11 @@ class Constructor:
             total = max(1, math.ceil(len(lista) / n))
             for p in range(1, total + 1):
                 ruta = f"{pre}/{r['seccion']}/{s['slug']}/" + (f"{p}/" if p > 1 else "")
+                # Páginas de sección: listas de titulares sin texto propio. Fuera del buscador y del sitemap.
                 self.escribir(ruta, self.render(f"{t}/seccion.html", **base_ctx, s=s, lista=lista[(p - 1) * n:p * n],
                                                 pagina=p, total_paginas=total,
-                                                alternos=self.alternos("seccion", i_sec) if p == 1 else []), prioridad="0.7" if p == 1 else "0.3",
+                                                alternos=self.alternos("seccion", i_sec) if p == 1 else []), sitemap=False,
+                              prioridad="0.7" if p == 1 else "0.3",
                               lastmod=lista[(p - 1) * n].fecha if lista else None)
             self.escribir(f"{pre}/{r['seccion']}/{s['slug']}/rss.xml", self.rss(ed, pre, lista[:30], s), sitemap=False)
 
