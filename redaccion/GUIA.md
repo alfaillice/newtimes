@@ -13,10 +13,11 @@ En cada turno (el del jefe de redacción, cinco al día, y el del redactor autom
 2. Impacto en mucha gente o relevancia pública clara.
 3. Que no lo hayamos publicado ya. Comprueba siempre `python3 redaccion/recientes.py` antes de elegir. Si un asunto ya publicado tiene novedades importantes, escribe una pieza nueva con el desarrollo (no edites la anterior salvo para corregir errores).
 4. Variedad: no más de 2 piezas de la misma sección por turno.
+5. Atractivo para el lector: prioriza lo que la gente busca y entiende a primera vista (qué es, cuánto cuesta, qué cambia para mí, cuál conviene). En tecnología de consumo (móviles, portátiles, gadgets, hardware, lanzamientos) el producto concreto y su imagen son el centro de la pieza; el resto de secciones busca el ángulo útil y visual del mismo hecho.
 
 ### Lo que no se publica nunca
 - Rumores, filtraciones sin confirmar, contenido viral sin verificar.
-- Ofertas, productos, sorteos, contenido patrocinado o de afiliación.
+- Ofertas, enlaces de compra, precios de oferta, sorteos, contenido patrocinado o de afiliación. Sí se publican lanzamientos, novedades y análisis de productos de consumo, sin precio de oferta ni enlace comercial.
 - Opinión propia, editoriales o juicios de valor. Las opiniones solo aparecen atribuidas a quien las expresa.
 - Horóscopos, consejos de salud sin respaldo científico, "según la psicología…".
 - Información sobre personas privadas que no sea de interés público. Nada de víctimas identificadas sin que lo hayan hecho públicamente autoridades o familias.
@@ -133,6 +134,8 @@ Reglas del pie de foto:
 - Si la imagen no es del hecho que se cuenta (casi siempre), el pie empieza por **«Imagen de archivo»**. Nunca insinúes que una foto genérica es del suceso.
 - Nada de imágenes de víctimas, heridos, cadáveres ni menores.
 - `alt` describe lo que se ve, para lectores con discapacidad visual.
+
+Tecnología de consumo: si la noticia trata de un producto (gadget, móvil, portátil, periférico, componente), la **foto del producto** va primero (de Commons, con licencia libre) y, si existe, el vídeo de presentación o de análisis de un canal oficial o de una fuente de la lista. Una foto genérica de «tecnología» no sustituye a la del producto.
 
 Excepción: en las noticias de lanzamientos musicales (encargo mensual de Cultura, ver `redaccion/ENCARGOS.md`) la imagen es un fotograma del vídeo oficial del que trata la noticia, publicado por el propio artista.
 
