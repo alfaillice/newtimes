@@ -28,5 +28,3 @@ El seleccionador de Francia, Zinedine Zidane, confirmó que Kylian Mbappé no ju
 Zidane aseguró: «Se perderá el partido contra Italia». El técnico no quiere correr riesgos con su estrella, aunque el resultado puede decidir el primer puesto del Grupo A.
 
 Sobre la dolencia, el seleccionador la describió así: «Es una leve molestia (isquiotibial), un problema menor, debería estar bien para el domingo». Con esa previsión, confía en contar con Mbappé para el partido del domingo contra Turquía, en Burdeos.
-
-El caso se produce en un parón internacional en el que el entrenador del Real Madrid, José Mourinho, confió en que las selecciones cuiden a sus futbolistas, después de que su equipo jugara el sábado contra el Valencia. Según recoge Europa Press, Mourinho considera que muchos jugadores llegan a estas convocatorias con un desgaste importante.

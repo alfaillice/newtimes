@@ -30,14 +30,6 @@ imagenes:
   pie: Imagen de archivo de un disfraz de soldado de asalto de la saga Star Wars.
 ---
 
-El actor galés Osian Morgan, nacido en Cardiff, pondrá voz a Luke Skywalker en la versión en galés de *Star Wars* y se mostró entusiasmado con el proyecto, según publica BBC. Morgan describió el encargo como un trabajo de ensueño y aseguró que le encantaron las películas de la saga cuando era niño.
-
-La cinta, titulada *Star Wars: Gobaith Newydd*, adapta el primer largometraje de 1977, *Star Wars Episodio IV: Una nueva esperanza*. Según BBC, su primera proyección tuvo lugar este jueves en un acto en alfombra roja celebrado en Cardiff. La versión doblada se emitirá por primera vez en abierto por la cadena galesa S4C el día de Navidad.
-
 El doblaje cuenta con varios actores conocidos en Gales. Matthew Rhys pone voz a Han Solo, Rhys Ifans a Obi-Wan Kenobi y Aimee-Ffion Edwards a la princesa Leia. Llyr Ifans interpreta a C-3PO y Mark Lewis Jones a Darth Vader. La dirección corre a cargo de Ellyn Stern. Según la misma fuente, Llyr Ifans confió en que la película tenga buena acogida y en que lleguen más versiones en galés.
-
-Morgan, que ha trabajado en la serie en galés *Pobol y Cwm* y en el drama de la BBC *Waterloo Road*, explicó que su familia asistió al pase y que su hermano menor nunca había visto ninguna de las películas. Según BBC, el actor dijo que le hacía especial ilusión que pudiera verlas por primera vez en galés.
-
-La versión se anunció en agosto en el Eisteddfod Nacional de Pembrokeshire. Lynwen Brennan, copresidenta de Lucasfilm, explicó que la franquicia quiere ampliar sus horizontes y destacó la emoción del público al ver momentos icónicos de la saga contados en galés. Por su parte, el director ejecutivo de S4C, Geraint Evans, señaló que trabajar con una de las franquicias más influyentes del cine supone un enorme honor y una oportunidad para dar a conocer el idioma galés en nuevos públicos.
 
 La saga, creada por George Lucas, se ha traducido a más de 50 idiomas, y el galés es el más reciente.
