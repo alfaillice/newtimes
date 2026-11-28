@@ -87,7 +87,11 @@
     <h2 id="ultima-titulo" class="titulo-bloque">Lo último</h2>
     {% if total_hoy %}<p class="bloque__mas">Actualizado a las <time datetime="{{ ultimo.isoformat() }}">{{ ultimo.strftime('%H:%M') }}</time>, {{ total_hoy }} {{ 'noticia' if total_hoy == 1 else 'noticias' }} hoy</p>{% endif %}
   </div>
-  {{ lista_simple(ultima, pre) }}
+  <div class="rejilla-tienda">
+    {% for a in ultima %}
+    {{ tarjeta(a, pre, con_cubierta=true, con_entradilla=true, seccion=true, grande=false) }}
+    {% endfor %}
+  </div>
 </section>
 {% endif %}
 

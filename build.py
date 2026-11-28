@@ -50,7 +50,7 @@ BANNER_ES = {"espana": "espana", "internacional": "internacional", "economia": "
              "ciencia-salud": "ciencia-salud", "tecnologia": "tecnologia", "cultura": "cultura", "deportes": "deportes"}
 BANNER_EN = {"spain": "espana", "world": "internacional", "business": "economia", "society": "sociedad",
              "science-health": "ciencia-salud", "technology": "tecnologia", "culture": "cultura"}
-PORTADA_POR_SECCION = 18  # rejilla de la portada: 6 columnas x 3 filas en escritorio
+PORTADA_POR_SECCION = 12  # rejilla de cada sección en la portada: 3 columnas en escritorio, 1 en móvil
 RUTAS_POR_DEFECTO = {"seccion": "seccion", "tema": "tema", "hemeroteca": "hemeroteca", "buscar": "buscar",
                      "directo": "directo", "equipo": "equipo"}
 CAMPOS_OBLIGATORIOS = ["titulo", "entradilla", "seccion", "fecha", "fuentes"]
@@ -868,7 +868,7 @@ class Constructor:
         ruta_creditos = RAIZ / "static/img/banners/creditos.json"
         creditos_banner = json.loads(ruta_creditos.read_text(encoding="utf-8")) if ruta_creditos.exists() else {}
         self.escribir(f"{pre}/", self.render(f"{t}/portada.html", **base_ctx, destacados=destacados,
-                                               ultima=resto[:10], horas=horas, bloques=bloques,
+                                               ultima=resto[:12], horas=horas, bloques=bloques,
                                                creditos=creditos_banner,
                                                ultimo=ultimo, total_hoy=len(de_hoy)), prioridad="1.0", lastmod=ultimo)
 
