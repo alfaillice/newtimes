@@ -17,7 +17,7 @@ The site is funded by **Google AdSense** advertising (Google Ireland Ltd.). Goog
 - show adverts, measure how often they are seen and prevent fraud;
 - if you consent, show personalised adverts based on your interests.
 
-On your first visit you will see a consent window managed by Google, where you can accept, reject or choose by purpose. If you reject, non-personalised adverts may still be shown; these only use what is strictly necessary to work and to measure fraud.
+In the European Economic Area, Google may show a consent window on your first visit, where you can accept, reject or choose by purpose. If you reject, non-personalised adverts may still be shown; these only use what is strictly necessary to work and to measure fraud.
 
 You can change your choice at any time with the **"Cookie settings"** link at the foot of every page.
 

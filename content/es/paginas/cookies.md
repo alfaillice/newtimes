@@ -17,7 +17,7 @@ La web se financia con anuncios de **Google AdSense** (Google Ireland Ltd.). Goo
 - mostrar anuncios, medir cuántas veces se ven y evitar el fraude;
 - si das tu consentimiento, mostrar anuncios personalizados según tus intereses.
 
-Al entrar por primera vez verás una ventana de consentimiento gestionada por Google, en la que puedes aceptar, rechazar o elegir por finalidades. Si rechazas, se pueden seguir mostrando anuncios no personalizados, que usan solo lo imprescindible para funcionar y medir el fraude.
+En el Espacio Económico Europeo, Google puede mostrar una ventana de consentimiento en tu primera visita, en la que aceptar, rechazar o elegir por finalidades. Si rechazas, se pueden seguir mostrando anuncios no personalizados, que usan solo lo imprescindible para funcionar y medir el fraude.
 
 Puedes cambiar tu elección cuando quieras con el enlace **«Configurar cookies»** al pie de cada página.
 
