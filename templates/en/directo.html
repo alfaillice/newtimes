@@ -2,6 +2,7 @@
 {% from "en/_macros.html" import icono_directo, hora, anuncio %}
 {% block titulo %}Live | NewTimes.news{% endblock %}
 {% block descripcion %}Follow the news live: live television and the latest NewTimes.news stories, minute by minute.{% endblock %}
+{% block robots %}noindex, follow{% endblock %}
 {% block canonica %}{{ pre }}/live/{% endblock %}
 {% block clase_body %}pagina-directo{% endblock %}
 {% block contenido %}
@@ -60,8 +61,7 @@
         </div>
       </article>
     </li>
-    {% if loop.index == 4 and not loop.last %}<li class="cronologia__anuncio">{{ anuncio(cfg, 'directo') }}</li>{% endif %}
-    {% else %}
+        {% else %}
     <li>No stories yet today.</li>
     {% endfor %}
   </ol>
