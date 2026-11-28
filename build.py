@@ -146,6 +146,16 @@ def leer_markdown(ruta: Path) -> tuple[dict, str]:
     return meta, cuerpo
 
 
+PATRON_QUIENES = re.compile(r"qui[eé]nes somos", re.I)
+
+
+def enlazar_quienes_somos(htmltxt: str, href: str) -> str:
+    """Enlaza «quiénes somos» dentro del texto (nunca dentro de un enlace ya existente)."""
+    partes = re.split(r"(<a\b[^>]*>.*?</a>|<[^>]+>)", htmltxt, flags=re.S)
+    return "".join(p if p.startswith("<") else PATRON_QUIENES.sub(
+        lambda m: f'<a href="{href}">{m.group(0)}</a>', p) for p in partes)
+
+
 def md_a_html(texto: str) -> str:
     # El texto lo escriben agentes: no se permite HTML incrustado.
     seguro = texto.replace("<", "&lt;")
@@ -392,9 +402,12 @@ def cargar_articulos(cfg: dict, codigo: str, tz: ZoneInfo, avisos: list, errores
                 if esperado and agente["slug"] != esperado["slug"]:
                     raise ValueError(f"la sección {meta['seccion']} la firma {esperado['slug']}, no {agente['slug']}")
             cuerpo_html = md_a_html(cuerpo)
+            cuerpo_html = enlazar_quienes_somos(cuerpo_html, "/sobre-nosotros/" if codigo == "es" else "/en/about/")
             palabras = len(texto_plano(cuerpo_html).split())
             if palabras < 120:
-                raise ValueError(f"cuerpo demasiado corto ({palabras} palabras; mínimo 120)")
+                # Noticias cuyo cuerpo quedó corto (p. ej. tras quitar párrafos con nombres de medios):
+                # se mantienen para no romper sus URLs, pero no se indexan ni llevan anuncios.
+                avisos.append(f"{rel}: cuerpo corto ({palabras} palabras); se publica sin indexar")
             if len(str(meta["titulo"])) > 140:
                 raise ValueError(f"titular demasiado largo ({len(str(meta['titulo']))} caracteres; máximo 140)")
             if len(str(meta["entradilla"])) > 320:

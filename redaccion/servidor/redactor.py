@@ -75,6 +75,22 @@ MEDIOS_NOMBRADOS = re.compile(
     r"El Periódico|La Razón|Expansión|Cinco Días|El Economista|Cadena SER|COPE|RTVE|EFE|Noticias ONU)(?![\w])"
 )
 
+# Medios añadidos después (fuentes de tecnología y otros). Mismo criterio: no se nombran en el cuerpo.
+MEDIOS_EXTRA = re.compile(
+    r"(?<![\w-])(Xataka|HardZone|TechCrunch|The Verge|Tom's Hardware|Wired|Engadget|Gizmodo|Ars Technica|"
+    r"Genbeta|Hipertextual|Infobae|Antena 3|laSexta|Telecinco|El Español|Libertad Digital|Forbes|"
+    r"Newsweek|The Independent|Yahoo|MSN)(?![\w])"
+)
+
+
+def quitar_parrafos_medios(texto: str) -> str:
+    """Elimina del cuerpo los párrafos que nombran un medio (solo ese párrafo; el resto se conserva).
+    Los medios solo van en `fuentes`, que se muestran al final de la noticia."""
+    bloques = re.split(r"\n\s*\n", texto)
+    limpios = [b for b in bloques if not (MEDIOS_NOMBRADOS.search(b) or MEDIOS_EXTRA.search(b))]
+    return "\n\n".join(limpios).strip()
+
+
 MAX_CANDIDATAS = 4   # piezas de otros medios que se prueban para completar un tema
 VENTANA_FUENTES_H = 24   # horas de titulares en los que buscar la segunda fuente de un hecho
 MOTIVO = ""   # por qué se descartó la última noticia
@@ -728,7 +744,7 @@ def _escribir(tema, agente, fuentes, sistema, usuario, ahora, extra=None):
         descartar(f"el agente descarta el tema: {d['descartar']}")
         return None
     usadas = fuentes
-    cuerpo = (d.get("cuerpo") or "").strip()
+    cuerpo = quitar_parrafos_medios((d.get("cuerpo") or "").strip())
     d["cuerpo"] = cuerpo
     if len(cuerpo.split()) < 150 or not d.get("titulo"):
         descartar("texto demasiado corto o sin titular")
@@ -739,7 +755,8 @@ def _escribir(tema, agente, fuentes, sistema, usuario, ahora, extra=None):
         if sueltas:
             descartar(f"cifras que no están en las fuentes: {', '.join(sueltas)}")
             return None
-    nombrados = sorted(set(m.group(1) for m in MEDIOS_NOMBRADOS.finditer(articulo)))
+    cabecera_txt = f"{d['titulo']}\n{d.get('entradilla', '')}"
+    nombrados = sorted(set(m.group(1) for m in list(MEDIOS_NOMBRADOS.finditer(cabecera_txt)) + list(MEDIOS_EXTRA.finditer(cabecera_txt))))
     if nombrados:
         descartar(f"nombra medios en el texto (solo van en fuentes): {', '.join(nombrados)}")
         return None

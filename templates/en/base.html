@@ -117,6 +117,10 @@
   </div>
   <p class="envoltura pie__copy">© {{ ahora.year }} NewTimes.news. {% if cfg.publicidad and cfg.publicidad.activa %}Advertising is served by Google AdSense according to your cookie preferences.{% else %}This website uses no first-party cookies or trackers.{% endif %}</p>
 </footer>
+{% if cfg.publicidad and cfg.publicidad.activa %}<div class="aviso-cookies" data-aviso-cookies hidden>
+  <p>We use Google AdSense cookies to show advertising. <a href="{{ pre }}/cookies/">More information</a></p>
+  <button type="button" class="aviso-cookies__boton" data-aceptar-cookies>Got it</button>
+</div>{% endif %}
 <script src="/js/site.js?v={{ v }}" defer></script>
 {% block scripts %}{% endblock %}
 </body>

@@ -219,6 +219,17 @@
     });
   });
 
+  /* Aviso de cookies: se muestra hasta que se acepta (se recuerda en este navegador) */
+  var aviso = document.querySelector("[data-aviso-cookies]");
+  if (aviso) {
+    try { if (!localStorage.getItem("nt_cookies")) aviso.hidden = false; } catch (e) { aviso.hidden = false; }
+    var aceptar = aviso.querySelector("[data-aceptar-cookies]");
+    if (aceptar) aceptar.addEventListener("click", function () {
+      try { localStorage.setItem("nt_cookies", "1"); } catch (e) { /* sin almacenamiento */ }
+      aviso.hidden = true;
+    });
+  }
+
   /* Copiar enlace */
   document.querySelectorAll("[data-copiar]").forEach(function (b) {
     b.addEventListener("click", function () {
