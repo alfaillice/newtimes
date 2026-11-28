@@ -5,6 +5,7 @@ seccion: deportes
 agente: pedro-gonzalez
 fecha: '2026-11-28T07:20:00+01:00'
 destacado: false
+actualizado: '2026-11-28T09:55:00+01:00'
 etiquetas:
 - Nottingham Forest
 - Chelsea
@@ -37,10 +38,12 @@ El Nottingham Forest derrotó este viernes por 3-2 al Chelsea en el City Ground,
 
 El partido empezó con un ataque rápido de los locales. Daniel Muñoz, por la derecha, tuvo espacio para centrar y Igor Jesus remató de volea a la escuadra sin que los defensores visitantes lo molestaran. Después, el Chelsea fue ganando terreno, aunque sin generar ocasiones claras hasta el final de la primera mitad.
 
-El momento decisivo llegó poco después de iniciarse el encuentro. Wesley Fofana calculó mal un pase en profundidad de James McAtee y dejó escapar a Liam Delap, al que derribó dentro del área. Gibbs-White transformó el penalti. La pena máxima llegó tras una semana complicada para el defensor francés, que había protagonizado polémica por su fallo en la tanda de penaltis de la Copa de la Liga ante el Liverpool y por unas declaraciones en una entrevista en Francia.
+El momento decisivo llegó al comienzo de la segunda parte, en el minuto 51. Wesley Fofana calculó mal un pase en profundidad de James McAtee y dejó escapar a Liam Delap, al que derribó dentro del área. Gibbs-White transformó el penalti. La pena máxima llegó tras una semana complicada para el defensor francés, que había protagonizado polémica por su fallo en la tanda de penaltis de la Copa de la Liga ante el Liverpool y por unas declaraciones en una entrevista en Francia.
 
-El Chelsea reaccionó antes del descanso. Un disparo de Pedro Neto, desviado por Jair Cunha, dejó a Emegha la oportunidad de marcar desde cerca. Tras el descanso, Gibbs-White aprovechó un pase de Xaver Schlager para aumentar la ventaja, y Emegha volvió a marcar de cabeza en el segundo palo, con lo que el marcador quedó en 3-2 sin que los visitantes lograran el empate.
+El Chelsea reaccionó tres minutos después, en el 54. Un disparo de Pedro Neto, desviado por Jair Cunha, dejó a Emegha la oportunidad de marcar desde cerca. En el minuto 73, Gibbs-White aprovechó un pase de Xaver Schlager para aumentar la ventaja, y Emegha volvió a marcar de cabeza en el segundo palo en el 89, con lo que el marcador quedó en 3-2 sin que los visitantes lograran el empate.
 
 Fofana fue sustituido en el minuto 56, ya amonestado, entre los silbidos de parte de la afición visitante. Xabi Alonso defendió después su decisión de alinearlo como titular y pidió apoyo para todo el grupo. El técnico del Chelsea reconoce que el equipo atraviesa un mal momento: es su cuarta derrota en cinco partidos.
 
 La victoria aleja al Nottingham Forest de la zona de descenso, con tres puntos de ventaja sobre ella. Glasner restó importancia a las dudas del final, que consideró innecesarias, aunque señaló que el equipo debe aprender de ellas.
+
+*Corrección: en una versión anterior se decía que el penalti llegó poco después del inicio del partido y que el primer gol de Emegha llegó antes del descanso; lo correcto es que el penalti fue en el minuto 51 y Emegha marcó en el 54 y el 89, ambos en la segunda parte.*
